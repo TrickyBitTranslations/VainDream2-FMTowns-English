@@ -108,7 +108,9 @@ function renderSearch(q, onlyUn) {
   for (const [block, lines] of Object.entries(SCRIPT[curFile])) {
     for (const l of lines) {
       if (onlyUn && l.en) continue;
-      if (q && !(l.jp.toLowerCase().includes(q) || l.en.toLowerCase().includes(q)
+      if (q && !(l.jp.toLowerCase().includes(q)
+                 || enPlain(l.en).toLowerCase().includes(q)
+                 || speakerName(l.sp).toLowerCase().includes(q)
                  || l.sp.toLowerCase().includes(q))) continue;
       rows.push({ block, l });
     }
@@ -135,9 +137,9 @@ function linesTable(file, block, lines) {
     const sug = SUGG[file + ":" + block + " " + l.id] || [];
     const open = sug.filter(s => s.state === "open");
     tr.className = l.en ? "done" : "todo";
-    tr.appendChild(td("sp", l.sp));
+    tr.appendChild(td("sp", speakerName(l.sp)));
     tr.appendChild(td("jp", l.jp.replaceAll("\\n", "\n")));
-    tr.appendChild(td("en", l.en ? l.en.replaceAll("\\n", "\n") : "—"));
+    tr.appendChild(tdEnglish(l.en));
     const act = document.createElement("td");
     act.className = "act";
     if (open.length) {
@@ -171,6 +173,42 @@ function suggestUrl(file, block, l) {
     original: l.jp,
   });
   return `https://github.com/${REPO}/issues/new?${p}`;
+}
+
+function speakerName(sp) {
+  return (STATUS.speakers || {})[sp] || sp;
+}
+
+function enPlain(en) {
+  return (en || "").replace(/\{([^}]+)\}/g,
+    (_, k) => (STATUS.tokens || {})[k.toUpperCase()] || k);
+}
+
+/* English cell: \n -> line break, \p -> page divider, {NAME} -> highlighted
+   name (the game renders tokens in a highlight color too). */
+function tdEnglish(en) {
+  const t = document.createElement("td");
+  t.className = "en";
+  if (!en) { t.textContent = "—"; return t; }
+  for (const part of en.split(/(\{[^}]+\}|\\n|\\p)/)) {
+    if (!part) continue;
+    if (part === "\\n") t.appendChild(document.createElement("br"));
+    else if (part === "\\p") {
+      const d = document.createElement("span");
+      d.className = "page-break";
+      d.textContent = "— page —";
+      t.appendChild(d);
+    } else if (part.startsWith("{")) {
+      const key = part.slice(1, -1).toUpperCase();
+      const s = document.createElement("span");
+      s.className = "tok";
+      s.textContent = (STATUS.tokens || {})[key] || part;
+      t.appendChild(s);
+    } else {
+      t.appendChild(document.createTextNode(part));
+    }
+  }
+  return t;
 }
 
 function div(cls) { const d = document.createElement("div"); d.className = cls; return d; }

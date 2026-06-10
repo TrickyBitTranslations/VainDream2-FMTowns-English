@@ -69,9 +69,15 @@ def main():
             pass
     total = sum(t["lines"] for t in tally.values())
     done = sum(t["done"] for t in tally.values())
+    import patch_names
+    speakers = {jp: en for jp, en in patch_names.TRANSLATIONS.items()
+                if en not in ("X",)}
+    token_names = {en.upper(): en for en in speakers.values()}
     (OUT / "status.json").write_text(json.dumps({
         "total": total, "done": done,
         "files": dict(tally), "budgets": budgets,
+        "speakers": speakers,          # ウォーリック -> Warrick (speaker column)
+        "tokens": token_names,         # WARRICK -> Warrick ({NAME} display)
     }, ensure_ascii=False), encoding="utf-8")
 
     # ---- suggestions.json ----------------------------------------------------

@@ -97,6 +97,11 @@ a.suggest {
 }
 a.suggest:hover { background: var(--gold-dim); color: #fff; text-decoration: none; }
 a.sug { font-size: 12px; padding: 3px 8px; border-radius: 5px; border: 1px solid; }
+.tok { color: #e26a5a; }                 /* name tokens, like the in-game highlight */
+.page-break {
+  display: block; color: var(--gold-dim); font-size: 11px;
+  letter-spacing: 2px; margin: 2px 0;
+}
 a.sug.valid { color: var(--green); border-color: var(--green); }
 a.sug.invalid { color: var(--amber); border-color: var(--amber); }
 a.sug.pending { color: var(--dim); border-color: var(--dim); }
