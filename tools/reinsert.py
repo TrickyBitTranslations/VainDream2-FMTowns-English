@@ -219,14 +219,11 @@ def main():
             start, end = string_span(block, str_off)
             block[start:end] = compile_english(english, tokens)
         encoded = dlz.encode(bytes(block))
-        free = budget - len(encoded)
-        if free < 0:
-            print(f"OVERFLOW {archive}@{block_off:#x}: {-free} bytes over budget "
-                  f"({len(items)} strings) - shorten translations in this block")
-            errors += 1
-            continue
+        # No per-scene budget anymore: the build (grow_build.py) grows archives
+        # and repoints the engine scene table, so any length is fine. We still
+        # print the size for reference (vs the ORIGINAL slot, just informational).
         print(f"  {archive}@{block_off:#x}: {len(items)} strings, "
-              f"{len(encoded)}/{budget} bytes ({free} free)")
+              f"{len(encoded)} bytes (was {budget})")
         fitted += len(items)
         if check:
             continue

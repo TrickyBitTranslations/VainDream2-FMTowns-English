@@ -69,32 +69,11 @@ def main():
             break
 
     budget_note = ""
-    if not problems:
-        # block budget: current TSV translations, with this suggestion applied
-        rows = [(s, e) for a, b, s, e, _, _ in reinsert.load_rows()
-                if a == archive and b == block_off]
-        merged = {s: e for s, e in rows}
-        if jp_text is None:
-            problems.append(f"line id {block_s} {str_s} not found in {tsv_name}")
-        else:
-            merged[str_off] = text
-            src = (reinsert.IsoSource()
-                   if reinsert.IMG.exists() and reinsert.IMG.stat().st_size > 1_000_000
-                   else reinsert.PackSource())
-            block = src.block(archive, block_off)
-            for s, e in sorted(merged.items(), reverse=True):
-                start, end = reinsert.string_span(block, s)
-                block[start:end] = reinsert.compile_english(e, tokens)
-            used = len(dlz.encode(bytes(block)))
-            budget = src.budget(archive, block_off)
-            if used > budget:
-                problems.append(
-                    f"scene budget: {used - budget} bytes over "
-                    f"({used}/{budget}) with this suggestion applied - "
-                    f"shorten it (or other lines in block {block_s})")
-            else:
-                budget_note = (f"\nScene budget with this applied: "
-                               f"**{used}/{budget} bytes ({budget - used} free)**")
+    if not problems and jp_text is None:
+        problems.append(f"line id {block_s} {str_s} not found in {tsv_name}")
+    # NOTE: there is no per-scene byte budget anymore — the build grows archives
+    # and repoints the engine's scene table, so translations can be any length.
+    # Only syntax and rendered-line width are checked.
 
     def original_section():
         if jp_text is None:

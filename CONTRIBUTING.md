@@ -65,30 +65,25 @@ your PR if a line truly needs one).
   parses crossed event bytecode and aren't safe to replace yet.
 - The `text` column, `block_off`/`str_off`, and the header row.
 
-## The budget (why your line might get rejected)
+## Length: no byte budget, but mind the box
 
-There is **no per-line length limit**. Each scene block must *re-compress* into
-its original disc footprint, so the limit is shared by all lines in the block
-and depends on how repetitive the text is. Rules of thumb:
+**There is no length budget.** The build grows the game's data and repoints the
+engine to match, so a translation can be as long as it needs — write what reads
+best. (Early on, scenes had a fixed compressed-size budget; that's gone now.)
 
-- Unique wording costs; repeated phrasing across a scene is nearly free.
-- Drafting near the Japanese line's visual length usually fits.
-- **The first lines into an untouched scene are the hardest.** A fully
-  Japanese block packs tightly against itself, so one lone English line often
-  doesn't fit even when it's short. Translating a scene wholesale (or most of
-  it) works much better than single drive-by lines.. English starts matching
-  English. If your line bounces on budget, consider suggesting the scene's
-  neighboring lines too.
-- Use the checker:
+The one real limit is **visual**: a dialogue box shows about **5 lines of ~54
+half-width characters**. Text past that gets clipped. So:
 
-```
+- Break lines with `\n` so each is roughly the Japanese line's width or less.
+- For a long passage, split it across boxes with `\p` (page break) rather than
+  overflowing one box.
+- The checker warns when a rendered line is too wide:
+
+```text
 python tools/reinsert.py --check
-  VAIN_A.DAT@0x5e8a8: 29 strings, 1296/1297 bytes (1 free)
-  OVERFLOW VAIN_B.DAT@0x12345: 17 bytes over budget (8 strings) - shorten ...
+  VAIN_A.DAT@0x5e8a8: 29 strings, 1402 bytes (was 1297)
+  WARN VAIN_B_DAT.tsv:120: rendered line 2 is 61 cells (max ~54)
 ```
-
-`OVERFLOW n bytes` means trim about n characters total from *any* of that
-block's translated lines (the report lists how many strings share the budget).
 
 ## Building and testing locally
 

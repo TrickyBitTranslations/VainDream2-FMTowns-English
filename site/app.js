@@ -183,7 +183,7 @@ function renderBlocks(file) {
       `<h3>Scene ${esc(block)}</h3>
        <div class="progress sm"><div style="width:${pct}%"></div></div>
        <p>${done}/${real.length} lines` +
-      (budget ? ` · ${budget.limit - budget.used} bytes free` : "") + `</p>`;
+      `</p>`;
     card.addEventListener("click", () => location.hash = `#/${file}/${block}`);
     grid.appendChild(card);
   }
@@ -194,13 +194,11 @@ function renderBlocks(file) {
 function renderBlock(file, block) {
   const el = document.getElementById("content");
   el.innerHTML = "";
-  const { lines, real, done, budget } = blockMeta(file, block);
+  const { lines, real, done } = blockMeta(file, block);
   const head = div("block-head");
   head.innerHTML =
     `<a href="#/${file}">← scenes</a>
-     <h2>Scene ${esc(block)} <small>${done}/${real.length} translated` +
-    (budget ? ` · ${budget.used}/${budget.limit} bytes (${budget.limit - budget.used} free)` : "") +
-    `</small></h2>`;
+     <h2>Scene ${esc(block)} <small>${done}/${real.length} translated</small></h2>`;
   el.appendChild(head);
   el.appendChild(linesTable(file, block, lines));
 }
