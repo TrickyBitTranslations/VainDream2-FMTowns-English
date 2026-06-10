@@ -74,7 +74,7 @@ block_off	str_off	speaker	text	english
 0x5e8a8	0x524	ファーニス	・・・なんか、すごい事になったね。	...Quite a story.
 0x5e8a8	0x54d	レイナ	ウォーリック。\nそのパディッシュって人・・・探しに行くんでしょ？	{WARRICK}.\nThis Paddish person...\nYou're going after him, right?
 0x5e8a8	0x58b	ウォーリック	ああ。\n・・・そのつもりだ。	Yeah.\n...That's the plan.
-0x5e8a8	0x5b1	レイナ	・・・わかったわ、ウォーリック。\nすぐ旅の支度するわね。	
+0x5e8a8	0x5b1	レイナ	・・・わかったわ、ウォーリック。\nすぐ旅の支度するわね。	...All right, {Warrick}.\n\nI'll get ready for the journey right away.
 0x5e8a8	0x5f9		レイナが仲間に加わった。	{REINA} joined the party.
 0x5e8a8	0x618	レイナ	ごめんね、ファーニス。\nせっかく来てくれたのに・・・。	Sorry, {FURNIS}.\nAnd you came all this way...
 0x5e8a8	0x64a	ファーニス	へへっ。\n苦労するね、レイナ。\nもちろん私も連れてってくれるんでしょ？\nファーニス\n私もお兄ちゃん探してるし。\nいいでしょ・・・・・ねっ。	{HEHEH}.\nYou have it rough, {REINA}.\nYou're taking me too, right?\p{FURNIS}\nI'm looking for my brother too.\nCome on... please?
