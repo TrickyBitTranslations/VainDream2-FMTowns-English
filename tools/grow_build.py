@@ -67,6 +67,21 @@ def main(demo=False):
     iso = disc.extract_track1_iso(str(IMG), TRACK1_SECTORS)
     tokens = reinsert.name_token_map()
     rows = reinsert.load_rows()
+
+    # validate every line up front so a typo'd {NAME} fails loudly with a
+    # per-line message instead of hard-crashing mid-build (or worse, shipping a
+    # half-written scene). Mirrors `reinsert.py --check`.
+    errors = 0
+    for archive, block_off, str_off, english, tsv_name, ln in rows:
+        try:
+            reinsert.compile_english(english, tokens)
+        except (ValueError, KeyError) as e:
+            print(f"ERROR  {tsv_name}:{ln}: {e}")
+            errors += 1
+    if errors:
+        sys.exit(f"{errors} translation error(s) — fix the TSV and rebuild "
+                 f"(run `python tools/reinsert.py --check` to re-validate)")
+
     per_arch = defaultdict(lambda: defaultdict(list))
     for archive, block_off, str_off, english, _, _ in rows:
         per_arch[archive][block_off].append((str_off, english))
@@ -84,9 +99,9 @@ def main(demo=False):
             block = bytearray(dlz.decode(members[block_off], prefix=bytes(0x40000)))
             for s_off, en in sorted(lines, reverse=True):
                 a, b = reinsert.string_span(block, s_off)
-                if 0xFF in block[a:b]:       # mis-extracted boundary spanning
+                if reinsert.spans_event_code(block, a, b):   # mis-extracted into event code
                     print(f"  SKIP {archive}@{block_off:#x} str {s_off:#x}: "
-                          f"original spans event bytecode (0xff) — unsafe to splice")
+                          f"original spans event bytecode (0x05-0x13) — unsafe to splice")
                     continue
                 block[a:b] = reinsert.compile_english(en, tokens)
             overrides[block_off] = dlz.encode(bytes(block))

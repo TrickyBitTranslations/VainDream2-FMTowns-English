@@ -130,8 +130,13 @@ def compile_english(text, tokens):
 
 def string_span(block, str_off):
     """(prefix_end, end): preserve leading fmt ops + the ⟨02 spk⟩⟨01⟩ box-title
-    prefix; the replaceable text runs to the next 0x00 OR 0xff (event separator)
-    — whichever comes first — so a splice never crosses event bytecode."""
+    prefix; the replaceable text runs to the string's 0x00 terminator.
+
+    0xff is *usually* an event separator — but 0xff is also the katakana ン, and
+    the two are byte-identical. It's a real ン only when wedged inside a katakana
+    run (both neighbours are katakana, 0xad-0xff), e.g. ジャイア|ン|ト; there we
+    read through it. Anywhere else the 0xff ends the string, so a splice never
+    crosses event bytecode. (Mirrors glodia.script.parse_string.)"""
     j = str_off
     while block[j] == 0x03:
         j += 2
@@ -140,9 +145,32 @@ def string_span(block, str_off):
     elif block[j] == 0x01:
         j += 1
     end = j
-    while end < len(block) and block[end] not in (0x00, 0xFF):
+    while end < len(block) and block[end] != 0x00:
+        if block[end] == 0xFF:
+            prev = block[end - 1] if end else 0
+            nxt = block[end + 1] if end + 1 < len(block) else 0
+            if not (0xAD <= prev <= 0xFF and 0xAD <= nxt <= 0xFF):
+                break                  # event separator, not katakana ン
         end += 1
     return j, end
+
+
+def spans_event_code(block, start, end):
+    """True if [start,end) crosses event bytecode and must not be spliced.
+
+    Walk the bytes as the text grammar (⟨02 nn⟩ name, ⟨03 nn⟩ fmt, and 2-byte
+    kanji leads each consume an operand); a *bare* event opcode (0x05-0x13) means
+    str_off was mis-extracted into event code. A lone 0xff (katakana ン) is fine."""
+    i = start
+    while i < end:
+        b = block[i]
+        if b in (0x02, 0x03) or 0x21 <= b <= 0x4F:   # 2-byte: name / fmt / kanji
+            i += 2
+        elif 0x05 <= b <= 0x13:
+            return True
+        else:
+            i += 1
+    return False
 
 
 MAX_LINE = 54           # visual half-width cells per dialogue-box line
@@ -220,9 +248,9 @@ def main():
         total += len(items)
         for str_off, english in sorted(items, reverse=True):   # splice high->low
             start, end = string_span(block, str_off)
-            if 0xFF in block[start:end]:        # mis-extracted: spans event code
+            if spans_event_code(block, start, end):   # mis-extracted into event code
                 print(f"ERROR  {archive}@{block_off:#x} str {str_off:#x}: original "
-                      f"spans event bytecode (0xff) — not a real string, don't translate")
+                      f"spans event bytecode (0x05-0x13) — not a real string, don't translate")
                 errors += 1
                 continue
             block[start:end] = compile_english(english, tokens)

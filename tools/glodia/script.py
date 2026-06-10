@@ -68,10 +68,19 @@ def parse_string(data, i, names):
         if b == 0x00:
             return i + 1, "".join(out), speaker, glyphs
         if b == 0xFF:
-            # event separator: a hard boundary. End the string here WITHOUT
-            # consuming it, so the splice never crosses event bytecode (which
-            # would corrupt the scene). The next chunk starts after the 0xff.
-            return i, "".join(out), speaker, glyphs
+            # 0xff is BOTH the katakana ン and the event separator, and they are
+            # byte-identical. It is a real ン only when wedged inside a katakana
+            # run — both neighbours are katakana (0xad-0xff), e.g. ジャイア|ン|ト —
+            # in which case we fall through to the kana branch and decode it as
+            # text. Anywhere else it's a separator: end the string here WITHOUT
+            # consuming it, so the splice never crosses event bytecode. (Erring
+            # toward "separator" is the safe choice: a missed ン just leaves the
+            # word split for a manual merge; a false merge would corrupt a scene.
+            # Mirrors reinsert.string_span.)
+            prev = data[i - 1] if i else 0
+            nxt = data[i + 1] if i + 1 < n else 0
+            if not (0xAD <= prev <= 0xFF and 0xAD <= nxt <= 0xFF):
+                return i, "".join(out), speaker, glyphs
         if b == 0x01:
             out.append("\n"); i += 1
         elif b == 0x02:
