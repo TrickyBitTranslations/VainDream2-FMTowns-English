@@ -69,7 +69,7 @@ def main():
         orig += raw_len
         j = jp_names.get(str(t), "")
         if j == PLACEHOLDER:
-            new += 1                          # placeholders shrink to "X"
+            new += 0                          # placeholders shrink to empty
         elif j in new_map:
             new += en_bytes(new_map[j])
         else:

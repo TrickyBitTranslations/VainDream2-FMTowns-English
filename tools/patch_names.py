@@ -79,7 +79,9 @@ def main():
     orig_len = sum(len(r) for r in orig_span) + span_end   # records + NULs
     new = list(orig_span)
     for i in hits:
-        new[i] = en(TRANSLATIONS[decoded[i]])
+        # unused placeholders shrink to EMPTY (0 bytes) to free maximum budget;
+        # real names get their English bytes
+        new[i] = b"" if decoded[i] == PAD_RECORD else en(TRANSLATIONS[decoded[i]])
     new_len = sum(len(r) for r in new) + span_end
     slack = orig_len - new_len
     if slack < 0:
