@@ -217,6 +217,11 @@ def main():
         total += len(items)
         for str_off, english in sorted(items, reverse=True):   # splice high->low
             start, end = string_span(block, str_off)
+            if 0xFF in block[start:end]:        # mis-extracted: spans event code
+                print(f"ERROR  {archive}@{block_off:#x} str {str_off:#x}: original "
+                      f"spans event bytecode (0xff) — not a real string, don't translate")
+                errors += 1
+                continue
             block[start:end] = compile_english(english, tokens)
         encoded = dlz.encode(bytes(block))
         # No per-scene budget anymore: the build (grow_build.py) grows archives

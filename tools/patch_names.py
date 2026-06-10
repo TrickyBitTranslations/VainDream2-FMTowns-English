@@ -148,34 +148,49 @@ def main():
     data_bin = read_file_from(fs, "DATA.BIN")
 
     # The whole region from TABLE_OFF to EOF is ONE NUL-separated table; the
-    # engine looks records up by counting NULs (position-independent). So we can
-    # rewrite records to ANY length and just grow DATA.BIN — no byte budget.
+    # engine looks records up by counting NULs (position-independent), so record
+    # LENGTHS are free. BUT DATA.BIN is read by absolute disk sector — it can't
+    # move or gain a cluster — so the table must fit DATA.BIN's capacity. If the
+    # full set overflows, drop the costliest (biggest English-over-Japanese)
+    # translations until it fits.
     recs = data_bin[TABLE_OFF:].split(b"\x00")
     decoded = [_decode_record(r) for r in recs]
-    new = []
-    n_translated = 0
-    for i, r in enumerate(recs):
-        d = decoded[i]
-        if d in TRANSLATIONS and d != PAD_RECORD:
-            new.append(en(TRANSLATIONS[d]))
-            n_translated += 1
-        else:
-            new.append(r)                       # keep original (untranslated/unused)
-    new_body = b"\x00".join(new)
-    new_data_bin = data_bin[:TABLE_OFF] + new_body
+    # DATA.BIN can't move (read by absolute sector), but the game reads its full
+    # 6-sector cluster allocation (6144B) regardless of the directory size, so the
+    # table may use all of it — not just the original 6085 bytes.
+    cap = fs.file_capacity("DATA.BIN")
+    chosen = {i for i, d in enumerate(decoded) if d in TRANSLATIONS and d != PAD_RECORD}
+    pad_idx = max(i for i, d in enumerate(decoded) if d == PAD_RECORD)
 
+    def body(sel, pad=0):
+        # empty ALL unused placeholder records (reclaims their bytes); translate
+        # chosen; keep the rest. The pad record then absorbs the exact slack.
+        out = [en(TRANSLATIONS[decoded[i]]) if i in sel
+               else (b"" if decoded[i] == PAD_RECORD else r)
+               for i, r in enumerate(recs)]
+        out[pad_idx] = b"\x04" * pad
+        return data_bin[:TABLE_OFF] + b"\x00".join(out)
+
+    dropped = []
+    while len(body(chosen)) > cap and chosen:
+        worst = max(chosen, key=lambda i: len(en(TRANSLATIONS[decoded[i]])) - len(recs[i]))
+        chosen.discard(worst)
+        dropped.append(decoded[worst])
+    # pad the placeholder so DATA.BIN is exactly its original size
+    new_data_bin = body(chosen, cap - len(body(chosen)))
+    assert len(new_data_bin) == cap
     img = fs.grow_file("DATA.BIN", new_data_bin)
     EN_D88.write_bytes(img)
 
-    # verify
     fs2 = read_d88(EN_D88.read_bytes())
     from glodia.english import decode as en_dec
     check = read_file_from(fs2, "DATA.BIN")[TABLE_OFF:].split(b"\x00")
-    print(f"name table: {n_translated} records translated, "
-          f"DATA.BIN {len(data_bin)} -> {len(new_data_bin)} bytes "
-          f"({len(new_data_bin)-len(data_bin):+d})")
-    hit_idx = [i for i, d in enumerate(decoded) if d in TRANSLATIONS and d != PAD_RECORD]
-    for i in hit_idx[:6] + hit_idx[-3:]:
+    print(f"name table: {len(chosen)} of {len(chosen)+len(dropped)} names translated "
+          f"(DATA.BIN held at {cap} bytes — read by absolute sector, can't grow)")
+    if dropped:
+        print(f"  {len(dropped)} didn't fit (kept Japanese): {', '.join(dropped[:14])}"
+              + (" ..." if len(dropped) > 14 else ""))
+    for i in sorted(chosen)[:5]:
         print(f"  token {i+1:#04x}: {decoded[i]!r} -> {en_dec(check[i])!r}")
 
 

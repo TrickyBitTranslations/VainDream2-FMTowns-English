@@ -84,6 +84,10 @@ def main(demo=False):
             block = bytearray(dlz.decode(members[block_off], prefix=bytes(0x40000)))
             for s_off, en in sorted(lines, reverse=True):
                 a, b = reinsert.string_span(block, s_off)
+                if 0xFF in block[a:b]:       # mis-extracted boundary spanning
+                    print(f"  SKIP {archive}@{block_off:#x} str {s_off:#x}: "
+                          f"original spans event bytecode (0xff) — unsafe to splice")
+                    continue
                 block[a:b] = reinsert.compile_english(en, tokens)
             overrides[block_off] = dlz.encode(bytes(block))
         old_offsets = list(members.keys())

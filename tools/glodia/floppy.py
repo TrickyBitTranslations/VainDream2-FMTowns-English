@@ -127,40 +127,31 @@ class D88:
         fat[off] = cur & 0xFF
         fat[off + 1] = (cur >> 8) & 0xFF
 
+    def file_capacity(self, name):
+        """Max bytes `name` can hold WITHOUT relocating (its current cluster
+        allocation). The game reads some data files by absolute disk sector, so
+        files must not move or change their cluster count."""
+        b, ss, *_ = self._layout()
+        csize = b["spc"] * ss
+        clu, _ = self._dir_entry(name)
+        return len(self._cluster_chain(clu)) * csize
+
     def grow_file(self, name, new_data):
-        """Return a new D88 image with `name` rewritten to `new_data`, allocating
-        more clusters from free space if it grew. FAT12; updates all FAT copies
-        and the directory size. (Only handles same-or-larger; chain start kept.)"""
+        """Rewrite `name` to `new_data` IN PLACE within its existing clusters
+        (never relocates — the game reads some files by absolute sector). Raises
+        if `new_data` exceeds the current cluster allocation. Updates dir size."""
         b, ss, fat_start, root_start, data_start = self._layout()
         csize = b["spc"] * ss
-        start_clu, old_size = self._dir_entry(name)
+        start_clu, _ = self._dir_entry(name)
         chain = self._cluster_chain(start_clu)
-        need = max(1, (len(new_data) + csize - 1) // csize)
-
+        if len(new_data) > len(chain) * csize:
+            raise RuntimeError(
+                f"{name}: {len(new_data)} bytes exceeds its {len(chain)*csize}-byte "
+                f"allocation; it can't grow (read by absolute sector, can't relocate)")
         flat = bytearray(self.flat)
-        fat = bytearray(flat[fat_start:fat_start + b["spf"] * ss])
-        total_clusters = (len(self.flat) - data_start * ss) // csize + 2
-
-        if need > len(chain):
-            free = [c for c in range(2, total_clusters)
-                    if self._fat12_next(fat, c) == 0 and c not in chain]
-            if len(free) < need - len(chain):
-                raise RuntimeError(f"floppy full: need {need-len(chain)} more clusters, "
-                                   f"{len(free)} free")
-            chain = chain + free[:need - len(chain)]
-        chain = chain[:need]
-        # relink the chain: each -> next, last -> EOC (0xFFF)
-        for i, c in enumerate(chain):
-            self._fat12_set(fat, c, chain[i + 1] if i + 1 < len(chain) else 0xFFF)
-        # write FAT back to every copy
-        for k in range(b["nfat"]):
-            base = (b["reserved"] + k * b["spf"]) * ss
-            flat[base:base + len(fat)] = fat
-        # write the data across the chain
         for i, c in enumerate(chain):
             off = self._cluster_flat_offset(c)
             flat[off:off + csize] = new_data[i * csize:(i + 1) * csize].ljust(csize, b"\x00")
-        # update directory size (start cluster unchanged)
         for i in range(b["rootent"]):
             e = root_start + i * 32
             if flat[e] in (0, 0xE5):
@@ -170,7 +161,6 @@ class D88:
             if nm + ("." + ext if ext else "") == name:
                 flat[e + 28:e + 32] = struct.pack("<I", len(new_data))
                 break
-        # map the whole modified flat back into the D88 image
         return D88(self.image).patch_span(0, bytes(flat))
 
     def flat_offset_for_file(self, name, file_rel_off):
