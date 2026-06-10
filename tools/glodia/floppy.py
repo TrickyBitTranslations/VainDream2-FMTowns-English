@@ -117,6 +117,62 @@ class D88:
         clu, size = self._dir_entry(name)
         return self._cluster_flat_offset(clu), size
 
+    def _fat12_set(self, fat, n, val):
+        off = n + n // 2
+        cur = fat[off] | (fat[off + 1] << 8)
+        if n & 1:
+            cur = (cur & 0x000F) | ((val & 0xFFF) << 4)
+        else:
+            cur = (cur & 0xF000) | (val & 0xFFF)
+        fat[off] = cur & 0xFF
+        fat[off + 1] = (cur >> 8) & 0xFF
+
+    def grow_file(self, name, new_data):
+        """Return a new D88 image with `name` rewritten to `new_data`, allocating
+        more clusters from free space if it grew. FAT12; updates all FAT copies
+        and the directory size. (Only handles same-or-larger; chain start kept.)"""
+        b, ss, fat_start, root_start, data_start = self._layout()
+        csize = b["spc"] * ss
+        start_clu, old_size = self._dir_entry(name)
+        chain = self._cluster_chain(start_clu)
+        need = max(1, (len(new_data) + csize - 1) // csize)
+
+        flat = bytearray(self.flat)
+        fat = bytearray(flat[fat_start:fat_start + b["spf"] * ss])
+        total_clusters = (len(self.flat) - data_start * ss) // csize + 2
+
+        if need > len(chain):
+            free = [c for c in range(2, total_clusters)
+                    if self._fat12_next(fat, c) == 0 and c not in chain]
+            if len(free) < need - len(chain):
+                raise RuntimeError(f"floppy full: need {need-len(chain)} more clusters, "
+                                   f"{len(free)} free")
+            chain = chain + free[:need - len(chain)]
+        chain = chain[:need]
+        # relink the chain: each -> next, last -> EOC (0xFFF)
+        for i, c in enumerate(chain):
+            self._fat12_set(fat, c, chain[i + 1] if i + 1 < len(chain) else 0xFFF)
+        # write FAT back to every copy
+        for k in range(b["nfat"]):
+            base = (b["reserved"] + k * b["spf"]) * ss
+            flat[base:base + len(fat)] = fat
+        # write the data across the chain
+        for i, c in enumerate(chain):
+            off = self._cluster_flat_offset(c)
+            flat[off:off + csize] = new_data[i * csize:(i + 1) * csize].ljust(csize, b"\x00")
+        # update directory size (start cluster unchanged)
+        for i in range(b["rootent"]):
+            e = root_start + i * 32
+            if flat[e] in (0, 0xE5):
+                continue
+            nm = bytes(flat[e:e + 8]).decode("latin1").rstrip()
+            ext = bytes(flat[e + 8:e + 11]).decode("latin1").rstrip()
+            if nm + ("." + ext if ext else "") == name:
+                flat[e + 28:e + 32] = struct.pack("<I", len(new_data))
+                break
+        # map the whole modified flat back into the D88 image
+        return D88(self.image).patch_span(0, bytes(flat))
+
     def flat_offset_for_file(self, name, file_rel_off):
         """Map a byte offset *within a file* to an absolute flat-image offset,
         following the cluster chain (handles non-contiguous / multi-cluster files)."""

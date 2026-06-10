@@ -52,7 +52,88 @@ TRANSLATIONS = {
     "看護兵": "Medic",
     "ドラゴン　ライダー": "Dragon Rider",
     "を受け取った。": "received",
-    "未使用": "X",          # placeholders, shrunk to free budget
+    # the table now grows freely (FAT12 grow) — romanize away. Provisional:
+    "重装騎兵団": "Heavy Cavalry",
+    "重装騎兵": "Cavalryman",
+    "聖騎士団": "Paladins",
+    "聖騎士": "Paladin",
+    "騎士団": "Knights",
+    "ブレイス": "Brace",
+    "グリーク": "Greek",
+    "パーシャ": "Pasha",
+    "エリオット": "Eliot",
+    "ゼロ船長": "Captain Zero",
+    "ポップ": "Pop",
+    "タップ": "Tap",
+    "ウィルディース艦長": "Captain Wildeath",
+    "シンシア": "Cynthia",
+    "カル伯爵": "Count Cal",
+    "クレイボーン": "Claybourne",
+    "マージス": "Margis",
+    "シュタイナー": "Steiner",
+    "竜騎士": "Dragon Knight",
+    "の宿屋": "Inn",
+    "の道具屋": "Item Shop",
+    "の防具屋": "Armor Shop",
+    "の魔法屋": "Magic Shop",
+    # --- characters / monsters ---
+    "ドリアード": "Dryad", "ドード": "Dode", "ビアガン": "Biagan", "バーグ": "Berg",
+    "カーム": "Calm", "ナイトメア": "Nightmare", "パチュンガ": "Pachunga",
+    "ライランド": "Ryland", "クーレイア": "Kuleia", "アスタルト": "Astarte",
+    "メーフィス": "Mephis", "フロスト": "Frost", "パディッシュ": "Paddish",
+    "バーダル": "Bardal", "カーネル": "Karnel", "ブレイ": "Brei", "フォーゲル": "Vogel",
+    "ルード": "Rude", "ダイン": "Dyne", "ピローム": "Pirom", "ダイガーン": "Daigarn",
+    "モビーディック": "Moby Dick", "ウィルディース": "Wildeath", "ゼロ": "Zero",
+    "ローラ": "Laura", "クラウス": "Klaus", "ソウルン": "Souln", "アトォム": "Atom",
+    "パンツァードラグーン": "Panzer Dragoon", "ローラ ": "Laura",
+    # --- places ---
+    "クラウスの村": "Klaus Village", "氷の洞窟": "Ice Cavern", "レジーナの森": "Regina Forest",
+    "ジーク王国": "Zeke Kingdom", "ジーク城": "Zeke Castle", "ジーク": "Zeke",
+    "カナール採掘場": "Canal Mine", "マーズトンネル": "Mars Tunnel", "マーズ砦": "Mars Fort",
+    "メインキャンプ": "Main Camp", "セルーシュ王国": "Serush Kingdom",
+    "セルーシュ城": "Serush Castle", "セルーシュ": "Serush", "地下礼拝堂": "Catacombs",
+    "地下水道": "Sewers", "神殿遺跡": "Temple Ruins", "紫水晶の丘": "Amethyst Hill",
+    "シルバーホーン": "Silverhorn", "砂の城": "Sand Castle", "砂の海": "Sand Sea",
+    "石の王国": "Stone Kingdom", "ドワーフの洞窟": "Dwarf Cave", "マージスの洞窟": "Margis Cave",
+    "フローディーテの森": "Frodite Forest", "鎧の塔": "Armor Tower", "地下宮殿": "Underground Palace",
+    "タリアトフ大陸": "Taliatov", "バッカス２世号": "Bacchus II", "クイーンストーカー号": "Queen Stalker",
+    # --- roles / titles / monsters ---
+    "守護騎士": "Guardian", "神官竜": "Priest Dragon", "神竜": "Divine Dragon", "魔神": "Demon God",
+    "魔導士": "Mage", "ドワーフ": "Dwarf", "デーモン": "Demon", "ハンター": "Hunter",
+    "魔物": "Monster", "宮廷魔術師": "Court Mage", "大神官": "High Priest", "ワイバーン": "Wyvern",
+    "水晶竜": "Crystal Dragon", "神官戦士": "Priest Warrior", "騎士達": "Knights",
+    "ダークエルフ": "Dark Elf", "ミノタウロス": "Minotaur", "精霊達": "Spirits", "砂鯨": "Sand Whale",
+    "船長": "Captain", "キメラ": "Chimera", "砂船": "Sand Ship", "潜砂艦": "Sand Sub", "海賊": "Pirate",
+    "エルフ": "Elf", "騎士": "Knight", "メデューサ": "Medusa", "リッチ": "Lich", "ドラグーン": "Dragoon",
+    "マスター": "Master", "精霊": "Spirit", "亡霊": "Ghost", "八賢者": "Eight Sages", "見張り": "Guard",
+    "団長": "Commander", "金竜": "Gold Dragon", "銀竜": "Silver Dragon", "白竜": "White Dragon",
+    "緑竜": "Green Dragon", "黒竜": "Black Dragon", "炎竜": "Fire Dragon", "水竜": "Water Dragon",
+    "水晶の角": "Crystal Horn", "パラサイト　デーモン": "Parasite Demon", "女の子": "Girl",
+    # --- items / magic ---
+    "黄金のナイフ": "Golden Knife", "ポーション": "Potion", "天の水晶": "Sky Crystal",
+    "地の水晶": "Earth Crystal", "ブーツ": "Boots", "ミスリル": "Mythril", "ジオクリスタル": "Geo Crystal",
+    "指輪": "Ring", "ロッド": "Rod", "薬草袋": "Herb Pouch", "薬草": "Herb", "ナイフ": "Knife",
+    "ローブ": "Robe", "マント": "Cloak", "ライトニング　ボルト": "Lightning Bolt", "テミス": "Themis",
+    "暗黒魔術": "Dark Magic", "魔導弾": "Magic Bolt", "遠見の水晶": "Scrying Crystal",
+    "アーマー": "Armor", "メイル": "Mail", "ソード": "Sword", "アックス": "Axe", "金属製": "Metal",
+    "紫水晶": "Amethyst", "水晶": "Crystal", "ショップ": "Shop", "換金": "Exchange",
+    "３剣７": "Sword", "３鎧７": "Armor", "３斧７": "Axe", "３槍７": "Spear", "３盾７": "Shield",
+    # --- common phrases / UI fragments / suffixes ---
+    "おじさん": "Mister", "おばさん": "Lady", "あんちゃん": "Bud", "おじちゃん": "Mister",
+    "が仲間に加わった。": " joined the party.", "が仲間から外れた。": " left the party.",
+    "やめる": "Cancel", "・品物を見せて。": "・Show your wares.", "・話をしよう。": "・Let's talk.",
+    "・持物を売ります。": "・Sell items.", "・テミスを換金して。": "・Exchange Themis.",
+    "・瞬間移動したい。": "・Teleport.", "・お店を出よう。": "・Leave the shop.",
+    "ありがとうございました": "Thank you kindly.", "ありがとう": "Thanks", "じゃ。": "Well then.",
+    "キャンプ": "Camp", "宝箱": "Chest", "魔法陣": "Magic Circle",
+    "・・・・・": ".....", "・・・": "...",
+    "ォォォォォォォ": "Aaaaaah", "ぇぇぇぇぇぇぇ": "Eeeeeeh",
+    "天の法皇よ": "O Pope of the Heavens", "地の法皇よ。": "O Pope of the Earth.",
+    "魔導の法たる我に力を与えたまえ。": "By the law of magic, grant me power.",
+    "魔の根源たるその炎で、我が敵を焼きつくせ。": "With the flame at evils root, burn my foes to ash.",
+    # left untranslated: grammar particles (ますか/です。/んです。/ですか？ — inserted
+    # mid-sentence, don't map to English standalone), ∪, and the binary tail record.
+    "未使用": "X",          # placeholder records, left untranslated
 }
 PAD_RECORD = "未使用"       # last placeholder absorbs the remaining slack
 
@@ -63,52 +144,38 @@ def read_file_from(fs, name):
 
 
 def main():
-    image = EN_D88.read_bytes()
-    fs = read_d88(image)
+    fs = read_d88(EN_D88.read_bytes())
     data_bin = read_file_from(fs, "DATA.BIN")
+
+    # The whole region from TABLE_OFF to EOF is ONE NUL-separated table; the
+    # engine looks records up by counting NULs (position-independent). So we can
+    # rewrite records to ANY length and just grow DATA.BIN — no byte budget.
     recs = data_bin[TABLE_OFF:].split(b"\x00")
-
-    # rewrite span = records 1..N where N covers the last translated record
     decoded = [_decode_record(r) for r in recs]
-    hits = [i for i, d in enumerate(decoded) if d in TRANSLATIONS]
-    assert hits, "no translatable records found"
-    span_end = max(hits) + 1
-    pad_idx = max(i for i in hits if decoded[i] == PAD_RECORD)
+    new = []
+    n_translated = 0
+    for i, r in enumerate(recs):
+        d = decoded[i]
+        if d in TRANSLATIONS and d != PAD_RECORD:
+            new.append(en(TRANSLATIONS[d]))
+            n_translated += 1
+        else:
+            new.append(r)                       # keep original (untranslated/unused)
+    new_body = b"\x00".join(new)
+    new_data_bin = data_bin[:TABLE_OFF] + new_body
 
-    orig_span = recs[:span_end]
-    orig_len = sum(len(r) for r in orig_span) + span_end   # records + NULs
-    new = list(orig_span)
-    for i in hits:
-        # unused placeholders shrink to EMPTY (0 bytes) to free maximum budget;
-        # real names get their English bytes
-        new[i] = b"" if decoded[i] == PAD_RECORD else en(TRANSLATIONS[decoded[i]])
-    new_len = sum(len(r) for r in new) + span_end
-    slack = orig_len - new_len
-    if slack < 0:
-        raise SystemExit(f"translations {-slack} bytes over budget - shorten some")
-    new[pad_idx] += b"\x04" * slack
-    rebuilt = b"\x00".join(new) + b"\x00"
-    assert len(rebuilt) == orig_len
-
-    # write in contiguous flat-space runs (file may be cluster-fragmented)
-    run_start = 0
-    while run_start < len(rebuilt):
-        flat = fs.flat_offset_for_file("DATA.BIN", TABLE_OFF + run_start)
-        run_len = 1
-        while (run_start + run_len < len(rebuilt) and
-               fs.flat_offset_for_file("DATA.BIN", TABLE_OFF + run_start + run_len)
-               == flat + run_len):
-            run_len += 1
-        image = read_d88(image).patch(flat, rebuilt[run_start:run_start + run_len])
-        run_start += run_len
-    EN_D88.write_bytes(image)
+    img = fs.grow_file("DATA.BIN", new_data_bin)
+    EN_D88.write_bytes(img)
 
     # verify
     fs2 = read_d88(EN_D88.read_bytes())
-    check = read_file_from(fs2, "DATA.BIN")[TABLE_OFF:].split(b"\x00")
     from glodia.english import decode as en_dec
-    print(f"rebuilt {span_end} records ({orig_len} bytes, slack {slack} -> pad record)")
-    for i in hits[:8] + hits[-3:]:
+    check = read_file_from(fs2, "DATA.BIN")[TABLE_OFF:].split(b"\x00")
+    print(f"name table: {n_translated} records translated, "
+          f"DATA.BIN {len(data_bin)} -> {len(new_data_bin)} bytes "
+          f"({len(new_data_bin)-len(data_bin):+d})")
+    hit_idx = [i for i, d in enumerate(decoded) if d in TRANSLATIONS and d != PAD_RECORD]
+    for i in hit_idx[:6] + hit_idx[-3:]:
         print(f"  token {i+1:#04x}: {decoded[i]!r} -> {en_dec(check[i])!r}")
 
 

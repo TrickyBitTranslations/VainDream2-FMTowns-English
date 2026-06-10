@@ -51,39 +51,9 @@ def main():
         print(f"Term {jp!r} not found in the name table.")
         sys.exit(1)
 
-    import patch_names
-    new_map = dict(patch_names.TRANSLATIONS)
-    new_map[jp] = proposed
-
-    # budget: rewritten span = records 1..max translated token
-    toks = {j: int(t) for t, j in jp_names.items()}
-    hit_toks = [toks[j] for j in new_map if j in toks and j != PLACEHOLDER]
-    span_end = max(hit_toks)
-    orig = new = 0
-    missing = []
-    for t in range(1, span_end + 1):
-        raw_len = jp_lens.get(str(t))
-        if raw_len is None:
-            missing.append(t)
-            continue
-        orig += raw_len
-        j = jp_names.get(str(t), "")
-        if j == PLACEHOLDER:
-            new += 0                          # placeholders shrink to empty
-        elif j in new_map:
-            new += en_bytes(new_map[j])
-        else:
-            new += raw_len
-    if missing:
-        print(f"Cannot budget-check (records {missing} not in the pack) — "
-              f"apply manually with the game data.")
-        sys.exit(1)
-    if new > orig:
-        print(f"Name table budget: {new - orig} bytes over "
-              f"({new}/{orig} for records 1..{span_end}) — needs a shorter name "
-              f"or freeing other entries.")
-        sys.exit(1)
-
+    # NOTE: no name-table byte budget anymore — the build grows DATA.BIN on the
+    # floppy (FAT12) to fit the whole table, so romanizations can be any length.
+    # Only the charset (checked above) and the term existing matter.
     src = PN.read_text(encoding="utf-8")
     line = f'    "{jp}": "{proposed}",'
     pat = re.compile(r'^    "' + re.escape(jp) + r'": ".*?",.*$', re.M)
