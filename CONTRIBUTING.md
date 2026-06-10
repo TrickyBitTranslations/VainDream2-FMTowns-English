@@ -73,6 +73,12 @@ and depends on how repetitive the text is. Rules of thumb:
 
 - Unique wording costs; repeated phrasing across a scene is nearly free.
 - Drafting near the Japanese line's visual length usually fits.
+- **The first lines into an untouched scene are the hardest.** A fully
+  Japanese block packs tightly against itself, so one lone English line often
+  doesn't fit even when it's short. Translating a scene wholesale (or most of
+  it) works much better than single drive-by lines.. English starts matching
+  English. If your line bounces on budget, consider suggesting the scene's
+  neighboring lines too.
 - Use the checker:
 
 ```

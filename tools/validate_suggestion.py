@@ -58,18 +58,23 @@ def main():
         if w > reinsert.MAX_LINE:
             problems.append(f"line {i} renders {w} cells (max ~{reinsert.MAX_LINE})")
 
+    # locate the line in the TSV: validates the id AND gives us the Japanese
+    jp_text = None
+    speaker = ""
+    for r in (ROOT / "script" / tsv_name).read_text(encoding="utf-8").splitlines()[1:]:
+        c = r.split("\t")
+        if (len(c) >= 4 and c[0].startswith("0x")
+                and int(c[0], 16) == block_off and int(c[1], 16) == str_off):
+            speaker, jp_text = c[2], c[3]
+            break
+
     budget_note = ""
     if not problems:
         # block budget: current TSV translations, with this suggestion applied
         rows = [(s, e) for a, b, s, e, _, _ in reinsert.load_rows()
                 if a == archive and b == block_off]
         merged = {s: e for s, e in rows}
-        known_line = str_off in merged or any(
-            int(c[1], 16) == str_off and int(c[0], 16) == block_off
-            for c in (r.split("\t") for r in
-                      (ROOT / "script" / tsv_name).read_text(encoding="utf-8")
-                      .splitlines()[1:]) if len(c) >= 2)
-        if not known_line:
+        if jp_text is None:
             problems.append(f"line id {block_s} {str_s} not found in {tsv_name}")
         else:
             merged[str_off] = text
@@ -91,10 +96,18 @@ def main():
                 budget_note = (f"\nScene budget with this applied: "
                                f"**{used}/{budget} bytes ({budget - used} free)**")
 
+    def original_section():
+        if jp_text is None:
+            return
+        who = f" — {speaker}" if speaker else ""
+        print(f"\n**Original**{who}:\n")
+        print("> " + jp_text.replace("\\n", "<br>"))
+
     if problems:
         print("### :x: Suggestion has problems\n")
         for p in problems:
             print(f"- {p}")
+        original_section()
         print("\nSee CONTRIBUTING.md for syntax and budget rules. "
               "Edit the issue to re-run validation.")
         sys.exit(1)
@@ -103,8 +116,10 @@ def main():
     print("```")
     print(text.replace("\\n", "\n").replace("\\p", "\n--- page ---\n"))
     print("```")
+    original_section()
     print(budget_note)
-    print("\nA maintainer can apply it by pasting the text into the TSV row.")
+    print("\nA maintainer can apply it with a `/apply` comment, or by pasting "
+          "the text into the TSV row.")
 
 
 if __name__ == "__main__":

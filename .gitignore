@@ -23,3 +23,6 @@ venv/
 
 # Editor/OS noise
 .DS_Store
+
+# Site data is generated at deploy time (tools/make_site_data.py)
+site/data/

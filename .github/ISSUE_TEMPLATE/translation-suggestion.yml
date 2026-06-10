@@ -31,6 +31,12 @@ body:
     validations:
       required: true
   - type: textarea
+    id: original
+    attributes:
+      label: Original Japanese
+      description: The line being translated (auto-filled when you come from the site; otherwise paste it from the TSV).
+      placeholder: ふぁぁぁぁぁっ。\n・・・もう、朝かぁ。\n今日の朝御飯は何かな。
+  - type: textarea
     id: translation
     attributes:
       label: Proposed translation
