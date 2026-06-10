@@ -152,7 +152,16 @@ def main(demo=False):
             r = raw_off(16 * SEC + 80)
             f.seek(r); f.write(struct.pack("<I", new_maxsec) + struct.pack(">I", new_maxsec))
             print(f"  CD: PVD volume size {vol} -> {new_maxsec} sectors")
-    print(f"wrote {EN_IMG.name} + {EN_D88.name}")
+
+    # companion sheets so it mounts like the original
+    cue = (ROOT / f"{BASE}.cue").read_text(encoding="utf-8", errors="replace")
+    (ROOT / f"{BASE} [EN].cue").write_text(
+        cue.replace(f"{BASE}.img", f"{BASE} [EN].img"), encoding="utf-8")
+    for ext in (".ccd", ".sub"):
+        src = ROOT / f"{BASE}{ext}"
+        if src.exists():
+            shutil.copyfile(src, ROOT / f"{BASE} [EN]{ext}")
+    print(f"wrote {EN_IMG.name} (+ cue/ccd/sub) + {EN_D88.name}")
 
 
 if __name__ == "__main__":

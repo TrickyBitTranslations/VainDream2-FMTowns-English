@@ -21,7 +21,7 @@
   .\build.ps1 -Full      # floppy + CD
 #>
 param(
-    [switch]$Full,
+    [switch]$Full,    # accepted for compatibility; the build always does both now
     [switch]$Check
 )
 
@@ -62,29 +62,17 @@ if (-not (Test-Path (Join-Path $root "floppy_files\DATA.BIN")) -or
     }
 }
 
-if ($Full) {
-    Invoke-Step "floppy: engine patches (ASCII text class, half-width default)" {
-        python (Join-Path $root "tools\patch_main_exp.py")
-    }
-    Invoke-Step "floppy: English name table" {
-        python (Join-Path $root "tools\patch_names.py")
-    }
-}
-
-Invoke-Step "cd: refresh script/blockpack.json.gz (validation data)" {
+Invoke-Step "refresh script/blockpack.json.gz (validation data)" {
     python (Join-Path $root "tools\make_blockpack.py")
 }
-Invoke-Step "cd: reinsert translations from script/*.tsv (budget check)" {
-    python (Join-Path $root "tools\reinsert.py")
-}
-Invoke-Step "cd: write patched image set" {
-    python (Join-Path $root "tools\patch_cd.py")
+# grow_build does it all: floppy (classifier + names + scene-table repoint) and
+# CD (grown archives, relocating where needed). No per-scene byte budget.
+Invoke-Step "build EN floppy + CD (unbounded; relocates archives as needed)" {
+    python (Join-Path $root "tools\grow_build.py")
 }
 
 Write-Host ""
 Write-Host "BUILD OK." -ForegroundColor Green
 Write-Host "  CD:     Vain DreamII (1993)(Glodia)(Jp) [EN].img (+ .cue/.ccd/.sub)"
-if ($Full) {
-    Write-Host "  Floppy: Vain DreamII (1993)(Glodia)(Jp)[SystemDisk]_EN.D88"
-}
+Write-Host "  Floppy: Vain DreamII (1993)(Glodia)(Jp)[SystemDisk]_EN.D88"
 Write-Host "  Boot the _EN.D88 floppy together with the [EN] CD image."
