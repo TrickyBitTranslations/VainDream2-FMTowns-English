@@ -3,12 +3,11 @@
    data/suggestions.json. Submissions go through prefilled GitHub issues. */
 
 const REPO = "TrickyBitTranslations/VainDream2-FMTowns-English";
-const FILE_LABELS = {
-  "VAIN_A_DAT.tsv": "Chapter A",
-  "VAIN_B_DAT.tsv": "Chapter B",
-  "VAIN_C_DAT.tsv": "Chapter C",
-  "VAIN_S_DAT.tsv": "System / battle",
-};
+const FILE_LABELS = {};   // tabs use the raw file stem (VAIN_A_DAT, ...)
+
+function fileLabel(f) {
+  return FILE_LABELS[f] || f.replace(/\.tsv$/, "");
+}
 
 let SCRIPT = {}, STATUS = {}, SUGG = {};
 let curFile = null;
@@ -43,7 +42,7 @@ function renderTabs() {
     const a = document.createElement("a");
     a.href = "#/" + f;
     a.dataset.file = f;
-    a.innerHTML = `${FILE_LABELS[f] || f} <small>${t.done}/${t.lines}</small>`;
+    a.innerHTML = `${fileLabel(f)} <small>${t.done}/${t.lines}</small>`;
     nav.appendChild(a);
   }
   const names = (STATUS.names || []);
@@ -221,7 +220,7 @@ function renderSearch(q, onlyUn) {
     }
   }
   const head = div("block-head");
-  head.innerHTML = `<h2>${rows.length} matching lines <small>in ${FILE_LABELS[curFile] || curFile}</small></h2>`;
+  head.innerHTML = `<h2>${rows.length} matching lines <small>in ${fileLabel(curFile)}</small></h2>`;
   el.appendChild(head);
   const byBlock = {};
   for (const r of rows) (byBlock[r.block] ??= []).push(r.l);
