@@ -71,9 +71,23 @@ def main():
     budget_note = ""
     if not problems and jp_text is None:
         problems.append(f"line id {block_s} {str_s} not found in {tsv_name}")
-    # NOTE: there is no per-scene byte budget anymore — the build grows archives
-    # and repoints the engine's scene table, so translations can be any length.
-    # Only syntax and rendered-line width are checked.
+    elif not problems:
+        # reject mis-extracted rows whose original spans event bytecode (0xff):
+        # translating them corrupts the scene (crash). Can't be safely localized.
+        try:
+            src = (reinsert.IsoSource()
+                   if reinsert.IMG.exists() and reinsert.IMG.stat().st_size > 1_000_000
+                   else reinsert.PackSource())
+            blk = src.block(archive, block_off)
+            a, b = reinsert.string_span(blk, str_off)
+            if 0xFF in blk[a:b]:
+                problems.append("this line was mis-extracted (it spans the scene's "
+                                "event bytecode) and can't be translated yet — skip it")
+        except Exception:
+            pass
+    # NOTE: no per-scene byte budget — the build grows archives and repoints the
+    # engine scene table, so translations can be any length. Only syntax, line
+    # width, and this safety check apply.
 
     def original_section():
         if jp_text is None:
