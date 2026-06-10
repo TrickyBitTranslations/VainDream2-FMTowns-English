@@ -87,7 +87,11 @@ def main():
                 if t - 1 < len(raw_recs) and sane_record(raw_recs[t - 1])}
 
     pack = {"blocks": blocks, "tokens": tokens, "names": names,
-            "jp_names": {str(t): jp for t, jp in jp_clean.items()}}
+            "jp_names": {str(t): jp for t, jp in jp_clean.items()},
+            # raw record byte lengths for EVERY slot up to the last sane one
+            # (empty records count in token indexing): CI name-budget checks
+            "jp_lens": {str(t): len(raw_recs[t - 1])
+                        for t in range(1, max(jp_clean) + 1)}}
     OUT.write_bytes(gzip.compress(json.dumps(pack).encode(), mtime=0))
     print(f"wrote {OUT.relative_to(ROOT)}: {n} blocks across {len(blocks)} archives, "
           f"{len(tokens)} name tokens ({OUT.stat().st_size >> 10} KB)")

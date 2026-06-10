@@ -43,6 +43,7 @@ TRANSLATIONS = {
     "いらっしゃい": "Welcome",
     "へへっ": "Heheh",
     "お兄ちゃん": "Bro",
+    "の武器屋": "Weapon Shop",
     "未使用": "X",          # placeholders, shrunk to free budget
 }
 PAD_RECORD = "未使用"       # last placeholder absorbs the remaining slack
