@@ -8,6 +8,9 @@ The game was released by one of its developers - you can get it from
 contain the game; it contains the translation and the tooling that builds a
 patched, bootable English image from your own copy.
 
+**Browse the script and suggest translations here:**
+**<https://trickybittranslations.github.io/VainDream2-FMTowns-English/>**
+
 ## Status
 
 - Engine work done: the game's `dlz` compression, custom text encoding, and
@@ -23,9 +26,11 @@ patched, bootable English image from your own copy.
 
 See **[CONTRIBUTING.md](CONTRIBUTING.md)**. Short version:
 
-- Easiest: open a **Translation suggestion** issue (there's a form). A bot
-  checks your line (charset, width, the scene's byte budget) and replies in
-  about a minute. No setup needed at all.
+- Easiest: find a line on the
+  [translation site](https://trickybittranslations.github.io/VainDream2-FMTowns-English/)
+  and hit **Suggest** - it opens a prefilled GitHub issue. A bot checks your
+  line (charset, width, the scene's byte budget) and replies in about a
+  minute. No setup needed at all.
 - Or clone, edit the `english` column in `script/*.tsv`, run
   `python tools/reinsert.py --check`, and open a PR. Validation runs in CI.
 
