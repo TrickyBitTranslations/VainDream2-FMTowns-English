@@ -145,6 +145,19 @@ class D88:
                 return d88_off + (flat_off - flat_start)
         raise IndexError(f"flat offset {flat_off} out of range")
 
+    def patch_span(self, flat_off, new_bytes):
+        """Length-preserving write of a (possibly large) byte run at flat_off,
+        in one pass over the sector map. Returns a new D88 image."""
+        out = bytearray(self.image)
+        end = flat_off + len(new_bytes)
+        for flat_start, d88_off, size in self.sectors:
+            lo = max(flat_off, flat_start)
+            hi = min(end, flat_start + size)
+            if lo < hi:
+                dst = d88_off + (lo - flat_start)
+                out[dst:dst + (hi - lo)] = new_bytes[lo - flat_off:hi - flat_off]
+        return bytes(out)
+
 
 def read_d88(src):
     return D88(_as_bytes(src))
