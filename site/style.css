@@ -113,6 +113,20 @@ a.sug { font-size: 12px; padding: 3px 8px; border-radius: 5px; border: 1px solid
   display: inline-block; font-size: 12px; letter-spacing: 1px;
   border: 1px solid #e26a5a55; border-radius: 4px; padding: 0 6px;
 }
+.token-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px;
+}
+.token-chip {
+  background: var(--panel); border: 1px solid var(--gold-dim);
+  border-radius: 6px; padding: 8px 12px; cursor: pointer;
+  display: flex; align-items: baseline; gap: 10px;
+}
+.token-chip:hover { background: var(--panel2); }
+.token-chip.copied { border-color: var(--green); }
+.token-chip code { color: #e26a5a; font-size: 14px; }
+.token-chip .jp { color: var(--dim); font-size: 12px; margin-left: auto; }
+.block-head code { color: #e26a5a; }
 .page-break {
   display: block; color: var(--gold-dim); font-size: 11px;
   letter-spacing: 2px; margin: 2px 0;

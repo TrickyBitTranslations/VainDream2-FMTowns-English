@@ -55,6 +55,13 @@ function renderTabs() {
     a.innerHTML = `Names &amp; terms <small>${decided}/${names.length}</small>`;
     nav.appendChild(a);
   }
+  if (Object.keys(STATUS.tokens || {}).length) {
+    const a = document.createElement("a");
+    a.href = "#/tokens";
+    a.dataset.file = "tokens";
+    a.innerHTML = `&#123;Tokens&#125;`;
+    nav.appendChild(a);
+  }
 }
 
 function route() {
@@ -64,11 +71,44 @@ function route() {
   for (const a of document.querySelectorAll("#tabs a"))
     a.classList.toggle("active", a.dataset.file === curFile);
   if (curFile === "names") { renderNames(); return; }
+  if (curFile === "tokens") { renderTokens(); return; }
   const q = document.getElementById("search").value.trim().toLowerCase();
   const onlyUn = document.getElementById("only-untranslated").checked;
   if (q || onlyUn) renderSearch(q, onlyUn);
   else if (block) renderBlock(curFile, block);
   else renderBlocks(curFile);
+}
+
+function renderTokens() {
+  const el = document.getElementById("content");
+  el.innerHTML = "";
+  const head = div("block-head");
+  head.innerHTML =
+    `<h2>Embeddable name tokens <small>type <code>{Name}</code> in a translation
+     to insert that name in the in-game highlight color - click to copy</small></h2>`;
+  el.appendChild(head);
+  const q = document.getElementById("search").value.trim().toLowerCase();
+  // dedupe by English name (the data has one entry per token id)
+  const byEn = {};
+  for (const [, en] of Object.entries(STATUS.tokens || {})) byEn[en] = en;
+  const jpFor = {};
+  for (const n of (STATUS.names || [])) if (n.en) jpFor[n.en] = n.jp;
+  const grid = div("token-grid");
+  for (const en of Object.values(byEn).sort((a, b) => a.localeCompare(b))) {
+    if (q && !en.toLowerCase().includes(q)
+          && !(jpFor[en] || "").toLowerCase().includes(q)) continue;
+    const chip = div("token-chip");
+    chip.innerHTML = `<code>{${esc(en)}}</code>`
+      + (jpFor[en] ? `<span class="jp">${esc(jpFor[en])}</span>` : "");
+    chip.title = "Click to copy {" + en + "}";
+    chip.addEventListener("click", () => {
+      navigator.clipboard?.writeText(`{${en}}`);
+      chip.classList.add("copied");
+      setTimeout(() => chip.classList.remove("copied"), 800);
+    });
+    grid.appendChild(chip);
+  }
+  el.appendChild(grid);
 }
 
 function renderNames() {
