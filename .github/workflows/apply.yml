@@ -58,6 +58,10 @@ jobs:
           git add script/
           git commit -m "Apply suggestion #${{ github.event.issue.number }}"
           git push
+      - name: Refresh the site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-site --repo ${{ github.repository }} || true
       - name: Close and thank
         env:
           GH_TOKEN: ${{ github.token }}
@@ -101,6 +105,10 @@ jobs:
           git add tools/patch_names.py
           git commit -m "Apply name suggestion #${{ github.event.issue.number }}"
           git push
+      - name: Refresh the site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-site --repo ${{ github.repository }} || true
       - name: Close and thank
         env:
           GH_TOKEN: ${{ github.token }}
