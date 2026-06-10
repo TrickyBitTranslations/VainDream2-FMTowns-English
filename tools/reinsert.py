@@ -91,6 +91,13 @@ TYPEWRITER = b"\x03\x30"    # per-char delay 8 ([0x2df]) - the typewriter effect
                             # replace that span, so re-emit it per string.
 
 
+def _closest_token(key, tokens):
+    """Nearest known name token to a misspelled {KEY}, or None."""
+    import difflib
+    m = difflib.get_close_matches(key.upper(), tokens.keys(), n=1, cutoff=0.6)
+    return m[0].title() if m else None
+
+
 def compile_english(text, tokens):
     """Translate the TSV `english` syntax to engine bytes. (Half-width is the
     engine DEFAULT now - patch_main_exp.py, so no ⟨03 03⟩ prefix needed.)"""
@@ -106,7 +113,15 @@ def compile_english(text, tokens):
             key = part[1:-1]
             tok = tokens.get(key.upper())
             if tok is None:
-                tok = int(key, 16)
+                # allow a raw hex token id; otherwise it's an unknown name
+                try:
+                    tok = int(key, 16)
+                except ValueError:
+                    hint = _closest_token(key, tokens)
+                    raise ValueError(
+                        f"unknown name token {{{key}}}"
+                        + (f" - did you mean {{{hint}}}?" if hint else "")
+                        + " (see tools/reinsert.py --tokens for the list)")
             out += bytes([0x02, tok])
         else:
             out += en_encode(part)
