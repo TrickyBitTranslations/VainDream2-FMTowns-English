@@ -133,8 +133,11 @@ function renderBlocks(file) {
   const el = document.getElementById("content");
   el.innerHTML = "";
   const grid = div("block-grid");
+  let shown = 0;
   for (const block of Object.keys(SCRIPT[file])) {
     const { real, done, budget } = blockMeta(file, block);
+    if (real.length === 0) continue;          // all engine-data rows, nothing to translate
+    shown++;
     const card = div("block-card");
     const pct = real.length ? (100 * done / real.length) : 0;
     card.innerHTML =
@@ -146,6 +149,7 @@ function renderBlocks(file) {
     grid.appendChild(card);
   }
   el.appendChild(grid);
+  if (!shown) el.innerHTML = `<p class="dim">No translatable scenes in this file.</p>`;
 }
 
 function renderBlock(file, block) {
