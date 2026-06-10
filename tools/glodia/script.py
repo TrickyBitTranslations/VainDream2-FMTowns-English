@@ -67,6 +67,11 @@ def parse_string(data, i, names):
         b = data[i]
         if b == 0x00:
             return i + 1, "".join(out), speaker, glyphs
+        if b == 0xFF:
+            # event separator: a hard boundary. End the string here WITHOUT
+            # consuming it, so the splice never crosses event bytecode (which
+            # would corrupt the scene). The next chunk starts after the 0xff.
+            return i, "".join(out), speaker, glyphs
         if b == 0x01:
             out.append("\n"); i += 1
         elif b == 0x02:

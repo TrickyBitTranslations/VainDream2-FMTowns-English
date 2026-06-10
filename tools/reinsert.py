@@ -129,8 +129,9 @@ def compile_english(text, tokens):
 
 
 def string_span(block, str_off):
-    """(prefix_end, end_excl_terminator): preserve leading fmt ops + the
-    ⟨02 spk⟩⟨01⟩ box-title prefix; the replaceable text runs to the 0x00."""
+    """(prefix_end, end): preserve leading fmt ops + the ⟨02 spk⟩⟨01⟩ box-title
+    prefix; the replaceable text runs to the next 0x00 OR 0xff (event separator)
+    — whichever comes first — so a splice never crosses event bytecode."""
     j = str_off
     while block[j] == 0x03:
         j += 2
@@ -138,7 +139,9 @@ def string_span(block, str_off):
         j += 3
     elif block[j] == 0x01:
         j += 1
-    end = block.index(b"\x00", j)
+    end = j
+    while end < len(block) and block[end] not in (0x00, 0xFF):
+        end += 1
     return j, end
 
 
