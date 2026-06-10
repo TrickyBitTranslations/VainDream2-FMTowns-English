@@ -52,6 +52,7 @@ TRANSLATIONS = {
     "看護兵": "Medic",
     "ドラゴン　ライダー": "Dragon Rider",
     "を受け取った。": "received",
+    "重装騎兵団": "Heavy Cavalry Corps",
     "未使用": "X",          # placeholders, shrunk to free budget
 }
 PAD_RECORD = "未使用"       # last placeholder absorbs the remaining slack
