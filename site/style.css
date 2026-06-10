@@ -84,6 +84,17 @@ main { padding: 18px 24px 60px; max-width: 1100px; margin: 0 auto; }
 table.lines { width: 100%; border-collapse: collapse; }
 table.lines tr { border-bottom: 1px solid #ffffff12; }
 table.lines tr.todo { background: #ffffff06; }
+table.lines tr.head th {
+  text-align: left; padding: 6px 10px; font-size: 11px;
+  text-transform: uppercase; letter-spacing: 1px; color: var(--gold-dim);
+  border-bottom: 1px solid var(--gold-dim);
+}
+table.lines tr.unsafe td { color: #5e544c; }
+table.lines tr.unsafe td.sp { color: #5e544c; }
+.engine {
+  font-size: 11px; color: #5e544c; border: 1px solid #5e544c;
+  padding: 2px 8px; border-radius: 5px;
+}
 table.lines td { padding: 8px 10px; vertical-align: top; }
 td.sp { width: 110px; color: var(--gold); font-size: 13px; white-space: nowrap; }
 td.jp { width: 38%; white-space: pre-line; }

@@ -63,9 +63,10 @@ function route() {
 
 function blockMeta(file, block) {
   const lines = SCRIPT[file][block];
-  const done = lines.filter(l => l.en).length;
+  const real = lines.filter(l => !isEngineData(l));
+  const done = real.filter(l => l.en).length;
   const b = (STATUS.budgets || {})[file + ":" + block];
-  return { lines, done, budget: b };
+  return { lines, real, done, budget: b };
 }
 
 function renderBlocks(file) {
@@ -73,13 +74,13 @@ function renderBlocks(file) {
   el.innerHTML = "";
   const grid = div("block-grid");
   for (const block of Object.keys(SCRIPT[file])) {
-    const { lines, done, budget } = blockMeta(file, block);
+    const { real, done, budget } = blockMeta(file, block);
     const card = div("block-card");
-    const pct = lines.length ? (100 * done / lines.length) : 0;
+    const pct = real.length ? (100 * done / real.length) : 0;
     card.innerHTML =
       `<h3>Scene ${esc(block)}</h3>
        <div class="progress sm"><div style="width:${pct}%"></div></div>
-       <p>${done}/${lines.length} lines` +
+       <p>${done}/${real.length} lines` +
       (budget ? ` · ${budget.limit - budget.used} bytes free` : "") + `</p>`;
     card.addEventListener("click", () => location.hash = `#/${file}/${block}`);
     grid.appendChild(card);
@@ -90,11 +91,11 @@ function renderBlocks(file) {
 function renderBlock(file, block) {
   const el = document.getElementById("content");
   el.innerHTML = "";
-  const { lines, done, budget } = blockMeta(file, block);
+  const { lines, real, done, budget } = blockMeta(file, block);
   const head = div("block-head");
   head.innerHTML =
     `<a href="#/${file}">← scenes</a>
-     <h2>Scene ${esc(block)} <small>${done}/${lines.length} translated` +
+     <h2>Scene ${esc(block)} <small>${done}/${real.length} translated` +
     (budget ? ` · ${budget.used}/${budget.limit} bytes (${budget.limit - budget.used} free)` : "") +
     `</small></h2>`;
   el.appendChild(head);
@@ -107,7 +108,7 @@ function renderSearch(q, onlyUn) {
   const rows = [];
   for (const [block, lines] of Object.entries(SCRIPT[curFile])) {
     for (const l of lines) {
-      if (onlyUn && l.en) continue;
+      if (onlyUn && (l.en || isEngineData(l))) continue;
       if (q && !(l.jp.toLowerCase().includes(q)
                  || enPlain(l.en).toLowerCase().includes(q)
                  || speakerName(l.sp).toLowerCase().includes(q)
@@ -129,19 +130,46 @@ function renderSearch(q, onlyUn) {
   }
 }
 
+/* Rows flagged by the data build as extraction noise that crossed into
+   engine bytecode — shown dimmed, not translatable yet. */
+function isEngineData(l) {
+  return l.x === 1;
+}
+
 function linesTable(file, block, lines) {
   const table = document.createElement("table");
   table.className = "lines";
+  const thead = document.createElement("tr");
+  thead.className = "head";
+  for (const [cls, label] of [["sp", "Speaker"], ["jp", "Japanese"],
+                              ["en", "English"], ["act", ""]]) {
+    const th = document.createElement("th");
+    th.className = cls;
+    th.textContent = label;
+    thead.appendChild(th);
+  }
+  table.appendChild(thead);
   for (const l of lines) {
     const tr = document.createElement("tr");
     const sug = SUGG[file + ":" + block + " " + l.id] || [];
     const open = sug.filter(s => s.state === "open");
-    tr.className = l.en ? "done" : "todo";
+    const unsafe = isEngineData(l);
+    tr.className = unsafe ? "unsafe" : (l.en ? "done" : "todo");
     tr.appendChild(td("sp", speakerName(l.sp)));
-    tr.appendChild(td("jp", l.jp.replaceAll("\\n", "\n")));
+    tr.appendChild(td("jp", l.jp.replaceAll(/(\\n)+/g, "\n")));
     tr.appendChild(tdEnglish(l.en));
     const act = document.createElement("td");
     act.className = "act";
+    if (unsafe) {
+      const s = document.createElement("span");
+      s.className = "engine";
+      s.title = "This row overlaps engine data and can't be translated yet.";
+      s.textContent = "engine data";
+      act.appendChild(s);
+      tr.appendChild(act);
+      table.appendChild(tr);
+      continue;
+    }
     if (open.length) {
       const best = open.find(s => s.verdict === "valid") || open[0];
       const a = document.createElement("a");

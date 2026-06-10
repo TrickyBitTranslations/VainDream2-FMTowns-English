@@ -28,6 +28,13 @@ def main():
         issues_path = pathlib.Path(sys.argv[sys.argv.index("--issues") + 1])
 
     # ---- script.json + per-file/block tallies --------------------------------
+    import re as _re
+
+    def is_engine_data(jp):
+        """Extraction noise that crossed into event bytecode — not translatable."""
+        return ("⟨" in jp or jp.startswith("。")
+                or _re.search(r"(\\n){3,}", jp) is not None)
+
     files = {}
     tally = defaultdict(lambda: {"lines": 0, "done": 0})
     per_block_rows = defaultdict(list)
@@ -38,10 +45,15 @@ def main():
             if len(c) < 4 or not c[0].startswith("0x"):
                 continue
             en = c[4].strip() if len(c) >= 5 else ""
-            blocks[c[0]].append({"id": c[1], "sp": c[2], "jp": c[3], "en": en})
-            tally[tsv.name]["lines"] += 1
+            line = {"id": c[1], "sp": c[2], "jp": c[3], "en": en}
+            if is_engine_data(c[3]):
+                line["x"] = 1                  # flagged; excluded from counts
+            else:
+                tally[tsv.name]["lines"] += 1
+                if en:
+                    tally[tsv.name]["done"] += 1
+            blocks[c[0]].append(line)
             if en:
-                tally[tsv.name]["done"] += 1
                 per_block_rows[(tsv.name, c[0])].append((int(c[1], 16), en))
         files[tsv.name] = {k: v for k, v in blocks.items()}
     (OUT / "script.json").write_text(
