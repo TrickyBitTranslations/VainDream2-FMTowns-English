@@ -28,6 +28,14 @@ param(
 $ErrorActionPreference = "Stop"
 $root = $PSScriptRoot
 $env:PYTHONUTF8 = "1"
+# The build imports the tools (grow_build -> import patch_main_exp, reinsert, ...),
+# so it can serve cached bytecode from __pycache__. These tools are edited
+# mid-session; to guarantee a build never runs stale code, don't write .pyc and
+# clear any left behind by ad-hoc tool runs. (Verify critical patched bytes in
+# the built artifact too -- see the post-build check below.)
+$env:PYTHONDONTWRITEBYTECODE = "1"
+Get-ChildItem -Path $root -Recurse -Directory -Filter "__pycache__" -ErrorAction SilentlyContinue |
+    Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
 
 function Invoke-Step([string]$label, [scriptblock]$action) {
     Write-Host "== $label" -ForegroundColor Cyan
@@ -69,6 +77,9 @@ Invoke-Step "refresh script/blockpack.json.gz (validation data)" {
 # CD (grown archives, relocating where needed). No per-scene byte budget.
 Invoke-Step "build EN floppy + CD (unbounded; relocates archives as needed)" {
     python (Join-Path $root "tools\grow_build.py")
+}
+Invoke-Step "verify: engine patches landed in the built floppy" {
+    python (Join-Path $root "tools\verify_patches.py")
 }
 
 Write-Host ""
