@@ -44,6 +44,12 @@ TRANSLATIONS = {
     "へへっ": "Heheh",
     "お兄ちゃん": "Bro",
     "の武器屋": "Weapon Shop",
+    # role / title tokens — used as highlighted box-title prefixes before a
+    # literal given name (e.g. {Swordmaiden} Sherry); highlight carries to \n.
+    # (the name table is tight on space; more await the DATA.BIN budget fix)
+    "女剣士": "Swordmaiden",
+    "剣士": "Swordsman",
+    "看護兵": "Medic",
     "未使用": "X",          # placeholders, shrunk to free budget
 }
 PAD_RECORD = "未使用"       # last placeholder absorbs the remaining slack
