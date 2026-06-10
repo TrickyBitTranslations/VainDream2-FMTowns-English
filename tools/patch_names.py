@@ -53,7 +53,7 @@ TRANSLATIONS = {
     "ドラゴン　ライダー": "Dragon Rider",
     "を受け取った。": "received",
     # the table now grows freely (FAT12 grow) — romanize away. Provisional:
-    "重装騎兵団": "Heavy Cavalry",
+    "重装騎兵団": "Heavy Cavalry Corps",
     "重装騎兵": "Cavalryman",
     "聖騎士団": "Paladins",
     "聖騎士": "Paladin",
