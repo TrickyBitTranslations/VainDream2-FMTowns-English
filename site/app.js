@@ -278,23 +278,29 @@ function tdEnglish(en) {
   const t = document.createElement("td");
   t.className = "en";
   if (!en) { t.textContent = "—"; return t; }
+  let afterPage = false;                 // \p{NAME}\n = next box's title header
   for (const part of en.split(/(\{[^}]+\}|\\n|\\p)/)) {
     if (!part) continue;
-    if (part === "\\n") t.appendChild(document.createElement("br"));
-    else if (part === "\\p") {
+    if (part === "\\n") {
+      t.appendChild(document.createElement("br"));
+    } else if (part === "\\p") {
       const d = document.createElement("span");
       d.className = "page-break";
-      d.textContent = "— page —";
+      d.textContent = "— next box —";
       t.appendChild(d);
+      afterPage = true;
+      continue;
     } else if (part.startsWith("{")) {
       const key = part.slice(1, -1).toUpperCase();
       const s = document.createElement("span");
-      s.className = "tok";
+      s.className = afterPage ? "tok box-title" : "tok";
+      if (afterPage) s.title = "Title of the next dialogue box";
       s.textContent = (STATUS.tokens || {})[key] || part;
       t.appendChild(s);
     } else {
       t.appendChild(document.createTextNode(part));
     }
+    afterPage = false;
   }
   return t;
 }

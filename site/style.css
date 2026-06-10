@@ -109,6 +109,10 @@ a.suggest {
 a.suggest:hover { background: var(--gold-dim); color: #fff; text-decoration: none; }
 a.sug { font-size: 12px; padding: 3px 8px; border-radius: 5px; border: 1px solid; }
 .tok { color: #e26a5a; }                 /* name tokens, like the in-game highlight */
+.tok.box-title {
+  display: inline-block; font-size: 12px; letter-spacing: 1px;
+  border: 1px solid #e26a5a55; border-radius: 4px; padding: 0 6px;
+}
 .page-break {
   display: block; color: var(--gold-dim); font-size: 11px;
   letter-spacing: 2px; margin: 2px 0;
