@@ -43,14 +43,14 @@ TRANSLATIONS = {
     "いらっしゃい": "Welcome",
     "へへっ": "Haha",
     "お兄ちゃん": "Bro",
-    "の武器屋": "Weapon Shop",
+    "の武器屋": "WeaponShop",
     # role / title tokens — used as highlighted box-title prefixes before a
     # literal given name (e.g. {Swordmaiden} Sherry); highlight carries to \n.
     # (the name table is tight on space; more await the DATA.BIN budget fix)
-    "女剣士": "Swordmaiden",
-    "剣士": "Swordsman",
+    "女剣士": "Swordmaid",
+    "剣士": "Fencer",
     "看護兵": "Medic",
-    "ドラゴン　ライダー": "Dragon Rider",
+    "ドラゴン　ライダー": "DgnRider",
     "を受け取った。": "received",
     # the table now grows freely (FAT12 grow) — romanize away. Provisional:
     "重装騎兵団": "Hvy Cavalry",
@@ -65,72 +65,72 @@ TRANSLATIONS = {
     "ゼロ船長": "Capt Zero",
     "ポップ": "Pop",
     "タップ": "Tap",
-    "ウィルディース艦長": "Capt Wildeath",
+    "ウィルディース艦長": "Capt Wildeth",
     "シンシア": "Cynthia",
     "カル伯爵": "Count Cal",
-    "クレイボーン": "Claybourne",
+    "クレイボーン": "Claybyrn",
     "マージス": "Margis",
     "シュタイナー": "Steiner",
-    "竜騎士": "Dragon Knight",
+    "竜騎士": "Dragoon",
     "の宿屋": "Inn",
-    "の道具屋": "Item Shop",
-    "の防具屋": "Armor Shop",
-    "の魔法屋": "Magic Shop",
+    "の道具屋": "ItemShop",
+    "の防具屋": "ArmorShop",
+    "の魔法屋": "MagicShop",
     # --- characters / monsters ---
     "ドリアード": "Dryad", "ドード": "Dode", "ビアガン": "Biagan", "バーグ": "Berg",
-    "カーム": "Calm", "ナイトメア": "Nightmare", "パチュンガ": "Pachunga",
+    "カーム": "Calm", "ナイトメア": "Haunt", "パチュンガ": "Pachunga",
     "ライランド": "Ryland", "クーレイア": "Kuleia", "アスタルト": "Astarte",
-    "メーフィス": "Mephis", "フロスト": "Frost", "パディッシュ": "Paddish",
+    "メーフィス": "Mephis", "フロスト": "Frost", "パディッシュ": "Padish",
     "バーダル": "Bardal", "カーネル": "Karnel", "ブレイ": "Brei", "フォーゲル": "Vogel",
     "ルード": "Rude", "ダイン": "Dyne", "ピローム": "Pirom", "ダイガーン": "Daigarn",
-    "モビーディック": "Moby Dick", "ウィルディース": "Wildeath", "ゼロ": "Zero",
+    "モビーディック": "Whale", "ウィルディース": "Wildeath", "ゼロ": "Zero",
     "ローラ": "Laura", "クラウス": "Klaus", "ソウルン": "Souln", "アトォム": "Atom",
-    "パンツァードラグーン": "Panzer Dragoon", "ローラ ": "Laura",
+    "パンツァードラグーン": "PanzerDragoon", "ローラ ": "Laura",
     # --- places ---
-    "クラウスの村": "Klaus Village", "氷の洞窟": "Ice Cavern", "レジーナの森": "Regina Forest",
-    "ジーク王国": "Zeke Kingdom", "ジーク城": "Zeke Castle", "ジーク": "Zeke",
-    "カナール採掘場": "Canal Mine", "マーズトンネル": "Mars Tunnel", "マーズ砦": "Mars Fort",
-    "メインキャンプ": "Main Camp", "セルーシュ王国": "Serush Kingdom",
-    "セルーシュ城": "Serush Castle", "セルーシュ": "Serush", "地下礼拝堂": "Catacombs",
-    "地下水道": "Sewers", "神殿遺跡": "Temple Ruins", "紫水晶の丘": "Amethyst Hill",
-    "シルバーホーン": "Silverhorn", "砂の城": "Sand Castle", "砂の海": "Sand Sea",
-    "石の王国": "Stone Kingdom", "ドワーフの洞窟": "Dwarf Cave", "マージスの洞窟": "Margis Cave",
-    "フローディーテの森": "Frodite Forest", "鎧の塔": "Armor Tower", "地下宮殿": "Crypt",
-    "タリアトフ大陸": "Taliatov", "バッカス２世号": "Bacchus II", "クイーンストーカー号": "Queen Stalker",
+    "クラウスの村": "KlausVill", "氷の洞窟": "IceCave", "レジーナの森": "Regina",
+    "ジーク王国": "ZekeKingd", "ジーク城": "ZekeCstl", "ジーク": "Zeke",
+    "カナール採掘場": "CanalMine", "マーズトンネル": "MarsTnl", "マーズ砦": "MarsFort",
+    "メインキャンプ": "MainCamp", "セルーシュ王国": "SerushKingd",
+    "セルーシュ城": "SerushCstl", "セルーシュ": "Serush", "地下礼拝堂": "Crypt",
+    "地下水道": "Sewers", "神殿遺跡": "TempleRuins", "紫水晶の丘": "AmethystHill",
+    "シルバーホーン": "Silverhorn", "砂の城": "SandCstl", "砂の海": "SandSea",
+    "石の王国": "StoneKingd", "ドワーフの洞窟": "DwarfCave", "マージスの洞窟": "MargisCave",
+    "フローディーテの森": "FroditeWoods", "鎧の塔": "ArmorTwr", "地下宮殿": "Undercity",
+    "タリアトフ大陸": "Taliatov", "バッカス２世号": "Bacchus2", "クイーンストーカー号": "QueenStlkr",
     # --- roles / titles / monsters ---
-    "守護騎士": "Guardian", "神官竜": "Priest Dragon", "神竜": "Divine Dragon", "魔神": "Demon God",
+    "守護騎士": "Guardian", "神官竜": "PriestDgn", "神竜": "Wyrm", "魔神": "Demon",
     "魔導士": "Mage", "ドワーフ": "Dwarf", "デーモン": "Demon", "ハンター": "Hunter",
-    "魔物": "Monster", "宮廷魔術師": "High Mage", "大神官": "High Priest", "ワイバーン": "Wyvern",
-    "水晶竜": "Crystal Dragon", "神官戦士": "Monk", "騎士達": "Knights",
-    "ダークエルフ": "Dark Elf", "ミノタウロス": "Minotaur", "精霊達": "Spirits", "砂鯨": "Sand Whale",
-    "船長": "Capt", "キメラ": "Chimera", "砂船": "Sand Ship", "潜砂艦": "Sand Sub", "海賊": "Pirate",
+    "魔物": "Monster", "宮廷魔術師": "Mage", "大神官": "Priest", "ワイバーン": "Wyvern",
+    "水晶竜": "CrystlDrg", "神官戦士": "Monk", "騎士達": "Knights",
+    "ダークエルフ": "DarkElf", "ミノタウロス": "Minotaur", "精霊達": "Spirits", "砂鯨": "Whale",
+    "船長": "Capt", "キメラ": "Chimera", "砂船": "SandShip", "潜砂艦": "SandSub", "海賊": "Pirate",
     "エルフ": "Elf", "騎士": "Knight", "メデューサ": "Medusa", "リッチ": "Lich", "ドラグーン": "Dragoon",
-    "マスター": "Master", "精霊": "Spirit", "亡霊": "Ghost", "八賢者": "Eight Sages", "見張り": "Guard",
-    "団長": "Cmdr", "金竜": "Gold Dragon", "銀竜": "Slvr Dragon", "白竜": "Wht Dragon",
-    "緑竜": "Grn Dragon", "黒竜": "Blk Dragon", "炎竜": "Fire Dragon", "水竜": "Wer Dragon",
-    "水晶の角": "Crystal Horn", "パラサイト　デーモン": "Parasite Demon", "女の子": "Girl",
+    "マスター": "Master", "精霊": "Spirit", "亡霊": "Ghost", "八賢者": "8 Sages", "見張り": "Guard",
+    "団長": "Cmdr", "金竜": "GoldDrg", "銀竜": "SlvrDrg", "白竜": "WhtDrg",
+    "緑竜": "GrnDrg", "黒竜": "BlkDrg", "炎竜": "FireDrg", "水竜": "WtrDrg",
+    "水晶の角": "CrystHorn", "パラサイト　デーモン": "ParasiteDmn", "女の子": "Girl",
     # --- items / magic ---
-    "黄金のナイフ": "Gold Knife", "ポーション": "Potion", "天の水晶": "Sky Crystal",
-    "地の水晶": "Earth Crystal", "ブーツ": "Boots", "ミスリル": "Mythril", "ジオクリスタル": "Geo Crystal",
-    "指輪": "Ring", "ロッド": "Rod", "薬草袋": "Herb Pouch", "薬草": "Herb", "ナイフ": "Knife",
-    "ローブ": "Robe", "マント": "Cloak", "ライトニング　ボルト": "Lightning Bolt", "テミス": "Themis",
-    "暗黒魔術": "Dark Magic", "魔導弾": "Magic Bolt", "遠見の水晶": "Scrying Crystal",
+    "黄金のナイフ": "GoldKnife", "ポーション": "Potion", "天の水晶": "SkyCryst",
+    "地の水晶": "EarthCryst", "ブーツ": "Boots", "ミスリル": "Mythrl", "ジオクリスタル": "GeoCryst",
+    "指輪": "Ring", "ロッド": "Rod", "薬草袋": "HerbBag", "薬草": "Herb", "ナイフ": "Knife",
+    "ローブ": "Robe", "マント": "Cloak", "ライトニング　ボルト": "LtngBolt", "テミス": "Themis",
+    "暗黒魔術": "DrkMagic", "魔導弾": "MagicBlt", "遠見の水晶": "ScryOrb",
     "アーマー": "Armor", "メイル": "Mail", "ソード": "Sword", "アックス": "Axe", "金属製": "Metal",
-    "紫水晶": "Amethyst", "水晶": "Crystal", "ショップ": "Shop", "換金": "Exchange",
+    "紫水晶": "Amethyst", "水晶": "Cryst", "ショップ": "Shop", "換金": "Trade",
     "３剣７": "Sword", "３鎧７": "Armor", "３斧７": "Axe", "３槍７": "Spear", "３盾７": "Shield",
     # --- common phrases / UI fragments / suffixes ---
-    "おじさん": "Mister", "おばさん": "Lady", "あんちゃん": "Bud", "おじちゃん": "Mister",
+    "おじさん": "Mr.", "おばさん": "Ms.", "あんちゃん": "Bud", "おじちゃん": "Mr.",
     "が仲間に加わった。": " joined party.", "が仲間から外れた。": " left party.",
-    "やめる": "Cancel", "・品物を見せて。": "・Show your wares.", "・話をしよう。": "・Let's talk.",
-    "・持物を売ります。": "・Sell items.", "・テミスを換金して。": "・Exchange Themis.",
-    "・瞬間移動したい。": "・Teleport.", "・お店を出よう。": "・Leave shop.",
-    "ありがとうございました": "Thank you.", "ありがとう": "Thanks", "じゃ。": "Well then.",
-    "キャンプ": "Camp", "宝箱": "Chest", "魔法陣": "Magic Circle",
+    "やめる": "Cancel", "・品物を見せて。": "・Items.", "・話をしよう。": "・Talk.",
+    "・持物を売ります。": "・Sell.", "・テミスを換金して。": "・Trade Themis.",
+    "・瞬間移動したい。": "・Teleport.", "・お店を出よう。": "・Leave.",
+    "ありがとうございました": "Thanks.", "ありがとう": "Thanks", "じゃ。": "Bye.",
+    "キャンプ": "Camp", "宝箱": "Chest", "魔法陣": "Glyph",
     "・・・・・": ".....", "・・・": "...",
-    "ォォォォォォォ": "Aaah", "ぇぇぇぇぇぇぇ": "Eeeh",
-    "天の法皇よ": "O God.", "地の法皇よ。": "O Titan.",
-    "魔導の法たる我に力を与えたまえ。": "Magic, grant me power.",
-    "魔の根源たるその炎で、我が敵を焼きつくせ。": "With flame at, burn my foes to ash.",
+    "ォォォォォォォ": "AAH", "ぇぇぇぇぇぇぇ": "EEE",
+    "天の法皇よ": "Lord!", "地の法皇よ。": "Titan!",
+    "魔導の法たる我に力を与えたまえ。": "Power!",
+    "魔の根源たるその炎で、我が敵を焼きつくせ。": "Burn!",
     # left untranslated: grammar particles (ますか/です。/んです。/ですか？ — inserted
     # mid-sentence, don't map to English standalone), ∪, and the binary tail record.
     "未使用": "X",          # placeholder records, left untranslated
@@ -141,6 +141,31 @@ PAD_RECORD = "未使用"       # last placeholder absorbs the remaining slack
 def read_file_from(fs, name):
     from extract_floppy import read_file
     return read_file(fs, name)
+
+
+# the playable cast — always keep these even if no dialogue references them yet
+CAST = {"ウォーリック", "レイナ", "ファーニス", "ブージ", "ダ　ン", "ランバート", "大婆様",
+        "セシリア", "ブラフォード", "セス", "ナッツ", "ライド", "キャロル", "ベイグ"}
+
+
+def _protected_indices(decoded):
+    """Record indices that must NOT be dropped: names referenced by a {NAME}
+    token in any dialogue translation, plus the cast."""
+    import re
+    import reinsert
+    tokens = reinsert.name_token_map()                 # EN(upper) -> token id
+    referenced_tokens = set()
+    for tsv in (ROOT / "script").glob("*.tsv"):
+        for line in tsv.read_text(encoding="utf-8").splitlines()[1:]:
+            cols = line.split("\t")
+            if len(cols) >= 5 and cols[4].strip():
+                for ref in re.findall(r"\{([^}]+)\}", cols[4]):
+                    tok = tokens.get(ref.upper())
+                    if tok is not None:
+                        referenced_tokens.add(tok)
+    protected = {tok - 1 for tok in referenced_tokens}  # token is 1-based
+    protected |= {i for i, d in enumerate(decoded) if d in CAST}
+    return protected
 
 
 def main():
@@ -162,6 +187,11 @@ def main():
     chosen = {i for i, d in enumerate(decoded) if d in TRANSLATIONS and d != PAD_RECORD}
     pad_idx = max(i for i, d in enumerate(decoded) if d == PAD_RECORD)
 
+    # PROTECT names players actually see: any name referenced by a {NAME} token in
+    # a dialogue translation (else that line renders the Japanese name as garble),
+    # plus the playable cast. The auto-fit drops unprotected names first.
+    protected = _protected_indices(decoded)
+
     def body(sel, pad=0):
         # empty ALL unused placeholder records (reclaims their bytes); translate
         # chosen; keep the rest. The pad record then absorbs the exact slack.
@@ -171,9 +201,14 @@ def main():
         out[pad_idx] = b"\x04" * pad
         return data_bin[:TABLE_OFF] + b"\x00".join(out)
 
+    def overage(i):
+        return len(en(TRANSLATIONS[decoded[i]])) - len(recs[i])
+
     dropped = []
     while len(body(chosen)) > cap and chosen:
-        worst = max(chosen, key=lambda i: len(en(TRANSLATIONS[decoded[i]])) - len(recs[i]))
+        # drop the costliest UNPROTECTED name; only touch protected if forced
+        pool = [i for i in chosen if i not in protected] or list(chosen)
+        worst = max(pool, key=overage)
         chosen.discard(worst)
         dropped.append(decoded[worst])
     # pad the placeholder so DATA.BIN is exactly its original size
