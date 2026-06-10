@@ -156,9 +156,13 @@ def extract_strings(block, names, min_glyphs=4):
     n = len(block)
     while i < n:
         b = block[i]
-        # plausible string openers: speaker token, newline-start, fmt, or a glyph
-        # (never 0xff, that's the event-stream separator, ン only mid-text)
-        if b != 0xFF and (b in (0x01, 0x02, 0x03) or 0x15 <= b):
+        # plausible string openers: speaker token, newline-start, fmt op,
+        # ・ (ellipsis lines), or a glyph. Never 0xff (event separator) and
+        # never punctuation controls: a string that "starts" with 。、？！ー
+        # is really the tail of the previous one plus event bytes - skipping
+        # those starts lets the parse land on the true beginning instead.
+        if (b in (0x01, 0x02, 0x03, 0x19)
+                or (0x21 <= b <= 0xFE)):
             r = parse_string(block, i, names)
             if r:
                 end, text, speaker, glyphs = r
