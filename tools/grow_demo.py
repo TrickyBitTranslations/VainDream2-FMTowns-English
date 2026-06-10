@@ -15,6 +15,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 from glodia import disc, dlz
 from glodia.floppy import read_d88
+from collections import defaultdict
 import grow, reinsert, patch_main_exp, patch_names
 
 BASE = "Vain DreamII (1993)(Glodia)(Jp)"
@@ -36,21 +37,31 @@ def read_exe(fs):
 def main():
     iso = disc.extract_track1_iso(str(IMG), TRACK1_SECTORS)
     vain_a = disc.read_file(iso, "VAIN_A.DAT")
+    members = dict(dlz.iter_members(vain_a))
     tokens = reinsert.name_token_map()
 
-    # --- grow the wake-up scene's member past the old budget ---
-    member = next(m for o, m in dlz.iter_members(vain_a) if o == WOFF)
-    block = bytearray(dlz.decode(member, prefix=bytes(0x40000)))
-    s, e = reinsert.string_span(block, 0x24)
-    block[s:e] = reinsert.compile_english(LONG, tokens)
-    grown_member = dlz.encode(bytes(block))
-    old_comp = dlz.parse_header(member)[0]
-    new_comp = dlz.parse_header(grown_member)[0]
-    print(f"wake-up member compressed {old_comp} -> {new_comp} "
-          f"(old budget was {len(member)}; +{len(grown_member)-len(member)} bytes)")
+    # all VAIN_A translations from the TSV (so moved scenes show real English),
+    # grouped by block; the wake-up block also gets the long over-budget line
+    by_block = defaultdict(list)
+    for archive, block_off, str_off, english, _, _ in reinsert.load_rows():
+        if archive == "VAIN_A.DAT":
+            by_block[block_off].append((str_off, english))
+    by_block[WOFF].append((0x24, LONG))
+
+    overrides = {}
+    for block_off, lines in by_block.items():
+        block = bytearray(dlz.decode(members[block_off], prefix=bytes(0x40000)))
+        for str_off, english in sorted(lines, reverse=True):
+            s, e = reinsert.string_span(block, str_off)
+            block[s:e] = reinsert.compile_english(english, tokens)
+        overrides[block_off] = dlz.encode(bytes(block))
+
+    wm = overrides[WOFF]
+    print(f"wake-up member: {len(members[WOFF])} -> {len(wm)} bytes "
+          f"(old budget {len(members[WOFF])}; +{len(wm)-len(members[WOFF])} over)")
 
     old_offsets = [o for o, _ in dlz.iter_members(vain_a)]
-    new_vain_a, new_offsets = grow.rebuild(vain_a, {WOFF: grown_member})
+    new_vain_a, new_offsets = grow.rebuild(vain_a, overrides)
     old_size, new_size = len(vain_a), len(new_vain_a)
 
     lba, dir_size = disc._entries(iso)["VAIN_A.DAT"]

@@ -1,0 +1,159 @@
+"""Production grow build: apply ALL translations with NO per-scene budget.
+
+Rebuilds every archive at natural member sizes, repoints the engine scene
+tables in MAIN.EXP, and writes the archives to the CD — growing them in place
+when they still fit their sector allocation, relocating into free disc sectors
+(and updating the ISO directory record) when they don't.
+
+Outputs the EN floppy + EN CD, same as build.ps1's CD step but unbounded.
+
+Usage: python tools/grow_build.py [--demo]   (--demo also injects a long line)
+"""
+import pathlib, shutil, struct, sys
+from collections import defaultdict
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "tools"))
+from glodia import disc, dlz
+from glodia.floppy import read_d88
+import grow, reinsert, patch_main_exp, patch_names
+
+BASE = "Vain DreamII (1993)(Glodia)(Jp)"
+EN_D88 = ROOT / (BASE + "[SystemDisk]_EN.D88")
+IMG = ROOT / (BASE + ".img")
+EN_IMG = ROOT / (BASE + " [EN].img")
+TRACK1_SECTORS = 2715
+SEC = 2048
+RAW = disc.RAW
+
+
+# ---------- ISO geometry ----------
+def iso_geometry(iso):
+    """Return (pvd_vol_sectors, {name:(dir_rec_iso_off, lba, size)}, max_used_sec)."""
+    pvd = iso[16 * SEC:17 * SEC]
+    vol = struct.unpack("<I", pvd[80:84])[0]
+    rlba = struct.unpack("<I", pvd[158:162])[0]
+    rlen = struct.unpack("<I", pvd[166:170])[0]
+    d = iso[rlba * SEC: rlba * SEC + rlen]
+    recs = {}
+    maxsec = 0
+    i = 0
+    while i < len(d):
+        rl = d[i]
+        if rl == 0:
+            i = ((i // SEC) + 1) * SEC
+            continue
+        ext = struct.unpack("<I", d[i + 2:i + 6])[0]
+        size = struct.unpack("<I", d[i + 10:i + 14])[0]
+        nl = d[i + 32]
+        nm = d[i + 33:i + 33 + nl].split(b";")[0].decode("latin1", "replace")
+        recs[nm] = (rlba * SEC + i, ext, size)
+        maxsec = max(maxsec, ext + (size + SEC - 1) // SEC)
+        i += rl
+    return vol, recs, maxsec
+
+
+def raw_off(iso_off):
+    sec, within = divmod(iso_off, SEC)
+    return sec * RAW + SYNC(within)
+
+
+def SYNC(within):
+    return disc.SYNC_HEADER + within
+
+
+# ---------- main ----------
+def main(demo=False):
+    iso = disc.extract_track1_iso(str(IMG), TRACK1_SECTORS)
+    tokens = reinsert.name_token_map()
+    rows = reinsert.load_rows()
+    per_arch = defaultdict(lambda: defaultdict(list))
+    for archive, block_off, str_off, english, _, _ in rows:
+        per_arch[archive][block_off].append((str_off, english))
+    if demo:
+        per_arch["VAIN_A.DAT"][0x5E8A8].append(
+            (0x24, "Yawn... I could really go for a HUGE breakfast right now."))
+
+    # rebuild each touched archive at natural sizes
+    grown = {}                       # archive -> (new_bytes, old_offsets, new_offsets, old_size)
+    for archive, blocks in per_arch.items():
+        data = disc.read_file(iso, archive)
+        members = dict(dlz.iter_members(data))
+        overrides = {}
+        for block_off, lines in blocks.items():
+            block = bytearray(dlz.decode(members[block_off], prefix=bytes(0x40000)))
+            for s_off, en in sorted(lines, reverse=True):
+                a, b = reinsert.string_span(block, s_off)
+                block[a:b] = reinsert.compile_english(en, tokens)
+            overrides[block_off] = dlz.encode(bytes(block))
+        old_offsets = list(members.keys())
+        new_bytes, new_offsets = grow.rebuild(data, overrides)
+        grown[archive] = (new_bytes, old_offsets, new_offsets, len(data))
+        print(f"{archive}: {len(data)} -> {len(new_bytes)} bytes "
+              f"({len(new_bytes)-len(data):+d})")
+
+    # --- floppy: classifier + names + repoint every grown archive's table ---
+    patch_main_exp.main()
+    patch_names.main()
+    fs = read_d88(EN_D88.read_bytes())
+    from extract_floppy import read_file
+    exe = read_file(fs, "MAIN.EXP")
+    for archive, (nb, oo, no, osz) in grown.items():
+        exe, _, ch = grow.patch_offset_table(exe, archive, oo, no, osz, len(nb))
+        print(f"  floppy: {archive} table repointed ({ch} entries)")
+    EN_D88.write_bytes(fs.patch_span(fs.flat_offset_for_file("MAIN.EXP", 0), exe))
+
+    # --- CD: place grown archives, relocating as needed ---
+    vol, recs, maxsec = iso_geometry(iso)
+    # free regions (start_sec, n_sec): the end gap before track 2
+    free = [(maxsec, TRACK1_SECTORS - maxsec)]
+    placements = {}                  # archive -> (lba, new_bytes, dir_rec_off, new_size)
+    # first pass: in-place where it fits, collect relocations
+    relocate = []
+    for archive, (nb, oo, no, osz) in grown.items():
+        rec_off, lba, size = recs[archive]
+        old_sec = (osz + SEC - 1) // SEC
+        new_sec = (len(nb) + SEC - 1) // SEC
+        if new_sec <= old_sec:
+            placements[archive] = (lba, nb, rec_off, len(nb))
+        else:
+            free.append((lba, old_sec))     # free the old extent for reuse
+            relocate.append((archive, nb, rec_off))
+    # coalesce free, then first-fit the relocations (largest first)
+    def alloc(n):
+        free.sort()
+        for idx, (st, ln) in enumerate(free):
+            if ln >= n:
+                free[idx] = (st + n, ln - n)
+                return st
+        raise RuntimeError(f"no free region for {n} sectors (need ISO track extension)")
+    for archive, nb, rec_off in sorted(relocate, key=lambda x: -len(x[1])):
+        n = (len(nb) + SEC - 1) // SEC
+        lba = alloc(n)
+        placements[archive] = (lba, nb, rec_off, len(nb))
+        print(f"  CD: relocated {archive} -> LBA {lba} ({n} sectors)")
+
+    shutil.copyfile(IMG, EN_IMG)
+    new_maxsec = maxsec
+    with open(EN_IMG, "r+b") as f:
+        for archive, (lba, nb, rec_off, nsz) in placements.items():
+            nsec = (nsz + SEC - 1) // SEC
+            for i in range(nsec):
+                chunk = nb[i * SEC:(i + 1) * SEC].ljust(SEC, b"\x00")
+                f.seek((lba + i) * RAW + disc.SYNC_HEADER)
+                f.write(chunk)
+            # dir record: extent LBA (LE+BE) and size (LE+BE)
+            r = raw_off(rec_off)
+            f.seek(r + 2);  f.write(struct.pack("<I", lba) + struct.pack(">I", lba))
+            f.seek(r + 10); f.write(struct.pack("<I", nsz) + struct.pack(">I", nsz))
+            new_maxsec = max(new_maxsec, lba + nsec)
+        # extend PVD volume size if we spilled past it
+        if new_maxsec > vol:
+            r = raw_off(16 * SEC + 80)
+            f.seek(r); f.write(struct.pack("<I", new_maxsec) + struct.pack(">I", new_maxsec))
+            print(f"  CD: PVD volume size {vol} -> {new_maxsec} sectors")
+    print(f"wrote {EN_IMG.name} + {EN_D88.name}")
+
+
+if __name__ == "__main__":
+    main(demo="--demo" in sys.argv)
