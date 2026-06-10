@@ -1,0 +1,25 @@
+# Game data is NOT distributed here - bring your own copies (the developer
+# gives the game away at https://www.quarter-dev.info/v2/). These names are
+# ignored so they can never be committed by accident.
+*.img
+*.D88
+*.cue
+*.ccd
+*.sub
+*.iso
+*.TState
+*.sav
+
+# Derived / build outputs
+floppy_files/
+extracted/
+*_EN.D88
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor/OS noise
+.DS_Store

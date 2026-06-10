@@ -1,0 +1,46 @@
+name: validate-suggestion
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  validate:
+    if: contains(github.event.issue.labels.*.name, 'suggestion')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate the suggestion
+        id: validate
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          set +e
+          python tools/validate_suggestion.py > report.md
+          echo "ok=$?" >> "$GITHUB_OUTPUT"
+          cat report.md
+          exit 0
+      - name: Comment the result
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} \
+            --repo ${{ github.repository }} --body-file report.md
+      - name: Label the verdict
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ steps.validate.outputs.ok }}" = "0" ]; then
+            gh issue edit ${{ github.event.issue.number }} --repo ${{ github.repository }} \
+              --add-label valid --remove-label invalid || true
+          else
+            gh issue edit ${{ github.event.issue.number }} --repo ${{ github.repository }} \
+              --add-label invalid --remove-label valid || true
+          fi
