@@ -35,18 +35,37 @@ def main():
         return ("⟨" in jp or jp.startswith("。")
                 or _re.search(r"(\\n){3,}", jp) is not None)
 
+    src_blocks = (reinsert.IsoSource()
+                  if reinsert.IMG.exists() and reinsert.IMG.stat().st_size > 1_000_000
+                  else reinsert.PackSource())
+
+    def is_script_block(archive, block_s):
+        """Real scene blocks open with an ASCII tag (VD2A01, A01_, ...);
+        binary data blocks (stats tables etc.) don't — their 'strings' are
+        numeric bytes misread as name tokens."""
+        try:
+            head = bytes(src_blocks.block(archive, int(block_s, 16))[:4])
+        except Exception:
+            return True
+        ok = b"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_"
+        return all(b in ok for b in head)
+
     files = {}
     tally = defaultdict(lambda: {"lines": 0, "done": 0})
     per_block_rows = defaultdict(list)
     for tsv in sorted((ROOT / "script").glob("*.tsv")):
+        archive = tsv.name.replace("_DAT.tsv", ".DAT").replace("_PK.tsv", ".PK")
         blocks = defaultdict(list)
+        script_block = {}
         for row in tsv.read_text(encoding="utf-8").splitlines()[1:]:
             c = row.split("\t")
             if len(c) < 4 or not c[0].startswith("0x"):
                 continue
+            if c[0] not in script_block:
+                script_block[c[0]] = is_script_block(archive, c[0])
             en = c[4].strip() if len(c) >= 5 else ""
             line = {"id": c[1], "sp": c[2], "jp": c[3], "en": en}
-            if is_engine_data(c[3]):
+            if not script_block[c[0]] or is_engine_data(c[3]):
                 line["x"] = 1                  # flagged; excluded from counts
             else:
                 tally[tsv.name]["lines"] += 1
@@ -85,11 +104,20 @@ def main():
     speakers = {jp: en for jp, en in patch_names.TRANSLATIONS.items()
                 if en not in ("X",)}
     token_names = {en.upper(): en for en in speakers.values()}
+    # full name/term table for the Names tab (jp from the pack; en if decided)
+    jp_names = reinsert.load_pack().get("jp_names", {}) if reinsert.PACK.exists() else {}
+    names_table = [
+        {"tok": int(t), "jp": jp,
+         "en": patch_names.TRANSLATIONS.get(jp, "")}
+        for t, jp in sorted(jp_names.items(), key=lambda kv: int(kv[0]))
+        if jp and patch_names.TRANSLATIONS.get(jp, "") != "X"
+    ]
     (OUT / "status.json").write_text(json.dumps({
         "total": total, "done": done,
         "files": dict(tally), "budgets": budgets,
         "speakers": speakers,          # ウォーリック -> Warrick (speaker column)
         "tokens": token_names,         # WARRICK -> Warrick ({NAME} display)
+        "names": names_table,          # every name/term, for the Names tab
     }, ensure_ascii=False), encoding="utf-8")
 
     # ---- suggestions.json ----------------------------------------------------

@@ -60,7 +60,8 @@ def main():
             tokens[en.upper()] = tok
             names[str(tok)] = en
 
-    pack = {"blocks": blocks, "tokens": tokens, "names": names}
+    pack = {"blocks": blocks, "tokens": tokens, "names": names,
+            "jp_names": {str(t): jp for t, jp in jp_names.items()}}
     OUT.write_bytes(gzip.compress(json.dumps(pack).encode(), mtime=0))
     print(f"wrote {OUT.relative_to(ROOT)}: {n} blocks across {len(blocks)} archives, "
           f"{len(tokens)} name tokens ({OUT.stat().st_size >> 10} KB)")

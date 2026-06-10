@@ -46,6 +46,15 @@ function renderTabs() {
     a.innerHTML = `${FILE_LABELS[f] || f} <small>${t.done}/${t.lines}</small>`;
     nav.appendChild(a);
   }
+  const names = (STATUS.names || []);
+  if (names.length) {
+    const a = document.createElement("a");
+    a.href = "#/names";
+    a.dataset.file = "names";
+    const decided = names.filter(n => n.en).length;
+    a.innerHTML = `Names &amp; terms <small>${decided}/${names.length}</small>`;
+    nav.appendChild(a);
+  }
 }
 
 function route() {
@@ -54,11 +63,62 @@ function route() {
   const block = m && m[2] ? decodeURIComponent(m[2]) : null;
   for (const a of document.querySelectorAll("#tabs a"))
     a.classList.toggle("active", a.dataset.file === curFile);
+  if (curFile === "names") { renderNames(); return; }
   const q = document.getElementById("search").value.trim().toLowerCase();
   const onlyUn = document.getElementById("only-untranslated").checked;
   if (q || onlyUn) renderSearch(q, onlyUn);
   else if (block) renderBlock(curFile, block);
   else renderBlocks(curFile);
+}
+
+function renderNames() {
+  const el = document.getElementById("content");
+  el.innerHTML = "";
+  const head = div("block-head");
+  head.innerHTML =
+    `<h2>Names &amp; terms <small>shared across the whole script via {NAME}
+     tokens - propose readings or contest existing ones</small></h2>`;
+  el.appendChild(head);
+  const q = document.getElementById("search").value.trim().toLowerCase();
+  const table = document.createElement("table");
+  table.className = "lines";
+  const thead = document.createElement("tr");
+  thead.className = "head";
+  for (const [cls, label] of [["sp", "Token"], ["jp", "Japanese"],
+                              ["en", "English"], ["act", ""]]) {
+    const th = document.createElement("th");
+    th.className = cls;
+    th.textContent = label;
+    thead.appendChild(th);
+  }
+  table.appendChild(thead);
+  for (const n of STATUS.names) {
+    if (q && !(n.jp.toLowerCase().includes(q) || n.en.toLowerCase().includes(q)))
+      continue;
+    const tr = document.createElement("tr");
+    tr.className = n.en ? "done" : "todo";
+    tr.appendChild(td("sp", "0x" + n.tok.toString(16).padStart(2, "0")));
+    tr.appendChild(td("jp", n.jp));
+    tr.appendChild(td("en", n.en || "—"));
+    const act = document.createElement("td");
+    act.className = "act";
+    const a = document.createElement("a");
+    a.className = "suggest";
+    const p = new URLSearchParams({
+      template: "name-suggestion.yml",
+      title: `[name] ${n.jp}`,
+      term: `${n.jp} (token 0x${n.tok.toString(16).padStart(2, "0")})`,
+      current: n.en || "none yet",
+    });
+    a.href = `https://github.com/${REPO}/issues/new?${p}`;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = n.en ? "Contest" : "Propose";
+    act.appendChild(a);
+    tr.appendChild(act);
+    table.appendChild(tr);
+  }
+  el.appendChild(table);
 }
 
 function blockMeta(file, block) {
