@@ -51,33 +51,66 @@ PATCHES = [  # (offset in MAIN.EXP, expected original, replacement)
     # @0x46aa: `call 0x42b6` -> `call 0x982` (the 32-bit variant)
     (0x46AA, bytes.fromhex("e807fcffff"), bytes.fromhex("e8d3c2ffff")),
 
-    # --- Scene-buffer enlargement, step 1 (boot-only POC): carve a dedicated RAM
-    # segment. The main data segment and the two aux data segments are full to
-    # their limits, and init grabs ALL remaining RAM for the heap, so there is no
-    # free home for a bigger scene buffer. Carve one: init sizes the heap with a
-    # query-then-grab -- 0x230f queries free RAM into ebx (alloc of 0xffffffff
-    # paras fails and returns the largest block), 0x2318 then allocates ebx paras
-    # as the heap (selector stored at [0x1fe]). Trampoline the grab so it first
-    # subtracts 0x200 paragraphs (8 KB), allocates the smaller heap (selector
-    # unchanged), then allocates the freed 8 KB as a fresh segment whose selector
-    # is saved at the EXE hole word 0x9c2. The carved segment is allocated LAST so
-    # no existing selector number shifts. Nothing uses it yet -- this build only
-    # proves the carve boots; step 2 moves the scene buffer into it.
+    # --- Carve a dedicated RAM segment at init (reusable home for future
+    # scene-buffer / name-table relocation). The data segments are full and init
+    # grabs ALL remaining RAM for the heap (query-then-grab: 0x230f queries free
+    # RAM into ebx, 0x2318 allocs it -> heap selector at [0x1fe]). Trampoline the
+    # grab so it leaves a small block and allocates that as a fresh segment whose
+    # selector is saved at EXE hole word 0x9c2. The carved segment is allocated
+    # LAST so no existing selector number shifts.
+    #
+    # NOTE: int21/AH=48 allocates in 4 KB PAGES here (ebx=8 => 32 KB), NOT
+    # paragraphs. Keep it small: the engine puts a scene cache near the TOP of the
+    # heap (~heap offset 0x22c000), so carving more than a little off the heap's
+    # tail pushes that cache past the heap limit and faults on the first dialogue.
+    #
+    # The carved segment holds ITEM.TOS, freeing the scene buffer at DATA_SEG:0xCC00
+    # to grow contiguously up to the next struct at 0xE000 (~5 KB). Proven by
+    # experiment: the scene fill + renderer already handle >2048 contiguously; the
+    # ONLY cap was ITEM.TOS sitting at 0xD400 (overrunning it corrupted item text).
+    # So we move ITEM.TOS out of the way and leave the buffer/fill/renderer untouched.
+    #
+    # The heap setup (carve) is called at 0x20ad, BEFORE the ITEM.TOS file-load stub
+    # at 0x215e -- so the carved selector exists by load time and we load ITEM.TOS
+    # straight into carved:0 (repoint the load stub). It's read through one lookup
+    # (0x3c55 -> 0x42b6); the shared string renderer derefs the record via gs:[edx]
+    # (=DATA_SEG), so the item lookup variant scans carved and copies the found
+    # record (<=15 B) into a free DATA_SEG scratch (0x3ef2) -- renderer untouched.
     #
     # trampoline @0x2318: (mov ah,48; int21; mov [0x1fe],ax; ret) -> jmp 0x9c4 + nops
     (0x2318, bytes.fromhex("b448" "cd21" "66a3fe010000" "c3"),
              bytes.fromhex("e9a7e6ffff" "909090909090")),
     # 0x9c2..0x9c3: carved-segment selector storage (stays 0; written at runtime).
-    # carve stub @0x9c4 (the runtime-free EXE hole, after the 64-byte name variant):
+    # carve stub @0x9c4: alloc a 32 KB carved seg (int21/AH=48 takes 4 KB PAGES, so
+    # ebx=8 => 32 KB; keep small -- the heap scene-cache sits at the heap's top).
     (0x9C4, b"\x00" * 32, bytes.fromhex(
-        "81eb00020000"   # sub ebx, 0x200          ; leave 8 KB for the carved seg
-        "b448" "cd21"    # mov ah,0x48 / int 0x21   ; alloc heap (avail-8KB) -> ax
-        "66a3fe010000"   # mov [0x1fe], ax          ; heap selector (unchanged slot)
-        "b448"           # mov ah,0x48
-        "bb00020000"     # mov ebx, 0x200           ; 8 KB
-        "cd21"           # int 0x21                 ; alloc carved seg -> ax
-        "66a3c2090000"   # mov [0x9c2], ax          ; carved-segment selector
-        "c3")),          # ret
+        "83eb08"          # sub ebx, 8             ; leave 8 pages (32 KB) for carved
+        "b448" "cd21"     # alloc heap (avail-32KB) -> ax
+        "66a3fe010000"    # mov [0x1fe], ax        ; heap selector (unchanged slot)
+        "b448" "bb08000000" "cd21"   # alloc 8 pages (32 KB) carved -> ax
+        "66a3c2090000"    # mov [0x9c2], ax        ; carved-segment selector
+        "c3")),           # ret
+
+    # ITEM.TOS boot-load stub @0x215e: load into carved:0 instead of DATA_SEG:0xD400.
+    # mov bp,[0x1f6] -> mov bp,[0x9c2]   (load segment = carved)
+    (0x215E, bytes.fromhex("668b2df6010000"), bytes.fromhex("668b2dc2090000")),
+    # mov ebx,0xd400 -> mov ebx,0        (load offset 0)
+    (0x2165, bytes.fromhex("bb00d40000"), bytes.fromhex("bb00000000")),
+
+    # item-lookup variant @0xa03: scan ITEM.TOS in carved (ES=carved), copy the
+    # Nth NUL-record (<=15 B) to DATA_SEG scratch 0x3ef2, return dx=0x3ef2 so the
+    # shared renderer reads it via gs:[edx] unchanged.
+    (0xA03, b"\x00" * 94, bytes.fromhex(
+        "51565766" "068e05c2090000" "30d2" "83c308" "0fb7db" "3c02" "721d"
+        "fec8" "88c4" "30c0" "31c9" "49" "87fb" "f2ae" "2666837ffe00" "7502"
+        "fec2" "fecc" "75f0" "87fb" "89de" "bff23e0000" "b940000000"
+        "268a06" "658807" "46" "47" "20c0" "7407" "49" "75f1" "65c60700"
+        "baf23e0000" "6607" "5f" "5e" "59" "c3")),
+
+    # item lookup @0x3c50: base 0xD400 -> 0 (carved offset 0)
+    (0x3C50, bytes.fromhex("bb00d40000"), bytes.fromhex("bb00000000")),
+    # @0x3c55: call 0x42b6 -> call the carved item-lookup variant @0xa03
+    (0x3C55, bytes.fromhex("e85c060000"), bytes.fromhex("e8a9cdffff")),
 ]
 
 

@@ -26,14 +26,13 @@ TRACK1_SECTORS = 2715
 SEC = 2048
 RAW = disc.RAW
 
-# Decompressed-size budget. Dialogue scene blocks (tag "VD2*") all decompress
-# into a single shared 2048-byte (0x800) RAM buffer; every one of the game's 153
-# dialogue blocks is <= 2048 and one is exactly 2048, and a 2040-byte block runs
-# fine in-emulator. Growing past 2048 overruns the buffer into ITEM.P (which
-# loads right after it) and crashes the equipment menu. So dialogue blocks get a
-# flat 2048 budget; anything else defaults to its original decompressed size.
-# DECOMP_BUDGET holds per-block overrides if a specific block ever needs one.
-SCENE_BUFFER = 0x800   # 2048
+# Decompressed-size budget. Dialogue scene blocks (tag "VD2*") get copied into a
+# shared 2048-byte (0x800) display buffer at DATA_SEG:0xCC00, capped by ITEM.P
+# right after it -- overrunning crashed the equipment menu. So dialogue blocks
+# get a flat 2048 budget; anything else defaults to its original decompressed
+# size. DECOMP_BUDGET holds per-block overrides if a specific block needs one.
+# (A larger buffer needs the display-copy relocation -- see patch_main_exp.)
+SCENE_BUFFER = 0x1380   # 4992: ITEM.TOS relocated to carved seg, buffer now 0xCC00..~0xE000
 DECOMP_BUDGET = {}
 
 
