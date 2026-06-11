@@ -31,6 +31,25 @@ PATCHES = [  # (offset in MAIN.EXP, expected original, replacement)
     # toggle (2 bytes/string of compressed budget).
     (0x448E, b"\x02", b"\x01"),
     (0x44A3, b"\x02", b"\x01"),
+
+    # --- Name-table relocation, step 1: route the character-name lookup through a
+    # 32-bit copy of the table-lookup routine, so the name base is no longer
+    # truncated to 16 bits (the original `0x42b6` does `movzx ebx,bx`). This step
+    # keeps the base at the CURRENT table (0x301B) to prove the new path renders
+    # names identically before the table actually moves (step 2). See
+    # docs/findings/2026-06-11-phase-o (private repo).
+    #
+    # 32-bit lookup variant in the runtime-free EXE hole @0x982 = a verbatim copy
+    # of 0x42b6 with `movzx ebx,bx` (0f b7 db) replaced by 3 NOPs:
+    (0x982, b"\x00" * 64, bytes.fromhex(
+        "51068e05f6010000" "32d2" "83c308" "909090" "3c02" "0f82210000" "00"
+        "fec8" "8ae0" "32c0" "33c9" "49" "87fb" "f2ae" "6626837ffe00"
+        "0f85020000" "00" "fec2" "fecc" "75ec" "87fb" "8ac2" "8bd3" "07" "59" "c3")),
+    # char-name handler @0x46a2: `mov bx,gs:[0x2018]` -> `mov ebx,0x301B` + 3 NOPs
+    (0x46A2, bytes.fromhex("6665" "8b1d" "18200000"),
+             bytes.fromhex("bb1b300000" "909090")),
+    # @0x46aa: `call 0x42b6` -> `call 0x982` (the 32-bit variant)
+    (0x46AA, bytes.fromhex("e807fcffff"), bytes.fromhex("e8d3c2ffff")),
 ]
 
 
