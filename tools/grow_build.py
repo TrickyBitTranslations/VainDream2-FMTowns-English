@@ -26,15 +26,15 @@ TRACK1_SECTORS = 2715
 SEC = 2048
 RAW = disc.RAW
 
-# Per-block decompressed-size budgets (archive, block_off) -> max decompressed
-# bytes. The engine loads each scene block to a fixed RAM address, so a block
-# can't grow past the next structure in memory. Entries here are MEASURED slot
-# sizes (from the savestate RAM map) that grant headroom beyond the original
-# size; blocks not listed default to their original decompressed size (always
-# safe). 0x5e8a8 loads at RAM 0x77900 with ITEM.P at 0x78100 -> a 0x800 slot.
-DECOMP_BUDGET = {
-    ("VAIN_A.DAT", 0x5E8A8): 0x800,   # 2048: ITEM.P loads at block+0x800 (FIXED); measured from savestate
-}
+# Decompressed-size budget. Dialogue scene blocks (tag "VD2*") all decompress
+# into a single shared 2048-byte (0x800) RAM buffer; every one of the game's 153
+# dialogue blocks is <= 2048 and one is exactly 2048, and a 2040-byte block runs
+# fine in-emulator. Growing past 2048 overruns the buffer into ITEM.P (which
+# loads right after it) and crashes the equipment menu. So dialogue blocks get a
+# flat 2048 budget; anything else defaults to its original decompressed size.
+# DECOMP_BUDGET holds per-block overrides if a specific block ever needs one.
+SCENE_BUFFER = 0x800   # 2048
+DECOMP_BUDGET = {}
 
 
 # ---------- ISO geometry ----------
@@ -116,13 +116,12 @@ def main(demo=False):
                           f"original spans event bytecode (0x05-0x13) — unsafe to splice")
                     continue
                 block[a:b] = reinsert.compile_english(en, tokens)
-            # Decompressed-size budget. The engine loads each block to a FIXED RAM
-            # address; growing past the next structure corrupts it. Block 0x5e8a8
-            # loads at RAM 0x77900 and ITEM.P sits at 0x78100 -> a 0x800 slot; a
-            # bigger block overruns ITEM.P and crashes the equipment menu. Safe
-            # default is the original decompressed size; DECOMP_BUDGET carries
-            # measured per-block slot sizes that reclaim headroom.
-            budget = DECOMP_BUDGET.get((archive, block_off), orig_decomp)
+            # Decompressed-size budget. Dialogue blocks ("VD2*") share one fixed
+            # 2048-byte RAM buffer; non-dialogue blocks keep their original size.
+            # An override in DECOMP_BUDGET wins. (See SCENE_BUFFER note above.)
+            is_dialogue = bytes(block[:3]) == b"VD2"
+            budget = DECOMP_BUDGET.get((archive, block_off),
+                                       SCENE_BUFFER if is_dialogue else orig_decomp)
             if len(block) > budget:
                 print(f"ERROR  {archive}@{block_off:#x}: decompressed {len(block)} bytes "
                       f"> {budget}-byte RAM budget (over by {len(block) - budget}). The engine "

@@ -102,8 +102,8 @@ block_off	str_off	speaker	text	english
 0x5edb9	0xad	ブージ	・・・ダ　ン。\nランバートは必ず俺が捜し出して来る。\nブージ\nだから、お前はそんな心配するな。\n・・・わかったな。	...{DAN}.\nI promise you I'll find {LAMBERT}.\p{BOOJ}\nNo more worrying.\n...Hear me?
 0x5edb9	0x108	ダ　ン	・・・うん。	...OK.
 0x5edb9	0x123	ダ　ン	ねえ　ブージィィ。\n今度は僕も一緒に連れて行ってよ。\n僕も、ランバート兄ちゃんを探すんだ。	{BOOJ}, take me next time.\nI'll find {LAMBERT} too.
-0x5edb9	0x16f	ブージ	ランバートはじきに帰って来る。\nほんのちょっと、狩りが長引いているだけだ。\nブージ\nあいつは強い男だ・・・心配する事はない。	{LAMBERT} will be back soon.\nThe hunt ran long.\p{BOOJ}\nHe's strong... don't worry.
-0x5edb9	0x1de		女剣士　シェリー\nおはようウォーリック。\n今から北の森にラット　ジャイア	{Swordmaid} Sherry\nMorning, {Warrick}!\nIm off to the north woods to hunt Rat Giants.\nCome along?
+0x5edb9	0x16f	ブージ	ランバートはじきに帰って来る。\nほんのちょっと、狩りが長引いているだけだ。\nブージ\nあいつは強い男だ・・・心配する事はない。	{LAMBERT} will be back soon.\nThe hunt ran long.\p{BOOJ}\nHe's a strong man... don't worry.
+0x5edb9	0x1de		女剣士　シェリー\nおはようウォーリック。\n今から北の森にラット　ジャイア	{Swordmaid} Sherry\nMorning, {Warrick}!\nIm off to the north woods to hunt Rat Giants.\nCare to come along?
 0x5edb9	0x228		朝っぱらからどこ行く気だい？\nそれにしても、いきなり冷えこんできたなぁ。\nフロスト様に何かあったのかな？	
 0x5edb9	0x26d		ピート\nこのごろ魔物の活動が活発になってきてるな。\nまぁ、この辺りにゃ神官竜のフロスト様のおかげで、たいした魔物はいねぇえがな。	
 0x5edb9	0x2bd		んっ、ウォーリックじゃないか。\nお前の見張り当番は来週だぞ。\nケイ	
@@ -124,7 +124,7 @@ block_off	str_off	speaker	text	english
 0x5edb9	0x5a5		女剣士　シェリー\nウォーリック、旅に出るんだって？\nいいなぁぁぁっ。	
 0x5edb9	0x5c9		女剣士　シェリー\nブージの奴、ダ　ンを連れて旅に出ちまったんだよ。\n・・・・・私をおいてさっ・・・。	
 0x5edb9	0x61a	ブージ	この氷の結晶は何だッ！？\n今までこんな現象、見たことないぞ。	What's this ice crystal?!\nNever seen anything like it.
-0x5edb9	0x65b	ウォーリック	なんかヤバイ予感がする。\n早く奥へ行こう。	Bad feeling about this.\nLet's hurry on.
+0x5edb9	0x65b	ウォーリック	なんかヤバイ予感がする。\n早く奥へ行こう。	Bad feeling about this.\nLet's hurry deeper.
 0x5edb9	0x694	レイナ	今日はそろそろ休みましょうか？	Call it a day?
 0x5edb9	0x6b3		・疲れたからもう寝る。\n・まだ眠くない。	・I'm tired. Time to sleep.\n・Not sleepy yet.
 0x5edb9	0x6e9	ウォーリック	おやすみなさぁぁぁい。	Goood night.
