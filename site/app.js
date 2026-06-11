@@ -168,6 +168,24 @@ function blockMeta(file, block) {
   return { lines, real, done, budget: b };
 }
 
+/* A scene's text decompresses into one shared 2048-byte buffer; this shows how
+   much of that is left (the real size limit). null for non-dialogue blocks. */
+function budgetBadge(budget) {
+  if (!budget) return null;
+  const { used, limit } = budget;
+  const free = limit - used;
+  const pct = Math.min(100, Math.max(0, 100 * used / limit));
+  const cls = free <= 0 ? "full" : free < 128 ? "tight" : "ok";
+  const el = div("budget " + cls);
+  el.innerHTML =
+    `<div class="bbar"><div style="width:${pct}%"></div></div>` +
+    `<span class="btxt"><b>${free}</b> B free <small>${used}/${limit}</small></span>`;
+  el.title = `Scene text uses ${used} of ${limit} decompressed bytes (the shared ` +
+             `scene buffer); ${free} bytes left. Going over crashes the game, so the ` +
+             `build rejects it.`;
+  return el;
+}
+
 function renderBlocks(file) {
   const el = document.getElementById("content");
   el.innerHTML = "";
@@ -184,6 +202,8 @@ function renderBlocks(file) {
        <div class="progress sm"><div style="width:${pct}%"></div></div>
        <p>${done}/${real.length} lines` +
       `</p>`;
+    const bb = budgetBadge(budget);
+    if (bb) card.appendChild(bb);
     card.addEventListener("click", () => location.hash = `#/${file}/${block}`);
     grid.appendChild(card);
   }
@@ -194,11 +214,13 @@ function renderBlocks(file) {
 function renderBlock(file, block) {
   const el = document.getElementById("content");
   el.innerHTML = "";
-  const { lines, real, done } = blockMeta(file, block);
+  const { lines, real, done, budget } = blockMeta(file, block);
   const head = div("block-head");
   head.innerHTML =
     `<a href="#/${file}">← scenes</a>
      <h2>Scene ${esc(block)} <small>${done}/${real.length} translated</small></h2>`;
+  const bb = budgetBadge(budget);
+  if (bb) head.appendChild(bb);
   el.appendChild(head);
   el.appendChild(linesTable(file, block, lines));
 }

@@ -140,3 +140,20 @@ footer {
   padding: 14px 24px; font-size: 13px; color: var(--dim);
 }
 .dim { color: var(--dim); }
+
+/* per-scene decompressed-byte budget (the shared 2048 B scene buffer) */
+.budget { margin-top: 8px; display: flex; align-items: center; gap: 8px; font-size: 12px; }
+.block-head .budget { max-width: 360px; }
+.budget .bbar {
+  flex: 1; height: 6px; background: #00000055;
+  border: 1px solid var(--gold-dim); border-radius: 4px; overflow: hidden;
+}
+.budget .bbar > div { height: 100%; }
+.budget .btxt { white-space: nowrap; color: var(--dim); }
+.budget .btxt b { color: var(--text); }
+.budget .btxt small { color: var(--gold-dim); margin-left: 5px; }
+.budget.ok    .bbar > div { background: var(--green); }
+.budget.tight .bbar > div { background: var(--amber); }
+.budget.tight .btxt b { color: var(--amber); }
+.budget.full  .bbar > div { background: var(--red); }
+.budget.full  .btxt b { color: #e87a7a; }

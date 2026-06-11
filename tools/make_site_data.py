@@ -84,20 +84,29 @@ def main():
     src = reinsert.PackSource() if not (
         reinsert.IMG.exists() and reinsert.IMG.stat().st_size > 1_000_000
     ) else reinsert.IsoSource()
+    # Per-scene space = the DECOMPRESSED size budget. Every dialogue block ("VD2*")
+    # decompresses into one shared 2048-byte RAM buffer; going over corrupts the
+    # next asset and crashes. (The compressed budget was removed in phase N -- it's
+    # no longer the constraint.) Report decompressed used vs the 2048 cap for every
+    # dialogue scene, not just translated ones, so contributors see the headroom.
+    from grow_build import DECOMP_BUDGET, SCENE_BUFFER     # per-block overrides / 2048 default
     budgets = {}
-    for (tsv_name, block_s), rows in per_block_rows.items():
+    for tsv_name, blocks in files.items():
         archive = tsv_name.replace("_DAT.tsv", ".DAT").replace("_PK.tsv", ".PK")
-        block_off = int(block_s, 16)
-        try:
-            block = src.block(archive, block_off)
-            for s, e in sorted(rows, reverse=True):
+        for block_s in blocks:
+            block_off = int(block_s, 16)
+            try:
+                block = src.block(archive, block_off)
+            except Exception:
+                continue
+            if bytes(block[:3]) != b"VD2":            # only blocks that share the scene buffer
+                continue
+            for s, e in sorted(per_block_rows.get((tsv_name, block_s), []), reverse=True):
                 start, end = reinsert.string_span(block, s)
                 block[start:end] = reinsert.compile_english(e, tokens)
-            used = len(dlz.encode(bytes(block)))
-            limit = src.budget(archive, block_off)
+            used = len(bytes(block))                  # DECOMPRESSED size = the real limit
+            limit = DECOMP_BUDGET.get((archive, block_off), SCENE_BUFFER)
             budgets[f"{tsv_name}:{block_s}"] = {"used": used, "limit": limit}
-        except Exception:
-            pass
     total = sum(t["lines"] for t in tally.values())
     done = sum(t["done"] for t in tally.values())
     import patch_names
