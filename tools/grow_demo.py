@@ -54,7 +54,11 @@ def main():
         for str_off, english in sorted(lines, reverse=True):
             s, e = reinsert.string_span(block, str_off)
             block[s:e] = reinsert.compile_english(english, tokens)
-        overrides[block_off] = dlz.encode(bytes(block))
+        # preserve original header bytes 8..12 (decomp field + dest RAM addr);
+        # encode() zeros dest_addr, which the engine's scene loader honours (see grow_build.py)
+        enc = bytearray(dlz.encode(bytes(block)))
+        enc[8:13] = members[block_off][8:13]
+        overrides[block_off] = bytes(enc)
 
     wm = overrides[WOFF]
     print(f"wake-up member: {len(members[WOFF])} -> {len(wm)} bytes "

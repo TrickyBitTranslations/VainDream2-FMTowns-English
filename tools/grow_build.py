@@ -26,6 +26,16 @@ TRACK1_SECTORS = 2715
 SEC = 2048
 RAW = disc.RAW
 
+# Per-block decompressed-size budgets (archive, block_off) -> max decompressed
+# bytes. The engine loads each scene block to a fixed RAM address, so a block
+# can't grow past the next structure in memory. Entries here are MEASURED slot
+# sizes (from the savestate RAM map) that grant headroom beyond the original
+# size; blocks not listed default to their original decompressed size (always
+# safe). 0x5e8a8 loads at RAM 0x77900 with ITEM.P at 0x78100 -> a 0x800 slot.
+DECOMP_BUDGET = {
+    ("VAIN_A.DAT", 0x5E8A8): 0x800,   # 2048: ITEM.P loads at block+0x800 (FIXED); measured from savestate
+}
+
 
 # ---------- ISO geometry ----------
 def iso_geometry(iso):
@@ -91,12 +101,14 @@ def main(demo=False):
 
     # rebuild each touched archive at natural sizes
     grown = {}                       # archive -> (new_bytes, old_offsets, new_offsets, old_size)
+    decomp_errors = 0
     for archive, blocks in per_arch.items():
         data = disc.read_file(iso, archive)
         members = dict(dlz.iter_members(data))
         overrides = {}
         for block_off, lines in blocks.items():
             block = bytearray(dlz.decode(members[block_off], prefix=bytes(0x40000)))
+            orig_decomp = len(block)
             for s_off, en in sorted(lines, reverse=True):
                 a, b = reinsert.string_span(block, s_off)
                 if reinsert.spans_event_code(block, a, b):   # mis-extracted into event code
@@ -104,12 +116,43 @@ def main(demo=False):
                           f"original spans event bytecode (0x05-0x13) — unsafe to splice")
                     continue
                 block[a:b] = reinsert.compile_english(en, tokens)
-            overrides[block_off] = dlz.encode(bytes(block))
+            # Decompressed-size budget. The engine loads each block to a FIXED RAM
+            # address; growing past the next structure corrupts it. Block 0x5e8a8
+            # loads at RAM 0x77900 and ITEM.P sits at 0x78100 -> a 0x800 slot; a
+            # bigger block overruns ITEM.P and crashes the equipment menu. Safe
+            # default is the original decompressed size; DECOMP_BUDGET carries
+            # measured per-block slot sizes that reclaim headroom.
+            budget = DECOMP_BUDGET.get((archive, block_off), orig_decomp)
+            if len(block) > budget:
+                print(f"ERROR  {archive}@{block_off:#x}: decompressed {len(block)} bytes "
+                      f"> {budget}-byte RAM budget (over by {len(block) - budget}). The engine "
+                      f"loads this block to a fixed address; growing it corrupts adjacent data "
+                      f"(e.g. ITEM.P). Shorten the translation for this block.")
+                decomp_errors += 1
+            # Header fields the engine reads (dlz.encode doesn't set these right):
+            #  - bytes 8..9: an opaque field; preserve the original's value.
+            #  - bytes 10..12 (u24) = decompressed_size << 8. The engine uses this
+            #    to reserve the block's RAM slot (rounded up to 0x800) before
+            #    placing the next asset (ITEM.P) after it. It MUST reflect the NEW
+            #    size, else the engine under-reserves and the grown block overruns
+            #    ITEM.P -> equipment-menu crash. (Keeping the original size here was
+            #    the bug; encode() zeroing it is also wrong.)
+            enc = bytearray(dlz.encode(bytes(block)))
+            enc[8:10] = members[block_off][8:10]
+            nd = len(block)
+            enc[10], enc[11], enc[12] = 0x00, nd & 0xFF, (nd >> 8) & 0xFF
+            assert dlz.decode(bytes(enc), prefix=bytes(0x40000)) == bytes(block)
+            overrides[block_off] = bytes(enc)
         old_offsets = list(members.keys())
         new_bytes, new_offsets = grow.rebuild(data, overrides)
         grown[archive] = (new_bytes, old_offsets, new_offsets, len(data))
         print(f"{archive}: {len(data)} -> {len(new_bytes)} bytes "
               f"({len(new_bytes)-len(data):+d})")
+
+    if decomp_errors:
+        sys.exit(f"{decomp_errors} block(s) exceed their decompressed RAM budget — "
+                 f"shorten those translations and rebuild (these would corrupt the "
+                 f"engine's memory and crash, e.g. the equipment menu).")
 
     # --- floppy: classifier + names + repoint every grown archive's table ---
     patch_main_exp.main()

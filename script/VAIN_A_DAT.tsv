@@ -72,38 +72,38 @@ block_off	str_off	speaker	text	english
 0x5e8a8	0x96	ウォーリック	おはよう、レイナ。	Morning, {REINA}.
 0x5e8a8	0xab	レイナ	朝御飯できるまでもう少しかかるから、まだ寝てていいわよ。\nレイナ\nそうそう。\nブージさんが旅から帰って来るって、今朝ダ　ン君が言いに来たわ。	Breakfast needs a bit longer.\nGo rest some more.\p{REINA}\nOh, right.\n{DAN} says {BOOJ} is back in town.
 0x5e8a8	0x10e	ウォーリック	そっか。\n御飯できるまで、ちょっと散歩行ってくるね。	I see.\nThink I'll take a walk first.
-0x5e8a8	0x146	レイナ	何処に行くのウォーリック？\nもうすぐ御飯よ。	Where are you going, {WARRICK}?\nFood is almost ready.
+0x5e8a8	0x146	レイナ	何処に行くのウォーリック？\nもうすぐ御飯よ。	Where are you going, {WARRICK}?\nFood's almost ready.
 0x5e8a8	0x16f	レイナ	御飯もうすぐできるわよ。	Almost ready, OK?
 0x5e8a8	0x18c	レイナ	あらっ\nブージさん、いらっしゃい。\n朝御飯、一緒にいかが？	Oh my.\nWelcome back, {BOOJ}.\nJoin us for breakfast?
 0x5e8a8	0x1bd	レイナ	おかえりなさい。\nどうしたの二人共？	Welcome home.\nWhat's wrong, you two?
 0x5e8a8	0x1e5	ブージ	ウォーリック。\nとにかく大婆様の家に行こう。\nレイナさん、旦那さんを借りるぜ。	{WARRICK}.\nWe need to see {Gran}. Now.\n{REINA}, I'm borrowing your husband.
-0x5e8a8	0x225	レイナ	もうっ、ウォーリックったら。\n朝御飯も食べずにどこ行ってたのよ。それより、お客さんが来てるのよ。\n誰だと思う？	Honestly, {WARRICK}!\nRunning off before breakfast.\nAnyway, guess who's here?
-0x5e8a8	0x2c9	ファーニス	へへっ、ウォーリック。\nひさしぶりぃ、元気だったぁ？	{Haha}, {WARRICK}.\nLong time no see! How have you been?
+0x5e8a8	0x225	レイナ	もうっ、ウォーリックったら。\n朝御飯も食べずにどこ行ってたのよ。それより、お客さんが来てるのよ。\n誰だと思う？	Honestly, {WARRICK}!\nRunning off before breakfast.\nGuess who's here?
+0x5e8a8	0x2c9	ファーニス	へへっ、ウォーリック。\nひさしぶりぃ、元気だったぁ？	{Haha}, {WARRICK}.\nLong time! How've you been?
 0x5e8a8	0x300	ウォーリック	ああっ！\nファーニス。	Ah!\n{FURNIS}!
-0x5e8a8	0x320	レイナ	今ファーニスは、行方不明になったお兄さんを探して１人で旅をしているそうよ。	She's searching alone\nfor her missing brother.
+0x5e8a8	0x320	レイナ	今ファーニスは、行方不明になったお兄さんを探して１人で旅をしているそうよ。	Searching alone for\nher missing brother.
 0x5e8a8	0x37d	ファーニス	うん。\n２年ほど前の事なんだけどね。\nお兄ちゃん、エルフの国に住む神官竜カーネル様の所に呼ばれたの。\nファーニス\nそれで、それっきり帰って来ないのよ。カーネル様に聞いても、何も知らないって言うし・・・。	Two years ago, my brother\nwas summoned by Karnel,\nthe Elf priest dragon.\p{FURNIS}\nHe never came back.\nKarnel claims he knows nothing...
-0x5e8a8	0x40d	レイナ	ファーニスの兄さんて、かなり強い魔法剣士なんでしょ？	Your brother is supposed to be\na strong spellblade, right?
-0x5e8a8	0x440	ファーニス	・・・うん。\nお兄ちゃんの事だからそう簡単に死ぬはずないし、あんまり心配してないけどね。\nファーニス\nそれよりウォーリック、どうしたの？血の匂いがするよ。\nこれって、竜の血の匂いじゃない？	...Yeah.\nHe wouldn't die that easily.\nI'm not too worried.\p{FURNIS}\nAnyway {WARRICK} - I smell blood.\nIs that dragon blood?
+0x5e8a8	0x40d	レイナ	ファーニスの兄さんて、かなり強い魔法剣士なんでしょ？	Your brother's a strong\nspellblade, right?
+0x5e8a8	0x440	ファーニス	・・・うん。\nお兄ちゃんの事だからそう簡単に死ぬはずないし、あんまり心配してないけどね。\nファーニス\nそれよりウォーリック、どうしたの？血の匂いがするよ。\nこれって、竜の血の匂いじゃない？	...Yeah.\nHe won't die that easily.\nI'm not worried.\p{FURNIS}\n{WARRICK} - I smell blood.\nDragon blood?
 0x5e8a8	0x4c9	ウォーリック	ああ。\n実は氷の洞窟で・・・・・。	Yeah.\nTruth is, at the Ice Cavern...
 0x5e8a8	0x4fc		ウォーリックは氷の洞窟での出来事を話した。	{WARRICK} told them about\nthe Ice Cavern.
 0x5e8a8	0x524	ファーニス	・・・なんか、すごい事になったね。	...Quite a story.
-0x5e8a8	0x54d	レイナ	ウォーリック。\nそのパディッシュって人・・・探しに行くんでしょ？	{WARRICK}.\nThis Paddish person...\nYou're going after him, right?
+0x5e8a8	0x54d	レイナ	ウォーリック。\nそのパディッシュって人・・・探しに行くんでしょ？	{WARRICK}.\nThis Paddish guy...\nYou're going after him?
 0x5e8a8	0x58b	ウォーリック	ああ。\n・・・そのつもりだ。	Yeah.\n...That's the plan.
-0x5e8a8	0x5b1	レイナ	・・・わかったわ、ウォーリック。\nすぐ旅の支度するわね。	...All right, {Warrick}.\n\nI'll get ready for the journey right away.
+0x5e8a8	0x5b1	レイナ	・・・わかったわ、ウォーリック。\nすぐ旅の支度するわね。	...All right, {Warrick}.\nI'll get ready right away.
 0x5e8a8	0x5f9		レイナが仲間に加わった。	{REINA} joined the party.
 0x5e8a8	0x618	レイナ	ごめんね、ファーニス。\nせっかく来てくれたのに・・・。	Sorry, {FURNIS}.\nAnd you came all this way...
-0x5e8a8	0x64a	ファーニス	へへっ。\n苦労するね、レイナ。\nもちろん私も連れてってくれるんでしょ？\nファーニス\n私もお兄ちゃん探してるし。\nいいでしょ・・・・・ねっ。	{Haha}.\nYou have it rough, {REINA}.\nYou're taking me too, right?\p{FURNIS}\nI'm looking for my brother too.\nCome on... please?
+0x5e8a8	0x64a	ファーニス	へへっ。\n苦労するね、レイナ。\nもちろん私も連れてってくれるんでしょ？\nファーニス\n私もお兄ちゃん探してるし。\nいいでしょ・・・・・ねっ。	{Haha}.\nRough day, {REINA}.\nTake me along too?\p{FURNIS}\nLooking for my brother too.\nPlease?
 0x5e8a8	0x6bd		ファーニスが仲間に加わった。	{FURNIS} joined the party.
-0x5e8a8	0x6e8	レイナ	ウォーリック。\nあなたの３剣７はベットの下にしまってあるわ。	{WARRICK}.\nYour sword is tucked\nunder the bed.
-0x5e8a8	0x71d	レイナ	はい、ウォーリック。\nひさしぶりだから３剣７の振り方おぼえてる？	Here, {WARRICK}.\nStill remember how to swing it?
+0x5e8a8	0x6e8	レイナ	ウォーリック。\nあなたの３剣７はベットの下にしまってあるわ。	{WARRICK}.\nYour sword's\nunder the bed.
+0x5e8a8	0x71d	レイナ	はい、ウォーリック。\nひさしぶりだから３剣７の振り方おぼえてる？	Here, {WARRICK}.\nRemember how to swing?
 0x5e8a8	0x75c		ベットの下からブロードソードを出した。	You took the broadsword\nfrom under the bed.
 0x5edb9	0x10	ダ　ン	ああっ、ウォーリック。\nブージが狩りから帰って来るよ。\n・・・ランバートお兄ちゃんも早く帰って来ないかなぁ。	Ah, {WARRICK}!\n{BOOJ} is back from the hunt.\n...Wish {LAMBERT} would hurry\nhome too.
 0x5edb9	0x5d	ダ　ン	ブージ　おかえりぃ。\nお兄ちゃんの事、何かわかった？\nランバート兄ちゃん・・・死んじゃったのぉ？	{BOOJ}, welcome back!\nAny news of my brother?\nIs {LAMBERT}... dead?
 0x5edb9	0xad	ブージ	・・・ダ　ン。\nランバートは必ず俺が捜し出して来る。\nブージ\nだから、お前はそんな心配するな。\n・・・わかったな。	...{DAN}.\nI promise you I'll find {LAMBERT}.\p{BOOJ}\nNo more worrying.\n...Hear me?
 0x5edb9	0x108	ダ　ン	・・・うん。	...OK.
 0x5edb9	0x123	ダ　ン	ねえ　ブージィィ。\n今度は僕も一緒に連れて行ってよ。\n僕も、ランバート兄ちゃんを探すんだ。	{BOOJ}, take me next time.\nI'll find {LAMBERT} too.
-0x5edb9	0x16f	ブージ	ランバートはじきに帰って来る。\nほんのちょっと、狩りが長引いているだけだ。\nブージ\nあいつは強い男だ・・・心配する事はない。	{LAMBERT} will be back soon.\nThe hunt ran long.\p{BOOJ}\nHe's a strong man... don't worry.
-0x5edb9	0x1de		女剣士　シェリー\nおはようウォーリック。\n今から北の森にラット　ジャイア	{Swordmaid} Sherry\nMorning, {Warrick}!\nIm off to the north woods to hunt Rat Giants.\nCare to come along?
+0x5edb9	0x16f	ブージ	ランバートはじきに帰って来る。\nほんのちょっと、狩りが長引いているだけだ。\nブージ\nあいつは強い男だ・・・心配する事はない。	{LAMBERT} will be back soon.\nThe hunt ran long.\p{BOOJ}\nHe's strong... don't worry.
+0x5edb9	0x1de		女剣士　シェリー\nおはようウォーリック。\n今から北の森にラット　ジャイア	{Swordmaid} Sherry\nMorning, {Warrick}!\nIm off to the north woods to hunt Rat Giants.\nCome along?
 0x5edb9	0x228		朝っぱらからどこ行く気だい？\nそれにしても、いきなり冷えこんできたなぁ。\nフロスト様に何かあったのかな？	
 0x5edb9	0x26d		ピート\nこのごろ魔物の活動が活発になってきてるな。\nまぁ、この辺りにゃ神官竜のフロスト様のおかげで、たいした魔物はいねぇえがな。	
 0x5edb9	0x2bd		んっ、ウォーリックじゃないか。\nお前の見張り当番は来週だぞ。\nケイ	
@@ -124,7 +124,7 @@ block_off	str_off	speaker	text	english
 0x5edb9	0x5a5		女剣士　シェリー\nウォーリック、旅に出るんだって？\nいいなぁぁぁっ。	
 0x5edb9	0x5c9		女剣士　シェリー\nブージの奴、ダ　ンを連れて旅に出ちまったんだよ。\n・・・・・私をおいてさっ・・・。	
 0x5edb9	0x61a	ブージ	この氷の結晶は何だッ！？\n今までこんな現象、見たことないぞ。	What's this ice crystal?!\nNever seen anything like it.
-0x5edb9	0x65b	ウォーリック	なんかヤバイ予感がする。\n早く奥へ行こう。	Bad feeling about this.\nLet's hurry deeper.
+0x5edb9	0x65b	ウォーリック	なんかヤバイ予感がする。\n早く奥へ行こう。	Bad feeling about this.\nLet's hurry on.
 0x5edb9	0x694	レイナ	今日はそろそろ休みましょうか？	Call it a day?
 0x5edb9	0x6b3		・疲れたからもう寝る。\n・まだ眠くない。	・I'm tired. Time to sleep.\n・Not sleepy yet.
 0x5edb9	0x6e9	ウォーリック	おやすみなさぁぁぁい。	Goood night.
