@@ -75,6 +75,7 @@ def SYNC(within):
 def main(demo=False):
     iso = disc.extract_track1_iso(str(IMG), TRACK1_SECTORS)
     tokens = reinsert.name_token_map()
+    speakers = reinsert.load_speakers()
     rows = reinsert.load_rows()
 
     # validate every line up front so a typo'd {NAME} fails loudly with a
@@ -108,13 +109,19 @@ def main(demo=False):
         for block_off, lines in blocks.items():
             block = bytearray(dlz.decode(members[block_off], prefix=bytes(0x40000)))
             orig_decomp = len(block)
-            for s_off, en in sorted(lines, reverse=True):
+            # Collect record splices + literal-kana speaker-label splices, then
+            # apply high->low (so earlier offsets stay valid). Mirrors reinsert.main().
+            splices = []
+            for s_off, en in lines:
                 a, b = reinsert.string_span(block, s_off)
                 if reinsert.spans_event_code(block, a, b):   # mis-extracted into event code
                     print(f"  SKIP {archive}@{block_off:#x} str {s_off:#x}: "
                           f"original spans event bytecode (0x05-0x13) — unsafe to splice")
                     continue
-                block[a:b] = reinsert.compile_english(en, tokens)
+                splices.append((a, b, reinsert.compile_english(en, tokens)))
+            splices.extend(reinsert.speaker_label_splices(block, speakers))
+            for a, b, repl in sorted(splices, key=lambda s: s[0], reverse=True):
+                block[a:b] = repl
             # Decompressed-size budget. Dialogue blocks ("VD2*") share one fixed
             # 2048-byte RAM buffer; non-dialogue blocks keep their original size.
             # An override in DECOMP_BUDGET wins. (See SCENE_BUFFER note above.)
