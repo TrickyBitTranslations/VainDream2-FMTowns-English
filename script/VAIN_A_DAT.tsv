@@ -615,54 +615,54 @@ block_off	str_off	speaker	text	english
 0x6475a	0x69e	ウォーリック	ああっ。\n俺達なら楽勝だぜッ。	Heh.\nThis'll be an easy win for us.
 0x6475a	0x6c9		ベイグ王\n頼むぞ。\nウォーリック、レイナ、ファーニス。討伐のため、少しだが援助を出したい。後で謁見室に寄ってほしい。	King Veig\nI'm counting on you.\n{WARRICK}, {REINA}, {FURNIS}.\nFor the hunt I'll send some aid.\nCome by the audience chamber.
 0x6475a	0x73d	キャロル	みなさん、頑張って下さい。\nルークを・・・いえっ、騎士のみんなを救えるのは、あなた達しかいないのです。	Everyone, please do your best.\nOnly you can save Luke... no,\nall the knights.
-0x64ca4	0x85		ファ\nキャロルったら、かわいそう。\n彼氏が騎士団にいてね、先日、騎士団が採掘場に行ってね・・・それっきり返ってこないのよ。	
-0x64ca4	0xd4		ファ\nメデューサにやられた人達も戻って来たし、キャロルよかったね。	
-0x64ca4	0x100		ファ\nドラゴン　ライダーも帰って来たし、万事うまくおさまったね。	
-0x64ca4	0x126		ソーニア\n私の彼氏って、ドラゴン　ライダーなのよ。でも今、セルーシュに行っていて会えないの。\nさみしいわ。	
-0x64ca4	0x15e		ソーニア\nあなた達ね、メデューサを倒したパーティーって。\nホント、凄いわねぇぇぇ。	
-0x64ca4	0x190		ソーニア\nもう、忙しくて、毎日大変よぉ	
-0x64ca4	0x1af		ルカ\nお花に水をあげるのが、私の日課なの。	
-0x64ca4	0x1cc		ルカ\n早く、お花　咲かないかな。	
-0x64ca4	0x1ec		さんって素敵よね。	
-0x64ca4	0x213	キャロル	皆さんのおかげでルークも帰って来ました。\n本当にありがとう。	
-0x64ca4	0x248	キャロル	あっ、皆さんお久しぶりです。\n今度、ルークと結婚するんです。\n今、とっても幸せです。	
-0x64ca4	0x28e		ルカちゃんってカワイイなぁ。\nいつも花の世話をしていて、優しいんだっ。	
-0x64ca4	0x2c2		別に、仕事をサボッてるわけじゃないよ。中庭の警備さッ。	
-0x64ca4	0x2ed		ああっ・・・今日は、いい天気だッ。\n仕事が終ったらルカちゃん誘って遊びに行こっと。	
-0x64ca4	0x32d		ジャーキー\n昨日は夜勤だったんだよ。\nもうちょっと寝かせてぇぇぇ。	
-0x64ca4	0x35c		マーカー\nさぁぁぁてと、街中の警備にでも行くかな。	
-0x64ca4	0x37d		マーカー\n君達だね、メデューサを倒したのは。\nおかげで友も助かった。\nありがとう。	
-0x64ca4	0x3b3		ルーカス\nここは稽古室だよ。\n僕はみんなより力がないから、素早さで勝負さッ。\n見たかい、僕の華麗な足さばき。	
-0x64ca4	0x3fe		ルーカス\n早く強くなって、立派な騎士になるんだ。	
-0x65003	0x23	ファーニス	あっ・・・ちょっと待って！！\n岩の隙間から水と一緒に、少しだけど風が流れ込んで来てるよ。	
-0x65003	0x7c	レイナ	向こう側が空洞になっているのかしら？	
-0x65003	0x9f	ファーニス	ちょっと聞いてみるね。\n・・・教えて、ウンディーネ。\nあなた達の今までいた所、どうなってた？\nファーニス\n・・・・・なになに・・・・・・・・・・・ふんふん。\nわかったわ。\nありがとうウンディーネ。	
-0x65003	0x138	レイナ	どう、何かわかった？	
-0x65003	0x154	ファーニス	うんっ。\n向こう側は、とっても広い空洞になってるって。\nそれに、大っきな地底湖があるそうよ。\nファーニス\n風の流れから見て、どっかにつながっている場所があるみたい。	
-0x65003	0x1c6	レイナ	じゃあ、東側の壁づたいを調べて行きましょう。\nどこかに通路があるはずよ。	
-0x65003	0x21a	ファーニス	・・・ああっ。\nここの隙間から風が吹抜けているよ。岩盤も薄そうだし、きっとここから向こう側に行けるね。	
-0x65003	0x275	ウォーリック	よしっ！！\n俺が壁を討ち抜く。\nレイナ、ファーニス、危険だから後ろに下がっているんだッ。	
-0x65003	0x2bc	ファーニス	頑張って、ウォーリック！！	
-0x65003	0x2e4	ウォーリック	・・・・・でいやぁッ！！	
-0x65003	0x329	ファーニス	・・・・・ウォーリック。\n今、何かした？	
-0x65003	0x354	ウォーリック	・・・いやっ。\nちょっと、剣の素振りを。	
-0x65003	0x386	レイナ	ウォーリック、ファーニス、遊んでる時じゃないでしょう。\n私がやるから、２人共下がっていて。	
-0x65003	0x3d3	レイナ	・・・魔を制したる我は使役す、天空の稲妻、天地万物を貫く光槍となり、我が命により個を砕け。\nライトニング、ボルトォォォォォッ！	
-0x65003	0x4b3	ファーニス	反対側に抜け道みたいのがあったよ。そっちから行こうよ、ウォーリック。	
-0x65003	0x4e8	レイナ	もう引き返すの？\n奥に行ってみましょうよ。	
-0x65003	0x519	レイナ	気配が薄れたわ。\nたぶんメデューサは湖の方よ。	
-0x65003	0x545	ファーニス	どこいくの？\nメデューサは湖の方だよ、ウォーリック。	
-0x65003	0x5cd		薬草を採った。	
-0x65003	0x5e5	ファーニス	ラッキー！\n薬草、みぃ〜つけた。	
-0x65003	0x609	ファーニス	ああっ！\nこんな所に、薬草が生えてる。	
-0x65003	0x635	ファーニス	また、薬草みっけ。\nでも、たまには薬草袋ごと落っこてないかなぁ。	
-0x65003	0x66c	ファーニス	振り向けば薬草。\nファーニス、ラッキー！	
-0x65003	0x694	ファーニス	この人もメデューサにやられたんだね。	
-0x65003	0x6bc	ファーニス	この人達、本当に助かるの？	
-0x65003	0x6e1	レイナ	ええ、助かるわ。\nただし、石化する前に物理的攻撃を受けて死んでいたらだめね。	
-0x65003	0x723	レイナ	あんまり触っちゃだめよ。\n体が欠けちゃったら大変でしょ。	
-0x65003	0x755	ファーニス	騎士さん達、勇敢に戦ったんだねぇ。	
-0x65003	0x779	ウォーリック	こんなの見ると、メデューサと戦うのがいやになってくるな。	
+0x64ca4	0x85		ファ\nキャロルったら、かわいそう。\n彼氏が騎士団にいてね、先日、騎士団が採掘場に行ってね・・・それっきり返ってこないのよ。	Fa\nPoor {CAROL}. Her boyfriend was\nin the {KNIGHT ORDER}, and a while\nback they marched to the mine...\nand he never came back.
+0x64ca4	0xd4		ファ\nメデューサにやられた人達も戻って来たし、キャロルよかったね。	Fa\nThe folks {MEDUSA} got are back\nnow too. Good for you, {CAROL}.
+0x64ca4	0x100		ファ\nドラゴン　ライダーも帰って来たし、万事うまくおさまったね。	Fa\nThe {DRAGON RIDER}s came home\ntoo. Everything worked out fine.
+0x64ca4	0x126		ソーニア\n私の彼氏って、ドラゴン　ライダーなのよ。でも今、セルーシュに行っていて会えないの。\nさみしいわ。	Sonia\nMy boyfriend is a {DRAGON RIDER}.\nBut he's off in {SERUSH} now, so I\ncan't see him. I miss him so.
+0x64ca4	0x15e		ソーニア\nあなた達ね、メデューサを倒したパーティーって。\nホント、凄いわねぇぇぇ。	Sonia\nSo you're the party that beat\n{MEDUSA}. Wow, you're amazing!
+0x64ca4	0x190		ソーニア\nもう、忙しくて、毎日大変よぉ	Sonia\nUgh, so busy. Every day's a lot.
+0x64ca4	0x1af		ルカ\nお花に水をあげるのが、私の日課なの。	Luka\nWatering the flowers is my\ndaily task.
+0x64ca4	0x1cc		ルカ\n早く、お花　咲かないかな。	Luka\nI hope the flowers bloom soon.
+0x64ca4	0x1ec		さんって素敵よね。	is wonderful, isn't he.
+0x64ca4	0x213	キャロル	皆さんのおかげでルークも帰って来ました。\n本当にありがとう。	{CAROL}\nThanks to all of you, Luke came\nhome too. Thank you so much.
+0x64ca4	0x248	キャロル	あっ、皆さんお久しぶりです。\n今度、ルークと結婚するんです。\n今、とっても幸せです。	{CAROL}\nOh, it's been a while, everyone.\nLuke and I are getting married\nsoon. I'm so happy right now.
+0x64ca4	0x28e		ルカちゃんってカワイイなぁ。\nいつも花の世話をしていて、優しいんだっ。	Luka sure is cute. She's always\ntending the flowers, so kind.
+0x64ca4	0x2c2		別に、仕事をサボッてるわけじゃないよ。中庭の警備さッ。	I'm not slacking off, you know.\nI'm guarding the courtyard.
+0x64ca4	0x2ed		ああっ・・・今日は、いい天気だッ。\n仕事が終ったらルカちゃん誘って遊びに行こっと。	Ahh... such fine weather today.\nWhen my shift ends, I'll ask Luka\nout to play.
+0x64ca4	0x32d		ジャーキー\n昨日は夜勤だったんだよ。\nもうちょっと寝かせてぇぇぇ。	Jerky\nI worked the night shift\nyesterday. Let me sleep a bit\nmore.{...}
+0x64ca4	0x35c		マーカー\nさぁぁぁてと、街中の警備にでも行くかな。	Marker\nRight then... guess I'll go\npatrol the town.
+0x64ca4	0x37d		マーカー\n君達だね、メデューサを倒したのは。\nおかげで友も助かった。\nありがとう。	Marker\nSo you're the ones who beat\n{MEDUSA}. My friend was saved\nthanks to you. Thank you.
+0x64ca4	0x3b3		ルーカス\nここは稽古室だよ。\n僕はみんなより力がないから、素早さで勝負さッ。\n見たかい、僕の華麗な足さばき。	Lucas\nThis is the training room.\nI'm weaker than the rest, so\nI fight with speed. See my\nelegant footwork?
+0x64ca4	0x3fe		ルーカス\n早く強くなって、立派な騎士になるんだ。	Lucas\nI'll grow strong fast and become\na fine {KNIGHT}.
+0x65003	0x23	ファーニス	あっ・・・ちょっと待って！！\n岩の隙間から水と一緒に、少しだけど風が流れ込んで来てるよ。	{FURNIS}\nWait... hold on!!\nAlong with the water, a little wind\nis\nseeping in through the gap in the\nrock.
+0x65003	0x7c	レイナ	向こう側が空洞になっているのかしら？	{REINA}\nCould it be hollow on the other side?
+0x65003	0x9f	ファーニス	ちょっと聞いてみるね。\n・・・教えて、ウンディーネ。\nあなた達の今までいた所、どうなってた？\nファーニス\n・・・・・なになに・・・・・・・・・・・ふんふん。\nわかったわ。\nありがとうウンディーネ。	{FURNIS}\nLet me ask.\n...Tell me, water spirit.\nThe place you came from, what was it\nlike?\p{FURNIS}\n{...}..uh-huh..{...}..{...}..I see.\nGot it.\nThank you, water spirit.
+0x65003	0x138	レイナ	どう、何かわかった？	{REINA}\nWell? Did you learn anything?
+0x65003	0x154	ファーニス	うんっ。\n向こう側は、とっても広い空洞になってるって。\nそれに、大っきな地底湖があるそうよ。\nファーニス\n風の流れから見て、どっかにつながっている場所があるみたい。	{FURNIS}\nYep.\nThe far side is a huge hollow space.\nAnd there's a big underground lake\ntoo.\p{FURNIS}\nFrom the wind, it seems to connect\nto somewhere else.
+0x65003	0x1c6	レイナ	じゃあ、東側の壁づたいを調べて行きましょう。\nどこかに通路があるはずよ。	{REINA}\nThen let's search along the east\nwall.\nThere must be a passage somewhere.
+0x65003	0x21a	ファーニス	・・・ああっ。\nここの隙間から風が吹抜けているよ。岩盤も薄そうだし、きっとここから向こう側に行けるね。	{FURNIS}\n...Ah.\nWind's blowing through this gap.\nThe rock looks thin too. We can\nsurely\nget to the other side here.
+0x65003	0x275	ウォーリック	よしっ！！\n俺が壁を討ち抜く。\nレイナ、ファーニス、危険だから後ろに下がっているんだッ。	{WARRICK}\nRight!!\nI'll break through the wall.\n{REINA}, {FURNIS}, it's dangerous --\nget back behind me.
+0x65003	0x2bc	ファーニス	頑張って、ウォーリック！！	{FURNIS}\nGo for it, {WARRICK}!!
+0x65003	0x2e4	ウォーリック	・・・・・でいやぁッ！！	{WARRICK}\n{...}..Hyaaah!!
+0x65003	0x329	ファーニス	・・・・・ウォーリック。\n今、何かした？	{FURNIS}\n.{...}.{WARRICK}.\nDid you just do something?
+0x65003	0x354	ウォーリック	・・・いやっ。\nちょっと、剣の素振りを。	{WARRICK}\n...Nah.\nJust a little sword practice.
+0x65003	0x386	レイナ	ウォーリック、ファーニス、遊んでる時じゃないでしょう。\n私がやるから、２人共下がっていて。	...No.\nJust some sword practice.
+0x65003	0x3d3	レイナ	・・・魔を制したる我は使役す、天空の稲妻、天地万物を貫く光槍となり、我が命により個を砕け。\nライトニング、ボルトォォォォォッ！	...I who master the dark, I summon\nyou, lightning of the heavens.\nBecome a spear of light that\npierces all creation, and by my\ncommand, shatter what stands.\n{LIGHTNING BOLT}!
+0x65003	0x4b3	ファーニス	反対側に抜け道みたいのがあったよ。そっちから行こうよ、ウォーリック。	There's a passage on the other\nside. Let's go that way, {WARRICK}.
+0x65003	0x4e8	レイナ	もう引き返すの？\n奥に行ってみましょうよ。	Turning back already?\nLet's press on deeper.
+0x65003	0x519	レイナ	気配が薄れたわ。\nたぶんメデューサは湖の方よ。	The presence has faded.\n{MEDUSA} is by the lake, I think.
+0x65003	0x545	ファーニス	どこいくの？\nメデューサは湖の方だよ、ウォーリック。	Where are you going?\n{MEDUSA}'s by the lake, {WARRICK}.
+0x65003	0x5cd		薬草を採った。	Picked some {HERB}.
+0x65003	0x5e5	ファーニス	ラッキー！\n薬草、みぃ〜つけた。	Lucky!\nFound some {HERB}!
+0x65003	0x609	ファーニス	ああっ！\nこんな所に、薬草が生えてる。	Oh!\nThere's {HERB} growing here.
+0x65003	0x635	ファーニス	また、薬草みっけ。\nでも、たまには薬草袋ごと落っこてないかなぁ。	Found more {HERB}.\nWish a whole {HERB POUCH} would\ndrop for once, though.
+0x65003	0x66c	ファーニス	振り向けば薬草。\nファーニス、ラッキー！	Turn around and there's {HERB}.\n{FURNIS} is lucky!
+0x65003	0x694	ファーニス	この人もメデューサにやられたんだね。	This one fell to {MEDUSA} too.
+0x65003	0x6bc	ファーニス	この人達、本当に助かるの？	Can these people really be saved?
+0x65003	0x6e1	レイナ	ええ、助かるわ。\nただし、石化する前に物理的攻撃を受けて死んでいたらだめね。	Yes, they can.\nBut not if they took a physical blow\nand died before turning to stone.
+0x65003	0x723	レイナ	あんまり触っちゃだめよ。\n体が欠けちゃったら大変でしょ。	Don't touch them too much.\nIf a piece breaks off, that's bad.
+0x65003	0x755	ファーニス	騎士さん達、勇敢に戦ったんだねぇ。	These knights fought so bravely.
+0x65003	0x779	ウォーリック	こんなの見ると、メデューサと戦うのがいやになってくるな。	Seeing this makes me dread\nfighting {MEDUSA}.
 0x65573	0x1e	レイナ	・・・この禍々しい魔力。\nメデューサはこの近くにいるわ。	
 0x65573	0x5d	ウォーリック	気を付けろ。\nむこうは、俺達に気付いているぞ。	
 0x65573	0x8d	レイナ	私とファーニスが魔法で援護するわ。ウォーリックは、隙をみてメデューサの首をはねる事に専念して。	
@@ -691,32 +691,32 @@ block_off	str_off	speaker	text	english
 0x65573	0x6f0	ファーニス	もう少しの我慢だから待っててね。\nメデューサなんか、すぐ倒すから。	
 0x65573	0x728	レイナ	工夫達の表情から見て、メデューサはいきなり現れたって感じだわ。	
 0x65573	0x75f	ファーニス	キャロルちゃんの彼氏って、どの人だろう？	
-0x65adb	0x1b	ファーニス	んんっ！？\n・・・血の匂いがする。\n森のどこかに怪我人がいるみたい。	
-0x65adb	0x7e	ファーニス	女の子が倒れてるよ。\n・・・ちょっと、その横にいるのケルベロスじゃない！？	
-0x65adb	0xc9	レイナ	でも様子が変よ。\nあのケルベロス、結界を張っているわ。	
-0x65adb	0x104	ファーニス	じゃあ、あのケルベロス。\nこの人を守ってるのかなぁ？	
-0x65adb	0x13a		ファーニスがそう言いかけ近づこうとした時、ケルベロスはその目を見開いた。\nそして、ウォーリック達を一瞥すると静かに息をひきとった。	
-0x65adb	0x1a9	レイナ	結界が解けたッ！！\nまだ、女の子の方は息があるわ。	
-0x65adb	0x1ea	女の子	・・・・・人？\n・・・人が、来てくれたのね・・・・・・・助かったわ・・・ピローム・・・私達・・・助かったのね・・・・・。	
-0x65adb	0x271	ファーニス	あっ・・・また、気を失っちゃった。	
-0x65adb	0x2a1	レイナ	大丈夫、衰弱しているけど命に別状はないわ。	
-0x65adb	0x2d4	ライド	この衣装から見て、どこかの王族の出だなぁ。\nするとこのケルベロスは、この人の護衛かな？	
-0x65adb	0x32a	ウォーリック	早く城で手当した方がいい。\nこのケルベロスは木の下に埋葬してあげよう。	
-0x65adb	0x378		ケルベロスの死体を木の下に埋めた。	
-0x65adb	0x3ad	ライド	彼女は俺が運ぼう。	
-0x65adb	0x3cf		ライドは、女の子を背負った。	
-0x65adb	0x3f8	ファーニス	ウォーリック、この森に誰かいるよ。魔物に襲われてたら大変だから探そうよぉ。	
-0x65adb	0x432	ファーニス	人の血の匂いがするんだよぉ。\n誰か、怪我してるみたいなんだ。\n探そぉぉぉよぉ。	
-0x65adb	0x478	ファーニス	うひょぉぉぉぉぉぉっ！！\n凄い地割れ。\n落ちたら完壁にアウトだね。	
-0x65adb	0x4ba	ウォーリック	ぬあぁぁぁぁぁぁっ！！\nこおいう所って足がすくんじゃうんだよ。	
-0x65adb	0x4ec	セシリア	だから行くのです。\n他の国の人達が、セルーシュのために戦っているのに、王女たる私が安全な所にいる訳にはいきません。\nセシリア\nお願いです、私をセルーシュに・・・。	
-0x65adb	0x562		ベイグ王\n・・・王女たる私・・・か。\n神聖王国を数百年にわたり治めてきた血筋だな。\nベイグ王\nわかった。\n・・・セルーシュに行くがよい。\nセルーシュの騎士達も喜ぼう。	
-0x65adb	0x5f9	セシリア	ありがとうございます、ベイグ様。	
-0x65adb	0x61c	ウォーリック	ベイグ王。\nできれば俺達が姫をお連れしましょう。\nウォーリック\n俺達もセルーシュ方面へ行かなければならないし、ジークも守りを固めねばならないのでは・・・。	
-0x65adb	0x6aa		ベイグ王\nそなた達なら腕も確かだし信用できる。セシリア姫を頼んだぞ。	
-0x65adb	0x6f6		セシリアが仲間に加わった。	
-0x65adb	0x715		ベイグ王\nでは、頼んだぞウォーリック。	
-0x65adb	0x75f	セシリア	みなさん、よろしくお願いします。\n私の事はセシリアと呼んで下さい。	
+0x65adb	0x1b	ファーニス	んんっ！？\n・・・血の匂いがする。\n森のどこかに怪我人がいるみたい。	{FURNIS}\nHnh!?\n...I smell blood.\nSomeone's hurt out there in the\nforest.
+0x65adb	0x7e	ファーニス	女の子が倒れてるよ。\n・・・ちょっと、その横にいるのケルベロスじゃない！？	{FURNIS}\nThere's a girl collapsed here.\n...Wait, isn't that a {CHIMERA}\nbeside her!?
+0x65adb	0xc9	レイナ	でも様子が変よ。\nあのケルベロス、結界を張っているわ。	{REINA}\nBut something's strange.\nThat beast has cast a barrier.
+0x65adb	0x104	ファーニス	じゃあ、あのケルベロス。\nこの人を守ってるのかなぁ？	{FURNIS}\nSo that beast...\nis it protecting her?
+0x65adb	0x13a		ファーニスがそう言いかけ近づこうとした時、ケルベロスはその目を見開いた。\nそして、ウォーリック達を一瞥すると静かに息をひきとった。	As {FURNIS} spoke and stepped closer,\nthe beast opened its eyes wide.\nIt glanced at {WARRICK} and the others,\nthen quietly drew its last breath.
+0x65adb	0x1a9	レイナ	結界が解けたッ！！\nまだ、女の子の方は息があるわ。	{REINA}\nThe barrier is broken!!\nThe girl is still breathing.
+0x65adb	0x1ea	女の子	・・・・・人？\n・・・人が、来てくれたのね・・・・・・・助かったわ・・・ピローム・・・私達・・・助かったのね・・・・・。	{GIRL}\n{...}..People?\n...People came for us...\n...We're saved... {PIROM}{...}\nwe're... saved...
+0x65adb	0x271	ファーニス	あっ・・・また、気を失っちゃった。	{FURNIS}\nAh... she's fainted again.
+0x65adb	0x2a1	レイナ	大丈夫、衰弱しているけど命に別状はないわ。	{REINA}\nIt's all right. She's weak,\nbut her life isn't in danger.
+0x65adb	0x2d4	ライド	この衣装から見て、どこかの王族の出だなぁ。\nするとこのケルベロスは、この人の護衛かな？	{RIDE}\nBy these clothes, she's royalty\nfrom somewhere.\nSo that beast was her guardian?
+0x65adb	0x32a	ウォーリック	早く城で手当した方がいい。\nこのケルベロスは木の下に埋葬してあげよう。	{WARRICK}\nBetter to treat her at the castle.\nLet's bury this beast\nbeneath the tree.
+0x65adb	0x378		ケルベロスの死体を木の下に埋めた。	They buried the beast's body\nbeneath the tree.
+0x65adb	0x3ad	ライド	彼女は俺が運ぼう。	{RIDE}\nI'll carry her.
+0x65adb	0x3cf		ライドは、女の子を背負った。	Ride hoisted the girl onto his back.
+0x65adb	0x3f8	ファーニス	ウォーリック、この森に誰かいるよ。魔物に襲われてたら大変だから探そうよぉ。	{FURNIS}\nWarrick, someone's in this forest.\nIf monsters get them it'll be bad,\nso let's go look!
+0x65adb	0x432	ファーニス	人の血の匂いがするんだよぉ。\n誰か、怪我してるみたいなんだ。\n探そぉぉぉよぉ。	{FURNIS}\nI smell human blood.\nSomeone seems to be hurt.\nLet's look for theeem!
+0x65adb	0x478	ファーニス	うひょぉぉぉぉぉぉっ！！\n凄い地割れ。\n落ちたら完壁にアウトだね。	{FURNIS}\nWhooaaaaa!!\nWhat a huge chasm.\nFall in and you're totally done for.
+0x65adb	0x4ba	ウォーリック	ぬあぁぁぁぁぁぁっ！！\nこおいう所って足がすくんじゃうんだよ。	{WARRICK}\nGwaaaaaah!!\nPlaces like this make my legs\nfreeze up.
+0x65adb	0x4ec	セシリア	だから行くのです。\n他の国の人達が、セルーシュのために戦っているのに、王女たる私が安全な所にいる訳にはいきません。\nセシリア\nお願いです、私をセルーシュに・・・。	{CECILIA}\nThat's why I must go.\nWhile other nations fight for\n{SERUSH}, I, their princess,\ncannot stay safe and idle.\p{CECILIA}\nPlease, send me to {SERUSH}{...}
+0x65adb	0x562		ベイグ王\n・・・王女たる私・・・か。\n神聖王国を数百年にわたり治めてきた血筋だな。\nベイグ王\nわかった。\n・・・セルーシュに行くがよい。\nセルーシュの騎士達も喜ぼう。	{VEIG}\n...I, their princess, is it.\nA bloodline that has ruled this\nholy kingdom for centuries.\p{VEIG}\nVery well.\n...Go to {SERUSH}.\nHer knights will rejoice.
+0x65adb	0x5f9	セシリア	ありがとうございます、ベイグ様。	{CECILIA}\nThank you, Lord {VEIG}.
+0x65adb	0x61c	ウォーリック	ベイグ王。\nできれば俺達が姫をお連れしましょう。\nウォーリック\n俺達もセルーシュ方面へ行かなければならないし、ジークも守りを固めねばならないのでは・・・。	{WARRICK}\nKing {VEIG}.\nIf you'd allow it, we'll escort\nthe princess ourselves.\p{WARRICK}\nWe must head toward {SERUSH} too,\nand {ZEKE} needs to bolster its\ndefenses, doesn't it...
+0x65adb	0x6aa		ベイグ王\nそなた達なら腕も確かだし信用できる。セシリア姫を頼んだぞ。	{VEIG}\nYour skill is sure and you can\nbe trusted. I leave Princess\n{CECILIA} in your hands.
+0x65adb	0x6f6		セシリアが仲間に加わった。	{CECILIA}{ JOINED THE PARTY.}
+0x65adb	0x715		ベイグ王\nでは、頼んだぞウォーリック。	King Veig\nThen I'm counting on you, {WARRICK}.
+0x65adb	0x75f	セシリア	みなさん、よろしくお願いします。\n私の事はセシリアと呼んで下さい。	I'm in your care, everyone.\nPlease, just call me {CECILIA}.
 0x66036	0x59	ファーニス	どうにかして開かないかなぁ？	Any way to get this open?
 0x66036	0x99		ウィンダム隊長\nその扉に近づかない方がいい。\n５日前、マーズトンネルの中腹の岩壁が崩れ、奥に洞窟が開けた。\nウィンダム隊長\n若い騎士達が探検気分で中に入って行ったのだが、中はビボルダーで溢れ返り、皆あっと言う間にやられてしまった。	Captain Windom\nBest not go near that door.\nFive days ago a rock wall in\nMars Tunnel collapsed and opened\na cavern deep inside.\pCaptain Windom\nYoung knights went in to explore,\nbut it overflowed with Bivolders\nand they were felled at once.
 0x66036	0x148	レイナ	でも、ビボルダーと言ったら魔界の生物。\nこんな所に巣なんて・・・。	But Bivolders are demon-realm\ncreatures. A nest here, of all\nplaces...
