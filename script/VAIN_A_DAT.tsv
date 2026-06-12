@@ -1,7 +1,6 @@
 block_off	str_off	speaker	text	english
-0x0	0x531d		のでぞざっ\n\nけのワののの１１ワワワ	
-0x0	0x54cd		ぬてづぺづぺちので１つぼ\nご１１１ワ	
-0x0	0x58dd		１のでちワワ１１ワワワワワ１ワ	
+0x0	0x531d		のでぞざっ\n\nけのワののの１１ワワワンワンワワワワワワ１のワつてぺづぺげの	
+0x0	0x54cd		ぬてづぺづぺちので１つぼ\nご１１１ワンワワ１でほワ１ワ１１１ワワワワワワワンワの１の１１ワの１１の	
 0x3153	0x39c4		れぁれぁ５５５５１、１、	
 0x52a4	0xed3		陳５、槌蔦４と辻４と４４５・は４５む層４む・４４	
 0xa2b9	0x4a1a		ぽぽ。。。。	
@@ -46,9 +45,9 @@ block_off	str_off	speaker	text	english
 0x1e753	0x5d87		ナナトナナ嫉？ゆょぼハごゎりよ	
 0x21473	0x9a0		は槌陳犯はにぶはぶははには	
 0x21473	0xc1a		４　はは８　犯８　はは８　はに４　には８	
-0x21473	0xda0		は槌陳犯はにぶはぶははにはダダダダ	
+0x21473	0xda0		は槌陳犯はにぶはぶははにはダダダダンンン	
 0x21473	0xe20		は槌陳犯はにぶはぶははにはダダダん	
-0x21473	0x1020		は槌陳犯はにぶはぶははにはロ	
+0x21473	0x1020		は槌陳犯はにぶはぶははにはロンンンロンン	
 0x21473	0x2fb2		には４はレはには	
 0x21473	0x4ec7		です。ザヲヲリリ	
 0x21473	0x52f6		む！ポップる！ポップ砂鯨シンシア	
@@ -60,8 +59,7 @@ block_off	str_off	speaker	text	english
 0x28047	0x33e		ででょょ？？ゴゴゴゴ	
 0x28047	0x1338		よょょツ？	
 0x28047	0x13b8		よょょツ？	
-0x28047	0x4a97		Ｚげ◇Ｙぁ、げ９♀ゴギユ	
-0x2ba14	0x3848		ょょょょヤヤヤヤュレレレ⟨18⟩はははぶぶぶは？？？ヰ	
+0x2ba14	0x3848		ょょょょヤヤヤヤュレレレ⟨18⟩はははぶぶぶは？？？ヰンンン	
 0x2ba14	0x393a		ぶぶ？？？？	
 0x2df31	0x122		公ョプぶゅ？⟨18⟩しぇゴで	
 0x2df31	0x331d		テむ１触、・ロレテ・モ触やヒロ	
@@ -103,7 +101,7 @@ block_off	str_off	speaker	text	english
 0x5edb9	0x108	ダ　ン	・・・うん。	...OK.
 0x5edb9	0x123	ダ　ン	ねえ　ブージィィ。\n今度は僕も一緒に連れて行ってよ。\n僕も、ランバート兄ちゃんを探すんだ。	{BOOJ}, take me next time.\nI'll find {LAMBERT} too.
 0x5edb9	0x16f	ブージ	ランバートはじきに帰って来る。\nほんのちょっと、狩りが長引いているだけだ。\nブージ\nあいつは強い男だ・・・心配する事はない。	{LAMBERT} will be back soon.\nThe hunt ran long.\p{BOOJ}\nHe's a strong man... don't worry.
-0x5edb9	0x1de		女剣士　シェリー\nおはようウォーリック。\n今から北の森にラット　ジャイア	{Swordmaiden} Sherry\nMorning, {Warrick}!\nIm off to the north woods to hunt Rat Giants.\nCare to come along?
+0x5edb9	0x1de		女剣士　シェリー\nおはようウォーリック。\n今から北の森にラット　ジャイアント狩りに行くけど、一緒に行かないか。	{Swordmaiden} Sherry\nMorning, {Warrick}!\nIm off to the north woods to hunt Rat Giants.\nCare to come along?
 0x5edb9	0x228		朝っぱらからどこ行く気だい？\nそれにしても、いきなり冷えこんできたなぁ。\nフロスト様に何かあったのかな？	Where are you off to so early in the morning?\nIt sure got cold all of a sudden, didn't it?\nI wonder if something happened to Lord Frost?
 0x5edb9	0x26d		ピート\nこのごろ魔物の活動が活発になってきてるな。\nまぁ、この辺りにゃ神官竜のフロスト様のおかげで、たいした魔物はいねぇえがな。	Pete\n{Monster}s have been getting more active lately.\nWell, thanks to Lord Frost, the {Priest Dragon},\nthere at least aren't any {Monster}s around here.
 0x5edb9	0x2bd		んっ、ウォーリックじゃないか。\nお前の見張り当番は来週だぞ。\nケイ	Oh, {Warrick}, it's you.\nYour watch shift isn't till\nnext week.\nKay
@@ -179,7 +177,7 @@ block_off	str_off	speaker	text	english
 0x5f886	0x387	レイナ	これは多めに買っておきましょ。	Let's stock up on these.
 0x5f886	0x3a7		ミール\nこのポーションは、多くの薬草を煮詰めて造った回復薬よ。\nただ薬草を飲むより数倍の効き目はあるわ。\nただし、一回限りだけどね。	Mir\nThis potion is a cure brewed\ndown from many herbs.\nWorks far better than raw\nherbs, but only once.
 0x5f886	0x412	レイナ	旅先の事を考えて買っておきたいわ。ねぇ・・・ミール、もうちょっと安くならない？	I'd like some for the road.\nSay... Mir, any chance of a\nlittle discount?
-0x5f886	0x468		グってね、革紐でできた簡単な石投げ器よ。\n安価だし、手軽に使えるのが利点ね。ただ、鎧とかを着込んだ相手には、たいしたダメージは望めないわ。	A sling is a simple leather-thong\nstone-thrower.\nCheap and easy to use, but don't\nexpect much against armored foes.
+0x5f886	0x45b		ミール\nスリングってね、革紐でできた簡単な石投げ器よ。\n安価だし、手軽に使えるのが利点ね。ただ、鎧とかを着込んだ相手には、たいしたダメージは望めないわ。	Mir\nA sling is a simple leather-thong\nstone-thrower.\nCheap and easy to use, but don't\nexpect much against armored foes.
 0x5f886	0x4da	レイナ	安いし手軽なところがいいわね。	Cheap and handy. I like that.
 0x5f886	0x4fb		ミール\nこれは、普通の矢の三分の一ほどの長さの矢の事よ。\nこれは手で投げて使う武器で、かなり正確に敵を狙えるわ。\n値段も手ごろだと思うわよ。	Mir\nThese are darts, arrows about\na third the usual length.\nYou throw them by hand and aim\ntrue. The price is fair too.
 0x5f886	0x574	レイナ	値段のわりには、威力がありそうね。	Strong for the price, it seems.
@@ -190,7 +188,7 @@ block_off	str_off	speaker	text	english
 0x5f886	0x68f		ミール\n革でできた、ただの靴よ。\n女性用に造られているから、かわいいデザイ	Mir\nJust plain leather shoes.\nMade for women, so the designs\nare cute,
 0x5f886	0x6c1		の物が多いでしょ。\n旅にはあまり向かないわね。	most of them anyway.\nNot really suited for travel.
 0x5f886	0x6f3	ファーニス	ああっ、カワイイィィィ。	Oh, so cuuute!
-0x5f886	0x70e		ミール\nこれは革でできた、ブーツよ。\n機能性を追究したシ	Mir\nThese are leather boots.\nA simple, function-first
+0x5f886	0x70e		ミール\nこれは革でできた、ブーツよ。\n機能性を追究したシンプルなデザイ	Mir\nThese are leather boots.\nA simple, function-first
 0x5f886	0x73d		で、履き心地がとってもいいの。\nまあ、普段生活するにはちょうどいいわね。\n男女兼用だし、よく売れているわよ。	design, very comfortable to wear.\nJust right for everyday life.\nUnisex too, so they sell well.
 0x5f886	0x798	レイナ	値段もちょうどいいかしら。	The price is about right too.
 0x5fdf8	0x1a	ウォーリック	・・・あれっ？\nブージ、いないぞ。\nまだ帰ってないのかな。	...Huh?\n{Booj}'s not here.\nMaybe he's not back yet.
@@ -217,8 +215,7 @@ block_off	str_off	speaker	text	english
 0x5fdf8	0x530		パナップお婆ちゃん\nおおっブージか・・・・・。\nよく帰ったのう。\n狩りの成果はどうじゃった。	Granny Panap\nOh, {Booj}...\nWelcome home.\nHow was the hunt?
 0x5fdf8	0x56c		パナップお婆ちゃん\nウォーリック、レイナ、それにエルフのお嬢ちゃん。\nこの世界はいつも神官竜様に見守られているんだよ。	Granny Panap\n{Warrick}, {Reina}, and the\nlittle elf miss.\nThis world is always watched\nover by the {Priest Dragon}s.
 0x5fdf8	0x5ae		パナップお婆ちゃん\nウォーリック、帰ったのかい。	Granny Panap\n{Warrick}, you're back?
-0x5fdf8	0x5d6		ファルフ\nシェリーお姉ちゃんたら、僕を置いて一人でラット　ジャイア	Falf\nSherry went and left me behind\nto hunt Rat Giants
-0x5fdf8	0x605		ト狩りに行っちゃったんだぜ。\n約束してたのに、ひどいよな。	all by herself.\nShe promised me, too. So mean.
+0x5fdf8	0x5d6		ファルフ\nシェリーお姉ちゃんたら、僕を置いて一人でラット　ジャイアント狩りに行っちゃったんだぜ。\n約束してたのに、ひどいよな。	Falf\nSherry went and left me behind to\nhunt Rat Giants all by herself.\nShe promised me, too. So mean.
 0x5fdf8	0x62b		ファルフ\nブージ、おかえりぃぃぃ。\nシェリーお姉ちゃんってね、ブージが旅に出ている間、いつもブージの事ばっかり言うんだ。	Falf\n{Booj}, welcome back!\nYou know, while you were away,\nSherry talked about you all\nthe time.
 0x5fdf8	0x673		ファルフ\nウォーリックお兄ちゃん。\n僕も大人のなったらお兄ちゃんみたいな冒険者になるよ。	Falf\n{Warrick}!\nWhen I grow up I'll be an\nadventurer like you.
 0x5fdf8	0x6a0		ファルフ\n僕も旅行きたい。	Falf\nI wanna travel too.
@@ -255,15 +252,15 @@ block_off	str_off	speaker	text	english
 0x6095b	0x12		城に用件があるのなら、右の通用門を使ってください。	If you have business at the\ncastle, please use the side gate\non the right.
 0x6095b	0x3b		いい天気ですなぁ。\n今日の様に天気がよいと仕事が楽でいいです。\n騎士　ポナー	Fine weather.\nWork's easy on a day this nice.\n{Knight} Ponar
 0x6095b	0x73		おおっと、騎士がこんな事を言ってはいけませんな。	Oops, a knight shouldn't say\nthings like that.
-0x6095b	0xb5		ト\n今は謁見を行ってはいません。\nまた、あらためて・・・と言いたいのですが、いつ謁見が許されるかさえわかりません。	No audiences are being held\nright now.\nI'd say come another time, but\nthere's no telling when one will\nbe granted.
+0x6095b	0xaf		騎士　カリント\n今は謁見を行ってはいません。\nまた、あらためて・・・と言いたいのですが、いつ謁見が許されるかさえわかりません。	{Knight} Karint\nNo audiences are being held\nright now.\nI'd say come another time, but\nthere's no telling when one will\nbe granted.
 0x6095b	0x10c	レイナ	私達はクラウスより長老の手紙を届けに参りました。\n入城の許可をお願いします。	We've come from Klaus to deliver\nthe elder's letter.\nPlease grant us entry.
 0x6095b	0x15a		門番に、ローラの手紙を渡した。	You handed Lola's letter to the\ngatekeeper.
-0x6095b	0x18f		ト\nこの手紙は、たしかにベイグ王宛ての物ですな。\n・・・急ぎの様では大変ですな。\n今、確認を取って来ましょう。	This letter is indeed addressed\nto King Baig.\n...Urgent, by the look of it.\nI'll go confirm at once.
+0x6095b	0x189		騎士　カリント\nこの手紙は、たしかにベイグ王宛ての物ですな。\n・・・急ぎの様では大変ですな。\n今、確認を取って来ましょう。	{Knight} Karint\nThis letter is indeed addressed\nto King Baig.\n...Urgent, by the look of it.\nI'll go confirm at once.
 0x6095b	0x20b		ア・・・・・・・・・・・・・・・・・・・・・・・・・・・・。\nファーニス\n・・・遅いねぇ。\nあッ！	Aaaaah...\p{Furnis}\n...He's slow.\nAh!
-0x6095b	0x24a		ト\nお待たせしました。\n許可が下りましたので入城してください。	Sorry for the wait.\nPermission is granted, please\nenter the castle.
-0x6095b	0x27e		ト\nお役目、ご苦労様です。	Good work at your post.
-0x6095b	0x298		ト\nあなた達もジークの騎士に志願するつもりなのですか？	Are you here to volunteer as\nZeke knights too?
-0x6095b	0x2bc		ト\nドラゴン　ライダー隊も帰って来たし、一安心ですな。	The Dragon Rider corps is back,\nso that's a relief.
+0x6095b	0x244		騎士　カリント\nお待たせしました。\n許可が下りましたので入城してください。	{Knight} Karint\nSorry for the wait.\nPermission is granted, please\nenter the castle.
+0x6095b	0x278		騎士　カリント\nお役目、ご苦労様です。	{Knight} Karint\nGood work at your post.
+0x6095b	0x292		騎士　カリント\nあなた達もジークの騎士に志願するつもりなのですか？	{Knight} Karint\nAre you here to volunteer as\nZeke knights too?
+0x6095b	0x2b6		騎士　カリント\nドラゴン　ライダー隊も帰って来たし、一安心ですな。	{Knight} Karint\nThe Dragon Rider corps is back,\nso that's a relief.
 0x6095b	0x2d9		騎士　ボーナム\nジーク王国にようこそ。\n表は魔物が多く大変だったでしょう。\nさっ、早く街に入り旅の疲れを癒して下さい。	{Knight} Bonum\nWelcome to the Zeke Kingdom.\nThe roads out there are thick\nwith {Monster}s, hard going.\nCome, rest your travel-weariness\nin town.
 0x6095b	0x325		騎士　ペイジ\n今ではジークの騎士ですが、２年前まで私は冒険者だったんですよ。	{Knight} Page\nI'm a Zeke knight now, but two\nyears ago I was an adventurer.
 0x6095b	0x358		騎士　ペイジ\n・・・・・・・・・・・・・！！\nおっと、立ったまま足踏みまでして寝てしまった。	{Knight} Page\n.....!!\nOops, I fell asleep on my feet,\nmarching in place no less.
@@ -283,7 +280,7 @@ block_off	str_off	speaker	text	english
 0x6095b	0x685		ドリス\n将来、お城の舞踏会にお呼ばれしても恥ずかしくない様に、今から踊りの練習しておくのよ。	Doris\nI'm practicing my dancing now,\nso I won't embarrass myself if\nI'm ever invited to a castle ball.
 0x6095b	0x6c7		チャーミー\n私ね、王子様のお嫁さんになるの。\nぜったい、なるのぉぉぉぉぉッ。	Charmy\nI'm going to be a prince's bride.\nI absolutely will, I will!
 0x6095b	0x6fc		宿屋\n⟨14⟩⟨14⟩竜光亭\n御宿泊、御食事\n宴会、３名様より受け給ります。	Inn\nDragonlight Inn\nLodging, meals, and banquets\nfor parties of 3 or more.
-0x6095b	0x748		シーな雰囲気の\n素敵なお店。	A lovely shop with a fancy\natmosphere.
+0x6095b	0x733		アイテム　ショップ\n⟨14⟩⟨14⟩ディーゼル\nファンシーな雰囲気の\n素敵なお店。	Item Shop\nDiesel\nA lovely shop with a fancy\natmosphere.
 0x6095b	0x772		テュース\n\n⟨14⟩天下の逸品を貴方の手に。	Teus\n\nThe finest wares in the land,\nyours to own.
 0x6095b	0x79b		ぎ悟郎屋\n\n⟨14⟩感謝の大奉仕セール実施中。	Goro's Shop\n\nA big thank-you sale, now on!
 0x6095b	0x7d1		魔導具の鑑定、買取り、行います。	Magic-item appraisal and\npurchase available.
@@ -294,18 +291,16 @@ block_off	str_off	speaker	text	english
 0x60fb4	0xa0	レイナ	あらッ、持ち合わせがないわ。	Oh, I can't afford that.
 0x60fb4	0xc4		ミーシャ\n魔法の掛かったアイテムが欲しいなら、ストネールの魔法屋に行ってみて。\n魔法のアイテムだけは、専門家じゃなきゃ危険だわ。	Misha\nIf you want enchanted items, try\nStonell's magic shop.\nMagic items are dangerous unless\nhandled by a specialist.
 0x60fb4	0x122		ミーシャ\nこの国は、タリアトフ大陸最強のドラゴン　ライダー部隊がいるって事で有名よ。\nワイバーンに乗って飛んでいる騎士達って、見ていて壮観よ。	Misha\nThis kingdom is famed for the\nstrongest Dragon Rider corps on\nthe Taliatov continent.\nKnights soaring on Wyverns are\na grand sight.
-0x60fb4	0x172		ミーシャ\n国境を越えるなら、装備は十分揃えて行った方がいいわよ。\nジークとセルーシュを繋ぐト	Misha\nIf you're crossing the border,\nbest stock up on gear first.\nThe tunnel linking Zeke and\nSerush
-0x60fb4	0x1b0		ネルに超大型のビボルダーが出るって話なのよ。\n行くのなら魔法の装備も必要だと思うわ。	is said to have a huge Bivolder\nin it.\nIf you're going, you'll want\nmagic gear too.
+0x60fb4	0x172		ミーシャ\n国境を越えるなら、装備は十分揃えて行った方がいいわよ。\nジークとセルーシュを繋ぐトンネルに超大型のビボルダーが出るって話なのよ。\n行くのなら魔法の装備も必要だと思うわ。	Misha\nIf you're crossing the border,\nbest stock up on gear first.\nThe tunnel linking Zeke and Serush\nis said to have a huge Bivolder\nin it.\nIf you're going, you'll want\nmagic gear too.
 0x60fb4	0x1f5		ミーシャ\nうちは４割で引取るわよ。	Misha\nWe buy back at 40 percent.
 0x60fb4	0x223	レイナ	やっぱり、もうちょっと使ってからにする。	On second thought, I'll use it\na while longer first.
 0x60fb4	0x244		ミーシャ\nありがとうございました。	Misha\nThank you very much.
-0x60fb4	0x256		ブー父ちゃん\nわしが、この店の主人じゃ。\n娘のミーシャが店を手伝う様になってから、店が大繁盛しておる。\nやっぱ、女の子の方が客も来るのかのう？	Papa Boo\nI'm the owner of this shop.\nBusiness has boomed since my\ndaughter Misha started helping.\nMaybe folks come more for a\npretty girl, eh?
-0x60fb4	0x2b8		ブー父ちゃん\nこの国のワイバーンは見たかね。\nわしも、あと３０若ければドラゴン　ライダー隊に志願したのにのう。	Papa Boo\nSeen this kingdom's Wyverns?\nIf I were 30 years younger I'd\nhave joined the Dragon Riders\nmyself.
+0x60fb4	0x254		バンブー父ちゃん\nわしが、この店の主人じゃ。\n娘のミーシャが店を手伝う様になってから、店が大繁盛しておる。\nやっぱ、女の子の方が客も来るのかのう？	Papa Bamboo\nI'm the owner of this shop.\nBusiness has boomed since my\ndaughter Misha started helping.\nMaybe folks come more for a\npretty girl, eh?
+0x60fb4	0x2b6		バンブー父ちゃん\nこの国のワイバーンは見たかね。\nわしも、あと３０若ければドラゴン　ライダー隊に志願したのにのう。	Papa Bamboo\nSeen this kingdom's Wyverns?\nIf I were 30 years younger I'd\nhave joined the Dragon Riders\nmyself.
 0x60fb4	0x2f8		ミーシャ\nレイピアは、主に突き刺すために造られた細身の３剣７の事よ。\n他の３剣７に比べて、とても軽いから女性にも人気が高いわ。\n筋力より敏捷性が必要ね。	Misha\nA rapier is a slender sword made\nmainly for thrusting.\nLighter than other swords, so\nit's popular with women.\nIt needs agility over strength.
 0x60fb4	0x379	レイナ	レイピアって、とてもキレイな３剣７ね。	A rapier's such an elegant sword.
 0x60fb4	0x3a5	ファーニス	たいした威力はありそうにないね。	Doesn't look very powerful, though.
-0x60fb4	0x3c6		ミーシャ\nブロードソードってのは、幅広の片手持ちの３剣７の事よ。\nこの店では、今一番売れてるわ。\nバラ	Misha\nA broadsword is a wide, one-handed\nsword.\nIt's our best seller right now.\nThe bal-
-0x60fb4	0x40f		スもいいし３盾７と併用して使えば完壁ね。	ance is good, and paired with a\nshield it's perfect.
+0x60fb4	0x3c6		ミーシャ\nブロードソードってのは、幅広の片手持ちの３剣７の事よ。\nこの店では、今一番売れてるわ。\nバランスもいいし３盾７と併用して使えば完壁ね。	Misha\nA broadsword is a wide, one-handed\nsword.\nIt's our best seller right now.\nThe balance is good, and paired\nwith a shield it's perfect.
 0x60fb4	0x43b	レイナ	昔、ウォーリックの使ってた３剣７と同じ物ね。	The same sword {Warrick} used\nlong ago.
 0x60fb4	0x45f		ミーシャ\nバスタードソードは、ブロードソードよりちょっと長めの３剣７よ。\n片手でも両手でも使える様に握りが長くなっているの。\nでも、みんな３盾７と併用して使っているわね。	Misha\nA bastard sword is a bit longer\nthan a broadsword.\nThe grip is long, so you can use\nit one or two-handed.\nMost pair it with a shield, though.
 0x60fb4	0x4e0	レイナ	この３剣７、カッコいいわね。	This sword looks cool.
@@ -331,10 +326,10 @@ block_off	str_off	speaker	text	english
 0x61518	0x1dc		アイシャ\nえっと・・・バックラーですね。\nこれは小さな円形の３盾７です。\n軽いですし、女性でも簡単に装備できますし・・・安いです。	Aisha\nUm... a buckler, right?\nIt's a small, round shield.\nLight, easy even for women to\nequip, and... cheap.
 0x61518	0x25a	レイナ	私やファーニスも装備できるわね。	{Furnis} and I could equip this.
 0x61518	0x280	ファーニス	それにしても、お姉ちゃん・・・そんな緊張しないでいいよ。	Really, miss... no need to be\nso nervous.
-0x61518	0x2c7		ドシールドですね。\nこれはバックラーより大きく、強度も高い円形の３盾７です。\nえっと・・・このお店にある３盾７の中では、一番防御力があります。	A round shield, right?\nBigger and stronger than a\nbuckler.\nUm... it has the best defense of\nany shield in our shop.
+0x61518	0x2b7		アイシャ\nラウンドシールドですね。\nこれはバックラーより大きく、強度も高い円形の３盾７です。\nえっと・・・このお店にある３盾７の中では、一番防御力があります。	Aisha\nA round shield, right?\nBigger and stronger than a\nbuckler.\nUm... it has the best defense of\nany shield in our shop.
 0x61518	0x34a	レイナ	これは買っておいた方がいいんじゃない、ウォーリック。	We should buy this, {Warrick}.
 0x61518	0x378	ウォーリック	この盾はとても使いやすいよ。	This shield is very easy to use.
-0x61518	0x3a7		ト、まぁぁぁんまるな盾だね。	What a perfectly round shield.
+0x61518	0x39e	ファーニス	ホント、まぁぁぁんまるな盾だね。	Really, what a perfectly round\nshield.
 0x61518	0x3be		アイシャ\nえっと、これは・・・文字通り動物の革でできた３鎧７です。\nとても軽いので女性にも着れますし、運動性を阻害する事もありません。\nそれに、とても安いです。	Aisha\nUm, this is... literally armor\nmade of animal hide.\nVery light, women can wear it,\nand it doesn't hinder movement.\nAlso very cheap.
 0x61518	0x457		もたくさんあるのね。	There's a lot of it, too.
 0x61518	0x472	ファーニス	いったい、何の革使ってるのかしら？	I wonder what hide it's made of.
@@ -342,7 +337,7 @@ block_off	str_off	speaker	text	english
 0x61518	0x52e	レイナ	装飾もあって、きれいね。	It's decorated, and pretty.
 0x61518	0x558	ファーニス	ウォーリック、これ欲しいぃぃぃ。	{Warrick}, I want this!
 0x61518	0x57b	ファーニス	私今着ているけど、どう？\n似合うでしょう。	I'm wearing it now. How is it?\nSuits me, right?
-0x61518	0x5b5		グメイルですね。\nえっと、これはレザーアーマーの表面に小さな金属製の輪を全体に縫い付けて、防御力を高めた物なんです。\nあまり重さもなく、着やすいので以外と売れています。	Ring mail, right?\nUm, small metal rings are sewn\nall over leather armor to boost\nits defense.\nNot heavy and easy to wear, so\nit sells surprisingly well.
+0x61518	0x5a6		アイシャ\nリングメイルですね。\nえっと、これはレザーアーマーの表面に小さな金属製の輪を全体に縫い付けて、防御力を高めた物なんです。\nあまり重さもなく、着やすいので以外と売れています。	Aisha\nRing mail, right?\nUm, small metal rings are sewn\nall over leather armor to boost\nits defense.\nNot heavy and easy to wear, so\nit sells surprisingly well.
 0x61518	0x63a	レイナ	あんまり、カッコよくないわね。	Not very stylish, though.
 0x61518	0x658		アイシャ\nショルダーガードですね。\nこれは金属製の肩当てです。\n両肩と心臓の部分のアーマーを、革のベルトで繋いだ物ですが・・・えっと、十分役にたつと思います。	Aisha\nA shoulder guard, right?\nMetal pauldrons.\nArmor for both shoulders and the\nheart, joined by leather belts...\num, I think it's quite useful.
 0x61518	0x6dd	レイナ	なんか、冒険者って感じね。	Feels adventurer-ish, somehow.
@@ -370,16 +365,13 @@ block_off	str_off	speaker	text	english
 0x61a35	0x44a		が刻み込まれているでしょ。\n水晶のロッドを遥かに凌ぐ力を持っているわ。	carved into it, see?\nIt far surpasses the crystal\nrod in power.
 0x61a35	0x494	レイナ	わぁぁぁ、これ欲しいわ。\nねぇウォーリック、買おっ。	Wow, I want this.\nHey {Warrick}, let's buy it.
 0x61a35	0x4c4	レイナ	今、私が持ってる杖ね。	The staff I'm carrying now.
-0x61a35	0x4e6		ストネール\nこのローブは、魔導士のシ	Stonell\nThis robe is a mage's sym-
-0x61a35	0x4fd		ボル的な衣装ねっ。\n上級魔導士が着る事によって、最大の力を発揮するの。\n着る者自身の魔力と同調すれば、高い防御力を得られるはずよ。	bolic garment.\nWorn by an advanced mage, it\nshows its full power.\nAttuned to the wearer's own\nmagic, it grants high defense.
+0x61a35	0x4e6		ストネール\nこのローブは、魔導士のシンボル的な衣装ねっ。\n上級魔導士が着る事によって、最大の力を発揮するの。\n着る者自身の魔力と同調すれば、高い防御力を得られるはずよ。	Stonell\nThis robe is a mage's symbolic\ngarment.\nWorn by an advanced mage, it\nshows its full power.\nAttuned to the wearer's own\nmagic, it grants high defense.
 0x61a35	0x576	レイナ	ふぅぅぅん、面白そうね。	Hmm, sounds interesting.
-0x61a35	0x593		ストネール\nこれは、水晶の部分で大気中の魔力を吸収して、ヒーリ	Stonell\nThe crystal absorbs magic from\nthe air and turns it into heal-
-0x61a35	0x5c8		グの呪文に変換する仕組みになっているの。\n水晶には、魔力を増幅させる力があるんだけど、この頃、品質のいい水晶がなかなか無くて・・・。	ing magic.\nCrystals can amplify magic, but\ngood-quality ones are hard to\nfind these days...
+0x61a35	0x593		ストネール\nこれは、水晶の部分で大気中の魔力を吸収して、ヒーリングの呪文に変換する仕組みになっているの。\n水晶には、魔力を増幅させる力があるんだけど、この頃、品質のいい水晶がなかなか無くて・・・。	Stonell\nThe crystal absorbs magic from\nthe air and turns it into healing\nmagic.\nCrystals can amplify magic, but\ngood-quality ones are hard to\nfind these days...
 0x61a35	0x63c	ファーニス	サイズ直しは、無料かな？	Is resizing free?
 0x61a35	0x65a		ストネール\nこれも、水晶の指輪と原理はまったく同じよ。\nこの紫水晶は、シルバーホーン産で、品質は最高の物なの。\nパワーもこっちの方が断然上だわ。\n買って損はしないわよ。	Stonell\nSame principle as the crystal\nring.\nThis amethyst is from Silverhorn,\ntop quality.\nIts power's far greater, too.\nYou won't regret buying it.
 0x61a35	0x6db	レイナ	確かに強い魔力はありそうね。	It does seem to hold strong magic.
-0x61a35	0x6fc		ストネール\nこれは、爆発性のある結晶を、制御するために加工した物よ。\n３つのラ	Stonell\nThis is an explosive crystal,\nprocessed to be controllable.\nThere are three ran-
-0x61a35	0x734		クがあって、破壊力の大きい順に、金、銀、銅、の制御カバーが付いているわ。\nこれでも、かなり威力があるわよ。	ks, with gold, silver, and bronze\ncontrol covers by descending\ndestructive power.\nEven this one is quite powerful.
+0x61a35	0x6fc		ストネール\nこれは、爆発性のある結晶を、制御するために加工した物よ。\n３つのランクがあって、破壊力の大きい順に、金、銀、銅、の制御カバーが付いているわ。\nこれでも、かなり威力があるわよ。	Stonell\nThis is an explosive crystal,\nprocessed to be controllable.\nThere are three ranks, with gold,\nsilver, and bronze control covers\nby descending destructive power.\nEven this one is quite powerful.
 0x61a35	0x78d	レイナ	取扱いには、気を付けなきゃ。	We'll have to handle it with care.
 0x61a35	0x7b5	ファーニス	戦闘が楽になりそうね。	Should make battles easier.
 0x61fbe	0xe		ディーゼル\nへいッ、らっしゃい！！\nじゃんじゃん買ってくんなぁ。	Diesel\nHey, welcome!!\nBuy big, now!
@@ -392,8 +384,7 @@ block_off	str_off	speaker	text	english
 0x61fbe	0x184		ディーゼル\nこの店じゃ３割で引取るぜ。	Diesel\nWe buy back at 30 percent here.
 0x61fbe	0x1b9	レイナ	今回はやめておくわ。	I'll pass this time.
 0x61fbe	0x1d1		ディーゼル\nへいッ、毎度あり。\nまた来いや。	Diesel\nHey, thanks as always.\nCome again.
-0x61fbe	0x1f6		ディーゼル\nこの薬草袋の中身を、他の店の物と一緒にしてもらっちゃあ困るぜ。\nうちのは特別製なんだよ。\nなんと、ニ	Diesel\nDon't lump my herb pouch in with\nother shops' stuff.\nMine's special-made.\nWith, get this, gar-
-0x61fbe	0x247		ニクの成分入り。\nなのに他の店の薬草袋と同じ値段！！くぅぅぅぅぅッ、太っ腹だねぇ。	lic in it.\nAnd the same price as anyone\nelse's pouch!! Gah, what a deal,\nright?
+0x61fbe	0x1f6		ディーゼル\nこの薬草袋の中身を、他の店の物と一緒にしてもらっちゃあ困るぜ。\nうちのは特別製なんだよ。\nなんと、ニンニクの成分入り。\nなのに他の店の薬草袋と同じ値段！！くぅぅぅぅぅッ、太っ腹だねぇ。	Diesel\nDon't lump my herb pouch in with\nother shops' stuff.\nMine's special-made.\nWith, get this, garlic in it.\nAnd the same price as anyone\nelse's pouch!! Gah, what a deal,\nright?
 0x61fbe	0x294	レイナ	効き目は同じみたいね。	The effect seems the same, though.
 0x61fbe	0x2b8	ファーニス	そんなの入れてどうすんの、おっちゃん！？	Why'd you put that in, mister?!
 0x61fbe	0x2de		ディーゼル\nこのポーションは、他の店の物と一味ちがぁぁぁう！！\nうちのは特別製なんだよ。\nなっ、なっ、なんと、レモ	Diesel\nThis potion's a cut above the\nrest!!\nMine's special-made.\nWith, with, get this, lem-
@@ -410,7 +401,7 @@ block_off	str_off	speaker	text	english
 0x61fbe	0x5e1	レイナ	強そうだけど、大きくて邪魔そうね。	Strong, but so big it'd get in\nthe way.
 0x61fbe	0x60c	ファーニス	私の身長より大っきいよ、これ！！	This is taller than me!!
 0x61fbe	0x62f		ディーゼル\nこいつぁ、冒険者専用に造られたブーツだ。\n岩場だろうと草むらだろうと、どこでもオッケー！！\nこれで、旅はかなり楽になる筈だぜ。うちの、おすすめ商品だぁぁぁッ。	Diesel\nThese boots are made just for\nadventurers.\nRocky ground, tall grass, all\nfine!!\nThey'll make traveling a lot\neasier. Our recommended item!
-0x61fbe	0x6bc		スもいいわね。	The balance is good too.
+0x61fbe	0x6b3	レイナ	センスもいいわね。	It's got good style, too.
 0x61fbe	0x6cb		ディーゼル\nこりゃ・・・ワイバーンの餌だ。\nワイバーンは、この国の名物だからな。こいつをやるとワイバーンは大喜びするぞぉぉぉ。\nまあ、人間が喰っても害じゃないがね。	Diesel\nThis here's... Wyvern feed.\nWyverns are this kingdom's pride.\nGive 'em this and they're\noverjoyed.\nNot that it'd harm a human to\neat it, mind.
 0x61fbe	0x746	レイナ	なんで煎餅なの？	Why is it a rice cracker?
 0x61fbe	0x76a	ファーニス	私もワイバーンに、餌あげたぁぁぁい。ねぇ、買おっ買おっ、	I wanna feed a Wyvern too!\nCome on, let's buy some, buy some!
@@ -427,11 +418,11 @@ block_off	str_off	speaker	text	english
 0x624f6	0x1a7		ベルニエッタ\nお食事ですね。\nえっと・・・・・人数分で、ちょうど１００ダインになります。	Bernietta\nA meal, was it?\nUm... for your whole party, that's\nexactly 100 Dain.
 0x624f6	0x1e6		・食事にする。\n・やめておく。	・Eat.\n・Never mind.
 0x624f6	0x203	レイナ	さっき、食事したばかりじゃない。	We just ate a moment ago.
-0x624f6	0x251		チは、ジーク風羊肉のポトフのセットよ。\n奥のテーブルが、開いているわ。	Today's special is a Zeke-style\nmutton pot-au-feu set.\nThe back table is open.
+0x624f6	0x23d		ベルニエッタ\n今日のランチは、ジーク風羊肉のポトフのセットよ。\n奥のテーブルが、開いているわ。	Bernietta\nToday's special is a Zeke-style\nmutton pot-au-feu set.\nThe back table is open.
 0x624f6	0x291	ファーニス	いっただっきまぁぁぁす。\n・・・おッ、美味しぃぃぃぃぃッ。	Time to eat!\n...Oh, delicious!
-0x624f6	0x2e1		チは、砂鯨の大和煮定食よ。奥のテーブルが、開いているわ。	Today's special is a sand whale\nsimmered set. The back table is\nopen.
+0x624f6	0x2cd		ベルニエッタ\n今日のランチは、砂鯨の大和煮定食よ。奥のテーブルが、開いているわ。	Bernietta\nToday's special is a sand whale\nsimmered set. The back table is\nopen.
 0x624f6	0x31a	レイナ	いただきます。\n・・・・・うん、まあまあの味ね。	Let's eat.\n...Mm, not bad.
-0x624f6	0x35e		チは、タコの干物のジャムあえ納豆定食よ。\n奥のテーブルが、開いているわ。	Today's special is dried octopus\nin jam with natto. The back\ntable is open.
+0x624f6	0x34c		ベルニエッタ\n今日のランチは、タコの干物のジャムあえ納豆定食よ。\n奥のテーブルが、開いているわ。	Bernietta\nToday's special is dried octopus\nin jam with natto. The back\ntable is open.
 0x624f6	0x399	ウォーリック	・・・なぁ、レイナ。\nこれ本当に食い物なのか？	...Hey, {Reina}.\nIs this really food?
 0x624f6	0x3cc	レイナ	ウォーリック・・・初めにちょっと食べてみてよ。	{Warrick}... you try a bite first.
 0x624f6	0x3f9	ウォーリック	・・・うん。\nいただきます。\nウォーリック\n・・・・・げッ、げはぁぁぁッ。\nまッ、まずいぃぃぃぃぃぃッ。	...OK.\nDown it goes.\p{Warrick}\n...Ugh, blegh!\nIt's, it's awful!
@@ -449,20 +440,20 @@ block_off	str_off	speaker	text	english
 0x624f6	0x633		ベルニエッタ\n換金は１００テミス以上ないとできません。	Bernietta\nYou need at least 100 Themis to\nexchange.
 0x624f6	0x6a7		ベルニエッタ\n換金終りました。	Bernietta\nExchange complete.
 0x624f6	0x6c4		ベルニエッタ\nまた、いつでもどうぞ。	Bernietta\nCome by anytime.
-0x624f6	0x6f2		チは、味の落差が激しいんだよなぁ。\nタコの料理に気を付けな。	The lunches here are wildly hit\nor miss.\nWatch out for the octopus dishes.
+0x624f6	0x6e0		ベルニエッタのランチは、味の落差が激しいんだよなぁ。\nタコの料理に気を付けな。	Bernietta's lunches are wildly\nhit or miss.\nWatch out for the octopus dishes.
 0x624f6	0x721		ユーノス\n詳しい事はわからねぇがな。\n今、セルーシュは大変なんだってよ。	Eunos\nI don't know the details, but\nSerush is in a bad way right now.
 0x624f6	0x74c		カミール\nどっかにカワイイ子いないかな。	Kamil\nWonder if there's a cute girl\naround somewhere.
 0x624f6	0x768		私に、お酒でもおごってくれるのかい。	Gonna buy me a drink, maybe?
 0x624f6	0x780		チョリス\n俺もドラゴン　ライダー隊に志願するんだ。	Choris\nI'm gonna volunteer for the\nDragon Rider corps too.
-0x62a3c	0x1b		グ\nカナールが閉鎖されて以来、ろくなことがないよ。\n今は娘の稼ぎが頼りさ。	
-0x62a3c	0x5b		グ\n噂話じゃ、セルーシュの方でも何かあったって話しだし、\n世の中どうなっちまったんだろぉなぁ。	
-0x62a3c	0x99		グ\nカナールの魔物は蛇かなんかの類だろぉな。俺は１度だけあそこで蛇の這い回る様な音を聞いたんだ。\nあぁぁぁっ、思い出しただけでも鳥肌がたつよ。	
-0x62a3c	0x105		グ\nカナール閉鎖前は大がかりな採掘が行なわれていてね、\n中はかなり危険な状態じゃないかな。	
-0x62a3c	0x151		グ\nカナールまでの森には、結構変った植物が生えてるらしいよ。	
-0x62a3c	0x187		グ\nなぁ、カナールはこの後どうなるのか知らないか。	
-0x62a3c	0x1af		グ\n全く、娘には苦労ばかりかけるよ。	
-0x62a3c	0x1d0		グ\n王に会ったのかい？\n英雄ってのは歳をとっても堂々としたもんだろう。	
-0x62a3c	0x205		グ\nおや、久しぶりだね。\n旅の方は順調かい？。	
+0x62a3c	0x15		アーヴィング\nカナールが閉鎖されて以来、ろくなことがないよ。\n今は娘の稼ぎが頼りさ。	
+0x62a3c	0x55		アーヴィング\n噂話じゃ、セルーシュの方でも何かあったって話しだし、\n世の中どうなっちまったんだろぉなぁ。	
+0x62a3c	0x93		アーヴィング\nカナールの魔物は蛇かなんかの類だろぉな。俺は１度だけあそこで蛇の這い回る様な音を聞いたんだ。\nあぁぁぁっ、思い出しただけでも鳥肌がたつよ。	
+0x62a3c	0xff		アーヴィング\nカナール閉鎖前は大がかりな採掘が行なわれていてね、\n中はかなり危険な状態じゃないかな。	
+0x62a3c	0x14b		アーヴィング\nカナールまでの森には、結構変った植物が生えてるらしいよ。	
+0x62a3c	0x181		アーヴィング\nなぁ、カナールはこの後どうなるのか知らないか。	
+0x62a3c	0x1a9		アーヴィング\n全く、娘には苦労ばかりかけるよ。	
+0x62a3c	0x1ca		アーヴィング\n王に会ったのかい？\n英雄ってのは歳をとっても堂々としたもんだろう。	
+0x62a3c	0x1ff		アーヴィング\nおや、久しぶりだね。\n旅の方は順調かい？。	
 0x62a3c	0x237		レアラ\nうちの人、夜も城に詰めたままで時々しか帰ってこないの。\n最近は騎士団も忙しいみたいねぇ。	
 0x62a3c	0x275		レアラ\nうちの人はこの国の騎士なの。\n子供が好きで、しょうがないのよ。	
 0x62a3c	0x2a6		レアラ\nさて、私もお城の給事の手伝いに行かなくちゃ。	
@@ -479,7 +470,7 @@ block_off	str_off	speaker	text	english
 0x62a3c	0x535		アレーナ\nこの国の王子様は、とても人気があるんですよ。\nドラゴン　ライダーとしても、とても優秀なんだそうで、あの方がおられるから王様もさぞや安心でしょうね。	
 0x62a3c	0x58e		アレーナ\nルーシーの父はマーズ砦の守備隊にいるんです。\nなかなか家に帰って来れないんで、ルーシーはすぐショー	
 0x62a3c	0x5cd		さんにあまえるんです。	
-0x62a3c	0x5ec		グさんも大変ね。\n早くカナールの採掘場が再開されればいいのだけれど。	
+0x62a3c	0x5df		アレーナ\nアーヴィングさんも大変ね。\n早くカナールの採掘場が再開されればいいのだけれど。	
 0x62a3c	0x61d		アレーナ\n採掘場で御活躍だった方々ね。\nえ？なんで知ってるのかって？\n噂話ってそ〜いうものよ。\nそれに、私こ〜見えても情報通って有名なんだから。	
 0x62a3c	0x684		アレーナ\n魔法屋のストネールさんは努力家で有名なのよ。\n結構若いのに自分のお店まで持って、\nここだけの話しだけど、お城のマーシー様にも負けない位すごい術を使えるんですって！\nほんと若いのにすごいわねぇ。	
 0x62a3c	0x70d		アレーナ\nこらッ、ルーシー！！\nショー	
@@ -628,8 +619,7 @@ block_off	str_off	speaker	text	english
 0x64ca4	0xd4		ファ\nメデューサにやられた人達も戻って来たし、キャロルよかったね。	
 0x64ca4	0x100		ファ\nドラゴン　ライダーも帰って来たし、万事うまくおさまったね。	
 0x64ca4	0x126		ソーニア\n私の彼氏って、ドラゴン　ライダーなのよ。でも今、セルーシュに行っていて会えないの。\nさみしいわ。	
-0x64ca4	0x15e		ソーニア\nあなた達ね、メデューサを倒したパーティーって。\nホ	
-0x64ca4	0x184		ト、凄いわねぇぇぇ。	
+0x64ca4	0x15e		ソーニア\nあなた達ね、メデューサを倒したパーティーって。\nホント、凄いわねぇぇぇ。	
 0x64ca4	0x190		ソーニア\nもう、忙しくて、毎日大変よぉ	
 0x64ca4	0x1af		ルカ\nお花に水をあげるのが、私の日課なの。	
 0x64ca4	0x1cc		ルカ\n早く、お花　咲かないかな。	
@@ -646,8 +636,7 @@ block_off	str_off	speaker	text	english
 0x64ca4	0x3fe		ルーカス\n早く強くなって、立派な騎士になるんだ。	
 0x65003	0x23	ファーニス	あっ・・・ちょっと待って！！\n岩の隙間から水と一緒に、少しだけど風が流れ込んで来てるよ。	
 0x65003	0x7c	レイナ	向こう側が空洞になっているのかしら？	
-0x65003	0x9f	ファーニス	ちょっと聞いてみるね。\n・・・教えて、ウ	
-0x65003	0xc6		ディーネ。\nあなた達の今までいた所、どうなってた？\nファーニス\n・・・・・なになに・・・・・・・・・・・ふんふん。\nわかったわ。\nありがとうウ	
+0x65003	0x9f	ファーニス	ちょっと聞いてみるね。\n・・・教えて、ウンディーネ。\nあなた達の今までいた所、どうなってた？\nファーニス\n・・・・・なになに・・・・・・・・・・・ふんふん。\nわかったわ。\nありがとうウンディーネ。	
 0x65003	0x138	レイナ	どう、何かわかった？	
 0x65003	0x154	ファーニス	うんっ。\n向こう側は、とっても広い空洞になってるって。\nそれに、大っきな地底湖があるそうよ。\nファーニス\n風の流れから見て、どっかにつながっている場所があるみたい。	
 0x65003	0x1c6	レイナ	じゃあ、東側の壁づたいを調べて行きましょう。\nどこかに通路があるはずよ。	
@@ -658,7 +647,7 @@ block_off	str_off	speaker	text	english
 0x65003	0x329	ファーニス	・・・・・ウォーリック。\n今、何かした？	
 0x65003	0x354	ウォーリック	・・・いやっ。\nちょっと、剣の素振りを。	
 0x65003	0x386	レイナ	ウォーリック、ファーニス、遊んでる時じゃないでしょう。\n私がやるから、２人共下がっていて。	
-0x65003	0x3d3	レイナ	・・・魔を制したる我は使役す、天空の稲妻、天地万物を貫く光槍となり、我が命により個を砕け。\nライトニ	
+0x65003	0x3d3	レイナ	・・・魔を制したる我は使役す、天空の稲妻、天地万物を貫く光槍となり、我が命により個を砕け。\nライトニング、ボルトォォォォォッ！	
 0x65003	0x4b3	ファーニス	反対側に抜け道みたいのがあったよ。そっちから行こうよ、ウォーリック。	
 0x65003	0x4e8	レイナ	もう引き返すの？\n奥に行ってみましょうよ。	
 0x65003	0x519	レイナ	気配が薄れたわ。\nたぶんメデューサは湖の方よ。	
@@ -729,20 +718,14 @@ block_off	str_off	speaker	text	english
 0x65adb	0x715		ベイグ王\nでは、頼んだぞウォーリック。	
 0x65adb	0x75f	セシリア	みなさん、よろしくお願いします。\n私の事はセシリアと呼んで下さい。	
 0x66036	0x59	ファーニス	どうにかして開かないかなぁ？	
-0x66036	0x9c		ダム隊長\nその扉に近づかない方がいい。\n５日前、マーズトンネルの中腹の岩壁が崩れ、奥に洞窟が開けた。\nウィ	
-0x66036	0xea		ダム隊長\n若い騎士達が探検気分で中に入って行ったのだが、中はビボルダーで溢れ返り、皆あっと言う間にやられてしまった。	
+0x66036	0x99		ウィンダム隊長\nその扉に近づかない方がいい。\n５日前、マーズトンネルの中腹の岩壁が崩れ、奥に洞窟が開けた。\nウィンダム隊長\n若い騎士達が探検気分で中に入って行ったのだが、中はビボルダーで溢れ返り、皆あっと言う間にやられてしまった。	
 0x66036	0x148	レイナ	でも、ビボルダーと言ったら魔界の生物。\nこんな所に巣なんて・・・。	
-0x66036	0x191		ダム隊長\nそんな事はわかっている。\nト	
-0x66036	0x1ae		ネルの中に、ビボルダーを召喚しているバカデカい何かがいるんだ。\nウィ	
-0x66036	0x1dc		ダム隊長\n洞窟内部はかなり広く、我々だけで探索するのは不可能だし、今の状態で本国に救援を求める事はできまい。\nウィ	
-0x66036	0x234		ダム隊長\n落ち着くまでマーズトンネルは封鎖する。	
-0x66036	0x262	ファーニス	でも、ト	
-0x66036	0x270		ネルの向こう側はどうなってるの？	
-0x66036	0x28f		ダム隊長\n大丈夫だ。\n騎士を２人ずつ交代で行かせている。\n・・・んんっ。\n何だ、君はッ！？	
+0x66036	0x18c		ウィンダム隊長\nそんな事はわかっている。\nトンネルの中に、ビボルダーを召喚しているバカデカい何かがいるんだ。\nウィンダム隊長\n洞窟内部はかなり広く、我々だけで探索するのは不可能だし、今の状態で本国に救援を求める事はできまい。\nウィンダム隊長\n落ち着くまでマーズトンネルは封鎖する。	
+0x66036	0x262	ファーニス	でも、トンネルの向こう側はどうなってるの？	
+0x66036	0x28a		ウィンダム隊長\n大丈夫だ。\n騎士を２人ずつ交代で行かせている。\n・・・んんっ。\n何だ、君はッ！？	
 0x66036	0x31b		傷だらけの男\nたッ、助けてくれぇ。\n俺は・・・ビボルダーハンターだ。\nビボルダーハンター\n見張りの隙を見て、仲間と洞窟に入ったものの・・・仲間がビボルダーにさらわれちまった。\nビボルダーハンター\n・・・・・俺達に、気付いた騎士が・・・仲間を・・・助けに・・・・・ぐふっ。	
-0x66036	0x406		ダム隊長\n向こう側の警備は、フラーベとクルークか。・・・くそぉう、ビボルダーめ。\n警備隊、集合ッ！！	
-0x66036	0x4e5		ダム隊長\n洞窟内にハンターが入り込み、フラーベとクルークが、その者達を追って入った。\nこれより、救出行動をとるッ！！\nウィ	
-0x66036	0x545		ダム\nボーグル、カイ、ムーアは、緊急警戒体制で待機。\n２時間して戻らねば、城へ連絡しろ。\nすぐ、持場につけッ！！	
+0x66036	0x403		ウィンダム隊長\n向こう側の警備は、フラーベとクルークか。・・・くそぉう、ビボルダーめ。\n警備隊、集合ッ！！	
+0x66036	0x4e2		ウィンダム隊長\n洞窟内にハンターが入り込み、フラーベとクルークが、その者達を追って入った。\nこれより、救出行動をとるッ！！\nウィンダム\nボーグル、カイ、ムーアは、緊急警戒体制で待機。\n２時間して戻らねば、城へ連絡しろ。\nすぐ、持場につけッ！！	
 0x66036	0x5eb		、ダニエル、カーク、ブレイド。洞窟に入るぞ。\n油断するなッ、行くぞッ！！	
 0x66036	0x6dd	ファーニス	・・・凄い手際の良さ！\nみんな、いなくなっちゃった。	
 0x66036	0x713	レイナ	私達も行った方がいいわね。\nビボルダーを召喚できる生物がいるなら騎士達だけでは危険よ。	
@@ -754,8 +737,7 @@ block_off	str_off	speaker	text	english
 0x665d8	0xde		騎士　カイ\n俺達、警備隊員って騎士の道徳って性に合わないんだよ。\n騎士　愚連隊なんだよな。	
 0x665d8	0x121		騎士　カイ\n今は警戒体制だ。\n君達は部屋の隠れていた方がいい。	
 0x665d8	0x150		騎士　カイ\nふぁぁぁあ、眠いなぁ。\nもうちょっとで交代だ。\n交代したら昼寝でもしよっと。	
-0x665d8	0x194		騎士　ムーア\nここの隊長は、みんなからオヤジさんって呼ばれてるんだ。\nちょっとガ	
-0x665d8	0x1c4		コだけど、砦のみんなは信頼してるんだ。	
+0x665d8	0x194		騎士　ムーア\nここの隊長は、みんなからオヤジさんって呼ばれてるんだ。\nちょっとガンコだけど、砦のみんなは信頼してるんだ。	
 0x665d8	0x1db		騎士　ムーア\nみんな。\n無事に戻って来てくれッ。	
 0x665d8	0x1fe		騎士　ムーア\n旅は面白いかい？\n騎士の仕事も、とっても面白いぜ。	
 0x665d8	0x23e		交代は、まだだろ・・・もうちょっと寝かせて。	
@@ -767,10 +749,9 @@ block_off	str_off	speaker	text	english
 0x665d8	0x33e		騎士　カーク\n旅の成功を祈ってるぜ。	
 0x665d8	0x35e		騎士　ブレイド\nここの連中は堅苦しい騎士の礼儀ってのが駄目で、この砦に志願するんだ。\nベイグ王はそんなの気にはしないって言うけど、マーシーさんがうるさいんだ。	
 0x665d8	0x3c2		騎士　ブレイド\n君達には、何てお礼をいったらいいのか。いつでも遊びに来いよ。	
-0x665d8	0x400		ダム隊長\n私がこの砦の警備隊長、ウィ	
-0x665d8	0x423		ダムだ。\nここの問題はここで解決する。\nこれが私の方針だ。	
-0x665d8	0x451		ダム隊長\nウォーリック、ライド。\nここで騎士にならないか？\nお前達なら立派な騎士になれる。	
-0x665d8	0x489		ダム隊長\nおおっ、お前達か。\n今度、一緒の酒でも飲もう。\n・・・おごらせてもらうぞ。	
+0x665d8	0x3fd		ウィンダム隊長\n私がこの砦の警備隊長、ウィンダムだ。\nここの問題はここで解決する。\nこれが私の方針だ。	
+0x665d8	0x44e		ウィンダム隊長\nウォーリック、ライド。\nここで騎士にならないか？\nお前達なら立派な騎士になれる。	
+0x665d8	0x486		ウィンダム隊長\nおおっ、お前達か。\n今度、一緒の酒でも飲もう。\n・・・おごらせてもらうぞ。	
 0x665d8	0x4d2		ハンター　ロマーク\n・・・みんな、すまない！	
 0x665d8	0x4fd		騎士の声\nダニエルがやられた。\n助けをッ。	
 0x665d8	0x529		騎士の声\n正面に３匹。\n後ろに５匹いるぞ。	
@@ -786,8 +767,7 @@ block_off	str_off	speaker	text	english
 0x665d8	0x70d		騎士の声\n隊長、危ないッ！\nどッ、どわぁぁぁぁぁッ。	
 0x665d8	0x75b		やの声\nカッ、カーマイ	
 0x665d8	0x772		！\n・・・おのれぇぇぇッ。	
-0x665d8	0x793	ウォーリック	今のはウィ	
-0x665d8	0x7a5		ダム隊長の声。\n・・・急ぐぞッ。	
+0x665d8	0x793	ウォーリック	今のはウィンダム隊長の声。\n・・・急ぐぞッ。	
 0x66b59	0x8		［ウォーリック］\nブージ・・・どうしたんだ？	
 0x66b59	0x31		［ブージ］\n静かに！\n大気中に妙な魔力を感じる。	
 0x66b59	0x60		［ブージ］\nこの感じ・・・まさかとは思うが。	
@@ -869,16 +849,14 @@ block_off	str_off	speaker	text	english
 0x6784b	0x2bc		これはヒーターシールドを縦長に伸ばした大型の３盾７だ。\n防御面積がかなり広くなってるだろ。でも、その分重くなって動きを阻害されやすいから、慎重に使ってくれ。	
 0x6784b	0x33b	レイナ	ちょっと値段が高いわね。	
 0x6784b	0x360	ファーニス	カイトって、凧の事だね。	
-0x6784b	0x394		チほどの鱗型の金属片を、レザーアーマーに鋲で止めた物なんだ。リ	
-0x6784b	0x3c2		グメイルとかに比べて金属部分がしっかりしているから防御力も高いし、運動性を損なう事もないよ。	
+0x6784b	0x38b		これは３センチほどの鱗型の金属片を、レザーアーマーに鋲で止めた物なんだ。リングメイルとかに比べて金属部分がしっかりしているから防御力も高いし、運動性を損なう事もないよ。	
 0x6784b	0x414	レイナ	スケイルって、鱗って意味ね。	
 0x6784b	0x443	ファーニス	なんか、お魚みたいだね。\nデザイ	
 0x6784b	0x460		もキレイだし、いいなぁ。	
 0x6784b	0x47c		これはレザーアーマーに、小さな長方形の金属板を両端で固定した３鎧７だ。\nスケイルメイルに似ているけど、こっちの方が防御力は断然高いよ。\nただ、金属板の両側を止めているから、運動性はかなり落ちるね。	
 0x6784b	0x51b	レイナ	動きずらそうね。\nスケイルメイルの方が、いい様な気がするわ。	
 0x6784b	0x558	ファーニス	ラメラーって、板って意味なの？	
-0x6784b	0x583		こいつだけは買っときな。\n金属製リ	
-0x6784b	0x59c		グを鎖状に編み合わせて造ったんだが、なんせ手が込んでいるんだよ。\nだから値段は高いよぉ。\nお勧め品だから絶対買っときなぁ。	
+0x6784b	0x583		こいつだけは買っときな。\n金属製リングを鎖状に編み合わせて造ったんだが、なんせ手が込んでいるんだよ。\nだから値段は高いよぉ。\nお勧め品だから絶対買っときなぁ。	
 0x6784b	0x603	レイナ	コレ、買っておきましょうよぉ。	
 0x6784b	0x62b	ファーニス	私も着れるんだね。\nファーニス、ラッキー。	
 0x6784b	0x65a		これは全身を板金で包む３鎧７で、完壁って言っていいほどの防御力を持っている。\n関節も工夫されてるし、最高の品だよ。デザイ	
@@ -910,7 +888,7 @@ block_off	str_off	speaker	text	english
 0x67d4a	0x47e		ラミーカ\nこれは魔法疑似生命体をつかったローブで、肩当てにたくさん付いている水晶柱達が、持主の危険を感じ取ると、対象物を阻止しようと働くわ。\n制御用魔力は大気中より吸収しているから、負担もないわよ。	
 0x67d4a	0x52a	ファーニス	なんか、カッコいいねぇ。	
 0x67d4a	0x562		は、古代神聖魔術の一種なの。\n古代魔術を完全に復元して書ける人はこの時代にはいないけど、この指輪はかなり強い力を引き出しているわ。	
-0x67d4a	0x5d7	レイナ	私も古代魔術を勉強した事があったけど、チ	
+0x67d4a	0x5d7	レイナ	私も古代魔術を勉強した事があったけど、チンプンカンプ	
 0x67d4a	0x605		だったわ。	
 0x67d4a	0x612		ラミーカ\nこれもミスリル製の指輪よ。\nただし呪紋処理とかは、一切していないわ。\nミスリルの真の力のみで、生命力の覚醒、増加を行っているの。\n負担もないしおすすめ商品よ。	
 0x67d4a	0x695	ファーニス	ミスリルって、凄いんだね。	
@@ -928,18 +906,16 @@ block_off	str_off	speaker	text	english
 0x682d6	0x159		サラ\nこのお店では、５割で引取らせていただいています。	
 0x682d6	0x194	レイナ	また、今度の機会にするわ。	
 0x682d6	0x1b1		サラ\nありがとうございました。	
-0x682d6	0x1c1		サラ\nここの薬草は、他の店の薬草とは違ったブレ	
-0x682d6	0x1e6		ドなのよ。\nこの地方特産のアマツヅラって言う草が入っているの。\nこのアマツヅラは、強い消毒作用があって、傷によく効くわよ。	
+0x682d6	0x1c1		サラ\nここの薬草は、他の店の薬草とは違ったブレンドなのよ。\nこの地方特産のアマツヅラって言う草が入っているの。\nこのアマツヅラは、強い消毒作用があって、傷によく効くわよ。	
 0x682d6	0x254	レイナ	よく効きそうね。	
 0x682d6	0x273	ファーニス	身長が伸びる薬ってないのかしら。	
 0x682d6	0x296		サラ\nポーションは多種の薬草を数日煮込んで、濃度を上げた物なの。\n今、売っているポーション煮込みすぎちゃって、普通の倍くらい濃くなっちゃったけどゴメ	
 0x682d6	0x2f3		なさい。\nでも、効き目はたしかだから許してぇ。	
 0x682d6	0x324	レイナ	効き目も倍になってるといいのにね。	
 0x682d6	0x34e	ファーニス	そんなの苦くて飲めないよぉ。	
-0x682d6	0x378		ポジットボウは複合弓って言って、複数の素材を組み合せて造られてるの。うちでは、木材と動物の角とけんを使っていて、威力はロ	
-0x682d6	0x3da		グボウと同じくらいだけど、大きさは３分の２で持ち運びが便利なの。	
+0x682d6	0x36d		サラ\nコンポジットボウは複合弓って言って、複数の素材を組み合せて造られてるの。うちでは、木材と動物の角とけんを使っていて、威力はロングボウと同じくらいだけど、大きさは３分の２で持ち運びが便利なの。	
 0x682d6	0x418	レイナ	小さいけど強力そうね。	
-0x682d6	0x44d		ポジットボウか・・・\n私、欲しいなぁ。	
+0x682d6	0x442	ファーニス	コンポジットボウか・・・\n私、欲しいなぁ。	
 0x682d6	0x47c	ファーニス	私、今使ってるけど、とっても調子いいよ。	
 0x682d6	0x4a4		サラ\nこれはフィールドブーツに金属製の装甲を付けて、足まわりの防御力を高めた物なの。\n装甲って言ってもそんなに重い物じゃないし、履きやすい様に改良されてるから安心よ。	
 0x682d6	0x528	レイナ	ブーツは良い物を使った方が戦闘が楽ね。	
@@ -960,14 +936,12 @@ block_off	str_off	speaker	text	english
 0x68833	0xdd	レイナ	今日は、まだ明るいし\nそんなに疲れてないわ。	
 0x68833	0x143	ウォーリック	明日のために、その１・・・寝る。	
 0x68833	0x188	ファーニス	おやすみなさぁぁぁぁぁい。	
-0x68833	0x1a2		サーニア\n今、ちょうどラ	
-0x68833	0x1b4		チタイムですので、人数分で、ちょうど１００ダインになります。	
+0x68833	0x1a2		サーニア\n今、ちょうどランチタイムですので、人数分で、ちょうど１００ダインになります。	
 0x68833	0x1da		・食事にする。\n・やめておく。	
 0x68833	0x1f7	ファーニス	まだ、おなか空いてないよぉ。	
-0x68833	0x23f		チは、牛肉のフローレ	
-0x68833	0x24e		ス風ドリアです。\n正面のテーブルが、開いているわ。	
+0x68833	0x22d		サーニア\n今日のランチは、牛肉のフローレンス風ドリアです。\n正面のテーブルが、開いているわ。	
 0x68833	0x281	ファーニス	ううぅぅぅん。\nベリィ、ロイヤリィィィィィ！	
-0x68833	0x2c7		カツのセルーシュ風です。\n正面のテーブルが開いているわ。	
+0x68833	0x2ab		サーニア\n今日のランチは、チキンカツのセルーシュ風です。\n正面のテーブルが開いているわ。	
 0x68833	0x2f8	ファーニス	ニワトリって美味しいね。\nコカトリスは恐いけど。	
 0x68833	0x32e	ライド	俺、コカトリスの肉、喰った事あるぞ。	
 0x68833	0x357		サーニア\nライランドの騎士達は、パーシャとか言う宮廷魔術士の魔法で、瞬間移動して来たんですって。\n凄いわよねぇぇぇ。	
@@ -1007,7 +981,7 @@ block_off	str_off	speaker	text	english
 0x68da5	0x3f5		神官　リーム\n私、今日は食事当番で忙しいの。	
 0x68da5	0x41c		神官　ファシス\nこの寺院からも、神官戦士として戦場へ行く日が来ると思うわ。\n今のうちに装備を揃えておかなくちゃ。	
 0x68da5	0x465		神官　ファシス\nセルーシュ王国は１からやり直しね。	
-0x68da5	0x486		ト\n聖騎士団も、我々６人になってしまいました。	
+0x68da5	0x47f		聖騎士　ベルモント\n聖騎士団も、我々６人になってしまいました。	
 0x68da5	0x4a1		聖騎士　ポール\nセルーシュは１からやり直しです。	
 0x68da5	0x4b8		聖騎士　リーク\n死んだ仲間のためにも、立派な国にしてみます。	
 0x68da5	0x4de		聖騎士　ラートム\nさあぁぁぁて、がんばるぞぉ！	
@@ -1040,7 +1014,7 @@ block_off	str_off	speaker	text	english
 0x69391	0x436		聖騎士　オガジー\n俺は、まだ戦えるんだぁぁぁぁぁッ！	
 0x69391	0x45c		うぅぅぅッ。\n痛いよぉぉぉ。	
 0x69391	0x473		聖騎士　ポール\nブレイス団長は奥の作戦室にいます。\n早く行ってやって下さい。	
-0x69391	0x4a6		ト\nコボルドごときにやられてしまった。\n無念だぁぁぁッ！！	
+0x69391	0x49f		聖騎士　ベルモント\nコボルドごときにやられてしまった。\n無念だぁぁぁッ！！	
 0x69391	0x4d7		セルーシュの聖騎士達、無理しすぎだよ。	
 0x69391	0x4ed		重装騎兵　ジョグ\nくそぉぉぉぅっ！\nオーガに馬を喰われた。	
 0x69391	0x515		重装騎兵　カスター\nセルーシュの団長さん・・・かなり無理してるぜ。	
@@ -1049,8 +1023,7 @@ block_off	str_off	speaker	text	english
 0x69391	0x5b2		看護兵　セーシナ\nその人、ファイア・ボールをまともに受けて重体です。\nあまり話しかけないで下さい。	
 0x69391	0x5f1		看護兵　カナミ\n私、長い事看護婦してたけど、ワイバーンを治療したの初めて。\nでも、ワイバーンってカワイイのよぉ。	
 0x69391	0x637		看護兵　ラーミス\n私達、看護兵は僧侶系魔法も使えるのよ。貴方達、怪我してるわねぇ。\n治してあげる。	
-0x69391	0x67f		看護兵　アニス\n最終攻撃のため私達にも撤退命令がでたわ。もうすぐ、このテ	
-0x69391	0x6b1		トも解体します。	
+0x69391	0x67f		看護兵　アニス\n最終攻撃のため私達にも撤退命令がでたわ。もうすぐ、このテントも解体します。	
 0x69391	0x6bc		看護兵　アハメス\nみんな生きて帰って来て。	
 0x69391	0x6d8		看護兵　セーシナ\n最終攻撃が始まったわ。\nみんな、無事に帰って来て。	
 0x69391	0x707		看護兵　カナミ\n作戦の成功を祈っているわ。	
@@ -1077,8 +1050,7 @@ block_off	str_off	speaker	text	english
 0x6995b	0x44d	レイナ	かなりの技術だわ。\n敵側に強力な魔導士がいる事は確かね。	
 0x6995b	0x47f	ファーニス	・・・待って！\n魔法陣の中心に誰かいるよ。	
 0x6995b	0x4d7		黒い鎧の男\nフッ・・・今ごろ来たか。\n地の水晶とパンツァードラグーンは、本国に送らせてもらった。\n黒い鎧の男\nこれで、この城には用はない。\nせいぜい上の魔法使いの相手でもするがいい。	
-0x6995b	0x5a1	ファーニス	敵の指揮官かなぁ。\nでも、人間だったみたいだけど。\nそれにパ	
-0x6995b	0x5d7		ツァー何とかって言ってたよ。	
+0x6995b	0x5a1	ファーニス	敵の指揮官かなぁ。\nでも、人間だったみたいだけど。\nそれにパンツァー何とかって言ってたよ。	
 0x6995b	0x5f8	レイナ	詮索は後にして、早く魔法陣を解体しましょう。\nジオクリスタルをセットして来るわね。	
 0x6995b	0x662		７⟨14⟩⟨14⟩　魔法陣の中心にジオクリスタルをセットした。	
 0x6995b	0x68b	レイナ	・・・汝、永遠の戒めより解き放たれ、眠れる力醒まさん。	
@@ -1112,7 +1084,7 @@ block_off	str_off	speaker	text	english
 0x69f0c	0x630		声\n４つ。\nよろしく４人衆。	
 0x69f0c	0x65a	ウォーリック	・・・何者だっ！	
 0x69f0c	0x6f4		な\nナイフ使い、ラキューイ。	
-0x69f0c	0x714		な\n精霊使い、パイ	
+0x69f0c	0x714		な\n精霊使い、パインチャ。	
 0x69f0c	0x755		な全員\n・・・我ら、最強。	
 0x6a491	0x22	レイナ	マジック　ロック！？\n・・・駄目だわ。\n解除に時間がかかっちゃう。	
 0x6a491	0x72	ウォーリック	いいからやるんだ。	
@@ -1137,7 +1109,7 @@ block_off	str_off	speaker	text	english
 0x6a9d7	0x39		こいつ等は俺達にまかせろ。	
 0x6a9d7	0x4f		重装騎兵　マーダック\n敵に魔法使いがいるそうだ。\n上に行ってくれ。	
 0x6a9d7	0x7b		重装騎兵　リッキー\nうおぉぉぉッ！！\nドノバ	
-0x6a9d7	0xa9		グス\n魔物なんかに、負けるかぁぁぁッ。	
+0x6a9d7	0xa4		重装騎兵　バングス\n魔物なんかに、負けるかぁぁぁッ。	
 0x6a9d7	0xca		・・・グリーク王を御守りしなくては。	
 0x6a9d7	0xe6		重装騎兵　ミック\n俺の仲間達をよくもやったなぁぁぁッ。	
 0x6a9d7	0x108		重装騎兵　キリー\nここは俺達が引き受けたぁぁぁッ。	
@@ -1146,9 +1118,8 @@ block_off	str_off	speaker	text	english
 0x6a9d7	0x1fc	セシリア	私なら大丈夫です。\n他の者達の加勢をして下さい。	
 0x6a9d7	0x234		グリーク王\nお前達か。\nパーシャが奥の部屋に閉じ込められた。魔法でロックされ、開けられん。\n頼む、行ってくれ。	
 0x6a9d7	0x288		グリーク王\n私は大丈夫だ。\nパーシャを頼む。	
-0x6a9d7	0x2b0		ト\n姫様・・・私はもう大丈夫です。\n他の者の治療を。	
-0x6a9d7	0x2df		聖騎士　クラーバ\nジャックリーがやられた。\nポール！\nベルモ	
-0x6a9d7	0x30f		トの援護にまわれッ。	
+0x6a9d7	0x2a9		聖騎士　ベルモント\n姫様・・・私はもう大丈夫です。\n他の者の治療を。	
+0x6a9d7	0x2df		聖騎士　クラーバ\nジャックリーがやられた。\nポール！\nベルモントの援護にまわれッ。	
 0x6a9d7	0x31e		聖騎士　ポール\nわぁぁぁッ！\nお前等、この城から出て行けッ。	
 0x6a9d7	0x347		聖騎士　リーク\n死んでいった仲間達の無念、思い知れッ。	
 0x6a9d7	0x36e		聖騎士　マロース\n負けん、負けん、負けんぞぉぉぉッ。	
@@ -1161,7 +1132,7 @@ block_off	str_off	speaker	text	english
 0x6a9d7	0x560		グリーク王\n御苦労、パーシャ。\n・・・セシリア姫。\nセルーシュ王国の繁栄を御祈りする。	
 0x6a9d7	0x5ce		グリーク王\n・・・ウォーリック。\nライランドに来る事があれば、城に寄るがいい。\nお前達ならいつでも歓迎するぞ。	
 0x6a9d7	0x632	パーシャ	貴方達、人を探しているそうね。\n見当がつかないのなら、砂の城のカル伯爵に会いなさい。\n何か、わかるはずよ。\nパーシャ\n・・・これを持って行けば入城できるから。	
-0x6a9d7	0x6c7		トを受け取った。	
+0x6a9d7	0x6b6		パーシャのペンダントを受け取った。	
 0x6a9d7	0x710	ウォーリック	じゃあ、俺達もそろそろ行くか。	
 0x6a9d7	0x737	セシリア	皆さん・・・本当にありがとう。\n私、何と言ったらよいか。\nセシリア\nこんな危険な目に会わせてしまって。・・・何か、お礼がしたいのですが、今の私には何も・・・。	
 0x6af95	0x26	ライド	おい、ダイガーン。\nお前にコレやるよ。	
@@ -1177,8 +1148,7 @@ block_off	str_off	speaker	text	english
 0x6af95	0x273		竜騎士　ハロルド\nワイバーンに餌やったら休憩だ。	
 0x6af95	0x28d		竜騎士　テイラー\n今日の空中戦は大勝利だ。\n俺なんかガーゴイル６匹も倒したんだぜ。	
 0x6af95	0x2c9		竜騎士　ジョリー\n今日も無事帰れてよかった。	
-0x6af95	0x2e6		竜騎士　ガッツ\nくっそう。\n今日はラ	
-0x6af95	0x300		スは落すし、ついてないぜ。	
+0x6af95	0x2e6		竜騎士　ガッツ\nくっそう。\n今日はランスは落すし、ついてないぜ。	
 0x6af95	0x319		前線には、まだかなりの魔物が残っているなぁ。	
 0x6af95	0x336		重装騎兵　バータム\n馬に餌やったら一休みするか。	
 0x6af95	0x353		重装騎兵　ジミー\n聖騎士達、みんな無理しすぎだぜ。\n見ているこっちがヒヤヒヤする。	
@@ -1195,20 +1165,16 @@ block_off	str_off	speaker	text	english
 0x6af95	0x5c9		セシリア姫\nこの戦い、セルーシュ王国　再興の第一歩だと思いなさい。\n蛮勇、犬死は私が許しません。\nセシリア姫\n王をはじめ死んでいった者達のためにも魔軍を倒し、再び平和なセルーシュを取り戻すのです。\nセシリア姫\n・・・神の御加護のあらんことを。	
 0x6af95	0x67f		聖騎士団全員\n神の御加護の、あらんことを。	
 0x6b56a	0x60	パーシャ	皆、集まった様ですね。\n作戦会議を始めましょう。	
-0x6b56a	0x10d	パーシャ	水路の入口までは、私の魔法で送るわ。地下魔法陣の有無で戦いの勝敗は決るわよ。\nパーシャ\n用意ができたら来て。\nメイ	
-0x6b56a	0x173		トの横で待っているから。	
+0x6b56a	0x10d	パーシャ	水路の入口までは、私の魔法で送るわ。地下魔法陣の有無で戦いの勝敗は決るわよ。\nパーシャ\n用意ができたら来て。\nメインテントの横で待っているから。	
 0x6b56a	0x1d8	レイナ	・・・その３鎧７姿。\n城に行くつもりね、セシリア。	
 0x6b56a	0x20e	セシリア	ええ。\n私も聖騎士達と、共に戦います。\n貴方達の事は一生忘れません。\n・・・本当に、ありがとう。\nセシリア\nセルーシュ城で、会いましょう。\n・・・神の御加護のあらんことを。\nセシリア姫\n・・・ブレイス。\n聖騎士全員に、召集をかけなさい！	
-0x6b56a	0x2d1		ブレイス団長\nはッ！！\n既に召集を済ませ、全員、テ	
-0x6b56a	0x2f9		トの外に待機しております。	
+0x6b56a	0x2d1		ブレイス団長\nはッ！！\n既に召集を済ませ、全員、テントの外に待機しております。	
 0x6b56a	0x311		セシリア姫\n・・・参りましょう。	
 0x6b56a	0x373		看護兵　パール\n誰かこの人、止めてぇ！\n絶対安静なのに戦場に行く気なのよ。	
 0x6b56a	0x3b5		頭のデカい重装騎兵\nただのカスリ傷だ。\nごんなの怪我のうちに入らんど。	
-0x6b56a	0x3e7		看護兵　パール\n何、言ってんのよ！\n顔面にライトニ	
-0x6b56a	0x40e		グボルトの直撃を受けたのよ。\n生きているのが奇跡なくらいなのに。\n看護兵　パール\n・・・もう、知らないッ！\nダイガーンさんのバカァァァッ！	
+0x6b56a	0x3e7		看護兵　パール\n何、言ってんのよ！\n顔面にライトニングボルトの直撃を受けたのよ。\n生きているのが奇跡なくらいなのに。\n看護兵　パール\n・・・もう、知らないッ！\nダイガーンさんのバカァァァッ！	
 0x6b56a	0x4ad		頭のデカい重装騎兵\n・・・行っでしもた。\nんんっ？\n何だ、お前達は？	
-0x6b56a	0x4ea	ライド	俺の名はライド。\nおおっ・・・これは凄い。\nお前、ハ	
-0x6b56a	0x51c		パじゃなく頭デカいなぁ。お前、名は？	
+0x6b56a	0x4ea	ライド	俺の名はライド。\nおおっ・・・これは凄い。\nお前、ハンパじゃなく頭デカいなぁ。お前、名は？	
 0x6b56a	0x53f		頭のデカい重装騎兵\nおでの名は、ダイガーン。\n由緒あるライランドの近衛騎士をやっでいるんだど。	
 0x6b56a	0x57e	ライド	いやぁ、それにしてもデカイ。\n頭だけで、ファーニスぐらいあるぞ。お前兜をしてないが、まさか頭がデカすぎて、合うサイズがないのか？	
 0x6b56a	0x5e9		重装騎兵　ダイガーン\nうぬぬぬぅッ、ライドとか申したな。貴様、おでを愚弄するのがッ！？\nゆるざんぞぉぉぉッ。	
@@ -1216,7 +1182,7 @@ block_off	str_off	speaker	text	english
 0x6b56a	0x65c	ファーニス	でも、大っきいね。\nゴーレムの頭だって、もっと小さいよ。	
 0x6b56a	0x692		重装騎兵　ダイガーン\nうぬぬぬぬぬぬッ。\nぞれ以上言うど許ざんぞぉぉぉッ。\nあっちへ行げッ、行げッ！！	
 0x6b56a	0x6da	ダイガーン	だがら礼儀を知らぬ冒険者はぎらいだ。	
-0x6b56a	0x760		看護兵　パール\nダイガーンさんなんか嫌いよ。\n私の気持ちなんか、全然わかってないんだから。\nもう、プ	
+0x6b56a	0x760		看護兵　パール\nダイガーンさんなんか嫌いよ。\n私の気持ちなんか、全然わかってないんだから。\nもう、プンッ！	
 0x6b56a	0x7a0		看護兵　パール\nダイガーンさん、無茶しなければいいな。お願い、生きて帰って来て。	
 0x6bb66	0x1a	ファーニス	・・・んんッ？\n中から話し声がするよ。	
 0x6bb66	0x8e	パーシャ	あまり無理をなさらぬ方がいいですよ、ブレイス殿。\n精神的にも肉体的にも、かなり無理なさっている様です。	
@@ -1226,8 +1192,7 @@ block_off	str_off	speaker	text	english
 0x6bb66	0x2ac	レイナ	さあ、セシリア姫。\n早く行ってあげなくては。	
 0x6bb66	0x331		セシリア姫\n・・・心配をかけましたね。\nよくここまで兵達をまとめ、頑張ってくれました。	
 0x6bb66	0x3a4		ブレイス団長\n・・・姫・・・姫様！？\nまさか、姫様。	
-0x6bb66	0x3e0		セシリア姫\n・・・どうしたのです。\n私は、ゴーストでもゾ	
-0x6bb66	0x40b		ビでもありません。\n私は帰って来たのです。	
+0x6bb66	0x3e0		セシリア姫\n・・・どうしたのです。\n私は、ゴーストでもゾンビでもありません。\n私は帰って来たのです。	
 0x6bb66	0x438		セシリアは今までの出来事を話した。	
 0x6bb66	0x478		セシリア姫\nウォーリック、ライド、レイナ、ファーニス・・・本当にありがとう。	
 0x6bb66	0x4b1	ファーニス	みずくさいなぁ、セシリアちゃん。	
@@ -1330,15 +1295,13 @@ block_off	str_off	speaker	text	english
 0x6d064	0x1d6		ジャクーナ\nこのお店じゃ、５割で引取ってるよ。	
 0x6d064	0x20d	レイナ	今回はやめておくわ。	
 0x6d064	0x225		ジャクーナ\nありがとうござぁぁぁい。	
-0x6d064	0x24f		マーって聞くと、ビッグなト	
-0x6d064	0x262		カチをイメージする人がいるけど違うぜ。\nこれは小さい鎚頭とピックを合わせた武器で、刺すのと叩くのと２通りの使い方ができるんだ。	
-0x6d064	0x2dd		マーって、以外と小さいのねぇ。\nやっぱり私も巨大金鎚を想像してたわ。	
-0x6d064	0x32b		カチじゃないのぉ。\nカワイくなぁぁぁぁぁい。	
+0x6d064	0x23e		ジャクーナ\nウォーハンマーって聞くと、ビッグなトンカチをイメージする人がいるけど違うぜ。\nこれは小さい鎚頭とピックを合わせた武器で、刺すのと叩くのと２通りの使い方ができるんだ。	
+0x6d064	0x2cf	レイナ	ウォーハンマーって、以外と小さいのねぇ。\nやっぱり私も巨大金鎚を想像してたわ。	
+0x6d064	0x320	ファーニス	トンカチじゃないのぉ。\nカワイくなぁぁぁぁぁい。	
 0x6d064	0x34d		ジャクーナ\n幅広の刃の付いた戦斧で、バトルアックスに比べると柄も長く、力が込めやすくなっているんだ。\n船乗りが砂鯨に止めを刺す時にも使われるんだ。\nかなり重いぞ。	
 0x6d064	0x3d7	レイナ	海の男って３斧７が似合うわね。	
 0x6d064	0x3ff	ファーニス	刃が両方に付いているのが特徴だね。	
-0x6d064	0x435		グスター・・・うぅぅぅん、いいネーミ	
-0x6d064	0x44f		グだねぇ。\nこいつはスパイクのいっぱい付いた星型の鉄球と握りとを、鎖で繋いだ武器で、フレイルの超豪華版ってとこかな。	
+0x6d064	0x425		ジャクーナ\nモーニングスター・・・うぅぅぅん、いいネーミングだねぇ。\nこいつはスパイクのいっぱい付いた星型の鉄球と握りとを、鎖で繋いだ武器で、フレイルの超豪華版ってとこかな。	
 0x6d064	0x4c3	レイナ	自分で振って、自分に当っちゃったりして。	
 0x6d064	0x4f3	ファーニス	お星さま、キラキラ。	
 0x6d064	0x514	ライド	シブい俺には似合わぬ武器だ。	
@@ -1373,15 +1336,14 @@ block_off	str_off	speaker	text	english
 0x6d55a	0x6ad	ファーニス	金って人気があるのね。	
 0x6d55a	0x6ce		レミー\n白銀でできた指輪です。\nとってもキレイでしょ。\nもう、この指輪は説明の余地がないほどの人気なのよ。\n在庫も少ないから、買うんなら今のうちよ。	
 0x6d55a	0x747	レイナ	わぁぁぁ、本当にキレイねぇ。	
-0x6d55a	0x781		スもいいよ。	
+0x6d55a	0x77a		のセンスもいいよ。	
 0x6da8d	0xe		ミディー\nいらっしゃいませ。\n店長のミディーでぇぇぇす。	
 0x6da8d	0x3e		何にする？	
 0x6da8d	0x4e	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	
 0x6da8d	0x81	レイナ	買物はまた後で。	
 0x6da8d	0xa0	レイナ	節約しなきゃ。	
 0x6da8d	0xb9		ミディー\nモビーディックを倒すために、漁師のほとんどが死んでしまったわ。\n誰か、みんなのカタキをとって。	
-0x6da8d	0x111		きも、キ	
-0x6da8d	0x11f		きも、アマヤー	
+0x6da8d	0xff		ミディー\nナイトヘッド号も、キングシェル号も、アマヤー	
 0x6da8d	0x12b		号も、ブルーコメット号も、北天丸も、みんなモビーディックに沈められちゃったわ。	
 0x6da8d	0x163		ミディー\nここでは、６割で引取らせていただいてまぁぁぁす。	
 0x6da8d	0x19f	レイナ	うぅぅぅぅぅん。\nもうちょっと、使ってからにするわ。	
@@ -1411,16 +1373,14 @@ block_off	str_off	speaker	text	english
 0x6df16	0xdf	レイナ	私達、そんなに疲れてないわ。	
 0x6df16	0x106		ジョナ婆さん\n２階の真中の部屋を使いな。\n１週間は自由にしていいよ。	
 0x6df16	0x14d	ウォーリック	おやすみなさい、レイナ。	
-0x6df16	0x186		ジョナ婆さん\n今、ちょうどラ	
-0x6df16	0x19b		チタイムだから、人数分で、１００ダインだね。	
+0x6df16	0x186		ジョナ婆さん\n今、ちょうどランチタイムだから、人数分で、１００ダインだね。	
 0x6df16	0x1b9		・食事にする。\n・やめておく。	
 0x6df16	0x1d6	ファーニス	まだ、食べたくなぁい。	
 0x6df16	0x211		ジョナ婆さん\n今日は、砂蟹のクリームコロッケと、砂鯵のフライ定食だよ。\n適当に開いてる所で喰っとくれ。	
 0x6df16	0x267	ファーニス	・・・以外と美味しいね。	
 0x6df16	0x28e		ジョナ婆さん\n今日の定食は、砂鮪の刺身と砂ワカメの味噌汁だよ。\n適当に開いてる所で喰っとくれ。	
 0x6df16	0x2e4	ライド	おおっ！\nこいつぁうまいや。\nあの婆さん、なかなかやるな！	
-0x6df16	0x339		キー船長。\nそりゃあ、勇敢な人だった。\nキ	
-0x6df16	0x35a		グシェル号のジェド船長。\n酒好きで、愉快な人だったよ。\nアマヤー	
+0x6df16	0x319		ジョナ婆さん\nナイトヘッド号のクランキー船長。\nそりゃあ、勇敢な人だった。\nキングシェル号のジェド船長。\n酒好きで、愉快な人だったよ。\nアマヤー	
 0x6df16	0x38d		号のバスク船長。\n船速が自慢だったねぇ。\nジョナ婆さん\nブルーコメット号のダーギ	
 0x6df16	0x3d2		船長。\n若いし、頭がキレる男だったんだ。\n北天丸のパラボじいさん。\nモリの名手だった。\nでも、みんな逝っちまったんだよ。	
 0x6df16	0x433		ジョナ婆さん\nみんな、逝っちまった。\nみんな、優しい海の男だったのに。\nモビーディックにやられて、冷たい砂の海の底さ。	
@@ -1434,9 +1394,7 @@ block_off	str_off	speaker	text	english
 0x6df16	0x56c		ジョナ婆さん\n換金は１００テミス以上ないとできないよ。	
 0x6df16	0x5c7		ジョナ婆さん\n換金終ったよ。	
 0x6df16	0x5e4		ジョナ婆さん\nまた、いつでも来な。	
-0x6df16	0x606		ジョナ婆さん\n砂の城に行きたいだって？\nこの街から船は出ないんだよ。\nみんな、モビーディックのせいさ。\n船を次々と襲っては、多くの漁師達を砂の海に引きずり込んだ。\nジョナ婆さん\n漁師達だって腰抜けじゃない。\n皆、こぞって奴を退治に行ったんだ。・・・でも戻って来たのは、たったの２隻。\nジョナ婆さん\nゼロ船長のバッカス２世号と、クラ	
-0x6df16	0x6f3		キー船長のナイトヘッド号。\nナイトヘッド号は港近くで沈没。\n助けられたクラ	
-0x6df16	0x730		キー船長も昨日死んだよ。\nジョナ婆さん\n砂の海を渡りたいならゼロ船長に頼みな。\n船長なら２階の奥の部屋にいるよ。	
+0x6df16	0x606		ジョナ婆さん\n砂の城に行きたいだって？\nこの街から船は出ないんだよ。\nみんな、モビーディックのせいさ。\n船を次々と襲っては、多くの漁師達を砂の海に引きずり込んだ。\nジョナ婆さん\n漁師達だって腰抜けじゃない。\n皆、こぞって奴を退治に行ったんだ。・・・でも戻って来たのは、たったの２隻。\nジョナ婆さん\nゼロ船長のバッカス２世号と、クランキー船長のナイトヘッド号。\nナイトヘッド号は港近くで沈没。\n助けられたクランキー船長も昨日死んだよ。\nジョナ婆さん\n砂の海を渡りたいならゼロ船長に頼みな。\n船長なら２階の奥の部屋にいるよ。	
 0x6e441	0x14	ポップ	砂の海を渡りたいって！？\n駄目だよ、駄目。\n出ていってくれ。	
 0x6e441	0x4c	タップ	船長は怪我をしてるんだ。\n出てってくれよ。	
 0x6e441	0x72	ポップ	船は出せないんだよ。\n駄目だ、駄目だ。	
@@ -1472,8 +1430,7 @@ block_off	str_off	speaker	text	english
 0x6e441	0x6ba	ゼロ船長	ポップ、おしゃべりはいい。\n早く水晶の角をセットするんだ。	
 0x6e441	0x727	ウィルディース艦長	でっ。\nどうするんだい？	
 0x6e441	0x74b	ゼロ船長	海上におびき出す事さえできれば、バッカス２世号の突角で攻撃できる。\nそして、砂上戦闘に持ち込むつもりだ。\nゼロ船長\nできるか？	
-0x6e99a	0xa	ウィルディース艦長	簡単な事ね。\nクイーンストーカー号で、奴の真下から魔導魚雷をプレゼ	
-0x6e99a	0x3d		トしてあげるわ。\nウィルディース艦長\n時間どうり、ピタリと奴の顔を拝ませてあげる。\nそれで攻撃地点は？	
+0x6e99a	0xa	ウィルディース艦長	簡単な事ね。\nクイーンストーカー号で、奴の真下から魔導魚雷をプレゼントしてあげるわ。\nウィルディース艦長\n時間どうり、ピタリと奴の顔を拝ませてあげる。\nそれで攻撃地点は？	
 0x6e99a	0x85	ゼロ船長	タカピ岬から３０カイリの所だ。\nあそこなら流砂もないし、潜砂艦にも十分な深度がある。\n時間は１３時ちょうどではどうだ。	
 0x6e99a	0xe7	ウィルディース艦長	・・・１３時か。\nいいだろう。\n皆の無念を晴らしましょう、ゼロ。	
 0x6e99a	0x124	ゼロ船長	ああ。\n必ずな。	
@@ -1497,8 +1454,7 @@ block_off	str_off	speaker	text	english
 0x6ef1c	0xb3		［グリーク王］\n成功しそうなのか？	
 0x6ef1c	0xd4		［パーシャ］\nはい。\n我が方に魔術師が加わった事により、実行可能です。\n［パーシャ］\nセシリア姫。\n・・・作戦の許可を。	
 0x6ef1c	0x148		［セシリア］\n・・・やりましょう。	
-0x6ef1c	0x168		［パーシャ］\n簡単に説明します。\n・・・作戦決行は正午です。\n［パーシャ］\nまず重装騎兵団が城正面まで一気に突破、左へ旋回運動をとりながら、敵主力のオーガ、コボルドの部隊を出来るだけ引き付けて下さい。\n［パーシャ］\nそして、ドラゴ	
-0x6ef1c	0x22d		ライダー隊が山沿いに城後方より奇襲をかけ城内中庭を確保します。\n［パーシャ］\n確保の合図と共に、私の移動呪文で聖騎士団が中庭に侵入します。\n目標は城内の敵司令官です。	
+0x6ef1c	0x168		［パーシャ］\n簡単に説明します。\n・・・作戦決行は正午です。\n［パーシャ］\nまず重装騎兵団が城正面まで一気に突破、左へ旋回運動をとりながら、敵主力のオーガ、コボルドの部隊を出来るだけ引き付けて下さい。\n［パーシャ］\nそして、ドラゴンライダー隊が山沿いに城後方より奇襲をかけ城内中庭を確保します。\n［パーシャ］\n確保の合図と共に、私の移動呪文で聖騎士団が中庭に侵入します。\n目標は城内の敵司令官です。	
 0x6ef1c	0x2bd		［パーシャ］\n重装騎兵は機を見て、城内に侵入して下さい。	
 0x6ef1c	0x2f1		［パーシャ］\n敵は城の地下大聖堂に巨大魔法陣を張り、そこから出入りしていると考えられます。\n［パーシャ］\nウォーリック達には、その魔法陣を破壊してもらいます。	
 0x6ef1c	0x370		［パーシャ］\nそれでは解散し、各自持ち場へ・・・。	
