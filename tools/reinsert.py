@@ -22,7 +22,7 @@ from collections import defaultdict
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
-from glodia import disc, dlz
+from glodia import disc, dlz, kana
 from glodia.english import encode as en_encode
 import patch_names
 
@@ -73,6 +73,39 @@ class PackSource:
 
     def budget(self, archive, off):
         return self._pack["blocks"][archive][f"{off:#x}"]["size"]
+
+
+def load_speakers():
+    """{kana_name: english} from script/SPEAKERS.tsv -- the literal-katakana
+    NPC speaker labels embedded in the event stream (see export_speakers.py)."""
+    path = ROOT / "script" / "SPEAKERS.tsv"
+    out = {}
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines()[1:]:
+            c = line.split("\t")
+            if len(c) >= 4 and c[3].strip():
+                out[c[0]] = c[3].strip()
+    return out
+
+
+def speaker_label_splices(block, speakers):
+    """[(start, end, english_bytes)] for every ``FF <kana> FF`` label in `block`
+    whose kana is a known speaker name AND which is immediately followed by a
+    dialogue-record opener (0x01/0x02/0x03). The opener check anchors the match
+    to a real record so a stray FF<bytes>FF in event data is never rewritten.
+    Only the kana bytes (between the FFs) are replaced; the FF frame stays."""
+    splices = []
+    for name, english in speakers.items():
+        raw = kana.encode(name)
+        needle = b"\xff" + raw + b"\xff"
+        i = block.find(needle)
+        while i >= 0:
+            after = i + len(needle)
+            if after < len(block) and block[after] in (0x01, 0x02, 0x03):
+                start = i + 1
+                splices.append((start, start + len(raw), en_encode(english)))
+            i = block.find(needle, i + 1)
+    return splices
 
 
 def name_token_map():
@@ -206,6 +239,7 @@ def load_rows():
 def main():
     check = "--check" in sys.argv
     tokens = name_token_map()
+    speakers = load_speakers()
     rev_names = {patch_names.TRANSLATIONS[jp].upper(): patch_names.TRANSLATIONS[jp]
                  for jp in patch_names.TRANSLATIONS}
 
@@ -251,20 +285,28 @@ def main():
         block = src.block(archive, block_off)
         budget = src.budget(archive, block_off)
         total += len(items)
-        for str_off, english in sorted(items, reverse=True):   # splice high->low
+        # collect every splice (translated records + literal-kana speaker labels)
+        # with ORIGINAL offsets, then apply high->low so earlier offsets stay valid.
+        splices = []
+        for str_off, english in items:
             start, end = string_span(block, str_off)
             if spans_event_code(block, start, end):   # mis-extracted into event code
                 print(f"ERROR  {archive}@{block_off:#x} str {str_off:#x}: original "
                       f"spans event bytecode (0x05-0x13) — not a real string, don't translate")
                 errors += 1
                 continue
-            block[start:end] = compile_english(english, tokens)
+            splices.append((start, end, compile_english(english, tokens)))
+        labels = speaker_label_splices(block, speakers)
+        splices.extend(labels)
+        for start, end, repl in sorted(splices, key=lambda s: s[0], reverse=True):
+            block[start:end] = repl
         encoded = dlz.encode(bytes(block))
         # No per-scene budget anymore: the build (grow_build.py) grows archives
         # and repoints the engine scene table, so any length is fine. We still
         # print the size for reference (vs the ORIGINAL slot, just informational).
-        print(f"  {archive}@{block_off:#x}: {len(items)} strings, "
-              f"{len(encoded)} bytes (was {budget})")
+        print(f"  {archive}@{block_off:#x}: {len(items)} strings"
+              + (f" +{len(labels)} speaker label(s)" if labels else "")
+              + f", {len(encoded)} bytes (was {budget})")
         fitted += len(items)
         if check:
             continue

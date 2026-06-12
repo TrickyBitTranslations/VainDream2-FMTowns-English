@@ -55,8 +55,10 @@ def main():
     per_block_rows = defaultdict(list)
     for tsv in sorted((ROOT / "script").glob("*.tsv")):
         # Names have their own "Names & terms" tab (from status.names); don't also
-        # surface NAMES.tsv as a redundant script tab.
-        if tsv.stem == "NAMES":
+        # surface NAMES.tsv as a redundant script tab. SPEAKERS.tsv (literal-kana
+        # dialogue speaker labels) has its own kana/count/sample schema, not the
+        # script columns -- it's applied by reinsert, not shown as a script tab.
+        if tsv.stem in ("NAMES", "SPEAKERS"):
             continue
         archive = tsv.name.replace("_DAT.tsv", ".DAT").replace("_PK.tsv", ".PK")
         blocks = defaultdict(list)
