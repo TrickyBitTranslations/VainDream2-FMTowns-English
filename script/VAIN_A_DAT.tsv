@@ -106,61 +106,61 @@ block_off	str_off	speaker	text	english
 0x5edb9	0x1de		女剣士　シェリー\nおはようウォーリック。\n今から北の森にラット　ジャイア	{Swordmaiden} Sherry\nMorning, {Warrick}!\nIm off to the north woods to hunt Rat Giants.\nCare to come along?
 0x5edb9	0x228		朝っぱらからどこ行く気だい？\nそれにしても、いきなり冷えこんできたなぁ。\nフロスト様に何かあったのかな？	Where are you off to so early in the morning?\nIt sure got cold all of a sudden, didn't it?\nI wonder if something happened to Lord Frost?
 0x5edb9	0x26d		ピート\nこのごろ魔物の活動が活発になってきてるな。\nまぁ、この辺りにゃ神官竜のフロスト様のおかげで、たいした魔物はいねぇえがな。	Pete\n{Monster}s have been getting more active lately.\nWell, thanks to Lord Frost, the {Priest Dragon},\nthere at least aren't any {Monster}s around here.
-0x5edb9	0x2bd		んっ、ウォーリックじゃないか。\nお前の見張り当番は来週だぞ。\nケイ	
+0x5edb9	0x2bd		んっ、ウォーリックじゃないか。\nお前の見張り当番は来週だぞ。\nケイ	Oh, {Warrick}, it's you.\nYour watch shift isn't till\nnext week.\nKay
 0x5edb9	0x2e7		そろそろハンターの帰る時期だろ。\nダ　ンの奴、このところ毎日朝早くから門の回りでランバートの帰りを待ってるんだぜ。	It's about time for the {Hunter} to come back, isn't it?\nThat {Dan} guy's been waiting by the gate every\nmorning lately, waiting for {Lambert} to return.
 0x5edb9	0x333		ラウニー\nさっき、超でっかいカラスがいっぱい北の方へ飛んで行ったな。\nなぁぁぁんか、嫌な予感がするぜ。	Rowney\nJust now, a huge crow flew north.\nI've got a bad feeling about this.
-0x5edb9	0x37d		だめだよ　ウォーリック。\n氷の洞窟に続く森は魔物が多くなったんで、危険だから誰も通すなって大婆様から言われてるんだよ。	
-0x5edb9	0x3c6		どこ行くんだい、ウォーリック？\nあんまフラフラしてるとレイナに言いつけるぞ。	
-0x5edb9	0x3fa		えっ、大婆様の許しがあるって。\nなら通ってもいいぜ。	
-0x5edb9	0x421		あっ、ウォーリック。\n大婆様が呼んでたぜ。	
+0x5edb9	0x37d		だめだよ　ウォーリック。\n氷の洞窟に続く森は魔物が多くなったんで、危険だから誰も通すなって大婆様から言われてるんだよ。	No can do, {Warrick}.\nThe woods to the Ice Cavern\nare thick with {Monster}s now.\n{Granny} says let no one through.
+0x5edb9	0x3c6		どこ行くんだい、ウォーリック？\nあんまフラフラしてるとレイナに言いつけるぞ。	Where to, {Warrick}?\nKeep loafing about and I'll\ntell {Reina} on you.
+0x5edb9	0x3fa		えっ、大婆様の許しがあるって。\nなら通ってもいいぜ。	Oh? {Granny} gave the OK?\nThen go on through.
+0x5edb9	0x421		あっ、ウォーリック。\n大婆様が呼んでたぜ。	Ah, {Warrick}.\n{Granny} was asking for you.
 0x5edb9	0x43f	ダ　ン	ねえ、ウォーリック。\nフロスト様だったら、ランバートお兄ちゃんの事何か知ってるかな。	Hey, {Warrick}.\nI wonder if Mr. Frost would know anything\nabout {Lambert}.
 0x5edb9	0x469	ダ　ン	そう言えば今朝早く北の方から、凄い音がしたんだ。\n夢だったのかな。	Speaking of which, there was a\nloud noise coming from the north\nearly this morning.\nI wonder if it was a dream.
-0x5edb9	0x49f		ウォーリック、いいなぁ。\n俺も旅に行きたいぜ。\nハンターとしての腕がにぶっちまう。	
-0x5edb9	0x4ce		ピート\n気をつけろよ、ウォーリック。\nまぁ、レイナがいるから安心だな。	
-0x5edb9	0x4f7		旅に出るんだってな、ウォーリック。\n気をつけろよ。	
-0x5edb9	0x515		ラウニー\n旅に行くなら、お土産は何でもいいよ。	
-0x5edb9	0x53c		女剣士　シェリー\nあっ、ブージ！！\nなぁぁんだ、帰って来ちゃったのかっ。\n私ゃ、てっきりデーモンに食われたんだと思ってたよ。	
+0x5edb9	0x49f		ウォーリック、いいなぁ。\n俺も旅に行きたいぜ。\nハンターとしての腕がにぶっちまう。	Lucky you, {Warrick}.\nI'd love to travel too.\nMy {Hunter}'s edge is going dull.
+0x5edb9	0x4ce		ピート\n気をつけろよ、ウォーリック。\nまぁ、レイナがいるから安心だな。	Pete\nTake care out there, {Warrick}.\nWith {Reina} along, I'm not worried.
+0x5edb9	0x4f7		旅に出るんだってな、ウォーリック。\n気をつけろよ。	Heading out, then, {Warrick}?\nTake care.
+0x5edb9	0x515		ラウニー\n旅に行くなら、お土産は何でもいいよ。	Rowney\nIf you're traveling, any\nsouvenir will do.
+0x5edb9	0x53c		女剣士　シェリー\nあっ、ブージ！！\nなぁぁんだ、帰って来ちゃったのかっ。\n私ゃ、てっきりデーモンに食われたんだと思ってたよ。	{Swordmaiden} Sherry\nOh, {Booj}!!\nSo you came back after all.\nI was sure a {Demon} had eaten you.
 0x5edb9	0x58f	ブージ	デーモンは人間を食わんよ。	{Demon}s eat humans.
-0x5edb9	0x5a5		女剣士　シェリー\nウォーリック、旅に出るんだって？\nいいなぁぁぁっ。	
-0x5edb9	0x5c9		女剣士　シェリー\nブージの奴、ダ　ンを連れて旅に出ちまったんだよ。\n・・・・・私をおいてさっ・・・。	
+0x5edb9	0x5a5		女剣士　シェリー\nウォーリック、旅に出るんだって？\nいいなぁぁぁっ。	{Swordmaiden} Sherry\nOff on a journey, {Warrick}?\nSo jealous!
+0x5edb9	0x5c9		女剣士　シェリー\nブージの奴、ダ　ンを連れて旅に出ちまったんだよ。\n・・・・・私をおいてさっ・・・。	{Swordmaiden} Sherry\nThat {Booj} ran off traveling\nand took {Dan} with him.\n.....Left me behind...
 0x5edb9	0x61a	ブージ	この氷の結晶は何だッ！？\n今までこんな現象、見たことないぞ。	What's this ice crystal?!\nNever seen anything like it.
 0x5edb9	0x65b	ウォーリック	なんかヤバイ予感がする。\n早く奥へ行こう。	Bad feeling about this.\nLet's hurry deeper.
 0x5edb9	0x694	レイナ	今日はそろそろ休みましょうか？	Call it a day?
 0x5edb9	0x6b3		・疲れたからもう寝る。\n・まだ眠くない。	・I'm tired. Time to sleep.\n・Not sleepy yet.
 0x5edb9	0x6e9	ウォーリック	おやすみなさぁぁぁい。	Goood night.
 0x5edb9	0x703	ウォーリック	ふとんの中が一番幸せ。	Nothing beats a warm bed.
-0x5f33e	0x2b	大婆様	ダ　ンの兄ランバートが狩りに出たきり行方不明になり、もう１年がたとうとしている。\nあの男が旅先で死ぬとは思えん。	
-0x5f33e	0x7f	大婆様	んっ、ウォーリック、\n肩でも、もんでくれるのかの？	
-0x5f33e	0xa6	大婆様	ブージ、ウォーリック、無茶はするでないぞ。	
-0x5f33e	0xcf	大婆様	おおっ、ブージか。\n・・・よく帰ったな。\nでっ、旅の方はどうじゃった？	
-0x5f33e	0x115	ブージ	どこの国もたいした変化はありませんが、旅先いたる所で魔物による被害の話が上がってました。\nブージ\n魔物の動きが活発になっている様です。	
-0x5f33e	0x176	大婆様	・・・うむっ。\nそれは、ワシも感じておる。\n何の力が働いておるのかは見当もつかん。\n大婆様\n村の者にも警戒を怠らぬ様、言っておるが・・・ブージ、ウォーリック、お前達も気をつけるのじゃぞ。	
-0x5f33e	0x203	ブージ	・・・それで大婆様。\n実は１時間ほど前に北の方角に、デーモンらしき影が、多数飛んで行くのを見かけました。	
-0x5f33e	0x259	大婆様	北・・・氷の洞窟。\n神官竜のフロスト様の所か！？	
-0x5f33e	0x28d	ブージ	いえっ、はっきりとは。\nただ、あれがグレーター　デーモンだとしても神官竜を倒せる力はありません。\nブージ\n念のため様子を見に行きたいのですが。	
-0x5f33e	0x2ee	大婆様	・・・うむっ、許可しよう。\nだだし無理はするでないぞ。\n大婆様\nカパイ	
-0x5f33e	0x32e		達には、ワシの使いで行くと言うのじゃ。\n通してくれるじゃろう。	
-0x5f33e	0x37b	大婆様	おおっ、ブージ、ウォーリック。\n帰って来たか。\n氷の洞窟の様子はどうじゃった。	
-0x5f33e	0x3d3		ブージは氷の洞窟での出来事を話した。	
-0x5f33e	0x3fe	大婆様	・・・そうか。\nそれで、それがそのナイフか。\n旧世界の魔導具だろうかのう？	
-0x5f33e	0x445	ウォーリック	ランバートの着ていた３鎧７も見なれない物でした。	
-0x5f33e	0x469	大婆様	・・・うむ。\nでは、そのパディッシュという者を、探しに行くのか？	
-0x5f33e	0x4b7	ブージ	俺は村に残る。\nダ　ンを残しては行けない。\nブージ\nダ　ンもじきに、ランバートの事を知る時が来る。\nその時、俺はダ　ンに付いていてやりたいんだ。	
-0x5f33e	0x525	大婆様	それがよかろう。\nダ　ンもお前の事を、実の兄の様に慕っておる。\nダ　ンの事はまかせたぞ、ブージ。	
-0x5f33e	0x56c	ブージ	・・・はい。	
-0x5f33e	0x5a0		７　⟨14⟩⟨14⟩ブージが仲間から外れた。	
-0x5f33e	0x5bf	大婆様	ウォーリック。\n旅の支度ができたらここに寄るのじゃ。わかったな。	
-0x5f33e	0x5f3	ウォーリック	はい、大婆様。	
-0x5f33e	0x608	大婆様	ウォーリック。\n旅の支度はまだできんのか？	
-0x5f33e	0x636	大婆様	旅の準備はできた様じゃな。\nお前達にこれを預けよう。	
-0x5f33e	0x66f	レイナ	・・・これは、遠見の水晶。	
-0x5f33e	0x689	大婆様	レイナ、お前なら使いこなせるじゃろう。\n持って行くがいい。	
-0x5f33e	0x6ca		遠見の水晶を手に入れた。	
-0x5f33e	0x6eb	大婆様	それとウォーリック。\nこの手紙をジーク王国のベイグ王の所へ持って行くのじゃ。\n力になってくれるじゃろう。	
-0x5f33e	0x73e		ローラの手紙を手に入れた。	
-0x5f33e	0x76a	大婆様	気を付けて行くんじゃぞ。\nわかったな。	
-0x5f33e	0x793	大婆様	どうした。\n何か忘れ物か？	
-0x5f33e	0x7b6	ブージ	すまんな、ウォーリック。	
+0x5f33e	0x2b	大婆様	ダ　ンの兄ランバートが狩りに出たきり行方不明になり、もう１年がたとうとしている。\nあの男が旅先で死ぬとは思えん。	It's been nearly a year since\n{Dan}'s brother {Lambert} went\nhunting and vanished.\nI can't believe he died out there.
+0x5f33e	0x7f	大婆様	んっ、ウォーリック、\n肩でも、もんでくれるのかの？	Oh, {Warrick}.\nCome to rub my shoulders?
+0x5f33e	0xa6	大婆様	ブージ、ウォーリック、無茶はするでないぞ。	{Booj}, {Warrick}, don't do\nanything reckless.
+0x5f33e	0xcf	大婆様	おおっ、ブージか。\n・・・よく帰ったな。\nでっ、旅の方はどうじゃった？	Ah, {Booj}.\n...Welcome home.\nSo, how was the journey?
+0x5f33e	0x115	ブージ	どこの国もたいした変化はありませんが、旅先いたる所で魔物による被害の話が上がってました。\nブージ\n魔物の動きが活発になっている様です。	No great changes in any land,\nbut everywhere I went I heard\nof {Monster} attacks.\p{Booj}\nThe {Monster}s are stirring.
+0x5f33e	0x176	大婆様	・・・うむっ。\nそれは、ワシも感じておる。\n何の力が働いておるのかは見当もつかん。\n大婆様\n村の者にも警戒を怠らぬ様、言っておるが・・・ブージ、ウォーリック、お前達も気をつけるのじゃぞ。	...Mm. I feel it too.\nWhat power is at work here,\nI cannot even guess.\p{Granny}\nI've warned the village to stay\nwary... {Booj}, {Warrick},\nyou take care as well.
+0x5f33e	0x203	ブージ	・・・それで大婆様。\n実は１時間ほど前に北の方角に、デーモンらしき影が、多数飛んで行くのを見かけました。	...And {Granny}.\nAn hour ago I saw a swarm of\n{Demon}-like shapes fly north.
+0x5f33e	0x259	大婆様	北・・・氷の洞窟。\n神官竜のフロスト様の所か！？	North... the Ice Cavern.\nLord Frost, the {Priest Dragon}?!
+0x5f33e	0x28d	ブージ	いえっ、はっきりとは。\nただ、あれがグレーター　デーモンだとしても神官竜を倒せる力はありません。\nブージ\n念のため様子を見に行きたいのですが。	No, nothing certain.\nBut even a Greater {Demon}\ncouldn't fell a {Priest Dragon}.\p{Booj}\nStill, I'd like to go check.
+0x5f33e	0x2ee	大婆様	・・・うむっ、許可しよう。\nだだし無理はするでないぞ。\n大婆様\nカパイ	...Mm, permission granted.\nBut don't push your luck.\p{Granny}\nThe Kapai-
+0x5f33e	0x32e		達には、ワシの使いで行くと言うのじゃ。\n通してくれるじゃろう。	-tell them you go on my errand.\nThey'll let you pass.
+0x5f33e	0x37b	大婆様	おおっ、ブージ、ウォーリック。\n帰って来たか。\n氷の洞窟の様子はどうじゃった。	Ah, {Booj}, {Warrick}.\nBack already?\nHow fared the Ice Cavern?
+0x5f33e	0x3d3		ブージは氷の洞窟での出来事を話した。	{Booj} told of what happened\nat the Ice Cavern.
+0x5f33e	0x3fe	大婆様	・・・そうか。\nそれで、それがそのナイフか。\n旧世界の魔導具だろうかのう？	...I see.\nSo that's the knife.\nAn old-world relic, perhaps?
+0x5f33e	0x445	ウォーリック	ランバートの着ていた３鎧７も見なれない物でした。	The armor {Lambert} wore was\nlike nothing I'd seen either.
+0x5f33e	0x469	大婆様	・・・うむ。\nでは、そのパディッシュという者を、探しに行くのか？	...Mm. So you'll go and\nseek out this Paddish?
+0x5f33e	0x4b7	ブージ	俺は村に残る。\nダ　ンを残しては行けない。\nブージ\nダ　ンもじきに、ランバートの事を知る時が来る。\nその時、俺はダ　ンに付いていてやりたいんだ。	I'll stay in the village.\nI can't leave {Dan}.\p{Booj}\nSoon {Dan} must learn the truth\nabout {Lambert}. I want to be\nat his side when he does.
+0x5f33e	0x525	大婆様	それがよかろう。\nダ　ンもお前の事を、実の兄の様に慕っておる。\nダ　ンの事はまかせたぞ、ブージ。	That is well.\n{Dan} looks up to you like a\ntrue brother.\nI leave him to you, {Booj}.
+0x5f33e	0x56c	ブージ	・・・はい。	...Yes.
+0x5f33e	0x5a0		７　⟨14⟩⟨14⟩ブージが仲間から外れた。	{Booj} left the party.
+0x5f33e	0x5bf	大婆様	ウォーリック。\n旅の支度ができたらここに寄るのじゃ。わかったな。	{Warrick}.\nCome by here once you're packed\nand ready. Understand?
+0x5f33e	0x5f3	ウォーリック	はい、大婆様。	Yes, {Granny}.
+0x5f33e	0x608	大婆様	ウォーリック。\n旅の支度はまだできんのか？	{Warrick}.\nNot done packing yet?
+0x5f33e	0x636	大婆様	旅の準備はできた様じゃな。\nお前達にこれを預けよう。	Looks like you're ready.\nLet me entrust this to you.
+0x5f33e	0x66f	レイナ	・・・これは、遠見の水晶。	...This is the Scrying Crystal.
+0x5f33e	0x689	大婆様	レイナ、お前なら使いこなせるじゃろう。\n持って行くがいい。	{Reina}, you can master it.\nTake it with you.
+0x5f33e	0x6ca		遠見の水晶を手に入れた。	You obtained the Scrying Crystal.
+0x5f33e	0x6eb	大婆様	それとウォーリック。\nこの手紙をジーク王国のベイグ王の所へ持って行くのじゃ。\n力になってくれるじゃろう。	And {Warrick}.\nCarry this letter to King Baig\nof the Zeke Kingdom.\nHe will lend you aid.
+0x5f33e	0x73e		ローラの手紙を手に入れた。	You obtained Lola's letter.
+0x5f33e	0x76a	大婆様	気を付けて行くんじゃぞ。\nわかったな。	Go safely now.\nUnderstand?
+0x5f33e	0x793	大婆様	どうした。\n何か忘れ物か？	What is it?\nForget something?
+0x5f33e	0x7b6	ブージ	すまんな、ウォーリック。	Sorry, {Warrick}.
 0x5f886	0xe		ミール\nいらっしゃいませ。\n今日は何を買いにきたの？	
 0x5f886	0x3a		いかがいたします？	
 0x5f886	0x4d	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	
