@@ -287,173 +287,173 @@ block_off	str_off	speaker	text	english
 0x6095b	0x772		テュース\n\n⟨14⟩天下の逸品を貴方の手に。	Teus\n\nThe finest wares in the land,\nyours to own.
 0x6095b	0x79b		ぎ悟郎屋\n\n⟨14⟩感謝の大奉仕セール実施中。	Goro's Shop\n\nA big thank-you sale, now on!
 0x6095b	0x7d1		魔導具の鑑定、買取り、行います。	Magic-item appraisal and\npurchase available.
-0x60fb4	0xe		ミーシャ\nいらっしゃいませ。\n何をお求めでしょうか？	
-0x60fb4	0x38		いかがいたします？	
-0x60fb4	0x4b	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	
-0x60fb4	0x80	レイナ	買物は後にするわ。	
-0x60fb4	0xa0	レイナ	あらッ、持ち合わせがないわ。	
-0x60fb4	0xc4		ミーシャ\n魔法の掛かったアイテムが欲しいなら、ストネールの魔法屋に行ってみて。\n魔法のアイテムだけは、専門家じゃなきゃ危険だわ。	
-0x60fb4	0x122		ミーシャ\nこの国は、タリアトフ大陸最強のドラゴン　ライダー部隊がいるって事で有名よ。\nワイバーンに乗って飛んでいる騎士達って、見ていて壮観よ。	
-0x60fb4	0x172		ミーシャ\n国境を越えるなら、装備は十分揃えて行った方がいいわよ。\nジークとセルーシュを繋ぐト	
-0x60fb4	0x1b0		ネルに超大型のビボルダーが出るって話なのよ。\n行くのなら魔法の装備も必要だと思うわ。	
-0x60fb4	0x1f5		ミーシャ\nうちは４割で引取るわよ。	
-0x60fb4	0x223	レイナ	やっぱり、もうちょっと使ってからにする。	
-0x60fb4	0x244		ミーシャ\nありがとうございました。	
-0x60fb4	0x256		ブー父ちゃん\nわしが、この店の主人じゃ。\n娘のミーシャが店を手伝う様になってから、店が大繁盛しておる。\nやっぱ、女の子の方が客も来るのかのう？	
-0x60fb4	0x2b8		ブー父ちゃん\nこの国のワイバーンは見たかね。\nわしも、あと３０若ければドラゴン　ライダー隊に志願したのにのう。	
-0x60fb4	0x2f8		ミーシャ\nレイピアは、主に突き刺すために造られた細身の３剣７の事よ。\n他の３剣７に比べて、とても軽いから女性にも人気が高いわ。\n筋力より敏捷性が必要ね。	
-0x60fb4	0x379	レイナ	レイピアって、とてもキレイな３剣７ね。	
-0x60fb4	0x3a5	ファーニス	たいした威力はありそうにないね。	
-0x60fb4	0x3c6		ミーシャ\nブロードソードってのは、幅広の片手持ちの３剣７の事よ。\nこの店では、今一番売れてるわ。\nバラ	
-0x60fb4	0x40f		スもいいし３盾７と併用して使えば完壁ね。	
-0x60fb4	0x43b	レイナ	昔、ウォーリックの使ってた３剣７と同じ物ね。	
-0x60fb4	0x45f		ミーシャ\nバスタードソードは、ブロードソードよりちょっと長めの３剣７よ。\n片手でも両手でも使える様に握りが長くなっているの。\nでも、みんな３盾７と併用して使っているわね。	
-0x60fb4	0x4e0	レイナ	この３剣７、カッコいいわね。	
-0x60fb4	0x4fc		ミーシャ\nこれは、両刃の斧頭が付いた純粋な戦闘用の３斧７よ。\nこの店では１番破壊力はあるけど、扱いは難しいわよ。\nでもこの３斧７で叩かれた日にゃ、あの世行き間違いなし。	
-0x60fb4	0x584	レイナ	ウォーリック、こんなの使うのぉ？\nあんまりカッコよくないわ。	
-0x60fb4	0x5b7	ファーニス	こんなので叩かれたら痛いだろうなぁ。	
-0x60fb4	0x5da		ミーシャ\nスピアっていうのは３槍７の事よ。\n人の身長くらいの木製の柄の先に金属製の穂先が付いた簡単な武器だけど、攻撃力はかなり高いわよ。\nこの店のおすすめ商品よ。	
-0x60fb4	0x660	レイナ	これは、中距離攻撃用の武器ね。	
-0x60fb4	0x693	ファーニス	この３槍７、いいなぁ。	
-0x60fb4	0x6b5	ファーニス	この３槍７、とぉっても使いやすいよ。	
-0x60fb4	0x6d6		ミーシャ\nこれは、遠心力を利用した打撃武器よ。スパイクで強化した鉄棒と、握りの部分とを鎖で繋いだ物なの。\n片手で扱えるし、予備の武器として買って行く人が多いわね。	
-0x60fb4	0x76d	ファーニス	これって、よく僧侶が持つ武器だね。	
-0x61518	0xe		アイシャ\nあっ、いらっしゃいませ。\nえっと・・・私、アルバイトのアイシャと申します。\nよろしくお願いします。	
-0x61518	0x6a		いかがいたしましょう？	
-0x61518	0x7f	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	
-0x61518	0xb6	レイナ	買物は、また後にするわ。	
-0x61518	0xd9	レイナ	今は、持ち合わせがないの。	
-0x61518	0xfa		アイシャ\n私、みんなから、ドジとかノロマとか言われるけど、頑張りますのでよろしくお願いします。	
-0x61518	0x13a		アイシャ\nアイシャ、がんばります。	
-0x61518	0x15b		アイシャ\nこのお店では、４割で引取らせていただいています。	
-0x61518	0x19a	レイナ	今回はやめておくわ。	
-0x61518	0x1b2		アイシャ\nありがとうございました。\n・・・また、いらして下さいね。	
-0x61518	0x1dc		アイシャ\nえっと・・・バックラーですね。\nこれは小さな円形の３盾７です。\n軽いですし、女性でも簡単に装備できますし・・・安いです。	
-0x61518	0x25a	レイナ	私やファーニスも装備できるわね。	
-0x61518	0x280	ファーニス	それにしても、お姉ちゃん・・・そんな緊張しないでいいよ。	
-0x61518	0x2c7		ドシールドですね。\nこれはバックラーより大きく、強度も高い円形の３盾７です。\nえっと・・・このお店にある３盾７の中では、一番防御力があります。	
-0x61518	0x34a	レイナ	これは買っておいた方がいいんじゃない、ウォーリック。	
-0x61518	0x378	ウォーリック	この盾はとても使いやすいよ。	
-0x61518	0x3a7		ト、まぁぁぁんまるな盾だね。	
-0x61518	0x3be		アイシャ\nえっと、これは・・・文字通り動物の革でできた３鎧７です。\nとても軽いので女性にも着れますし、運動性を阻害する事もありません。\nそれに、とても安いです。	
-0x61518	0x457		もたくさんあるのね。	
-0x61518	0x472	ファーニス	いったい、何の革使ってるのかしら？	
-0x61518	0x495		アイシャ\nハードレザーと言うのは、レザーアーマーをワックスで煮込んで固くした物です。\n普通のレザーより、はるかに高い硬度を持っています。\nえっと・・・おすすめ商品です。	
-0x61518	0x52e	レイナ	装飾もあって、きれいね。	
-0x61518	0x558	ファーニス	ウォーリック、これ欲しいぃぃぃ。	
-0x61518	0x57b	ファーニス	私今着ているけど、どう？\n似合うでしょう。	
-0x61518	0x5b5		グメイルですね。\nえっと、これはレザーアーマーの表面に小さな金属製の輪を全体に縫い付けて、防御力を高めた物なんです。\nあまり重さもなく、着やすいので以外と売れています。	
-0x61518	0x63a	レイナ	あんまり、カッコよくないわね。	
-0x61518	0x658		アイシャ\nショルダーガードですね。\nこれは金属製の肩当てです。\n両肩と心臓の部分のアーマーを、革のベルトで繋いだ物ですが・・・えっと、十分役にたつと思います。	
-0x61518	0x6dd	レイナ	なんか、冒険者って感じね。	
-0x61518	0x6ff		アイシャ\nこれは金属製の３鎧７で、胸と背中の部分とで、セットになっています。\n防御力はとても高く、とても実用的な３鎧７です。\n今、お買い上げいただきますと、イニシャルを無料でお付けします。	
-0x61518	0x794	レイナ	ちょと、値段が高いかな。	
-0x61518	0x7b9	ファーニス	とってもカッコいいね。	
-0x61a35	0xe		ストネール\nいらっしゃいませ。\n私の店へ、ようこそ。	
-0x61a35	0x38		いかがいたします？	
-0x61a35	0x4c	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・瞬間移動したい。\n・お店を出よう。	
-0x61a35	0x84	レイナ	買物は後にするわ。	
-0x61a35	0xa4	レイナ	持ち合わせがないわ。	
-0x61a35	0xc1		ストネール\n私、今まで、ずぅぅぅぅぅぅぅっと、セルーシュの魔法屋でアルバイトしてたんだけど、先日、やっと自分の店を持つ事ができたのよ。\n嬉しくってたまらないわ。	
-0x61a35	0x131		ストネール\n魔導弾の原料になる結晶は各地で取れるんだけど、結晶の集まり方がおかしいの。\nどうやら、あの結晶は旧世界の魔法兵器の残骸らしいわ。	
-0x61a35	0x1a0		ストネール\nうちは５割で引取るわよ。	
-0x61a35	0x1d1	レイナ	やっぱり、もうちょっと使ってからにする。	
-0x61a35	0x1f9		ストネール\nごめんなさい。\n私まだ、瞬間移動の呪文、完全にマスターしてないの。	
-0x61a35	0x233		ストネール\n移動の呪文、もう完全に覚えたわ。\nでも、セルーシュ王国の街しか送れないわよ。\n５００ダインだけど、どうする？	
-0x61a35	0x280		・セルーシュに行く。\n・やめておく。	
-0x61a35	0x29f		ストネール\nじゃあ、始めるわよ。\nストネール\n天地の皇王の名において、我、虚空の門を開かん。\nテレポート！！	
-0x61a35	0x30b		ストネール\nありがとうございました。	
-0x61a35	0x31c		ストネール\nこのロッドの先端を見て・・・青い水晶が付いているでしょ。\nこの水晶が、貴方の魔力をほんの少し、増幅してくれるわ。\n魔力の制御も簡単だし、この杖は店のヒット商品ね。	
-0x61a35	0x3ba	レイナ	きれいなデザイ	
-0x61a35	0x3da	ファーニス	水晶がきれいだね。	
-0x61a35	0x3f2		ストネール\nこれは、良質の樫の木から削り出した杖に、呪紋処理を施した物なの。\n見て・・・全体に、びっしりルー	
-0x61a35	0x44a		が刻み込まれているでしょ。\n水晶のロッドを遥かに凌ぐ力を持っているわ。	
-0x61a35	0x494	レイナ	わぁぁぁ、これ欲しいわ。\nねぇウォーリック、買おっ。	
-0x61a35	0x4c4	レイナ	今、私が持ってる杖ね。	
-0x61a35	0x4e6		ストネール\nこのローブは、魔導士のシ	
-0x61a35	0x4fd		ボル的な衣装ねっ。\n上級魔導士が着る事によって、最大の力を発揮するの。\n着る者自身の魔力と同調すれば、高い防御力を得られるはずよ。	
-0x61a35	0x576	レイナ	ふぅぅぅん、面白そうね。	
-0x61a35	0x593		ストネール\nこれは、水晶の部分で大気中の魔力を吸収して、ヒーリ	
-0x61a35	0x5c8		グの呪文に変換する仕組みになっているの。\n水晶には、魔力を増幅させる力があるんだけど、この頃、品質のいい水晶がなかなか無くて・・・。	
-0x61a35	0x63c	ファーニス	サイズ直しは、無料かな？	
-0x61a35	0x65a		ストネール\nこれも、水晶の指輪と原理はまったく同じよ。\nこの紫水晶は、シルバーホーン産で、品質は最高の物なの。\nパワーもこっちの方が断然上だわ。\n買って損はしないわよ。	
-0x61a35	0x6db	レイナ	確かに強い魔力はありそうね。	
-0x61a35	0x6fc		ストネール\nこれは、爆発性のある結晶を、制御するために加工した物よ。\n３つのラ	
-0x61a35	0x734		クがあって、破壊力の大きい順に、金、銀、銅、の制御カバーが付いているわ。\nこれでも、かなり威力があるわよ。	
-0x61a35	0x78d	レイナ	取扱いには、気を付けなきゃ。	
-0x61a35	0x7b5	ファーニス	戦闘が楽になりそうね。	
-0x61fbe	0xe		ディーゼル\nへいッ、らっしゃい！！\nじゃんじゃん買ってくんなぁ。	
-0x61fbe	0x45		どうすんだい？	
-0x61fbe	0x56	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	
-0x61fbe	0x8d	レイナ	買物は後にするわ。	
-0x61fbe	0xad	レイナ	お金がないわ。	
-0x61fbe	0xc6		ディーゼル\nそうそう、ほんの２〜３日前に地震があったんだよ。\nそんで、レジーナの森に大きな地割れができたんだって。\n行くのなら気ィ付けなッ。	
-0x61fbe	0x123		ディーゼル\nセルーシュ王国に渡るんなら、うちの特製ポーションを買って行きなッ。\n噂によると、セルーシュ城は魔物の軍隊に落されたって言うじゃねぇか・・・やだねぇ。	
-0x61fbe	0x184		ディーゼル\nこの店じゃ３割で引取るぜ。	
-0x61fbe	0x1b9	レイナ	今回はやめておくわ。	
-0x61fbe	0x1d1		ディーゼル\nへいッ、毎度あり。\nまた来いや。	
-0x61fbe	0x1f6		ディーゼル\nこの薬草袋の中身を、他の店の物と一緒にしてもらっちゃあ困るぜ。\nうちのは特別製なんだよ。\nなんと、ニ	
-0x61fbe	0x247		ニクの成分入り。\nなのに他の店の薬草袋と同じ値段！！くぅぅぅぅぅッ、太っ腹だねぇ。	
-0x61fbe	0x294	レイナ	効き目は同じみたいね。	
-0x61fbe	0x2b8	ファーニス	そんなの入れてどうすんの、おっちゃん！？	
-0x61fbe	0x2de		ディーゼル\nこのポーションは、他の店の物と一味ちがぁぁぁう！！\nうちのは特別製なんだよ。\nなっ、なっ、なんと、レモ	
-0x61fbe	0x331		入りだぁ。\nどうだっ、まいったかッ！！	
-0x61fbe	0x35c	レイナ	美容飲料じゃないんだから。	
-0x61fbe	0x383	ファーニス	入れりゃいいってもんじゃないよ、おっちゃん。	
-0x61fbe	0x3ab		ディーゼル\nこのキノコだけは、気ィ付けな。\n喰ったら時速６３キロで走り出しちまう、すごいキノコだッ。\nもし魔物が多い所に迷い込んだりしても、こいつを喰えばその足力で逃げ切れるぜ。	
-0x61fbe	0x43b	レイナ	あまり食べたくないわね。	
-0x61fbe	0x45e	ファーニス	キノコって・・・危険ね。	
-0x61fbe	0x48c		ディーゼル\nこいつぁ小型の弓だッ。\n軽いから持ち運びも便利だし、射程距離もそこそこある。\n威力だって馬鹿にならねぇえよ。\nエルフの嬢ちゃんなら、うまく使えるんじゃないかい？	
-0x61fbe	0x519	ファーニス	うん、欲しぃぃぃぃぃッ。	
-0x61fbe	0x53c	ファーニス	私、持ってるよ。	
-0x61fbe	0x555		ディーゼル\nこの弓は使いこなすが大変だぞぉ。\nなにせ、長さが人の身長ぐらいあるんだ。\n速射はきかねぇが、威力と射程距離はピカイチだぜ。\n完全な攻撃用の弓と言えるだろう。	
-0x61fbe	0x5e1	レイナ	強そうだけど、大きくて邪魔そうね。	
-0x61fbe	0x60c	ファーニス	私の身長より大っきいよ、これ！！	
-0x61fbe	0x62f		ディーゼル\nこいつぁ、冒険者専用に造られたブーツだ。\n岩場だろうと草むらだろうと、どこでもオッケー！！\nこれで、旅はかなり楽になる筈だぜ。うちの、おすすめ商品だぁぁぁッ。	
-0x61fbe	0x6bc		スもいいわね。	
-0x61fbe	0x6cb		ディーゼル\nこりゃ・・・ワイバーンの餌だ。\nワイバーンは、この国の名物だからな。こいつをやるとワイバーンは大喜びするぞぉぉぉ。\nまあ、人間が喰っても害じゃないがね。	
-0x61fbe	0x746	レイナ	なんで煎餅なの？	
-0x61fbe	0x76a	ファーニス	私もワイバーンに、餌あげたぁぁぁい。ねぇ、買おっ買おっ、	
-0x624f6	0xe		ベルニエッタ\n竜光亭へようこそ。\nごゆっくり、おくつろぎ下さい。	
-0x624f6	0x45		いかがいたしましょう？	
-0x624f6	0x5b		・宿泊します。\n・食事をとろう。\n・話をしよう。\n・テミスを換金します。\n・お店を出よう。	
-0x624f6	0x8d	レイナ	お金が足りないわ。	
-0x624f6	0xa5		ベルニエッタ\nお泊りですね。\n一泊　３００ダインになります。	
-0x624f6	0xd1		・泊まる。\n・やめておく。	
-0x624f6	0xec	レイナ	今日はまだ明るいし、そんなに疲れてないわ。	
-0x624f6	0x14d	ウォーリック	もう今日はグッタリ。	
-0x624f6	0x168	レイナ	だめよウォーリック、みんな起きちゃうわ。	
-0x624f6	0x18a	ファーニス	ふぁぁぁッ、今日は疲れた。	
-0x624f6	0x1a7		ベルニエッタ\nお食事ですね。\nえっと・・・・・人数分で、ちょうど１００ダインになります。	
-0x624f6	0x1e6		・食事にする。\n・やめておく。	
-0x624f6	0x203	レイナ	さっき、食事したばかりじゃない。	
-0x624f6	0x251		チは、ジーク風羊肉のポトフのセットよ。\n奥のテーブルが、開いているわ。	
-0x624f6	0x291	ファーニス	いっただっきまぁぁぁす。\n・・・おッ、美味しぃぃぃぃぃッ。	
-0x624f6	0x2e1		チは、砂鯨の大和煮定食よ。奥のテーブルが、開いているわ。	
-0x624f6	0x31a	レイナ	いただきます。\n・・・・・うん、まあまあの味ね。	
-0x624f6	0x35e		チは、タコの干物のジャムあえ納豆定食よ。\n奥のテーブルが、開いているわ。	
-0x624f6	0x399	ウォーリック	・・・なぁ、レイナ。\nこれ本当に食い物なのか？	
-0x624f6	0x3cc	レイナ	ウォーリック・・・初めにちょっと食べてみてよ。	
-0x624f6	0x3f9	ウォーリック	・・・うん。\nいただきます。\nウォーリック\n・・・・・げッ、げはぁぁぁッ。\nまッ、まずいぃぃぃぃぃぃッ。	
-0x624f6	0x462		ベルニエッタ\nベイグ王はこの地のアークデーモンを倒して、たった１代でジークを建国した英雄王よ。\n息子のバーナー王子がまた、とってもカッコイイのよ。	
-0x624f6	0x4be		ベルニエッタ\n隣のセルーシュ王国では、聖騎士団の留守をついて魔物が攻め込んだって話よ。\nジーク王国にはドラゴン　ライダーがいるから安心ね。	
-0x624f6	0x54c		ベルニエッタ\n換金は、１００テミスからです。\nこの店での今の換金率は、	
-0x624f6	0x57a		テミス１０に対してダイン１５です。	
-0x624f6	0x592		テミス１０に対してダイン１７です。	
-0x624f6	0x5aa		テミス１０に対してダイン２０です。	
-0x624f6	0x5c2		どうします？	
-0x624f6	0x5d2		・換金する。\n・まだしない。	
-0x624f6	0x5e6		・換金する。\n・まだしない。	
-0x624f6	0x5fa		・換金する。\n・まだしない。	
-0x624f6	0x614	レイナ	もっと、換金率のいい時にするわ。	
-0x624f6	0x633		ベルニエッタ\n換金は１００テミス以上ないとできません。	
-0x624f6	0x6a7		ベルニエッタ\n換金終りました。	
-0x624f6	0x6c4		ベルニエッタ\nまた、いつでもどうぞ。	
-0x624f6	0x6f2		チは、味の落差が激しいんだよなぁ。\nタコの料理に気を付けな。	
-0x624f6	0x721		ユーノス\n詳しい事はわからねぇがな。\n今、セルーシュは大変なんだってよ。	
-0x624f6	0x74c		カミール\nどっかにカワイイ子いないかな。	
-0x624f6	0x768		私に、お酒でもおごってくれるのかい。	
-0x624f6	0x780		チョリス\n俺もドラゴン　ライダー隊に志願するんだ。	
+0x60fb4	0xe		ミーシャ\nいらっしゃいませ。\n何をお求めでしょうか？	Misha\nWelcome.\nWhat are you looking for?
+0x60fb4	0x38		いかがいたします？	What'll it be?
+0x60fb4	0x4b	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Leave the shop.
+0x60fb4	0x80	レイナ	買物は後にするわ。	I'll shop later.
+0x60fb4	0xa0	レイナ	あらッ、持ち合わせがないわ。	Oh, I can't afford that.
+0x60fb4	0xc4		ミーシャ\n魔法の掛かったアイテムが欲しいなら、ストネールの魔法屋に行ってみて。\n魔法のアイテムだけは、専門家じゃなきゃ危険だわ。	Misha\nIf you want enchanted items, try\nStonell's magic shop.\nMagic items are dangerous unless\nhandled by a specialist.
+0x60fb4	0x122		ミーシャ\nこの国は、タリアトフ大陸最強のドラゴン　ライダー部隊がいるって事で有名よ。\nワイバーンに乗って飛んでいる騎士達って、見ていて壮観よ。	Misha\nThis kingdom is famed for the\nstrongest Dragon Rider corps on\nthe Taliatov continent.\nKnights soaring on Wyverns are\na grand sight.
+0x60fb4	0x172		ミーシャ\n国境を越えるなら、装備は十分揃えて行った方がいいわよ。\nジークとセルーシュを繋ぐト	Misha\nIf you're crossing the border,\nbest stock up on gear first.\nThe tunnel linking Zeke and\nSerush
+0x60fb4	0x1b0		ネルに超大型のビボルダーが出るって話なのよ。\n行くのなら魔法の装備も必要だと思うわ。	is said to have a huge Bivolder\nin it.\nIf you're going, you'll want\nmagic gear too.
+0x60fb4	0x1f5		ミーシャ\nうちは４割で引取るわよ。	Misha\nWe buy back at 40 percent.
+0x60fb4	0x223	レイナ	やっぱり、もうちょっと使ってからにする。	On second thought, I'll use it\na while longer first.
+0x60fb4	0x244		ミーシャ\nありがとうございました。	Misha\nThank you very much.
+0x60fb4	0x256		ブー父ちゃん\nわしが、この店の主人じゃ。\n娘のミーシャが店を手伝う様になってから、店が大繁盛しておる。\nやっぱ、女の子の方が客も来るのかのう？	Papa Boo\nI'm the owner of this shop.\nBusiness has boomed since my\ndaughter Misha started helping.\nMaybe folks come more for a\npretty girl, eh?
+0x60fb4	0x2b8		ブー父ちゃん\nこの国のワイバーンは見たかね。\nわしも、あと３０若ければドラゴン　ライダー隊に志願したのにのう。	Papa Boo\nSeen this kingdom's Wyverns?\nIf I were 30 years younger I'd\nhave joined the Dragon Riders\nmyself.
+0x60fb4	0x2f8		ミーシャ\nレイピアは、主に突き刺すために造られた細身の３剣７の事よ。\n他の３剣７に比べて、とても軽いから女性にも人気が高いわ。\n筋力より敏捷性が必要ね。	Misha\nA rapier is a slender sword made\nmainly for thrusting.\nLighter than other swords, so\nit's popular with women.\nIt needs agility over strength.
+0x60fb4	0x379	レイナ	レイピアって、とてもキレイな３剣７ね。	A rapier's such an elegant sword.
+0x60fb4	0x3a5	ファーニス	たいした威力はありそうにないね。	Doesn't look very powerful, though.
+0x60fb4	0x3c6		ミーシャ\nブロードソードってのは、幅広の片手持ちの３剣７の事よ。\nこの店では、今一番売れてるわ。\nバラ	Misha\nA broadsword is a wide, one-handed\nsword.\nIt's our best seller right now.\nThe bal-
+0x60fb4	0x40f		スもいいし３盾７と併用して使えば完壁ね。	ance is good, and paired with a\nshield it's perfect.
+0x60fb4	0x43b	レイナ	昔、ウォーリックの使ってた３剣７と同じ物ね。	The same sword {Warrick} used\nlong ago.
+0x60fb4	0x45f		ミーシャ\nバスタードソードは、ブロードソードよりちょっと長めの３剣７よ。\n片手でも両手でも使える様に握りが長くなっているの。\nでも、みんな３盾７と併用して使っているわね。	Misha\nA bastard sword is a bit longer\nthan a broadsword.\nThe grip is long, so you can use\nit one or two-handed.\nMost pair it with a shield, though.
+0x60fb4	0x4e0	レイナ	この３剣７、カッコいいわね。	This sword looks cool.
+0x60fb4	0x4fc		ミーシャ\nこれは、両刃の斧頭が付いた純粋な戦闘用の３斧７よ。\nこの店では１番破壊力はあるけど、扱いは難しいわよ。\nでもこの３斧７で叩かれた日にゃ、あの世行き間違いなし。	Misha\nA pure battle axe with a\ndouble-edged head.\nOur most destructive weapon, but\nhard to handle.\nGet hit with this and you're off\nto the next world for sure.
+0x60fb4	0x584	レイナ	ウォーリック、こんなの使うのぉ？\nあんまりカッコよくないわ。	{Warrick}, you'd use this?\nIt's not very cool.
+0x60fb4	0x5b7	ファーニス	こんなので叩かれたら痛いだろうなぁ。	Getting hit with this would hurt.
+0x60fb4	0x5da		ミーシャ\nスピアっていうのは３槍７の事よ。\n人の身長くらいの木製の柄の先に金属製の穂先が付いた簡単な武器だけど、攻撃力はかなり高いわよ。\nこの店のおすすめ商品よ。	Misha\nA spear is a simple lance.\nA wooden shaft about a person's\nheight with a metal tip, but its\nattack power is quite high.\nIt's our recommended item.
+0x60fb4	0x660	レイナ	これは、中距離攻撃用の武器ね。	A mid-range attack weapon.
+0x60fb4	0x693	ファーニス	この３槍７、いいなぁ。	This spear's nice.
+0x60fb4	0x6b5	ファーニス	この３槍７、とぉっても使いやすいよ。	This spear is so easy to use.
+0x60fb4	0x6d6		ミーシャ\nこれは、遠心力を利用した打撃武器よ。スパイクで強化した鉄棒と、握りの部分とを鎖で繋いだ物なの。\n片手で扱えるし、予備の武器として買って行く人が多いわね。	Misha\nA bludgeon that uses centrifugal\nforce, a spiked iron bar chained\nto a grip.\nOne-handed, and many buy it as\na backup weapon.
+0x60fb4	0x76d	ファーニス	これって、よく僧侶が持つ武器だね。	The kind of weapon priests often\ncarry.
+0x61518	0xe		アイシャ\nあっ、いらっしゃいませ。\nえっと・・・私、アルバイトのアイシャと申します。\nよろしくお願いします。	Aisha\nOh, welcome!\nUm... I'm Aisha, the part-timer.\nPleased to meet you.
+0x61518	0x6a		いかがいたしましょう？	How may I help?
+0x61518	0x7f	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Leave the shop.
+0x61518	0xb6	レイナ	買物は、また後にするわ。	I'll shop later.
+0x61518	0xd9	レイナ	今は、持ち合わせがないの。	I can't afford it right now.
+0x61518	0xfa		アイシャ\n私、みんなから、ドジとかノロマとか言われるけど、頑張りますのでよろしくお願いします。	Aisha\nEveryone calls me clumsy and\nslow, but I'll do my best, so\nplease bear with me.
+0x61518	0x13a		アイシャ\nアイシャ、がんばります。	Aisha\nI'll do my best!
+0x61518	0x15b		アイシャ\nこのお店では、４割で引取らせていただいています。	Aisha\nWe buy back at 40 percent here.
+0x61518	0x19a	レイナ	今回はやめておくわ。	I'll pass this time.
+0x61518	0x1b2		アイシャ\nありがとうございました。\n・・・また、いらして下さいね。	Aisha\nThank you very much.\n...Please come again.
+0x61518	0x1dc		アイシャ\nえっと・・・バックラーですね。\nこれは小さな円形の３盾７です。\n軽いですし、女性でも簡単に装備できますし・・・安いです。	Aisha\nUm... a buckler, right?\nIt's a small, round shield.\nLight, easy even for women to\nequip, and... cheap.
+0x61518	0x25a	レイナ	私やファーニスも装備できるわね。	{Furnis} and I could equip this.
+0x61518	0x280	ファーニス	それにしても、お姉ちゃん・・・そんな緊張しないでいいよ。	Really, miss... no need to be\nso nervous.
+0x61518	0x2c7		ドシールドですね。\nこれはバックラーより大きく、強度も高い円形の３盾７です。\nえっと・・・このお店にある３盾７の中では、一番防御力があります。	A round shield, right?\nBigger and stronger than a\nbuckler.\nUm... it has the best defense of\nany shield in our shop.
+0x61518	0x34a	レイナ	これは買っておいた方がいいんじゃない、ウォーリック。	We should buy this, {Warrick}.
+0x61518	0x378	ウォーリック	この盾はとても使いやすいよ。	This shield is very easy to use.
+0x61518	0x3a7		ト、まぁぁぁんまるな盾だね。	What a perfectly round shield.
+0x61518	0x3be		アイシャ\nえっと、これは・・・文字通り動物の革でできた３鎧７です。\nとても軽いので女性にも着れますし、運動性を阻害する事もありません。\nそれに、とても安いです。	Aisha\nUm, this is... literally armor\nmade of animal hide.\nVery light, women can wear it,\nand it doesn't hinder movement.\nAlso very cheap.
+0x61518	0x457		もたくさんあるのね。	There's a lot of it, too.
+0x61518	0x472	ファーニス	いったい、何の革使ってるのかしら？	I wonder what hide it's made of.
+0x61518	0x495		アイシャ\nハードレザーと言うのは、レザーアーマーをワックスで煮込んで固くした物です。\n普通のレザーより、はるかに高い硬度を持っています。\nえっと・・・おすすめ商品です。	Aisha\nHard leather is leather armor\nboiled in wax to harden it.\nFar tougher than ordinary\nleather.\nUm... it's a recommended item.
+0x61518	0x52e	レイナ	装飾もあって、きれいね。	It's decorated, and pretty.
+0x61518	0x558	ファーニス	ウォーリック、これ欲しいぃぃぃ。	{Warrick}, I want this!
+0x61518	0x57b	ファーニス	私今着ているけど、どう？\n似合うでしょう。	I'm wearing it now. How is it?\nSuits me, right?
+0x61518	0x5b5		グメイルですね。\nえっと、これはレザーアーマーの表面に小さな金属製の輪を全体に縫い付けて、防御力を高めた物なんです。\nあまり重さもなく、着やすいので以外と売れています。	Ring mail, right?\nUm, small metal rings are sewn\nall over leather armor to boost\nits defense.\nNot heavy and easy to wear, so\nit sells surprisingly well.
+0x61518	0x63a	レイナ	あんまり、カッコよくないわね。	Not very stylish, though.
+0x61518	0x658		アイシャ\nショルダーガードですね。\nこれは金属製の肩当てです。\n両肩と心臓の部分のアーマーを、革のベルトで繋いだ物ですが・・・えっと、十分役にたつと思います。	Aisha\nA shoulder guard, right?\nMetal pauldrons.\nArmor for both shoulders and the\nheart, joined by leather belts...\num, I think it's quite useful.
+0x61518	0x6dd	レイナ	なんか、冒険者って感じね。	Feels adventurer-ish, somehow.
+0x61518	0x6ff		アイシャ\nこれは金属製の３鎧７で、胸と背中の部分とで、セットになっています。\n防御力はとても高く、とても実用的な３鎧７です。\n今、お買い上げいただきますと、イニシャルを無料でお付けします。	Aisha\nMetal armor, a set for the chest\nand back.\nVery high defense and very\npractical.\nBuy now and we'll engrave your\ninitials free.
+0x61518	0x794	レイナ	ちょと、値段が高いかな。	A bit pricey, maybe.
+0x61518	0x7b9	ファーニス	とってもカッコいいね。	Really cool.
+0x61a35	0xe		ストネール\nいらっしゃいませ。\n私の店へ、ようこそ。	Stonell\nWelcome.\nWelcome to my shop.
+0x61a35	0x38		いかがいたします？	What'll it be?
+0x61a35	0x4c	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・瞬間移動したい。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Teleport.\n・Leave the shop.
+0x61a35	0x84	レイナ	買物は後にするわ。	I'll shop later.
+0x61a35	0xa4	レイナ	持ち合わせがないわ。	I can't afford that.
+0x61a35	0xc1		ストネール\n私、今まで、ずぅぅぅぅぅぅぅっと、セルーシュの魔法屋でアルバイトしてたんだけど、先日、やっと自分の店を持つ事ができたのよ。\n嬉しくってたまらないわ。	Stonell\nFor the looongest time I worked\npart-time at a magic shop in\nSerush, but the other day I\nfinally got my own shop.\nI'm just thrilled.
+0x61a35	0x131		ストネール\n魔導弾の原料になる結晶は各地で取れるんだけど、結晶の集まり方がおかしいの。\nどうやら、あの結晶は旧世界の魔法兵器の残骸らしいわ。	Stonell\nThe crystals that make magic\nbolts come from all over, but the\nway they gather is strange.\nThey seem to be wreckage of\nold-world magic weapons.
+0x61a35	0x1a0		ストネール\nうちは５割で引取るわよ。	Stonell\nWe buy back at 50 percent.
+0x61a35	0x1d1	レイナ	やっぱり、もうちょっと使ってからにする。	On second thought, I'll use it\na while longer.
+0x61a35	0x1f9		ストネール\nごめんなさい。\n私まだ、瞬間移動の呪文、完全にマスターしてないの。	Stonell\nSorry.\nI haven't fully mastered the\nteleport spell yet.
+0x61a35	0x233		ストネール\n移動の呪文、もう完全に覚えたわ。\nでも、セルーシュ王国の街しか送れないわよ。\n５００ダインだけど、どうする？	Stonell\nI've fully learned the teleport\nspell now.\nBut I can only send you to the\nSerush Kingdom town.\nIt's 500 Dain. What'll you do?
+0x61a35	0x280		・セルーシュに行く。\n・やめておく。	・Go to Serush.\n・Never mind.
+0x61a35	0x29f		ストネール\nじゃあ、始めるわよ。\nストネール\n天地の皇王の名において、我、虚空の門を開かん。\nテレポート！！	Stonell\nHere we go, then.\pStonell\nIn the name of the sovereign of\nheaven and earth, I open the\ngate of the void.\nTeleport!!
+0x61a35	0x30b		ストネール\nありがとうございました。	Stonell\nThank you very much.
+0x61a35	0x31c		ストネール\nこのロッドの先端を見て・・・青い水晶が付いているでしょ。\nこの水晶が、貴方の魔力をほんの少し、増幅してくれるわ。\n魔力の制御も簡単だし、この杖は店のヒット商品ね。	Stonell\nLook at the tip of this rod...\nsee the blue crystal?\nIt amplifies your magic just a\nlittle.\nEasy to control, too. This staff\nis our hit product.
+0x61a35	0x3ba	レイナ	きれいなデザイ	What a pretty design.
+0x61a35	0x3da	ファーニス	水晶がきれいだね。	The crystal is pretty.
+0x61a35	0x3f2		ストネール\nこれは、良質の樫の木から削り出した杖に、呪紋処理を施した物なの。\n見て・・・全体に、びっしりルー	Stonell\nThis staff is carved from fine\noak and treated with runic\nglyphs.\nLook... runes packed densely\nall over-
+0x61a35	0x44a		が刻み込まれているでしょ。\n水晶のロッドを遥かに凌ぐ力を持っているわ。	carved into it, see?\nIt far surpasses the crystal\nrod in power.
+0x61a35	0x494	レイナ	わぁぁぁ、これ欲しいわ。\nねぇウォーリック、買おっ。	Wow, I want this.\nHey {Warrick}, let's buy it.
+0x61a35	0x4c4	レイナ	今、私が持ってる杖ね。	The staff I'm carrying now.
+0x61a35	0x4e6		ストネール\nこのローブは、魔導士のシ	Stonell\nThis robe is a mage's sym-
+0x61a35	0x4fd		ボル的な衣装ねっ。\n上級魔導士が着る事によって、最大の力を発揮するの。\n着る者自身の魔力と同調すれば、高い防御力を得られるはずよ。	bolic garment.\nWorn by an advanced mage, it\nshows its full power.\nAttuned to the wearer's own\nmagic, it grants high defense.
+0x61a35	0x576	レイナ	ふぅぅぅん、面白そうね。	Hmm, sounds interesting.
+0x61a35	0x593		ストネール\nこれは、水晶の部分で大気中の魔力を吸収して、ヒーリ	Stonell\nThe crystal absorbs magic from\nthe air and turns it into heal-
+0x61a35	0x5c8		グの呪文に変換する仕組みになっているの。\n水晶には、魔力を増幅させる力があるんだけど、この頃、品質のいい水晶がなかなか無くて・・・。	ing magic.\nCrystals can amplify magic, but\ngood-quality ones are hard to\nfind these days...
+0x61a35	0x63c	ファーニス	サイズ直しは、無料かな？	Is resizing free?
+0x61a35	0x65a		ストネール\nこれも、水晶の指輪と原理はまったく同じよ。\nこの紫水晶は、シルバーホーン産で、品質は最高の物なの。\nパワーもこっちの方が断然上だわ。\n買って損はしないわよ。	Stonell\nSame principle as the crystal\nring.\nThis amethyst is from Silverhorn,\ntop quality.\nIts power's far greater, too.\nYou won't regret buying it.
+0x61a35	0x6db	レイナ	確かに強い魔力はありそうね。	It does seem to hold strong magic.
+0x61a35	0x6fc		ストネール\nこれは、爆発性のある結晶を、制御するために加工した物よ。\n３つのラ	Stonell\nThis is an explosive crystal,\nprocessed to be controllable.\nThere are three ran-
+0x61a35	0x734		クがあって、破壊力の大きい順に、金、銀、銅、の制御カバーが付いているわ。\nこれでも、かなり威力があるわよ。	ks, with gold, silver, and bronze\ncontrol covers by descending\ndestructive power.\nEven this one is quite powerful.
+0x61a35	0x78d	レイナ	取扱いには、気を付けなきゃ。	We'll have to handle it with care.
+0x61a35	0x7b5	ファーニス	戦闘が楽になりそうね。	Should make battles easier.
+0x61fbe	0xe		ディーゼル\nへいッ、らっしゃい！！\nじゃんじゃん買ってくんなぁ。	Diesel\nHey, welcome!!\nBuy big, now!
+0x61fbe	0x45		どうすんだい？	What'll it be?
+0x61fbe	0x56	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Leave the shop.
+0x61fbe	0x8d	レイナ	買物は後にするわ。	I'll shop later.
+0x61fbe	0xad	レイナ	お金がないわ。	I'm out of money.
+0x61fbe	0xc6		ディーゼル\nそうそう、ほんの２〜３日前に地震があったんだよ。\nそんで、レジーナの森に大きな地割れができたんだって。\n行くのなら気ィ付けなッ。	Diesel\nOh yeah, there was a quake just\n2 or 3 days ago.\nOpened a big fissure in Regina\nForest, they say.\nTake care if you're headed there.
+0x61fbe	0x123		ディーゼル\nセルーシュ王国に渡るんなら、うちの特製ポーションを買って行きなッ。\n噂によると、セルーシュ城は魔物の軍隊に落されたって言うじゃねぇか・・・やだねぇ。	Diesel\nCrossing to the Serush Kingdom?\nThen buy my special potions.\nWord is Serush Castle fell to a\n{Monster} army... nasty business.
+0x61fbe	0x184		ディーゼル\nこの店じゃ３割で引取るぜ。	Diesel\nWe buy back at 30 percent here.
+0x61fbe	0x1b9	レイナ	今回はやめておくわ。	I'll pass this time.
+0x61fbe	0x1d1		ディーゼル\nへいッ、毎度あり。\nまた来いや。	Diesel\nHey, thanks as always.\nCome again.
+0x61fbe	0x1f6		ディーゼル\nこの薬草袋の中身を、他の店の物と一緒にしてもらっちゃあ困るぜ。\nうちのは特別製なんだよ。\nなんと、ニ	Diesel\nDon't lump my herb pouch in with\nother shops' stuff.\nMine's special-made.\nWith, get this, gar-
+0x61fbe	0x247		ニクの成分入り。\nなのに他の店の薬草袋と同じ値段！！くぅぅぅぅぅッ、太っ腹だねぇ。	lic in it.\nAnd the same price as anyone\nelse's pouch!! Gah, what a deal,\nright?
+0x61fbe	0x294	レイナ	効き目は同じみたいね。	The effect seems the same, though.
+0x61fbe	0x2b8	ファーニス	そんなの入れてどうすんの、おっちゃん！？	Why'd you put that in, mister?!
+0x61fbe	0x2de		ディーゼル\nこのポーションは、他の店の物と一味ちがぁぁぁう！！\nうちのは特別製なんだよ。\nなっ、なっ、なんと、レモ	Diesel\nThis potion's a cut above the\nrest!!\nMine's special-made.\nWith, with, get this, lem-
+0x61fbe	0x331		入りだぁ。\nどうだっ、まいったかッ！！	on in it!\nWell? Impressed yet?!
+0x61fbe	0x35c	レイナ	美容飲料じゃないんだから。	It's not a beauty drink, you know.
+0x61fbe	0x383	ファーニス	入れりゃいいってもんじゃないよ、おっちゃん。	Adding stuff isn't always better,\nmister.
+0x61fbe	0x3ab		ディーゼル\nこのキノコだけは、気ィ付けな。\n喰ったら時速６３キロで走り出しちまう、すごいキノコだッ。\nもし魔物が多い所に迷い込んだりしても、こいつを喰えばその足力で逃げ切れるぜ。	Diesel\nWatch out for this mushroom.\nEat it and you'll bolt off at 63\nkm an hour, amazing stuff.\nWander into a {Monster}-infested\nspot and you can outrun 'em all\non those legs.
+0x61fbe	0x43b	レイナ	あまり食べたくないわね。	I don't really want to eat that.
+0x61fbe	0x45e	ファーニス	キノコって・・・危険ね。	Mushrooms are... dangerous.
+0x61fbe	0x48c		ディーゼル\nこいつぁ小型の弓だッ。\n軽いから持ち運びも便利だし、射程距離もそこそこある。\n威力だって馬鹿にならねぇえよ。\nエルフの嬢ちゃんなら、うまく使えるんじゃないかい？	Diesel\nThis here's a small bow.\nLight, easy to carry, decent\nrange too.\nThe power's nothing to scoff at\neither.\nThe elf miss could use it well,\nI reckon.
+0x61fbe	0x519	ファーニス	うん、欲しぃぃぃぃぃッ。	Yeah, I want it!
+0x61fbe	0x53c	ファーニス	私、持ってるよ。	I've got one already.
+0x61fbe	0x555		ディーゼル\nこの弓は使いこなすが大変だぞぉ。\nなにせ、長さが人の身長ぐらいあるんだ。\n速射はきかねぇが、威力と射程距離はピカイチだぜ。\n完全な攻撃用の弓と言えるだろう。	Diesel\nThis bow's a handful to master.\nIt's near as tall as a person.\nNo rapid fire, but top-notch\npower and range.\nA pure attacker's bow, you could\nsay.
+0x61fbe	0x5e1	レイナ	強そうだけど、大きくて邪魔そうね。	Strong, but so big it'd get in\nthe way.
+0x61fbe	0x60c	ファーニス	私の身長より大っきいよ、これ！！	This is taller than me!!
+0x61fbe	0x62f		ディーゼル\nこいつぁ、冒険者専用に造られたブーツだ。\n岩場だろうと草むらだろうと、どこでもオッケー！！\nこれで、旅はかなり楽になる筈だぜ。うちの、おすすめ商品だぁぁぁッ。	Diesel\nThese boots are made just for\nadventurers.\nRocky ground, tall grass, all\nfine!!\nThey'll make traveling a lot\neasier. Our recommended item!
+0x61fbe	0x6bc		スもいいわね。	The balance is good too.
+0x61fbe	0x6cb		ディーゼル\nこりゃ・・・ワイバーンの餌だ。\nワイバーンは、この国の名物だからな。こいつをやるとワイバーンは大喜びするぞぉぉぉ。\nまあ、人間が喰っても害じゃないがね。	Diesel\nThis here's... Wyvern feed.\nWyverns are this kingdom's pride.\nGive 'em this and they're\noverjoyed.\nNot that it'd harm a human to\neat it, mind.
+0x61fbe	0x746	レイナ	なんで煎餅なの？	Why is it a rice cracker?
+0x61fbe	0x76a	ファーニス	私もワイバーンに、餌あげたぁぁぁい。ねぇ、買おっ買おっ、	I wanna feed a Wyvern too!\nCome on, let's buy some, buy some!
+0x624f6	0xe		ベルニエッタ\n竜光亭へようこそ。\nごゆっくり、おくつろぎ下さい。	Bernietta\nWelcome to the Dragonlight Inn.\nPlease relax and make yourself\nat home.
+0x624f6	0x45		いかがいたしましょう？	How may I help?
+0x624f6	0x5b		・宿泊します。\n・食事をとろう。\n・話をしよう。\n・テミスを換金します。\n・お店を出よう。	・Stay the night.\n・Have a meal.\n・Let's talk.\n・Exchange Themis.\n・Leave the inn.
+0x624f6	0x8d	レイナ	お金が足りないわ。	I don't have enough money.
+0x624f6	0xa5		ベルニエッタ\nお泊りですね。\n一泊　３００ダインになります。	Bernietta\nStaying the night?\nThat's 300 Dain per night.
+0x624f6	0xd1		・泊まる。\n・やめておく。	・Stay.\n・Never mind.
+0x624f6	0xec	レイナ	今日はまだ明るいし、そんなに疲れてないわ。	It's still light out, and I'm\nnot that tired.
+0x624f6	0x14d	ウォーリック	もう今日はグッタリ。	I'm worn out for today.
+0x624f6	0x168	レイナ	だめよウォーリック、みんな起きちゃうわ。	No, {Warrick}, you'll wake\neveryone.
+0x624f6	0x18a	ファーニス	ふぁぁぁッ、今日は疲れた。	Yawn, I'm tired today.
+0x624f6	0x1a7		ベルニエッタ\nお食事ですね。\nえっと・・・・・人数分で、ちょうど１００ダインになります。	Bernietta\nA meal, was it?\nUm... for your whole party, that's\nexactly 100 Dain.
+0x624f6	0x1e6		・食事にする。\n・やめておく。	・Eat.\n・Never mind.
+0x624f6	0x203	レイナ	さっき、食事したばかりじゃない。	We just ate a moment ago.
+0x624f6	0x251		チは、ジーク風羊肉のポトフのセットよ。\n奥のテーブルが、開いているわ。	Today's special is a Zeke-style\nmutton pot-au-feu set.\nThe back table is open.
+0x624f6	0x291	ファーニス	いっただっきまぁぁぁす。\n・・・おッ、美味しぃぃぃぃぃッ。	Time to eat!\n...Oh, delicious!
+0x624f6	0x2e1		チは、砂鯨の大和煮定食よ。奥のテーブルが、開いているわ。	Today's special is a sand whale\nsimmered set. The back table is\nopen.
+0x624f6	0x31a	レイナ	いただきます。\n・・・・・うん、まあまあの味ね。	Let's eat.\n...Mm, not bad.
+0x624f6	0x35e		チは、タコの干物のジャムあえ納豆定食よ。\n奥のテーブルが、開いているわ。	Today's special is dried octopus\nin jam with natto. The back\ntable is open.
+0x624f6	0x399	ウォーリック	・・・なぁ、レイナ。\nこれ本当に食い物なのか？	...Hey, {Reina}.\nIs this really food?
+0x624f6	0x3cc	レイナ	ウォーリック・・・初めにちょっと食べてみてよ。	{Warrick}... you try a bite first.
+0x624f6	0x3f9	ウォーリック	・・・うん。\nいただきます。\nウォーリック\n・・・・・げッ、げはぁぁぁッ。\nまッ、まずいぃぃぃぃぃぃッ。	...OK.\nDown it goes.\p{Warrick}\n...Ugh, blegh!\nIt's, it's awful!
+0x624f6	0x462		ベルニエッタ\nベイグ王はこの地のアークデーモンを倒して、たった１代でジークを建国した英雄王よ。\n息子のバーナー王子がまた、とってもカッコイイのよ。	Bernietta\nKing Baig slew the Arch Demon of\nthis land and founded Zeke in a\nsingle generation, a hero-king.\nAnd his son Prince Berner is so\nvery handsome, too.
+0x624f6	0x4be		ベルニエッタ\n隣のセルーシュ王国では、聖騎士団の留守をついて魔物が攻め込んだって話よ。\nジーク王国にはドラゴン　ライダーがいるから安心ね。	Bernietta\nNext door in the Serush Kingdom,\nthey say {Monster}s attacked\nwhile the holy knights were away.\nZeke has its Dragon Riders, so\nwe're safe here.
+0x624f6	0x54c		ベルニエッタ\n換金は、１００テミスからです。\nこの店での今の換金率は、	Bernietta\nExchange starts at 100 Themis.\nOur current rate is,
+0x624f6	0x57a		テミス１０に対してダイン１５です。	15 Dain for every 10 Themis.
+0x624f6	0x592		テミス１０に対してダイン１７です。	17 Dain for every 10 Themis.
+0x624f6	0x5aa		テミス１０に対してダイン２０です。	20 Dain for every 10 Themis.
+0x624f6	0x5c2		どうします？	What'll you do?
+0x624f6	0x5d2		・換金する。\n・まだしない。	・Exchange.\n・Not yet.
+0x624f6	0x5e6		・換金する。\n・まだしない。	・Exchange.\n・Not yet.
+0x624f6	0x5fa		・換金する。\n・まだしない。	・Exchange.\n・Not yet.
+0x624f6	0x614	レイナ	もっと、換金率のいい時にするわ。	I'll wait for a better rate.
+0x624f6	0x633		ベルニエッタ\n換金は１００テミス以上ないとできません。	Bernietta\nYou need at least 100 Themis to\nexchange.
+0x624f6	0x6a7		ベルニエッタ\n換金終りました。	Bernietta\nExchange complete.
+0x624f6	0x6c4		ベルニエッタ\nまた、いつでもどうぞ。	Bernietta\nCome by anytime.
+0x624f6	0x6f2		チは、味の落差が激しいんだよなぁ。\nタコの料理に気を付けな。	The lunches here are wildly hit\nor miss.\nWatch out for the octopus dishes.
+0x624f6	0x721		ユーノス\n詳しい事はわからねぇがな。\n今、セルーシュは大変なんだってよ。	Eunos\nI don't know the details, but\nSerush is in a bad way right now.
+0x624f6	0x74c		カミール\nどっかにカワイイ子いないかな。	Kamil\nWonder if there's a cute girl\naround somewhere.
+0x624f6	0x768		私に、お酒でもおごってくれるのかい。	Gonna buy me a drink, maybe?
+0x624f6	0x780		チョリス\n俺もドラゴン　ライダー隊に志願するんだ。	Choris\nI'm gonna volunteer for the\nDragon Rider corps too.
 0x62a3c	0x1b		グ\nカナールが閉鎖されて以来、ろくなことがないよ。\n今は娘の稼ぎが頼りさ。	
 0x62a3c	0x5b		グ\n噂話じゃ、セルーシュの方でも何かあったって話しだし、\n世の中どうなっちまったんだろぉなぁ。	
 0x62a3c	0x99		グ\nカナールの魔物は蛇かなんかの類だろぉな。俺は１度だけあそこで蛇の這い回る様な音を聞いたんだ。\nあぁぁぁっ、思い出しただけでも鳥肌がたつよ。	
