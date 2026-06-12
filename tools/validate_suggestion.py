@@ -26,65 +26,85 @@ def parse_form(body):
     return fields
 
 
+def _id_eq(a, b):
+    """Match a line-id field: hex (dialogue offsets) or literal (.TOS file names)."""
+    try:
+        return int(a, 16) == int(b, 16)
+    except ValueError:
+        return a == b
+
+
+def find_row(tsv_name, block_s, str_s):
+    """(speaker, jp_text) for the matching row, or ("", None) if absent."""
+    for r in (ROOT / "script" / tsv_name).read_text(
+            encoding="utf-8").splitlines()[1:]:
+        c = r.split("\t")
+        if len(c) >= 4 and _id_eq(c[0], block_s) and _id_eq(c[1], str_s):
+            return c[2], c[3]
+    return "", None
+
+
 def main():
     body = os.environ.get("ISSUE_BODY", "")
     fields = parse_form(body)
     try:
         tsv_name = fields["script file"]
         block_s, str_s = fields["line id"].split()
-        block_off, str_off = int(block_s, 16), int(str_s, 16)
         text = fields["proposed translation"].strip()
         assert text and text.lower() != "_no response_"
     except Exception:
         print("### :x: Could not parse the suggestion\n\n"
-              "Please use the issue form fields: script file, line id "
-              "(`0x... 0x...`), and a non-empty proposed translation.")
+              "Please use the issue form fields: script file, line id, and a "
+              "non-empty proposed translation.")
         sys.exit(1)
     # normalize: editors often paste real newlines instead of \n
     text = text.replace("\r", "").replace("\n", "\\n")
 
-    archive = tsv_name.replace("_DAT.tsv", ".DAT").replace("_PK.tsv", ".PK")
-    tokens = reinsert.name_token_map()
+    is_tos = tsv_name.endswith("_TOS.tsv")
     problems = []
-
-    try:
-        reinsert.compile_english(text, tokens)
-    except (ValueError, KeyError) as e:
-        problems.append(f"syntax: {e}")
-
-    rev = {patch_names.TRANSLATIONS[jp].upper(): patch_names.TRANSLATIONS[jp]
-           for jp in patch_names.TRANSLATIONS}
-    for i, w in enumerate(reinsert.visual_lines(text, rev), 1):
-        if w > reinsert.MAX_LINE:
-            problems.append(f"line {i} renders {w} cells (max ~{reinsert.MAX_LINE})")
-
-    # locate the line in the TSV: validates the id AND gives us the Japanese
-    jp_text = None
-    speaker = ""
-    for r in (ROOT / "script" / tsv_name).read_text(encoding="utf-8").splitlines()[1:]:
-        c = r.split("\t")
-        if (len(c) >= 4 and c[0].startswith("0x")
-                and int(c[0], 16) == block_off and int(c[1], 16) == str_off):
-            speaker, jp_text = c[2], c[3]
-            break
-
     budget_note = ""
-    if not problems and jp_text is None:
-        problems.append(f"line id {block_s} {str_s} not found in {tsv_name}")
-    elif not problems:
-        # reject mis-extracted rows whose original spans event bytecode (0xff):
-        # translating them corrupts the scene (crash). Can't be safely localized.
+    speaker, jp_text = find_row(tsv_name, block_s, str_s)
+
+    if is_tos:
+        # UI / menu / system text (floppy .TOS): english uses the uitext markup and
+        # is reinserted by patch_ui, not the dialogue dlz path.
+        archive = tsv_name
+        from glodia.uitext import encode_markup
         try:
-            src = (reinsert.IsoSource()
-                   if reinsert.IMG.exists() and reinsert.IMG.stat().st_size > 1_000_000
-                   else reinsert.PackSource())
-            blk = src.block(archive, block_off)
-            a, b = reinsert.string_span(blk, str_off)
-            if 0xFF in blk[a:b]:
-                problems.append("this line was mis-extracted (it spans the scene's "
-                                "event bytecode) and can't be translated yet — skip it")
-        except Exception:
-            pass
+            encode_markup(text)
+        except Exception as e:
+            problems.append(f"syntax: {e}")
+        if not problems and jp_text is None:
+            problems.append(f"line id {block_s} {str_s} not found in {tsv_name}")
+    else:
+        archive = tsv_name.replace("_DAT.tsv", ".DAT").replace("_PK.tsv", ".PK")
+        block_off, str_off = int(block_s, 16), int(str_s, 16)
+        tokens = reinsert.name_token_map()
+        try:
+            reinsert.compile_english(text, tokens)
+        except (ValueError, KeyError) as e:
+            problems.append(f"syntax: {e}")
+        rev = {patch_names.TRANSLATIONS[jp].upper(): patch_names.TRANSLATIONS[jp]
+               for jp in patch_names.TRANSLATIONS}
+        for i, w in enumerate(reinsert.visual_lines(text, rev), 1):
+            if w > reinsert.MAX_LINE:
+                problems.append(f"line {i} renders {w} cells (max ~{reinsert.MAX_LINE})")
+        if not problems and jp_text is None:
+            problems.append(f"line id {block_s} {str_s} not found in {tsv_name}")
+        elif not problems:
+            # reject mis-extracted rows whose original spans event bytecode (0xff):
+            # translating them corrupts the scene (crash). Can't be safely localized.
+            try:
+                src = (reinsert.IsoSource()
+                       if reinsert.IMG.exists() and reinsert.IMG.stat().st_size > 1_000_000
+                       else reinsert.PackSource())
+                blk = src.block(archive, block_off)
+                a, b = reinsert.string_span(blk, str_off)
+                if 0xFF in blk[a:b]:
+                    problems.append("this line was mis-extracted (it spans the scene's "
+                                    "event bytecode) and can't be translated yet — skip it")
+            except Exception:
+                pass
     # NOTE: no per-scene byte budget — the build grows archives and repoints the
     # engine scene table, so translations can be any length. Only syntax, line
     # width, and this safety check apply.

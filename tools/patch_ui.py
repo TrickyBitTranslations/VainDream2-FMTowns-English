@@ -53,7 +53,23 @@ def rebuild(jp_fs, fname, tr):
     return b"\x00".join(out)
 
 
+def check():
+    """Validate that every translated UI record re-encodes; returns error count."""
+    tr = load_translations()
+    errors = 0
+    for (fname, so), eng in sorted(tr.items()):
+        try:
+            encode_markup(eng)
+        except Exception as e:
+            print(f"ERROR {fname} {so}: {e}  [{eng!r}]")
+            errors += 1
+    print(f"{len(tr)} translated UI records validated; {errors} error(s)")
+    return errors
+
+
 def main(write=False):
+    if "--check" in sys.argv:
+        sys.exit(1 if check() else 0)
     if "--write" in sys.argv:
         write = True
     jp_fs = read_d88(JP_D88.read_bytes())

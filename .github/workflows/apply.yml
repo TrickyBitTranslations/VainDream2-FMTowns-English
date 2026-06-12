@@ -50,7 +50,9 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: python tools/apply_suggestion.py
       - name: Full check
-        run: python tools/reinsert.py --check
+        run: |
+          python tools/reinsert.py --check
+          python tools/patch_ui.py --check
       - name: Commit
         run: |
           git config user.name "trickybit-bot"
@@ -102,7 +104,7 @@ jobs:
         run: |
           git config user.name "trickybit-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add tools/patch_names.py
+          git add script/NAMES.tsv
           git commit -m "Apply name suggestion #${{ github.event.issue.number }}"
           git push
       - name: Refresh the site

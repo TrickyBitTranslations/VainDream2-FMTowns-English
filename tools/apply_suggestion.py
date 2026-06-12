@@ -11,7 +11,7 @@ import os, pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
-from validate_suggestion import parse_form
+from validate_suggestion import parse_form, _id_eq
 
 
 def main():
@@ -27,9 +27,7 @@ def main():
     hit = False
     for line in lines[1:]:
         c = line.split("\t")
-        if (len(c) >= 4 and c[0].startswith("0x")
-                and int(c[0], 16) == int(block_s, 16)
-                and int(c[1], 16) == int(str_s, 16)):
+        if len(c) >= 4 and _id_eq(c[0], block_s) and _id_eq(c[1], str_s):
             while len(c) < 5:
                 c.append("")
             c[4] = text

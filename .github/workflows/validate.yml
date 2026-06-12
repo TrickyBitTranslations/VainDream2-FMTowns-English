@@ -15,5 +15,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate translations (syntax, width, per-block budgets)
+      - name: Validate dialogue (syntax, width, per-block budgets)
         run: python tools/reinsert.py --check
+      - name: Validate UI / system text (.TOS markup encodes)
+        run: python tools/patch_ui.py --check

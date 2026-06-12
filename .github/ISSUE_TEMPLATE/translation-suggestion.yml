@@ -20,6 +20,9 @@ body:
         - VAIN_B_DAT.tsv
         - VAIN_C_DAT.tsv
         - VAIN_S_DAT.tsv
+        - SYSTEM_TOS.tsv
+        - SYSTEM2_TOS.tsv
+        - FSYS_TOS.tsv
     validations:
       required: true
   - type: input
