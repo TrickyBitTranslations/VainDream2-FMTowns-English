@@ -160,7 +160,7 @@ block_off	str_off	speaker	text	english
 0x5f33e	0x793	大婆様	どうした。\n何か忘れ物か？	What is it?\nForget something?
 0x5f33e	0x7b6	ブージ	すまんな、ウォーリック。	Sorry, {Warrick}.
 0x5f886	0xe		ミール\nいらっしゃいませ。\n今日は何を買いにきたの？	Mir\nWelcome.\nWhat are you buying today?
-0x5f886	0x3a		いかがいたします？	What'll it be?
+0x5f886	0x3a		いかがいたします？	What'll it be?\n
 0x5f886	0x4d	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Leave the shop.
 0x5f886	0x88	ウォーリック	買物は後にするよ。	I'll shop later.
 0x5f886	0xa8	レイナ	買物は後にするわ。	I'll shop later.
@@ -285,7 +285,7 @@ block_off	str_off	speaker	text	english
 0x6095b	0x79b		ぎ悟郎屋\n\n⟨14⟩感謝の大奉仕セール実施中。	Goro's Shop\n\nA big thank-you sale, now on!
 0x6095b	0x7d1		魔導具の鑑定、買取り、行います。	Magic-item appraisal and\npurchase available.
 0x60fb4	0xe		ミーシャ\nいらっしゃいませ。\n何をお求めでしょうか？	Misha\nWelcome.\nWhat are you looking for?
-0x60fb4	0x38		いかがいたします？	What'll it be?
+0x60fb4	0x38		いかがいたします？	What'll it be?\n
 0x60fb4	0x4b	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Leave the shop.
 0x60fb4	0x80	レイナ	買物は後にするわ。	I'll shop later.
 0x60fb4	0xa0	レイナ	あらッ、持ち合わせがないわ。	Oh, I can't afford that.
@@ -345,7 +345,7 @@ block_off	str_off	speaker	text	english
 0x61518	0x794	レイナ	ちょと、値段が高いかな。	A bit pricey, maybe.
 0x61518	0x7b9	ファーニス	とってもカッコいいね。	Really cool.
 0x61a35	0xe		ストネール\nいらっしゃいませ。\n私の店へ、ようこそ。	Stonell\nWelcome.\nWelcome to my shop.
-0x61a35	0x38		いかがいたします？	What'll it be?
+0x61a35	0x38		いかがいたします？	What'll it be?\n
 0x61a35	0x4c	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・瞬間移動したい。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Teleport.\n・Leave the shop.
 0x61a35	0x84	レイナ	買物は後にするわ。	I'll shop later.
 0x61a35	0xa4	レイナ	持ち合わせがないわ。	I can't afford that.
@@ -375,7 +375,7 @@ block_off	str_off	speaker	text	english
 0x61a35	0x78d	レイナ	取扱いには、気を付けなきゃ。	We'll have to handle it with care.
 0x61a35	0x7b5	ファーニス	戦闘が楽になりそうね。	Should make battles easier.
 0x61fbe	0xe		ディーゼル\nへいッ、らっしゃい！！\nじゃんじゃん買ってくんなぁ。	Diesel\nHey, welcome!!\nBuy big, now!
-0x61fbe	0x45		どうすんだい？	What'll it be?
+0x61fbe	0x45		どうすんだい？	What'll it be?\n
 0x61fbe	0x56	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Leave the shop.
 0x61fbe	0x8d	レイナ	買物は後にするわ。	I'll shop later.
 0x61fbe	0xad	レイナ	お金がないわ。	I'm out of money.
