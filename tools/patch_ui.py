@@ -27,6 +27,14 @@ JP_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk].D88"
 EN_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk]_EN.D88"
 FILES = ["SYSTEM.TOS", "SYSTEM2.TOS", "FSYS.TOS"]
 
+# Each .TOS loads into a FIXED RAM slot (loader table @MAIN.EXP ~0x2140); growing a
+# file past its slot overruns the next struct and crashes. Caps verified live in the
+# emulator (see docs/findings/2026-06-12-tos-fixed-buffers-need-relocation.md):
+#   SYSTEM.TOS  DATA:0xC400 -> scene buffer 0xCC00      = 2048 (hard)
+#   FSYS.TOS    0x114:0x1400 -> next PICT, free to 0x19C0 (conservative)
+#   SYSTEM2.TOS 0x114:0xD800 -> free to ~0xDB10         (conservative)
+TOS_CAP = {"SYSTEM.TOS": 2048, "FSYS.TOS": 1472, "SYSTEM2.TOS": 784}
+
 
 def load_translations():
     """{(file, str_off): english_markup} from the UI TSVs."""
@@ -53,17 +61,46 @@ def rebuild(jp_fs, fname, tr):
     return b"\x00".join(out)
 
 
-def check():
-    """Validate that every translated UI record re-encodes; returns error count."""
+import re as _re
+
+
+def _vis_cells(markup):
+    """Rendered width per column-segment: visible glyph cells. Only <14> (column
+    spacer) and \\n break; <04> is a half-space (counts), <03:nn>/other <nn> render
+    nothing."""
+    s = _re.sub(r"<03:[0-9a-fA-F]{2}>", "", markup)         # format op: 0 cells
+    s = s.replace("<04>", " ")                              # half-space: 1 cell
+    s = _re.sub(r"<14>|\\n", "\x01", s)                     # column spacer / newline: break
+    s = _re.sub(r"<[0-9a-fA-F]{2}>", "", s)                 # other control: 0 cells
+    return [len(seg) for seg in s.split("\x01")]
+
+
+def check(rows=None):
+    """Validate every translated UI record re-encodes; returns error count.
+    Box-fit heuristic: warn when English renders wider than the Japanese it
+    replaces (the fixed menu layout assumes the original widths)."""
     tr = load_translations()
-    errors = 0
+    jp = {}                                                 # (file, off) -> jp markup
+    for fname in FILES:
+        path = ROOT / "script" / (fname.replace(".", "_") + ".tsv")
+        if path.exists():
+            for ln in path.read_text(encoding="utf-8").splitlines()[1:]:
+                c = ln.split("\t")
+                if len(c) >= 4:
+                    jp[(fname, c[1])] = c[3]
+    errors = warns = 0
     for (fname, so), eng in sorted(tr.items()):
         try:
             encode_markup(eng)
         except Exception as e:
             print(f"ERROR {fname} {so}: {e}  [{eng!r}]")
             errors += 1
-    print(f"{len(tr)} translated UI records validated; {errors} error(s)")
+            continue
+        en_w, jp_w = max(_vis_cells(eng), default=0), max(_vis_cells(jp.get((fname, so), "")), default=0)
+        if en_w > jp_w + 1:
+            print(f"WARN  {fname} {so}: renders {en_w} cells vs {jp_w} in JP — may overflow its menu column")
+            warns += 1
+    print(f"{len(tr)} translated UI records validated; {errors} error(s), {warns} warning(s)")
     return errors
 
 
@@ -76,9 +113,19 @@ def main(write=False):
     tr = load_translations()
     n_tr = len(tr)
     blobs = {f: rebuild(jp_fs, f, tr) for f in FILES}
+    over = []
     for f in FILES:
         orig = read_file(jp_fs, f)
-        print(f"  {f:12s} {len(orig):5d} -> {len(blobs[f]):5d} B")
+        cap = TOS_CAP[f]
+        flag = "" if len(blobs[f]) <= cap else f"  *** OVER CAP {cap} ***"
+        print(f"  {f:12s} {len(orig):5d} -> {len(blobs[f]):5d} / {cap} B{flag}")
+        if len(blobs[f]) > cap:
+            over.append((f, len(blobs[f]), cap))
+    if over:
+        raise SystemExit(
+            "UI .TOS over its fixed RAM slot (would overrun the next struct and crash):\n  "
+            + "\n  ".join(f"{f}: {n} > {cap} B — shorten translations for this file"
+                          for f, n, cap in over))
     if not write:
         print(f"(dry run; {n_tr} translated records) -- pass --write to apply")
         return

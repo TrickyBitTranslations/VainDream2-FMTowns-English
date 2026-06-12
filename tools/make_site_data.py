@@ -96,11 +96,24 @@ def main():
     # no longer the constraint.) Report decompressed used vs the 2048 cap for every
     # dialogue scene, not just translated ones, so contributors see the headroom.
     from grow_build import DECOMP_BUDGET, SCENE_BUFFER     # per-block overrides / 2048 default
+    from patch_ui import TOS_CAP                            # UI .TOS fixed RAM slots
+    from glodia.uitext import encode_markup
+    TOS_ORIG = {"SYSTEM.TOS": 2015, "FSYS.TOS": 1236, "SYSTEM2.TOS": 556}  # original file sizes
     budgets = {}
     for tsv_name, blocks in files.items():
         archive = tsv_name.replace("_DAT.tsv", ".DAT").replace("_PK.tsv", ".PK")
         for block_s in blocks:
-            if not block_s.startswith("0x"):     # UI .TOS: no dlz scene budget
+            if not block_s.startswith("0x"):
+                # UI .TOS: fixed RAM slot. File size = original + per-record (en-jp)
+                # byte deltas; computable from the TSV alone (no game data on CI).
+                if block_s in TOS_CAP:
+                    delta = 0
+                    for ln in blocks[block_s]:
+                        if ln.get("en"):
+                            delta += (len(encode_markup(ln["en"]))
+                                      - len(encode_markup(ln["jp"])))
+                    budgets[f"{tsv_name}:{block_s}"] = {
+                        "used": TOS_ORIG[block_s] + delta, "limit": TOS_CAP[block_s]}
                 continue
             block_off = int(block_s, 16)
             try:
