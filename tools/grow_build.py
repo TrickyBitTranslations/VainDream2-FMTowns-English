@@ -16,7 +16,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 from glodia import disc, dlz
 from glodia.floppy import read_d88
-import grow, reinsert, patch_main_exp, patch_names
+import grow, reinsert, patch_main_exp, patch_names, patch_items
 
 BASE = "Vain DreamII (1993)(Glodia)(Jp)"
 EN_D88 = ROOT / (BASE + "[SystemDisk]_EN.D88")
@@ -152,9 +152,10 @@ def main(demo=False):
                  f"shorten those translations and rebuild (these would corrupt the "
                  f"engine's memory and crash, e.g. the equipment menu).")
 
-    # --- floppy: classifier + names + repoint every grown archive's table ---
-    patch_main_exp.main()
-    patch_names.main()
+    # --- floppy: classifier + names + item names + repoint every grown archive's table ---
+    patch_main_exp.main()    # JP -> EN_D88 reset + 1-byte-ASCII classifier patch
+    patch_names.main()       # NAME.P (speaker/term inserts) in DATA.BIN
+    patch_items.main(write=True)   # ITEM.TOS item names (literal kana/kanji runs)
     fs = read_d88(EN_D88.read_bytes())
     from extract_floppy import read_file
     exe = read_file(fs, "MAIN.EXP")
