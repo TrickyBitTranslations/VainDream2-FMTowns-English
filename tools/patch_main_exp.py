@@ -27,10 +27,20 @@ PATCHES = [  # (offset in MAIN.EXP, expected original, replacement)
     (0x4895, b"\x24", b"\x23"),          # imm hi of mov bx,0x2421
     (0x48A1, b"\x21\x25", b"\x74\x23"),  # imm of mov bx,0x2521
     # half-width by DEFAULT: renderer entries do `mov bh,2` -> [0x2d3];
-    # 1 = half-cell advance + condensed glyphs. Saves the per-string <03 03>
-    # toggle (2 bytes/string of compressed budget).
+    # 1 = half-cell advance + condensed glyphs.
     (0x448E, b"\x02", b"\x01"),
     (0x44A3, b"\x02", b"\x01"),
+    # ...but `<03 03>` is a per-string width TOGGLE (handler @0x4622 flips [0x2d3]
+    # 1<->2). In the stock game (full-width default) it meant "make this span HALF".
+    # Flipping the default above INVERTED it: every record still carrying <03 03>
+    # (currency "Dain"/"Themis", status "Level", the hit-count "times.") now toggled
+    # to FULL-width and overflowed its field -- the trailing glyph wrapped to col 0 of
+    # the next line ("Dain"->"Dai" + an orphan "n", "Themis"->"Them"), and in the shop
+    # buy list the wrapped "n" corrupted the item-icon column. Pin the op to its
+    # original intent -- ALWAYS set half -- by making the half->full branch also write
+    # 1 (imm 0x02->0x01 at the `mov [0x2d3],2` @0x4635). Live-verified: buy list prices
+    # + money box ("980 Dain" / "0 Themis") render full and fit; icons clean.
+    (0x4835, b"\x02", b"\x01"),
 
     # --- Name-table relocation (step 2): the FULL untrimmed NAME.P table now rides in
     # ITEM.TOS and loads into the carved segment at carved:0x2000 (see patch_items),
