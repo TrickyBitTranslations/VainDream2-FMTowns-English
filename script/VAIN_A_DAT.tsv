@@ -593,28 +593,28 @@ block_off	str_off	speaker	text	english
 0x641e4	0x72c	ファーニス	・・・んんっ？\n廊下の方が、やけに騒がしいよ。\n３鎧７のぶつかり合う音がする。	{Furnis}\n...Mmh?\nThe hallway's awfully noisy.\nI hear armor clashing.\n
 0x641e4	0x772		ベイグ王\n・・・うむっ。\n何か、あった様だ。\n行ってみよう。	King {Veig}\n...Mm.\nSomething's happened.\nLet's go take a look.\n
 0x641e4	0x7a6		ベイグ王\n早く、行ってみよう。	King {Veig}\nQuick, let's go take a look.\n
-0x6475a	0x2a	ファーニス	あらら！？\nあそこで３剣７振り回して暴れているのキャロルちゃんじゃない？	
-0x6475a	0x6e	キャロル	何すんの、放してよッ！！\n私はルークを助けに行くのよ。\n邪魔しないでぇぇぇぇッ。	
-0x6475a	0xb3		ヒックス\n落ち着けキャロル。\nお前がメデューサにかなうわけないだろ。逆に石にされちまうぞッ！！	
-0x6475a	0xf0	キャロル	私は、負けないわッ。\nそれにルークだって、石になんかなってないもん。\nキャロル\n私が助けにいくのッ。\nそこどいてよぉぉぉッ。	
-0x6475a	0x154		マイケル\nわあぁぁぁッ！！\nキャロル、落ち着けッ。\nそんなに３剣７を振り回すなぁぁぁッ。	
-0x6475a	0x1c1		ベイグ王\nヒックス、マイケル。\nいったい何事だ！？	
-0x6475a	0x1f5		ヒックス\nはッ！！\nキャロルが武器庫より武器を持ち出しまして、カナール採掘場に向かおうとしているのです。	
-0x6475a	0x239		ベイグ王\n・・・採掘場か。\nルーク達、騎士を助けに行くつもりなのだな、キャロル。	
-0x6475a	0x281	キャロル	・・・はい。	
-0x6475a	0x29e	レイナ	採掘場で何かあったのですか？	
-0x6475a	0x2c2		ベイグ王\nうむっ、私から話そう。\nヒックス、マイケル。\nお前達は下がってよい。	
-0x6475a	0x33a		ベイグ王\n１週間ほど前の事だ。\nジークの北方にあるカナール採掘場にメデューサが住み着き、工夫達が被害をうけた。\nベイグ王\nすぐ、騎士団と魔道士を討伐に向かわせたのだが、返り討ちに会い１人も戻ってこなかった。	
-0x6475a	0x3cf	レイナ	それでは、そのルークさんもその時に？	
-0x6475a	0x3f3		ベイグ王\n・・・うむ。\n再び討伐隊を出したいのだが、セルーシュにドラゴン　ライダーを出している今、騎士達で国を守るのが精一杯。\nベイグ王\nこれ以上、国内を手薄にするわけにはいかないのだ。	
-0x6475a	0x476	キャロル	きっと、ルークは冷たい採掘場の中で、私の助けを待ってるわ。\nキャロル\nルークは、石になんかなってないもん・・・石になんか・・・・石になんか・・・・・石に・・・。\nキャロル\nひっく、ひっく。\n・・・・びえぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇん。	
-0x6475a	0x554	ファーニス	あららッ、泣いちゃった。\n大丈夫だよ、キャロルちゃん。\nメデューサは私達が倒してあげるよ。	
-0x6475a	0x59f	レイナ	そうよ。\nメデューサの石化効果なら、倒せば解けるはずよ。\nレイナ\nベイグ王、メデューサ討伐は私達にやらせて下さい。\nメデューサ戦には、魔法の力が必要不可欠と思います。	
-0x6475a	0x617		ベイグ王\n・・・すまぬな。\n私が力を貸さねばならぬのに、逆に助けられるとはなぁ。	
-0x6475a	0x65c	ファーニス	だいたいメデューサ相手に魔法も使えない騎士じゃ、自殺行為ってもんだよ、王様。	
-0x6475a	0x69e	ウォーリック	ああっ。\n俺達なら楽勝だぜッ。	
-0x6475a	0x6c9		ベイグ王\n頼むぞ。\nウォーリック、レイナ、ファーニス。討伐のため、少しだが援助を出したい。後で謁見室に寄ってほしい。	
-0x6475a	0x73d	キャロル	みなさん、頑張って下さい。\nルークを・・・いえっ、騎士のみんなを救えるのは、あなた達しかいないのです。	
+0x6475a	0x2a	ファーニス	あらら！？\nあそこで３剣７振り回して暴れているのキャロルちゃんじゃない？	Huh!?\nIsn't that {CAROL} over there,\nswinging a sword in a rage?
+0x6475a	0x6e	キャロル	何すんの、放してよッ！！\n私はルークを助けに行くのよ。\n邪魔しないでぇぇぇぇッ。	What're you doing, let go!!\nI'm going to save Luke.\nDon't get in my way!
+0x6475a	0xb3		ヒックス\n落ち着けキャロル。\nお前がメデューサにかなうわけないだろ。逆に石にされちまうぞッ！！	Hicks\nCalm down, {CAROL}.\nYou can't beat Medusa. You'd\njust be turned to stone!!
+0x6475a	0xf0	キャロル	私は、負けないわッ。\nそれにルークだって、石になんかなってないもん。\nキャロル\n私が助けにいくのッ。\nそこどいてよぉぉぉッ。	I won't lose!\nAnd Luke isn't stone, I know it.\p{CAROL}\nI'm going to save him.\nGet out of my way!
+0x6475a	0x154		マイケル\nわあぁぁぁッ！！\nキャロル、落ち着けッ。\nそんなに３剣７を振り回すなぁぁぁッ。	Michael\nWaaah!!\n{CAROL}, calm down.\nDon't swing that sword around!
+0x6475a	0x1c1		ベイグ王\nヒックス、マイケル。\nいったい何事だ！？	King Veig\nHicks, Michael.\nWhat on earth is going on!?
+0x6475a	0x1f5		ヒックス\nはッ！！\nキャロルが武器庫より武器を持ち出しまして、カナール採掘場に向かおうとしているのです。	Hicks\nSire!!\n{CAROL} took weapons from the\narmory and is heading for the\nCanal mine.
+0x6475a	0x239		ベイグ王\n・・・採掘場か。\nルーク達、騎士を助けに行くつもりなのだな、キャロル。	King Veig\n...The mine.\nSo you mean to save Luke and\nthe knights, {CAROL}.
+0x6475a	0x281	キャロル	・・・はい。	...Yes.
+0x6475a	0x29e	レイナ	採掘場で何かあったのですか？	Did something happen at the mine?
+0x6475a	0x2c2		ベイグ王\nうむっ、私から話そう。\nヒックス、マイケル。\nお前達は下がってよい。	King Veig\nMm, let me explain it.\nHicks, Michael,\nyou two may withdraw.
+0x6475a	0x33a		ベイグ王\n１週間ほど前の事だ。\nジークの北方にあるカナール採掘場にメデューサが住み着き、工夫達が被害をうけた。\nベイグ王\nすぐ、騎士団と魔道士を討伐に向かわせたのだが、返り討ちに会い１人も戻ってこなかった。	King Veig\nAbout a week ago, a Medusa\nsettled in the Canal mine north\nof Zeke, harming the miners.\pKing Veig\nI sent knights and mages to slay\nit. They were beaten back, and\nnot one returned.
+0x6475a	0x3cf	レイナ	それでは、そのルークさんもその時に？	Then this Luke was lost then too?
+0x6475a	0x3f3		ベイグ王\n・・・うむ。\n再び討伐隊を出したいのだが、セルーシュにドラゴン　ライダーを出している今、騎士達で国を守るのが精一杯。\nベイグ王\nこれ以上、国内を手薄にするわけにはいかないのだ。	King Veig\n...Mm. I'd send another force,\nbut the Dragon Rider is away in\nSerush, so my knights can barely\nhold the kingdom.\pKing Veig\nI cannot thin our defenses\nany further.
+0x6475a	0x476	キャロル	きっと、ルークは冷たい採掘場の中で、私の助けを待ってるわ。\nキャロル\nルークは、石になんかなってないもん・・・石になんか・・・・石になんか・・・・・石に・・・。\nキャロル\nひっく、ひっく。\n・・・・びえぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇぇん。	Luke must be waiting for me\nin that cold, cold mine.\p{CAROL}\nLuke isn't stone... he can't\nbe... he can't...\p{CAROL}\nHic, hic...\nWaaaaaaaaaaaah!
+0x6475a	0x554	ファーニス	あららッ、泣いちゃった。\n大丈夫だよ、キャロルちゃん。\nメデューサは私達が倒してあげるよ。	Aw, now she's crying.\nIt's okay, {CAROL}.\nWe'll defeat Medusa for you.
+0x6475a	0x59f	レイナ	そうよ。\nメデューサの石化効果なら、倒せば解けるはずよ。\nレイナ\nベイグ王、メデューサ討伐は私達にやらせて下さい。\nメデューサ戦には、魔法の力が必要不可欠と思います。	That's right. Medusa's curse\nshould break once she's beaten.\p{REINA}\nKing Veig, let us go after\nMedusa. This fight will need\nthe power of magic.
+0x6475a	0x617		ベイグ王\n・・・すまぬな。\n私が力を貸さねばならぬのに、逆に助けられるとはなぁ。	King Veig\n...Forgive me. I who should be\nlending strength am instead\nbeing saved.
+0x6475a	0x65c	ファーニス	だいたいメデューサ相手に魔法も使えない騎士じゃ、自殺行為ってもんだよ、王様。	A knight who can't use magic\nfighting Medusa? That's just\nsuicide, Your Majesty.
+0x6475a	0x69e	ウォーリック	ああっ。\n俺達なら楽勝だぜッ。	Heh.\nThis'll be an easy win for us.
+0x6475a	0x6c9		ベイグ王\n頼むぞ。\nウォーリック、レイナ、ファーニス。討伐のため、少しだが援助を出したい。後で謁見室に寄ってほしい。	King Veig\nI'm counting on you.\n{WARRICK}, {REINA}, {FURNIS}.\nFor the hunt I'll send some aid.\nCome by the audience chamber.
+0x6475a	0x73d	キャロル	みなさん、頑張って下さい。\nルークを・・・いえっ、騎士のみんなを救えるのは、あなた達しかいないのです。	Everyone, please do your best.\nOnly you can save Luke... no,\nall the knights.
 0x64ca4	0x85		ファ\nキャロルったら、かわいそう。\n彼氏が騎士団にいてね、先日、騎士団が採掘場に行ってね・・・それっきり返ってこないのよ。	
 0x64ca4	0xd4		ファ\nメデューサにやられた人達も戻って来たし、キャロルよかったね。	
 0x64ca4	0x100		ファ\nドラゴン　ライダーも帰って来たし、万事うまくおさまったね。	
@@ -717,19 +717,19 @@ block_off	str_off	speaker	text	english
 0x65adb	0x6f6		セシリアが仲間に加わった。	
 0x65adb	0x715		ベイグ王\nでは、頼んだぞウォーリック。	
 0x65adb	0x75f	セシリア	みなさん、よろしくお願いします。\n私の事はセシリアと呼んで下さい。	
-0x66036	0x59	ファーニス	どうにかして開かないかなぁ？	
-0x66036	0x99		ウィンダム隊長\nその扉に近づかない方がいい。\n５日前、マーズトンネルの中腹の岩壁が崩れ、奥に洞窟が開けた。\nウィンダム隊長\n若い騎士達が探検気分で中に入って行ったのだが、中はビボルダーで溢れ返り、皆あっと言う間にやられてしまった。	
-0x66036	0x148	レイナ	でも、ビボルダーと言ったら魔界の生物。\nこんな所に巣なんて・・・。	
-0x66036	0x18c		ウィンダム隊長\nそんな事はわかっている。\nトンネルの中に、ビボルダーを召喚しているバカデカい何かがいるんだ。\nウィンダム隊長\n洞窟内部はかなり広く、我々だけで探索するのは不可能だし、今の状態で本国に救援を求める事はできまい。\nウィンダム隊長\n落ち着くまでマーズトンネルは封鎖する。	
-0x66036	0x262	ファーニス	でも、トンネルの向こう側はどうなってるの？	
-0x66036	0x28a		ウィンダム隊長\n大丈夫だ。\n騎士を２人ずつ交代で行かせている。\n・・・んんっ。\n何だ、君はッ！？	
-0x66036	0x31b		傷だらけの男\nたッ、助けてくれぇ。\n俺は・・・ビボルダーハンターだ。\nビボルダーハンター\n見張りの隙を見て、仲間と洞窟に入ったものの・・・仲間がビボルダーにさらわれちまった。\nビボルダーハンター\n・・・・・俺達に、気付いた騎士が・・・仲間を・・・助けに・・・・・ぐふっ。	
-0x66036	0x403		ウィンダム隊長\n向こう側の警備は、フラーベとクルークか。・・・くそぉう、ビボルダーめ。\n警備隊、集合ッ！！	
-0x66036	0x4e2		ウィンダム隊長\n洞窟内にハンターが入り込み、フラーベとクルークが、その者達を追って入った。\nこれより、救出行動をとるッ！！\nウィンダム\nボーグル、カイ、ムーアは、緊急警戒体制で待機。\n２時間して戻らねば、城へ連絡しろ。\nすぐ、持場につけッ！！	
-0x66036	0x5eb		、ダニエル、カーク、ブレイド。洞窟に入るぞ。\n油断するなッ、行くぞッ！！	
-0x66036	0x6dd	ファーニス	・・・凄い手際の良さ！\nみんな、いなくなっちゃった。	
-0x66036	0x713	レイナ	私達も行った方がいいわね。\nビボルダーを召喚できる生物がいるなら騎士達だけでは危険よ。	
-0x66036	0x75e	ファーニス	ああッ！！\n扉、閉まってるよ。	
+0x66036	0x59	ファーニス	どうにかして開かないかなぁ？	Any way to get this open?
+0x66036	0x99		ウィンダム隊長\nその扉に近づかない方がいい。\n５日前、マーズトンネルの中腹の岩壁が崩れ、奥に洞窟が開けた。\nウィンダム隊長\n若い騎士達が探検気分で中に入って行ったのだが、中はビボルダーで溢れ返り、皆あっと言う間にやられてしまった。	Captain Windom\nBest not go near that door.\nFive days ago a rock wall in\nMars Tunnel collapsed and opened\na cavern deep inside.\pCaptain Windom\nYoung knights went in to explore,\nbut it overflowed with Bivolders\nand they were felled at once.
+0x66036	0x148	レイナ	でも、ビボルダーと言ったら魔界の生物。\nこんな所に巣なんて・・・。	But Bivolders are demon-realm\ncreatures. A nest here, of all\nplaces...
+0x66036	0x18c		ウィンダム隊長\nそんな事はわかっている。\nトンネルの中に、ビボルダーを召喚しているバカデカい何かがいるんだ。\nウィンダム隊長\n洞窟内部はかなり広く、我々だけで探索するのは不可能だし、今の状態で本国に救援を求める事はできまい。\nウィンダム隊長\n落ち着くまでマーズトンネルは封鎖する。	Captain Windom\nI know that.\nSomething huge inside the tunnel\nis summoning the Bivolders.\pCaptain Windom\nThe cavern's vast. We can't\nsearch it alone, and we can't\ncall home for aid as things are.\pCaptain Windom\nUntil it calms, Mars Tunnel\nstays sealed.
+0x66036	0x262	ファーニス	でも、トンネルの向こう側はどうなってるの？	But what's on the far side\nof the tunnel?
+0x66036	0x28a		ウィンダム隊長\n大丈夫だ。\n騎士を２人ずつ交代で行かせている。\n・・・んんっ。\n何だ、君はッ！？	Captain Windom\nIt's fine. I send knights through\ntwo at a time in shifts.\n...Mm. Who are you!?
+0x66036	0x31b		傷だらけの男\nたッ、助けてくれぇ。\n俺は・・・ビボルダーハンターだ。\nビボルダーハンター\n見張りの隙を見て、仲間と洞窟に入ったものの・・・仲間がビボルダーにさらわれちまった。\nビボルダーハンター\n・・・・・俺達に、気付いた騎士が・・・仲間を・・・助けに・・・・・ぐふっ。	Wounded man\nH-help me.\nI'm... a Bivolder Hunter.\pBivolder Hunter\nWe slipped past the guards into\nthe cavern, but a Bivolder\ncarried my partner off.\pBivolder Hunter\nA knight who saw us went to\nsave him... gah.
+0x66036	0x403		ウィンダム隊長\n向こう側の警備は、フラーベとクルークか。・・・くそぉう、ビボルダーめ。\n警備隊、集合ッ！！	Captain Windom\nFar-side guard is Flarbe and\nKruuk. ...Damn that Bivolder.\nGuards, assemble!!
+0x66036	0x4e2		ウィンダム隊長\n洞窟内にハンターが入り込み、フラーベとクルークが、その者達を追って入った。\nこれより、救出行動をとるッ！！\nウィンダム\nボーグル、カイ、ムーアは、緊急警戒体制で待機。\n２時間して戻らねば、城へ連絡しろ。\nすぐ、持場につけッ！！	Captain Windom\nHunters got into the cavern, and\nFlarbe and Kruuk went in after\nthem. Rescue begins now!!\pCaptain Windom\nBorgle, Kai, Moore, stand by\non alert. If we're not back in\ntwo hours, signal the castle.\nTo your posts, now!!
+0x66036	0x5eb		、ダニエル、カーク、ブレイド。洞窟に入るぞ。\n油断するなッ、行くぞッ！！	Daniel, Kirk, Blade.\nWe're going into the cavern.\nStay sharp, move out!!
+0x66036	0x6dd	ファーニス	・・・凄い手際の良さ！\nみんな、いなくなっちゃった。	...Such efficiency!\nEveryone's gone already.
+0x66036	0x713	レイナ	私達も行った方がいいわね。\nビボルダーを召喚できる生物がいるなら騎士達だけでは危険よ。	We'd better go too.\nIf something can summon Bivolders,\nthe knights alone are in danger.
+0x66036	0x75e	ファーニス	ああッ！！\n扉、閉まってるよ。	Aah!!\nThe door's shut.
 0x665d8	0x15		騎士　ボーグル\nここの眺めは最高だろ。\n今日は天気がいいからジークがよく見えるぜ。	
 0x665d8	0x4e		騎士　ボーグル\n俺はここの見張りが１番好きさっ。\n下界を見ているみたいで、最高の気分になれるんだ。	
 0x665d8	0x8d		騎士　ボーグル\nすまない！\n今、忙しいんだ。	
