@@ -663,34 +663,34 @@ block_off	str_off	speaker	text	english
 0x65003	0x723	レイナ	あんまり触っちゃだめよ。\n体が欠けちゃったら大変でしょ。	Don't touch them too much.\nIf a piece breaks off, that's bad.
 0x65003	0x755	ファーニス	騎士さん達、勇敢に戦ったんだねぇ。	These knights fought so bravely.
 0x65003	0x779	ウォーリック	こんなの見ると、メデューサと戦うのがいやになってくるな。	Seeing this makes me dread\nfighting {MEDUSA}.
-0x65573	0x1e	レイナ	・・・この禍々しい魔力。\nメデューサはこの近くにいるわ。	
-0x65573	0x5d	ウォーリック	気を付けろ。\nむこうは、俺達に気付いているぞ。	
-0x65573	0x8d	レイナ	私とファーニスが魔法で援護するわ。ウォーリックは、隙をみてメデューサの首をはねる事に専念して。	
-0x65573	0xda	ファーニス	奥の方、精霊達が騒いでいる。\n来るわッ！！	
-0x65573	0x116		メデューサの首は、跳ね飛ばされた。\n首は弧を描き湖に落ち宿主を失った体は、しばし生命力を振り絞り動いていたが、やがてその生命活動に永遠の終止符が打たれた。	
-0x65573	0x198	ウォーリック	へへっ。\n楽勝だったかな。	
-0x65573	0x1be	レイナ	フフッ。\nちょっと危なかったじゃない。\nんんっ！？\n・・・どうしたの、ファーニス？	
-0x65573	0x20a	ファーニス	・・・聞こえる。\n何か聞こえるの。\nどこかわからないけど、何か動いているよ。	
-0x65573	0x256		ウォーリッ\n・・・水面を見ろ。\nメデューサの首だ。	
+0x65573	0x1e	レイナ	・・・この禍々しい魔力。\nメデューサはこの近くにいるわ。	{REINA}\n...This vile magic.\n{MEDUSA} is somewhere near here.
+0x65573	0x5d	ウォーリック	気を付けろ。\nむこうは、俺達に気付いているぞ。	{WARRICK}\nStay sharp.\nShe already knows we're here.
+0x65573	0x8d	レイナ	私とファーニスが魔法で援護するわ。ウォーリックは、隙をみてメデューサの首をはねる事に専念して。	{REINA}\n{FURNIS} and I will back you with\nmagic. {WARRICK}, watch for an\nopening and cut off {MEDUSA}'s head.
+0x65573	0xda	ファーニス	奥の方、精霊達が騒いでいる。\n来るわッ！！	{FURNIS}\nDeep within, the spirits are\nrestless. Here she comes!!
+0x65573	0x116		メデューサの首は、跳ね飛ばされた。\n首は弧を描き湖に落ち宿主を失った体は、しばし生命力を振り絞り動いていたが、やがてその生命活動に永遠の終止符が打たれた。	{MEDUSA}'s head was struck clean\noff. It arced through the air and\nfell into the lake. The host body\nflailed on a while, wringing out\nthe last of its life, until at last\nits living days ended forever.
+0x65573	0x198	ウォーリック	へへっ。\n楽勝だったかな。	{WARRICK}\nHeh.\nGuess that was an easy win.
+0x65573	0x1be	レイナ	フフッ。\nちょっと危なかったじゃない。\nんんっ！？\n・・・どうしたの、ファーニス？	{REINA}\nHee. That was a little close,\nwasn't it.\nHmm!?\n...What is it, {FURNIS}?
+0x65573	0x20a	ファーニス	・・・聞こえる。\n何か聞こえるの。\nどこかわからないけど、何か動いているよ。	{FURNIS}\n...I hear it.\nI hear something.\nI can't tell where, but\nsomething is moving.
+0x65573	0x256		ウォーリッ\n・・・水面を見ろ。\nメデューサの首だ。	{WARRICK}\n...Look at the water.\nIt's {MEDUSA}'s head.
 0x65573	0x2dc		大剣の剣士\n大丈夫か！？\nメデューサは首だけでも生き続ける。また仕掛けて来るぞ。	Swordsman\nYou OK?!\nMedusas live on as heads!
-0x65573	0x349		大剣の剣士\nいやぁぁぁっ。\n危なかったなぁ。	
-0x65573	0x375	ファーニス	・・・あなた、誰？	
-0x65573	0x38f		大剣の剣士\n俺の名は、ライド。\nこの大陸を旅している剣士だ。\nジーク王国でこの採掘場にメデューサが出ると聞いて、退治しに来た。	
-0x65573	0x3ed	レイナ	・・・賞金稼ぎですか？	
-0x65573	0x409	ライド	いいや。\nクラウスとか言う村の近くにいる、氷の神官竜に会いに行く途中なんだ。	
-0x65573	0x454	ウォーリック	・・・その神官竜に、何の用が？	
-0x65573	0x474	ライド	・・・用と言うほどの事じゃない。\n俺は３剣７の修行のため多くの神官竜に会って、いろんな事を教えてもらってるだけさッ。	
-0x65573	0x4ca	ウォーリック	・・・残念だが、その神官竜は・・・。	
-0x65573	0x4fa		ウォーリックはフロストの事を話した。	
-0x65573	0x520	ライド	・・・緑色の神官竜の背中から・・・パラサイト　デーモン！？\nライド\nそれで、その黄金のナイフを・・・パディッシュって奴に届けろって言われたのか。\n・・・そうかぁ。\nライド\nなぁ。\nもしよかったら俺を仲間に入れてくれないか？\nライド\n今は目的もないし、近頃魔物も活発になってきた。\n・・・１人では、何かと不安でなぁ。	
-0x65573	0x623	ファーニス	私は賛成だよ。\nウォーリックはレイナばっかりで、私を守ってくれないしね。	
-0x65573	0x661	レイナ	どうするの、ウォーリック？	
-0x65573	0x680	ウォーリック	この先、たのもしい仲間は１人でも多く欲しい。\nよろしくなッ、ライド。	
-0x65573	0x6bf	ライド	よろしく。	
-0x65573	0x6dd		ライドが仲間に加わった。	
-0x65573	0x6f0	ファーニス	もう少しの我慢だから待っててね。\nメデューサなんか、すぐ倒すから。	
-0x65573	0x728	レイナ	工夫達の表情から見て、メデューサはいきなり現れたって感じだわ。	
-0x65573	0x75f	ファーニス	キャロルちゃんの彼氏って、どの人だろう？	
+0x65573	0x349		大剣の剣士\nいやぁぁぁっ。\n危なかったなぁ。	Greatsword Swordsman\nWhoaaa.\nThat was a close one.
+0x65573	0x375	ファーニス	・・・あなた、誰？	{FURNIS}\n...Who are you?
+0x65573	0x38f		大剣の剣士\n俺の名は、ライド。\nこの大陸を旅している剣士だ。\nジーク王国でこの採掘場にメデューサが出ると聞いて、退治しに来た。	Greatsword Swordsman\nThe name's {RIDE}.\nA swordsman wandering this land.\nI heard in {ZEKE KINGDOM} that a\n{MEDUSA} haunted this mine, so I\ncame to slay it.
+0x65573	0x3ed	レイナ	・・・賞金稼ぎですか？	{REINA}\n...So you're a bounty hunter?
+0x65573	0x409	ライド	いいや。\nクラウスとか言う村の近くにいる、氷の神官竜に会いに行く途中なんだ。	{RIDE}\nNo. I'm on my way to see the\nice priest dragon near a village\ncalled {KLAUS}.
+0x65573	0x454	ウォーリック	・・・その神官竜に、何の用が？	{WARRICK}\n...What business have you with\nthis priest dragon?
+0x65573	0x474	ライド	・・・用と言うほどの事じゃない。\n俺は３剣７の修行のため多くの神官竜に会って、いろんな事を教えてもらってるだけさッ。	{RIDE}\n...Nothing so grand as business.\nI'm training in the sword, so I\nseek out priest dragons to learn\nall I can from them.
+0x65573	0x4ca	ウォーリック	・・・残念だが、その神官竜は・・・。	{WARRICK}\n...I'm sorry to say, but that\npriest dragon...
+0x65573	0x4fa		ウォーリックはフロストの事を話した。	{WARRICK} told him about {FROST}.
+0x65573	0x520	ライド	・・・緑色の神官竜の背中から・・・パラサイト　デーモン！？\nライド\nそれで、その黄金のナイフを・・・パディッシュって奴に届けろって言われたのか。\n・・・そうかぁ。\nライド\nなぁ。\nもしよかったら俺を仲間に入れてくれないか？\nライド\n今は目的もないし、近頃魔物も活発になってきた。\n・・・１人では、何かと不安でなぁ。	{RIDE}\n...A {PARASITE DEMON} from the\nback of a green priest dragon?\n\p{RIDE}\nSo you were told to deliver that\ngolden knife to a fellow named\n{PADDISH}. ...I see.\n\p{RIDE}\nSay. If you don't mind, would\nyou let me join you?\n\p{RIDE}\nI've no goal right now, and the\nmonsters have grown restless of\nlate. ...Traveling alone makes\nme uneasy.
+0x65573	0x623	ファーニス	私は賛成だよ。\nウォーリックはレイナばっかりで、私を守ってくれないしね。	{FURNIS}\nI'm all for it. {WARRICK} only\nhas eyes for {REINA} and never\nprotects me anyway.
+0x65573	0x661	レイナ	どうするの、ウォーリック？	{REINA}\nWhat'll it be, {WARRICK}?
+0x65573	0x680	ウォーリック	この先、たのもしい仲間は１人でも多く欲しい。\nよろしくなッ、ライド。	{WARRICK}\nThe road ahead needs every\nreliable ally we can get.\nGlad to have you, {RIDE}.
+0x65573	0x6bf	ライド	よろしく。	{RIDE}\nLikewise.
+0x65573	0x6dd		ライドが仲間に加わった。	{RIDE}{ JOINED THE PARTY.}
+0x65573	0x6f0	ファーニス	もう少しの我慢だから待っててね。\nメデューサなんか、すぐ倒すから。	Just hang on a little longer, okay?\nI'll take down Medusa in no time.
+0x65573	0x728	レイナ	工夫達の表情から見て、メデューサはいきなり現れたって感じだわ。	From the miners' faces, it looks like\nMedusa showed up out of nowhere.
+0x65573	0x75f	ファーニス	キャロルちゃんの彼氏って、どの人だろう？	I wonder which one is\n{CAROL}'s boyfriend?
 0x65adb	0x1b	ファーニス	んんっ！？\n・・・血の匂いがする。\n森のどこかに怪我人がいるみたい。	{FURNIS}\nHnh!?\n...I smell blood.\nSomeone's hurt out there in the\nforest.
 0x65adb	0x7e	ファーニス	女の子が倒れてるよ。\n・・・ちょっと、その横にいるのケルベロスじゃない！？	{FURNIS}\nThere's a girl collapsed here.\n...Wait, isn't that a {CHIMERA}\nbeside her!?
 0x65adb	0xc9	レイナ	でも様子が変よ。\nあのケルベロス、結界を張っているわ。	{REINA}\nBut something's strange.\nThat beast has cast a barrier.
