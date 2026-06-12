@@ -154,7 +154,7 @@ block_off	str_off	speaker	text	english
 0x5f33e	0x66f	レイナ	・・・これは、遠見の水晶。	...This is the Scrying Crystal.
 0x5f33e	0x689	大婆様	レイナ、お前なら使いこなせるじゃろう。\n持って行くがいい。	{Reina}, you can master it.\nTake it with you.
 0x5f33e	0x6ca		遠見の水晶を手に入れた。	You obtained the Scrying Crystal.
-0x5f33e	0x6eb	大婆様	それとウォーリック。\nこの手紙をジーク王国のベイグ王の所へ持って行くのじゃ。\n力になってくれるじゃろう。	And {Warrick}.\nCarry this letter to King Baig\nof the Zeke Kingdom.\nHe will lend you aid.
+0x5f33e	0x6eb	大婆様	それとウォーリック。\nこの手紙をジーク王国のベイグ王の所へ持って行くのじゃ。\n力になってくれるじゃろう。	And {Warrick}.\nCarry this letter to King Veig\nof the Zeke Kingdom.\nHe will lend you aid.
 0x5f33e	0x73e		ローラの手紙を手に入れた。	You obtained Lola's letter.
 0x5f33e	0x76a	大婆様	気を付けて行くんじゃぞ。\nわかったな。	Go safely now.\nUnderstand?
 0x5f33e	0x793	大婆様	どうした。\n何か忘れ物か？	What is it?\nForget something?
@@ -255,7 +255,7 @@ block_off	str_off	speaker	text	english
 0x6095b	0xaf		騎士　カリント\n今は謁見を行ってはいません。\nまた、あらためて・・・と言いたいのですが、いつ謁見が許されるかさえわかりません。	{Knight} Karint\nNo audiences are being held\nright now.\nI'd say come another time, but\nthere's no telling when one will\nbe granted.
 0x6095b	0x10c	レイナ	私達はクラウスより長老の手紙を届けに参りました。\n入城の許可をお願いします。	We've come from Klaus to deliver\nthe elder's letter.\nPlease grant us entry.
 0x6095b	0x15a		門番に、ローラの手紙を渡した。	You handed Lola's letter to the\ngatekeeper.
-0x6095b	0x189		騎士　カリント\nこの手紙は、たしかにベイグ王宛ての物ですな。\n・・・急ぎの様では大変ですな。\n今、確認を取って来ましょう。	{Knight} Karint\nThis letter is indeed addressed\nto King Baig.\n...Urgent, by the look of it.\nI'll go confirm at once.
+0x6095b	0x189		騎士　カリント\nこの手紙は、たしかにベイグ王宛ての物ですな。\n・・・急ぎの様では大変ですな。\n今、確認を取って来ましょう。	{Knight} Karint\nThis letter is indeed addressed\nto King Veig.\n...Urgent, by the look of it.\nI'll go confirm at once.
 0x6095b	0x20b		ア・・・・・・・・・・・・・・・・・・・・・・・・・・・・。\nファーニス\n・・・遅いねぇ。\nあッ！	Aaaaah...\p{Furnis}\n...He's slow.\nAh!
 0x6095b	0x244		騎士　カリント\nお待たせしました。\n許可が下りましたので入城してください。	{Knight} Karint\nSorry for the wait.\nPermission is granted, please\nenter the castle.
 0x6095b	0x278		騎士　カリント\nお役目、ご苦労様です。	{Knight} Karint\nGood work at your post.
@@ -426,7 +426,7 @@ block_off	str_off	speaker	text	english
 0x624f6	0x399	ウォーリック	・・・なぁ、レイナ。\nこれ本当に食い物なのか？	...Hey, {Reina}.\nIs this really food?
 0x624f6	0x3cc	レイナ	ウォーリック・・・初めにちょっと食べてみてよ。	{Warrick}... you try a bite first.
 0x624f6	0x3f9	ウォーリック	・・・うん。\nいただきます。\nウォーリック\n・・・・・げッ、げはぁぁぁッ。\nまッ、まずいぃぃぃぃぃぃッ。	...OK.\nDown it goes.\p{Warrick}\n...Ugh, blegh!\nIt's, it's awful!
-0x624f6	0x462		ベルニエッタ\nベイグ王はこの地のアークデーモンを倒して、たった１代でジークを建国した英雄王よ。\n息子のバーナー王子がまた、とってもカッコイイのよ。	Bernietta\nKing Baig slew the Arch Demon of\nthis land and founded Zeke in a\nsingle generation, a hero-king.\nAnd his son Prince Berner is so\nvery handsome, too.
+0x624f6	0x462		ベルニエッタ\nベイグ王はこの地のアークデーモンを倒して、たった１代でジークを建国した英雄王よ。\n息子のバーナー王子がまた、とってもカッコイイのよ。	Bernietta\nKing Veig slew the Arch Demon of\nthis land and founded Zeke in a\nsingle generation, a hero-king.\nAnd his son Prince Berner is so\nvery handsome, too.
 0x624f6	0x4be		ベルニエッタ\n隣のセルーシュ王国では、聖騎士団の留守をついて魔物が攻め込んだって話よ。\nジーク王国にはドラゴン　ライダーがいるから安心ね。	Bernietta\nNext door in the Serush Kingdom,\nthey say {Monster}s attacked\nwhile the holy knights were away.\nZeke has its Dragon Riders, so\nwe're safe here.
 0x624f6	0x54c		ベルニエッタ\n換金は、１００テミスからです。\nこの店での今の換金率は、	Bernietta\nExchange starts at 100 Themis.\nOur current rate is,
 0x624f6	0x57a		テミス１０に対してダイン１５です。	15 Dain for every 10 Themis.
@@ -445,154 +445,154 @@ block_off	str_off	speaker	text	english
 0x624f6	0x74c		カミール\nどっかにカワイイ子いないかな。	Kamil\nWonder if there's a cute girl\naround somewhere.
 0x624f6	0x768		私に、お酒でもおごってくれるのかい。	Gonna buy me a drink, maybe?
 0x624f6	0x780		チョリス\n俺もドラゴン　ライダー隊に志願するんだ。	Choris\nI'm gonna volunteer for the\nDragon Rider corps too.
-0x62a3c	0x15		アーヴィング\nカナールが閉鎖されて以来、ろくなことがないよ。\n今は娘の稼ぎが頼りさ。	
-0x62a3c	0x55		アーヴィング\n噂話じゃ、セルーシュの方でも何かあったって話しだし、\n世の中どうなっちまったんだろぉなぁ。	
-0x62a3c	0x93		アーヴィング\nカナールの魔物は蛇かなんかの類だろぉな。俺は１度だけあそこで蛇の這い回る様な音を聞いたんだ。\nあぁぁぁっ、思い出しただけでも鳥肌がたつよ。	
-0x62a3c	0xff		アーヴィング\nカナール閉鎖前は大がかりな採掘が行なわれていてね、\n中はかなり危険な状態じゃないかな。	
-0x62a3c	0x14b		アーヴィング\nカナールまでの森には、結構変った植物が生えてるらしいよ。	
-0x62a3c	0x181		アーヴィング\nなぁ、カナールはこの後どうなるのか知らないか。	
-0x62a3c	0x1a9		アーヴィング\n全く、娘には苦労ばかりかけるよ。	
-0x62a3c	0x1ca		アーヴィング\n王に会ったのかい？\n英雄ってのは歳をとっても堂々としたもんだろう。	
-0x62a3c	0x1ff		アーヴィング\nおや、久しぶりだね。\n旅の方は順調かい？。	
-0x62a3c	0x237		レアラ\nうちの人、夜も城に詰めたままで時々しか帰ってこないの。\n最近は騎士団も忙しいみたいねぇ。	
-0x62a3c	0x275		レアラ\nうちの人はこの国の騎士なの。\n子供が好きで、しょうがないのよ。	
-0x62a3c	0x2a6		レアラ\nさて、私もお城の給事の手伝いに行かなくちゃ。	
-0x62a3c	0x2ca		レアラ\n王様も昔は冒険者だったんだって。\n知ってた？\n結構、有名な話らしいのよ。	
-0x62a3c	0x308		レアラ\nあら、またいらしたの？\nうちの人なら、いつもの仕事場にいると思いますよ。	
-0x62a3c	0x340		レアラ\n世間が騒がしいみたいだけど、この街にいるかぎり安心ね。\nドラゴン　ライダー隊には、うちの人だってかなわないんだから。	
-0x62a3c	0x384		レアラ\nこのごろ騎士団の人間が、カナールやマーズ砦に派遣されることが増えてきたみたいなの。\nあの人がマーズ砦の守備隊になったりしないか心配だわ。	
-0x62a3c	0x3d9		レアラ\nマーズ砦のずっと南にはセルーシュって街があるの。\nとっても素敵な大教会があるそうよ。	
-0x62a3c	0x411		レアラ\nあら、ずいぶん見ないと思ったら、\n貴方達もセルーシュの戦争に加わったの？\nずいぶん大勢の人が死んだって話ね。\n戦争なんてやだやだ。	
-0x62a3c	0x467		レアラ\nいつも夫婦御一緒で羨ましいわ。\nあの人も、もう少し家にいてくれればいいのに。	
-0x62a3c	0x4b9		さんの奥さんはとっても夫想いの方ですわ。\nま、結婚してまだ年が浅いから当然かしらね。	
-0x62a3c	0x4f2		アレーナ\nうちの子は、いつも堀のそばで遊んでいますわ。\n騎士のショー	
-0x62a3c	0x51c		さんにはお世話になりっぱなしで・・・。	
-0x62a3c	0x535		アレーナ\nこの国の王子様は、とても人気があるんですよ。\nドラゴン　ライダーとしても、とても優秀なんだそうで、あの方がおられるから王様もさぞや安心でしょうね。	
-0x62a3c	0x58e		アレーナ\nルーシーの父はマーズ砦の守備隊にいるんです。\nなかなか家に帰って来れないんで、ルーシーはすぐショー	
-0x62a3c	0x5cd		さんにあまえるんです。	
-0x62a3c	0x5df		アレーナ\nアーヴィングさんも大変ね。\n早くカナールの採掘場が再開されればいいのだけれど。	
-0x62a3c	0x61d		アレーナ\n採掘場で御活躍だった方々ね。\nえ？なんで知ってるのかって？\n噂話ってそ〜いうものよ。\nそれに、私こ〜見えても情報通って有名なんだから。	
-0x62a3c	0x684		アレーナ\n魔法屋のストネールさんは努力家で有名なのよ。\n結構若いのに自分のお店まで持って、\nここだけの話しだけど、お城のマーシー様にも負けない位すごい術を使えるんですって！\nほんと若いのにすごいわねぇ。	
-0x62a3c	0x70d		アレーナ\nこらッ、ルーシー！！\nショー	
-0x62a3c	0x727		さんに迷惑かけちゃだめだってあんなに言ってあるでしょ。	
-0x62a3c	0x746		ルーシー\nママは怒るけど、ショー	
-0x62a3c	0x75a		様優しいんだもん！	
-0x62a3c	0x766		シャルト神官\nこの街は平和そのものです。\nしかし、この平和も、多くの戦いと血の元に成り立っているという事を忘れてはなりません。	
-0x62a3c	0x7bf	ファーニス	神官さん、お休みかなぁ？	
-0x63058	0x10		テュナ\nうちの人は昔は旅商人だったから、旅の人の話を聞くのをとても楽しみにしているのよ。	
-0x63058	0x55		テュナ\nこの前はとてもかわいい旅の方がいらしてね、\nお兄さんの様な方と御一緒に家に泊まっていただいたのよ。	
-0x63058	0x9a		テュナ\nあら、いつぞやの冒険者の方々ね、\nその人数では家でお世話できないけどゆっくりしていらして。	
-0x63058	0xde		テュナ\nいらっしゃい。\nファルさんはまた旅にでられました。\nこんどのお客さんはグレースさんっていう旅の戦士の方ですわ。	
-0x63058	0x128		ラダル\nいらっしゃい。\n彼は、ファルといって旅人なんだそうだ。若いのにいろんな話を知っているんだよ。	
-0x63058	0x16b		ラダル\nふむ　ふむ　ふむ。\nそこで、君がその亡者の群に切り込んだんだな。	
-0x63058	0x19c		ラダル\nそれで？　それで？\n君の相棒は助かったのかね？	
-0x63058	0x1c2		ラダル\nなんと！\nシルバーホーンならば、わしも行ったことがあるぞ。\nあそこの紫水晶の指輪はいい商品だったんじゃ。	
-0x63058	0x1fb		ラダル\nそぉか。そんなことがあったのか。	
-0x63058	0x218		ラダル\nんんっ？\nたしかセルーシュの教会といえばあのころは・・・。	
-0x63058	0x240		ラダル\nどうだね、パール君。急ぐ旅でもないんなら、この家にゆっくりしていかないかね？	
-0x63058	0x273		ラダル\nパール君、こんな話はしってるかね？\n昔、ここの王様がまだ冒険者だった頃、この地のアークデーモンが・・・。	
-0x63058	0x2c2		ファル\n次はどんな話をお聞かせしましょうか？\n各地の伝承を調べれば面白い話は自然と見つかるものです。	
-0x63058	0x306		ファル\nこの国のドラゴン　ライダー隊は確かに優秀です。\nしかし、魔法文化の遅れはセルーシュ、ライランドと比べてみるといかんともし難いですね。	
-0x63058	0x34f		ファル\nセルーシュとジーク。\n似ていないようですが今のこの２つの国には意外に知られざる共通点があるのです。おわかりになりますか？	
-0x63058	0x399		ファル\n遥かに西の大賢者、カーズという方の元には今もなお弟子の志願者が絶えないそうです。	
-0x63058	0x3e1		ファル\n赤や青、緑や白と同じく黒もまた数ある色の一つに過ぎないのです。	
-0x63058	0x410		ファル\n砂の海というところにはまだまだ謎が多く残されています。\n興味深い地域ですが、残された伝承もまた少ないのです。	
-0x63058	0x460		ファル\nクーレイアという名の国を御存知ですか？\nすでに滅んだおとぎの国の名前ですよ。	
-0x63058	0x495		ファル\nフローディーテの森の名を知る者は数少ない。\nその名の由来を知る者などいないでしょうね。	
-0x63058	0x4cc		ファル\n世界の各地に残る遺跡には当然ながら、\nそれぞれに存在した意味があります。\n今や数百年以上、人目につくことなく眠り続ける遺跡にこそ私の探し求める古い伝承の数々が遺跡と共に眠っているのでしょう。	
-0x63058	0x562		グレース\nここの王様も昔は冒険者だったらしいな。俺の昔の仲間は今頃どうしてんだろぉなぁ。もぉ二度と会うこともねえだろぉなぁ。	
-0x63058	0x5b6		グレース\n俺も昔は貴方達みたいにパーティーを組んでいた頃があったよ。\n今じゃあ５人全員、自分の道を探す旅の途中さ。	
-0x63058	0x606		グレース\n俺は強い剣を探しているんだ。\nもう随分いろんな大陸や国を旅してきたよ。	
-0x63058	0x644		グレース\n旅の始まりなんてわからないものさ。\n邪教の教典が俺の全てを狂わせたんだ。\nそして、それが俺の旅の本当の始まりだったんだ。	
-0x63058	0x698		グレース\n貴方も仲間は大切にしなよ。	
-0x63058	0x6be		パール\n僕は冒険者には向かないのかもしれないなぁ。	
-0x63058	0x6df		パール\n私はセルーシュ近辺の冒険者です。\nセルーシュは当分落ち着かないのでこっちへ逃れてきました。	
-0x63058	0x719		パール\n僕なんかじゃ、とてもあの辺りでは冒険は続けられそうにありません。	
-0x63058	0x74f		パール\nよかったらこれ使ってください。\n僕にはすこし合わないみたいなんです。	
-0x63058	0x787		フィールドブーツをもらった。	
-0x63058	0x795		パール\nお役に立てれば幸いですよ。	
-0x63058	0x7ac		パール\n僕、冒険者稼業やめることにしました。\nこの先のことはゆっくり考えます。	
-0x636b9	0x31	ウォーリック	誰か来てくれ。\n怪我人がいるんだ。	
-0x636b9	0xb6		ベイグ王\nこの子が運び込まれてもう３日目。\nマーシーの魔法治療で身体は完治しているはずだが、今だに意識が戻らんとは・・・。	
-0x636b9	0x122	ファーニス	・・・心配だね。\n私が、エルフ族に伝わる目覚しの秘術を使ってみようか？	
-0x636b9	0x164		ベイグ王\nそんな技があるのか！？\n試してみる価値はありそうだ。	
-0x636b9	0x197	ファーニス	じゃあ、やってみるね。\n・・・・・・・・ええいっ！！	
-0x636b9	0x1de		ベイグ王\n・・・・・何をやっておるのだ？	
-0x636b9	0x211	ファーニス	あのね。\nこうやって鼻をつまむと、苦しくて目を覚ますんだよ。	
-0x636b9	0x246		ベイグ王\n間違って死んだらどうする。\n早くはなしなさいッ。	
-0x636b9	0x291	女の子	・・・ううッ。	
-0x636b9	0x2b4		ベイグ王\nおおッ、気が付いた。	
-0x636b9	0x2d1	女の子	・・・ううん・・・・・こっ、ここは。\n・・・・・ベイグ様？	
-0x636b9	0x32d		ベイグ王\n安心しなさい。\nここはジーク王国だよ、セシリア姫。	
-0x636b9	0x360	ウォーリック	・・・ひっ、姫ぇっ！？\nそれはどういう事です、ベイグ王。	
-0x636b9	0x39b		ベイグ王\n隠していた訳ではないが彼女の名は、セシリア　サライズ　ド　セルーシュ。神聖セルーシュ王国の、第１王女だ。\nベイグ王\n・・・さぁ、セシリア姫。\n何が起ったのか話してくれるね。	
-0x636b9	0x42b	セシリア	・・・突然の事でした。\n城の地下にある礼拝堂から、魔物の大軍が溢れかえる様に現れました。\nセシリア\nその時、聖騎士団は南の森に現れたヒドラ退治に出ており不在。\n・・・守りは神官戦士のみでした。\nセシリア\nしかも、敵の中に強力な魔導士がいるのでしょう。\n神官戦士達の魔法は封じられ、その力を出し切る事なく次々と倒されました。\nセシリア\n母様も、妹も・・・父様も・・・魔物の手にかかり・・・。\nセシリア\nそして大神官のバディット様が、傷つきながらも私とピロームだけを魔法で逃してくれたのです。	
-0x636b9	0x5ae	ファーニス	・・・ピローム？\n一緒にいたケルベロスの事ね。	
-0x636b9	0x5e0	セシリア	どこかもわからない森でピロームは私を守って魔物と戦い、一睡もせずに結界を張り続けてくれたのです。\nセシリア\n・・・大神官様も、ピロームも・・・みんな私をかばって・・・。	
-0x636b9	0x67a		ベイグ王\n気に病む事はない。\n皆、そなたが守るに値する人と信じ、戦ったのだ。\nベイグ王\n今は、その者達のためにも静養しなくてはな。	
-0x636b9	0x6f3		さ\n今、セルーシュは？	
-0x636b9	0x702		ベイグ王\nうむ。\n今ライランドとジークが加戦し、生き残った聖騎士達と共に城奪回のため戦っている。	
-0x636b9	0x748	セシリア	ベイグ王。\n私を国に戻して下さい。	
-0x636b9	0x76d		ベイグ王\nそれはできない。\nセルーシュは今とても危険な状態だ。	
-0x63c42	0x2b		ベイグ王\nそなた達か・・・ローラの使いの者とは？\n遠い所、ご苦労であった。\nローラは元気にしておるのか？	
-0x63c42	0x86	レイナ	はい。\nとても元気にしております。	
-0x63c42	0xa8		ベイグ王\nローラとは５０年前、共にデーモン族と戦った仲だ。\nジーク建国の際にも何かと世話になっている。	
-0x63c42	0xfa	ファーニス	あのお婆ちゃん、すごいんだね。	
-0x63c42	0x117		ベイグ王\n・・・ところで、そなた達はこの手紙の内容を知っているのか？\nローラは、この頃大陸規模で活性化しいる魔物の事を心配している様だ。	
-0x63c42	0x188	レイナ	このジーク王国でも、何かあったのでしょうか？\n城の警戒も厳重でしたし、騎士達も緊張している様に感じました。	
-0x63c42	0x1d2		ベイグ王\n・・・うむっ。\n１週間ほど前の深夜の事だ。\n黒い鎧に身を包んだ男がこの城に侵入した。\nベイグ王\nその男はワイバーンで城まで飛来し、たった１人で警備をかいくぐり、城の地下室に安置してあったジークの国宝、天の水晶を破壊して行った。	
-0x63c42	0x294		ベイグ王\n・・・うむっ。\n天の水晶とは魔物に限らずあらゆる生命の魂を破壊する、旧世界の魔導具だ。\nベイグ王\n私が、先代のセルーシュの王に預けられた物だった。\nそれが、破壊されたのだ。\nベイグ王\nローラの手紙には、活性化した魔物の原因は旧世界を滅ぼした魔神の復活が考えられると書いてある。	
-0x63c42	0x373		ぁの復活！？	
-0x63c42	0x381		ベイグ王\n魔神伝説はこの大陸のいたる所にあるが、私自身魔神の存在など信じてはいない。\nベイグ王\nしかし、このところ度重なる事件。\n・・・すべて無関係とは思えんな。	
-0x63c42	0x409	レイナ	・・・他にも何かあるのでしょうか？	
-0x63c42	0x42e		ベイグ王\n・・・いやっ。\nたいした事ではない。\nそなた達は、ここでゆっくり旅の疲れを癒すがよい。	
-0x63c42	0x479		宮廷魔術師　マーシー\n２階に部屋を用意します。\n身の周り事は、侍女のキャロルに申しつけて下さい。	
-0x63c42	0x4b9		ベイグ王\n部屋に行って、ゆっくり休むがよい。	
-0x63c42	0x4e1		ベイグ王\nメデューサは強敵だ。\n無理をしてはいかんぞ。	
-0x63c42	0x50d		ベイグ王\n希望だけは忘れてはならない。\n旅の成功を祈る。	
-0x63c42	0x53d		近衛　ベルナール\n王に無礼のない様、お願いします。	
-0x63c42	0x560		近衛　ベルナール\nご苦労様です。	
-0x63c42	0x57b		近衛　チューマッハ\n近衛隊の隊長、チューマッハです。	
-0x63c42	0x5a2		近衛　チューマッハ\nみなさん、頑張って下さい。	
-0x63c42	0x5c2		近衛　マーモット\n王はお疲れです。\n手短にお願いします。	
-0x63c42	0x5e9		近衛　マーモット\n旅の成功を、祈っています。	
-0x63c42	0x60c		近衛　マーカス\n王をお守りするのが私達の役目です。	
-0x63c42	0x62f		近衛　マーカス\n旅先、水には気を付けて下さいね。	
-0x63c42	0x656		近衛　ジャミス\nエルフがこの城に入られるのは初めてです。	
-0x63c42	0x678		近衛　ジャミス\nエルフの女の子って、カワイイなぁ。	
-0x63c42	0x698		近衛　ポーメス\nベイグ王は奥におられます。\nさあっ、奥にどうぞ。	
-0x63c42	0x6c1		近衛　ポーメス\nジークはいい国ですよ。\nここに住みませんか？	
-0x63c42	0x6e7		近衛　ベルナール\nそんな所ではなく、王の正面にどうぞ。	
-0x63c42	0x70b		宮廷魔術師⟨14⟩マーシー\n謁見は王の正面で行うのが礼儀ですよ。	
-0x63c42	0x730		近衛　ベルナール\n何をしているのです。\n王に無礼は許しませんぞッ！！	
-0x63c42	0x764		ベイグ王\nそんな所ではなく、私の前に来られい。	
-0x63c42	0x793		ベイグ王\n少しばかりだが、薬や装備の足しにしてくれ。	
-0x63c42	0x7c6		７　⟨14⟩１０００ダイン受け取った。	
-0x641e4	0x19	キャロル	・・・始めまして。\n私、身の周りのお世話をさせていただきます、キャロルです。\nキャロル\n何かありましたら侍女室におりますので、お呼び下さい。	
-0x641e4	0x85	ファーニス	・・・どうしたの？\n何か、元気ないわねぇ。	
-0x641e4	0xaf	キャロル	いいえ、何でもありません。\n・・・それでは失礼します。	
-0x641e4	0x11e	ファーニス	・・・どうしたんだろ？\n悩みの多い年頃なのかしらねぇ。\n・・・・・うんうん。	
-0x641e4	0x167	ウォーリック	何、オバさんみたいな事言ってんだよ。それより今日は疲れたな。\n早く休もう。	
-0x641e4	0x1b2	ファーニス	ウォーリック、私眠ぅぅぅい。	
-0x641e4	0x1dd	ウォーリック	ふぁぁぁっ、今日は疲れたなぁ。	
-0x641e4	0x20b	ファーニス	・・・んんッ！？\nウォーリック、レイナ、起きてッ。	
-0x641e4	0x23b	ウォーリック	・・・ううん？\n何だよファーニス、まだ寝むいよぉ。	
-0x641e4	0x267	ファーニス	何、寝惚けてるのよ。\n誰かこの部屋に来るのよッ！！	
-0x641e4	0x2ba	レイナ	ベイグ王！？\nこの様な所にどうしたのです。	
-0x641e4	0x2e6		ベイグ王\nお前達の耳に、入れておきたい事があるのだ。\nこの頃頻発している、魔物の事件の事なのだが・・・。	
-0x641e4	0x34e		ベイグ王\n隣国のセルーシュが、魔物の大軍に襲われ落城した。\nベイグ王\n現在西の大国ライランド、そして我が国のドラゴン　ライダー隊が加戦し、生き残ったセルーシュの騎士達と共に王城奪回のため戦っている。	
-0x641e4	0x3ce	レイナ	魔物が城を！？\n・・・今まで、そんな事なかったのに。	
-0x641e4	0x407		ベイグ王\nそれも多種の魔物が統率され、指揮官らしき姿も確認されている。\n既に、軍隊として機能しているらしい。\nベイグ王\nそして魔物共は、自らをクーレイア魔神軍と名のっている。	
-0x641e4	0x4ab		ベイグ王\nクーレイアとは、太古に栄えた巨大魔法文明の都市の名だ。\nどこに存在したのかも知られていない、伝説の都市だがな。	
-0x641e4	0x50e	レイナ	魔物達の目的はいったい？	
-0x641e4	0x52e		ベイグ王\n魔物達の目的はわかっている。\nセルーシュ王国の国宝、地の水晶だ。	
-0x641e4	0x582		ベイグ王\n地の水晶は天の水晶と時を同じくして造られた、旧世界の魔導具だ。\n天の水晶は魂を砕き、地の水晶は肉体を砕く。\nベイグ王\n神をも倒せると伝えられている、２つの魔導具・・・その魔導具が我々の手から消え去った。\nベイグ王\n何を意味するか、わかるであろう。	
-0x641e4	0x663	レイナ	・・・まさか。	
-0x641e4	0x67a		ベイグ王\nあれほどの魔物を操れる存在。\n私がその者なら、自らの弱点は必ず潰しにかかる。\nベイグ王\n・・・まだ断定できる状態ではないので、くれぐれも事を荒立てない様、心してほしい。	
-0x641e4	0x70b	ウォーリック	・・・はいっ。	
-0x641e4	0x72c	ファーニス	・・・んんっ？\n廊下の方が、やけに騒がしいよ。\n３鎧７のぶつかり合う音がする。	
-0x641e4	0x772		ベイグ王\n・・・うむっ。\n何か、あった様だ。\n行ってみよう。	
-0x641e4	0x7a6		ベイグ王\n早く、行ってみよう。	
+0x62a3c	0x15		アーヴィング\nカナールが閉鎖されて以来、ろくなことがないよ。\n今は娘の稼ぎが頼りさ。	Irving\nNothing good has happened since\nCanal Mine closed.\nNow I lean on my daughter's wages.
+0x62a3c	0x55		アーヴィング\n噂話じゃ、セルーシュの方でも何かあったって話しだし、\n世の中どうなっちまったんだろぉなぁ。	Irving\nRumor says something stirred over\nin Serush too.\nWhat is becoming of this world?
+0x62a3c	0x93		アーヴィング\nカナールの魔物は蛇かなんかの類だろぉな。俺は１度だけあそこで蛇の這い回る様な音を聞いたんだ。\nあぁぁぁっ、思い出しただけでも鳥肌がたつよ。	Irving\nThe monster in Canal must be some\nkind of snake. Once I heard a\nslithering sound down there.\nAah, just recalling it gives me chills.
+0x62a3c	0xff		アーヴィング\nカナール閉鎖前は大がかりな採掘が行なわれていてね、\n中はかなり危険な状態じゃないかな。	Irving\nBefore Canal closed they did heavy\nmining there.\nInside is likely quite dangerous now.
+0x62a3c	0x14b		アーヴィング\nカナールまでの森には、結構変った植物が生えてるらしいよ。	Irving\nThey say strange plants grow in the\nforest on the way to Canal.
+0x62a3c	0x181		アーヴィング\nなぁ、カナールはこの後どうなるのか知らないか。	Irving\nSay, do you know what becomes of\nCanal after this?
+0x62a3c	0x1a9		アーヴィング\n全く、娘には苦労ばかりかけるよ。	Irving\nHonestly, I bring my daughter\nnothing but hardship.
+0x62a3c	0x1ca		アーヴィング\n王に会ったのかい？\n英雄ってのは歳をとっても堂々としたもんだろう。	Irving\nDid you meet the king?\nA hero stays dignified even in\nhis old age, eh?
+0x62a3c	0x1ff		アーヴィング\nおや、久しぶりだね。\n旅の方は順調かい？。	Irving\nWell now, long time no see.\nIs your journey going well?
+0x62a3c	0x237		レアラ\nうちの人、夜も城に詰めたままで時々しか帰ってこないの。\n最近は騎士団も忙しいみたいねぇ。	Leara\nMy husband stays at the castle even\nat night, home only now and then.\nThe Knight Order seems busy lately.
+0x62a3c	0x275		レアラ\nうちの人はこの国の騎士なの。\n子供が好きで、しょうがないのよ。	Leara\nMy husband is a knight of this land.\nHe loves children, just can't\nhelp himself.
+0x62a3c	0x2a6		レアラ\nさて、私もお城の給事の手伝いに行かなくちゃ。	Leara\nNow then, I must go help with the\nserving up at the castle.
+0x62a3c	0x2ca		レアラ\n王様も昔は冒険者だったんだって。\n知ってた？\n結構、有名な話らしいのよ。	Leara\nThe king was an adventurer long ago.\nDid you know?\nIt's quite a famous tale.
+0x62a3c	0x308		レアラ\nあら、またいらしたの？\nうちの人なら、いつもの仕事場にいると思いますよ。	Leara\nOh, here again?\nIf it's my husband you want, he's\nat his usual workplace, I think.
+0x62a3c	0x340		レアラ\n世間が騒がしいみたいだけど、この街にいるかぎり安心ね。\nドラゴン　ライダー隊には、うちの人だってかなわないんだから。	Leara\nThe world seems restless, but we're\nsafe so long as we stay in this town.\nNot even the Dragon Rider squad can\nbest my husband.
+0x62a3c	0x384		レアラ\nこのごろ騎士団の人間が、カナールやマーズ砦に派遣されることが増えてきたみたいなの。\nあの人がマーズ砦の守備隊になったりしないか心配だわ。	Leara\nLately more of the Knight Order are\nsent off to Canal and Mars Fort.\nI worry he might be posted to the\nMars Fort garrison.
+0x62a3c	0x3d9		レアラ\nマーズ砦のずっと南にはセルーシュって街があるの。\nとっても素敵な大教会があるそうよ。	Leara\nFar south of Mars Fort there's a\ntown called Serush.\nThey say it has a lovely great church.
+0x62a3c	0x411		レアラ\nあら、ずいぶん見ないと思ったら、\n貴方達もセルーシュの戦争に加わったの？\nずいぶん大勢の人が死んだって話ね。\n戦争なんてやだやだ。	Leara\nOh, I hadn't seen you in a while.\nDid you join the war at Serush too?\nThey say so many people died.\nWar, how awful, just awful.
+0x62a3c	0x467		レアラ\nいつも夫婦御一緒で羨ましいわ。\nあの人も、もう少し家にいてくれればいいのに。	Leara\nA couple always together, how I envy you.\nI wish he'd stay home a little more.
+0x62a3c	0x4b9		さんの奥さんはとっても夫想いの方ですわ。\nま、結婚してまだ年が浅いから当然かしらね。	's wife dearly cares for her husband.\nWell, they wed not long ago, so\nof course she would.
+0x62a3c	0x4f2		アレーナ\nうちの子は、いつも堀のそばで遊んでいますわ。\n騎士のショー	Arena\nMy child always plays by the moat.\nKnight Show
+0x62a3c	0x51c		さんにはお世話になりっぱなしで・・・。	 has been so very kind to us...
+0x62a3c	0x535		アレーナ\nこの国の王子様は、とても人気があるんですよ。\nドラゴン　ライダーとしても、とても優秀なんだそうで、あの方がおられるから王様もさぞや安心でしょうね。	Arena\nThe prince of this land is very\npopular, you know.\nHe's a fine Dragon Rider too, so\nwith him near, the king rests easy.
+0x62a3c	0x58e		アレーナ\nルーシーの父はマーズ砦の守備隊にいるんです。\nなかなか家に帰って来れないんで、ルーシーはすぐショー	Arena\nLucy's father is in the Mars Fort\ngarrison.\nHe can hardly come home, so Lucy\nquickly takes to Show
+0x62a3c	0x5cd		さんにあまえるんです。	 and clings to him.
+0x62a3c	0x5df		アレーナ\nアーヴィングさんも大変ね。\n早くカナールの採掘場が再開されればいいのだけれど。	Arena\nMister Irving has it rough too.\nI hope Canal Mine reopens soon.
+0x62a3c	0x61d		アレーナ\n採掘場で御活躍だった方々ね。\nえ？なんで知ってるのかって？\n噂話ってそ〜いうものよ。\nそれに、私こ〜見えても情報通って有名なんだから。	Arena\nYou're the ones who shone at the mine.\nEh? How do I know?\nThat's what rumors are for.\nI'm famously well informed, you see.
+0x62a3c	0x684		アレーナ\n魔法屋のストネールさんは努力家で有名なのよ。\n結構若いのに自分のお店まで持って、\nここだけの話しだけど、お城のマーシー様にも負けない位すごい術を使えるんですって！\nほんと若いのにすごいわねぇ。	Arena\nStonel of the Magic Shop is famed\nfor his hard work.\nSo young, yet he owns his own shop,\nand between us, they say his spells\nrival even Lady Marcy at the castle!\nTruly amazing for one so young.
+0x62a3c	0x70d		アレーナ\nこらッ、ルーシー！！\nショー	Arena\nHey, Lucy!!\nShow
+0x62a3c	0x727		さんに迷惑かけちゃだめだってあんなに言ってあるでしょ。	, I told you so many times not to\nbe a bother to him.
+0x62a3c	0x746		ルーシー\nママは怒るけど、ショー	Lucy\nMama gets cross, but Show
+0x62a3c	0x75a		様優しいんだもん！	 is so kind to me!
+0x62a3c	0x766		シャルト神官\nこの街は平和そのものです。\nしかし、この平和も、多くの戦いと血の元に成り立っているという事を忘れてはなりません。	Priest Shart\nThis town is peace itself.\nBut never forget this peace stands\nupon much battle and bloodshed.
+0x62a3c	0x7bf	ファーニス	神官さん、お休みかなぁ？	{Furnis}\nThink the priest is resting?
+0x63058	0x10		テュナ\nうちの人は昔は旅商人だったから、旅の人の話を聞くのをとても楽しみにしているのよ。	Tyuna\nMy husband was a traveling merchant\nlong ago, so he loves hearing\ntales from travelers.
+0x63058	0x55		テュナ\nこの前はとてもかわいい旅の方がいらしてね、\nお兄さんの様な方と御一緒に家に泊まっていただいたのよ。	Tyuna\nA lovely traveler came by recently.\n\pWe let her stay here with someone\nrather like you, Bro.
+0x63058	0x9a		テュナ\nあら、いつぞやの冒険者の方々ね、\nその人数では家でお世話できないけどゆっくりしていらして。	Tyuna\nOh, the adventurers from before.\n\pWe cannot house this many,\nbut please make yourselves at home.
+0x63058	0xde		テュナ\nいらっしゃい。\nファルさんはまた旅にでられました。\nこんどのお客さんはグレースさんっていう旅の戦士の方ですわ。	Tyuna\nWelcome.\n\pFal has set off traveling again.\n\pOur guest now is a wandering\nwarrior named Grace.
+0x63058	0x128		ラダル\nいらっしゃい。\n彼は、ファルといって旅人なんだそうだ。若いのにいろんな話を知っているんだよ。	Radal\nWelcome.\n\pHe is a traveler called Fal.\nSo young, yet he knows\nso many tales.
+0x63058	0x16b		ラダル\nふむ　ふむ　ふむ。\nそこで、君がその亡者の群に切り込んだんだな。	Radal\nHmm. Hmm. Hmm.\n\pAnd that is when you cut into\nthat horde of the dead, eh?
+0x63058	0x19c		ラダル\nそれで？　それで？\n君の相棒は助かったのかね？	Radal\nAnd then? And then?\n\pDid your partner make it out\nalive?
+0x63058	0x1c2		ラダル\nなんと！\nシルバーホーンならば、わしも行ったことがあるぞ。\nあそこの紫水晶の指輪はいい商品だったんじゃ。	Radal\nMy word!\n\pSilverhorn, you say? I have\nbeen there myself.\n\pTheir Amethyst Rings were\nfine wares indeed.
+0x63058	0x1fb		ラダル\nそぉか。そんなことがあったのか。	Radal\nI see. So that is what\nhappened.
+0x63058	0x218		ラダル\nんんっ？\nたしかセルーシュの教会といえばあのころは・・・。	Radal\nHmm?\n\pThe Serush church, now that\nI think on it, back then...
+0x63058	0x240		ラダル\nどうだね、パール君。急ぐ旅でもないんなら、この家にゆっくりしていかないかね？	Radal\nHow about it, Pearl? If your\njourney is not pressing,\n\pwhy not rest here a while\nin this house?
+0x63058	0x273		ラダル\nパール君、こんな話はしってるかね？\n昔、ここの王様がまだ冒険者だった頃、この地のアークデーモンが・・・。	Radal\nPearl, have you heard this one?\n\pLong ago, when our king was\nstill an adventurer, the\nArchdemon of this land...
+0x63058	0x2c2		ファル\n次はどんな話をお聞かせしましょうか？\n各地の伝承を調べれば面白い話は自然と見つかるものです。	Fal\nWhat tale shall I tell you next?\n\pStudy the lore of each region\nand fine stories find you\nof their own accord.
+0x63058	0x306		ファル\nこの国のドラゴン　ライダー隊は確かに優秀です。\nしかし、魔法文化の遅れはセルーシュ、ライランドと比べてみるといかんともし難いですね。	Fal\nThis land's Dragon Rider corps\nis skilled, that is certain.\n\pBut next to Serush and Ryland,\nits backward magic culture\nis hard to overlook.
+0x63058	0x34f		ファル\nセルーシュとジーク。\n似ていないようですが今のこの２つの国には意外に知られざる共通点があるのです。おわかりになりますか？	Fal\nSerush and Zeke.\n\pThey seem unalike, yet these\ntwo nations share a hidden\ncommon thread.\n\pCan you see it?
+0x63058	0x399		ファル\n遥かに西の大賢者、カーズという方の元には今もなお弟子の志願者が絶えないそうです。	Fal\nFar to the west dwells a great\nsage named Karz, and his\nwould-be pupils never cease.
+0x63058	0x3e1		ファル\n赤や青、緑や白と同じく黒もまた数ある色の一つに過ぎないのです。	Fal\nRed and blue, green and white,\nand black as well... black is\nbut one color among many.
+0x63058	0x410		ファル\n砂の海というところにはまだまだ謎が多く残されています。\n興味深い地域ですが、残された伝承もまた少ないのです。	Fal\nThe place called the Sand Sea\nstill holds many mysteries.\n\pA fascinating region, yet the\nlore left of it is scarce.
+0x63058	0x460		ファル\nクーレイアという名の国を御存知ですか？\nすでに滅んだおとぎの国の名前ですよ。	Fal\nDo you know of a land named\nKuleia?\n\pIt is the name of a fairy-tale\nkingdom long since fallen.
+0x63058	0x495		ファル\nフローディーテの森の名を知る者は数少ない。\nその名の由来を知る者などいないでしょうね。	Fal\nFew know the name of Frodite\nForest.\n\pAnd none, I think, know the\norigin of that name.
+0x63058	0x4cc		ファル\n世界の各地に残る遺跡には当然ながら、\nそれぞれに存在した意味があります。\n今や数百年以上、人目につくことなく眠り続ける遺跡にこそ私の探し求める古い伝承の数々が遺跡と共に眠っているのでしょう。	Fal\nThe ruins scattered across the\nworld each had a meaning to\ntheir being.\n\pIn ruins that have slept\nunseen for centuries lie the\nold tales I seek, sleeping\nalongside them.
+0x63058	0x562		グレース\nここの王様も昔は冒険者だったらしいな。俺の昔の仲間は今頃どうしてんだろぉなぁ。もぉ二度と会うこともねえだろぉなぁ。	Grace\nThey say this king was once an\nadventurer too.\n\pI wonder how my old comrades\nare faring now. Doubt I will\never see them again.
+0x63058	0x5b6		グレース\n俺も昔は貴方達みたいにパーティーを組んでいた頃があったよ。\n今じゃあ５人全員、自分の道を探す旅の途中さ。	Grace\nI once had a party, just like\nyou folks.\n\pNow all five of us wander,\neach seeking our own path.
+0x63058	0x606		グレース\n俺は強い剣を探しているんだ。\nもう随分いろんな大陸や国を旅してきたよ。	Grace\nI am hunting for a strong blade.\n\pI have traveled many a land\nand nation by now.
+0x63058	0x644		グレース\n旅の始まりなんてわからないものさ。\n邪教の教典が俺の全てを狂わせたんだ。\nそして、それが俺の旅の本当の始まりだったんだ。	Grace\nThere is no telling how a\njourney begins.\n\pA heretic scripture warped\neverything I was.\n\pAnd that was the true start\nof my travels.
+0x63058	0x698		グレース\n貴方も仲間は大切にしなよ。	Grace\nYou cherish your comrades too,\nyou hear?
+0x63058	0x6be		パール\n僕は冒険者には向かないのかもしれないなぁ。	Pearl\nMaybe I am just not cut out\nto be an adventurer.
+0x63058	0x6df		パール\n私はセルーシュ近辺の冒険者です。\nセルーシュは当分落ち着かないのでこっちへ逃れてきました。	Pearl\nI am an adventurer from near\nSerush.\n\pSerush will not settle down\nfor a while, so I fled out\nthis way.
+0x63058	0x719		パール\n僕なんかじゃ、とてもあの辺りでは冒険は続けられそうにありません。	Pearl\nSomeone like me could never\nkeep adventuring in those\nparts.
+0x63058	0x74f		パール\nよかったらこれ使ってください。\n僕にはすこし合わないみたいなんです。	Pearl\nPlease take this, if you like.\n\pIt does not quite suit me\nanyway.
+0x63058	0x787		フィールドブーツをもらった。	received Field Boots.
+0x63058	0x795		パール\nお役に立てれば幸いですよ。	Pearl\nI would be glad if it serves\nyou well.
+0x63058	0x7ac		パール\n僕、冒険者稼業やめることにしました。\nこの先のことはゆっくり考えます。	Pearl\nI have decided to quit the\nadventuring trade.\n\pI will take my time deciding\nwhat comes next.
+0x636b9	0x31	ウォーリック	誰か来てくれ。\n怪我人がいるんだ。	Someone come quick.\nThere's a wounded girl here.
+0x636b9	0xb6		ベイグ王\nこの子が運び込まれてもう３日目。\nマーシーの魔法治療で身体は完治しているはずだが、今だに意識が戻らんとは・・・。	King Veig\nIt's been three days since\nshe was brought in.\nMarcy's magic should have\nfully healed her body...\n\pYet she still hasn't woken.
+0x636b9	0x122	ファーニス	・・・心配だね。\n私が、エルフ族に伝わる目覚しの秘術を使ってみようか？	{Furnis}\n...I'm worried.\nShould I try the elven\nart of awakening?
+0x636b9	0x164		ベイグ王\nそんな技があるのか！？\n試してみる価値はありそうだ。	King Veig\nThere's such a technique!?\nIt seems worth a try.
+0x636b9	0x197	ファーニス	じゃあ、やってみるね。\n・・・・・・・・ええいっ！！	{Furnis}\nOkay, here I go.\n.....Hyaah!!
+0x636b9	0x1de		ベイグ王\n・・・・・何をやっておるのだ？	King Veig\n.....What are you doing?
+0x636b9	0x211	ファーニス	あのね。\nこうやって鼻をつまむと、苦しくて目を覚ますんだよ。	{Furnis}\nYou see.\nPinch her nose like this,\nand the choking wakes\nher up.
+0x636b9	0x246		ベイグ王\n間違って死んだらどうする。\n早くはなしなさいッ。	King Veig\nWhat if you kill her\nby mistake.\nLet go at once!
+0x636b9	0x291	女の子	・・・ううッ。	Girl\n...Uhh.
+0x636b9	0x2b4		ベイグ王\nおおッ、気が付いた。	King Veig\nOh! She's awake.
+0x636b9	0x2d1	女の子	・・・ううん・・・・・こっ、ここは。\n・・・・・ベイグ様？	Girl\n...Mmm...\nWh-where is this?\n...King Veig?
+0x636b9	0x32d		ベイグ王\n安心しなさい。\nここはジーク王国だよ、セシリア姫。	King Veig\nRest easy.\nThis is Zeke Kingdom,\nPrincess Cecilia.
+0x636b9	0x360	ウォーリック	・・・ひっ、姫ぇっ！？\nそれはどういう事です、ベイグ王。	{Warrick}\n...P-Princess!?\nWhat do you mean,\nKing Veig?
+0x636b9	0x39b		ベイグ王\n隠していた訳ではないが彼女の名は、セシリア　サライズ　ド　セルーシュ。神聖セルーシュ王国の、第１王女だ。\nベイグ王\n・・・さぁ、セシリア姫。\n何が起ったのか話してくれるね。	King Veig\nI wasn't hiding it, but her\nname is Cecilia Salize de\nSerush.\nThe first princess of holy\nSerush Kingdom.\n\pKing Veig\n...Now, Princess Cecilia.\nWill you tell us what\nhappened.
+0x636b9	0x42b	セシリア	・・・突然の事でした。\n城の地下にある礼拝堂から、魔物の大軍が溢れかえる様に現れました。\nセシリア\nその時、聖騎士団は南の森に現れたヒドラ退治に出ており不在。\n・・・守りは神官戦士のみでした。\nセシリア\nしかも、敵の中に強力な魔導士がいるのでしょう。\n神官戦士達の魔法は封じられ、その力を出し切る事なく次々と倒されました。\nセシリア\n母様も、妹も・・・父様も・・・魔物の手にかかり・・・。\nセシリア\nそして大神官のバディット様が、傷つきながらも私とピロームだけを魔法で逃してくれたのです。	{Cecilia}\n...It came without warning.\nFrom the chapel beneath\nthe castle, a great horde\nof Monsters came pouring\nout.\n\p{Cecilia}\nThe Paladins were away,\nslaying a hydra in the\nsouthern forest.\n...Only the Templars\nremained to defend us.\n\p{Cecilia}\nAnd there must have been\na powerful Mage among\nthe foe.\nThe Templars' magic was\nsealed, and they were cut\ndown one by one, unable\nto use their full power.\n\p{Cecilia}\nMother, my sister...\nFather too... all fell to\nthe Monsters' hands...\n\p{Cecilia}\nThen High Priest Badit,\nthough wounded, used\nmagic to let only me and\nPirom escape.
+0x636b9	0x5ae	ファーニス	・・・ピローム？\n一緒にいたケルベロスの事ね。	{Furnis}\n...Pirom?\nYou mean the Cerberus\nthat was with you.
+0x636b9	0x5e0	セシリア	どこかもわからない森でピロームは私を守って魔物と戦い、一睡もせずに結界を張り続けてくれたのです。\nセシリア\n・・・大神官様も、ピロームも・・・みんな私をかばって・・・。	{Cecilia}\nIn a forest I didn't know,\nPirom protected me and\nfought the Monsters,\nholding a barrier without\nsleeping for a moment.\n\p{Cecilia}\n...The High Priest, and\nPirom... everyone shielded\nme...
+0x636b9	0x67a		ベイグ王\n気に病む事はない。\n皆、そなたが守るに値する人と信じ、戦ったのだ。\nベイグ王\n今は、その者達のためにも静養しなくてはな。	King Veig\nDon't blame yourself.\nThey all believed you\nworth protecting, and so\nthey fought.\n\pKing Veig\nFor their sake too, you\nmust rest now.
+0x636b9	0x6f3		さ\n今、セルーシュは？	And\nWhat of Serush now?
+0x636b9	0x702		ベイグ王\nうむ。\n今ライランドとジークが加戦し、生き残った聖騎士達と共に城奪回のため戦っている。	King Veig\nMm.\nNow Ryland and Zeke have\njoined the fight, battling\nwith the surviving Paladins\nto retake the castle.
+0x636b9	0x748	セシリア	ベイグ王。\n私を国に戻して下さい。	{Cecilia}\nKing Veig.\nPlease send me back\nto my country.
+0x636b9	0x76d		ベイグ王\nそれはできない。\nセルーシュは今とても危険な状態だ。	King Veig\nThat I cannot do.\nSerush is in a very\ndangerous state right now.
+0x63c42	0x2b		ベイグ王\nそなた達か・・・ローラの使いの者とは？\n遠い所、ご苦労であった。\nローラは元気にしておるのか？	King Veig\nSo you are Lola's messengers?\nYou've come a long way. Well done.\nIs Lola keeping well?
+0x63c42	0x86	レイナ	はい。\nとても元気にしております。	Yes.\nShe's very well indeed.
+0x63c42	0xa8		ベイグ王\nローラとは５０年前、共にデーモン族と戦った仲だ。\nジーク建国の際にも何かと世話になっている。	King Veig\nLola and I fought the {Demon}\nclans together 50 years ago.\nShe helped much in founding\nZeke, too.
+0x63c42	0xfa	ファーニス	あのお婆ちゃん、すごいんだね。	That old lady's amazing.
+0x63c42	0x117		ベイグ王\n・・・ところで、そなた達はこの手紙の内容を知っているのか？\nローラは、この頃大陸規模で活性化しいる魔物の事を心配している様だ。	King Veig\n...By the way, do you know what\nthis letter says?\nLola frets over the {Monster}s\nstirring across the continent.
+0x63c42	0x188	レイナ	このジーク王国でも、何かあったのでしょうか？\n城の警戒も厳重でしたし、騎士達も緊張している様に感じました。	Has something happened here in\nthe Zeke Kingdom too?\nThe castle's heavily guarded,\nand the knights seem tense.
+0x63c42	0x1d2		ベイグ王\n・・・うむっ。\n１週間ほど前の深夜の事だ。\n黒い鎧に身を包んだ男がこの城に侵入した。\nベイグ王\nその男はワイバーンで城まで飛来し、たった１人で警備をかいくぐり、城の地下室に安置してあったジークの国宝、天の水晶を破壊して行った。	King Veig\n...Mm.\nLate one night about a week ago,\na man clad in black armor broke\ninto this castle.\pKing Veig\nHe flew in on a Wyvern, slipped\npast every guard alone, and\ndestroyed Zeke's national\ntreasure in the cellar, the\nSky Crystal.
+0x63c42	0x294		ベイグ王\n・・・うむっ。\n天の水晶とは魔物に限らずあらゆる生命の魂を破壊する、旧世界の魔導具だ。\nベイグ王\n私が、先代のセルーシュの王に預けられた物だった。\nそれが、破壊されたのだ。\nベイグ王\nローラの手紙には、活性化した魔物の原因は旧世界を滅ぼした魔神の復活が考えられると書いてある。	King Veig\n...Mm.\nThe Sky Crystal is an old-world\nrelic that shatters the soul of\nany living thing, not just\n{Monster}s.\pKing Veig\nIt was entrusted to me by the\nlate king of Serush.\nAnd now it is destroyed.\pKing Veig\nLola's letter says the stirring\n{Monster}s may mean the Demon\nGod, who ruined the old world,\nhas revived.
+0x63c42	0x373		ぁの復活！？	The Demon God's revival?!
+0x63c42	0x381		ベイグ王\n魔神伝説はこの大陸のいたる所にあるが、私自身魔神の存在など信じてはいない。\nベイグ王\nしかし、このところ度重なる事件。\n・・・すべて無関係とは思えんな。	King Veig\nDemon God legends are all over\nthis continent, but I myself\ndon't believe it exists.\pKing Veig\nStill, these repeated incidents...\nI can't think them all unrelated.
+0x63c42	0x409	レイナ	・・・他にも何かあるのでしょうか？	...Is there something more?
+0x63c42	0x42e		ベイグ王\n・・・いやっ。\nたいした事ではない。\nそなた達は、ここでゆっくり旅の疲れを癒すがよい。	King Veig\n...No.\nNothing of import.\nRest here and ease your\ntravel-weariness a while.
+0x63c42	0x479		宮廷魔術師　マーシー\n２階に部屋を用意します。\n身の周り事は、侍女のキャロルに申しつけて下さい。	Court Mage Marcy\nI'll ready a room upstairs.\nFor anything you need, ask\nCarol the maid.
+0x63c42	0x4b9		ベイグ王\n部屋に行って、ゆっくり休むがよい。	King Veig\nGo to your room and rest well.
+0x63c42	0x4e1		ベイグ王\nメデューサは強敵だ。\n無理をしてはいかんぞ。	King Veig\nMedusa is a fierce foe.\nDon't push yourselves too hard.
+0x63c42	0x50d		ベイグ王\n希望だけは忘れてはならない。\n旅の成功を祈る。	King Veig\nNever lose hope, above all.\nI pray your journey succeeds.
+0x63c42	0x53d		近衛　ベルナール\n王に無礼のない様、お願いします。	Royal Guard Bernard\nMind your manners before the\nking, if you please.
+0x63c42	0x560		近衛　ベルナール\nご苦労様です。	Royal Guard Bernard\nThank you for your service.
+0x63c42	0x57b		近衛　チューマッハ\n近衛隊の隊長、チューマッハです。	Royal Guard Schumacher\nI'm Schumacher, captain of the\nroyal guard.
+0x63c42	0x5a2		近衛　チューマッハ\nみなさん、頑張って下さい。	Royal Guard Schumacher\nDo your best, all of you.
+0x63c42	0x5c2		近衛　マーモット\n王はお疲れです。\n手短にお願いします。	Royal Guard Marmot\nThe king is weary.\nKeep it brief, please.
+0x63c42	0x5e9		近衛　マーモット\n旅の成功を、祈っています。	Royal Guard Marmot\nI pray your journey succeeds.
+0x63c42	0x60c		近衛　マーカス\n王をお守りするのが私達の役目です。	Royal Guard Marcus\nGuarding the king is our duty.
+0x63c42	0x62f		近衛　マーカス\n旅先、水には気を付けて下さいね。	Royal Guard Marcus\nMind the water on your travels.
+0x63c42	0x656		近衛　ジャミス\nエルフがこの城に入られるのは初めてです。	Royal Guard Jamis\nIt's the first time an elf has\nentered this castle.
+0x63c42	0x678		近衛　ジャミス\nエルフの女の子って、カワイイなぁ。	Royal Guard Jamis\nElf girls sure are cute.
+0x63c42	0x698		近衛　ポーメス\nベイグ王は奥におられます。\nさあっ、奥にどうぞ。	Royal Guard Pomes\nKing Veig is within.\nGo on, right this way.
+0x63c42	0x6c1		近衛　ポーメス\nジークはいい国ですよ。\nここに住みませんか？	Royal Guard Pomes\nZeke's a fine kingdom.\nWhy not settle here?
+0x63c42	0x6e7		近衛　ベルナール\nそんな所ではなく、王の正面にどうぞ。	Royal Guard Bernard\nNot over there, stand before\nthe king, please.
+0x63c42	0x70b		宮廷魔術師⟨14⟩マーシー\n謁見は王の正面で行うのが礼儀ですよ。	Court Mage Marcy\nAn audience is properly held\nfacing the king.
+0x63c42	0x730		近衛　ベルナール\n何をしているのです。\n王に無礼は許しませんぞッ！！	Royal Guard Bernard\nWhat are you doing?\nI'll allow no rudeness to the\nking!!
+0x63c42	0x764		ベイグ王\nそんな所ではなく、私の前に来られい。	King Veig\nNot over there, come before me.
+0x63c42	0x793		ベイグ王\n少しばかりだが、薬や装備の足しにしてくれ。	King Veig\nIt's only a little, but put it\ntoward potions and gear.
+0x63c42	0x7c6		７　⟨14⟩１０００ダイン受け取った。	Received 1000 Dain.
+0x641e4	0x19	キャロル	・・・始めまして。\n私、身の周りのお世話をさせていただきます、キャロルです。\nキャロル\n何かありましたら侍女室におりますので、お呼び下さい。	Carol\n...Pleased to meet you.\nI'll be tending to your needs.\nMy name is Carol.\pCarol\nIf you need anything, I'll be\nin the maids' room. Just call.
+0x641e4	0x85	ファーニス	・・・どうしたの？\n何か、元気ないわねぇ。	{Furnis}\n...What's wrong?\nYou seem a bit down.\n
+0x641e4	0xaf	キャロル	いいえ、何でもありません。\n・・・それでは失礼します。	Carol\nNo, it's nothing.\n...Excuse me, then.\n
+0x641e4	0x11e	ファーニス	・・・どうしたんだろ？\n悩みの多い年頃なのかしらねぇ。\n・・・・・うんうん。	{Furnis}\n...I wonder what's wrong?\nMaybe it's just that age full\nof worries. ...Mhm, mhm.\n
+0x641e4	0x167	ウォーリック	何、オバさんみたいな事言ってんだよ。それより今日は疲れたな。\n早く休もう。	{Warrick}\nDon't go talking like some\nold lady. Anyway, what a day.\nLet's turn in early.\n
+0x641e4	0x1b2	ファーニス	ウォーリック、私眠ぅぅぅい。	{Furnis}\n{Warrick}, I'm so sleeepy.\n
+0x641e4	0x1dd	ウォーリック	ふぁぁぁっ、今日は疲れたなぁ。	{Warrick}\nYaaawn... what a long day.\n
+0x641e4	0x20b	ファーニス	・・・んんッ！？\nウォーリック、レイナ、起きてッ。	{Furnis}\n...Mmh!?\n{Warrick}, {Reina}, wake up!\n
+0x641e4	0x23b	ウォーリック	・・・ううん？\n何だよファーニス、まだ寝むいよぉ。	{Warrick}\n...Mmh?\nWhat is it, {Furnis}?\nI'm still sleepy...\n
+0x641e4	0x267	ファーニス	何、寝惚けてるのよ。\n誰かこの部屋に来るのよッ！！	{Furnis}\nQuit dozing off.\nSomeone's coming to this room!\n
+0x641e4	0x2ba	レイナ	ベイグ王！？\nこの様な所にどうしたのです。	{Reina}\nKing {Veig}!?\nWhat brings you to a place\nlike this?\n
+0x641e4	0x2e6		ベイグ王\nお前達の耳に、入れておきたい事があるのだ。\nこの頃頻発している、魔物の事件の事なのだが・・・。	King {Veig}\nThere's something I want you\nall to hear.\nIt's about these monster\nincidents lately...\n
+0x641e4	0x34e		ベイグ王\n隣国のセルーシュが、魔物の大軍に襲われ落城した。\nベイグ王\n現在西の大国ライランド、そして我が国のドラゴン　ライダー隊が加戦し、生き残ったセルーシュの騎士達と共に王城奪回のため戦っている。	King {Veig}\nSerush, our neighbor, was\noverrun by a monster horde\nand fell.\np\nKing {Veig}\nNow Ryland, the great western\npower, and our own {Dragon Rider}\ncorps have joined in. Alongside\nSerush's surviving Knights,\nthey fight to retake the castle.\n
+0x641e4	0x3ce	レイナ	魔物が城を！？\n・・・今まで、そんな事なかったのに。	{Reina}\n{Monster}s took the castle!?\n...That's never happened\nbefore.\n
+0x641e4	0x407		ベイグ王\nそれも多種の魔物が統率され、指揮官らしき姿も確認されている。\n既に、軍隊として機能しているらしい。\nベイグ王\nそして魔物共は、自らをクーレイア魔神軍と名のっている。	King {Veig}\nMany kinds of {Monster}s, all\nunder command, and a figure\nthat seems to lead them.\nThey already function as an\narmy.\np\nKing {Veig}\nAnd they call themselves the\nKuleia Demon God army.\n
+0x641e4	0x4ab		ベイグ王\nクーレイアとは、太古に栄えた巨大魔法文明の都市の名だ。\nどこに存在したのかも知られていない、伝説の都市だがな。	King {Veig}\nKuleia is the name of a vast\nmagic city that flourished\nin ancient times.\nNo one knows where it stood.\nA city of legend.\n
+0x641e4	0x50e	レイナ	魔物達の目的はいったい？	{Reina}\nWhat could the {Monster}s be\nafter?\n
+0x641e4	0x52e		ベイグ王\n魔物達の目的はわかっている。\nセルーシュ王国の国宝、地の水晶だ。	King {Veig}\nWe know what they want.\nSerush Kingdom's treasure,\nthe Earth Crystal.\n
+0x641e4	0x582		ベイグ王\n地の水晶は天の水晶と時を同じくして造られた、旧世界の魔導具だ。\n天の水晶は魂を砕き、地の水晶は肉体を砕く。\nベイグ王\n神をも倒せると伝えられている、２つの魔導具・・・その魔導具が我々の手から消え去った。\nベイグ王\n何を意味するか、わかるであろう。	King {Veig}\nThe Earth Crystal was forged\nwith the Sky Crystal, a relic\nof the old world.\nThe Sky shatters the soul,\nthe Earth the body.\np\nKing {Veig}\nTwo relics said to slay even\ngods... and those relics have\nslipped from our hands.\np\nKing {Veig}\nYou understand what that\nmeans.\n
+0x641e4	0x663	レイナ	・・・まさか。	{Reina}\n...It can't be.\n
+0x641e4	0x67a		ベイグ王\nあれほどの魔物を操れる存在。\n私がその者なら、自らの弱点は必ず潰しにかかる。\nベイグ王\n・・・まだ断定できる状態ではないので、くれぐれも事を荒立てない様、心してほしい。	King {Veig}\nA being that commands such\n{Monster}s. Were I that one, I'd\nsurely crush my own weakness.\np\nKing {Veig}\n...It's not yet certain, so\ntake care not to stir things\nup. Keep this in mind.\n
+0x641e4	0x70b	ウォーリック	・・・はいっ。	{Warrick}\n...Yes, sir.\n
+0x641e4	0x72c	ファーニス	・・・んんっ？\n廊下の方が、やけに騒がしいよ。\n３鎧７のぶつかり合う音がする。	{Furnis}\n...Mmh?\nThe hallway's awfully noisy.\nI hear armor clashing.\n
+0x641e4	0x772		ベイグ王\n・・・うむっ。\n何か、あった様だ。\n行ってみよう。	King {Veig}\n...Mm.\nSomething's happened.\nLet's go take a look.\n
+0x641e4	0x7a6		ベイグ王\n早く、行ってみよう。	King {Veig}\nQuick, let's go take a look.\n
 0x6475a	0x2a	ファーニス	あらら！？\nあそこで３剣７振り回して暴れているのキャロルちゃんじゃない？	
 0x6475a	0x6e	キャロル	何すんの、放してよッ！！\n私はルークを助けに行くのよ。\n邪魔しないでぇぇぇぇッ。	
 0x6475a	0xb3		ヒックス\n落ち着けキャロル。\nお前がメデューサにかなうわけないだろ。逆に石にされちまうぞッ！！	
