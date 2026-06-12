@@ -102,6 +102,7 @@ def main(demo=False):
     # rebuild each touched archive at natural sizes
     grown = {}                       # archive -> (new_bytes, old_offsets, new_offsets, old_size)
     decomp_errors = 0
+    bisection_todo = []              # FF-junctions that still draw a stray 'F' (standing reminder)
     for archive, blocks in per_arch.items():
         data = disc.read_file(iso, archive)
         members = dict(dlz.iter_members(data))
@@ -121,6 +122,8 @@ def main(demo=False):
                 splices.append((a, b, reinsert.compile_english(en, tokens)))
             splices.extend(reinsert.speaker_label_splices(block, speakers))
             splices.extend(reinsert.signoff_ff_splices(block, lines, speakers))
+            for so, last in reinsert.unhandled_ff_junctions(block, lines, speakers):
+                bisection_todo.append((archive, block_off, so, last))
             for a, b, repl in sorted(splices, key=lambda s: s[0], reverse=True):
                 block[a:b] = repl
             # Decompressed-size budget. Dialogue blocks ("VD2*") share one fixed
@@ -154,6 +157,13 @@ def main(demo=False):
         grown[archive] = (new_bytes, old_offsets, new_offsets, len(data))
         print(f"{archive}: {len(data)} -> {len(new_bytes)} bytes "
               f"({len(new_bytes)-len(data):+d})")
+
+    if bisection_todo:
+        print(f"NOTE: {len(bisection_todo)} dialogue FF-junction(s) still draw a stray 'F' "
+              f"(unhandled bisections) — sentence-flows to merge; see memory "
+              f"dialogue-ff-bisection-todo. First few: "
+              + ", ".join(f"{a.split('.')[0]}@{bo:#x}/{so:#x}"
+                          for a, bo, so, _ in bisection_todo[:4]))
 
     if decomp_errors:
         sys.exit(f"{decomp_errors} block(s) exceed their decompressed RAM budget — "

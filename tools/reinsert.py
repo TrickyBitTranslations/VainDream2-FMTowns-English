@@ -146,6 +146,23 @@ def signoff_ff_splices(block, items, speakers):
     return out
 
 
+def unhandled_ff_junctions(block, items, speakers):
+    """Translated records that flow into the next box via a separator FF (span end
+    == 0xFF) but are NOT handled by signoff_ff_splices -- each still draws a stray
+    'F' at the junction (the ~11 sentence-flow bisections; see EXTRA_TITLES and
+    docs/findings). Returns [(str_off, last_line)] for a standing build reminder."""
+    names = set(speakers.values()) | EXTRA_TITLES
+    out = []
+    for str_off, english in items:
+        last = english.replace("\\p", "\\n").split("\\n")[-1].strip()
+        if last in names:
+            continue
+        _start, end = string_span(block, str_off)
+        if end < len(block) and block[end] == 0xFF:
+            out.append((str_off, last))
+    return out
+
+
 def name_token_map():
     """EN name -> token byte: from NAME.P if the dump is around, else the pack."""
     data_bin = ROOT / "floppy_files" / "DATA.BIN"
@@ -323,6 +340,7 @@ def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     manifest = []
     total = fitted = 0
+    bisection_todo = []              # FF-junctions still drawing a stray 'F' (reminder)
     for (archive, block_off), items in sorted(per_block.items()):
         block = src.block(archive, block_off)
         budget = src.budget(archive, block_off)
@@ -341,6 +359,7 @@ def main():
         labels = speaker_label_splices(block, speakers)
         splices.extend(labels)
         splices.extend(signoff_ff_splices(block, items, speakers))
+        bisection_todo += unhandled_ff_junctions(block, items, speakers)
         for start, end, repl in sorted(splices, key=lambda s: s[0], reverse=True):
             block[start:end] = repl
         encoded = dlz.encode(bytes(block))
@@ -367,6 +386,9 @@ def main():
     verb = "validated" if check else "inserted"
     print(f"\n{fitted}/{total} translated strings {verb}; "
           f"{errors} error(s), {warnings} warning(s)")
+    if bisection_todo:
+        print(f"NOTE: {len(bisection_todo)} dialogue FF-junction(s) still draw a stray 'F' "
+              f"(unhandled bisections to merge) — see memory dialogue-ff-bisection-todo")
     if errors:
         sys.exit(1)
 
