@@ -188,6 +188,10 @@ def load_rows():
     """[(archive, block_off, str_off, english, tsv_name, line_no)] from script/."""
     rows = []
     for tsv in sorted((ROOT / "script").glob("*.tsv")):
+        # UI/system text (SYSTEM_TOS.tsv, ...) is reinserted by tools/patch_ui.py,
+        # not here -- its block_off is a .TOS file name, not a dlz block offset.
+        if tsv.stem.endswith("_TOS"):
+            continue
         archive = tsv.stem.replace("_DAT", ".DAT").replace("_PK", ".PK")
         for ln, row in enumerate(tsv.read_text(encoding="utf-8").splitlines()[1:],
                                  start=2):

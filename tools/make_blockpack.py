@@ -30,6 +30,8 @@ def main():
                                   TRACK1_SECTORS)
     wanted = {}                                  # archive -> set of block_offs
     for tsv in sorted((ROOT / "script").glob("*.tsv")):
+        if tsv.stem.endswith("_TOS"):     # UI text (floppy .TOS), not dlz CD blocks
+            continue
         archive = tsv.stem.replace("_DAT", ".DAT").replace("_PK", ".PK")
         for row in tsv.read_text(encoding="utf-8").splitlines()[1:]:
             cols = row.split("\t")

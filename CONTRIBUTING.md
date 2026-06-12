@@ -24,6 +24,23 @@ Every dialogue line lives in `script/*.tsv` (one file per game archive):
 Edit the `english` column, run the checker, open a PR. The build splices your
 text into the game data, re-compresses each scene, and verifies it fits.
 
+**UI / menu strings** (`SYSTEM_TOS.tsv`, `SYSTEM2_TOS.tsv`, `FSYS_TOS.tsv`) work
+the same way, but they're the in-game menus, status screen, battle UI, spell
+names and system messages, and their `text` carries layout control codes you
+should copy into your `english`:
+
+| token | meaning |
+|-------|---------|
+| `\n` | new menu row |
+| `<14>` | column spacer (keep these between menu items so the layout holds) |
+| `<04>` | half-space (Japanese inter-glyph spacing; usually drop it in English) |
+| `<03:nn>` | a format op - copy it through unchanged |
+| `/` | middle dot ・ (e.g. `Weapon/Item`) |
+| `~` | long-vowel mark ー |
+
+Keep it short: these go in fixed-width boxes (see *Length* below). Developers:
+the surfaces and how to add a new one are in [docs/PIPELINE.md](docs/PIPELINE.md).
+
 ## Writing translations
 
 ### Syntax

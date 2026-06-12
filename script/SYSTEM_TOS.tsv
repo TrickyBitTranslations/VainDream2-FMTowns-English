@@ -1,0 +1,109 @@
+block_off	str_off	speaker	text	english
+SYSTEM.TOS	0x2b		<03:51><04>   <14>メイン<14>メニュ~<14>   \n	
+SYSTEM.TOS	0x40		　アイテム説明<14><14><14>ステ~タス\n<14>武器/道具<03:04>隊列関係\n<14>相<14>談<03:06>システム設定	
+SYSTEM.TOS	0x79		<03:51>   <14>ステ~タス<14>   	
+SYSTEM.TOS	0x89		<03:51>武器/道具\n	
+SYSTEM.TOS	0x96		　装<14>備\n<14>使<14>う\n<14>外<14>す\n<14>捨てる	
+SYSTEM.TOS	0xb0		<03:56><14>何も持ってないっ。	
+SYSTEM.TOS	0xbf		<03:52>コマンド<14>エラ~\n<14>異常な環境が発生しました。	
+SYSTEM.TOS	0xdf		<03:52><14>お金が足りないか///	
+SYSTEM.TOS	0xf0		<03:51>アイテム<14>説明	
+SYSTEM.TOS	0xfc		<03:54><14>武器<1a>片手<1b><14>武器<1a>両手<1b><14>盾\n<14>下<04>鎧\n<14>上<04>鎧\n<14>指<04>輪\n<14>靴\n<03:56><14>道<04>具\n<03:52><14>アイテム	
+SYSTEM.TOS	0x142		<03:52>そんな物、持ってない。	
+SYSTEM.TOS	0x152		<03:52>そんな奴はいません！！	
+SYSTEM.TOS	0x161		<03:52>もう、雇えない。	
+SYSTEM.TOS	0x16d		ダインを手に入れた。	
+SYSTEM.TOS	0x195		<03:51>  <14>システム設定<14>  \n	
+SYSTEM.TOS	0x1a7		<03:55><14>Ｌｏａｄ\n<03:52><14>Ｓａｖｅ\n<14>戦闘モ~ド表示時間\n<14>ウィンドウ開時間\n<14>カ~ソル移動速度\n<14>音声モ~ド\n<14>背景設定<14>	
+SYSTEM.TOS	0x229		エラ~<04>発生！	
+SYSTEM.TOS	0x235		ドライブ２に\n<03:56>ユ~ザ~<14>ディスク<03:57>を入れてください。	
+SYSTEM.TOS	0x254		<03:56><1f><1f><1f><14>未使用<14><1f><1f><1f>	
+SYSTEM.TOS	0x265		<03:52>警告\n<14>デ~タ~が存在しません。	
+SYSTEM.TOS	0x27c		<03:52>注<1b><14>上書きします。\n	
+SYSTEM.TOS	0x28d		<03:52>これは、ゲ~ム<14>ディスクだっ！！	
+SYSTEM.TOS	0x2a0		<03:52>ドライブ１は、システム<14>ディスクだっ。	
+SYSTEM.TOS	0x2b6		ちゃんと<03:52>セ<1f>ブ<03:57>したよ。	
+SYSTEM.TOS	0x2c6		<03:55><14>［早く］<14><14><14>［遅く］	
+SYSTEM.TOS	0x2db		は、\n	
+SYSTEM.TOS	0x2df		を身に付けました。	
+SYSTEM.TOS	0x2eb		<03:51><14>   <14>装<14>備<14>   	
+SYSTEM.TOS	0x2fc		<03:51><14>   <14>使<14>う<14>   	
+SYSTEM.TOS	0x30c		<03:51><14>   <14>外<14>す<14>   	
+SYSTEM.TOS	0x31c		<03:51><14>   <14>捨てる<14>   	
+SYSTEM.TOS	0x32c		<03:52>  <14>うら話し<14>  	
+SYSTEM.TOS	0x33a		　アイテム<14>セット\n<14>戦闘管理\n<14>その他\n<14>ビット<14>セット\n<14>ビット<14>リスト\n<14>撮影モ<1f>ド\n<14>ポインタ~	
+SYSTEM.TOS	0x377		\n<14>デバッグ<14>モ~ド	
+SYSTEM.TOS	0x382		を見つけた。	
+SYSTEM.TOS	0x38a		音源ボ~ド２が無いと使えません。	
+SYSTEM.TOS	0x39f		<03:55><14>［有効］<14><14><14>［無効］	
+SYSTEM.TOS	0x3b6		<03:55>これ以上持つことができません。	
+SYSTEM.TOS	0x3cb		<03:55>重要な物は大切にしましょう	
+SYSTEM.TOS	0x3e0		<03:51>   <14>隊列関係<14>   \n	
+SYSTEM.TOS	0x3f4		　隊<04>列<04>変<04>更\n<14>フォ~メイション選択\n<14>フォ~メイション制作	
+SYSTEM.TOS	0x41e		<03:55>ここで使う物ではありません。	
+SYSTEM.TOS	0x431		<03:56>使う場所が違うみたい。	
+SYSTEM.TOS	0x444		<03:55>俺は、これを持ちたくない。	
+SYSTEM.TOS	0x456		<03:55>こんな物、性に合わない。	
+SYSTEM.TOS	0x468		<03:56>私じゃ、持てないわ。	
+SYSTEM.TOS	0x477		<03:51>   <14>隊列<14>変更<14>   	
+SYSTEM.TOS	0x48b		<03:56>１人で隊列するのは、さびしい。	
+SYSTEM.TOS	0x4a0		この隊列で<14>定義しますか？\n	
+SYSTEM.TOS	0x4b4		ビジュアル\nプレイ\nト~ク\nキャラ\nボックス\nＥｌｓｅ	
+SYSTEM.TOS	0x4d4		<03:57><03:26>を使う。\n	
+SYSTEM.TOS	0x4df		を、捨てます。\n	
+SYSTEM.TOS	0x4e9		<03:55>\n<14>捨てんの止めたぁ。\n	
+SYSTEM.TOS	0x4fa		<03:23>を、捨てました。	
+SYSTEM.TOS	0x506		情<04>報買<04>うやめる	
+SYSTEM.TOS	0x513		戦闘<04>表示時間<14><1a>１<1f>８<1b>\n\n	
+SYSTEM.TOS	0x529		　相<04>談<04>中	
+SYSTEM.TOS	0x534		を、外しました。	
+SYSTEM.TOS	0x53e		<03:55>持物がいっぱいで外ずせません。	
+SYSTEM.TOS	0x553		<03:56>あら、持物がいっぱい。	
+SYSTEM.TOS	0x563		<03:51>  <04>フォ~メイション選択<04>  \n\n	
+SYSTEM.TOS	0x59b		これでいいですか？\n	
+SYSTEM.TOS	0x5a6		<03:52><14>定義されていません。	
+SYSTEM.TOS	0x5b6		\n<03:56><14>定義<04>しちゃったよ。\n	
+SYSTEM.TOS	0x5c8		何番に定義しますか？<1a>１<1f>５<1b>\n	
+SYSTEM.TOS	0x5dd		カ~ソル<14>スピ~ド<14><1a>１<1f>８<1b>\n	
+SYSTEM.TOS	0x5ee		<03:52>テ~ブル<14>オ~バ~？	
+SYSTEM.TOS	0x5fb		<03:56>これを、買いますか？\n	
+SYSTEM.TOS	0x60a		<03:57><03:2b>を、買いました。	
+SYSTEM.TOS	0x619		で、売ってしまう。\n	
+SYSTEM.TOS	0x625		<03:56><03:03><04>ダイン	
+SYSTEM.TOS	0x62e		<03:56><03:03><04>テミス	
+SYSTEM.TOS	0x637		生<04>命<04>力	
+SYSTEM.TOS	0x640		攻<04>撃<04>力	
+SYSTEM.TOS	0x649		防<04>御<04>力	
+SYSTEM.TOS	0x652		<04>魔<14>力<04>	
+SYSTEM.TOS	0x65a		すばやさ	
+SYSTEM.TOS	0x65f		移<04>動<04>量	
+SYSTEM.TOS	0x669		<03:56><03:03>レ<04>ベ<04>ル	
+SYSTEM.TOS	0x673		右<04>手	
+SYSTEM.TOS	0x679		左<04>手	
+SYSTEM.TOS	0x67f		下<04>鎧	
+SYSTEM.TOS	0x685		上<04>鎧	
+SYSTEM.TOS	0x68b		指<04>輪	
+SYSTEM.TOS	0x691		靴	
+SYSTEM.TOS	0x694		影<04>響<04>量\n	
+SYSTEM.TOS	0x69e		誰も装備できない。	
+SYSTEM.TOS	0x6ab		最大攻撃回数\n	
+SYSTEM.TOS	0x6b9		<03:03>回まで。	
+SYSTEM.TOS	0x6c1		（男<1b>	
+SYSTEM.TOS	0x6c7		（女<1b>	
+SYSTEM.TOS	0x6cd		有効範囲	
+SYSTEM.TOS	0x6d6		回<04>復<04>値	
+SYSTEM.TOS	0x6df		移動量上昇値	
+SYSTEM.TOS	0x6ed		戦闘レベル？	
+SYSTEM.TOS	0x6f6		<03:55>足場が悪い、セ~ブはやめだ！	
+SYSTEM.TOS	0x70a		<03:57>★<04>不思議な力で、封印されている<04>！！	
+SYSTEM.TOS	0x727		ト~ク	
+SYSTEM.TOS	0x72b		キャラクタ~	
+SYSTEM.TOS	0x732		音楽	
+SYSTEM.TOS	0x740		<03:57><03:2b>を、売りました。	
+SYSTEM.TOS	0x74e		戦闘回数	
+SYSTEM.TOS	0x757		行動パタ~ン	
+SYSTEM.TOS	0x760		ドライブ１のフォ~マットだ	
+SYSTEM.TOS	0x76e		孫パッケ~ジ<04>じゃない	
+SYSTEM.TOS	0x77b		<03:55><14>［右手］<14><14><14>［左手］	
+SYSTEM.TOS	0x7b4		<03:51><04>←  <04>ペ~ジ<04>  →\n	
+SYSTEM.TOS	0x7c6		　最初から遊ぶ。\n<14>途中から遊ぶ。	
