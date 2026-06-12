@@ -1,6 +1,6 @@
 block_off	str_off	speaker	text	english
 SYSTEM.TOS	0x2b		<03:51> <20><20><20><14>メイン<14>メニュ~<14><20><20><20>\n	<03:51><04>   <14>Main<14>Menu<14>   \n
-SYSTEM.TOS	0x40		　アイテム説明<14><14><14>ステ~タス\n<14>武器/道具<03:04>隊列関係\n<14>相<14>談<03:06>システム設定	　Item Info<14><14><14>Status\n<14>Items<03:04>Party\n<14>Talk<03:06>Config
+SYSTEM.TOS	0x40		　アイテム説明<14><14><14>ステ~タス\n<14>武器/道具<03:04>隊列関係\n<14>相<14>談<03:06>システム設定	　Item Info      Status\n<14>Items          Party\n<14>Talk           Config
 SYSTEM.TOS	0x79		<03:51><20><20><20><14>ステ~タス<14><20><20><20>	<03:51>   <14>Status<14>   
 SYSTEM.TOS	0x89		<03:51>武器/道具\n	<03:51>Items\n
 SYSTEM.TOS	0x96		　装<14>備\n<14>使<14>う\n<14>外<14>す\n<14>捨てる	　Equip\n<14>Use\n<14>Remove\n<14>Drop
