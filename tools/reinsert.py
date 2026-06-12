@@ -93,7 +93,15 @@ def speaker_label_splices(block, speakers):
     whose kana is a known speaker name AND which is immediately followed by a
     dialogue-record opener (0x01/0x02/0x03). The opener check anchors the match
     to a real record so a stray FF<bytes>FF in event data is never rewritten.
-    Only the kana bytes (between the FFs) are replaced; the FF frame stays."""
+
+    The CLOSING 0xFF is consumed along with the kana. The box title is rendered
+    as the display string up to the first 0x01 (newline), so the structure
+    ``FF <kana> FF <01> body`` puts the closing FF on the title line -- in the
+    proper JIS font it's a katakana ン (the name's tail), but under our classifier
+    patch 0xFF draws as 'F', giving "KayF". Replacing ``<kana> FF`` (kana + the
+    trailing FF) with just the English leaves ``FF <english> <01> body`` -- the
+    title is then exactly the English name, like a text-line speaker (e.g.
+    "Rowney\\n..."). The opening FF stays as the event separator."""
     splices = []
     for name, english in speakers.items():
         raw = kana.encode(name)
@@ -103,7 +111,7 @@ def speaker_label_splices(block, speakers):
             after = i + len(needle)
             if after < len(block) and block[after] in (0x01, 0x02, 0x03):
                 start = i + 1
-                splices.append((start, start + len(raw), en_encode(english)))
+                splices.append((start, start + len(raw) + 1, en_encode(english)))
             i = block.find(needle, i + 1)
     return splices
 
