@@ -42,17 +42,15 @@ def decode_markup(data):
             out.append("\\n"); i += 1
         elif b == 0x03 and i + 1 < n:
             out.append(f"<03:{data[i+1]:02x}>"); i += 2
-        elif b == 0x04:
-            out.append("<04>"); i += 1
+        elif b == 0x04:                      # cursor-right = the rendered space (0x04)
+            out.append(" "); i += 1
         elif b == _MIDDOT:
             out.append("/"); i += 1
         elif b == _LONGV:
             out.append("~"); i += 1
         elif b in _GLYPH:
             out.append(_GLYPH[b]); i += 1
-        elif b == 0x20:
-            out.append(" "); i += 1
-        elif b < 0x21:                       # other lone control (incl 0x14)
+        elif b < 0x21:                       # other lone control (0x20 -> <20> = ◇)
             out.append(f"<{b:02x}>"); i += 1
         elif b <= 0x4f and i + 1 < n:        # 2-byte kanji
             out.append(kana_decode(data[i:i + 2], unknown="?")); i += 2
@@ -89,12 +87,11 @@ def encode_markup(s):
 
 
 def _encode_text(run):
-    # spaces are LITERAL 0x20 here (UI padding), not the english-codec's 0x04;
-    # split on space so en_encode never turns a space into 0x04.
+    # a space renders via 0x04 (cursor-right); 0x20 is the ◇ glyph, written as <20>.
     out = bytearray()
     for k, word in enumerate(run.split(" ")):
         if k:
-            out.append(0x20)
+            out.append(0x04)
         if not word:
             continue
         try:
