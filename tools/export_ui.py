@@ -21,8 +21,7 @@ from glodia.floppy import D88
 from glodia.uitext import decode_markup, encode_markup
 from extract_floppy import read_file
 
-JP_D88 = next(p for p in ROOT.glob("*.D88")
-              if "SystemDisk" in p.name and "_EN" not in p.name)
+JP_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk].D88"
 FILES = ["SYSTEM.TOS", "SYSTEM2.TOS", "FSYS.TOS"]
 OUT = ROOT / "script"
 CJK = lambda s: any("ぁ" <= c <= "ん" or "ァ" <= c <= "ヶ" or "一" <= c <= "鿿" for c in s)

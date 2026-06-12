@@ -20,8 +20,10 @@ from glodia.floppy import read_d88
 from glodia.uitext import encode_markup
 from extract_floppy import read_file
 
-JP_D88 = next(p for p in ROOT.glob("*.D88")
-              if "SystemDisk" in p.name and "_EN" not in p.name)
+# Fixed paths (resolved lazily in main()): importing this module must NOT touch
+# the filesystem -- the site build (make_site_data -> grow_build) imports it on CI
+# where the game data is absent.
+JP_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk].D88"
 EN_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk]_EN.D88"
 FILES = ["SYSTEM.TOS", "SYSTEM2.TOS", "FSYS.TOS"]
 
