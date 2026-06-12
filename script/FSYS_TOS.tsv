@@ -1,4 +1,5 @@
 block_off	str_off	speaker	text	english
+FSYS.TOS	0x8		 ％のＥＸＰを得た。	 ％ of EXP gained.
 FSYS.TOS	0x18		 <02>４を、手に入れた。	Got <02>４.
 FSYS.TOS	0x26		 はレベルを上げた。	 leveled up.
 FSYS.TOS	0x32		  <02>５を、手に入れた。	Got <02>５.

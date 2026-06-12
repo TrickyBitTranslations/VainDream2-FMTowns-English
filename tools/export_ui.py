@@ -61,6 +61,10 @@ def main():
         with open(path, "w", encoding="utf-8", newline="\n") as f:
             f.write("block_off\tstr_off\tspeaker\ttext\tenglish\n")
             for off, r in records(data):
+                if off == 0:
+                    # the first record is the 8-byte file magic + the first real
+                    # text record; split the magic off so its title is translatable.
+                    off, r = 8, r[8:]
                 if not translatable(off, r):
                     continue
                 bo, so = fname, f"{off:#x}"

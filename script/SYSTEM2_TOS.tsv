@@ -1,4 +1,5 @@
 block_off	str_off	speaker	text	english
+SYSTEM2.TOS	0x8		<03:57>武器の種類<03:05><03:54>熟練レベル	<03:57>Weapon types<03:05><03:54>Skill
 SYSTEM2.TOS	0x1f		<03:56> 剣<14><14>類	<03:56> Sword
 SYSTEM2.TOS	0x29		<03:56> 長 剣 類	<03:56> Long sword
 SYSTEM2.TOS	0x35		<03:56> 斧<14><14>類	<03:56> Axe

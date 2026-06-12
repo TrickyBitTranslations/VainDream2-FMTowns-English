@@ -55,8 +55,13 @@ def rebuild(jp_fs, fname, tr):
     data = read_file(jp_fs, fname)
     out, off = [], 0
     for r in data.split(b"\x00"):
-        eng = tr.get((fname, f"{off:#x}"))
-        out.append(encode_markup(eng) if eng else r)
+        if off == 0:
+            # first record = 8-byte file magic + first text (translatable at 0x8)
+            eng = tr.get((fname, "0x8"))
+            out.append(r[:8] + encode_markup(eng) if eng else r)
+        else:
+            eng = tr.get((fname, f"{off:#x}"))
+            out.append(encode_markup(eng) if eng else r)
         off += len(r) + 1
     return b"\x00".join(out)
 
