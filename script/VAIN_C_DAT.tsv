@@ -511,26 +511,26 @@ block_off	str_off	speaker	text	english
 0x42672	0x6d1	ウォーリック	待ってくれ、シュタイナー。	{WARRICK}\nWait, {STEINER}.
 0x42672	0x6f7	シュタイナー	甘いな、ウォーリック。\n今更、共に戦えとでも言うのか。\n俺には、俺のやり方がある。\n俺のやり方で、魔神にケリを付ける。\nシュタイナー\n・・・さらばだ、ウォーリック。	{STEINER}\nNaive, {WARRICK}.\nYou'd have us fight as one now?\nI have my own way.\nI'll end the {DEMON GOD} my way.\p{STEINER}\nFarewell, {WARRICK}.
 0x42672	0x794	ウォーリック	待て、シュタイナー。\nみんな、シュタイナーを追うぞ。	{WARRICK}\nWait, {STEINER}.\nEveryone, after {STEINER}!
-0x42b94	0x20	シュタイナー	うわぁぁぁぁぁぁっ！	
-0x42b94	0x76	ウォーリック	これは・・・シュタイナーの３剣７！	
-0x42b94	0xc9	シュタイナー	・・・聞こえるか、ウォーリック。\n・・・後は・・・お前達が・・・・・。	
-0x42b94	0x179		黒竜の長剣を引き抜いた。	
+0x42b94	0x20	シュタイナー	うわぁぁぁぁぁぁっ！	{STEINER}\n{AAAAAAH}!
+0x42b94	0x76	ウォーリック	これは・・・シュタイナーの３剣７！	{WARRICK}\nThis is... {STEINER}'s sword!
+0x42b94	0xc9	シュタイナー	・・・聞こえるか、ウォーリック。\n・・・後は・・・お前達が・・・・・。	{STEINER}\nCan you hear me, {WARRICK}{...}\nThe rest... is up to you all.{...}.
+0x42b94	0x179		黒竜の長剣を引き抜いた。	Drew the Black Dragon longsword.
 0x42cc6	0x17	セス	・・・感じる。\nこのすぐ奥に・・・いるわ。\nセス\nみんな、守護騎士の装備は付けてる？普通の武器では、まったく相手にならないわよ。	...I can feel it.\nIt's right up ahead... it's there.\p{SETH}\nEveryone, are you wearing the\n{GUARDIAN}'s gear? Ordinary weapons\nwon't even scratch it.
-0x42e43	0x8		［ドード］\nぐおおおおおおおっ。\nこっ・・・こざかしい、人間共がぁぁぁっ。	
-0x42e43	0x45		［ウォーリック］\n逃すかっ！	
-0x42e43	0x5f		［レイナ］\nだめよウォーリック。\nあれは瞬間移動の時に出る結界。\nあの結界を突き破って飛び込むなんて、自殺行為よ。	
-0x42e43	0xb9		［ライド］\n・・・ここまで来て、見逃すかよっ。	
-0x42e43	0xe2		［ライド］\nぬあぁぁぁぁぁぁぁぁぁぁっ。	
-0x42e43	0x101		［ドード］\n・・・おっ・・・お前は・・・・・。	
-0x42e43	0x134		［ライド］\n俺はお前に取り付かれ死んだ神官竜・・・バーダルの守護騎士・・・ライドだ。	
-0x42e43	0x185		［ドード］\n・・・ゴフッ。\n・・・こっ・・・このままでは・・・。	
-0x42e43	0x1ca		［ライド］\n・・・すまんな、ウォーリック。\n一緒に行けるのは・・・ここまでの様だ・・・。	
-0x42e43	0x246		［レイナ］\nだめよ。\nもう、呪文は完成してるわ。	
-0x42e43	0x29c		［魔神］\n・・・こしゃくな・・・竜の守護騎士。\n［魔神］\nあの時はメーフィスとアスタルトに不覚をとり、この世界を去ったけど・・・。	
-0x42e43	0x312		［魔神］\n・・・今回はどうかしら。	
-0x42e43	0x336		［魔神］\nアスタルトは完全に、我が体内に封じ・・・メーフィスは動けぬ。	
-0x42e43	0x375		［魔神］\n蘇生中のメーフィスなど、我が敵ではない。\n［魔神］\n最大の敵は、神竜の加護を受けし貴方達、守護騎士。	
-0x42e43	0x3da		［魔神］\n・・・貴方達に・・・神、自ら祝福を与えよう。	
+0x42e43	0x8		［ドード］\nぐおおおおおおおっ。\nこっ・・・こざかしい、人間共がぁぁぁっ。	{DODE}\nGwooooooooh!\nYou... you insolent humans!
+0x42e43	0x45		［ウォーリック］\n逃すかっ！	{WARRICK}\nYou won't escape!
+0x42e43	0x5f		［レイナ］\nだめよウォーリック。\nあれは瞬間移動の時に出る結界。\nあの結界を突き破って飛び込むなんて、自殺行為よ。	{REINA}\nNo, {WARRICK}!\nThat barrier forms when it teleports.\nThrowing yourself through it\nwould be suicide.
+0x42e43	0xb9		［ライド］\n・・・ここまで来て、見逃すかよっ。	{RIDE}\n...After coming this far,\nyou think I'll let it go?
+0x42e43	0xe2		［ライド］\nぬあぁぁぁぁぁぁぁぁぁぁっ。	{RIDE}\nNuoaaaaaaaaaaaah!
+0x42e43	0x101		［ドード］\n・・・おっ・・・お前は・・・・・。	{DODE}\n...Yo... you are.{...}.
+0x42e43	0x134		［ライド］\n俺はお前に取り付かれ死んだ神官竜・・・バーダルの守護騎士・・・ライドだ。	{RIDE}\nI am the priest dragon you possessed\nand killed... {BARDAL}'s guardian\nknight... {RIDE}.
+0x42e43	0x185		［ドード］\n・・・ゴフッ。\n・・・こっ・・・このままでは・・・。	{DODE}\n...Goff.\n...At... at this rate...
+0x42e43	0x1ca		［ライド］\n・・・すまんな、ウォーリック。\n一緒に行けるのは・・・ここまでの様だ・・・。	{RIDE}\n...Forgive me, {WARRICK}.\nIt seems this is as far\nas I can go with you...
+0x42e43	0x246		［レイナ］\nだめよ。\nもう、呪文は完成してるわ。	{REINA}\nNo!\nThe spell is already complete.
+0x42e43	0x29c		［魔神］\n・・・こしゃくな・・・竜の守護騎士。\n［魔神］\nあの時はメーフィスとアスタルトに不覚をとり、この世界を去ったけど・・・。	{DEMON GOD}\n...Impudent... dragon's guardian\nknight.\np {DEMON GOD}\nLast time I was bested by {MEPHIS}\nand {ASTARTE} and left this world...
+0x42e43	0x312		［魔神］\n・・・今回はどうかしら。	{DEMON GOD}\n...But what of this time?
+0x42e43	0x336		［魔神］\nアスタルトは完全に、我が体内に封じ・・・メーフィスは動けぬ。	{DEMON GOD}\nAstarte is sealed completely\nwithin my body... and {MEPHIS}\ncannot move.
+0x42e43	0x375		［魔神］\n蘇生中のメーフィスなど、我が敵ではない。\n［魔神］\n最大の敵は、神竜の加護を受けし貴方達、守護騎士。	{DEMON GOD}\nA reviving {MEPHIS} is no enemy\nof mine.\p{DEMON GOD}\nMy greatest foes are you,\nguardian knights, blessed by\nthe {DIVINE DRAGON}.
+0x42e43	0x3da		［魔神］\n・・・貴方達に・・・神、自ら祝福を与えよう。	{DEMON GOD}\n...To you... a god shall grant\nhis own blessing.
 0x430b9	0x2		嘉俺［アスタルト］\n・・・もうこの世界には未練はなかろう。\n私はお前に屈し、お前はあの守護騎士達に屈したのだ。	{ASTARTE}\nNo ties bind you to this world now.\nI fell to you, you to the\nguardian knights.
 0x430b9	0x74		［アスタルト］\n共に帰ろう。\n後はメーフィスや神官竜・・・そして、あの守護騎士達に任せて。	{ASTARTE}\nLet us return.\nLeave the rest to {MEPHIS}, the\npriest dragon, and the knights.
 0x43161	0x30		ベイグ王\nここの眺めはいつ見てもいい。	King Veig\nThis view never gets old.

@@ -1366,18 +1366,18 @@ block_off	str_off	speaker	text	english
 0x6b9d9	0x48a		［メーフィス］\nウォーリックよ。\nこれで私は、いつもお前と共にある。\nいつでもお前の力になろう。	{WARRICK}.\nNow I shall always be at your side.\nI will lend you my strength whenever\nyou need it.
 0x6b9d9	0x4ce		［メーフィス］\nしかし、これだけは忘れるな。\n神竜の力を秘めているとしても、それは装備にすぎない。\n［メーフィス］\nすべては使う者の心しだい。\n・・・わかっているな、ウォーリック。	But never forget this.\nEven holding the power of the\nDivine Dragon, it is only equipment.\n\p{MEPHIS}\nAll rests on the heart of the one who\nwields it.\n...You understand, {WARRICK}.
 0x6b9d9	0x554		［メーフィス］\n・・・後は頼んだぞ。\n私はもう少し、休ませてもらおう。	...The rest is in your hands.\nI shall rest a while longer.
-0x6bd18	0x16		ウィズバスキー\n・・・それより、そこの兄ちゃん。\nいい剣を持ってるじゃないか。\nちょっと、俺に見せてもらえないか？	
-0x6bd18	0x70	ライド	えっ、俺のこの剣の事か！？\nダメだ、ダメだ。\n他の者に、この剣は触らせたくない。	
-0x6bd18	0xb6		ウィズバスキー\nもったいないのぉ。\nその大剣・・・よく手入れされているが、かなりガタがきておる。\n今なら、無料でなおしてやるぞ。	
-0x6bd18	0x116	ライド	うぅぅぅぅぅぅぅぅぅぅん。	
-0x6bd18	0x134		・なおしてもらう。\n・ことわる。	
-0x6bd18	0x147		ウィズバスキー\nそうか、そりゃ残念だな。\nまぁ、気が変わったらいつでも来いや。	
-0x6bd18	0x181		ウィズバスキー\n俺みたいな鍛冶屋は、凄い剣を目の前にするとドキドキしちゃうよ。\nどれどれ、見せてもらおうか。	
-0x6bd18	0x1d9		ライドの大剣を渡した。	
-0x6bd18	0x1fe		ウィズバスキー\nでは、御拝見っと。\n・・・・・こッ、これはッ！？\nまさか・・・これは・・・この剣はッ！！	
-0x6bd18	0x260	ライド	おじさん。\n悪いんだが、急いでもらいたいんだがなぁ。	
-0x6bd18	0x296		わッ・・・わかった。\nすぐに仕上げるから、ちょっと待ってくれないか。\nこんなの相手にするのは、始めてなんだ。\nウィズバスキー\n・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・。\nウィズバスキー\nできたよ。\nこれで、攻撃力は上がったはずだ。	
-0x6bd18	0x344	ライド	サンキュー、おじさん。\n感謝するぜ。	
-0x6bd18	0x374		ライドの大剣を受け取った。	
-0x6bd18	0x392		ウィズバスキー\n俺もいい経験させてもらったよ。\nありがとよ、兄ちゃん。\nあんたは剣の手入れがいいから、その剣も喜んでいたぜ。	
-0x6bd18	0x3ea		ウィズバスキー\nフローディーテの森には、木の妖精ドリアードが住んでいる。\n彼女達を怒らせると、えらい目にあいぞ。	
+0x6bd18	0x16		ウィズバスキー\n・・・それより、そこの兄ちゃん。\nいい剣を持ってるじゃないか。\nちょっと、俺に見せてもらえないか？	Wizbasky\n...Anyway, you there, young fella.\nThat's a fine sword you've got.\nMind letting me take a look at it?
+0x6bd18	0x70	ライド	えっ、俺のこの剣の事か！？\nダメだ、ダメだ。\n他の者に、この剣は触らせたくない。	{RIDE}\nWhat, you mean this sword of mine!?\nNo. No way.\nI won't let anyone else touch it.
+0x6bd18	0xb6		ウィズバスキー\nもったいないのぉ。\nその大剣・・・よく手入れされているが、かなりガタがきておる。\n今なら、無料でなおしてやるぞ。	Wizbasky\nWhat a waste.\nThat great sword... it's well cared\nfor, but it's seen better days.\nI'll fix it for free, here and now.
+0x6bd18	0x116	ライド	うぅぅぅぅぅぅぅぅぅぅん。	{RIDE}\nNnnnnnnnnnngh.
+0x6bd18	0x134		・なおしてもらう。\n・ことわる。	・Let him fix it.\n・Refuse.
+0x6bd18	0x147		ウィズバスキー\nそうか、そりゃ残念だな。\nまぁ、気が変わったらいつでも来いや。	Wizbasky\nI see. That's a shame.\nWell, come back anytime if you\nchange your mind.
+0x6bd18	0x181		ウィズバスキー\n俺みたいな鍛冶屋は、凄い剣を目の前にするとドキドキしちゃうよ。\nどれどれ、見せてもらおうか。	Wizbasky\nA smith like me gets all worked up\nface to face with a mighty sword.\nNow then, let's have a look.
+0x6bd18	0x1d9		ライドの大剣を渡した。	Handed over {RIDE}'s great sword.
+0x6bd18	0x1fe		ウィズバスキー\nでは、御拝見っと。\n・・・・・こッ、これはッ！？\nまさか・・・これは・・・この剣はッ！！	Wizbasky\nNow, let's take a look...\n{...}..Th-this is...!?\nIt can't be... this... this sword!!
+0x6bd18	0x260	ライド	おじさん。\n悪いんだが、急いでもらいたいんだがなぁ。	{RIDE}\nHey, old man.\nSorry, but I'd like you to make it\nquick.
+0x6bd18	0x296		わッ・・・わかった。\nすぐに仕上げるから、ちょっと待ってくれないか。\nこんなの相手にするのは、始めてなんだ。\nウィズバスキー\n・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・。\nウィズバスキー\nできたよ。\nこれで、攻撃力は上がったはずだ。	R-right... got it.\nI'll finish it fast, so wait a\nmoment.\nIt's my first time handling one\nlike this.\p Wizbasky\n.{...}..{...}..{...}..{...}..{...}..{...}...\n.{...}..{...}..{...}..{...}..{...}..{...}...\p Wizbasky\nIt's done.\nIts attack power should be up now.
+0x6bd18	0x344	ライド	サンキュー、おじさん。\n感謝するぜ。	{RIDE}\nThanks, old man.\nI'm grateful.
+0x6bd18	0x374		ライドの大剣を受け取った。	Received Ride's greatsword.
+0x6bd18	0x392		ウィズバスキー\n俺もいい経験させてもらったよ。\nありがとよ、兄ちゃん。\nあんたは剣の手入れがいいから、その剣も喜んでいたぜ。	Wizbaskey\nThat was a fine experience for me.\nThank you kindly, lad.\nYou care for your blade well, so\nthe sword was happy too.
+0x6bd18	0x3ea		ウィズバスキー\nフローディーテの森には、木の妖精ドリアードが住んでいる。\n彼女達を怒らせると、えらい目にあいぞ。	Wizbaskey\nThe wood fairies, the {DRYAD}, dwell\nin {FRODITE FOREST}.\nAnger them and you'll be in for\na world of hurt.
