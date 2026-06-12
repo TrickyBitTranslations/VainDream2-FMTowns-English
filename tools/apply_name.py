@@ -16,7 +16,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import reinsert
 from validate_suggestion import parse_form
 
-PN = ROOT / "tools" / "patch_names.py"
+NAMES_TSV = ROOT / "script" / "NAMES.tsv"
 PLACEHOLDER = "未使用"
 
 
@@ -54,18 +54,20 @@ def main():
     # NOTE: no name-table byte budget anymore — the build grows DATA.BIN on the
     # floppy (FAT12) to fit the whole table, so romanizations can be any length.
     # Only the charset (checked above) and the term existing matter.
-    src = PN.read_text(encoding="utf-8")
-    line = f'    "{jp}": "{proposed}",'
-    pat = re.compile(r'^    "' + re.escape(jp) + r'": ".*?",.*$', re.M)
-    if pat.search(src):
-        src = pat.sub(line, src, count=1)
-    else:
-        anchor = f'    "{PLACEHOLDER}":'
-        assert anchor in src, "placeholder anchor missing in patch_names.py"
-        src = src.replace(anchor, line + "\n" + anchor, 1)
-    PN.write_text(src, encoding="utf-8", newline="\n")
-    print(f"Set {jp} -> {proposed} (token 0x{tok:02x}). "
-          f"Name table at {new}/{orig} bytes for the rewritten span. "
+    # The names live in script/NAMES.tsv (the single source patch_names loads).
+    so = f"{tok:#x}"
+    rows = NAMES_TSV.read_text(encoding="utf-8").splitlines()
+    hit = False
+    for i, row in enumerate(rows[1:], start=1):
+        c = row.split("\t")
+        if len(c) >= 5 and c[1] == so:
+            c[4] = proposed
+            rows[i] = "\t".join(c[:5])
+            hit = True
+            break
+    assert hit, f"token {so} not found in NAMES.tsv"
+    NAMES_TSV.write_text("\n".join(rows) + "\n", encoding="utf-8", newline="\n")
+    print(f"Set {jp} -> {proposed} (token {so}) in NAMES.tsv. "
           f"Takes effect in the next floppy build.")
 
 

@@ -22,118 +22,22 @@ from glodia.english import encode as en
 EN_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk]_EN.D88"
 TABLE_OFF = 4123 + 8       # NAME.P body inside DATA.BIN (after "NAME.P" header)
 
-# keyd by ORIGINAL decoded text - provisional romanizations, adjust freely
-# (sentence case; {NAME} lookups in reinsert.py are case-insensitive)
-TRANSLATIONS = {
-    "ウォーリック": "Warrick",
-    "レイナ": "Reina",
-    "ファーニス": "Furnis",
-    "ライド": "Ride",
-    "セシリア": "Cecilia",
-    "ブラフォード": "Blaford",
-    "セス": "Seth",
-    "ブージ": "Booj",
-    "ナッツ": "Nutts",
-    "大婆様": "Granny",
-    "ダ　ン": "Dan",
-    "ランバート": "Lambert",
-    "キャロル": "Carol",
-    "ベイグ": "Veig",
-    "バーナー王子": "Prince Berner",
-    "いらっしゃい": "Welcome",
-    "へへっ": "Haha",
-    "お兄ちゃん": "Bro",
-    "の武器屋": "Weapon Shop",
-    # role / title tokens — used as highlighted box-title prefixes before a
-    # literal given name (e.g. {Swordmaiden} Sherry); highlight carries to \n.
-    # NAME.P now lives in the carved segment (no size cap), so romanize fully.
-    "女剣士": "Swordmaiden",
-    "剣士": "Swordsman",
-    "看護兵": "Medic",
-    "ドラゴン　ライダー": "Dragon Rider",
-    "を受け取った。": "received",
-    "重装騎兵団": "Heavy Cavalry Corps",
-    "重装騎兵": "Heavy Cavalry",
-    "聖騎士団": "Paladins",
-    "聖騎士": "Paladin",
-    "騎士団": "Knight Order",
-    "ブレイス": "Brace",
-    "グリーク": "Greek",
-    "パーシャ": "Pasha",
-    "エリオット": "Elliott",
-    "ゼロ船長": "Captain Zero",
-    "ポップ": "Pop",
-    "タップ": "Tap",
-    "ウィルディース艦長": "Captain Wildeath",
-    "シンシア": "Cynthia",
-    "カル伯爵": "Count Cal",
-    "クレイボーン": "Claybourne",
-    "マージス": "Margis",
-    "シュタイナー": "Steiner",
-    "竜騎士": "Dragon Knight",
-    "の宿屋": "Inn",
-    "の道具屋": "Item Shop",
-    "の防具屋": "Armor Shop",
-    "の魔法屋": "Magic Shop",
-    # --- characters / monsters ---
-    "ドリアード": "Dryad", "ドード": "Dode", "ビアガン": "Biagan", "バーグ": "Berg",
-    "カーム": "Calm", "ナイトメア": "Nightmare", "パチュンガ": "Pachunga",
-    "ライランド": "Ryland", "クーレイア": "Kuleia", "アスタルト": "Astarte",
-    "メーフィス": "Mephis", "フロスト": "Frost", "パディッシュ": "Paddish",
-    "バーダル": "Bardal", "カーネル": "Karnel", "ブレイ": "Brei", "フォーゲル": "Vogel",
-    "ルード": "Rude", "ダイン": "Dyne", "ピローム": "Pirom", "ダイガーン": "Daigarn",
-    "モビーディック": "Moby Dick", "ウィルディース": "Wildeath", "ゼロ": "Zero",
-    "ローラ": "Laura", "クラウス": "Klaus", "ソウルン": "Souln", "アトォム": "Atom",
-    "パンツァードラグーン": "Panzer Dragoon", "ローラ ": "Laura",
-    # --- places ---
-    "クラウスの村": "Klaus Village", "氷の洞窟": "Ice Cavern", "レジーナの森": "Regina Forest",
-    "ジーク王国": "Zeke Kingdom", "ジーク城": "Zeke Castle", "ジーク": "Zeke",
-    "カナール採掘場": "Canal Mine", "マーズトンネル": "Mars Tunnel", "マーズ砦": "Mars Fort",
-    "メインキャンプ": "Main Camp", "セルーシュ王国": "Serush Kingdom",
-    "セルーシュ城": "Serush Castle", "セルーシュ": "Serush", "地下礼拝堂": "Catacombs",
-    "地下水道": "Sewers", "神殿遺跡": "Temple Ruins", "紫水晶の丘": "Amethyst Hill",
-    "シルバーホーン": "Silverhorn", "砂の城": "Sand Castle", "砂の海": "Sand Sea",
-    "石の王国": "Stone Kingdom", "ドワーフの洞窟": "Dwarf Cave", "マージスの洞窟": "Margis Cave",
-    "フローディーテの森": "Frodite Forest", "鎧の塔": "Armor Tower", "地下宮殿": "Underground Palace",
-    "タリアトフ大陸": "Taliatov", "バッカス２世号": "Bacchus II", "クイーンストーカー号": "Queen Stalker",
-    # --- roles / titles / monsters ---
-    "守護騎士": "Guardian", "神官竜": "Priest Dragon", "神竜": "Divine Dragon", "魔神": "Demon God",
-    "魔導士": "Mage", "ドワーフ": "Dwarf", "デーモン": "Demon", "ハンター": "Hunter",
-    "魔物": "Monster", "宮廷魔術師": "Court Mage", "大神官": "High Priest", "ワイバーン": "Wyvern",
-    "水晶竜": "Crystal Dragon", "神官戦士": "Templar", "騎士達": "Knights",
-    "ダークエルフ": "Dark Elf", "ミノタウロス": "Minotaur", "精霊達": "Spirits", "砂鯨": "Sand Whale",
-    "船長": "Captain", "キメラ": "Chimera", "砂船": "Sand Ship", "潜砂艦": "Sand Sub", "海賊": "Pirate",
-    "エルフ": "Elf", "騎士": "Knight", "メデューサ": "Medusa", "リッチ": "Lich", "ドラグーン": "Dragoon",
-    "マスター": "Master", "精霊": "Spirit", "亡霊": "Ghost", "八賢者": "Eight Sages", "見張り": "Guard",
-    "団長": "Commander", "金竜": "Gold Dragon", "銀竜": "Silver Dragon", "白竜": "White Dragon",
-    "緑竜": "Green Dragon", "黒竜": "Black Dragon", "炎竜": "Fire Dragon", "水竜": "Water Dragon",
-    "水晶の角": "Crystal Horn", "パラサイト　デーモン": "Parasite Demon", "女の子": "Girl",
-    # --- items / magic ---
-    "黄金のナイフ": "Golden Knife", "ポーション": "Potion", "天の水晶": "Sky Crystal",
-    "地の水晶": "Earth Crystal", "ブーツ": "Boots", "ミスリル": "Mythril", "ジオクリスタル": "Geo Crystal",
-    "指輪": "Ring", "ロッド": "Rod", "薬草袋": "Herb Pouch", "薬草": "Herb", "ナイフ": "Knife",
-    "ローブ": "Robe", "マント": "Cloak", "ライトニング　ボルト": "Lightning Bolt", "テミス": "Themis",
-    "暗黒魔術": "Dark Magic", "魔導弾": "Magic Bolt", "遠見の水晶": "Scrying Crystal",
-    "アーマー": "Armor", "メイル": "Mail", "ソード": "Sword", "アックス": "Axe", "金属製": "Metal",
-    "紫水晶": "Amethyst", "水晶": "Crystal", "ショップ": "Shop", "換金": "Exchange",
-    "３剣７": "Sword", "３鎧７": "Armor", "３斧７": "Axe", "３槍７": "Spear", "３盾７": "Shield",
-    # --- common phrases / UI fragments / suffixes ---
-    "おじさん": "Mister", "おばさん": "Lady", "あんちゃん": "Bud", "おじちゃん": "Mister",
-    "が仲間に加わった。": " joined the party.", "が仲間から外れた。": " left the party.",
-    "やめる": "Cancel", "・品物を見せて。": "・Show your wares.", "・話をしよう。": "・Let's talk.",
-    "・持物を売ります。": "・Sell items.", "・テミスを換金して。": "・Exchange Themis.",
-    "・瞬間移動したい。": "・Teleport.", "・お店を出よう。": "・Leave the shop.",
-    "ありがとうございました": "Thank you kindly.", "ありがとう": "Thank you", "じゃ。": "Well then.",
-    "キャンプ": "Camp", "宝箱": "Chest", "魔法陣": "Magic Circle",
-    "・・・・・": ".....", "・・・": "...",
-    "ォォォォォォォ": "Aaaaaah", "ぇぇぇぇぇぇぇ": "Eeeeeeh",
-    "天の法皇よ": "O Pope of the Heavens", "地の法皇よ。": "O Pope of the Earth.",
-    "魔導の法たる我に力を与えたまえ。": "By the law of magic, grant me power.",
-    "魔の根源たるその炎で、我が敵を焼きつくせ。": "With the flame at evil's root, burn my foes to ash.",
-    # left untranslated: grammar particles (ますか/です。/んです。/ですか？ — inserted
-    # mid-sentence, don't map to English standalone), ∪, and the binary tail record.
-    "未使用": "X",          # placeholder records, left untranslated
-}
+# Name/term translations are sourced from script/NAMES.tsv -- the single, editable
+# source (see tools/export_names.py). Keyed by the original decoded Japanese, exactly
+# matching the NAME.P records full_name_table() and the {NAME} token map look up.
+NAMES_TSV = ROOT / "script" / "NAMES.tsv"
+
+
+def _load_translations():
+    out = {}
+    for line in NAMES_TSV.read_text(encoding="utf-8").splitlines()[1:]:
+        c = line.split("\t")
+        if len(c) >= 5 and c[4].strip():
+            out[c[3]] = c[4]
+    return out
+
+
+TRANSLATIONS = _load_translations()
 PAD_RECORD = "未使用"       # last placeholder absorbs the remaining slack
 
 

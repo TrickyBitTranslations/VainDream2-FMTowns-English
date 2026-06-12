@@ -31,7 +31,7 @@ into a TSV, a translator-filled `english` column, and a re-encoder that writes i
 | Surface | Lives in | TSV | Extractor | Re-encoder |
 |---------|----------|-----|-----------|-----------|
 | **Dialogue** (~4000 lines) | CD `VAIN_{A,B,C,S}.DAT` dlz blocks | `script/VAIN_*_DAT.tsv` | `export_script.py` | `reinsert.py` → `patch_cd.py` |
-| **Names / terms** | `DATA.BIN` NAME.P table | (inline dict) | — | `patch_names.py` |
+| **Names / terms** | `DATA.BIN` NAME.P table | `script/NAMES.tsv` | `export_names.py` | `patch_names.py` |
 | **Item names** | floppy `ITEM.TOS` | (inline dict) | — | `patch_items.py` |
 | **UI / system text** | floppy `SYSTEM.TOS`, `SYSTEM2.TOS`, `FSYS.TOS` | `script/SYSTEM_TOS.tsv`, `SYSTEM2_TOS.tsv`, `FSYS_TOS.tsv` | `export_ui.py` | `patch_ui.py` |
 
@@ -39,8 +39,16 @@ All text uses the game's custom 1-byte codec (`glodia/kana.py` for the JP source
 `glodia/english.py` for the English build). Dialogue `{Name}` tokens and the markup for
 control codes are documented in CONTRIBUTING.md.
 
-The website (`script/*.tsv` on GitHub Pages) renders every `script/*.tsv` uniformly, so a
-new surface shows up on the site automatically once its TSV is committed.
+`patch_names.TRANSLATIONS` is loaded from `script/NAMES.tsv` and is the single source for
+the NAME.P table, the dialogue `{Name}` token map (`reinsert.name_token_map`), and the
+glossary handed to translators. Edit `NAMES.tsv` (or the `/apply` bot does via
+`apply_name.py`); every consumer reads it through the `TRANSLATIONS` dict.
+
+**Website coverage** (`tools/make_site_data.py`): the dialogue TSVs render in the main
+script view; names render in the dedicated **Names tab** (built from `TRANSLATIONS`). The
+site script view only ingests rows whose `block_off` is a `0x…` dlz offset, so the UI
+`*_TOS.tsv` rows are committed but **not yet shown on the site** — surfacing them needs a
+`make_site_data` pass + a frontend tab (a known follow-up).
 
 ## The UI text surface (worked example)
 
