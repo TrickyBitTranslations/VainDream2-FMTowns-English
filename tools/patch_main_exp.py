@@ -111,6 +111,18 @@ PATCHES = [  # (offset in MAIN.EXP, expected original, replacement)
     (0x3C50, bytes.fromhex("bb00d40000"), bytes.fromhex("bb00000000")),
     # @0x3c55: call 0x42b6 -> call the carved item-lookup variant @0xa03
     (0x3C55, bytes.fromhex("e85c060000"), bytes.fromhex("e8a9cdffff")),
+
+    # --- item names half-width. The shared string renderer @0x42a4 takes the width
+    # from BH ([0x2d3]: 1=half, 2=full). General-text entries are forced to bh=1
+    # above (0x448e/0x44a3), but the ITEM path (lookup @0x3c55 -> the render tail
+    # `jmp 0x42a4` @0x3a74) keeps the CALLER's bh=2, so long names ("Leather Armor")
+    # wrapped. Verified live: at 0x3a74, edx=0x3ef2 (item scratch), ebx=0x0204 (bh=2).
+    # Trampoline that JMP through `mov bh,1` so ONLY item names go half-width
+    # (0x42a4 zeroes BL itself and uses BH only for width -> safe).
+    # trampoline @0xa70 (runtime 0x870): mov bh,1 ; jmp 0x42a4
+    (0xA70, b"\x00" * 7, bytes.fromhex("b701" "e92d3a0000")),
+    # item render tail @0x3c74 (runtime 0x3a74): jmp 0x42a4 -> jmp 0x870 (trampoline)
+    (0x3C74, bytes.fromhex("e92b080000"), bytes.fromhex("e9f7cdffff")),
 ]
 
 
