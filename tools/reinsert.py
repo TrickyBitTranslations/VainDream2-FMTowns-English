@@ -214,7 +214,11 @@ def spans_event_code(block, start, end):
     return False
 
 
-MAX_LINE = 54           # visual half-width cells per dialogue-box line
+MAX_LINE = 37           # visual half-width cells per dialogue-box line. The
+                        # overworld field-NPC box is ~37 half-width cells wide
+                        # (live-measured: a line wraps mid-word at the 38th cell);
+                        # longer lines wrap badly and tall records scroll -- break
+                        # with \n and page with \p to keep ~3 body lines per page.
 
 
 def visual_lines(text, names):
