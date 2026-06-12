@@ -41,31 +41,49 @@ def rebuild(archive_bytes, overrides):
 def patch_offset_table(exe, archive, old_offsets, new_offsets, old_size, new_size):
     """Repoint `archive`'s scene table in MAIN.EXP (in place, length-preserving).
 
-    The table is `[u32 member-offset]* [u32 archive-size terminator]`; entries
-    may repeat (scenes sharing a block). We remap by VALUE: every entry equal to
-    an old member offset becomes its new offset; the size terminator becomes the
-    new size. Walks consecutive valid entries from the table base so we touch
-    exactly the table and nothing after it. Returns new bytes + entries changed.
+    The table is `[u32 offset]* [u32 archive-size terminator]`. Entries are byte
+    offsets INTO the archive -- mostly member starts, but some are *sub-offsets*
+    that point inside a member (a scene that begins partway through a block).
+    EVERY entry must shift by however many bytes the (translated) members before
+    it grew or shrank, not just the ones that equal a member start. So remap each
+    entry by the byte-delta of the member that CONTAINS it; the terminator
+    becomes the new archive size.
+
+    (The previous version remapped only exact member-start values and bailed at
+    the first sub-offset it didn't recognise -- leaving the rest of the table AND
+    the size terminator stale. For an archive that resized, that pointed every
+    scene indexed past the first sub-offset at the wrong place: e.g. VAIN_S left
+    64 stale entries, so a scene load computed a garbage sector and the CD BIOS
+    trapped. Member starts still map exactly, sub-offsets map start+delta.)
     """
-    import struct
+    import struct, bisect
     base = TABLES[archive]
     # hard upper bound: the next table (tables are clustered) or EOF, so a walk
     # never bleeds into an adjacent archive's table
     higher = [t for t in TABLES.values() if t > base]
     end = min(higher) if higher else len(exe)
-    remap = dict(zip(old_offsets, new_offsets))
-    remap[old_size] = new_size
-    valid = set(old_offsets) | {old_size}
+    pairs = sorted(zip(old_offsets, new_offsets))        # (old_start, new_start)
+    olds = [o for o, _ in pairs]
+
+    def remap(v):
+        if v == old_size:
+            return new_size                              # archive-size terminator
+        j = bisect.bisect_right(olds, v) - 1             # member containing v
+        if j < 0:
+            return v
+        o, n = pairs[j]
+        return n + (v - o)                               # start + in-member delta
+
     exe = bytearray(exe)
     i = changed = 0
     while base + (i + 1) * 4 <= end:
         pos = base + i * 4
         v = struct.unpack("<I", exe[pos:pos + 4])[0]
-        if v not in valid:
-            break                       # past the table
-        nv = remap[v]
+        nv = remap(v)
         if nv != v:
             exe[pos:pos + 4] = struct.pack("<I", nv)
             changed += 1
         i += 1
+        if v == old_size:                                # terminator ends the table
+            break
     return bytes(exe), i, changed

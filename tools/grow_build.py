@@ -185,8 +185,20 @@ def main(demo=False):
 
     # --- CD: place grown archives, relocating as needed ---
     vol, recs, maxsec = iso_geometry(iso)
-    # free regions (start_sec, n_sec): the end gap before track 2
-    free = [(maxsec, TRACK1_SECTORS - maxsec)]
+    # The data track's recorded MODE1 sectors stop ~150 (the audio-track pregap)
+    # before track 2 (TRACK1_SECTORS) -- sectors past DATA_END are blank, with no
+    # sync header, so the CD model can't read them. The engine reads an archive's
+    # whole extent and then prefetches ONE sector past it; if any archive (or its
+    # +1 prefetch) lands in that blank pregap, the CD controller stalls forever
+    # (the new-game hang). So the allocator must keep archives AND their prefetch
+    # sector inside the recorded region. (Don't widen the volume into the pregap;
+    # widening can't make a frame-less sector readable.)
+    PREGAP = 150
+    DATA_END = TRACK1_SECTORS - PREGAP          # first blank sector (e.g. 2565)
+    GUARD = 4                                   # keep the +1 prefetch well inside
+    usable_end = DATA_END - GUARD               # archives must end at/below this
+    # free regions (start_sec, n_sec) within the recorded data region only
+    free = [(maxsec, max(0, usable_end - maxsec))]
     placements = {}                  # archive -> (lba, new_bytes, dir_rec_off, new_size)
     # first pass: in-place where it fits, collect relocations
     relocate = []
@@ -199,9 +211,26 @@ def main(demo=False):
         else:
             free.append((lba, old_sec))     # free the old extent for reuse
             relocate.append((archive, nb, rec_off))
-    # coalesce free, then first-fit the relocations (largest first)
-    def alloc(n):
+    # coalesce free, then first-fit the relocations (largest first).
+    # Coalescing is essential: the relocated archives' old extents are usually
+    # adjacent (VAIN_A/B/C sit back-to-back), and a big archive only fits once
+    # those neighbouring freed extents are merged into one region. Without it,
+    # first-fit can't place a large archive in its own (fragmented) old space and
+    # spills it to the disc tail -- into the unreadable audio pregap (new-game
+    # hang). See the DATA_END/pregap note above.
+    def coalesce():
         free.sort()
+        merged = []
+        for st, ln in free:
+            if ln <= 0:
+                continue
+            if merged and merged[-1][0] + merged[-1][1] == st:
+                merged[-1] = (merged[-1][0], merged[-1][1] + ln)
+            else:
+                merged.append((st, ln))
+        free[:] = merged
+    def alloc(n):
+        coalesce()
         for idx, (st, ln) in enumerate(free):
             if ln >= n:
                 free[idx] = (st + n, ln - n)
@@ -227,8 +256,13 @@ def main(demo=False):
             f.seek(r + 2);  f.write(struct.pack("<I", lba) + struct.pack(">I", lba))
             f.seek(r + 10); f.write(struct.pack("<I", nsz) + struct.pack(">I", nsz))
             new_maxsec = max(new_maxsec, lba + nsec)
-        # extend PVD volume size if we spilled past it
+        # extend PVD volume size if an archive now ends past the old volume.
+        # (Archives are constrained to the recorded data region above, and every
+        # sector there plus the engine's +1 prefetch has valid MODE1 framing, so
+        # no guard sectors / extent padding are needed -- just cover the data.)
         if new_maxsec > vol:
+            assert new_maxsec <= DATA_END, (
+                f"archive ends in the blank pregap ({new_maxsec} > {DATA_END})")
             r = raw_off(16 * SEC + 80)
             f.seek(r); f.write(struct.pack("<I", new_maxsec) + struct.pack(">I", new_maxsec))
             print(f"  CD: PVD volume size {vol} -> {new_maxsec} sectors")
