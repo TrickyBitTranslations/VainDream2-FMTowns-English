@@ -120,6 +120,7 @@ def main(demo=False):
                     continue
                 splices.append((a, b, reinsert.compile_english(en, tokens)))
             splices.extend(reinsert.speaker_label_splices(block, speakers))
+            splices.extend(reinsert.signoff_ff_splices(block, lines, speakers))
             for a, b, repl in sorted(splices, key=lambda s: s[0], reverse=True):
                 block[a:b] = repl
             # Decompressed-size budget. Dialogue blocks ("VD2*") share one fixed

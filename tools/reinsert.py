@@ -116,6 +116,25 @@ def speaker_label_splices(block, speakers):
     return splices
 
 
+def signoff_ff_splices(block, items, speakers):
+    """When a record's text ENDS with a bare speaker name, that name is really the
+    NEXT record's box title -- the game flows one record into the next with the
+    name as the divider, and the export over-extends the text to the separator FF.
+    That closing FF lands on the title line and (classifier patch) draws as 'F',
+    so "Kay" shows as "KayF". Strip it. Anchored to translated records ending in a
+    known speaker, so it never touches event-data byte coincidences. (Pair with a
+    `\\p` before the trailing name in the TSV so it titles a fresh page.)"""
+    names = set(speakers.values())
+    out = []
+    for str_off, english in items:
+        last = english.replace("\\p", "\\n").split("\\n")[-1].strip()
+        if last in names:
+            _start, end = string_span(block, str_off)
+            if end < len(block) and block[end] == 0xFF:
+                out.append((end, end + 1, b""))
+    return out
+
+
 def name_token_map():
     """EN name -> token byte: from NAME.P if the dump is around, else the pack."""
     data_bin = ROOT / "floppy_files" / "DATA.BIN"
@@ -310,6 +329,7 @@ def main():
             splices.append((start, end, compile_english(english, tokens)))
         labels = speaker_label_splices(block, speakers)
         splices.extend(labels)
+        splices.extend(signoff_ff_splices(block, items, speakers))
         for start, end, repl in sorted(splices, key=lambda s: s[0], reverse=True):
             block[start:end] = repl
         encoded = dlz.encode(bytes(block))
