@@ -161,132 +161,132 @@ block_off	str_off	speaker	text	english
 0x5f33e	0x76a	大婆様	気を付けて行くんじゃぞ。\nわかったな。	Go safely now.\nUnderstand?
 0x5f33e	0x793	大婆様	どうした。\n何か忘れ物か？	What is it?\nForget something?
 0x5f33e	0x7b6	ブージ	すまんな、ウォーリック。	Sorry, {Warrick}.
-0x5f886	0xe		ミール\nいらっしゃいませ。\n今日は何を買いにきたの？	
-0x5f886	0x3a		いかがいたします？	
-0x5f886	0x4d	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	
-0x5f886	0x88	ウォーリック	買物は後にするよ。	
-0x5f886	0xa8	レイナ	買物は後にするわ。	
-0x5f886	0xcc	ウォーリック	あっ、お金が足りない。	
-0x5f886	0xed	レイナ	持ち合わせがないわ。	
-0x5f886	0x112		ミール\nこのところ、品物不足なのよね。\nジーク王国からの問屋さんが、この間コボルドに襲われたのよ。\nポーションとかは、ここで造ってるからいいけど・・・この先、不安ね。	
-0x5f886	0x180		ミール\n旅に出るんでしょ。\n行き先で詰まったら、すぐ道具屋なり魔法屋なりに入るのよ。\nわかった。	
-0x5f886	0x1de	ウォーリック	まだ、いいや。	
-0x5f886	0x1fb	レイナ	やっぱり、いいわ。\nもうちょっと、使ってからにする。	
-0x5f886	0x224		ミール\nありがとうございました。	
-0x5f886	0x233		ミール\nああっ！\nちょうどいい時に来たわ、レイナ。\n結婚指輪、サイズ直したの届いたわよ。\nミール\n強い魔法が掛かってるから、指輪職人じゃ直せなくて、魔導具職人に頼んだのよ。\nサイズ直しで２年もかかったなんて、前代未聞ね。	
-0x5f886	0x2e9		結婚指輪を受け取った。	
-0x5f886	0x300		ミール\n薬草袋は外傷薬が数回分入っているわ。中身は生命力の増強や解毒作用のある薬草を、煎じた物が入っているの。\nちょっとやそっとの怪我なら、たちどころに治るわよ。	
-0x5f886	0x387	レイナ	これは多めに買っておきましょ。	
-0x5f886	0x3a7		ミール\nこのポーションは、多くの薬草を煮詰めて造った回復薬よ。\nただ薬草を飲むより数倍の効き目はあるわ。\nただし、一回限りだけどね。	
-0x5f886	0x412	レイナ	旅先の事を考えて買っておきたいわ。ねぇ・・・ミール、もうちょっと安くならない？	
-0x5f886	0x468		グってね、革紐でできた簡単な石投げ器よ。\n安価だし、手軽に使えるのが利点ね。ただ、鎧とかを着込んだ相手には、たいしたダメージは望めないわ。	
-0x5f886	0x4da	レイナ	安いし手軽なところがいいわね。	
-0x5f886	0x4fb		ミール\nこれは、普通の矢の三分の一ほどの長さの矢の事よ。\nこれは手で投げて使う武器で、かなり正確に敵を狙えるわ。\n値段も手ごろだと思うわよ。	
-0x5f886	0x574	レイナ	値段のわりには、威力がありそうね。	
-0x5f886	0x5a8	ファーニス	私こういう武器、得意だよ。	
-0x5f886	0x5d0	ファーニス	私、今ダート使ってるけど、けっこういいよ。	
-0x5f886	0x5fb		ミール\nこの指輪には回復の魔法が掛かっているの。\n気休め程度だけど、怪我した時即座に回復してくれるわ。\nこの値段だけに寿命も短いけどね。	
-0x5f886	0x671	レイナ	いくつか買っておきましょう。	
-0x5f886	0x68f		ミール\n革でできた、ただの靴よ。\n女性用に造られているから、かわいいデザイ	
-0x5f886	0x6c1		の物が多いでしょ。\n旅にはあまり向かないわね。	
-0x5f886	0x6f3	ファーニス	ああっ、カワイイィィィ。	
-0x5f886	0x70e		ミール\nこれは革でできた、ブーツよ。\n機能性を追究したシ	
-0x5f886	0x73d		で、履き心地がとってもいいの。\nまあ、普段生活するにはちょうどいいわね。\n男女兼用だし、よく売れているわよ。	
-0x5f886	0x798	レイナ	値段もちょうどいいかしら。	
-0x5fdf8	0x1a	ウォーリック	・・・あれっ？\nブージ、いないぞ。\nまだ帰ってないのかな。	
-0x5fdf8	0x55	ウォーリック	ブージ、おかえり。\n旅の方はどうだった！？\nウォーリック\n・・・どうしたんだ、ブージ？\n帰って来たばかりなのに武器なんか持って。	
-0x5fdf8	0xc0	ブージ	ウォーリックか。\nちょうどいい所に来てくれた。\n一緒に来てくれ。	
-0x5fdf8	0xf4	ウォーリック	一体どうしたんだよ！？\nそんなに慌てて。	
-0x5fdf8	0x120	ブージ	帰り途中、北の方角に大型のデーモンが数十匹飛んで行くのが見えた。\n様子を見に行きたい、付いて来てくれ。	
-0x5fdf8	0x17a	ウォーリック	そんなッ・・・俺、武器らしい物なんて持ってないぞぉ。	
-0x5fdf8	0x1b3	ブージ	大丈夫、デーモンを見たのは１時間ほど前だ。\n鉢合せになる事はないだろう。\nさあっ、行こう。	
-0x5fdf8	0x215		ブージが仲間に加わった。	
-0x5fdf8	0x22a	ブージ	すまんな、ウォーリック。\n一緒に行けなくて。\nそれから俺、ダ　ンを引取る事にしたよ。	
-0x5fdf8	0x26e	ウォーリック	・・・そうか。	
-0x5fdf8	0x282	ブージ	それに、狩りに連れて行こうと思っている。\n強い男にしてやりたい。	
-0x5fdf8	0x2c1		パラエ\nあらっ、ウォーリックじゃない。\nこんな朝早くどうしたの。\nカパイ	
-0x5fdf8	0x2ec		なら、見張りの当番で裏の門にいるわよ。	
-0x5fdf8	0x305		パラエ\nあらっ、ブージおかえり。\n狩りの方はどうだった？\nパラエ\nあなたも旅の生活なんかやめて、そろそろ身を固めた方がいいんじゃないかい？\nなんなら、いい人紹介しようか？	
-0x5fdf8	0x372		パラエ\n旅に出るんだってねぇ。\nまぁ、あなた達の家の事はまかせな。\nいつ帰って来てもいい様に、ちゃんと管理しとくからね。	
-0x5fdf8	0x3bf		パラエ\nレイナ。\n旅の方はうまくいってんのかい。	
-0x5fdf8	0x3ea		プーラ\nねえぇぇぇ、ウォーリック\n一緒に遊ぼぉぉ。\nお父ちゃん、見張りの当番とかで遊んでくれないんだ。	
-0x5fdf8	0x426		プーラ\nああっ、ブージ！\n今度、僕も狩りに連れてってよ。\n僕も将来、デーモン　ハンターになるんだ。\nプーラ\nうちのお父ちゃんはハーピーのハンターだけど、やっぱデーモン　ハンターの方がカッコいいもん。	
-0x5fdf8	0x498		プーラ\nウォーリック旅にいくの？\nそれって新婚旅行？	
-0x5fdf8	0x4bc		プーラ\nダ　ンはいいな、ブージに狩り教えてもらってんだよ。	
-0x5fdf8	0x4e9		パナップお婆ちゃん\n氷の洞窟に住む神官竜のフロスト様は、この地の守り神じゃ。\n遠い昔から、わしらを見守っていて下さる。	
-0x5fdf8	0x530		パナップお婆ちゃん\nおおっブージか・・・・・。\nよく帰ったのう。\n狩りの成果はどうじゃった。	
-0x5fdf8	0x56c		パナップお婆ちゃん\nウォーリック、レイナ、それにエルフのお嬢ちゃん。\nこの世界はいつも神官竜様に見守られているんだよ。	
-0x5fdf8	0x5ae		パナップお婆ちゃん\nウォーリック、帰ったのかい。	
-0x5fdf8	0x5d6		ファルフ\nシェリーお姉ちゃんたら、僕を置いて一人でラット　ジャイア	
-0x5fdf8	0x605		ト狩りに行っちゃったんだぜ。\n約束してたのに、ひどいよな。	
-0x5fdf8	0x62b		ファルフ\nブージ、おかえりぃぃぃ。\nシェリーお姉ちゃんってね、ブージが旅に出ている間、いつもブージの事ばっかり言うんだ。	
-0x5fdf8	0x673		ファルフ\nウォーリックお兄ちゃん。\n僕も大人のなったらお兄ちゃんみたいな冒険者になるよ。	
-0x5fdf8	0x6a0		ファルフ\n僕も旅行きたい。	
-0x5fdf8	0x6c0		ボルナじいさん\n神官竜って言うのはじゃな、世界に数十頭いると言われている偉い竜なんじゃぞ。\nその神官竜様が守って下さる　この村に住めて、わしらは幸せ者じゃのう。	
-0x5fdf8	0x725		ボルナじいさん\nよく戻ったなブージ。\nこのごろデーモンの数がめっきり減ったと聞くが、大変じゃの。	
-0x5fdf8	0x75f		ボルナじいさん\n森の奥には、オーガがいるからのぉ。\n気を付けてな、ウォーリック。	
-0x5fdf8	0x792		ボルナじいさん\nわしも昔みたいに旅に行きたいのう。	
-0x5fdf8	0x7b3	ダ　ン	僕ね、ランバートお兄ちゃんが帰って来るまで、ブージと一緒に暮らす事にしたんだ。大婆様もいいって許してくれたんだ。	
-0x603cd	0x44	ウォーリック	ブージ、見た事もない竜がいるぞ。\n神官竜か！？\nフロスト様も死んでるみたいだ。	
-0x603cd	0x8c	ブージ	神官竜同士で闘ったのか！？\nそんな事、今まで聞いた事がない。\nブージ\nそれにしても妙だな。\nデーモンはともかく、この神官竜はどうやって洞窟に入って来たんだ。	
-0x603cd	0xf7	ウォーリック	強力な召喚師でもいるじゃないか。\n普通、デーモンって群をつくらないんだろ。	
-0x603cd	0x134	ブージ	・・・そうだな。\nいくら強力な力を持った神官竜でも、この数のデーモンを統率できるはずがない。\nブージ\n何か異常な力が働いている様だ。\n詳しく調べよう、ウォーリック。	
-0x603cd	0x1dd	ブージ	この体格の神官竜。\nおそらく、南の大陸に住む緑竜バーダルだろう。\nブージ\n話でしか聞いていないが、バーダルは性格も温厚で、フロスト様と同様人々に敬われている神官竜のはずだ。	
-0x603cd	0x258	ブージ	その神官竜が何でこんな所にいるんだ。	
-0x603cd	0x27a	ブージ	バーダルはパラサイト　デーモンに操られてたんだ。\nどうやら、そのナイフをめぐってな。	
-0x603cd	0x2b5	ウォーリック	立ったまま死んでる。\nどうやら、この騎士がフロスト様と一緒に闘っていた様だな。	
-0x603cd	0x2fb	ブージ	・・・今まで見た事もない３鎧７だ。\nどこの国の騎士でもないな。	
-0x603cd	0x32d	ウォーリック	兜・・・取ってみようか。	
-0x603cd	0x371		ウォーリックは、騎士の死体から兜を外した。	
-0x603cd	0x3c0	ブージ	ランバートだ。\n・・・・・なぜだッ！？\nなぜ、ランバートがこんな姿に。	
-0x603cd	0x404		目の前に死んでいる騎士を、２人は知っている。２人の友、そしてダ　ンの兄であるその男の名は、ランバート。\n彼は１年前に狩りに出たきり、行方不明になっていた。	
-0x603cd	0x47a	ブージ	ランバートは、間違ってもこんな３鎧７は着ない。\nどうなってんだ！？	
-0x603cd	0x4ae	ウォーリック	ブージ、早くランバートを連れて村に帰ろう。	
-0x603cd	0x4d4	ブージ	・・・いや。\nランバートの死体は、このままにしておこう。\nブージ\n村にはダ　ンがいる。\nこんな姿のランバートを運んで行くわけにはいかない。	
-0x603cd	0x535	ウォーリック	これかな？\nフロスト様の言っていたナイフって。	
-0x603cd	0x56b		黄金のナイフを手にいれた。	
-0x603cd	0x58a	ブージ	フロスト様は休眠期だったはず。	
-0x603cd	0x5aa	ブージ	・・・パディッシュか。\n有名な賢者や魔導士の名でもないな。	
-0x603cd	0x5e9	ブージ	・・・んんっ？	
-0x603cd	0x60b		ブージは、かすかな空気の動きを感じた。\n息絶えていると思われた氷竜が、苦しげにその首を持ち上げた。	
-0x603cd	0x669		氷竜　フロスト\n・・・ブージに、ウォーリックか。\n頼みがある。\n氷竜　フロスト\nランバートの・・・３鎧７の下にナイフが隠してある。\nこれを、パディッシュに届けてほしい。\n氷竜　フロスト\nそれだけは貴奴に渡してはならぬ。\n・・・一刻も早く、パディッシュに。	
-0x603cd	0x728		言い残すとフロストは数百年に渡る生命活動を停止した。\nすると氷の結晶達がフロストを取り巻き始め、氷の棺を形成した。	
-0x603cd	0x79f	ブージ	・・・んんっ！\nウォーリック、隠れろ。	
-0x6095b	0x12		城に用件があるのなら、右の通用門を使ってください。	
-0x6095b	0x3b		いい天気ですなぁ。\n今日の様に天気がよいと仕事が楽でいいです。\n騎士　ポナー	
-0x6095b	0x73		おおっと、騎士がこんな事を言ってはいけませんな。	
-0x6095b	0xb5		ト\n今は謁見を行ってはいません。\nまた、あらためて・・・と言いたいのですが、いつ謁見が許されるかさえわかりません。	
-0x6095b	0x10c	レイナ	私達はクラウスより長老の手紙を届けに参りました。\n入城の許可をお願いします。	
-0x6095b	0x15a		門番に、ローラの手紙を渡した。	
-0x6095b	0x18f		ト\nこの手紙は、たしかにベイグ王宛ての物ですな。\n・・・急ぎの様では大変ですな。\n今、確認を取って来ましょう。	
-0x6095b	0x20b		ア・・・・・・・・・・・・・・・・・・・・・・・・・・・・。\nファーニス\n・・・遅いねぇ。\nあッ！	
-0x6095b	0x24a		ト\nお待たせしました。\n許可が下りましたので入城してください。	
-0x6095b	0x27e		ト\nお役目、ご苦労様です。	
-0x6095b	0x298		ト\nあなた達もジークの騎士に志願するつもりなのですか？	
-0x6095b	0x2bc		ト\nドラゴン　ライダー隊も帰って来たし、一安心ですな。	
-0x6095b	0x2d9		騎士　ボーナム\nジーク王国にようこそ。\n表は魔物が多く大変だったでしょう。\nさっ、早く街に入り旅の疲れを癒して下さい。	
-0x6095b	0x325		騎士　ペイジ\n今ではジークの騎士ですが、２年前まで私は冒険者だったんですよ。	
-0x6095b	0x358		騎士　ペイジ\n・・・・・・・・・・・・・！！\nおっと、立ったまま足踏みまでして寝てしまった。	
-0x6095b	0x38e		騎士　パジェロ\nこの頃魔物が多くなりましたが、この国にいれば安心です。\n私達が絶えず街中を巡回して、平和を守っています。	
-0x6095b	0x3e0		騎士　ジュナス\nこの国の北にあるカナール採掘場に魔物が出まして、討伐に出た騎士が全滅しました。	
-0x6095b	0x415		騎士　ジュナス\nカナール採掘場は銀がたくさん取れる所ですが、今では工夫もすべて引き払っています。	
-0x6095b	0x456		僕の役目は子供達の見張りさッ。\n子供達は、よくこの堀の近くで遊ぶんだ。\n騎士　ショー	
-0x6095b	0x496		子供が遊びに夢中になって堀に落ちそうになった時、僕が飛び出して子供をつかまえるのさッ。	
-0x6095b	0x4dd		子供達も家に帰った様だ。\n魔物も出なかったし、怪我する子供もいなかった。\nそろそろ僕も城に戻るとしましょう。	
-0x6095b	0x52b		クリフ\n僕も将来、騎士になるんだ。\nそしたら悪い奴等をバッタバッタ倒すんだッ。	
-0x6095b	0x55e		マイク\n今僕達、鬼ごっこしてるんだッ。\nお兄ちゃん達も一緒にやる？	
-0x6095b	0x58a		トーマス\n僕ね、僕ね、大きくなったらドラゴン　ライダーになるんだッ。\nカッコいいでしょ。	
-0x6095b	0x5bc		アポリー\nお昼寝してたら、みんなどっか遊びに行っちゃった。\n・・・堀に行ってんのかなぁ。	
-0x6095b	0x5fc		アポリー\n僕のお兄ちゃん、ドラゴン　ライダーなんだぜッ。\nでも、１週間前から帰ってないんだ。\nきっと、お仕事忙しいんだねッ。	
-0x6095b	0x641		ルーシー\nここは街の外だから、ママが来ちゃいけないって言うの。\nでもね、ショー	
-0x6095b	0x673		様がいるから安心なのよ。	
-0x6095b	0x685		ドリス\n将来、お城の舞踏会にお呼ばれしても恥ずかしくない様に、今から踊りの練習しておくのよ。	
-0x6095b	0x6c7		チャーミー\n私ね、王子様のお嫁さんになるの。\nぜったい、なるのぉぉぉぉぉッ。	
-0x6095b	0x6fc		宿屋\n⟨14⟩⟨14⟩竜光亭\n御宿泊、御食事\n宴会、３名様より受け給ります。	
-0x6095b	0x748		シーな雰囲気の\n素敵なお店。	
-0x6095b	0x772		テュース\n\n⟨14⟩天下の逸品を貴方の手に。	
-0x6095b	0x79b		ぎ悟郎屋\n\n⟨14⟩感謝の大奉仕セール実施中。	
-0x6095b	0x7d1		魔導具の鑑定、買取り、行います。	
+0x5f886	0xe		ミール\nいらっしゃいませ。\n今日は何を買いにきたの？	Mir\nWelcome.\nWhat are you buying today?
+0x5f886	0x3a		いかがいたします？	What'll it be?
+0x5f886	0x4d	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Leave the shop.
+0x5f886	0x88	ウォーリック	買物は後にするよ。	I'll shop later.
+0x5f886	0xa8	レイナ	買物は後にするわ。	I'll shop later.
+0x5f886	0xcc	ウォーリック	あっ、お金が足りない。	Ah, not enough money.
+0x5f886	0xed	レイナ	持ち合わせがないわ。	I can't afford that.
+0x5f886	0x112		ミール\nこのところ、品物不足なのよね。\nジーク王国からの問屋さんが、この間コボルドに襲われたのよ。\nポーションとかは、ここで造ってるからいいけど・・・この先、不安ね。	Mir\nWe're short on goods lately.\nThe wholesaler from the Zeke\nKingdom got jumped by kobolds.\pAt least we brew potions here,\nbut... I worry about the future.
+0x5f886	0x180		ミール\n旅に出るんでしょ。\n行き先で詰まったら、すぐ道具屋なり魔法屋なりに入るのよ。\nわかった。	Mir\nYou're off traveling, right?\nWhenever you get stuck, just\npop into an item or magic shop.\nGot it?
+0x5f886	0x1de	ウォーリック	まだ、いいや。	Not yet.
+0x5f886	0x1fb	レイナ	やっぱり、いいわ。\nもうちょっと、使ってからにする。	On second thought, no.\nI'll use it a while longer first.
+0x5f886	0x224		ミール\nありがとうございました。	Mir\nThank you very much.
+0x5f886	0x233		ミール\nああっ！\nちょうどいい時に来たわ、レイナ。\n結婚指輪、サイズ直したの届いたわよ。\nミール\n強い魔法が掛かってるから、指輪職人じゃ直せなくて、魔導具職人に頼んだのよ。\nサイズ直しで２年もかかったなんて、前代未聞ね。	Mir\nOh!\nPerfect timing, {Reina}.\nYour wedding ring's back from\nresizing.\pMir\nThe enchantment's so strong no\nring-smith could touch it, so I\nasked a magic-item maker.\pTwo years for a resize...\nunheard of.
+0x5f886	0x2e9		結婚指輪を受け取った。	You received the wedding ring.
+0x5f886	0x300		ミール\n薬草袋は外傷薬が数回分入っているわ。中身は生命力の増強や解毒作用のある薬草を、煎じた物が入っているの。\nちょっとやそっとの怪我なら、たちどころに治るわよ。	Mir\nA herb pouch holds several\ndoses of wound salve, herbs\nbrewed to restore vigor and\ncure poison.\pMinor injuries heal in no time.
+0x5f886	0x387	レイナ	これは多めに買っておきましょ。	Let's stock up on these.
+0x5f886	0x3a7		ミール\nこのポーションは、多くの薬草を煮詰めて造った回復薬よ。\nただ薬草を飲むより数倍の効き目はあるわ。\nただし、一回限りだけどね。	Mir\nThis potion is a cure brewed\ndown from many herbs.\nWorks far better than raw\nherbs, but only once.
+0x5f886	0x412	レイナ	旅先の事を考えて買っておきたいわ。ねぇ・・・ミール、もうちょっと安くならない？	I'd like some for the road.\nSay... Mir, any chance of a\nlittle discount?
+0x5f886	0x468		グってね、革紐でできた簡単な石投げ器よ。\n安価だし、手軽に使えるのが利点ね。ただ、鎧とかを着込んだ相手には、たいしたダメージは望めないわ。	A sling is a simple leather-thong\nstone-thrower.\nCheap and easy to use, but don't\nexpect much against armored foes.
+0x5f886	0x4da	レイナ	安いし手軽なところがいいわね。	Cheap and handy. I like that.
+0x5f886	0x4fb		ミール\nこれは、普通の矢の三分の一ほどの長さの矢の事よ。\nこれは手で投げて使う武器で、かなり正確に敵を狙えるわ。\n値段も手ごろだと思うわよ。	Mir\nThese are darts, arrows about\na third the usual length.\nYou throw them by hand and aim\ntrue. The price is fair too.
+0x5f886	0x574	レイナ	値段のわりには、威力がありそうね。	Strong for the price, it seems.
+0x5f886	0x5a8	ファーニス	私こういう武器、得意だよ。	I'm good with weapons like these.
+0x5f886	0x5d0	ファーニス	私、今ダート使ってるけど、けっこういいよ。	I use darts now, and they're\npretty good.
+0x5f886	0x5fb		ミール\nこの指輪には回復の魔法が掛かっているの。\n気休め程度だけど、怪我した時即座に回復してくれるわ。\nこの値段だけに寿命も短いけどね。	Mir\nThis ring holds healing magic.\nOnly a little, but it mends\nwounds at once.\nIt's cheap, so it won't last long.
+0x5f886	0x671	レイナ	いくつか買っておきましょう。	Let's buy a few.
+0x5f886	0x68f		ミール\n革でできた、ただの靴よ。\n女性用に造られているから、かわいいデザイ	Mir\nJust plain leather shoes.\nMade for women, so the designs\nare cute,
+0x5f886	0x6c1		の物が多いでしょ。\n旅にはあまり向かないわね。	most of them anyway.\nNot really suited for travel.
+0x5f886	0x6f3	ファーニス	ああっ、カワイイィィィ。	Oh, so cuuute!
+0x5f886	0x70e		ミール\nこれは革でできた、ブーツよ。\n機能性を追究したシ	Mir\nThese are leather boots.\nA simple, function-first
+0x5f886	0x73d		で、履き心地がとってもいいの。\nまあ、普段生活するにはちょうどいいわね。\n男女兼用だし、よく売れているわよ。	design, very comfortable to wear.\nJust right for everyday life.\nUnisex too, so they sell well.
+0x5f886	0x798	レイナ	値段もちょうどいいかしら。	The price is about right too.
+0x5fdf8	0x1a	ウォーリック	・・・あれっ？\nブージ、いないぞ。\nまだ帰ってないのかな。	...Huh?\n{Booj}'s not here.\nMaybe he's not back yet.
+0x5fdf8	0x55	ウォーリック	ブージ、おかえり。\n旅の方はどうだった！？\nウォーリック\n・・・どうしたんだ、ブージ？\n帰って来たばかりなのに武器なんか持って。	{Booj}, welcome back.\nHow was the trip?!\p{Warrick}\n...What's wrong, {Booj}?\nJust got home and you're already\narmed.
+0x5fdf8	0xc0	ブージ	ウォーリックか。\nちょうどいい所に来てくれた。\n一緒に来てくれ。	{Warrick}.\nYou came at the right time.\nCome with me.
+0x5fdf8	0xf4	ウォーリック	一体どうしたんだよ！？\nそんなに慌てて。	What's gotten into you?!\nIn such a rush.
+0x5fdf8	0x120	ブージ	帰り途中、北の方角に大型のデーモンが数十匹飛んで行くのが見えた。\n様子を見に行きたい、付いて来てくれ。	On my way home I saw dozens of\nbig {Demon}s flying north.\nI want to check it out. Come\nwith me.
+0x5fdf8	0x17a	ウォーリック	そんなッ・・・俺、武器らしい物なんて持ってないぞぉ。	But... I don't have anything\nlike a real weapon.
+0x5fdf8	0x1b3	ブージ	大丈夫、デーモンを見たのは１時間ほど前だ。\n鉢合せになる事はないだろう。\nさあっ、行こう。	It's fine, I saw the {Demon}s\nabout an hour ago.\nWe won't run into them.\nCome on, let's go.
+0x5fdf8	0x215		ブージが仲間に加わった。	{Booj} joined the party.
+0x5fdf8	0x22a	ブージ	すまんな、ウォーリック。\n一緒に行けなくて。\nそれから俺、ダ　ンを引取る事にしたよ。	Sorry, {Warrick}, that I can't\ncome along.\nAlso, I've decided to take in\n{Dan}.
+0x5fdf8	0x26e	ウォーリック	・・・そうか。	...I see.
+0x5fdf8	0x282	ブージ	それに、狩りに連れて行こうと思っている。\n強い男にしてやりたい。	I mean to take him hunting, too.\nI want to make a strong man\nof him.
+0x5fdf8	0x2c1		パラエ\nあらっ、ウォーリックじゃない。\nこんな朝早くどうしたの。\nカパイ	Parae\nWell, if it isn't {Warrick}.\nWhat brings you out so early?\nKapai,
+0x5fdf8	0x2ec		なら、見張りの当番で裏の門にいるわよ。	if you mean him, he's on watch\nat the back gate.
+0x5fdf8	0x305		パラエ\nあらっ、ブージおかえり。\n狩りの方はどうだった？\nパラエ\nあなたも旅の生活なんかやめて、そろそろ身を固めた方がいいんじゃないかい？\nなんなら、いい人紹介しようか？	Parae\nOh, {Booj}, welcome back.\nHow was the hunt?\pParae\nMaybe it's time you gave up the\ntraveling life and settled down?\nWant me to introduce you to a\nnice girl?
+0x5fdf8	0x372		パラエ\n旅に出るんだってねぇ。\nまぁ、あなた達の家の事はまかせな。\nいつ帰って来てもいい様に、ちゃんと管理しとくからね。	Parae\nHeading off traveling, I hear.\nLeave the house to me.\nI'll keep it ready for whenever\nyou come home.
+0x5fdf8	0x3bf		パラエ\nレイナ。\n旅の方はうまくいってんのかい。	Parae\n{Reina}.\nIs the journey going well?
+0x5fdf8	0x3ea		プーラ\nねえぇぇぇ、ウォーリック\n一緒に遊ぼぉぉ。\nお父ちゃん、見張りの当番とかで遊んでくれないんだ。	Pura\nHey, {Warrick}!\nPlay with me.\nDaddy's on watch duty and\nwon't play with me.
+0x5fdf8	0x426		プーラ\nああっ、ブージ！\n今度、僕も狩りに連れてってよ。\n僕も将来、デーモン　ハンターになるんだ。\nプーラ\nうちのお父ちゃんはハーピーのハンターだけど、やっぱデーモン　ハンターの方がカッコいいもん。	Pura\nOh, {Booj}!\nTake me hunting next time.\nI'm gonna be a Demon Hunter\nsomeday.\pPura\nMy dad's a harpy hunter, but a\nDemon Hunter's way cooler.
+0x5fdf8	0x498		プーラ\nウォーリック旅にいくの？\nそれって新婚旅行？	Pura\n{Warrick}, you're traveling?\nIs it a honeymoon?
+0x5fdf8	0x4bc		プーラ\nダ　ンはいいな、ブージに狩り教えてもらってんだよ。	Pura\nLucky {Dan}, {Booj}'s teaching\nhim to hunt.
+0x5fdf8	0x4e9		パナップお婆ちゃん\n氷の洞窟に住む神官竜のフロスト様は、この地の守り神じゃ。\n遠い昔から、わしらを見守っていて下さる。	Granny Panap\nLord Frost, the {Priest Dragon}\nof the Ice Cavern, is this land's\nguardian.\nHe's watched over us since\nages past.
+0x5fdf8	0x530		パナップお婆ちゃん\nおおっブージか・・・・・。\nよく帰ったのう。\n狩りの成果はどうじゃった。	Granny Panap\nOh, {Booj}...\nWelcome home.\nHow was the hunt?
+0x5fdf8	0x56c		パナップお婆ちゃん\nウォーリック、レイナ、それにエルフのお嬢ちゃん。\nこの世界はいつも神官竜様に見守られているんだよ。	Granny Panap\n{Warrick}, {Reina}, and the\nlittle elf miss.\nThis world is always watched\nover by the {Priest Dragon}s.
+0x5fdf8	0x5ae		パナップお婆ちゃん\nウォーリック、帰ったのかい。	Granny Panap\n{Warrick}, you're back?
+0x5fdf8	0x5d6		ファルフ\nシェリーお姉ちゃんたら、僕を置いて一人でラット　ジャイア	Falf\nSherry went and left me behind\nto hunt Rat Giants
+0x5fdf8	0x605		ト狩りに行っちゃったんだぜ。\n約束してたのに、ひどいよな。	all by herself.\nShe promised me, too. So mean.
+0x5fdf8	0x62b		ファルフ\nブージ、おかえりぃぃぃ。\nシェリーお姉ちゃんってね、ブージが旅に出ている間、いつもブージの事ばっかり言うんだ。	Falf\n{Booj}, welcome back!\nYou know, while you were away,\nSherry talked about you all\nthe time.
+0x5fdf8	0x673		ファルフ\nウォーリックお兄ちゃん。\n僕も大人のなったらお兄ちゃんみたいな冒険者になるよ。	Falf\n{Warrick}!\nWhen I grow up I'll be an\nadventurer like you.
+0x5fdf8	0x6a0		ファルフ\n僕も旅行きたい。	Falf\nI wanna travel too.
+0x5fdf8	0x6c0		ボルナじいさん\n神官竜って言うのはじゃな、世界に数十頭いると言われている偉い竜なんじゃぞ。\nその神官竜様が守って下さる　この村に住めて、わしらは幸せ者じゃのう。	Old Borna\nThe {Priest Dragon}s, you see,\nare great dragons, dozens of\nthem the world over.\nWe're lucky to live in a village\none of them watches over.
+0x5fdf8	0x725		ボルナじいさん\nよく戻ったなブージ。\nこのごろデーモンの数がめっきり減ったと聞くが、大変じゃの。	Old Borna\nWelcome back, {Booj}.\nThey say the {Demon}s have\nthinned out lately. Hard work,\nthat.
+0x5fdf8	0x75f		ボルナじいさん\n森の奥には、オーガがいるからのぉ。\n気を付けてな、ウォーリック。	Old Borna\nThere are ogres deep in the\nwoods.\nTake care, {Warrick}.
+0x5fdf8	0x792		ボルナじいさん\nわしも昔みたいに旅に行きたいのう。	Old Borna\nI'd love to travel like I did\nin my younger days.
+0x5fdf8	0x7b3	ダ　ン	僕ね、ランバートお兄ちゃんが帰って来るまで、ブージと一緒に暮らす事にしたんだ。大婆様もいいって許してくれたんだ。	I'm gonna live with {Booj} until\n{Lambert} comes home.\n{Granny} said it was OK.
+0x603cd	0x44	ウォーリック	ブージ、見た事もない竜がいるぞ。\n神官竜か！？\nフロスト様も死んでるみたいだ。	{Booj}, there's a dragon I've\nnever seen.\nA {Priest Dragon}?!\nAnd Lord Frost looks dead too.
+0x603cd	0x8c	ブージ	神官竜同士で闘ったのか！？\nそんな事、今まで聞いた事がない。\nブージ\nそれにしても妙だな。\nデーモンはともかく、この神官竜はどうやって洞窟に入って来たんだ。	Did two {Priest Dragon}s fight?!\nI've never heard of such a thing.\p{Booj}\nStill, it's strange.\n{Demon}s aside, how did this\n{Priest Dragon} get into the\ncavern at all?
+0x603cd	0xf7	ウォーリック	強力な召喚師でもいるじゃないか。\n普通、デーモンって群をつくらないんだろ。	Maybe there's a powerful\nsummoner about.\n{Demon}s don't usually form\npacks, right?
+0x603cd	0x134	ブージ	・・・そうだな。\nいくら強力な力を持った神官竜でも、この数のデーモンを統率できるはずがない。\nブージ\n何か異常な力が働いている様だ。\n詳しく調べよう、ウォーリック。	...True.\nNo {Priest Dragon}, however\nmighty, could command this many\n{Demon}s.\p{Booj}\nSome abnormal power is at work.\nLet's look closer, {Warrick}.
+0x603cd	0x1dd	ブージ	この体格の神官竜。\nおそらく、南の大陸に住む緑竜バーダルだろう。\nブージ\n話でしか聞いていないが、バーダルは性格も温厚で、フロスト様と同様人々に敬われている神官竜のはずだ。	A {Priest Dragon} this size...\nLikely Bardal, the Green Dragon\nof the southern continent.\p{Booj}\nOnly by reputation, but Bardal\nis gentle, a {Priest Dragon}\nrevered like Lord Frost.
+0x603cd	0x258	ブージ	その神官竜が何でこんな所にいるんだ。	So why is that {Priest Dragon}\nin a place like this?
+0x603cd	0x27a	ブージ	バーダルはパラサイト　デーモンに操られてたんだ。\nどうやら、そのナイフをめぐってな。	Bardal was being controlled by\na Parasite Demon.\nOver that knife, it seems.
+0x603cd	0x2b5	ウォーリック	立ったまま死んでる。\nどうやら、この騎士がフロスト様と一緒に闘っていた様だな。	Dead on his feet.\nLooks like this knight fought\nalongside Lord Frost.
+0x603cd	0x2fb	ブージ	・・・今まで見た事もない３鎧７だ。\nどこの国の騎士でもないな。	...Armor like I've never seen.\nNo nation's knight wears this.
+0x603cd	0x32d	ウォーリック	兜・・・取ってみようか。	The helmet... let's take it off.
+0x603cd	0x371		ウォーリックは、騎士の死体から兜を外した。	{Warrick} removed the helmet\nfrom the knight's body.
+0x603cd	0x3c0	ブージ	ランバートだ。\n・・・・・なぜだッ！？\nなぜ、ランバートがこんな姿に。	It's {Lambert}.\n.....Why?!\nWhy is {Lambert} like this?
+0x603cd	0x404		目の前に死んでいる騎士を、２人は知っている。２人の友、そしてダ　ンの兄であるその男の名は、ランバート。\n彼は１年前に狩りに出たきり、行方不明になっていた。	They both knew the dead knight\nbefore them. Their friend, and\n{Dan}'s brother, the man named\n{Lambert}.\pHe'd gone hunting a year ago\nand never returned.
+0x603cd	0x47a	ブージ	ランバートは、間違ってもこんな３鎧７は着ない。\nどうなってんだ！？	{Lambert} would never wear\narmor like this.\nWhat's going on?!
+0x603cd	0x4ae	ウォーリック	ブージ、早くランバートを連れて村に帰ろう。	{Booj}, let's get {Lambert}\nback to the village, quick.
+0x603cd	0x4d4	ブージ	・・・いや。\nランバートの死体は、このままにしておこう。\nブージ\n村にはダ　ンがいる。\nこんな姿のランバートを運んで行くわけにはいかない。	...No.\nLeave {Lambert}'s body as it is.\p{Booj}\n{Dan} is in the village.\nWe can't carry {Lambert} home\nlooking like this.
+0x603cd	0x535	ウォーリック	これかな？\nフロスト様の言っていたナイフって。	Is this it?\nThe knife Lord Frost spoke of?
+0x603cd	0x56b		黄金のナイフを手にいれた。	You obtained the Golden Knife.
+0x603cd	0x58a	ブージ	フロスト様は休眠期だったはず。	Lord Frost should have been in\nhis dormant period.
+0x603cd	0x5aa	ブージ	・・・パディッシュか。\n有名な賢者や魔導士の名でもないな。	...Paddish.\nNot the name of any famous sage\nor mage.
+0x603cd	0x5e9	ブージ	・・・んんっ？	...Hm?
+0x603cd	0x60b		ブージは、かすかな空気の動きを感じた。\n息絶えていると思われた氷竜が、苦しげにその首を持ち上げた。	{Booj} felt a faint stir in the\nair.\nThe ice dragon they thought\ndead raised its head in pain.
+0x603cd	0x669		氷竜　フロスト\n・・・ブージに、ウォーリックか。\n頼みがある。\n氷竜　フロスト\nランバートの・・・３鎧７の下にナイフが隠してある。\nこれを、パディッシュに届けてほしい。\n氷竜　フロスト\nそれだけは貴奴に渡してはならぬ。\n・・・一刻も早く、パディッシュに。	Frost the Ice Dragon\n...{Booj}, and {Warrick}.\nI have a favor to ask.\pFrost the Ice Dragon\nBeneath {Lambert}'s armor a\nknife is hidden.\nTake it to Paddish.\pFrost the Ice Dragon\nIt must never fall to that fiend.\n...To Paddish, with all haste.
+0x603cd	0x728		言い残すとフロストは数百年に渡る生命活動を停止した。\nすると氷の結晶達がフロストを取り巻き始め、氷の棺を形成した。	With those last words, Frost\nstilled the life of centuries.\nThen ice crystals gathered round\nhim, forming a coffin of ice.
+0x603cd	0x79f	ブージ	・・・んんっ！\nウォーリック、隠れろ。	...Hm!\n{Warrick}, hide.
+0x6095b	0x12		城に用件があるのなら、右の通用門を使ってください。	If you have business at the\ncastle, please use the side gate\non the right.
+0x6095b	0x3b		いい天気ですなぁ。\n今日の様に天気がよいと仕事が楽でいいです。\n騎士　ポナー	Fine weather.\nWork's easy on a day this nice.\n{Knight} Ponar
+0x6095b	0x73		おおっと、騎士がこんな事を言ってはいけませんな。	Oops, a knight shouldn't say\nthings like that.
+0x6095b	0xb5		ト\n今は謁見を行ってはいません。\nまた、あらためて・・・と言いたいのですが、いつ謁見が許されるかさえわかりません。	No audiences are being held\nright now.\nI'd say come another time, but\nthere's no telling when one will\nbe granted.
+0x6095b	0x10c	レイナ	私達はクラウスより長老の手紙を届けに参りました。\n入城の許可をお願いします。	We've come from Klaus to deliver\nthe elder's letter.\nPlease grant us entry.
+0x6095b	0x15a		門番に、ローラの手紙を渡した。	You handed Lola's letter to the\ngatekeeper.
+0x6095b	0x18f		ト\nこの手紙は、たしかにベイグ王宛ての物ですな。\n・・・急ぎの様では大変ですな。\n今、確認を取って来ましょう。	This letter is indeed addressed\nto King Baig.\n...Urgent, by the look of it.\nI'll go confirm at once.
+0x6095b	0x20b		ア・・・・・・・・・・・・・・・・・・・・・・・・・・・・。\nファーニス\n・・・遅いねぇ。\nあッ！	Aaaaah...\p{Furnis}\n...He's slow.\nAh!
+0x6095b	0x24a		ト\nお待たせしました。\n許可が下りましたので入城してください。	Sorry for the wait.\nPermission is granted, please\nenter the castle.
+0x6095b	0x27e		ト\nお役目、ご苦労様です。	Good work at your post.
+0x6095b	0x298		ト\nあなた達もジークの騎士に志願するつもりなのですか？	Are you here to volunteer as\nZeke knights too?
+0x6095b	0x2bc		ト\nドラゴン　ライダー隊も帰って来たし、一安心ですな。	The Dragon Rider corps is back,\nso that's a relief.
+0x6095b	0x2d9		騎士　ボーナム\nジーク王国にようこそ。\n表は魔物が多く大変だったでしょう。\nさっ、早く街に入り旅の疲れを癒して下さい。	{Knight} Bonum\nWelcome to the Zeke Kingdom.\nThe roads out there are thick\nwith {Monster}s, hard going.\nCome, rest your travel-weariness\nin town.
+0x6095b	0x325		騎士　ペイジ\n今ではジークの騎士ですが、２年前まで私は冒険者だったんですよ。	{Knight} Page\nI'm a Zeke knight now, but two\nyears ago I was an adventurer.
+0x6095b	0x358		騎士　ペイジ\n・・・・・・・・・・・・・！！\nおっと、立ったまま足踏みまでして寝てしまった。	{Knight} Page\n.....!!\nOops, I fell asleep on my feet,\nmarching in place no less.
+0x6095b	0x38e		騎士　パジェロ\nこの頃魔物が多くなりましたが、この国にいれば安心です。\n私達が絶えず街中を巡回して、平和を守っています。	{Knight} Pajero\n{Monster}s have grown common\nlately, but you're safe in this\nkingdom.\nWe patrol the streets without\nrest to keep the peace.
+0x6095b	0x3e0		騎士　ジュナス\nこの国の北にあるカナール採掘場に魔物が出まして、討伐に出た騎士が全滅しました。	{Knight} Junas\n{Monster}s appeared at the Canal\nMine to the north, and the\nknights sent to clear them were\nwiped out.
+0x6095b	0x415		騎士　ジュナス\nカナール採掘場は銀がたくさん取れる所ですが、今では工夫もすべて引き払っています。	{Knight} Junas\nThe Canal Mine yields plenty of\nsilver, but the miners have all\npulled out now.
+0x6095b	0x456		僕の役目は子供達の見張りさッ。\n子供達は、よくこの堀の近くで遊ぶんだ。\n騎士　ショー	My job is watching the kids.\nThey love to play near this moat.\n{Knight} Shaw
+0x6095b	0x496		子供が遊びに夢中になって堀に落ちそうになった時、僕が飛び出して子供をつかまえるのさッ。	When a kid gets carried away\nplaying and nearly falls in, I\ndash out and catch them.
+0x6095b	0x4dd		子供達も家に帰った様だ。\n魔物も出なかったし、怪我する子供もいなかった。\nそろそろ僕も城に戻るとしましょう。	Looks like the kids went home.\nNo {Monster}s, no scraped knees.\nTime I headed back to the castle.
+0x6095b	0x52b		クリフ\n僕も将来、騎士になるんだ。\nそしたら悪い奴等をバッタバッタ倒すんだッ。	Cliff\nI'm gonna be a knight someday.\nThen I'll knock the bad guys\ndown one after another!
+0x6095b	0x55e		マイク\n今僕達、鬼ごっこしてるんだッ。\nお兄ちゃん達も一緒にやる？	Mike\nWe're playing tag!\nWanna join us, misters?
+0x6095b	0x58a		トーマス\n僕ね、僕ね、大きくなったらドラゴン　ライダーになるんだッ。\nカッコいいでしょ。	Thomas\nWhen I, when I grow up I'm\ngonna be a Dragon Rider!\nCool, huh?
+0x6095b	0x5bc		アポリー\nお昼寝してたら、みんなどっか遊びに行っちゃった。\n・・・堀に行ってんのかなぁ。	Apoly\nI took a nap and everyone went\noff to play.\n...Maybe they're at the moat?
+0x6095b	0x5fc		アポリー\n僕のお兄ちゃん、ドラゴン　ライダーなんだぜッ。\nでも、１週間前から帰ってないんだ。\nきっと、お仕事忙しいんだねッ。	Apoly\nMy big brother's a Dragon Rider!\nBut he hasn't come home in a\nweek.\nHe must be real busy with work.
+0x6095b	0x641		ルーシー\nここは街の外だから、ママが来ちゃいけないって言うの。\nでもね、ショー	Lucy\nThis is outside the town, so\nMama says I mustn't come here.\nBut Sir Shaw
+0x6095b	0x673		様がいるから安心なのよ。	is here, so it's safe.
+0x6095b	0x685		ドリス\n将来、お城の舞踏会にお呼ばれしても恥ずかしくない様に、今から踊りの練習しておくのよ。	Doris\nI'm practicing my dancing now,\nso I won't embarrass myself if\nI'm ever invited to a castle ball.
+0x6095b	0x6c7		チャーミー\n私ね、王子様のお嫁さんになるの。\nぜったい、なるのぉぉぉぉぉッ。	Charmy\nI'm going to be a prince's bride.\nI absolutely will, I will!
+0x6095b	0x6fc		宿屋\n⟨14⟩⟨14⟩竜光亭\n御宿泊、御食事\n宴会、３名様より受け給ります。	Inn\nDragonlight Inn\nLodging, meals, and banquets\nfor parties of 3 or more.
+0x6095b	0x748		シーな雰囲気の\n素敵なお店。	A lovely shop with a fancy\natmosphere.
+0x6095b	0x772		テュース\n\n⟨14⟩天下の逸品を貴方の手に。	Teus\n\nThe finest wares in the land,\nyours to own.
+0x6095b	0x79b		ぎ悟郎屋\n\n⟨14⟩感謝の大奉仕セール実施中。	Goro's Shop\n\nA big thank-you sale, now on!
+0x6095b	0x7d1		魔導具の鑑定、買取り、行います。	Magic-item appraisal and\npurchase available.
 0x60fb4	0xe		ミーシャ\nいらっしゃいませ。\n何をお求めでしょうか？	
 0x60fb4	0x38		いかがいたします？	
 0x60fb4	0x4b	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	
