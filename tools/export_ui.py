@@ -24,7 +24,10 @@ from extract_floppy import read_file
 JP_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk].D88"
 FILES = ["SYSTEM.TOS", "SYSTEM2.TOS", "FSYS.TOS"]
 OUT = ROOT / "script"
-CJK = lambda s: any("ぁ" <= c <= "ん" or "ァ" <= c <= "ヶ" or "一" <= c <= "鿿" for c in s)
+# a record is worth translating if it has Japanese OR full-width alphanumerics
+# (e.g. the value-picker "(1)(2)...(8)" buttons -- digits + control codes, no kana).
+CJK = lambda s: any("ぁ" <= c <= "ん" or "ァ" <= c <= "ヶ" or "一" <= c <= "鿿"
+                    or "！" <= c <= "～" for c in s)
 
 
 def records(data):
