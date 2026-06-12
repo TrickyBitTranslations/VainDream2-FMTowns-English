@@ -54,12 +54,18 @@ def main():
     tally = defaultdict(lambda: {"lines": 0, "done": 0})
     per_block_rows = defaultdict(list)
     for tsv in sorted((ROOT / "script").glob("*.tsv")):
+        # Names have their own "Names & terms" tab (from status.names); don't also
+        # surface NAMES.tsv as a redundant script tab.
+        if tsv.stem == "NAMES":
+            continue
         archive = tsv.name.replace("_DAT.tsv", ".DAT").replace("_PK.tsv", ".PK")
         blocks = defaultdict(list)
         script_block = {}
         for row in tsv.read_text(encoding="utf-8").splitlines()[1:]:
             c = row.split("\t")
-            if len(c) < 4 or not c[0].startswith("0x"):
+            # UI .TOS rows key on a file name (block_off "SYSTEM.TOS"), not a 0x
+            # dlz offset -- include them; only skip truly malformed rows.
+            if len(c) < 4:
                 continue
             if c[0] not in script_block:
                 script_block[c[0]] = is_script_block(archive, c[0])
@@ -94,6 +100,8 @@ def main():
     for tsv_name, blocks in files.items():
         archive = tsv_name.replace("_DAT.tsv", ".DAT").replace("_PK.tsv", ".PK")
         for block_s in blocks:
+            if not block_s.startswith("0x"):     # UI .TOS: no dlz scene budget
+                continue
             block_off = int(block_s, 16)
             try:
                 block = src.block(archive, block_off)
