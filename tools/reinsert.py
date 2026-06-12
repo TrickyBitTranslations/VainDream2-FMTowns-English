@@ -116,15 +116,26 @@ def speaker_label_splices(block, speakers):
     return splices
 
 
+# Name-title bisections whose title is NOT a SPEAKERS literal-kana name: a record
+# ends with one of these and the next record is that NPC's line (same shape as Kay).
+# Add a record's exact last-line text here once confirmed (and put a \p before that
+# name in the TSV). NOTE (2026-06-12): ~11 *sentence-flow* FF-junction cases remain
+# unfixed -- a sentence split across two records, the FF drawing as a stray 'F'
+# mid-sentence (e.g. "The Kapai-", "Kapai,", "Show, I told you..."); those want the
+# FF stripped to MERGE (no \p). See docs/findings/2026-06-12-literal-kana-speaker-labels.md.
+EXTRA_TITLES = {"{Knight} Ponar", "{Knight} Shaw", "Knight Show"}
+
+
 def signoff_ff_splices(block, items, speakers):
     """When a record's text ENDS with a bare speaker name, that name is really the
     NEXT record's box title -- the game flows one record into the next with the
     name as the divider, and the export over-extends the text to the separator FF.
     That closing FF lands on the title line and (classifier patch) draws as 'F',
     so "Kay" shows as "KayF". Strip it. Anchored to translated records ending in a
-    known speaker, so it never touches event-data byte coincidences. (Pair with a
-    `\\p` before the trailing name in the TSV so it titles a fresh page.)"""
-    names = set(speakers.values())
+    known speaker (or an EXTRA_TITLES name), so it never touches event-data byte
+    coincidences. (Pair with a `\\p` before the trailing name in the TSV so it
+    titles a fresh page.)"""
+    names = set(speakers.values()) | EXTRA_TITLES
     out = []
     for str_off, english in items:
         last = english.replace("\\p", "\\n").split("\\n")[-1].strip()

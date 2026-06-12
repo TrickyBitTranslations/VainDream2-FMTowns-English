@@ -250,7 +250,7 @@ block_off	str_off	speaker	text	english
 0x603cd	0x728		言い残すとフロストは数百年に渡る生命活動を停止した。\nすると氷の結晶達がフロストを取り巻き始め、氷の棺を形成した。	With those last words, Frost\nstilled the life of centuries.\nThen ice crystals gathered round\nhim, forming a coffin of ice.
 0x603cd	0x79f	ブージ	・・・んんっ！\nウォーリック、隠れろ。	...Hm!\n{Warrick}, hide.
 0x6095b	0x12		城に用件があるのなら、右の通用門を使ってください。	If you have business at the\ncastle, please use the side gate\non the right.
-0x6095b	0x3b		いい天気ですなぁ。\n今日の様に天気がよいと仕事が楽でいいです。\n騎士　ポナー	Fine weather.\nWork's easy on a day this nice.\n{Knight} Ponar
+0x6095b	0x3b		いい天気ですなぁ。\n今日の様に天気がよいと仕事が楽でいいです。\n騎士　ポナー	Fine weather.\nWork's easy on a day this nice.\p{Knight} Ponar
 0x6095b	0x73		おおっと、騎士がこんな事を言ってはいけませんな。	Oops, a knight shouldn't say\nthings like that.
 0x6095b	0xaf		騎士　カリント\n今は謁見を行ってはいません。\nまた、あらためて・・・と言いたいのですが、いつ謁見が許されるかさえわかりません。	{Knight} Karint\nNo audiences are being held\nright now.\nI'd say come another time, but\nthere's no telling when one will\nbe granted.
 0x6095b	0x10c	レイナ	私達はクラウスより長老の手紙を届けに参りました。\n入城の許可をお願いします。	We've come from Klaus to deliver\nthe elder's letter.\nPlease grant us entry.
@@ -267,7 +267,7 @@ block_off	str_off	speaker	text	english
 0x6095b	0x38e		騎士　パジェロ\nこの頃魔物が多くなりましたが、この国にいれば安心です。\n私達が絶えず街中を巡回して、平和を守っています。	{Knight} Pajero\n{Monster}s have grown common\nlately, but you're safe in this\nkingdom.\nWe patrol the streets without\nrest to keep the peace.
 0x6095b	0x3e0		騎士　ジュナス\nこの国の北にあるカナール採掘場に魔物が出まして、討伐に出た騎士が全滅しました。	{Knight} Junas\n{Monster}s appeared at the Canal\nMine to the north, and the\nknights sent to clear them were\nwiped out.
 0x6095b	0x415		騎士　ジュナス\nカナール採掘場は銀がたくさん取れる所ですが、今では工夫もすべて引き払っています。	{Knight} Junas\nThe Canal Mine yields plenty of\nsilver, but the miners have all\npulled out now.
-0x6095b	0x456		僕の役目は子供達の見張りさッ。\n子供達は、よくこの堀の近くで遊ぶんだ。\n騎士　ショー	My job is watching the kids.\nThey love to play near this moat.\n{Knight} Shaw
+0x6095b	0x456		僕の役目は子供達の見張りさッ。\n子供達は、よくこの堀の近くで遊ぶんだ。\n騎士　ショー	My job is watching the kids.\nThey love to play near this moat.\p{Knight} Shaw
 0x6095b	0x496		子供が遊びに夢中になって堀に落ちそうになった時、僕が飛び出して子供をつかまえるのさッ。	When a kid gets carried away\nplaying and nearly falls in, I\ndash out and catch them.
 0x6095b	0x4dd		子供達も家に帰った様だ。\n魔物も出なかったし、怪我する子供もいなかった。\nそろそろ僕も城に戻るとしましょう。	Looks like the kids went home.\nNo {Monster}s, no scraped knees.\nTime I headed back to the castle.
 0x6095b	0x52b		クリフ\n僕も将来、騎士になるんだ。\nそしたら悪い奴等をバッタバッタ倒すんだッ。	Cliff\nI'm gonna be a knight someday.\nThen I'll knock the bad guys\ndown one after another!
@@ -465,7 +465,7 @@ block_off	str_off	speaker	text	english
 0x62a3c	0x411		レアラ\nあら、ずいぶん見ないと思ったら、\n貴方達もセルーシュの戦争に加わったの？\nずいぶん大勢の人が死んだって話ね。\n戦争なんてやだやだ。	Leara\nOh, I hadn't seen you in a while.\nDid you join the war at Serush too?\nThey say so many people died.\nWar, how awful, just awful.
 0x62a3c	0x467		レアラ\nいつも夫婦御一緒で羨ましいわ。\nあの人も、もう少し家にいてくれればいいのに。	Leara\nA couple always together,\nhow I envy you.\nI wish he'd stay home more.
 0x62a3c	0x4b9		さんの奥さんはとっても夫想いの方ですわ。\nま、結婚してまだ年が浅いから当然かしらね。	's wife dearly cares for her husband.\nWell, they wed not long ago, so\nof course she would.
-0x62a3c	0x4f2		アレーナ\nうちの子は、いつも堀のそばで遊んでいますわ。\n騎士のショー	Arena\nMy child always plays by the moat.\nKnight Show
+0x62a3c	0x4f2		アレーナ\nうちの子は、いつも堀のそばで遊んでいますわ。\n騎士のショー	Arena\nMy child always plays by the moat.\pKnight Show
 0x62a3c	0x51c		さんにはお世話になりっぱなしで・・・。	 has been so very kind to us...
 0x62a3c	0x535		アレーナ\nこの国の王子様は、とても人気があるんですよ。\nドラゴン　ライダーとしても、とても優秀なんだそうで、あの方がおられるから王様もさぞや安心でしょうね。	Arena\nThe prince of this land is very\npopular, you know.\nHe's a fine Dragon Rider too, so\nwith him near, the king rests easy.
 0x62a3c	0x58e		アレーナ\nルーシーの父はマーズ砦の守備隊にいるんです。\nなかなか家に帰って来れないんで、ルーシーはすぐショー	Arena\nLucy's father is in the Mars Fort\ngarrison.\nHe can hardly come home, so Lucy\nquickly takes to Show
