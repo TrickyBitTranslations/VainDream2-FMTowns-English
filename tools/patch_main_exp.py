@@ -32,24 +32,28 @@ PATCHES = [  # (offset in MAIN.EXP, expected original, replacement)
     (0x448E, b"\x02", b"\x01"),
     (0x44A3, b"\x02", b"\x01"),
 
-    # --- Name-table relocation, step 1: route the character-name lookup through a
-    # 32-bit copy of the table-lookup routine, so the name base is no longer
-    # truncated to 16 bits (the original `0x42b6` does `movzx ebx,bx`). This step
-    # keeps the base at the CURRENT table (0x301B) to prove the new path renders
-    # names identically before the table actually moves (step 2). See
-    # docs/findings/2026-06-11-phase-o (private repo).
+    # --- Name-table relocation (step 2): the FULL untrimmed NAME.P table now rides in
+    # ITEM.TOS and loads into the carved segment at carved:0x2000 (see patch_items),
+    # freeing names from DATA.BIN's RAM-bounded cap. The char-name handler @0x46aa is
+    # repointed at a name-lookup VARIANT that mirrors the item variant: scan carved
+    # (ES=[0x9c2]) for the Nth NUL-record and COPY it to a low DATA_SEG scratch (0x3f40),
+    # returning that low offset -- so the shared renderer's `movzx edx,dx; mov gs:[edx]`
+    # reads the low scratch and never hits the 16-bit barrier (which is exactly why a
+    # naive high-address move failed before -- the renderer truncates the offset).
     #
-    # 32-bit lookup variant in the runtime-free EXE hole @0x982 = a verbatim copy
-    # of 0x42b6 with `movzx ebx,bx` (0f b7 db) replaced by 3 NOPs:
-    (0x982, b"\x00" * 64, bytes.fromhex(
-        "51068e05f6010000" "32d2" "83c308" "909090" "3c02" "0f82210000" "00"
-        "fec8" "8ae0" "32c0" "33c9" "49" "87fb" "f2ae" "6626837ffe00"
-        "0f85020000" "00" "fec2" "fecc" "75ec" "87fb" "8ac2" "8bd3" "07" "59" "c3")),
-    # char-name handler @0x46a2: `mov bx,gs:[0x2018]` -> `mov ebx,0x301B` + 3 NOPs
+    # name-lookup variant @0xa80 = the item variant (@0xa03) with its scratch 0x3ef2 ->
+    # 0x3f40 (the item record sits in 0x3ef2 while ITS own ⟨02 nn⟩ name token renders):
+    (0xA80, b"\x00" * 94, bytes.fromhex(
+        "51565766" "068e05c2090000" "30d2" "83c308" "0fb7db" "3c02" "721d" "fec8" "88c4"
+        "30c0" "31c9" "49" "87fb" "f2ae" "2666837ffe00" "7502" "fec2" "fecc" "75f0" "87fb"
+        "89de" "bf403f0000" "b940000000" "268a06" "658807" "46" "47" "20c0" "7407" "49"
+        "75f1" "65c60700" "ba403f0000" "6607" "5f" "5e" "59" "c3")),
+    # char-name handler @0x46a2: `mov bx,gs:[0x2018]` -> `mov ebx,0x2000` (carved NAME.P
+    # base) + 3 NOPs:
     (0x46A2, bytes.fromhex("6665" "8b1d" "18200000"),
-             bytes.fromhex("bb1b300000" "909090")),
-    # @0x46aa: `call 0x42b6` -> `call 0x982` (the 32-bit variant)
-    (0x46AA, bytes.fromhex("e807fcffff"), bytes.fromhex("e8d3c2ffff")),
+             bytes.fromhex("bb00200000" "909090")),
+    # @0x46aa: `call 0x42b6` -> `call 0xa80` (the carved name-lookup variant):
+    (0x46AA, bytes.fromhex("e807fcffff"), bytes.fromhex("e8d1c3ffff")),
 
     # --- Carve a dedicated RAM segment at init (reusable home for future
     # scene-buffer / name-table relocation). The data segments are full and init

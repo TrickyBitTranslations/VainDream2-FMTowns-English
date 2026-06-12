@@ -163,6 +163,49 @@ class D88:
                 break
         return D88(self.image).patch_span(0, bytes(flat))
 
+    def extend_file(self, name, new_data):
+        """Like grow_file, but ALLOCATES additional free clusters when `new_data`
+        needs more than the file's current chain, links them in (both FAT copies),
+        and updates the dir size. ONLY for files the engine reads whole via the
+        filesystem at true file size (e.g. ITEM.TOS via the DOS 3F count=0xffffffff
+        loader) -- never for files read by absolute sector. Returns the new image."""
+        b, ss, fat_start, root_start, data_start = self._layout()
+        csize = b["spc"] * ss
+        fatsz = b["spf"] * ss
+        start_clu, _ = self._dir_entry(name)
+        chain = self._cluster_chain(start_clu)
+        need = max(1, (len(new_data) + csize - 1) // csize)
+        flat = bytearray(self.flat)
+        fat = bytearray(flat[fat_start:fat_start + fatsz])
+        if need > len(chain):
+            nent = fatsz * 8 // 12
+            free = [c for c in range(2, nent)
+                    if self._fat12_next(fat, c) == 0
+                    and (data_start + c - 2) * ss + csize <= len(flat)]
+            extra = need - len(chain)
+            if len(free) < extra:
+                raise RuntimeError(f"{name}: need {extra} more clusters, {len(free)} free")
+            full = chain + free[:extra]
+            for a, nxt in zip(full, full[1:]):
+                self._fat12_set(fat, a, nxt)
+            self._fat12_set(fat, full[-1], 0xFFF)   # end-of-chain
+            chain = full
+        for k in range(b["nfat"]):                  # write FAT to all copies
+            flat[fat_start + k * fatsz: fat_start + (k + 1) * fatsz] = fat
+        for i, c in enumerate(chain):
+            off = self._cluster_flat_offset(c)
+            flat[off:off + csize] = new_data[i * csize:(i + 1) * csize].ljust(csize, b"\x00")
+        for i in range(b["rootent"]):
+            e = root_start + i * 32
+            if flat[e] in (0, 0xE5):
+                continue
+            nm = bytes(flat[e:e + 8]).decode("latin1").rstrip()
+            ext = bytes(flat[e + 8:e + 11]).decode("latin1").rstrip()
+            if nm + ("." + ext if ext else "") == name:
+                flat[e + 28:e + 32] = struct.pack("<I", len(new_data))
+                break
+        return D88(self.image).patch_span(0, bytes(flat))
+
     def flat_offset_for_file(self, name, file_rel_off):
         """Map a byte offset *within a file* to an absolute flat-image offset,
         following the cluster chain (handles non-contiguous / multi-cluster files)."""

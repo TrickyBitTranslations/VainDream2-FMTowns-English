@@ -37,6 +37,8 @@ def decode_jis(pair):
     return bytes(b | 0x80 for b in pair).decode("euc-jp")
 
 EN_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk]_EN.D88"
+NAME_OFF = 0x2000   # carved-segment offset where the full NAME.P table is loaded
+                    # (ITEM.P sits at carved:0; 0x2000 leaves it 8 KB of growth room)
 
 # --- literal Japanese run -> English. Genitive の is rendered "'s "/" " inline,
 #     so suffix runs like "の杖" carry the connector. Runs left out of this map
@@ -258,11 +260,19 @@ def main(write=None):
         for t in sorted(todo):
             print(f"   «{t}»")
     if write:
-        # grow_file rewrites in place within ITEM.TOS's existing cluster and updates
-        # the dir size; raises if we ever exceed the 2048 B allocation.
-        img = fs.grow_file("ITEM.TOS", new_item)
+        # ITEM.TOS loads whole into the 32 KB carved segment. We piggy-back the FULL
+        # NAME.P table at carved:NAME_OFF so the name table escapes DATA.BIN's RAM cap
+        # (the char-name lookup is repointed to scan carved — see patch_main_exp). One
+        # file, one existing load stub; extend_file adds clusters as needed.
+        from patch_names import full_name_table
+        name_tbl = full_name_table()
+        if len(new_item) > NAME_OFF:
+            raise RuntimeError(f"ITEM.P ({len(new_item)} B) overruns the NAME.P slot @{NAME_OFF:#x}")
+        blob = new_item.ljust(NAME_OFF, b"\x00") + name_tbl
+        img = fs.extend_file("ITEM.TOS", blob)
         EN_D88.write_bytes(img)
-        print(f"\nwrote ITEM.TOS ({len(new_item)} B) -> {EN_D88.name}")
+        print(f"\nwrote ITEM.TOS carved blob: {len(blob)} B "
+              f"(ITEM.P {len(new_item)} @0 + NAME.P {len(name_tbl)} @{NAME_OFF:#x}) -> {EN_D88.name}")
     else:
         print("\n(dry run — pass --write to apply)")
 

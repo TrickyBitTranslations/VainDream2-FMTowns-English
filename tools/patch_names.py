@@ -168,6 +168,23 @@ def _protected_indices(decoded):
     return protected
 
 
+JP_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk].D88"
+
+
+def full_name_table():
+    """The COMPLETE NAME.P table — every record translated, NO budget cull — for
+    loading into the carved segment (which escapes DATA.BIN's RAM-bounded cap).
+    Reads the ORIGINAL Japanese DATA.BIN (so records decode to JP and map via
+    TRANSLATIONS). Returns b'NAME.P\\x01.' + the NUL-joined records."""
+    data_bin = read_file_from(read_d88(JP_D88.read_bytes()), "DATA.BIN")
+    recs = data_bin[TABLE_OFF:].split(b"\x00")
+    decoded = [_decode_record(r) for r in recs]
+    out = [en(TRANSLATIONS[d]) if d in TRANSLATIONS and d != PAD_RECORD
+           else (b"" if d == PAD_RECORD else r)
+           for d, r in zip(decoded, recs)]
+    return data_bin[TABLE_OFF - 8:TABLE_OFF] + b"\x00".join(out)   # "NAME.P\x01." + records
+
+
 def main():
     fs = read_d88(EN_D88.read_bytes())
     data_bin = read_file_from(fs, "DATA.BIN")
