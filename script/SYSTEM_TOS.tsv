@@ -10,7 +10,7 @@ SYSTEM.TOS	0xbf		<03:52>コマンド<14>エラ~\n<14>異常な環境が発生し
 SYSTEM.TOS	0xdf		<03:52><14>お金が足りないか///	<03:52><14>Not enough gold...
 SYSTEM.TOS	0xf0		<03:51>アイテム<14>説明	<03:51>Item<14>Info\n
 SYSTEM.TOS	0xfc		<03:54><14>武器<1a>片手<1b><14>武器<1a>両手<1b><14>盾\n<14>下 鎧\n<14>上 鎧\n<14>指 輪\n<14>靴\n<03:56><14>道 具\n<03:52><14>アイテム	<03:54><14>Weapon<1a>1H<1b>\n<14>Weapon<1a>2H<1b>\n<14>Shield\n<14>L.Armor\n<14>U.Armor\n<14>Ring\n<14>Boots\n<03:56><14>Tool\n<03:52><14>Item
-SYSTEM.TOS	0x142		<03:52>そんな物、持ってない。	<03:52>You don't have that.
+SYSTEM.TOS	0x142		<03:52>そんな物、持ってない。	<03:52>Don't have that.
 SYSTEM.TOS	0x152		<03:52>そんな奴はいません！！	<03:52>No such person!!
 SYSTEM.TOS	0x161		<03:52>もう、雇えない。	<03:52>Can't hire more.
 SYSTEM.TOS	0x16d		ダインを手に入れた。	 Dain obtained.
@@ -41,7 +41,7 @@ SYSTEM.TOS	0x382		を見つけた。	 found.
 SYSTEM.TOS	0x38a		音源ボ~ド２が無いと使えません。	Needs sound board 2.
 SYSTEM.TOS	0x39f		<03:55><14>［有効］<14><14><14>［無効］	<03:55><14>On<14><14><14>Off
 SYSTEM.TOS	0x3b6		<03:55>これ以上持つことができません。	<03:55>Can't carry more.
-SYSTEM.TOS	0x3cb		<03:55>重要な物は大切にしましょう	<03:55>Cherish things.
+SYSTEM.TOS	0x3cb		<03:55>重要な物は大切にしましょう	<03:55>Cherish them.
 SYSTEM.TOS	0x3e0		<03:51><20><20><20><14>隊列関係<14><20><20><20>\n	<03:51>   <14>Party<14>   \n
 SYSTEM.TOS	0x3f4		　隊 列 変 更\n<14>フォ~メイション選択\n<14>フォ~メイション制作	　Reorder\n<14>Pick form\n<14>Make form
 SYSTEM.TOS	0x41e		<03:55>ここで使う物ではありません。	<03:55>Not for use here.
@@ -61,10 +61,10 @@ SYSTEM.TOS	0x506		情 報買 うやめる	Info<04>Buy<04>Quit
 SYSTEM.TOS	0x513		戦闘 表示時間<14><1a>１<1f>８<1b>\n\n	Battle<04>text time<14><1a>1<1f>8<1b>\n\n
 SYSTEM.TOS	0x529		　相 談 中	　Talking
 SYSTEM.TOS	0x534		を、外しました。	 removed.
-SYSTEM.TOS	0x53e		<03:55>持物がいっぱいで外ずせません。	<03:55>Pack full, can't remove.
-SYSTEM.TOS	0x553		<03:56>あら、持物がいっぱい。	<03:56>Oh, the pack is full.
+SYSTEM.TOS	0x53e		<03:55>持物がいっぱいで外ずせません。	<03:55>Full, can't remove.
+SYSTEM.TOS	0x553		<03:56>あら、持物がいっぱい。	<03:56>Oh, pack's full.
 SYSTEM.TOS	0x563		<03:51><20><20> フォ~メイション選択 <20><20>\n\n	<03:51>  <04>Pick form<04>  \n\n
-SYSTEM.TOS	0x57a		<03:55><1a>１<1b><14><1a>２<1b><14><1a>３<1b><14><1a>４<1b><1a>５<1b><14><1a>６<1b><14><1a>７<1b><14><1a>８<1b>	<03:55><1a>1<1b><14><14><1a>2<1b><14><14><1a>3<1b><14><14><1a>4<1b>\n<1a>5<1b><14><14><1a>6<1b><14><14><1a>7<1b><14><14><1a>8<1b>
+SYSTEM.TOS	0x57a		<03:55><1a>１<1b><14><1a>２<1b><14><1a>３<1b><14><1a>４<1b><1a>５<1b><14><1a>６<1b><14><1a>７<1b><14><1a>８<1b>	<03:55><1a>1<1b><14><14><14><14><14><1a>2<1b><14><14><14><14><14><1a>3<1b><14><14><14><14><14><1a>4<1b>\n<1a>5<1b><14><14><14><14><14><1a>6<1b><14><14><14><14><14><1a>7<1b><14><14><14><14><14><1a>8<1b>
 SYSTEM.TOS	0x59b		これでいいですか？\n	Is this OK?\n
 SYSTEM.TOS	0x5a6		<03:52><14>定義されていません。	<03:52><14>Not defined.
 SYSTEM.TOS	0x5b6		\n<03:56><14>定義 しちゃったよ。\n	\n<03:56><14>Defined<04> it.\n
@@ -90,7 +90,7 @@ SYSTEM.TOS	0x685		上 鎧	U.Armor
 SYSTEM.TOS	0x68b		指 輪	Ring
 SYSTEM.TOS	0x691		靴	Boots
 SYSTEM.TOS	0x694		影 響 量\n	Effect\n
-SYSTEM.TOS	0x69e		誰も装備できない。	No one can equip.
+SYSTEM.TOS	0x69e		誰も装備できない。	None can equip.
 SYSTEM.TOS	0x6ab		最大攻撃回数\n	Max hits\n
 SYSTEM.TOS	0x6b9		<03:03>回まで。	<03:03> times.
 SYSTEM.TOS	0x6c1		（男<1b>	Male
@@ -99,7 +99,7 @@ SYSTEM.TOS	0x6cd		有効範囲	Range
 SYSTEM.TOS	0x6d6		回 復 値	Heal
 SYSTEM.TOS	0x6df		移動量上昇値	Move up
 SYSTEM.TOS	0x6ed		戦闘レベル？	Battle level?
-SYSTEM.TOS	0x6f6		<03:55>足場が悪い、セ~ブはやめだ！	<03:55>Bad footing, no save!
+SYSTEM.TOS	0x6f6		<03:55>足場が悪い、セ~ブはやめだ！	<03:55>Can't save here!
 SYSTEM.TOS	0x70a		<03:57>★ 不思議な力で、封印されている ！！	<03:57>★<04>Sealed by magic<04>!!
 SYSTEM.TOS	0x727		ト~ク	Talk
 SYSTEM.TOS	0x72b		キャラクタ~	Character
