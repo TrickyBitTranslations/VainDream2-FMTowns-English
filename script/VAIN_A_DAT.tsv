@@ -102,10 +102,10 @@ block_off	str_off	speaker	text	english
 0x5edb9	0x123	ダ　ン	ねえ　ブージィィ。\n今度は僕も一緒に連れて行ってよ。\n僕も、ランバート兄ちゃんを探すんだ。	{BOOJ}, take me next time.\nI'll find {LAMBERT} too.
 0x5edb9	0x16f	ブージ	ランバートはじきに帰って来る。\nほんのちょっと、狩りが長引いているだけだ。\nブージ\nあいつは強い男だ・・・心配する事はない。	{LAMBERT} will be back soon.\nThe hunt ran long.\p{BOOJ}\nHe's a strong man... don't worry.
 0x5edb9	0x1de		女剣士　シェリー\nおはようウォーリック。\n今から北の森にラット　ジャイアント狩りに行くけど、一緒に行かないか。	{Swordmaiden} Sherry\nMorning, {Warrick}! I'm off\nto the north woods to hunt\nRat Giants. Care to come along?
-0x5edb9	0x228		朝っぱらからどこ行く気だい？\nそれにしても、いきなり冷えこんできたなぁ。\nフロスト様に何かあったのかな？	Where are you off to so early\nin the morning? It sure got\ncold so suddenly, didn't it?\pI wonder if something happened\nto Lord Frost?
-0x5edb9	0x26d		ピート\nこのごろ魔物の活動が活発になってきてるな。\nまぁ、この辺りにゃ神官竜のフロスト様のおかげで、たいした魔物はいねぇえがな。	Pete\n{Monster}s have been getting\nmore active lately.\pBut thanks to Lord Frost, the\n{Priest Dragon}, no real\n{Monster}s trouble us here.
+0x5edb9	0x228		朝っぱらからどこ行く気だい？\nそれにしても、いきなり冷えこんできたなぁ。\nフロスト様に何かあったのかな？	Where are you off to so early\nin the morning? It sure got cold\nso suddenly, didn't it? Did\nsomething happen to Lord Frost?
+0x5edb9	0x26d		ピート\nこのごろ魔物の活動が活発になってきてるな。\nまぁ、この辺りにゃ神官竜のフロスト様のおかげで、たいした魔物はいねぇえがな。	Pete\n{Monster}s have been getting more\nactive lately. But thanks to Lord\nFrost, the {Priest Dragon}, no real\n{Monster}s trouble us here.
 0x5edb9	0x2bd		んっ、ウォーリックじゃないか。\nお前の見張り当番は来週だぞ。\nケイ	Oh, {Warrick}, it's you.\nYour watch shift isn't till\nnext week.\pKay
-0x5edb9	0x2e7		そろそろハンターの帰る時期だろ。\nダ　ンの奴、このところ毎日朝早くから門の回りでランバートの帰りを待ってるんだぜ。	It's about time for the\n{Hunter} to return, no?\pThat {Dan} fellow waits by the\ngate each morning, hoping\n{Lambert} comes back.
+0x5edb9	0x2e7		そろそろハンターの帰る時期だろ。\nダ　ンの奴、このところ毎日朝早くから門の回りでランバートの帰りを待ってるんだぜ。	It's about time for the {Hunter}\nto return, no? That {Dan} fellow\nwaits by the gate each morning,\nhoping {Lambert} comes back.
 0x5edb9	0x333		ラウニー\nさっき、超でっかいカラスがいっぱい北の方へ飛んで行ったな。\nなぁぁぁんか、嫌な予感がするぜ。	Rowney\nJust now, a huge crow flew north.\nI've got a bad feeling about this.
 0x5edb9	0x37d		だめだよ　ウォーリック。\n氷の洞窟に続く森は魔物が多くなったんで、危険だから誰も通すなって大婆様から言われてるんだよ。	No can do, {Warrick}.\nThe woods to the Ice Cavern\nare thick with {Monster}s now.\n{Granny} says let no one through.
 0x5edb9	0x3c6		どこ行くんだい、ウォーリック？\nあんまフラフラしてるとレイナに言いつけるぞ。	Where to, {Warrick}?\nKeep loafing about and I'll\ntell {Reina} on you.
@@ -447,7 +447,7 @@ block_off	str_off	speaker	text	english
 0x624f6	0x780		チョリス\n俺もドラゴン　ライダー隊に志願するんだ。	Choris\nI'm gonna volunteer for the\nDragon Rider corps too.
 0x62a3c	0x15		アーヴィング\nカナールが閉鎖されて以来、ろくなことがないよ。\n今は娘の稼ぎが頼りさ。	Irving\nNothing good has happened since\nCanal Mine closed.\nNow I lean on my daughter's wages.
 0x62a3c	0x55		アーヴィング\n噂話じゃ、セルーシュの方でも何かあったって話しだし、\n世の中どうなっちまったんだろぉなぁ。	Irving\nRumor says something stirred over\nin Serush too.\nWhat is becoming of this world?
-0x62a3c	0x93		アーヴィング\nカナールの魔物は蛇かなんかの類だろぉな。俺は１度だけあそこで蛇の這い回る様な音を聞いたんだ。\nあぁぁぁっ、思い出しただけでも鳥肌がたつよ。	Irving\nThe monster in Canal must be\nsome kind of snake. Once I\nheard a slithering sound.\pAah, recalling it gives me\nchills.
+0x62a3c	0x93		アーヴィング\nカナールの魔物は蛇かなんかの類だろぉな。俺は１度だけあそこで蛇の這い回る様な音を聞いたんだ。\nあぁぁぁっ、思い出しただけでも鳥肌がたつよ。	Irving\nThe monster in Canal must be some\nkind of snake. Once I heard a\nslithering sound down there.\nAah, just recalling it chills me.
 0x62a3c	0xff		アーヴィング\nカナール閉鎖前は大がかりな採掘が行なわれていてね、\n中はかなり危険な状態じゃないかな。	Irving\nBefore Canal closed they did heavy\nmining there.\nInside is likely quite dangerous now.
 0x62a3c	0x14b		アーヴィング\nカナールまでの森には、結構変った植物が生えてるらしいよ。	Irving\nThey say strange plants grow in the\nforest on the way to Canal.
 0x62a3c	0x181		アーヴィング\nなぁ、カナールはこの後どうなるのか知らないか。	Irving\nSay, do you know what becomes of\nCanal after this?
@@ -471,7 +471,7 @@ block_off	str_off	speaker	text	english
 0x62a3c	0x58e		アレーナ\nルーシーの父はマーズ砦の守備隊にいるんです。\nなかなか家に帰って来れないんで、ルーシーはすぐショー	Arena\nLucy's father is in the Mars Fort\ngarrison.\nHe can hardly come home, so Lucy\nquickly takes to Show
 0x62a3c	0x5cd		さんにあまえるんです。	 and clings to him.
 0x62a3c	0x5df		アレーナ\nアーヴィングさんも大変ね。\n早くカナールの採掘場が再開されればいいのだけれど。	Arena\nMister Irving has it rough too.\nI hope Canal Mine reopens soon.
-0x62a3c	0x61d		アレーナ\n採掘場で御活躍だった方々ね。\nえ？なんで知ってるのかって？\n噂話ってそ〜いうものよ。\nそれに、私こ〜見えても情報通って有名なんだから。	Arena\nYou're the ones who shone\nat the mine. Eh? How do I know?\pThat's what rumors are for.\nI'm famously well informed.
+0x62a3c	0x61d		アレーナ\n採掘場で御活躍だった方々ね。\nえ？なんで知ってるのかって？\n噂話ってそ〜いうものよ。\nそれに、私こ〜見えても情報通って有名なんだから。	Arena\nYou're the ones who shone at the\nmine. Eh? How do I know? That's\nwhat rumors are for. I'm famously\nwell informed, you see.
 0x62a3c	0x684		アレーナ\n魔法屋のストネールさんは努力家で有名なのよ。\n結構若いのに自分のお店まで持って、\nここだけの話しだけど、お城のマーシー様にも負けない位すごい術を使えるんですって！\nほんと若いのにすごいわねぇ。	Arena\nStonel of the Magic Shop is famed\nfor his hard work.\nSo young, yet he owns his own shop,\nand between us, they say his spells\nrival even Lady Marcy at the castle!\nTruly amazing for one so young.
 0x62a3c	0x70d		アレーナ\nこらッ、ルーシー！！\nショー	Arena\nHey, Lucy!!\nShow
 0x62a3c	0x727		さんに迷惑かけちゃだめだってあんなに言ってあるでしょ。	, I told you so many times not to\nbe a bother to him.
