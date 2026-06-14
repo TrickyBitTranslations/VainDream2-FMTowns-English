@@ -103,7 +103,7 @@ def check(rows=None):
             continue
         en_w, jp_w = max(_vis_cells(eng), default=0), max(_vis_cells(jp.get((fname, so), "")), default=0)
         if en_w > jp_w + 1:
-            print(f"WARN  {fname} {so}: renders {en_w} cells vs {jp_w} in JP — may overflow its menu column")
+            print(f"WARN  {fname} {so}: renders {en_w} cells vs {jp_w} in JP - may overflow its menu column")
             warns += 1
     print(f"{len(tr)} translated UI records validated; {errors} error(s), {warns} warning(s)")
     return errors
@@ -129,7 +129,7 @@ def main(write=False):
     if over:
         raise SystemExit(
             "UI .TOS over its fixed RAM slot (would overrun the next struct and crash):\n  "
-            + "\n  ".join(f"{f}: {n} > {cap} B — shorten translations for this file"
+            + "\n  ".join(f"{f}: {n} > {cap} B - shorten translations for this file"
                           for f, n, cap in over))
     if not write:
         print(f"(dry run; {n_tr} translated records) -- pass --write to apply")

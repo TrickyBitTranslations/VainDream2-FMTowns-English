@@ -27,7 +27,7 @@ def main():
             print(f"  MISMATCH MAIN.EXP+{off:#x}: expected {repl.hex()} found {cur.hex()}")
             bad += 1
     if bad:
-        sys.exit(f"{bad} engine patch(es) missing from the built floppy — stale build")
+        sys.exit(f"{bad} engine patch(es) missing from the built floppy - stale build")
     print(f"  all {len(patch_main_exp.PATCHES)} engine patches verified in _EN.D88")
 
 

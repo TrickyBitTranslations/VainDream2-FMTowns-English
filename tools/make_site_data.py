@@ -31,7 +31,7 @@ def main():
     import re as _re
 
     def is_engine_data(jp):
-        """Extraction noise that crossed into event bytecode — not translatable."""
+        """Extraction noise that crossed into event bytecode - not translatable."""
         return ("⟨" in jp or jp.startswith("。")
                 or _re.search(r"(\\n){3,}", jp) is not None)
 
@@ -41,7 +41,7 @@ def main():
 
     def is_script_block(archive, block_s):
         """Real scene blocks open with an ASCII tag (VD2A01, A01_, ...);
-        binary data blocks (stats tables etc.) don't — their 'strings' are
+        binary data blocks (stats tables etc.) don't - their 'strings' are
         numeric bytes misread as name tokens."""
         try:
             head = bytes(src_blocks.block(archive, int(block_s, 16))[:4])

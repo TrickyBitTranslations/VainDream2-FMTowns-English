@@ -220,7 +220,7 @@ def string_span(block, str_off):
     """(prefix_end, end): preserve leading fmt ops + the ⟨02 spk⟩⟨01⟩ box-title
     prefix; the replaceable text runs to the string's 0x00 terminator.
 
-    0xff is *usually* an event separator — but 0xff is also the katakana ン, and
+    0xff is *usually* an event separator - but 0xff is also the katakana ン, and
     the two are byte-identical. It's a real ン only when wedged inside a katakana
     run (both neighbours are katakana, 0xad-0xff), e.g. ジャイア|ン|ト; there we
     read through it. Anywhere else the 0xff ends the string, so a splice never
@@ -352,7 +352,7 @@ def main():
             start, end = string_span(block, str_off)
             if spans_event_code(block, start, end):   # mis-extracted into event code
                 print(f"ERROR  {archive}@{block_off:#x} str {str_off:#x}: original "
-                      f"spans event bytecode (0x05-0x13) — not a real string, don't translate")
+                      f"spans event bytecode (0x05-0x13) - not a real string, don't translate")
                 errors += 1
                 continue
             splices.append((start, end, compile_english(english, tokens)))
@@ -388,7 +388,7 @@ def main():
           f"{errors} error(s), {warnings} warning(s)")
     if bisection_todo:
         print(f"NOTE: {len(bisection_todo)} dialogue FF-junction(s) still draw a stray 'F' "
-              f"(unhandled bisections to merge) — see memory dialogue-ff-bisection-todo")
+              f"(unhandled bisections to merge) - see memory dialogue-ff-bisection-todo")
     if errors:
         sys.exit(1)
 

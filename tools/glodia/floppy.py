@@ -138,7 +138,7 @@ class D88:
 
     def grow_file(self, name, new_data):
         """Rewrite `name` to `new_data` IN PLACE within its existing clusters
-        (never relocates — the game reads some files by absolute sector). Raises
+        (never relocates - the game reads some files by absolute sector). Raises
         if `new_data` exceeds the current cluster allocation. Updates dir size."""
         b, ss, fat_start, root_start, data_start = self._layout()
         csize = b["spc"] * ss

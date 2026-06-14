@@ -3,7 +3,7 @@
 Reads $ISSUE_BODY, extracts the Japanese term and the proposed English, and
 updates the TRANSLATIONS table in tools/patch_names.py. Before writing, it
 budget-checks the name table: the rewritten span (records 1..last-translated)
-must fit its original byte total — placeholder records absorb slack, English
+must fit its original byte total - placeholder records absorb slack, English
 is 1 byte/char (+1 per apostrophe).
 
 The change reaches the game on the next floppy build (build.ps1 -Full).
@@ -51,7 +51,7 @@ def main():
         print(f"Term {jp!r} not found in the name table.")
         sys.exit(1)
 
-    # NOTE: no name-table byte budget anymore — the build grows DATA.BIN on the
+    # NOTE: no name-table byte budget anymore - the build grows DATA.BIN on the
     # floppy (FAT12) to fit the whole table, so romanizations can be any length.
     # Only the charset (checked above) and the term existing matter.
     # The names live in script/NAMES.tsv (the single source patch_names loads).

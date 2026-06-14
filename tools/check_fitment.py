@@ -1,43 +1,28 @@
 #!/usr/bin/env python3
-"""Static dialogue fitment / flow checker.
+"""Lays out each script line the way the game would and flags ones that won't fit.
+No emulator needed.
 
-Simulates the engine's text-box layout over the translated script (no emulator,
-no playthrough) and flags lines/boxes that won't render correctly. This is the
-fast, exhaustive per-build gate; the emulator (BP 0x2E51 dialogue-box catch) is
-the calibration oracle for the geometry constants below.
+  WIDE     line wider than the box (wraps mid-word)
+  TALL     box has more lines than it shows
+  REDTITLE page break not followed by a name, so the body draws red
 
-Models:
-  - glyph cell widths: half-width codec; {TOKEN} -> rendered name, ' = 1, ... = 3,
-    middot = 1; 3<word>7 highlight markers dropped.
-  - engine hard-wrap: a line longer than the box wraps mid-word at the box edge
-    (live-measured: overworld box wraps at cell 38).
-  - \\n = line break, \\p = new box; a box shows up to BOX_LINES lines; the FIRST
-    line after a \\p renders in title (red) colour, so it must be a speaker name.
-
-Flags per record:
-  WIDE     a source line is wider than the box -> hard-wraps mid-word (ugly).
-  TALL     a box (after wrapping) has more lines than the box can show.
-  REDTITLE a \\p is not followed by a name line -> body text renders red.
-
-Complements `reinsert.py --check` (charset/token validity + FF-junction
-bisections). Geometry constants are PROVISIONAL until calibrated against
-in-engine captures -- see docs/plans/dialogue-test-harness.md.
+Box size below is a starting guess. Tune it against real captures.
+Pairs with reinsert.py --check (charset/tokens + FF-junction bisections).
 """
 import re, sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import reinsert, patch_names
 
-# --- box geometry (CALIBRATE against 0x2E51 captures) ------------------------
-# Defaults = overworld field-NPC box. Portrait/system boxes differ (TBD).
-BOX_WIDTH = 37          # half-width cells per line
-BOX_LINES = 6           # lines a box shows before it scrolls/overflows
+# box size - field box. portrait/system boxes differ, tune against captures.
+BOX_WIDTH = 37
+BOX_LINES = 6
 
 NAMES = {patch_names.TRANSLATIONS[j].upper(): patch_names.TRANSLATIONS[j]
          for j in patch_names.TRANSLATIONS}
 
 
 def to_cells(line):
-    """A source line -> its rendered half-width cell string (for width/wrap)."""
+    """line -> rendered cells, for measuring width."""
     line = re.sub(r"\{([^}]+)\}", lambda m: NAMES.get(m.group(1).upper(), "??"), line)
     line = line.replace("３", "").replace("７", "")     # highlight markers: drop
     line = line.replace("...", "\x00\x00\x00").replace("…", "\x00")
@@ -65,7 +50,7 @@ def layout(english):
 
 
 def looks_like_name(line):
-    """First-line-after-\\p title test: a known name, or a short Title-Cased word."""
+    """is this the speaker name (the red title line after a page break)?"""
     s = line.strip()
     if not s:
         return False

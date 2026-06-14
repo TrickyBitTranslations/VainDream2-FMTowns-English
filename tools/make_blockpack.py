@@ -63,7 +63,7 @@ def main():
             tokens[en.upper()] = tok
             names[str(tok)] = en
 
-    # only carry records that are structurally valid name/phrase text — the
+    # only carry records that are structurally valid name/phrase text - the
     # NUL-split past the real end of NAME.P wanders into binary data
     def sane_record(raw):
         if not raw or len(raw) > 30:

@@ -56,7 +56,7 @@ the surfaces and how to add a new one are in [docs/PIPELINE.md](docs/PIPELINE.md
 
 ### Character set
 
-`A–Z a–z 0–9 . , ! ? - ' space` plus the syntax above. Nothing else no
+`A-Z a-z 0-9 . , ! ? - ' space` plus the syntax above. Nothing else no
 quotes, colons, semicolons, parentheses (no glyphs for them yet; flag it in
 your PR if a line truly needs one).
 
@@ -85,7 +85,7 @@ your PR if a line truly needs one).
 ## Length: no byte budget, but mind the box
 
 **There is no length budget.** The build grows the game's data and repoints the
-engine to match, so a translation can be as long as it needs — write what reads
+engine to match, so a translation can be as long as it needs - write what reads
 best. (Early on, scenes had a fixed compressed-size budget; that's gone now.)
 
 The one real limit is **visual**: a dialogue box shows about **5 lines of ~54

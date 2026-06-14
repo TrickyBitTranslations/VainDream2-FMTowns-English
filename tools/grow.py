@@ -39,22 +39,16 @@ def rebuild(archive_bytes, overrides):
 
 
 def patch_offset_table(exe, archive, old_offsets, new_offsets, old_size, new_size):
-    """Repoint `archive`'s scene table in MAIN.EXP (in place, length-preserving).
+    """Rewrite archive's scene table in MAIN.EXP after the archive resized.
 
-    The table is `[u32 offset]* [u32 archive-size terminator]`. Entries are byte
-    offsets INTO the archive -- mostly member starts, but some are *sub-offsets*
-    that point inside a member (a scene that begins partway through a block).
-    EVERY entry must shift by however many bytes the (translated) members before
-    it grew or shrank, not just the ones that equal a member start. So remap each
-    entry by the byte-delta of the member that CONTAINS it; the terminator
-    becomes the new archive size.
+    Table is [u32 offset]* then the archive size. Most entries are member starts,
+    but some point inside a member (a scene starting mid-block). Every entry has
+    to shift by whatever the members before it grew/shrank, so remap each by its
+    containing member's delta, not just exact starts. Last entry = new size.
 
-    (The previous version remapped only exact member-start values and bailed at
-    the first sub-offset it didn't recognise -- leaving the rest of the table AND
-    the size terminator stale. For an archive that resized, that pointed every
-    scene indexed past the first sub-offset at the wrong place: e.g. VAIN_S left
-    64 stale entries, so a scene load computed a garbage sector and the CD BIOS
-    trapped. Member starts still map exactly, sub-offsets map start+delta.)
+    Don't just fix exact starts and stop at the first sub-offset - that leaves
+    the rest stale. VAIN_S had 64 bad entries that way and new-game crashed the
+    CD on a garbage sector.
     """
     import struct, bisect
     base = TABLES[archive]

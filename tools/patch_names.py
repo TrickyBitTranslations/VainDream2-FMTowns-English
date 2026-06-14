@@ -46,7 +46,7 @@ def read_file_from(fs, name):
     return read_file(fs, name)
 
 
-# the playable cast — always keep these even if no dialogue references them yet
+# the playable cast - always keep these even if no dialogue references them yet
 CAST = {"ウォーリック", "レイナ", "ファーニス", "ブージ", "ダ　ン", "ランバート", "大婆様",
         "セシリア", "ブラフォード", "セス", "ナッツ", "ライド", "キャロル", "ベイグ"}
 
@@ -75,7 +75,7 @@ JP_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk].D88"
 
 
 def full_name_table():
-    """The COMPLETE NAME.P table — every record translated, NO budget cull — for
+    """The COMPLETE NAME.P table - every record translated, NO budget cull - for
     loading into the carved segment (which escapes DATA.BIN's RAM-bounded cap).
     Reads the ORIGINAL Japanese DATA.BIN (so records decode to JP and map via
     TRANSLATIONS). Returns b'NAME.P\\x01.' + the NUL-joined records."""
@@ -94,15 +94,15 @@ def main():
 
     # The whole region from TABLE_OFF to EOF is ONE NUL-separated table; the
     # engine looks records up by counting NULs (position-independent), so record
-    # LENGTHS are free. BUT DATA.BIN is read by absolute disk sector — it can't
-    # move or gain a cluster — so the table must fit DATA.BIN's capacity. If the
+    # LENGTHS are free. BUT DATA.BIN is read by absolute disk sector - it can't
+    # move or gain a cluster - so the table must fit DATA.BIN's capacity. If the
     # full set overflows, drop the costliest (biggest English-over-Japanese)
     # translations until it fits.
     recs = data_bin[TABLE_OFF:].split(b"\x00")
     decoded = [_decode_record(r) for r in recs]
     # DATA.BIN can't move (read by absolute sector), but the game reads its full
     # 6-sector cluster allocation (6144B) regardless of the directory size, so the
-    # table may use all of it — not just the original 6085 bytes.
+    # table may use all of it - not just the original 6085 bytes.
     cap = fs.file_capacity("DATA.BIN")
     chosen = {i for i, d in enumerate(decoded) if d in TRANSLATIONS and d != PAD_RECORD}
     pad_idx = max(i for i, d in enumerate(decoded) if d == PAD_RECORD)
@@ -141,7 +141,7 @@ def main():
     from glodia.english import decode as en_dec
     check = read_file_from(fs2, "DATA.BIN")[TABLE_OFF:].split(b"\x00")
     print(f"name table: {len(chosen)} of {len(chosen)+len(dropped)} names translated "
-          f"(DATA.BIN held at {cap} bytes — read by absolute sector, can't grow)")
+          f"(DATA.BIN held at {cap} bytes - read by absolute sector, can't grow)")
     if dropped:
         print(f"  {len(dropped)} didn't fit (kept Japanese): {', '.join(dropped[:14])}"
               + (" ..." if len(dropped) > 14 else ""))

@@ -70,7 +70,7 @@ def parse_string(data, i, names):
         if b == 0xFF:
             # 0xff is BOTH the katakana ン and the event separator, and they are
             # byte-identical. It is a real ン only when wedged inside a katakana
-            # run — both neighbours are katakana (0xad-0xff), e.g. ジャイア|ン|ト —
+            # run - both neighbours are katakana (0xad-0xff), e.g. ジャイア|ン|ト -
             # in which case we fall through to the kana branch and decode it as
             # text. Anywhere else it's a separator: end the string here WITHOUT
             # consuming it, so the splice never crosses event bytecode. (Erring

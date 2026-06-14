@@ -32,7 +32,7 @@ into a TSV, a translator-filled `english` column, and a re-encoder that writes i
 |---------|----------|-----|-----------|-----------|
 | **Dialogue** (~4000 lines) | CD `VAIN_{A,B,C,S}.DAT` dlz blocks | `script/VAIN_*_DAT.tsv` | `export_script.py` | `reinsert.py` → `patch_cd.py` |
 | **Names / terms** | `DATA.BIN` NAME.P table | `script/NAMES.tsv` | `export_names.py` | `patch_names.py` |
-| **Item names** | floppy `ITEM.TOS` | (inline dict) | — | `patch_items.py` |
+| **Item names** | floppy `ITEM.TOS` | (inline dict) | - | `patch_items.py` |
 | **UI / system text** | floppy `SYSTEM.TOS`, `SYSTEM2.TOS`, `FSYS.TOS` | `script/SYSTEM_TOS.tsv`, `SYSTEM2_TOS.tsv`, `FSYS_TOS.tsv` | `export_ui.py` | `patch_ui.py` |
 
 All text uses the game's custom 1-byte codec (`glodia/kana.py` for the JP source,
@@ -47,7 +47,7 @@ glossary handed to translators. Edit `NAMES.tsv` (or the `/apply` bot does via
 **Website coverage** (`tools/make_site_data.py`): the dialogue TSVs render in the main
 script view; names render in the dedicated **Names tab** (built from `TRANSLATIONS`). The
 site script view only ingests rows whose `block_off` is a `0x…` dlz offset, so the UI
-`*_TOS.tsv` rows are committed but **not yet shown on the site** — surfacing them needs a
+`*_TOS.tsv` rows are committed but **not yet shown on the site** - surfacing them needs a
 `make_site_data` pass + a frontend tab (a known follow-up).
 
 ## The UI text surface (worked example)
@@ -56,18 +56,18 @@ The in-game menus, status screen, equipment, battle UI, config, spell names and 
 messages live in three floppy `.TOS` files in the game's raw-JIS codec (NOT the dialogue
 blocks, NOT Shift-JIS). Records are `\x00`-separated and carry layout control codes.
 
-- **`glodia/uitext.py`** — the markup codec. `decode_markup(bytes) -> str` renders a record
+- **`glodia/uitext.py`** - the markup codec. `decode_markup(bytes) -> str` renders a record
   for the TSV; `encode_markup(str) -> bytes` re-encodes a translation. Markup tokens:
   `\n`=newline (`0x01`), `<04>`=half-space, `<14>`=column spacer, `<03:nn>`=format op,
   `<nn>`=any other control byte, `/`=middle-dot (・), `~`=long-vowel (ー). Angle brackets
   use ASCII `< >` so the markup stays inside the 1-byte English charset.
   Round-trip is identity: `encode_markup(decode_markup(r)) == r` for every text record.
-- **`export_ui.py`** — reads the three `.TOS` from the JP floppy, writes the TSVs
+- **`export_ui.py`** - reads the three `.TOS` from the JP floppy, writes the TSVs
   (skips the file-header record and any non-text/binary records). Preserves existing
   `english` on re-export, exactly like `export_script.py`.
-- **`patch_ui.py`** — reads the TSVs, re-encodes translated records, passes untranslated
+- **`patch_ui.py`** - reads the TSVs, re-encodes translated records, passes untranslated
   records through byte-for-byte, and writes each rebuilt file into `_EN.D88` via
-  `floppy.extend_file` (the whole-file DOS loader path, same as ITEM.TOS — grows clusters
+  `floppy.extend_file` (the whole-file DOS loader path, same as ITEM.TOS - grows clusters
   only if the English is larger).
 
 `reinsert.py` skips `*_TOS.tsv` (its `block_off` is a file name, not a dlz offset), so the
@@ -88,7 +88,7 @@ dialogue validator and the UI patcher don't collide.
 5. **Keep validators happy.** If the new TSV is not dialogue, exclude it in
    `reinsert.load_rows` (it skips `*_TOS.tsv` by suffix) and add your own `--check` if it
    needs one.
-6. **Build and verify in the emulator** — confirm the strings render (not just that the
+6. **Build and verify in the emulator** - confirm the strings render (not just that the
    bytes changed). Mind box geometry: English is usually longer than Japanese; the layout
    control codes (`<14>`/`<04>` spacers) assume Japanese widths, so long strings can
    overflow a menu column. Same concern as the dialogue box-width check in `reinsert.py`.

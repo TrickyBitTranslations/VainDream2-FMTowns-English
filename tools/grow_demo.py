@@ -2,7 +2,7 @@
 media, by rebuilding the archive + repointing the engine's scene table.
 
 Produces the EN floppy (classifier + names + repointed VAIN_A table) and the
-EN CD (grown VAIN_A written in place — the demo grow still fits VAIN_A's 242
+EN CD (grown VAIN_A written in place - the demo grow still fits VAIN_A's 242
 sector allocation, so no relocation; that is the next step). If the wake-up
 scene shows the long line and later scenes still play, the per-scene budget
 is gone.
@@ -72,7 +72,7 @@ def main():
     old_sectors = (old_size + 2047) // 2048
     new_sectors = (new_size + 2047) // 2048
     assert new_sectors <= old_sectors, (
-        f"demo grow needs relocation ({new_sectors}>{old_sectors} sectors) — "
+        f"demo grow needs relocation ({new_sectors}>{old_sectors} sectors) - "
         f"that's the next step")
     print(f"VAIN_A {old_size} -> {new_size} bytes, fits {old_sectors} sectors (in place)")
 

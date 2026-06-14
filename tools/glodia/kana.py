@@ -8,12 +8,12 @@ The text dispatcher (MAIN.EXP @0x44f0 / @0x4877) classifies each byte:
     0x1e        ー (long-vowel mark)
     < 0x20      control / formatting code (newline, name-token, color, wait, …)
     0x20        space
-    0x21–0x4f   KANJI lead byte → 2-byte raw JIS X 0208 (lead,trail), JIS = (b, b2)
-                (Glodia uses only JIS level-1 kanji, rows 0x30–0x4f, so lead < 0x50
+    0x21-0x4f   KANJI lead byte → 2-byte raw JIS X 0208 (lead,trail), JIS = (b, b2)
+                (Glodia uses only JIS level-1 kanji, rows 0x30-0x4f, so lead < 0x50
                  cleanly distinguishes 2-byte kanji from 1-byte kana.)
-    0x50–0x59   full-width digit/symbol → JIS row 0x23, cell = byte - 0x20  (０-９)
-    0x5a–0xac   HIRAGANA  → JIS row 0x24, JIS = 0x2421 + (byte - 0x5a)
-    0xad–0xff   KATAKANA  → JIS row 0x25, JIS = 0x2521 + (byte - 0xad)
+    0x50-0x59   full-width digit/symbol → JIS row 0x23, cell = byte - 0x20  (０-９)
+    0x5a-0xac   HIRAGANA  → JIS row 0x24, JIS = 0x2421 + (byte - 0x5a)
+    0xad-0xff   KATAKANA  → JIS row 0x25, JIS = 0x2521 + (byte - 0xad)
 
 Verified end-to-end: NAME.P names (ウォーリック/レイナ/ファーニス/ブージ…), the place list, and
 real dialogue words decoded from VAIN_*.DAT members (確かに, それで, 似ている, 久しぶり, …).

@@ -102,17 +102,17 @@ def main():
                 a, b = reinsert.string_span(blk, str_off)
                 if 0xFF in blk[a:b]:
                     problems.append("this line was mis-extracted (it spans the scene's "
-                                    "event bytecode) and can't be translated yet — skip it")
+                                    "event bytecode) and can't be translated yet - skip it")
             except Exception:
                 pass
-    # NOTE: no per-scene byte budget — the build grows archives and repoints the
+    # NOTE: no per-scene byte budget - the build grows archives and repoints the
     # engine scene table, so translations can be any length. Only syntax, line
     # width, and this safety check apply.
 
     def original_section():
         if jp_text is None:
             return
-        who = f" — {speaker}" if speaker else ""
+        who = f" - {speaker}" if speaker else ""
         print(f"\n**Original**{who}:\n")
         print("> " + jp_text.replace("\\n", "<br>"))
 

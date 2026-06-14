@@ -3,19 +3,19 @@
 ITEM.TOS records are item names built from three kinds of span:
   - literal text   : 1-byte custom katakana (0xac+, ー=0x1e, の=0x87) and/or
                      2-byte raw JIS kanji (both bytes 0x21..0x7e)
-  - ⟨02 nn⟩ insert : pulls NAME.P record nn (1-based) — base words like Sword,
+  - ⟨02 nn⟩ insert : pulls NAME.P record nn (1-based) - base words like Sword,
                      Armor, Mail, Robe, Ring, Boots, Rod (translated by patch_names.py)
   - grade/format   : Ｍ/Ｓ grade prefixes (JIS), control bytes 0x03 nn / 0x14 / 0x1a..
 
 Only the *literal* spans are stored in ITEM.TOS and were never translated, so a
 compound like レザー⟨02 Armor⟩ renders "<mojibake>Armor". We translate the literal
-spans in place (glodia/english.py, 1-byte ASCII — needs the patch_main_exp.py
+spans in place (glodia/english.py, 1-byte ASCII - needs the patch_main_exp.py
 classifier patch) and keep tokens/grades verbatim.
 
 The lookup (MAIN.EXP @0x3c55 → carved-seg variant) counts NUL separators, so record
 LENGTHS are free; only the record COUNT must stay fixed. ITEM.TOS is read at its true
 file size (DOS 3F, count=0xffffffff) into the 32 KB carved segment, so it can grow far
-past the original 1217 B — bounded by the floppy's free space, not RAM.
+past the original 1217 B - bounded by the floppy's free space, not RAM.
 
 Usage:  python tools/patch_main_exp.py && python tools/patch_names.py && \
         python tools/patch_items.py [--write]
@@ -262,7 +262,7 @@ def main(write=None):
     if write:
         # ITEM.TOS loads whole into the 32 KB carved segment. We piggy-back the FULL
         # NAME.P table at carved:NAME_OFF so the name table escapes DATA.BIN's RAM cap
-        # (the char-name lookup is repointed to scan carved — see patch_main_exp). One
+        # (the char-name lookup is repointed to scan carved - see patch_main_exp). One
         # file, one existing load stub; extend_file adds clusters as needed.
         from patch_names import full_name_table
         name_tbl = full_name_table()
@@ -274,7 +274,7 @@ def main(write=None):
         print(f"\nwrote ITEM.TOS carved blob: {len(blob)} B "
               f"(ITEM.P {len(new_item)} @0 + NAME.P {len(name_tbl)} @{NAME_OFF:#x}) -> {EN_D88.name}")
     else:
-        print("\n(dry run — pass --write to apply)")
+        print("\n(dry run - pass --write to apply)")
 
 
 if __name__ == "__main__":

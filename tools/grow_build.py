@@ -1,7 +1,7 @@
 """Production grow build: apply ALL translations with NO per-scene budget.
 
 Rebuilds every archive at natural member sizes, repoints the engine scene
-tables in MAIN.EXP, and writes the archives to the CD — growing them in place
+tables in MAIN.EXP, and writes the archives to the CD - growing them in place
 when they still fit their sector allocation, relocating into free disc sectors
 (and updating the ISO directory record) when they don't.
 
@@ -89,7 +89,7 @@ def main(demo=False):
             print(f"ERROR  {tsv_name}:{ln}: {e}")
             errors += 1
     if errors:
-        sys.exit(f"{errors} translation error(s) — fix the TSV and rebuild "
+        sys.exit(f"{errors} translation error(s) - fix the TSV and rebuild "
                  f"(run `python tools/reinsert.py --check` to re-validate)")
 
     per_arch = defaultdict(lambda: defaultdict(list))
@@ -117,7 +117,7 @@ def main(demo=False):
                 a, b = reinsert.string_span(block, s_off)
                 if reinsert.spans_event_code(block, a, b):   # mis-extracted into event code
                     print(f"  SKIP {archive}@{block_off:#x} str {s_off:#x}: "
-                          f"original spans event bytecode (0x05-0x13) — unsafe to splice")
+                          f"original spans event bytecode (0x05-0x13) - unsafe to splice")
                     continue
                 splices.append((a, b, reinsert.compile_english(en, tokens)))
             splices.extend(reinsert.speaker_label_splices(block, speakers))
@@ -160,13 +160,13 @@ def main(demo=False):
 
     if bisection_todo:
         print(f"NOTE: {len(bisection_todo)} dialogue FF-junction(s) still draw a stray 'F' "
-              f"(unhandled bisections) — sentence-flows to merge; see memory "
+              f"(unhandled bisections) - sentence-flows to merge; see memory "
               f"dialogue-ff-bisection-todo. First few: "
               + ", ".join(f"{a.split('.')[0]}@{bo:#x}/{so:#x}"
                           for a, bo, so, _ in bisection_todo[:4]))
 
     if decomp_errors:
-        sys.exit(f"{decomp_errors} block(s) exceed their decompressed RAM budget — "
+        sys.exit(f"{decomp_errors} block(s) exceed their decompressed RAM budget - "
                  f"shorten those translations and rebuild (these would corrupt the "
                  f"engine's memory and crash, e.g. the equipment menu).")
 
@@ -185,18 +185,14 @@ def main(demo=False):
 
     # --- CD: place grown archives, relocating as needed ---
     vol, recs, maxsec = iso_geometry(iso)
-    # The data track's recorded MODE1 sectors stop ~150 (the audio-track pregap)
-    # before track 2 (TRACK1_SECTORS) -- sectors past DATA_END are blank, with no
-    # sync header, so the CD model can't read them. The engine reads an archive's
-    # whole extent and then prefetches ONE sector past it; if any archive (or its
-    # +1 prefetch) lands in that blank pregap, the CD controller stalls forever
-    # (the new-game hang). So the allocator must keep archives AND their prefetch
-    # sector inside the recorded region. (Don't widen the volume into the pregap;
-    # widening can't make a frame-less sector readable.)
+    # Real data stops ~150 sectors (the audio pregap) before track 2; past that
+    # is blank, unreadable. The engine reads an archive's whole extent plus one
+    # sector past it, so keep archives and that +1 inside the recorded region or
+    # the CD stalls (the new-game hang). Widening the volume doesn't help.
     PREGAP = 150
-    DATA_END = TRACK1_SECTORS - PREGAP          # first blank sector (e.g. 2565)
-    GUARD = 4                                   # keep the +1 prefetch well inside
-    usable_end = DATA_END - GUARD               # archives must end at/below this
+    DATA_END = TRACK1_SECTORS - PREGAP          # first blank sector
+    GUARD = 4                                   # room for the +1 read-ahead
+    usable_end = DATA_END - GUARD
     # free regions (start_sec, n_sec) within the recorded data region only
     free = [(maxsec, max(0, usable_end - maxsec))]
     placements = {}                  # archive -> (lba, new_bytes, dir_rec_off, new_size)
@@ -211,13 +207,9 @@ def main(demo=False):
         else:
             free.append((lba, old_sec))     # free the old extent for reuse
             relocate.append((archive, nb, rec_off))
-    # coalesce free, then first-fit the relocations (largest first).
-    # Coalescing is essential: the relocated archives' old extents are usually
-    # adjacent (VAIN_A/B/C sit back-to-back), and a big archive only fits once
-    # those neighbouring freed extents are merged into one region. Without it,
-    # first-fit can't place a large archive in its own (fragmented) old space and
-    # spills it to the disc tail -- into the unreadable audio pregap (new-game
-    # hang). See the DATA_END/pregap note above.
+    # Merge adjacent free regions before first-fit. VAIN_A/B/C's old slots sit
+    # back-to-back, and a big archive only fits once they're merged. Skip this and
+    # it spills to the disc tail (the pregap) and new-game hangs.
     def coalesce():
         free.sort()
         merged = []
@@ -256,10 +248,7 @@ def main(demo=False):
             f.seek(r + 2);  f.write(struct.pack("<I", lba) + struct.pack(">I", lba))
             f.seek(r + 10); f.write(struct.pack("<I", nsz) + struct.pack(">I", nsz))
             new_maxsec = max(new_maxsec, lba + nsec)
-        # extend PVD volume size if an archive now ends past the old volume.
-        # (Archives are constrained to the recorded data region above, and every
-        # sector there plus the engine's +1 prefetch has valid MODE1 framing, so
-        # no guard sectors / extent padding are needed -- just cover the data.)
+        # grow the volume if an archive now ends past the old one
         if new_maxsec > vol:
             assert new_maxsec <= DATA_END, (
                 f"archive ends in the blank pregap ({new_maxsec} > {DATA_END})")
