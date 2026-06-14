@@ -1,19 +1,14 @@
-"""Batch reinserter: rebuild dlz blocks from translations in script/*.tsv.
+"""Rebuild dlz blocks from the translations in script/*.tsv.
 
-Workflow:
-  1. tools/export_script.py produced script/<archive>.tsv with columns
-     block_off / str_off / speaker / text.
-  2. Translators add a 5th column `english` to rows they translate:
-       - plain ASCII (glodia/english.py charset: A-Z a-z 0-9 . , ! ? - ' space)
-       - \\n for line breaks, {NAME} or {hex} for ⟨02 nn⟩ name tokens
-         (e.g. {REINA}, {WARRICK}, {2f})
-  3. This tool splices every translated string into its block (any length -
-     the engine scans for strings, so blocks resize freely), re-encodes with the optimal-parse
-     dlz encoder, pads to the exact original member size, and emits patched
-     member binaries + extracted/patches.json for tools/patch_cd.py.
+export_script.py made script/<archive>.tsv: block_off / str_off / speaker / text.
+Translators fill the 5th column `english`:
+  - plain ASCII (glodia/english.py charset: A-Z a-z 0-9 . , ! ? - ' space)
+  - \\n for line breaks, {NAME} or {hex} for ⟨02 nn⟩ name tokens ({REINA}, {2f})
 
-Strings whose block no longer fits its compressed envelope are reported with
-the overflow so the translator can shorten them; the block is left original.
+Splices each translated string into its block (any length - the engine scans for
+strings, so blocks resize freely), re-encodes, pads to the original member size,
+and writes patched members + extracted/patches.json for patch_cd.py. Overflows
+are reported and left original.
 
 Usage: python tools/reinsert.py && python tools/patch_cd.py
 """
@@ -116,13 +111,11 @@ def speaker_label_splices(block, speakers):
     return splices
 
 
-# Name-title bisections whose title is NOT a SPEAKERS literal-kana name: a record
-# ends with one of these and the next record is that NPC's line (same shape as Kay).
-# Add a record's exact last-line text here once confirmed (and put a \p before that
-# name in the TSV). NOTE (2026-06-12): ~11 *sentence-flow* FF-junction cases remain
-# unfixed -- a sentence split across two records, the FF drawing as a stray 'F'
-# mid-sentence (e.g. "The Kapai-", "Kapai,", "Show, I told you..."); those want the
-# FF stripped to MERGE (no \p). See docs/findings/2026-06-12-literal-kana-speaker-labels.md.
+# Name-title bisections where the title isn't a SPEAKERS literal-kana name: a record
+# ends with one of these and the next record is that NPC's line. Add a record's exact
+# last line here once confirmed, and put a \p before that name in the TSV.
+# Still open: ~11 sentence-flow FF junctions (a sentence split across two records, the
+# FF drawing a stray 'F'); those need the FF stripped to merge, not a \p.
 EXTRA_TITLES = {"{Knight} Ponar", "{Knight} Shaw", "Knight Show"}
 
 
@@ -261,11 +254,8 @@ def spans_event_code(block, start, end):
     return False
 
 
-MAX_LINE = 37           # visual half-width cells per dialogue-box line. The
-                        # overworld field-NPC box is ~37 half-width cells wide
-                        # (live-measured: a line wraps mid-word at the 38th cell);
-                        # longer lines wrap badly and tall records scroll -- break
-                        # with \n and page with \p to keep ~3 body lines per page.
+MAX_LINE = 37           # half-width cells per line. The field box is ~37 wide
+                        # (wraps mid-word at cell 38); break with \n, page with \p.
 
 
 def visual_lines(text, names):
@@ -363,9 +353,8 @@ def main():
         for start, end, repl in sorted(splices, key=lambda s: s[0], reverse=True):
             block[start:end] = repl
         encoded = dlz.encode(bytes(block))
-        # No per-scene budget anymore: the build (grow_build.py) grows archives
-        # and repoints the engine scene table, so any length is fine. We still
-        # print the size for reference (vs the ORIGINAL slot, just informational).
+        # No size cap: grow_build.py grows archives and repoints the scene table,
+        # so any length fits. Size below is just for reference vs the old slot.
         print(f"  {archive}@{block_off:#x}: {len(items)} strings"
               + (f" +{len(labels)} speaker label(s)" if labels else "")
               + f", {len(encoded)} bytes (was {budget})")

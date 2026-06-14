@@ -1,25 +1,21 @@
 """Translate ITEM.TOS (ITEM.P) item names to English.
 
-ITEM.TOS records are item names built from three kinds of span:
+Item names are built from spans:
   - literal text   : 1-byte custom katakana (0xac+, ー=0x1e, の=0x87) and/or
-                     2-byte raw JIS kanji (both bytes 0x21..0x7e)
-  - ⟨02 nn⟩ insert : pulls NAME.P record nn (1-based) - base words like Sword,
-                     Armor, Mail, Robe, Ring, Boots, Rod (translated by patch_names.py)
-  - grade/format   : Ｍ/Ｓ grade prefixes (JIS), control bytes 0x03 nn / 0x14 / 0x1a..
+                     2-byte raw JIS kanji
+  - ⟨02 nn⟩ insert : NAME.P record nn - base words (Sword, Armor, ...), via patch_names
+  - grade/format   : Ｍ/Ｓ prefixes, control bytes 0x03 nn / 0x14 / 0x1a..
 
-Only the *literal* spans are stored in ITEM.TOS and were never translated, so a
-compound like レザー⟨02 Armor⟩ renders "<mojibake>Armor". We translate the literal
-spans in place (glodia/english.py, 1-byte ASCII - needs the patch_main_exp.py
-classifier patch) and keep tokens/grades verbatim.
+Only the literal spans live in ITEM.TOS and were untranslated, so レザー⟨02 Armor⟩
+rendered "<mojibake>Armor". We translate those in place (1-byte ASCII, needs the
+patch_main_exp classifier patch) and leave tokens/grades alone.
 
-The lookup (MAIN.EXP @0x3c55 → carved-seg variant) counts NUL separators, so record
-LENGTHS are free; only the record COUNT must stay fixed. ITEM.TOS is read at its true
-file size (DOS 3F, count=0xffffffff) into the 32 KB carved segment, so it can grow far
-past the original 1217 B - bounded by the floppy's free space, not RAM.
+The lookup counts NUL separators, so record lengths are free; only the count is fixed.
+ITEM.TOS loads at true file size into the 32 KB carved segment, so it can grow past the
+original 1217 B (bounded by floppy free space, not RAM).
 
-Usage:  python tools/patch_main_exp.py && python tools/patch_names.py && \
-        python tools/patch_items.py [--write]
-        (no --write = dry run: report budget + before/after, touch nothing)
+Usage: patch_main_exp.py && patch_names.py && patch_items.py [--write]
+       (no --write = dry run)
 """
 import pathlib, sys
 

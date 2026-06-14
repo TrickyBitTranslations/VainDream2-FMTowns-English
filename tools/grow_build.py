@@ -26,12 +26,11 @@ TRACK1_SECTORS = 2715
 SEC = 2048
 RAW = disc.RAW
 
-# Decompressed-size budget. Dialogue scene blocks (tag "VD2*") get copied into a
-# shared 2048-byte (0x800) display buffer at DATA_SEG:0xCC00, capped by ITEM.P
-# right after it -- overrunning crashed the equipment menu. So dialogue blocks
-# get a flat 2048 budget; anything else defaults to its original decompressed
-# size. DECOMP_BUDGET holds per-block overrides if a specific block needs one.
-# (A larger buffer needs the display-copy relocation -- see patch_main_exp.)
+# Decompressed-size budget. Dialogue blocks (tag "VD2*") copy into a shared buffer at
+# DATA_SEG:0xCC00, capped by ITEM.P right after it - overrunning crashed the equipment
+# menu. So VD2* blocks get a flat budget; others default to their original size.
+# DECOMP_BUDGET holds per-block overrides. (Bigger buffer needs the display-copy
+# relocation - see patch_main_exp.)
 SCENE_BUFFER = 0x1380   # 4992: ITEM.TOS relocated to carved seg, buffer now 0xCC00..~0xE000
 DECOMP_BUDGET = {}
 
@@ -138,14 +137,11 @@ def main(demo=False):
                       f"loads this block to a fixed address; growing it corrupts adjacent data "
                       f"(e.g. ITEM.P). Shorten the translation for this block.")
                 decomp_errors += 1
-            # Header fields the engine reads (dlz.encode doesn't set these right):
-            #  - bytes 8..9: an opaque field; preserve the original's value.
-            #  - bytes 10..12 (u24) = decompressed_size << 8. The engine uses this
-            #    to reserve the block's RAM slot (rounded up to 0x800) before
-            #    placing the next asset (ITEM.P) after it. It MUST reflect the NEW
-            #    size, else the engine under-reserves and the grown block overruns
-            #    ITEM.P -> equipment-menu crash. (Keeping the original size here was
-            #    the bug; encode() zeroing it is also wrong.)
+            # Header fields encode() doesn't set right:
+            #  - bytes 8..9: opaque, keep the original.
+            #  - bytes 10..12 = decomp_size << 8. The engine reserves the RAM slot
+            #    from this, so it must be the NEW size or the grown block overruns
+            #    ITEM.P and crashes the equipment menu.
             enc = bytearray(dlz.encode(bytes(block)))
             enc[8:10] = members[block_off][8:10]
             nd = len(block)

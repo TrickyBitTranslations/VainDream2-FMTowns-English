@@ -1,13 +1,12 @@
-"""Translate NAME.P records (names/terms used by ⟨02 nn⟩ inserts + speaker titles).
+"""Translate NAME.P records (names/terms for ⟨02 nn⟩ inserts + speaker titles).
 
-The engine lookup (MAIN.EXP @0x42b6) scans NUL separators, so record LENGTHS are
-free as long as (a) the record count/order is unchanged and (b) the total byte
-length of the rewritten span stays exact (binary data follows the table inside
-DATA.BIN). Shortfall is absorbed by shrinking the 未使用 ("unused") placeholder
-records and padding the last one with ⟨04⟩.
+The lookup (MAIN.EXP @0x42b6) scans NUL separators, so record lengths are free as long
+as the count/order is unchanged and the total span length stays exact (binary data
+follows the table in DATA.BIN). Slack comes from shrinking the 未使用 ("unused")
+placeholders and padding the last with ⟨04⟩.
 
-Operates on the classifier-patched floppy IN PLACE (run patch_main_exp.py first):
-translations are 1-byte ASCII (glodia/english.py) and need that patch to render.
+Patches the classifier-patched floppy in place (run patch_main_exp.py first);
+translations are 1-byte ASCII and need that patch to render.
 
 Usage: python tools/patch_main_exp.py && python tools/patch_names.py
 """
@@ -22,9 +21,8 @@ from glodia.english import encode as en
 EN_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk]_EN.D88"
 TABLE_OFF = 4123 + 8       # NAME.P body inside DATA.BIN (after "NAME.P" header)
 
-# Name/term translations are sourced from script/NAMES.tsv -- the single, editable
-# source (see tools/export_names.py). Keyed by the original decoded Japanese, exactly
-# matching the NAME.P records full_name_table() and the {NAME} token map look up.
+# Translations come from script/NAMES.tsv (see export_names.py), keyed by the
+# original decoded Japanese (matches the NAME.P records and the {NAME} token map).
 NAMES_TSV = ROOT / "script" / "NAMES.tsv"
 
 

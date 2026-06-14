@@ -1,8 +1,6 @@
 """Glodia 'dlz' decompressor - port of the engine routine.
 
-Reversed from the statically-linked library present in every Glodia EXP
-(disassembled in DEMO2.EXP @0x1583-0x1919; same code, 0x585 bytes between its
-two `ff 0f` immediates, appears in DEMO1/DEMO2/DEMO4/V_OP01/V_V*.EXP).
+Reversed from the shared library in every Glodia EXP (DEMO2.EXP @0x1583-0x1919).
 
 Format:
 
