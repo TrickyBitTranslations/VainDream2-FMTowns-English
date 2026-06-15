@@ -168,9 +168,9 @@ NAME.P	0xa6		アトォム	Atom
 NAME.P	0xa7		亡霊	Ghost
 NAME.P	0xa8		八賢者	Eight Sages
 NAME.P	0xa9		未使用	X
-NAME.P	0xab		ますか	
-NAME.P	0xac		ください。	
-NAME.P	0xad		下さい。	
+NAME.P	0xab		ますか	X
+NAME.P	0xac		ください。	X
+NAME.P	0xad		下さい。	X
 NAME.P	0xae		・・・・・	.....
 NAME.P	0xaf		・・・	...
 NAME.P	0xb0		おじさん	Mister
@@ -191,10 +191,10 @@ NAME.P	0xbe		じゃ。	Well then.
 NAME.P	0xbf		ショップ	Shop
 NAME.P	0xc0		ありがとうございました	Thank you kindly.
 NAME.P	0xc1		ありがとう	Thank you
-NAME.P	0xc2		です。	
+NAME.P	0xc2		です。	X
 NAME.P	0xc3		換金	Exchange
-NAME.P	0xc4		んです。	
-NAME.P	0xc5		ですか？	
+NAME.P	0xc4		んです。	X
+NAME.P	0xc5		ですか？	X
 NAME.P	0xc6		アーマー	Armor
 NAME.P	0xc7		メイル	Mail
 NAME.P	0xc8		団長	Commander

@@ -40,15 +40,16 @@ def main():
                   else reinsert.PackSource())
 
     def is_script_block(archive, block_s):
-        """Real scene blocks open with an ASCII tag (VD2A01, A01_, ...);
-        binary data blocks (stats tables etc.) don't - their 'strings' are
-        numeric bytes misread as name tokens."""
+        """Dialogue scenes are tagged 'VD2...' (VD2S08, VD2A01). Animation/effect
+        blocks (A05_FIGH, A21_MAG3, AM3_HARI) and binary stat tables aren't
+        dialogue - their 'strings' are event bytecode or stat bytes misread as
+        text. UI .TOS rows key on a file name, not an offset, so they fall to the
+        except and stay counted."""
         try:
-            head = bytes(src_blocks.block(archive, int(block_s, 16))[:4])
+            head = bytes(src_blocks.block(archive, int(block_s, 16))[:3])
         except Exception:
             return True
-        ok = b"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_"
-        return all(b in ok for b in head)
+        return head == b"VD2"
 
     files = {}
     tally = defaultdict(lambda: {"lines": 0, "done": 0})

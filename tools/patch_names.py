@@ -39,6 +39,12 @@ TRANSLATIONS = _load_translations()
 PAD_RECORD = "未使用"       # last placeholder absorbs the remaining slack
 
 
+def _translated(d):
+    # "X" marks a record that isn't a real name (grammar glue etc.) - keep its
+    # original Japanese, don't encode the X.
+    return d in TRANSLATIONS and d != PAD_RECORD and TRANSLATIONS[d] != "X"
+
+
 def read_file_from(fs, name):
     from extract_floppy import read_file
     return read_file(fs, name)
@@ -80,7 +86,7 @@ def full_name_table():
     data_bin = read_file_from(read_d88(JP_D88.read_bytes()), "DATA.BIN")
     recs = data_bin[TABLE_OFF:].split(b"\x00")
     decoded = [_decode_record(r) for r in recs]
-    out = [en(TRANSLATIONS[d]) if d in TRANSLATIONS and d != PAD_RECORD
+    out = [en(TRANSLATIONS[d]) if _translated(d)
            else (b"" if d == PAD_RECORD else r)
            for d, r in zip(decoded, recs)]
     return data_bin[TABLE_OFF - 8:TABLE_OFF] + b"\x00".join(out)   # "NAME.P\x01." + records
@@ -102,7 +108,7 @@ def main():
     # 6-sector cluster allocation (6144B) regardless of the directory size, so the
     # table may use all of it - not just the original 6085 bytes.
     cap = fs.file_capacity("DATA.BIN")
-    chosen = {i for i, d in enumerate(decoded) if d in TRANSLATIONS and d != PAD_RECORD}
+    chosen = {i for i, d in enumerate(decoded) if _translated(d)}
     pad_idx = max(i for i, d in enumerate(decoded) if d == PAD_RECORD)
 
     # PROTECT names players actually see: any name referenced by a {NAME} token in
