@@ -26,3 +26,6 @@ venv/
 
 # Site data is generated at deploy time (tools/make_site_data.py)
 site/data/
+
+# Release patches built by build.ps1 -Release
+dist/

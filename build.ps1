@@ -14,6 +14,11 @@
   -Full: also rebuilds the boot floppy (engine patches + name table);
          only needed when engine patches or name romanizations change.
   -Check: validate translations only; works WITHOUT the game data.
+  -Release -Tag vX.Y: build, make xdelta patches, and publish a GitHub
+         release. Needs xdelta3 and a logged-in gh. Notes are pulled from
+         "Release-note:" trailers on commits since the last tag, so only
+         commits that opt in show up - e.g. add this to a commit message:
+             Release-note: All weapon and armor names are in English
 
   TODO: probably add a CRC check for the input images
 
@@ -21,10 +26,13 @@
   .\build.ps1 -Check     # validate your TSV edits (no game data needed)
   .\build.ps1            # build the [EN] CD image
   .\build.ps1 -Full      # floppy + CD
+  .\build.ps1 -Release -Tag v1.0    # build + publish patches to GitHub
 #>
 param(
     [switch]$Full,
-    [switch]$Check
+    [switch]$Check,
+    [switch]$Release,
+    [string]$Tag
 )
 
 $ErrorActionPreference = "Stop"
@@ -85,3 +93,79 @@ Write-Host "BUILD OK." -ForegroundColor Green
 Write-Host "  CD:     Vain DreamII (1993)(Glodia)(Jp) [EN].img (+ .cue/.ccd/.sub)"
 Write-Host "  Floppy: Vain DreamII (1993)(Glodia)(Jp)[SystemDisk]_EN.D88"
 Write-Host "  Boot the _EN.D88 floppy together with the [EN] CD image."
+
+if (-not $Release) { exit 0 }
+
+# --- release: xdelta patches + GitHub release ---
+if (-not $Tag) {
+    Write-Host "Release needs a tag:  .\build.ps1 -Release -Tag v1.0" -ForegroundColor Red
+    exit 1
+}
+foreach ($t in "xdelta3", "gh") {
+    if (-not (Get-Command $t -ErrorAction SilentlyContinue)) {
+        Write-Host "$t not found (xdelta3: sudo apt-get install -y xdelta3)." -ForegroundColor Red
+        exit 1
+    }
+}
+& gh auth status 2>$null
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "gh isn't logged in. Run: gh auth login   (or set GH_TOKEN)" -ForegroundColor Red
+    exit 1
+}
+
+$B = "Vain DreamII (1993)(Glodia)(Jp)"
+$jpImg = Join-Path $root "$B.img"
+$enImg = Join-Path $root "$B [EN].img"
+$jpD88 = Join-Path $root "${B}[SystemDisk].D88"
+$enD88 = Join-Path $root "${B}[SystemDisk]_EN.D88"
+$enCue = Join-Path $root "$B [EN].cue"
+
+$dist = Join-Path $root "dist"
+New-Item -ItemType Directory -Force -Path $dist | Out-Null
+$cdPatch = Join-Path $dist "vd2-en-cd.xdelta"
+$fdPatch = Join-Path $dist "vd2-en-floppy.xdelta"
+$cueOut = Join-Path $dist "$B [EN].cue"
+
+# patches carry only the changed bytes, not the game - safe to publish
+Invoke-Step "patch: CD delta"     { & xdelta3 -e -f -s $jpImg $enImg $cdPatch }
+Invoke-Step "patch: floppy delta" { & xdelta3 -e -f -s $jpD88 $enD88 $fdPatch }
+Copy-Item -LiteralPath $enCue -Destination $cueOut -Force   # our cue, not game data
+
+$imgHash = (Get-FileHash -LiteralPath $jpImg -Algorithm SHA256).Hash.ToLower()
+$d88Hash = (Get-FileHash -LiteralPath $jpD88 -Algorithm SHA256).Hash.ToLower()
+
+# notes = "Release-note:" trailers since the previous tag (opt-in per commit)
+& git fetch --tags --quiet 2>$null
+$prev = (& git describe --tags --abbrev=0 2>$null)
+$range = if ($prev) { "$prev..HEAD" } else { "HEAD" }
+$notes = (& git log $range --format=%B) |
+    Select-String -Pattern '^\s*Release-note:\s*(.+?)\s*$' |
+    ForEach-Object { "- " + $_.Matches[0].Groups[1].Value } |
+    Select-Object -Unique
+
+$body = [System.Collections.Generic.List[string]]::new()
+$body.Add("## What's new")
+if ($notes) { $notes | ForEach-Object { $body.Add($_) } }
+else { $body.Add("- (no Release-note: commits since $prev)") }
+$body.Add("")
+$body.Add("## Install")
+$body.Add("Bring your own copy of the JP game (free): https://www.quarter-dev.info/v2/")
+$body.Add("Patch it with an xdelta tool such as Delta Patcher:")
+$body.Add("1. vd2-en-cd.xdelta applied to your '$B.img'")
+$body.Add("2. vd2-en-floppy.xdelta applied to your '${B}[SystemDisk].D88'")
+$body.Add("Name the CD output '$B [EN].img' so the included .cue matches. Reuse your own .ccd/.sub (rename to the [EN] names). Boot the _EN.D88 floppy with the [EN] CD in an FM Towns emulator (Tsugaru).")
+$body.Add("")
+$body.Add("## Patches apply to these JP files (SHA-256)")
+$body.Add("$B.img  -  $imgHash")
+$body.Add("${B}[SystemDisk].D88  -  $d88Hash")
+
+$notesFile = Join-Path $dist "notes.md"
+($body -join "`n") | Set-Content -LiteralPath $notesFile -Encoding utf8
+
+Invoke-Step "publish: gh release $Tag" {
+    & gh release create $Tag $cdPatch $fdPatch $cueOut --title $Tag --notes-file $notesFile
+}
+Write-Host ""
+Write-Host "RELEASED $Tag" -ForegroundColor Green
+Write-Host "  notes from Release-note: trailers ($range)"
+exit 0
