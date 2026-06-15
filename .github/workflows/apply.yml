@@ -30,7 +30,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set +e
-          python tools/validate_suggestion.py > report.md
+          python .github/scripts/validate_suggestion.py > report.md
           ok=$?
           cat report.md
           if [ "$ok" != "0" ]; then
@@ -48,7 +48,7 @@ jobs:
       - name: Apply to the TSV
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
-        run: python tools/apply_suggestion.py
+        run: python .github/scripts/apply_suggestion.py
       - name: Full check
         run: |
           python tools/reinsert.py --check
@@ -92,7 +92,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set +e
-          python tools/apply_name.py > report.md
+          python .github/scripts/apply_name.py > report.md
           ok=$?
           cat report.md
           if [ "$ok" != "0" ]; then

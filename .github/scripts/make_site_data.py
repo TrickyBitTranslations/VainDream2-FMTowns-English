@@ -12,7 +12,7 @@ Usage: python tools/make_site_data.py [--issues issues.json]
 import json, pathlib, sys
 from collections import defaultdict
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
+ROOT = pathlib.Path(__file__).resolve().parent.parent.parent  # repo root (.github/scripts/..)
 sys.path.insert(0, str(ROOT / "tools"))
 from glodia import dlz
 import reinsert

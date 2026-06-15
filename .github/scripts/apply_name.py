@@ -11,7 +11,7 @@ Exits 0 (applied) / 1 (rejected, reason on stdout).
 """
 import os, pathlib, re, sys
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
+ROOT = pathlib.Path(__file__).resolve().parent.parent.parent  # repo root (.github/scripts/..)
 sys.path.insert(0, str(ROOT / "tools"))
 import reinsert
 from validate_suggestion import parse_form

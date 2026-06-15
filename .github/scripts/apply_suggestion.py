@@ -9,7 +9,7 @@ Prints a one-line summary; exits 1 if the row can't be found.
 """
 import os, pathlib, sys
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
+ROOT = pathlib.Path(__file__).resolve().parent.parent.parent  # repo root (.github/scripts/..)
 sys.path.insert(0, str(ROOT / "tools"))
 from validate_suggestion import parse_form, _id_eq
 

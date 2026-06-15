@@ -23,7 +23,7 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
           set +e
-          python tools/validate_suggestion.py > report.md
+          python .github/scripts/validate_suggestion.py > report.md
           echo "ok=$?" >> "$GITHUB_OUTPUT"
           cat report.md
           exit 0

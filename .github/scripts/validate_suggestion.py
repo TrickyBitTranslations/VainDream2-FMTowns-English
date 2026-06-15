@@ -10,7 +10,7 @@ Local use: ISSUE_BODY="### Script file\n\nVAIN_A_DAT.tsv\n..." python tools/vali
 """
 import os, pathlib, re, sys
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
+ROOT = pathlib.Path(__file__).resolve().parent.parent.parent  # repo root (.github/scripts/..)
 sys.path.insert(0, str(ROOT / "tools"))
 from glodia import dlz
 import patch_names
