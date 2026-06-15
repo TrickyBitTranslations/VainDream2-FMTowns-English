@@ -1,128 +1,128 @@
 block_off	str_off	speaker	text	english
-STAGE	0x1		{WARRICK}の家	
-STAGE	0x2		大婆の家	
-STAGE	0x3		ミ~ルの雑貨屋	
-STAGE	0x4		{BOOJ}の家	
-STAGE	0x5		シェリ~の家	
-STAGE	0x6		カパインの家	
-STAGE	0x8		ファルシナ地方	
-STAGE	0x9		ナ~シア地方	
-STAGE	0xa		{ZEKE KINGDOM}<14>街	
-STAGE	0xb		{ZEKE}王城<14>１階	
-STAGE	0x10		宿屋<14>竜光亭	
-STAGE	0x11		道具屋<14>ディ~ゼル	
-STAGE	0x12		ストネ~ル{MAGIC SHOP}	
-STAGE	0x13		ミ~シャ{WEAPON SHOP}	
-STAGE	0x14		アイシャ{ARMOR SHOP}	
-STAGE	0x15		パプット教会	
-STAGE	0x16		ア~ヴィングの家	
-STAGE	0x17		ショ~ンの家	
-STAGE	0x18		ル~シ~の家	
-STAGE	0x19		ラダル夫妻の家	
-STAGE	0x1a		{LAURA}シア地方	
-STAGE	0x1b		{SERUSH}<14>街	
-STAGE	0x1e		メインテント	
-STAGE	0x1f		作戦室	
-STAGE	0x20		看護テント	
-STAGE	0x21		ジェシカ{WEAPON SHOP}	
-STAGE	0x22		ラ~キン{ARMOR SHOP}	
-STAGE	0x23		サラ{ITEM SHOP}	
-STAGE	0x24		ラミ~カ{MAGIC SHOP}	
-STAGE	0x25		サ~ニア{INN}	
-STAGE	0x28		{SERUSH CASTLE}<14>地下	
-STAGE	0x29		{SERUSH CASTLE}<14>１階	
-STAGE	0x2a		{SERUSH CASTLE}<14>２階	
-STAGE	0x2b		{SERUSH CASTLE}<14>３階	
-STAGE	0x2c		謁見室	
-STAGE	0x2d		君主の間	
-STAGE	0x2e		大広間	
-STAGE	0x2f		カラトフの森	
-STAGE	0x32		ジャク~ナ{WEAPON SHOP}	
-STAGE	0x33		レミ~{MAGIC SHOP}	
-STAGE	0x34		ミディ~{ITEM SHOP}	
-STAGE	0x35		宿屋<14>砂の牙亭	
-STAGE	0x38		ガンコンの家	
-STAGE	0x39		ビ~クスの家	
-STAGE	0x3a		ジックの家	
-STAGE	0x3b		カナメイの家	
-STAGE	0x3c		パラボじいさんの家	
-STAGE	0x3d		発着所<14>待合室	
-STAGE	0x40		伯爵の部屋	
-STAGE	0x41		アルフルト地方	
-STAGE	0x42		{RYLAND}<14>街	
-STAGE	0x43		{RYLAND}城<14>１階	
-STAGE	0x44		{RYLAND}城<14>２階	
-STAGE	0x45		{RYLAND}城<14>３階	
-STAGE	0x46		{RYLAND}城<14>下層	
-STAGE	0x47		地下洞窟	
-STAGE	0x48		地下神殿	
-STAGE	0x49		テラス	
-STAGE	0x4a		{RYLAND}<14>稽古塔	
-STAGE	0x4b		ラ~シェル{WEAPON SHOP}	
-STAGE	0x4c		ハ~ガン{ARMOR SHOP}	
-STAGE	0x4d		ロベルト{MAGIC SHOP}	
-STAGE	0x4e		ミリカ{ITEM SHOP}	
-STAGE	0x4f		中華料亭<14>猿人殺法	
-STAGE	0x50		ボンベイド寺院	
-STAGE	0x51		エレノアの家	
-STAGE	0x52		{DAIGARN}の家	
-STAGE	0x53		マ~カ~の家	
-STAGE	0x54		アルムの家	
-STAGE	0x55		アランの家	
-STAGE	0x56		バナ~ク大密林	
-STAGE	0x57		バナ~ク大密林	
-STAGE	0x59		{DWARF}の迷宮	
-STAGE	0x5a		{MARGIS}の大迷宮	
-STAGE	0x5d		{ARMOR TOWER}<14>１階	
-STAGE	0x5e		{ARMOR TOWER}<14>２階	
-STAGE	0x5f		{ARMOR TOWER}<14>３階	
-STAGE	0x60		{ARMOR TOWER}<14>４階	
-STAGE	0x61		{ARMOR TOWER}<14>５階	
-STAGE	0x62		{ARMOR TOWER}<14>６階	
-STAGE	0x63		{ARMOR TOWER}<14>７階	
-STAGE	0x64		センザルク大聖堂	
-STAGE	0x65		{MARGIS}の部屋	
-STAGE	0x66		氷の宮殿	
-STAGE	0x67		{ZEKE}王城<14>２階	
-STAGE	0x68		神殿洞窟<14>第１層	
-STAGE	0x69		神殿洞窟<14>第２層	
-STAGE	0x6a		神殿洞窟<14>第３層	
-STAGE	0x6b		神殿洞窟<14>第４層	
-STAGE	0x6c		{DRAGOON}の回廊	
-STAGE	0x6d		洞窟<14>第５層	
-STAGE	0x6e		{WHITE DRAGON}の地下神殿	
-STAGE	0x6f		{ARMOR TOWER}<14>最上階	
-STAGE	0x70		蘇生の洞窟	
-STAGE	0x71		洞窟<14>第６層	
-STAGE	0x72		洞窟<14>第７層	
-STAGE	0x73		洞窟<14>第８層	
-STAGE	0x74		洞窟<14>第９層	
-STAGE	0x75		洞窟<14>第１０層	
-STAGE	0x76		神殿の回廊	
-STAGE	0x77		柱のある部屋	
-STAGE	0x78		第１<14>エレベ~タ~	
-STAGE	0x79		第２<14>エレベ~タ~	
-STAGE	0x7a		第３<14>エレベ~タ~	
-STAGE	0x7b		魔都<14>{KULEIA}	
-STAGE	0x7c		西側管制室<14>２階	
-STAGE	0x7d		西側管制室<14>１階	
-STAGE	0x7e		中央管制室<14>１階	
-STAGE	0x7f		中央管制室<14>２階	
-STAGE	0x80		中央タワ~<14>１階	
-STAGE	0x81		中央タワ~<14>２階	
-STAGE	0x82		中央タワ~<14>３階	
-STAGE	0x83		タワ~エレベ~タ~	
-STAGE	0x84		第１<14>弾導ポッド室	
-STAGE	0x85		第２<14>弾導ポッド室	
-STAGE	0x86		第３<14>弾導ポッド室	
-STAGE	0x87		第４<14>弾導ポッド室	
-STAGE	0x88		家	
-STAGE	0x89		商店<14>ク~レイ屋	
-STAGE	0x8a		第１<14>ド~ム	
-STAGE	0x8b		第２<14>ド~ム	
-STAGE	0x8c		第３<14>ド~ム	
-STAGE	0x8d		第４<14>ド~ム	
-STAGE	0x8e		沈黙の洞窟	
-STAGE	0x8f		沈黙の回廊	
-STAGE	0x90		冥界の大広間	
-STAGE	0x91		ミルジ~ナ大陸	
+STAGE	0x1		{WARRICK}の家	{WARRICK}'s House
+STAGE	0x2		大婆の家	Granny's House
+STAGE	0x3		ミ~ルの雑貨屋	Mir's Store
+STAGE	0x4		{BOOJ}の家	{BOOJ}'s House
+STAGE	0x5		シェリ~の家	Sherry's House
+STAGE	0x6		カパインの家	Kapain's House
+STAGE	0x8		ファルシナ地方	Falsina Region
+STAGE	0x9		ナ~シア地方	Narsia Region
+STAGE	0xa		{ZEKE KINGDOM}<14>街	{ZEKE KINGDOM}<14>Town
+STAGE	0xb		{ZEKE}王城<14>１階	{ZEKE} Castle<14>1F
+STAGE	0x10		宿屋<14>竜光亭	Inn<14>Ryukotei
+STAGE	0x11		道具屋<14>ディ~ゼル	Item Shop<14>Diesel
+STAGE	0x12		ストネ~ル{MAGIC SHOP}	Stonel{MAGIC SHOP}
+STAGE	0x13		ミ~シャ{WEAPON SHOP}	Misha{WEAPON SHOP}
+STAGE	0x14		アイシャ{ARMOR SHOP}	Aisha{ARMOR SHOP}
+STAGE	0x15		パプット教会	Paput Church
+STAGE	0x16		ア~ヴィングの家	Arving's House
+STAGE	0x17		ショ~ンの家	Shawn's House
+STAGE	0x18		ル~シ~の家	Lucy's House
+STAGE	0x19		ラダル夫妻の家	Radal's House
+STAGE	0x1a		{LAURA}シア地方	{LAURA}sia Region
+STAGE	0x1b		{SERUSH}<14>街	{SERUSH}<14>Town
+STAGE	0x1e		メインテント	Main Tent
+STAGE	0x1f		作戦室	War Room
+STAGE	0x20		看護テント	Aid Tent
+STAGE	0x21		ジェシカ{WEAPON SHOP}	Jessica{WEAPON SHOP}
+STAGE	0x22		ラ~キン{ARMOR SHOP}	Larkin{ARMOR SHOP}
+STAGE	0x23		サラ{ITEM SHOP}	Sara{ITEM SHOP}
+STAGE	0x24		ラミ~カ{MAGIC SHOP}	Ramica{MAGIC SHOP}
+STAGE	0x25		サ~ニア{INN}	Sania{INN}
+STAGE	0x28		{SERUSH CASTLE}<14>地下	{SERUSH CASTLE}<14>Basement
+STAGE	0x29		{SERUSH CASTLE}<14>１階	{SERUSH CASTLE}<14>1F
+STAGE	0x2a		{SERUSH CASTLE}<14>２階	{SERUSH CASTLE}<14>2F
+STAGE	0x2b		{SERUSH CASTLE}<14>３階	{SERUSH CASTLE}<14>3F
+STAGE	0x2c		謁見室	Audience Hall
+STAGE	0x2d		君主の間	Throne Room
+STAGE	0x2e		大広間	Great Hall
+STAGE	0x2f		カラトフの森	Karatov Forest
+STAGE	0x32		ジャク~ナ{WEAPON SHOP}	Jakuna{WEAPON SHOP}
+STAGE	0x33		レミ~{MAGIC SHOP}	Remy{MAGIC SHOP}
+STAGE	0x34		ミディ~{ITEM SHOP}	Midy{ITEM SHOP}
+STAGE	0x35		宿屋<14>砂の牙亭	Inn<14>Sand Fang
+STAGE	0x38		ガンコンの家	Gankon's House
+STAGE	0x39		ビ~クスの家	Beeks' House
+STAGE	0x3a		ジックの家	Jick's House
+STAGE	0x3b		カナメイの家	Kanamei's House
+STAGE	0x3c		パラボじいさんの家	Old Parabo's House
+STAGE	0x3d		発着所<14>待合室	Port<14>Lounge
+STAGE	0x40		伯爵の部屋	Count's Room
+STAGE	0x41		アルフルト地方	Alfurt Region
+STAGE	0x42		{RYLAND}<14>街	{RYLAND}<14>Town
+STAGE	0x43		{RYLAND}城<14>１階	{RYLAND} Castle<14>1F
+STAGE	0x44		{RYLAND}城<14>２階	{RYLAND} Castle<14>2F
+STAGE	0x45		{RYLAND}城<14>３階	{RYLAND} Castle<14>3F
+STAGE	0x46		{RYLAND}城<14>下層	{RYLAND} Castle<14>Lower
+STAGE	0x47		地下洞窟	Underground Cave
+STAGE	0x48		地下神殿	Underground Shrine
+STAGE	0x49		テラス	Terrace
+STAGE	0x4a		{RYLAND}<14>稽古塔	{RYLAND}<14>Dojo Tower
+STAGE	0x4b		ラ~シェル{WEAPON SHOP}	Rachel{WEAPON SHOP}
+STAGE	0x4c		ハ~ガン{ARMOR SHOP}	Hagan{ARMOR SHOP}
+STAGE	0x4d		ロベルト{MAGIC SHOP}	Robert{MAGIC SHOP}
+STAGE	0x4e		ミリカ{ITEM SHOP}	Milica{ITEM SHOP}
+STAGE	0x4f		中華料亭<14>猿人殺法	Diner<14>Ape Fist
+STAGE	0x50		ボンベイド寺院	Bombade Temple
+STAGE	0x51		エレノアの家	Elenoa's House
+STAGE	0x52		{DAIGARN}の家	{DAIGARN}'s House
+STAGE	0x53		マ~カ~の家	Marker's House
+STAGE	0x54		アルムの家	Alm's House
+STAGE	0x55		アランの家	Alan's House
+STAGE	0x56		バナ~ク大密林	Banak Jungle
+STAGE	0x57		バナ~ク大密林	Banak Jungle
+STAGE	0x59		{DWARF}の迷宮	{DWARF} Maze
+STAGE	0x5a		{MARGIS}の大迷宮	{MARGIS} Labyrinth
+STAGE	0x5d		{ARMOR TOWER}<14>１階	{ARMOR TOWER}<14>1F
+STAGE	0x5e		{ARMOR TOWER}<14>２階	{ARMOR TOWER}<14>2F
+STAGE	0x5f		{ARMOR TOWER}<14>３階	{ARMOR TOWER}<14>3F
+STAGE	0x60		{ARMOR TOWER}<14>４階	{ARMOR TOWER}<14>4F
+STAGE	0x61		{ARMOR TOWER}<14>５階	{ARMOR TOWER}<14>5F
+STAGE	0x62		{ARMOR TOWER}<14>６階	{ARMOR TOWER}<14>6F
+STAGE	0x63		{ARMOR TOWER}<14>７階	{ARMOR TOWER}<14>7F
+STAGE	0x64		センザルク大聖堂	Senzarc Cathedral
+STAGE	0x65		{MARGIS}の部屋	{MARGIS} Room
+STAGE	0x66		氷の宮殿	Ice Palace
+STAGE	0x67		{ZEKE}王城<14>２階	{ZEKE} Castle<14>2F
+STAGE	0x68		神殿洞窟<14>第１層	Shrine Cave<14>Lv 1
+STAGE	0x69		神殿洞窟<14>第２層	Shrine Cave<14>Lv 2
+STAGE	0x6a		神殿洞窟<14>第３層	Shrine Cave<14>Lv 3
+STAGE	0x6b		神殿洞窟<14>第４層	Shrine Cave<14>Lv 4
+STAGE	0x6c		{DRAGOON}の回廊	{DRAGOON} Hall
+STAGE	0x6d		洞窟<14>第５層	Cave<14>Lv 5
+STAGE	0x6e		{WHITE DRAGON}の地下神殿	{WHITE DRAGON} Crypt
+STAGE	0x6f		{ARMOR TOWER}<14>最上階	{ARMOR TOWER}<14>Top
+STAGE	0x70		蘇生の洞窟	Revival Cave
+STAGE	0x71		洞窟<14>第６層	Cave<14>Lv 6
+STAGE	0x72		洞窟<14>第７層	Cave<14>Lv 7
+STAGE	0x73		洞窟<14>第８層	Cave<14>Lv 8
+STAGE	0x74		洞窟<14>第９層	Cave<14>Lv 9
+STAGE	0x75		洞窟<14>第１０層	Cave<14>Lv 10
+STAGE	0x76		神殿の回廊	Shrine Hall
+STAGE	0x77		柱のある部屋	Pillar Room
+STAGE	0x78		第１<14>エレベ~タ~	No.1<14>Elevator
+STAGE	0x79		第２<14>エレベ~タ~	No.2<14>Elevator
+STAGE	0x7a		第３<14>エレベ~タ~	No.3<14>Elevator
+STAGE	0x7b		魔都<14>{KULEIA}	Demon City<14>{KULEIA}
+STAGE	0x7c		西側管制室<14>２階	W Control<14>2F
+STAGE	0x7d		西側管制室<14>１階	W Control<14>1F
+STAGE	0x7e		中央管制室<14>１階	C Control<14>1F
+STAGE	0x7f		中央管制室<14>２階	C Control<14>2F
+STAGE	0x80		中央タワ~<14>１階	Center Tower<14>1F
+STAGE	0x81		中央タワ~<14>２階	Center Tower<14>2F
+STAGE	0x82		中央タワ~<14>３階	Center Tower<14>3F
+STAGE	0x83		タワ~エレベ~タ~	Tower Lift
+STAGE	0x84		第１<14>弾導ポッド室	No.1<14>Pod Bay
+STAGE	0x85		第２<14>弾導ポッド室	No.2<14>Pod Bay
+STAGE	0x86		第３<14>弾導ポッド室	No.3<14>Pod Bay
+STAGE	0x87		第４<14>弾導ポッド室	No.4<14>Pod Bay
+STAGE	0x88		家	House
+STAGE	0x89		商店<14>ク~レイ屋	Shop<14>Kulei's
+STAGE	0x8a		第１<14>ド~ム	No.1<14>Dome
+STAGE	0x8b		第２<14>ド~ム	No.2<14>Dome
+STAGE	0x8c		第３<14>ド~ム	No.3<14>Dome
+STAGE	0x8d		第４<14>ド~ム	No.4<14>Dome
+STAGE	0x8e		沈黙の洞窟	Silent Cave
+STAGE	0x8f		沈黙の回廊	Silent Hall
+STAGE	0x90		冥界の大広間	Underworld Hall
+STAGE	0x91		ミルジ~ナ大陸	Mirjina Continent
