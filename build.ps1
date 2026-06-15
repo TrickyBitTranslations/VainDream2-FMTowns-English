@@ -15,24 +15,22 @@
          only needed when engine patches or name romanizations change.
   -Check: validate translations only; works WITHOUT the game data.
 
+  TODO: probably add a CRC check for the input images
+
 .EXAMPLE
   .\build.ps1 -Check     # validate your TSV edits (no game data needed)
   .\build.ps1            # build the [EN] CD image
   .\build.ps1 -Full      # floppy + CD
 #>
 param(
-    [switch]$Full,    # accepted for compatibility; the build always does both now
+    [switch]$Full,
     [switch]$Check
 )
 
 $ErrorActionPreference = "Stop"
 $root = $PSScriptRoot
 $env:PYTHONUTF8 = "1"
-# The build imports the tools (grow_build -> import patch_main_exp, reinsert, ...),
-# so it can serve cached bytecode from __pycache__. These tools are edited
-# mid-session; to guarantee a build never runs stale code, don't write .pyc and
-# clear any left behind by ad-hoc tool runs. (Verify critical patched bytes in
-# the built artifact too -- see the post-build check below.)
+
 $env:PYTHONDONTWRITEBYTECODE = "1"
 Get-ChildItem -Path $root -Recurse -Directory -Filter "__pycache__" -ErrorAction SilentlyContinue |
     Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
@@ -74,7 +72,7 @@ Invoke-Step "refresh script/blockpack.json.gz (validation data)" {
     python (Join-Path $root "tools\make_blockpack.py")
 }
 # grow_build does it all: floppy (classifier + names + scene-table repoint) and
-# CD (grown archives, relocating where needed). No per-scene byte budget.
+# CD (grown archives, relocating where needed).
 Invoke-Step "build EN floppy + CD (unbounded; relocates archives as needed)" {
     python (Join-Path $root "tools\grow_build.py")
 }

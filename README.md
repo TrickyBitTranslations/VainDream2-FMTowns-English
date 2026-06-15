@@ -3,24 +3,21 @@
 Work-in-progress English fan translation of Vain Dream II
 (ヴェインドリームⅡ, Glodia, 1993, FM Towns).
 
-One of the original developers re-released the game as freeware; you can grab it
-from [quarter-dev.info](https://www.quarter-dev.info/v2/). This repo doesn't
-include the game. It's the translation plus the tooling that builds a patched
-English image from your own copy.
+This repo doesn't include the game. It's the translation plus the tooling that builds
+a patched English image from your own copy. Don't have one? Visit [quarter-dev.info](https://www.quarter-dev.info/v2/). 
 
 Browse the script and suggest translations here:
 <https://trickybittranslations.github.io/VainDream2-FMTowns-English/>
 
 ## Status
 
-The engine side is done. The `dlz` compression, text encoding, and renderer are
+The engine side is "done". The `dlz` compression, text encoding, and renderer are
 reverse engineered, and a handful of patched bytes in `MAIN.EXP` add a half-width
 1-byte English text mode. The typewriter effect, name highlighting, and text
 blips all still work.
 
-The full script (~4,000 lines) is extracted to `script/*.tsv` with speaker
-attribution. The opening scenes are translated and playable. The rest still needs
-translating, and that's the part you can help with.
+The full script (~4,000 lines) is extracted to script/*.tsv with speaker attribution. 
+A rough machine translation makes the whole game playable now, and the proper pass is underway.
 
 ## Contributing translations
 
@@ -32,9 +29,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
   (charset, width, the scene's byte budget) and replies in about a minute.
 - Or clone, edit the `english` column in `script/*.tsv`, run
   `python tools/reinsert.py --check`, and open a PR. CI validates it.
-
-You only need Python 3.10+ to translate. The repo carries the data the validator
-needs (`script/blockpack.json.gz`), so you don't need the game itself.
 
 ## Building the English game
 
@@ -54,10 +48,9 @@ Vain DreamII (1993)(Glodia)(Jp)[SystemDisk].D88
 
 Outputs are `Vain DreamII (1993)(Glodia)(Jp) [EN].img` (+ cue/ccd/sub) and
 `...[SystemDisk]_EN.D88`. Boot both together in an FM Towns emulator like
-[Tsugaru](https://github.com/captainys/TOWNSEMU). Untranslated lines show up as
-garbled text and clear up as the script gets translated.
+[Tsugaru](https://github.com/captainys/TOWNSEMU).
 
 ## Credits
 
-- Glodia / Quarter Dev for the game, and for releasing it free.
+- Glodia & QuarterDev for the game.
 - Translation and tooling by TrickyBit Translations and contributors.
