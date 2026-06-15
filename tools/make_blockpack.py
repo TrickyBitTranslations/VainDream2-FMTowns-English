@@ -30,12 +30,12 @@ def main():
     iso = disc.extract_track1_iso(str(ROOT / "Vain DreamII (1993)(Glodia)(Jp).img"),
                                   TRACK1_SECTORS)
     wanted = {}                                  # archive -> set of block_offs
-    for tsv in sorted((ROOT / "script").glob("*.tsv")):
+    for tsv_path in sorted((ROOT / "script").glob("*.tsv")):
         # Only dialogue TSVs are dlz CD blocks (NAMES.tsv, *_TOS.tsv are not).
-        if not (tsv.stem.endswith("_DAT") or tsv.stem.endswith("_PK")):
+        if not (tsv_path.stem.endswith("_DAT") or tsv_path.stem.endswith("_PK")):
             continue
-        archive = tsv.stem.replace("_DAT", ".DAT").replace("_PK", ".PK")
-        for cols in tsv.rows(tsv):
+        archive = tsv_path.stem.replace("_DAT", ".DAT").replace("_PK", ".PK")
+        for cols in tsv.rows(tsv_path):
             if len(cols) >= 2:
                 wanted.setdefault(archive, set()).add(int(cols[0], 16))
 
