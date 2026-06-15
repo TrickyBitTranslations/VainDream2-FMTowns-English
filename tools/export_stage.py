@@ -13,7 +13,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 import tsv
 from glodia import disc, dlz
-from glodia.kana import decode as kana_decode
+from glodia import uitext
 import reinsert
 
 ARCHIVE = "VAIN_S.DAT"
@@ -22,7 +22,6 @@ IMG = ROOT / "Vain DreamII (1993)(Glodia)(Jp).img"
 OUT = ROOT / "script" / "STAGE.tsv"
 TRACK1 = 2715
 
-_GLYPH = {0x15: "、", 0x16: "。", 0x1c: "？", 0x1d: "！"}
 CJK = lambda s: any("ぁ" <= c <= "ん" or "ァ" <= c <= "ヶ" or "一" <= c <= "鿿" for c in s)
 
 
@@ -31,27 +30,8 @@ def _id_to_token():
 
 
 def decode_record(r, id2tok):
-    out, i, n = [], 0, len(r)
-    while i < n:
-        b = r[i]
-        if b == 0x02 and i + 1 < n:                       # name insert
-            nn = r[i + 1]; tok = id2tok.get(nn)
-            out.append("{" + tok + "}" if tok else f"{{{nn:02x}}}"); i += 2
-        elif b == 0x14:
-            out.append("<14>"); i += 1
-        elif b == 0x19:
-            out.append("/"); i += 1
-        elif b == 0x1e:
-            out.append("~"); i += 1
-        elif b in _GLYPH:
-            out.append(_GLYPH[b]); i += 1
-        elif b < 0x21:
-            out.append(f"<{b:02x}>"); i += 1
-        elif b <= 0x4f and i + 1 < n:                      # 2-byte kanji
-            out.append(kana_decode(r[i:i + 2], unknown="?")); i += 2
-        else:
-            out.append(kana_decode(r[i:i + 1], unknown="?")); i += 1
-    return "".join(out)
+    """Place record -> markup. Shares the .TOS codec, with name tokens (uitext)."""
+    return uitext.decode_markup(r, tokens=id2tok)
 
 
 def stage_records():

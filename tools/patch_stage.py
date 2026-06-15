@@ -11,55 +11,22 @@ NAME.P and corrupts. The build guards this.
 Usage: python tools/patch_stage.py            # round-trip + budget check
        (or call patch_stage.member_override() from grow_build)
 """
-import pathlib, re, sys
+import pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 import tsv
-from glodia.kana import encode as kana_encode
-from glodia.english import encode as en_encode
+from glodia import uitext
 import reinsert
 from export_stage import stage_records, decode_record, _id_to_token, MEMBER
 
 TSV = ROOT / "script" / "STAGE.tsv"
 RAM_CAP = 2048                         # DATA:0x1800 .. DATA.BIN @ 0x2000
 
-_GLYPH_REV = {"、": 0x15, "。": 0x16, "？": 0x1c, "！": 0x1d}
-_TOK = re.compile(r"\{([^}]+)\}|<([0-9a-fA-F]{2})>")
-
 
 def encode_record(markup, tokmap):
-    """markup string -> STAGE record bytes (inverse of export_stage.decode_record)."""
-    out = bytearray()
-    i, n = 0, len(markup)
-    while i < n:
-        m = _TOK.match(markup, i)
-        if m:
-            if m.group(1) is not None:                 # {NAME} or {hex}
-                key = m.group(1)
-                tid = tokmap.get(key.upper())
-                if tid is None and re.fullmatch(r"[0-9a-fA-F]{2}", key):
-                    tid = int(key, 16)
-                if tid is None:
-                    raise ValueError(f"unknown token {{{key}}}")
-                out += bytes([0x02, tid])
-            else:                                      # <nn>
-                out.append(int(m.group(2), 16))
-            i = m.end(); continue
-        ch = markup[i]
-        if ch == "/":
-            out.append(0x19)
-        elif ch == "~":
-            out.append(0x1e)
-        elif ch in _GLYPH_REV:
-            out.append(_GLYPH_REV[ch])
-        else:
-            try:
-                out += en_encode(ch)
-            except ValueError:
-                out += kana_encode(ch)
-        i += 1
-    return bytes(out)
+    """Place markup -> bytes (shared .TOS codec + name tokens, uitext)."""
+    return uitext.encode_markup(markup, tokens=tokmap)
 
 
 def _translations():

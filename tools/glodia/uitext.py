@@ -32,14 +32,21 @@ _MIDDOT = 0x19   # ・  -> "/"
 _LONGV = 0x1e    # ー  -> "~"
 
 
-def decode_markup(data):
-    """bytes -> readable markup string (for the TSV `text` column)."""
+def decode_markup(data, tokens=None):
+    """bytes -> readable markup string (for the TSV `text` column).
+
+    `tokens` (a {byte: name} map) renders ⟨02 nn⟩ name inserts as {NAME}; without
+    it, 0x02 falls through to a plain <02> control (the .TOS surfaces don't use it).
+    """
     out = []
     i, n = 0, len(data)
     while i < n:
         b = data[i]
         if b == 0x01:
             out.append("\\n"); i += 1
+        elif b == 0x02 and tokens is not None and i + 1 < n:
+            nm = tokens.get(data[i + 1])
+            out.append("{" + nm + "}" if nm else f"{{{data[i + 1]:02x}}}"); i += 2
         elif b == 0x03 and i + 1 < n:
             out.append(f"<03:{data[i+1]:02x}>"); i += 2
         elif b == 0x04:                      # cursor-right = the rendered space (0x04)
@@ -62,11 +69,24 @@ def decode_markup(data):
 _TOK = re.compile(r"<03:([0-9a-fA-F]{2})>|<([0-9a-fA-F]{2})>|\\n")
 
 
-def encode_markup(s):
-    """markup string -> bytes (for reinserting a translated record)."""
+def encode_markup(s, tokens=None):
+    """markup string -> bytes (for reinserting a translated record).
+
+    `tokens` (a {NAME: byte} map, names upper-cased) encodes {NAME}/{hex} as the
+    ⟨02 nn⟩ name insert; without it, braces are plain text (the .TOS surfaces).
+    """
     out = bytearray()
     i, n = 0, len(s)
     while i < n:
+        if tokens is not None and s[i] == "{":
+            key = s[i + 1:s.index("}", i)]
+            tid = tokens.get(key.upper())
+            if tid is None:
+                try:
+                    tid = int(key, 16)
+                except ValueError:
+                    raise ValueError(f"unknown name token {{{key}}}")
+            out += bytes([0x02, tid]); i += len(key) + 2; continue
         m = _TOK.match(s, i)
         if m:
             if m.group(1) is not None:
@@ -79,7 +99,8 @@ def encode_markup(s):
         # accumulate a text run up to the next token
         j = i
         while j < n and not (s[j] == "<" and _TOK.match(s, j)) \
-                and not (s[j] == "\\" and j + 1 < n and s[j + 1] == "n"):
+                and not (s[j] == "\\" and j + 1 < n and s[j + 1] == "n") \
+                and not (tokens is not None and s[j] == "{"):
             j += 1
         out += _encode_text(s[i:j])
         i = j
