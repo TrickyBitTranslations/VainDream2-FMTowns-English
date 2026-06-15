@@ -185,7 +185,7 @@ block_off	str_off	speaker	text	english
 0x2528a	0x6ed	ウォーリック	警備隊の声だ。\nビボルダーと戦闘になっている。\nファーニス。\n正確な位置がわかるか！？	{WARRICK}\nThe guards! They're fighting\nthe Bibolders.\n{FURNIS}.\nCan you pin down where they are?
 0x2528a	0x743	ファーニス	・・・ダメだよ。\n全然、わかんない。\n洞窟内だから声が反響しちゃて、正確な位置なんかまったくわかんないよ。	{FURNIS}\n...No good.\nI can't tell at all.\nTheir voices echo off the cave\nwalls. I can't fix the spot.
 0x2528a	0x79b	ウォーリック	とにかく急ごう。	{WARRICK}\nNo matter. Let's hurry.
-0x257ca	0x212	ウォーリック	今日はいい天気だ。\n・・・朝御飯は、何かな。	
+0x257ca	0x212	ウォーリック	今日はいい天気だ。\n・・・朝御飯は、何かな。	The weather's nice today.\n...I wonder what's for breakfast.
 0x25b63	0xf	ウォーリック	朝御飯は、まだか。\n・・・ブラブラっと、散歩でも行くかなぁ。	{WARRICK}\nBreakfast not ready yet?\n...Maybe I'll go for a little walk.
 0x25b63	0x54	ウォーリック	この頃、魔物が多いからなぁ。\n氷の洞窟に通じている裏門は、通れないと思ったぞ。	{WARRICK}\nSo many monsters lately.\nI doubt we could use the back gate\nto the {ICE CAVERN}.
 0x25b63	0x93	ブージ	なら、大婆様から許可をもらうしかないな。\n俺も狩りの報告をしなければならないし、ちょうどいい。	{BOOJ}\nThen we'll need {GRANNY}'s leave.\nI must report on the hunt anyway,\nso the timing's perfect.
