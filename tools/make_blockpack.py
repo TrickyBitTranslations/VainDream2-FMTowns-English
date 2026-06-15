@@ -17,6 +17,7 @@ import base64, gzip, json, pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import tsv
 from glodia import disc, dlz
 from glodia.script import load_names
 import patch_names
@@ -34,8 +35,7 @@ def main():
         if not (tsv.stem.endswith("_DAT") or tsv.stem.endswith("_PK")):
             continue
         archive = tsv.stem.replace("_DAT", ".DAT").replace("_PK", ".PK")
-        for row in tsv.read_text(encoding="utf-8").splitlines()[1:]:
-            cols = row.split("\t")
+        for cols in tsv.rows(tsv):
             if len(cols) >= 2:
                 wanted.setdefault(archive, set()).add(int(cols[0], 16))
 
@@ -47,7 +47,7 @@ def main():
         blocks[archive] = {}
         for off in sorted(offs):
             m = members[off]
-            block = dlz.decode(m, prefix=bytes(0x40000))
+            block = dlz.decode_block(m)
             blocks[archive][f"{off:#x}"] = {
                 "size": len(m),
                 "data": base64.b64encode(block).decode(),

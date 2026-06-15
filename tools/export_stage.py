@@ -11,6 +11,7 @@ import pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import tsv
 from glodia import disc, dlz
 from glodia.kana import decode as kana_decode
 import reinsert
@@ -57,7 +58,7 @@ def stage_records():
     """(member_bytes, [raw record]) for the STAGE table in VAIN_S.DAT."""
     iso = disc.extract_track1_iso(str(IMG), TRACK1)
     members = dict(dlz.iter_members(disc.read_file(iso, ARCHIVE)))
-    dec = dlz.decode(members[MEMBER], prefix=bytes(0x40000))
+    dec = dlz.decode_block(members[MEMBER])
     assert dec[:6] == b"STAGE.", dec[:8]
     return dec, dec[8:].split(b"\x00")
 
@@ -67,8 +68,7 @@ def main():
     id2 = _id_to_token()
     existing = {}
     if OUT.exists():
-        for line in OUT.read_text(encoding="utf-8").splitlines()[1:]:
-            c = line.split("\t")
+        for c in tsv.rows(OUT):
             if len(c) >= 5 and c[4].strip():
                 existing[c[1]] = c[4]
     n = 0

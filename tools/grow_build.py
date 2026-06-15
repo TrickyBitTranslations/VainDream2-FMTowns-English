@@ -107,7 +107,7 @@ def main(demo=False):
         members = dict(dlz.iter_members(data))
         overrides = {}
         for block_off, lines in blocks.items():
-            block = bytearray(dlz.decode(members[block_off], prefix=bytes(0x40000)))
+            block = bytearray(dlz.decode_block(members[block_off]))
             orig_decomp = len(block)
             # Collect record splices + literal-kana speaker-label splices, then
             # apply high->low (so earlier offsets stay valid). Mirrors reinsert.main().
@@ -146,7 +146,7 @@ def main(demo=False):
             enc[8:10] = members[block_off][8:10]
             nd = len(block)
             enc[10], enc[11], enc[12] = 0x00, nd & 0xFF, (nd >> 8) & 0xFF
-            assert dlz.decode(bytes(enc), prefix=bytes(0x40000)) == bytes(block)
+            assert dlz.decode_block(bytes(enc)) == bytes(block)
             overrides[block_off] = bytes(enc)
         # STAGE place/location table (a non-dialogue VAIN_S.DAT member). Decompresses
         # to the fixed RAM slot DATA:0x1800 (cap 2048, DATA.BIN follows at 0x2000).
@@ -160,7 +160,7 @@ def main(demo=False):
             enc[8:10] = members[patch_stage.MEMBER][8:10]
             nd = len(blob)
             enc[10], enc[11], enc[12] = 0x00, nd & 0xFF, (nd >> 8) & 0xFF
-            assert dlz.decode(bytes(enc), prefix=bytes(0x40000)) == bytes(blob)
+            assert dlz.decode_block(bytes(enc)) == bytes(blob)
             overrides[patch_stage.MEMBER] = bytes(enc)
             print(f"  STAGE: {len(patch_stage._translations())} place names, "
                   f"decomp {len(blob)}/{patch_stage.RAM_CAP} B")

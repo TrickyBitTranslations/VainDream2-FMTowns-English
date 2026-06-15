@@ -14,6 +14,7 @@ import pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import tsv
 from glodia.floppy import read_d88
 from glodia.script import _decode_record
 from glodia.english import encode as en
@@ -28,8 +29,7 @@ NAMES_TSV = ROOT / "script" / "NAMES.tsv"
 
 def _load_translations():
     out = {}
-    for line in NAMES_TSV.read_text(encoding="utf-8").splitlines()[1:]:
-        c = line.split("\t")
+    for c in tsv.rows(NAMES_TSV):
         if len(c) >= 5 and c[4].strip():
             out[c[3]] = c[4]
     return out
@@ -62,9 +62,8 @@ def _protected_indices(decoded):
     import reinsert
     tokens = reinsert.name_token_map()                 # EN(upper) -> token id
     referenced_tokens = set()
-    for tsv in (ROOT / "script").glob("*.tsv"):
-        for line in tsv.read_text(encoding="utf-8").splitlines()[1:]:
-            cols = line.split("\t")
+    for tsv_path in (ROOT / "script").glob("*.tsv"):
+        for cols in tsv.rows(tsv_path):
             if len(cols) >= 5 and cols[4].strip():
                 for ref in re.findall(r"\{([^}]+)\}", cols[4]):
                     tok = tokens.get(ref.upper())

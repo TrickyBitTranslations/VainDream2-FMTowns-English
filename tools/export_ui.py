@@ -17,6 +17,7 @@ import pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import tsv
 from glodia.floppy import D88
 from glodia.uitext import decode_markup, encode_markup
 from extract_floppy import read_file
@@ -56,8 +57,7 @@ def main():
         path = OUT / (fname.replace(".", "_") + ".tsv")
         existing = {}
         if path.exists():
-            for line in path.read_text(encoding="utf-8").splitlines()[1:]:
-                c = line.split("\t")
+            for c in tsv.rows(path):
                 if len(c) >= 5 and c[4].strip():
                     existing[(c[0], c[1])] = c[4]
         n = 0

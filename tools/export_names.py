@@ -21,6 +21,7 @@ import pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import tsv
 from glodia.floppy import read_d88
 from glodia.script import _decode_record
 from extract_floppy import read_file
@@ -40,8 +41,7 @@ def main(seed=None):
     # preserve existing english; optionally seed from a {jp: en} dict (migration)
     existing = {}
     if TSV.exists():
-        for line in TSV.read_text(encoding="utf-8").splitlines()[1:]:
-            c = line.split("\t")
+        for c in tsv.rows(TSV):
             if len(c) >= 5 and c[4].strip():
                 existing[c[1]] = c[4]
     n = 0

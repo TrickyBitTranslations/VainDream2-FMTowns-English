@@ -47,7 +47,7 @@ class IsoSource:
         return self._archives[archive][off]
 
     def block(self, archive, off):
-        return bytearray(dlz.decode(self.member(archive, off), prefix=bytes(0x40000)))
+        return bytearray(dlz.decode_block(self.member(archive, off)))
 
     def budget(self, archive, off):
         return len(self.member(archive, off))

@@ -15,6 +15,7 @@ import pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import tsv
 from glodia.kana import encode as kana_encode
 from glodia.english import encode as en_encode
 import reinsert
@@ -64,8 +65,7 @@ def encode_record(markup, tokmap):
 def _translations():
     tr = {}
     if TSV.exists():
-        for line in TSV.read_text(encoding="utf-8").splitlines()[1:]:
-            c = line.split("\t")
+        for c in tsv.rows(TSV):
             if len(c) >= 5 and c[4].strip():
                 tr[int(c[1], 16)] = c[4]
     return tr

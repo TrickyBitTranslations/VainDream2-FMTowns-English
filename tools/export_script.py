@@ -33,7 +33,7 @@ def main():
         rows = []
         for pos, m in dlz.iter_members(data):
             try:
-                block = dlz.decode(m, prefix=bytes(0x40000))
+                block = dlz.decode_block(m)
             except ValueError:
                 continue
             if block[:4] == b"PICT":        # image, not script

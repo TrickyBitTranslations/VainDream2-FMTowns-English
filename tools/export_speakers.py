@@ -21,6 +21,7 @@ from collections import defaultdict
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import tsv
 from glodia import disc, dlz, kana
 from glodia.script import load_names, extract_strings
 
@@ -64,7 +65,7 @@ def main():
         data = disc.read_file(iso, name)
         for pos, m in dlz.iter_members(data):
             try:
-                block = dlz.decode(m, prefix=bytes(0x40000))
+                block = dlz.decode_block(m)
             except ValueError:
                 continue
             if block[:4] == b"PICT":
@@ -75,8 +76,7 @@ def main():
 
     existing = {}
     if OUT.exists():
-        for line in OUT.read_text(encoding="utf-8").splitlines()[1:]:
-            c = line.split("\t")
+        for c in tsv.rows(OUT):
             if len(c) >= 4 and c[3].strip():
                 existing[c[0]] = c[3]
 

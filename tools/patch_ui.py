@@ -16,6 +16,7 @@ import pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
+import tsv
 from glodia.floppy import read_d88
 from glodia.uitext import encode_markup
 from extract_floppy import read_file
@@ -43,8 +44,7 @@ def load_translations():
         path = ROOT / "script" / (fname.replace(".", "_") + ".tsv")
         if not path.exists():
             continue
-        for line in path.read_text(encoding="utf-8").splitlines()[1:]:
-            c = line.split("\t")
+        for c in tsv.rows(path):
             if len(c) >= 5 and c[4].strip():
                 tr[(c[0], c[1])] = c[4]
     return tr
@@ -89,8 +89,7 @@ def check(rows=None):
     for fname in FILES:
         path = ROOT / "script" / (fname.replace(".", "_") + ".tsv")
         if path.exists():
-            for ln in path.read_text(encoding="utf-8").splitlines()[1:]:
-                c = ln.split("\t")
+            for c in tsv.rows(path):
                 if len(c) >= 4:
                     jp[(fname, c[1])] = c[3]
     errors = warns = 0

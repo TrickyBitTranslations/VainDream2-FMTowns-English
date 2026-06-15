@@ -165,6 +165,15 @@ def decode(member, prefix=b"", max_out=1 << 22):
     return bytes(out[base:])
 
 
+DEST = 0x40000   # the game decompresses scenes into a buffer here; seed the output
+                 # prefix to that size so far back-references resolve like on hardware.
+
+
+def decode_block(member):
+    """decode() with the standard 0x40000 output prefix every archive member uses."""
+    return decode(member, prefix=bytes(DEST))
+
+
 class _BitWriter:
     """Interleaves 16-bit LSB-first control words with data bytes, mirroring the
     engine's eager refill: the moment the 16th bit is consumed, the next control
