@@ -29,6 +29,10 @@ PATCHES = [  # (offset in MAIN.EXP, expected original, replacement)
     # "Dai"+orphan "n", and that "n" wrecked the shop icon column. Pin to always-half
     # by making the half->full branch also write 1 (@0x4635), so prices/icons fit.
     (0x4835, b"\x02", b"\x01"),
+    # Character-name render entry @0x381f sets bh=2 (full) then jumps into the
+    # shared renderer, so party/status names drew full-width and "Warrick" spilled
+    # past the panel box. Half-width here makes names fit, like dialogue.
+    (0x3A20, b"\x02", b"\x01"),
 
     # Name-table relocation: the full NAME.P table rides in ITEM.TOS and loads into
     # the carved segment at carved:0x2000 (see patch_items), off DATA.BIN's cap.
