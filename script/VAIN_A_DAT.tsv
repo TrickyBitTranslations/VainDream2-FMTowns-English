@@ -478,7 +478,7 @@ block_off	str_off	speaker	text	english
 0x62a3c	0x746		ルーシー\nママは怒るけど、ショー	Lucy\nMama gets cross, but Show
 0x62a3c	0x75a		様優しいんだもん！	 is so kind to me!
 0x62a3c	0x766		シャルト神官\nこの街は平和そのものです。\nしかし、この平和も、多くの戦いと血の元に成り立っているという事を忘れてはなりません。	Priest Shart\nThis town is peace itself.\nBut never forget this peace stands\nupon much battle and bloodshed.
-0x62a3c	0x7bf	ファーニス	神官さん、お休みかなぁ？	{Furnis}\nThink the priest is resting?
+0x62a3c	0x7bf	ファーニス	神官さん、お休みかなぁ？	Think the priest is resting?
 0x63058	0x10		テュナ\nうちの人は昔は旅商人だったから、旅の人の話を聞くのをとても楽しみにしているのよ。	Tyuna\nMy husband was a traveling merchant\nlong ago, so he loves hearing\ntales from travelers.
 0x63058	0x55		テュナ\nこの前はとてもかわいい旅の方がいらしてね、\nお兄さんの様な方と御一緒に家に泊まっていただいたのよ。	Tyuna\nA lovely traveler came by recently.\n\pWe let her stay here with someone\nrather like you, Bro.
 0x63058	0x9a		テュナ\nあら、いつぞやの冒険者の方々ね、\nその人数では家でお世話できないけどゆっくりしていらして。	Tyuna\nOh, the adventurers from before.\n\pWe cannot house this many,\nbut please make yourselves at home.
@@ -514,25 +514,25 @@ block_off	str_off	speaker	text	english
 0x63058	0x7ac		パール\n僕、冒険者稼業やめることにしました。\nこの先のことはゆっくり考えます。	Pearl\nI have decided to quit the\nadventuring trade.\n\pI will take my time deciding\nwhat comes next.
 0x636b9	0x31	ウォーリック	誰か来てくれ。\n怪我人がいるんだ。	Someone come quick.\nThere's a wounded girl here.
 0x636b9	0xb6		ベイグ王\nこの子が運び込まれてもう３日目。\nマーシーの魔法治療で身体は完治しているはずだが、今だに意識が戻らんとは・・・。	King Veig\nIt's been three days since\nshe was brought in.\nMarcy's magic should have\nfully healed her body...\n\pYet she still hasn't woken.
-0x636b9	0x122	ファーニス	・・・心配だね。\n私が、エルフ族に伝わる目覚しの秘術を使ってみようか？	{Furnis}\n...I'm worried.\nShould I try the elven\nart of awakening?
+0x636b9	0x122	ファーニス	・・・心配だね。\n私が、エルフ族に伝わる目覚しの秘術を使ってみようか？	...I'm worried.\nShould I try the elven\nart of awakening?
 0x636b9	0x164		ベイグ王\nそんな技があるのか！？\n試してみる価値はありそうだ。	King Veig\nThere's such a technique!?\nIt seems worth a try.
-0x636b9	0x197	ファーニス	じゃあ、やってみるね。\n・・・・・・・・ええいっ！！	{Furnis}\nOkay, here I go.\n.....Hyaah!!
+0x636b9	0x197	ファーニス	じゃあ、やってみるね。\n・・・・・・・・ええいっ！！	Okay, here I go.\n.....Hyaah!!
 0x636b9	0x1de		ベイグ王\n・・・・・何をやっておるのだ？	King Veig\n.....What are you doing?
-0x636b9	0x211	ファーニス	あのね。\nこうやって鼻をつまむと、苦しくて目を覚ますんだよ。	{Furnis}\nYou see.\nPinch her nose like this,\nand the choking wakes\nher up.
+0x636b9	0x211	ファーニス	あのね。\nこうやって鼻をつまむと、苦しくて目を覚ますんだよ。	You see.\nPinch her nose like this,\nand the choking wakes\nher up.
 0x636b9	0x246		ベイグ王\n間違って死んだらどうする。\n早くはなしなさいッ。	King Veig\nWhat if you kill her\nby mistake.\nLet go at once!
 0x636b9	0x291	女の子	・・・ううッ。	Girl\n...Uhh.
 0x636b9	0x2b4		ベイグ王\nおおッ、気が付いた。	King Veig\nOh! She's awake.
 0x636b9	0x2d1	女の子	・・・ううん・・・・・こっ、ここは。\n・・・・・ベイグ様？	Girl\n...Mmm...\nWh-where is this?\n...King Veig?
 0x636b9	0x32d		ベイグ王\n安心しなさい。\nここはジーク王国だよ、セシリア姫。	King Veig\nRest easy.\nThis is Zeke Kingdom,\nPrincess Cecilia.
-0x636b9	0x360	ウォーリック	・・・ひっ、姫ぇっ！？\nそれはどういう事です、ベイグ王。	{Warrick}\n...P-Princess!?\nWhat do you mean,\nKing Veig?
+0x636b9	0x360	ウォーリック	・・・ひっ、姫ぇっ！？\nそれはどういう事です、ベイグ王。	...P-Princess!?\nWhat do you mean,\nKing Veig?
 0x636b9	0x39b		ベイグ王\n隠していた訳ではないが彼女の名は、セシリア　サライズ　ド　セルーシュ。神聖セルーシュ王国の、第１王女だ。\nベイグ王\n・・・さぁ、セシリア姫。\n何が起ったのか話してくれるね。	King Veig\nI wasn't hiding it, but her\nname is Cecilia Salize de\nSerush.\nThe first princess of holy\nSerush Kingdom.\n\pKing Veig\n...Now, Princess Cecilia.\nWill you tell us what\nhappened.
-0x636b9	0x42b	セシリア	・・・突然の事でした。\n城の地下にある礼拝堂から、魔物の大軍が溢れかえる様に現れました。\nセシリア\nその時、聖騎士団は南の森に現れたヒドラ退治に出ており不在。\n・・・守りは神官戦士のみでした。\nセシリア\nしかも、敵の中に強力な魔導士がいるのでしょう。\n神官戦士達の魔法は封じられ、その力を出し切る事なく次々と倒されました。\nセシリア\n母様も、妹も・・・父様も・・・魔物の手にかかり・・・。\nセシリア\nそして大神官のバディット様が、傷つきながらも私とピロームだけを魔法で逃してくれたのです。	{Cecilia}\n...It came without warning.\nFrom the chapel beneath\nthe castle, a great horde\nof Monsters came pouring\nout.\n\p{Cecilia}\nThe Paladins were away,\nslaying a hydra in the\nsouthern forest.\n...Only the Templars\nremained to defend us.\n\p{Cecilia}\nAnd there must have been\na powerful Mage among\nthe foe.\nThe Templars' magic was\nsealed, and they were cut\ndown one by one, unable\nto use their full power.\n\p{Cecilia}\nMother, my sister...\nFather too... all fell to\nthe Monsters' hands...\n\p{Cecilia}\nThen High Priest Badit,\nthough wounded, used\nmagic to let only me and\nPirom escape.
-0x636b9	0x5ae	ファーニス	・・・ピローム？\n一緒にいたケルベロスの事ね。	{Furnis}\n...Pirom?\nYou mean the Cerberus\nthat was with you.
-0x636b9	0x5e0	セシリア	どこかもわからない森でピロームは私を守って魔物と戦い、一睡もせずに結界を張り続けてくれたのです。\nセシリア\n・・・大神官様も、ピロームも・・・みんな私をかばって・・・。	{Cecilia}\nIn a forest I didn't know,\nPirom protected me and\nfought the Monsters,\nholding a barrier without\nsleeping for a moment.\n\p{Cecilia}\n...The High Priest, and\nPirom... everyone shielded\nme...
+0x636b9	0x42b	セシリア	・・・突然の事でした。\n城の地下にある礼拝堂から、魔物の大軍が溢れかえる様に現れました。\nセシリア\nその時、聖騎士団は南の森に現れたヒドラ退治に出ており不在。\n・・・守りは神官戦士のみでした。\nセシリア\nしかも、敵の中に強力な魔導士がいるのでしょう。\n神官戦士達の魔法は封じられ、その力を出し切る事なく次々と倒されました。\nセシリア\n母様も、妹も・・・父様も・・・魔物の手にかかり・・・。\nセシリア\nそして大神官のバディット様が、傷つきながらも私とピロームだけを魔法で逃してくれたのです。	...It came without warning.\nFrom the chapel beneath\nthe castle, a great horde\nof Monsters came pouring\nout.\n\p{Cecilia}\nThe Paladins were away,\nslaying a hydra in the\nsouthern forest.\n...Only the Templars\nremained to defend us.\n\p{Cecilia}\nAnd there must have been\na powerful Mage among\nthe foe.\nThe Templars' magic was\nsealed, and they were cut\ndown one by one, unable\nto use their full power.\n\p{Cecilia}\nMother, my sister...\nFather too... all fell to\nthe Monsters' hands...\n\p{Cecilia}\nThen High Priest Badit,\nthough wounded, used\nmagic to let only me and\nPirom escape.
+0x636b9	0x5ae	ファーニス	・・・ピローム？\n一緒にいたケルベロスの事ね。	...Pirom?\nYou mean the Cerberus\nthat was with you.
+0x636b9	0x5e0	セシリア	どこかもわからない森でピロームは私を守って魔物と戦い、一睡もせずに結界を張り続けてくれたのです。\nセシリア\n・・・大神官様も、ピロームも・・・みんな私をかばって・・・。	In a forest I didn't know,\nPirom protected me and\nfought the Monsters,\nholding a barrier without\nsleeping for a moment.\n\p{Cecilia}\n...The High Priest, and\nPirom... everyone shielded\nme...
 0x636b9	0x67a		ベイグ王\n気に病む事はない。\n皆、そなたが守るに値する人と信じ、戦ったのだ。\nベイグ王\n今は、その者達のためにも静養しなくてはな。	King Veig\nDon't blame yourself.\nThey all believed you\nworth protecting, and so\nthey fought.\n\pKing Veig\nFor their sake too, you\nmust rest now.
 0x636b9	0x6f3		さ\n今、セルーシュは？	And\nWhat of Serush now?
 0x636b9	0x702		ベイグ王\nうむ。\n今ライランドとジークが加戦し、生き残った聖騎士達と共に城奪回のため戦っている。	King Veig\nMm.\nNow Ryland and Zeke have\njoined the fight, battling\nwith the surviving Paladins\nto retake the castle.
-0x636b9	0x748	セシリア	ベイグ王。\n私を国に戻して下さい。	{Cecilia}\nKing Veig.\nPlease send me back\nto my country.
+0x636b9	0x748	セシリア	ベイグ王。\n私を国に戻して下さい。	King Veig.\nPlease send me back\nto my country.
 0x636b9	0x76d		ベイグ王\nそれはできない。\nセルーシュは今とても危険な状態だ。	King Veig\nThat I cannot do.\nSerush is in a very\ndangerous state right now.
 0x63c42	0x2b		ベイグ王\nそなた達か・・・ローラの使いの者とは？\n遠い所、ご苦労であった。\nローラは元気にしておるのか？	King Veig\nSo you are Lola's messengers?\nYou've come a long way. Well done.\nIs Lola keeping well?
 0x63c42	0x86	レイナ	はい。\nとても元気にしております。	Yes.\nShe's very well indeed.
@@ -569,28 +569,28 @@ block_off	str_off	speaker	text	english
 0x63c42	0x793		ベイグ王\n少しばかりだが、薬や装備の足しにしてくれ。	King Veig\nIt's only a little, but put it\ntoward potions and gear.
 0x63c42	0x7c6		７　⟨14⟩１０００ダイン受け取った。	Received 1000 Dain.
 0x641e4	0x19	キャロル	・・・始めまして。\n私、身の周りのお世話をさせていただきます、キャロルです。\nキャロル\n何かありましたら侍女室におりますので、お呼び下さい。	Carol\n...Pleased to meet you.\nI'll be tending to your needs.\nMy name is Carol.\pCarol\nIf you need anything, I'll be\nin the maids' room. Just call.
-0x641e4	0x85	ファーニス	・・・どうしたの？\n何か、元気ないわねぇ。	{Furnis}\n...What's wrong?\nYou seem a bit down.\n
+0x641e4	0x85	ファーニス	・・・どうしたの？\n何か、元気ないわねぇ。	...What's wrong?\nYou seem a bit down.\n
 0x641e4	0xaf	キャロル	いいえ、何でもありません。\n・・・それでは失礼します。	Carol\nNo, it's nothing.\n...Excuse me, then.\n
-0x641e4	0x11e	ファーニス	・・・どうしたんだろ？\n悩みの多い年頃なのかしらねぇ。\n・・・・・うんうん。	{Furnis}\n...I wonder what's wrong?\nMaybe it's just that age full\nof worries. ...Mhm, mhm.\n
-0x641e4	0x167	ウォーリック	何、オバさんみたいな事言ってんだよ。それより今日は疲れたな。\n早く休もう。	{Warrick}\nDon't go talking like some\nold lady. Anyway, what a day.\nLet's turn in early.\n
-0x641e4	0x1b2	ファーニス	ウォーリック、私眠ぅぅぅい。	{Furnis}\n{Warrick}, I'm so sleeepy.\n
-0x641e4	0x1dd	ウォーリック	ふぁぁぁっ、今日は疲れたなぁ。	{Warrick}\nYaaawn... what a long day.\n
-0x641e4	0x20b	ファーニス	・・・んんッ！？\nウォーリック、レイナ、起きてッ。	{Furnis}\n...Mmh!?\n{Warrick}, {Reina}, wake up!\n
-0x641e4	0x23b	ウォーリック	・・・ううん？\n何だよファーニス、まだ寝むいよぉ。	{Warrick}\n...Mmh?\nWhat is it, {Furnis}?\nI'm still sleepy...\n
-0x641e4	0x267	ファーニス	何、寝惚けてるのよ。\n誰かこの部屋に来るのよッ！！	{Furnis}\nQuit dozing off.\nSomeone's coming to this room!\n
-0x641e4	0x2ba	レイナ	ベイグ王！？\nこの様な所にどうしたのです。	{Reina}\nKing {Veig}!?\nWhat brings you to a place\nlike this?\n
+0x641e4	0x11e	ファーニス	・・・どうしたんだろ？\n悩みの多い年頃なのかしらねぇ。\n・・・・・うんうん。	...I wonder what's wrong?\nMaybe it's just that age full\nof worries. ...Mhm, mhm.\n
+0x641e4	0x167	ウォーリック	何、オバさんみたいな事言ってんだよ。それより今日は疲れたな。\n早く休もう。	Don't go talking like some\nold lady. Anyway, what a day.\nLet's turn in early.\n
+0x641e4	0x1b2	ファーニス	ウォーリック、私眠ぅぅぅい。	{Warrick}, I'm so sleeepy.\n
+0x641e4	0x1dd	ウォーリック	ふぁぁぁっ、今日は疲れたなぁ。	Yaaawn... what a long day.\n
+0x641e4	0x20b	ファーニス	・・・んんッ！？\nウォーリック、レイナ、起きてッ。	...Mmh!?\n{Warrick}, {Reina}, wake up!\n
+0x641e4	0x23b	ウォーリック	・・・ううん？\n何だよファーニス、まだ寝むいよぉ。	...Mmh?\nWhat is it, {Furnis}?\nI'm still sleepy...\n
+0x641e4	0x267	ファーニス	何、寝惚けてるのよ。\n誰かこの部屋に来るのよッ！！	Quit dozing off.\nSomeone's coming to this room!\n
+0x641e4	0x2ba	レイナ	ベイグ王！？\nこの様な所にどうしたのです。	King {Veig}!?\nWhat brings you to a place\nlike this?\n
 0x641e4	0x2e6		ベイグ王\nお前達の耳に、入れておきたい事があるのだ。\nこの頃頻発している、魔物の事件の事なのだが・・・。	King {Veig}\nThere's something I want you\nall to hear.\nIt's about these monster\nincidents lately...\n
 0x641e4	0x34e		ベイグ王\n隣国のセルーシュが、魔物の大軍に襲われ落城した。\nベイグ王\n現在西の大国ライランド、そして我が国のドラゴン　ライダー隊が加戦し、生き残ったセルーシュの騎士達と共に王城奪回のため戦っている。	King {Veig}\nSerush, our neighbor, was\noverrun by a monster horde\nand fell.\np\nKing {Veig}\nNow Ryland, the great western\npower, and our own {Dragon Rider}\ncorps have joined in. Alongside\nSerush's surviving Knights,\nthey fight to retake the castle.\n
-0x641e4	0x3ce	レイナ	魔物が城を！？\n・・・今まで、そんな事なかったのに。	{Reina}\n{Monster}s took the castle!?\n...That's never happened\nbefore.\n
+0x641e4	0x3ce	レイナ	魔物が城を！？\n・・・今まで、そんな事なかったのに。	{Monster}s took the castle!?\n...That's never happened\nbefore.\n
 0x641e4	0x407		ベイグ王\nそれも多種の魔物が統率され、指揮官らしき姿も確認されている。\n既に、軍隊として機能しているらしい。\nベイグ王\nそして魔物共は、自らをクーレイア魔神軍と名のっている。	King {Veig}\nMany kinds of {Monster}s, all\nunder command, and a figure\nthat seems to lead them.\nThey already function as an\narmy.\np\nKing {Veig}\nAnd they call themselves the\nKuleia Demon God army.\n
 0x641e4	0x4ab		ベイグ王\nクーレイアとは、太古に栄えた巨大魔法文明の都市の名だ。\nどこに存在したのかも知られていない、伝説の都市だがな。	King {Veig}\nKuleia is the name of a vast\nmagic city that flourished\nin ancient times.\nNo one knows where it stood.\nA city of legend.\n
-0x641e4	0x50e	レイナ	魔物達の目的はいったい？	{Reina}\nWhat could the {Monster}s be\nafter?\n
+0x641e4	0x50e	レイナ	魔物達の目的はいったい？	What could the {Monster}s be\nafter?\n
 0x641e4	0x52e		ベイグ王\n魔物達の目的はわかっている。\nセルーシュ王国の国宝、地の水晶だ。	King {Veig}\nWe know what they want.\nSerush Kingdom's treasure,\nthe Earth Crystal.\n
 0x641e4	0x582		ベイグ王\n地の水晶は天の水晶と時を同じくして造られた、旧世界の魔導具だ。\n天の水晶は魂を砕き、地の水晶は肉体を砕く。\nベイグ王\n神をも倒せると伝えられている、２つの魔導具・・・その魔導具が我々の手から消え去った。\nベイグ王\n何を意味するか、わかるであろう。	King {Veig}\nThe Earth Crystal was forged\nwith the Sky Crystal, a relic\nof the old world.\nThe Sky shatters the soul,\nthe Earth the body.\np\nKing {Veig}\nTwo relics said to slay even\ngods... and those relics have\nslipped from our hands.\np\nKing {Veig}\nYou understand what that\nmeans.\n
-0x641e4	0x663	レイナ	・・・まさか。	{Reina}\n...It can't be.\n
+0x641e4	0x663	レイナ	・・・まさか。	...It can't be.\n
 0x641e4	0x67a		ベイグ王\nあれほどの魔物を操れる存在。\n私がその者なら、自らの弱点は必ず潰しにかかる。\nベイグ王\n・・・まだ断定できる状態ではないので、くれぐれも事を荒立てない様、心してほしい。	King {Veig}\nA being that commands such\n{Monster}s. Were I that one, I'd\nsurely crush my own weakness.\np\nKing {Veig}\n...It's not yet certain, so\ntake care not to stir things\nup. Keep this in mind.\n
-0x641e4	0x70b	ウォーリック	・・・はいっ。	{Warrick}\n...Yes, sir.\n
-0x641e4	0x72c	ファーニス	・・・んんっ？\n廊下の方が、やけに騒がしいよ。\n３鎧７のぶつかり合う音がする。	{Furnis}\n...Mmh?\nThe hallway's awfully noisy.\nI hear armor clashing.\n
+0x641e4	0x70b	ウォーリック	・・・はいっ。	...Yes, sir.\n
+0x641e4	0x72c	ファーニス	・・・んんっ？\n廊下の方が、やけに騒がしいよ。\n３鎧７のぶつかり合う音がする。	...Mmh?\nThe hallway's awfully noisy.\nI hear armor clashing.\n
 0x641e4	0x772		ベイグ王\n・・・うむっ。\n何か、あった様だ。\n行ってみよう。	King {Veig}\n...Mm.\nSomething's happened.\nLet's go take a look.\n
 0x641e4	0x7a6		ベイグ王\n早く、行ってみよう。	King {Veig}\nQuick, let's go take a look.\n
 0x6475a	0x2a	ファーニス	あらら！？\nあそこで３剣７振り回して暴れているのキャロルちゃんじゃない？	Huh!?\nIsn't that {CAROL} over there,\nswinging a sword in a rage?
@@ -624,8 +624,8 @@ block_off	str_off	speaker	text	english
 0x64ca4	0x1af		ルカ\nお花に水をあげるのが、私の日課なの。	Luka\nWatering the flowers is my\ndaily task.
 0x64ca4	0x1cc		ルカ\n早く、お花　咲かないかな。	Luka\nI hope the flowers bloom soon.
 0x64ca4	0x1ec		さんって素敵よね。	is wonderful, isn't he.
-0x64ca4	0x213	キャロル	皆さんのおかげでルークも帰って来ました。\n本当にありがとう。	{CAROL}\nThanks to all of you, Luke came\nhome too. Thank you so much.
-0x64ca4	0x248	キャロル	あっ、皆さんお久しぶりです。\n今度、ルークと結婚するんです。\n今、とっても幸せです。	{CAROL}\nOh, it's been a while, everyone.\nLuke and I are getting married\nsoon. I'm so happy right now.
+0x64ca4	0x213	キャロル	皆さんのおかげでルークも帰って来ました。\n本当にありがとう。	Thanks to all of you, Luke came\nhome too. Thank you so much.
+0x64ca4	0x248	キャロル	あっ、皆さんお久しぶりです。\n今度、ルークと結婚するんです。\n今、とっても幸せです。	Oh, it's been a while, everyone.\nLuke and I are getting married\nsoon. I'm so happy right now.
 0x64ca4	0x28e		ルカちゃんってカワイイなぁ。\nいつも花の世話をしていて、優しいんだっ。	Luka sure is cute. She's always\ntending the flowers, so kind.
 0x64ca4	0x2c2		別に、仕事をサボッてるわけじゃないよ。中庭の警備さッ。	I'm not slacking off, you know.\nI'm guarding the courtyard.
 0x64ca4	0x2ed		ああっ・・・今日は、いい天気だッ。\n仕事が終ったらルカちゃん誘って遊びに行こっと。	Ahh... such fine weather today.\nWhen my shift ends, I'll ask Luka\nout to play.
@@ -634,18 +634,18 @@ block_off	str_off	speaker	text	english
 0x64ca4	0x37d		マーカー\n君達だね、メデューサを倒したのは。\nおかげで友も助かった。\nありがとう。	Marker\nSo you're the ones who beat\n{MEDUSA}. My friend was saved\nthanks to you. Thank you.
 0x64ca4	0x3b3		ルーカス\nここは稽古室だよ。\n僕はみんなより力がないから、素早さで勝負さッ。\n見たかい、僕の華麗な足さばき。	Lucas\nThis is the training room.\nI'm weaker than the rest, so\nI fight with speed. See my\nelegant footwork?
 0x64ca4	0x3fe		ルーカス\n早く強くなって、立派な騎士になるんだ。	Lucas\nI'll grow strong fast and become\na fine {KNIGHT}.
-0x65003	0x23	ファーニス	あっ・・・ちょっと待って！！\n岩の隙間から水と一緒に、少しだけど風が流れ込んで来てるよ。	{FURNIS}\nWait... hold on!!\nAlong with the water, a little wind\nis\nseeping in through the gap in the\nrock.
-0x65003	0x7c	レイナ	向こう側が空洞になっているのかしら？	{REINA}\nCould it be hollow on the other side?
-0x65003	0x9f	ファーニス	ちょっと聞いてみるね。\n・・・教えて、ウンディーネ。\nあなた達の今までいた所、どうなってた？\nファーニス\n・・・・・なになに・・・・・・・・・・・ふんふん。\nわかったわ。\nありがとうウンディーネ。	{FURNIS}\nLet me ask.\n...Tell me, water spirit.\nThe place you came from, what was it\nlike?\p{FURNIS}\n{...}..uh-huh..{...}..{...}..I see.\nGot it.\nThank you, water spirit.
-0x65003	0x138	レイナ	どう、何かわかった？	{REINA}\nWell? Did you learn anything?
-0x65003	0x154	ファーニス	うんっ。\n向こう側は、とっても広い空洞になってるって。\nそれに、大っきな地底湖があるそうよ。\nファーニス\n風の流れから見て、どっかにつながっている場所があるみたい。	{FURNIS}\nYep.\nThe far side is a huge hollow space.\nAnd there's a big underground lake\ntoo.\p{FURNIS}\nFrom the wind, it seems to connect\nto somewhere else.
-0x65003	0x1c6	レイナ	じゃあ、東側の壁づたいを調べて行きましょう。\nどこかに通路があるはずよ。	{REINA}\nThen let's search along the east\nwall.\nThere must be a passage somewhere.
-0x65003	0x21a	ファーニス	・・・ああっ。\nここの隙間から風が吹抜けているよ。岩盤も薄そうだし、きっとここから向こう側に行けるね。	{FURNIS}\n...Ah.\nWind's blowing through this gap.\nThe rock looks thin too. We can\nsurely\nget to the other side here.
-0x65003	0x275	ウォーリック	よしっ！！\n俺が壁を討ち抜く。\nレイナ、ファーニス、危険だから後ろに下がっているんだッ。	{WARRICK}\nRight!!\nI'll break through the wall.\n{REINA}, {FURNIS}, it's dangerous --\nget back behind me.
-0x65003	0x2bc	ファーニス	頑張って、ウォーリック！！	{FURNIS}\nGo for it, {WARRICK}!!
-0x65003	0x2e4	ウォーリック	・・・・・でいやぁッ！！	{WARRICK}\n{...}..Hyaaah!!
-0x65003	0x329	ファーニス	・・・・・ウォーリック。\n今、何かした？	{FURNIS}\n.{...}.{WARRICK}.\nDid you just do something?
-0x65003	0x354	ウォーリック	・・・いやっ。\nちょっと、剣の素振りを。	{WARRICK}\n...Nah.\nJust a little sword practice.
+0x65003	0x23	ファーニス	あっ・・・ちょっと待って！！\n岩の隙間から水と一緒に、少しだけど風が流れ込んで来てるよ。	Wait... hold on!!\nAlong with the water, a little wind\nis\nseeping in through the gap in the\nrock.
+0x65003	0x7c	レイナ	向こう側が空洞になっているのかしら？	Could it be hollow on the other side?
+0x65003	0x9f	ファーニス	ちょっと聞いてみるね。\n・・・教えて、ウンディーネ。\nあなた達の今までいた所、どうなってた？\nファーニス\n・・・・・なになに・・・・・・・・・・・ふんふん。\nわかったわ。\nありがとうウンディーネ。	Let me ask.\n...Tell me, water spirit.\nThe place you came from, what was it\nlike?\p{FURNIS}\n{...}..uh-huh..{...}..{...}..I see.\nGot it.\nThank you, water spirit.
+0x65003	0x138	レイナ	どう、何かわかった？	Well? Did you learn anything?
+0x65003	0x154	ファーニス	うんっ。\n向こう側は、とっても広い空洞になってるって。\nそれに、大っきな地底湖があるそうよ。\nファーニス\n風の流れから見て、どっかにつながっている場所があるみたい。	Yep.\nThe far side is a huge hollow space.\nAnd there's a big underground lake\ntoo.\p{FURNIS}\nFrom the wind, it seems to connect\nto somewhere else.
+0x65003	0x1c6	レイナ	じゃあ、東側の壁づたいを調べて行きましょう。\nどこかに通路があるはずよ。	Then let's search along the east\nwall.\nThere must be a passage somewhere.
+0x65003	0x21a	ファーニス	・・・ああっ。\nここの隙間から風が吹抜けているよ。岩盤も薄そうだし、きっとここから向こう側に行けるね。	...Ah.\nWind's blowing through this gap.\nThe rock looks thin too. We can\nsurely\nget to the other side here.
+0x65003	0x275	ウォーリック	よしっ！！\n俺が壁を討ち抜く。\nレイナ、ファーニス、危険だから後ろに下がっているんだッ。	Right!!\nI'll break through the wall.\n{REINA}, {FURNIS}, it's dangerous --\nget back behind me.
+0x65003	0x2bc	ファーニス	頑張って、ウォーリック！！	Go for it, {WARRICK}!!
+0x65003	0x2e4	ウォーリック	・・・・・でいやぁッ！！	{...}..Hyaaah!!
+0x65003	0x329	ファーニス	・・・・・ウォーリック。\n今、何かした？	.{...}.{WARRICK}.\nDid you just do something?
+0x65003	0x354	ウォーリック	・・・いやっ。\nちょっと、剣の素振りを。	...Nah.\nJust a little sword practice.
 0x65003	0x386	レイナ	ウォーリック、ファーニス、遊んでる時じゃないでしょう。\n私がやるから、２人共下がっていて。	...No.\nJust some sword practice.
 0x65003	0x3d3	レイナ	・・・魔を制したる我は使役す、天空の稲妻、天地万物を貫く光槍となり、我が命により個を砕け。\nライトニング、ボルトォォォォォッ！	...I who master the dark, I summon\nyou, lightning of the heavens.\nBecome a spear of light that\npierces all creation, and by my\ncommand, shatter what stands.\n{LIGHTNING BOLT}!
 0x65003	0x4b3	ファーニス	反対側に抜け道みたいのがあったよ。そっちから行こうよ、ウォーリック。	There's a passage on the other\nside. Let's go that way, {WARRICK}.
@@ -663,56 +663,56 @@ block_off	str_off	speaker	text	english
 0x65003	0x723	レイナ	あんまり触っちゃだめよ。\n体が欠けちゃったら大変でしょ。	Don't touch them too much.\nIf a piece breaks off, that's bad.
 0x65003	0x755	ファーニス	騎士さん達、勇敢に戦ったんだねぇ。	These knights fought so bravely.
 0x65003	0x779	ウォーリック	こんなの見ると、メデューサと戦うのがいやになってくるな。	Seeing this makes me dread\nfighting {MEDUSA}.
-0x65573	0x1e	レイナ	・・・この禍々しい魔力。\nメデューサはこの近くにいるわ。	{REINA}\n...This vile magic.\n{MEDUSA} is somewhere near here.
-0x65573	0x5d	ウォーリック	気を付けろ。\nむこうは、俺達に気付いているぞ。	{WARRICK}\nStay sharp.\nShe already knows we're here.
-0x65573	0x8d	レイナ	私とファーニスが魔法で援護するわ。ウォーリックは、隙をみてメデューサの首をはねる事に専念して。	{REINA}\n{FURNIS} and I will back you with\nmagic. {WARRICK}, watch for an\nopening and cut off {MEDUSA}'s head.
-0x65573	0xda	ファーニス	奥の方、精霊達が騒いでいる。\n来るわッ！！	{FURNIS}\nDeep within, the spirits are\nrestless. Here she comes!!
+0x65573	0x1e	レイナ	・・・この禍々しい魔力。\nメデューサはこの近くにいるわ。	...This vile magic.\n{MEDUSA} is somewhere near here.
+0x65573	0x5d	ウォーリック	気を付けろ。\nむこうは、俺達に気付いているぞ。	Stay sharp.\nShe already knows we're here.
+0x65573	0x8d	レイナ	私とファーニスが魔法で援護するわ。ウォーリックは、隙をみてメデューサの首をはねる事に専念して。	{FURNIS} and I will back you with\nmagic. {WARRICK}, watch for an\nopening and cut off {MEDUSA}'s head.
+0x65573	0xda	ファーニス	奥の方、精霊達が騒いでいる。\n来るわッ！！	Deep within, the spirits are\nrestless. Here she comes!!
 0x65573	0x116		メデューサの首は、跳ね飛ばされた。\n首は弧を描き湖に落ち宿主を失った体は、しばし生命力を振り絞り動いていたが、やがてその生命活動に永遠の終止符が打たれた。	{MEDUSA}'s head was struck clean\noff. It arced through the air and\nfell into the lake. The host body\nflailed on a while, wringing out\nthe last of its life, until at last\nits living days ended forever.
-0x65573	0x198	ウォーリック	へへっ。\n楽勝だったかな。	{WARRICK}\nHeh.\nGuess that was an easy win.
-0x65573	0x1be	レイナ	フフッ。\nちょっと危なかったじゃない。\nんんっ！？\n・・・どうしたの、ファーニス？	{REINA}\nHee. That was a little close,\nwasn't it.\nHmm!?\n...What is it, {FURNIS}?
-0x65573	0x20a	ファーニス	・・・聞こえる。\n何か聞こえるの。\nどこかわからないけど、何か動いているよ。	{FURNIS}\n...I hear it.\nI hear something.\nI can't tell where, but\nsomething is moving.
+0x65573	0x198	ウォーリック	へへっ。\n楽勝だったかな。	Heh.\nGuess that was an easy win.
+0x65573	0x1be	レイナ	フフッ。\nちょっと危なかったじゃない。\nんんっ！？\n・・・どうしたの、ファーニス？	Hee. That was a little close,\nwasn't it.\nHmm!?\n...What is it, {FURNIS}?
+0x65573	0x20a	ファーニス	・・・聞こえる。\n何か聞こえるの。\nどこかわからないけど、何か動いているよ。	...I hear it.\nI hear something.\nI can't tell where, but\nsomething is moving.
 0x65573	0x256		ウォーリッ\n・・・水面を見ろ。\nメデューサの首だ。	{WARRICK}\n...Look at the water.\nIt's {MEDUSA}'s head.
 0x65573	0x2dc		大剣の剣士\n大丈夫か！？\nメデューサは首だけでも生き続ける。また仕掛けて来るぞ。	Swordsman\nYou OK?!\nMedusas live on as heads!
 0x65573	0x349		大剣の剣士\nいやぁぁぁっ。\n危なかったなぁ。	Greatsword Swordsman\nWhoaaa.\nThat was a close one.
-0x65573	0x375	ファーニス	・・・あなた、誰？	{FURNIS}\n...Who are you?
+0x65573	0x375	ファーニス	・・・あなた、誰？	...Who are you?
 0x65573	0x38f		大剣の剣士\n俺の名は、ライド。\nこの大陸を旅している剣士だ。\nジーク王国でこの採掘場にメデューサが出ると聞いて、退治しに来た。	Greatsword Swordsman\nThe name's {RIDE}.\nA swordsman wandering this land.\nI heard in {ZEKE KINGDOM} that a\n{MEDUSA} haunted this mine, so I\ncame to slay it.
-0x65573	0x3ed	レイナ	・・・賞金稼ぎですか？	{REINA}\n...So you're a bounty hunter?
-0x65573	0x409	ライド	いいや。\nクラウスとか言う村の近くにいる、氷の神官竜に会いに行く途中なんだ。	{RIDE}\nNo. I'm on my way to see the\nice priest dragon near a village\ncalled {KLAUS}.
-0x65573	0x454	ウォーリック	・・・その神官竜に、何の用が？	{WARRICK}\n...What business have you with\nthis priest dragon?
-0x65573	0x474	ライド	・・・用と言うほどの事じゃない。\n俺は３剣７の修行のため多くの神官竜に会って、いろんな事を教えてもらってるだけさッ。	{RIDE}\n...Nothing so grand as business.\nI'm training in the sword, so I\nseek out priest dragons to learn\nall I can from them.
-0x65573	0x4ca	ウォーリック	・・・残念だが、その神官竜は・・・。	{WARRICK}\n...I'm sorry to say, but that\npriest dragon...
+0x65573	0x3ed	レイナ	・・・賞金稼ぎですか？	...So you're a bounty hunter?
+0x65573	0x409	ライド	いいや。\nクラウスとか言う村の近くにいる、氷の神官竜に会いに行く途中なんだ。	No. I'm on my way to see the\nice priest dragon near a village\ncalled {KLAUS}.
+0x65573	0x454	ウォーリック	・・・その神官竜に、何の用が？	...What business have you with\nthis priest dragon?
+0x65573	0x474	ライド	・・・用と言うほどの事じゃない。\n俺は３剣７の修行のため多くの神官竜に会って、いろんな事を教えてもらってるだけさッ。	...Nothing so grand as business.\nI'm training in the sword, so I\nseek out priest dragons to learn\nall I can from them.
+0x65573	0x4ca	ウォーリック	・・・残念だが、その神官竜は・・・。	...I'm sorry to say, but that\npriest dragon...
 0x65573	0x4fa		ウォーリックはフロストの事を話した。	{WARRICK} told him about {FROST}.
-0x65573	0x520	ライド	・・・緑色の神官竜の背中から・・・パラサイト　デーモン！？\nライド\nそれで、その黄金のナイフを・・・パディッシュって奴に届けろって言われたのか。\n・・・そうかぁ。\nライド\nなぁ。\nもしよかったら俺を仲間に入れてくれないか？\nライド\n今は目的もないし、近頃魔物も活発になってきた。\n・・・１人では、何かと不安でなぁ。	{RIDE}\n...A {PARASITE DEMON} from the\nback of a green priest dragon?\n\p{RIDE}\nSo you were told to deliver that\ngolden knife to a fellow named\n{PADDISH}. ...I see.\n\p{RIDE}\nSay. If you don't mind, would\nyou let me join you?\n\p{RIDE}\nI've no goal right now, and the\nmonsters have grown restless of\nlate. ...Traveling alone makes\nme uneasy.
-0x65573	0x623	ファーニス	私は賛成だよ。\nウォーリックはレイナばっかりで、私を守ってくれないしね。	{FURNIS}\nI'm all for it. {WARRICK} only\nhas eyes for {REINA} and never\nprotects me anyway.
-0x65573	0x661	レイナ	どうするの、ウォーリック？	{REINA}\nWhat'll it be, {WARRICK}?
-0x65573	0x680	ウォーリック	この先、たのもしい仲間は１人でも多く欲しい。\nよろしくなッ、ライド。	{WARRICK}\nThe road ahead needs every\nreliable ally we can get.\nGlad to have you, {RIDE}.
-0x65573	0x6bf	ライド	よろしく。	{RIDE}\nLikewise.
+0x65573	0x520	ライド	・・・緑色の神官竜の背中から・・・パラサイト　デーモン！？\nライド\nそれで、その黄金のナイフを・・・パディッシュって奴に届けろって言われたのか。\n・・・そうかぁ。\nライド\nなぁ。\nもしよかったら俺を仲間に入れてくれないか？\nライド\n今は目的もないし、近頃魔物も活発になってきた。\n・・・１人では、何かと不安でなぁ。	...A {PARASITE DEMON} from the\nback of a green priest dragon?\n\p{RIDE}\nSo you were told to deliver that\ngolden knife to a fellow named\n{PADDISH}. ...I see.\n\p{RIDE}\nSay. If you don't mind, would\nyou let me join you?\n\p{RIDE}\nI've no goal right now, and the\nmonsters have grown restless of\nlate. ...Traveling alone makes\nme uneasy.
+0x65573	0x623	ファーニス	私は賛成だよ。\nウォーリックはレイナばっかりで、私を守ってくれないしね。	I'm all for it. {WARRICK} only\nhas eyes for {REINA} and never\nprotects me anyway.
+0x65573	0x661	レイナ	どうするの、ウォーリック？	What'll it be, {WARRICK}?
+0x65573	0x680	ウォーリック	この先、たのもしい仲間は１人でも多く欲しい。\nよろしくなッ、ライド。	The road ahead needs every\nreliable ally we can get.\nGlad to have you, {RIDE}.
+0x65573	0x6bf	ライド	よろしく。	Likewise.
 0x65573	0x6dd		ライドが仲間に加わった。	{RIDE}{ JOINED THE PARTY.}
 0x65573	0x6f0	ファーニス	もう少しの我慢だから待っててね。\nメデューサなんか、すぐ倒すから。	Just hang on a little longer, okay?\nI'll take down Medusa in no time.
 0x65573	0x728	レイナ	工夫達の表情から見て、メデューサはいきなり現れたって感じだわ。	From the miners' faces, it looks like\nMedusa showed up out of nowhere.
 0x65573	0x75f	ファーニス	キャロルちゃんの彼氏って、どの人だろう？	I wonder which one is\n{CAROL}'s boyfriend?
-0x65adb	0x1b	ファーニス	んんっ！？\n・・・血の匂いがする。\n森のどこかに怪我人がいるみたい。	{FURNIS}\nHnh!?\n...I smell blood.\nSomeone's hurt out there in the\nforest.
-0x65adb	0x7e	ファーニス	女の子が倒れてるよ。\n・・・ちょっと、その横にいるのケルベロスじゃない！？	{FURNIS}\nThere's a girl collapsed here.\n...Wait, isn't that a {CHIMERA}\nbeside her!?
-0x65adb	0xc9	レイナ	でも様子が変よ。\nあのケルベロス、結界を張っているわ。	{REINA}\nBut something's strange.\nThat beast has cast a barrier.
-0x65adb	0x104	ファーニス	じゃあ、あのケルベロス。\nこの人を守ってるのかなぁ？	{FURNIS}\nSo that beast...\nis it protecting her?
+0x65adb	0x1b	ファーニス	んんっ！？\n・・・血の匂いがする。\n森のどこかに怪我人がいるみたい。	Hnh!?\n...I smell blood.\nSomeone's hurt out there in the\nforest.
+0x65adb	0x7e	ファーニス	女の子が倒れてるよ。\n・・・ちょっと、その横にいるのケルベロスじゃない！？	There's a girl collapsed here.\n...Wait, isn't that a {CHIMERA}\nbeside her!?
+0x65adb	0xc9	レイナ	でも様子が変よ。\nあのケルベロス、結界を張っているわ。	But something's strange.\nThat beast has cast a barrier.
+0x65adb	0x104	ファーニス	じゃあ、あのケルベロス。\nこの人を守ってるのかなぁ？	So that beast...\nis it protecting her?
 0x65adb	0x13a		ファーニスがそう言いかけ近づこうとした時、ケルベロスはその目を見開いた。\nそして、ウォーリック達を一瞥すると静かに息をひきとった。	As {FURNIS} spoke and stepped closer,\nthe beast opened its eyes wide.\nIt glanced at {WARRICK} and the others,\nthen quietly drew its last breath.
-0x65adb	0x1a9	レイナ	結界が解けたッ！！\nまだ、女の子の方は息があるわ。	{REINA}\nThe barrier is broken!!\nThe girl is still breathing.
-0x65adb	0x1ea	女の子	・・・・・人？\n・・・人が、来てくれたのね・・・・・・・助かったわ・・・ピローム・・・私達・・・助かったのね・・・・・。	{GIRL}\n{...}..People?\n...People came for us...\n...We're saved... {PIROM}{...}\nwe're... saved...
-0x65adb	0x271	ファーニス	あっ・・・また、気を失っちゃった。	{FURNIS}\nAh... she's fainted again.
-0x65adb	0x2a1	レイナ	大丈夫、衰弱しているけど命に別状はないわ。	{REINA}\nIt's all right. She's weak,\nbut her life isn't in danger.
-0x65adb	0x2d4	ライド	この衣装から見て、どこかの王族の出だなぁ。\nするとこのケルベロスは、この人の護衛かな？	{RIDE}\nBy these clothes, she's royalty\nfrom somewhere.\nSo that beast was her guardian?
-0x65adb	0x32a	ウォーリック	早く城で手当した方がいい。\nこのケルベロスは木の下に埋葬してあげよう。	{WARRICK}\nBetter to treat her at the castle.\nLet's bury this beast\nbeneath the tree.
+0x65adb	0x1a9	レイナ	結界が解けたッ！！\nまだ、女の子の方は息があるわ。	The barrier is broken!!\nThe girl is still breathing.
+0x65adb	0x1ea	女の子	・・・・・人？\n・・・人が、来てくれたのね・・・・・・・助かったわ・・・ピローム・・・私達・・・助かったのね・・・・・。	{...}..People?\n...People came for us...\n...We're saved... {PIROM}{...}\nwe're... saved...
+0x65adb	0x271	ファーニス	あっ・・・また、気を失っちゃった。	Ah... she's fainted again.
+0x65adb	0x2a1	レイナ	大丈夫、衰弱しているけど命に別状はないわ。	It's all right. She's weak,\nbut her life isn't in danger.
+0x65adb	0x2d4	ライド	この衣装から見て、どこかの王族の出だなぁ。\nするとこのケルベロスは、この人の護衛かな？	By these clothes, she's royalty\nfrom somewhere.\nSo that beast was her guardian?
+0x65adb	0x32a	ウォーリック	早く城で手当した方がいい。\nこのケルベロスは木の下に埋葬してあげよう。	Better to treat her at the castle.\nLet's bury this beast\nbeneath the tree.
 0x65adb	0x378		ケルベロスの死体を木の下に埋めた。	They buried the beast's body\nbeneath the tree.
-0x65adb	0x3ad	ライド	彼女は俺が運ぼう。	{RIDE}\nI'll carry her.
+0x65adb	0x3ad	ライド	彼女は俺が運ぼう。	I'll carry her.
 0x65adb	0x3cf		ライドは、女の子を背負った。	Ride hoisted the girl onto his back.
-0x65adb	0x3f8	ファーニス	ウォーリック、この森に誰かいるよ。魔物に襲われてたら大変だから探そうよぉ。	{FURNIS}\nWarrick, someone's in this forest.\nIf monsters get them it'll be bad,\nso let's go look!
-0x65adb	0x432	ファーニス	人の血の匂いがするんだよぉ。\n誰か、怪我してるみたいなんだ。\n探そぉぉぉよぉ。	{FURNIS}\nI smell human blood.\nSomeone seems to be hurt.\nLet's look for theeem!
-0x65adb	0x478	ファーニス	うひょぉぉぉぉぉぉっ！！\n凄い地割れ。\n落ちたら完壁にアウトだね。	{FURNIS}\nWhooaaaaa!!\nWhat a huge chasm.\nFall in and you're totally done for.
-0x65adb	0x4ba	ウォーリック	ぬあぁぁぁぁぁぁっ！！\nこおいう所って足がすくんじゃうんだよ。	{WARRICK}\nGwaaaaaah!!\nPlaces like this make my legs\nfreeze up.
-0x65adb	0x4ec	セシリア	だから行くのです。\n他の国の人達が、セルーシュのために戦っているのに、王女たる私が安全な所にいる訳にはいきません。\nセシリア\nお願いです、私をセルーシュに・・・。	{CECILIA}\nThat's why I must go.\nWhile other nations fight for\n{SERUSH}, I, their princess,\ncannot stay safe and idle.\p{CECILIA}\nPlease, send me to {SERUSH}{...}
+0x65adb	0x3f8	ファーニス	ウォーリック、この森に誰かいるよ。魔物に襲われてたら大変だから探そうよぉ。	Warrick, someone's in this forest.\nIf monsters get them it'll be bad,\nso let's go look!
+0x65adb	0x432	ファーニス	人の血の匂いがするんだよぉ。\n誰か、怪我してるみたいなんだ。\n探そぉぉぉよぉ。	I smell human blood.\nSomeone seems to be hurt.\nLet's look for theeem!
+0x65adb	0x478	ファーニス	うひょぉぉぉぉぉぉっ！！\n凄い地割れ。\n落ちたら完壁にアウトだね。	Whooaaaaa!!\nWhat a huge chasm.\nFall in and you're totally done for.
+0x65adb	0x4ba	ウォーリック	ぬあぁぁぁぁぁぁっ！！\nこおいう所って足がすくんじゃうんだよ。	Gwaaaaaah!!\nPlaces like this make my legs\nfreeze up.
+0x65adb	0x4ec	セシリア	だから行くのです。\n他の国の人達が、セルーシュのために戦っているのに、王女たる私が安全な所にいる訳にはいきません。\nセシリア\nお願いです、私をセルーシュに・・・。	That's why I must go.\nWhile other nations fight for\n{SERUSH}, I, their princess,\ncannot stay safe and idle.\p{CECILIA}\nPlease, send me to {SERUSH}{...}
 0x65adb	0x562		ベイグ王\n・・・王女たる私・・・か。\n神聖王国を数百年にわたり治めてきた血筋だな。\nベイグ王\nわかった。\n・・・セルーシュに行くがよい。\nセルーシュの騎士達も喜ぼう。	{VEIG}\n...I, their princess, is it.\nA bloodline that has ruled this\nholy kingdom for centuries.\p{VEIG}\nVery well.\n...Go to {SERUSH}.\nHer knights will rejoice.
-0x65adb	0x5f9	セシリア	ありがとうございます、ベイグ様。	{CECILIA}\nThank you, Lord {VEIG}.
-0x65adb	0x61c	ウォーリック	ベイグ王。\nできれば俺達が姫をお連れしましょう。\nウォーリック\n俺達もセルーシュ方面へ行かなければならないし、ジークも守りを固めねばならないのでは・・・。	{WARRICK}\nKing {VEIG}.\nIf you'd allow it, we'll escort\nthe princess ourselves.\p{WARRICK}\nWe must head toward {SERUSH} too,\nand {ZEKE} needs to bolster its\ndefenses, doesn't it...
+0x65adb	0x5f9	セシリア	ありがとうございます、ベイグ様。	Thank you, Lord {VEIG}.
+0x65adb	0x61c	ウォーリック	ベイグ王。\nできれば俺達が姫をお連れしましょう。\nウォーリック\n俺達もセルーシュ方面へ行かなければならないし、ジークも守りを固めねばならないのでは・・・。	King {VEIG}.\nIf you'd allow it, we'll escort\nthe princess ourselves.\p{WARRICK}\nWe must head toward {SERUSH} too,\nand {ZEKE} needs to bolster its\ndefenses, doesn't it...
 0x65adb	0x6aa		ベイグ王\nそなた達なら腕も確かだし信用できる。セシリア姫を頼んだぞ。	{VEIG}\nYour skill is sure and you can\nbe trusted. I leave Princess\n{CECILIA} in your hands.
 0x65adb	0x6f6		セシリアが仲間に加わった。	{CECILIA}{ JOINED THE PARTY.}
 0x65adb	0x715		ベイグ王\nでは、頼んだぞウォーリック。	King Veig\nThen I'm counting on you, {WARRICK}.
@@ -784,48 +784,48 @@ block_off	str_off	speaker	text	english
 0x66b59	0x351		［ウォーリック］\n・・・行ったみたいだぞ。	{WARRICK}\nLooks like... it's gone.
 0x66b59	0x376		［ブージ］\nああ。\nとにかく１度、村に帰ろう。	{BOOJ}\nYeah.\nLet's head back to the village for\nnow.
 0x66daa	0x4a		ブレイス団長\nウォーリック殿か！\n助太刀無用。\n・・・こ奴は、ワシが倒す。	Commander Breis\nIs that you, {WARRICK}?\nI need no aid.\n...This one is mine to fell.
-0x66daa	0x93	ウォーリック	・・・しかし、ブレイス団長。	{WARRICK}\n...But Commander Breis.
+0x66daa	0x93	ウォーリック	・・・しかし、ブレイス団長。	...But Commander Breis.
 0x66daa	0xaf		ブレイス団長\n・・・ウォーリック殿。\nワシに、やらせてくれ。	Commander Breis\n{...}{WARRICK}.\nLet me be the one to do this.
 0x66daa	0xe9		ブレイス団長\n・・・ワシは何１つも守れんかった。王も、妃も、城も、部下達も。\nしかし今度は守ってみせるッ！\nこ奴を倒して守ってみせるのじゃ。	Commander Breis\n...I could not protect a single\nthing.\nNot the king, the queen, the castle,\nnor my own men.\nBut this time I will protect them!\nI will slay this beast and shield\nthem.
-0x66daa	0x16b	ビアガン	御主の身体で拙者と勝負とは笑止。\n人間の寿命は短い。\n今のうちに立ち去るがよい。\n拙者が望むのは強者との闘いのみ。	{BIAGAN}\nYou would face me in that frail body?\nLaughable. Human lives are short.\nLeave now while you still can.\nI crave only battle with the strong.
+0x66daa	0x16b	ビアガン	御主の身体で拙者と勝負とは笑止。\n人間の寿命は短い。\n今のうちに立ち去るがよい。\n拙者が望むのは強者との闘いのみ。	You would face me in that frail body?\nLaughable. Human lives are short.\nLeave now while you still can.\nI crave only battle with the strong.
 0x66daa	0x1d6		ブレイス団長\n・・・フッ。\nワシは引かぬ。\nこのブレイス、どんな敵が現れようと後ろは見せんわぁ。	Commander Breis\n...Heh.\nI will not retreat.\nNo matter what foe stands before me,\nBreis shows no man his back.
-0x66daa	0x21e	ビアガン	・・・敵ながらアッパレな騎士道精神。このビアガン、全力をもって御相手いたす。	{BIAGAN}\n...A foe, yet such noble knightly\nspirit.\nThis {BIAGAN} will face you\nwith all my strength.
+0x66daa	0x21e	ビアガン	・・・敵ながらアッパレな騎士道精神。このビアガン、全力をもって御相手いたす。	...A foe, yet such noble knightly\nspirit.\nThis {BIAGAN} will face you\nwith all my strength.
 0x66daa	0x263		ブレイス団長\n・・・いざッ。	Commander Breis\n...Have at you!
 0x66daa	0x2a4		ブレイス団長\nぬあぁぁぁぁぁぁぁぁッ。	Commander Breis\n{AAAAAAH}!
-0x66daa	0x2c0	ビアガン	ぬむふぉふぉふぉぉぉッ。	{BIAGAN}\nNumufofofofooo!
-0x66daa	0x39b	ビアガン	・・・ぐふぁ！？\n一騎討ちで、このビアガンに手傷を負わせるとは。\nビアガン\n・・・ブレイスとか言ったな。\n貴様の名、生涯忘れぬであろう。	{BIAGAN}\n...Gufah!?\nTo wound this {BIAGAN}\nin single combat...\p{BIAGAN}\n...Breis, was it?\nI will never forget your name\nso long as I live.
-0x66daa	0x432	ビアガン	次は貴様等か。\n傭兵の様だが名を聞こう。	{BIAGAN}\nYou are next, then.\nMercenaries, by the look of you.\nGive me your names.
-0x66daa	0x4e4	ビアガン	我こそはクーレイア魔神軍、第１軍、軍団長ビアガン。\nいざ、尋常に勝負！	{BIAGAN}\nI am {BIAGAN}, commander of the\nFirst Army of the {KULEIA} {DEMON}\nGOD legions.\nCome, face me in honest battle!
-0x66daa	0x54c	ビアガン	なかなかやるなッ。\nしかし、その腕でこのビアガンは倒せぬぞッ。\n・・・むむッ！？	{BIAGAN}\nNot bad at all!\nBut your skill will never be\nenough to bring down {BIAGAN}.\n...Mmh!?
-0x66daa	0x59d	レイナ	大気中の魔力が渦を捲き始めた。\nこれは、召喚呪文の時に使われる魔法障壁！	{REINA}\nThe magic in the air is\nstarting to swirl.\nThat is a barrier used when a\nsummoning spell is cast!
-0x66daa	0x5f0	ビアガン	・・・カームか！？\nやめろカーム。\n敵に後ろを見せろと言うのか。\nビアガン\n・・・ぬううッ。\n貴様達、勝負は御預けだ。\n今度会う時こそ雌雄を決しようぞ。	{BIAGAN}\n{...}{CALM}, is it!?\nStop it, {CALM}.\nWould you have me turn my back\non a foe?\p{BIAGAN}\n...Nnngh.\nYour fight will have to wait.\nNext time we meet, we settle\nwho is the stronger.
-0x66daa	0x6a5	ウォーリック	・・・テレポートしたのか？	{WARRICK}\n...Did they teleport away?
+0x66daa	0x2c0	ビアガン	ぬむふぉふぉふぉぉぉッ。	Numufofofofooo!
+0x66daa	0x39b	ビアガン	・・・ぐふぁ！？\n一騎討ちで、このビアガンに手傷を負わせるとは。\nビアガン\n・・・ブレイスとか言ったな。\n貴様の名、生涯忘れぬであろう。	...Gufah!?\nTo wound this {BIAGAN}\nin single combat...\p{BIAGAN}\n...Breis, was it?\nI will never forget your name\nso long as I live.
+0x66daa	0x432	ビアガン	次は貴様等か。\n傭兵の様だが名を聞こう。	You are next, then.\nMercenaries, by the look of you.\nGive me your names.
+0x66daa	0x4e4	ビアガン	我こそはクーレイア魔神軍、第１軍、軍団長ビアガン。\nいざ、尋常に勝負！	I am {BIAGAN}, commander of the\nFirst Army of the {KULEIA} {DEMON}\nGOD legions.\nCome, face me in honest battle!
+0x66daa	0x54c	ビアガン	なかなかやるなッ。\nしかし、その腕でこのビアガンは倒せぬぞッ。\n・・・むむッ！？	Not bad at all!\nBut your skill will never be\nenough to bring down {BIAGAN}.\n...Mmh!?
+0x66daa	0x59d	レイナ	大気中の魔力が渦を捲き始めた。\nこれは、召喚呪文の時に使われる魔法障壁！	The magic in the air is\nstarting to swirl.\nThat is a barrier used when a\nsummoning spell is cast!
+0x66daa	0x5f0	ビアガン	・・・カームか！？\nやめろカーム。\n敵に後ろを見せろと言うのか。\nビアガン\n・・・ぬううッ。\n貴様達、勝負は御預けだ。\n今度会う時こそ雌雄を決しようぞ。	{...}{CALM}, is it!?\nStop it, {CALM}.\nWould you have me turn my back\non a foe?\p{BIAGAN}\n...Nnngh.\nYour fight will have to wait.\nNext time we meet, we settle\nwho is the stronger.
+0x66daa	0x6a5	ウォーリック	・・・テレポートしたのか？	...Did they teleport away?
 0x672f2	0xe		ジェシカ\nいらっしゃいませ。	Jessica\nWelcome.
 0x672f2	0x28		何を、お求めでしょう？	What can I get for you?
 0x672f2	0x3f	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Leave the shop.
-0x672f2	0x72	レイナ	買物は、また後にするわ。	{REINA}\nI'll do my shopping later.
-0x672f2	0x95	レイナ	今は、持ち合わせがないの。	{REINA}\nI'm a bit short on coin right now.
+0x672f2	0x72	レイナ	買物は、また後にするわ。	I'll do my shopping later.
+0x672f2	0x95	レイナ	今は、持ち合わせがないの。	I'm a bit short on coin right now.
 0x672f2	0xb6		ジェシカ\nライランドの重装騎兵達って、瞬間移動の魔法で来たそうよ。\nあんな大人数をテレポートできるなんて、凄い魔導士もいたもんね。	Jessica\nThey say {RYLAND}'s heavy cavalry\ncame by teleport magic.\nMoving that many men at once...\nwhat an incredible mage that was.
 0x672f2	0x109		ジェシカ\n私の所みたいな商売が、ない世界になればいいのにね。\n戦争も終った事だし、これから私もお城に御手伝いに行こっと。	Jessica\nI wish the world had no need\nfor a trade like mine.\nThe war's over now, so I think\nI'll go help out at the castle.
 0x672f2	0x161		ジェシカ\nこのお店では、６割で引取らせていただいています。	Jessica\nThis shop buys back goods\nat sixty percent of value.
-0x672f2	0x19e	レイナ	今回はやめておくわ。	{REINA}\nNot this time.
+0x672f2	0x19e	レイナ	今回はやめておくわ。	Not this time.
 0x672f2	0x1b6		ジェシカ\nありがとうございました。	Jessica\nThank you kindly.
 0x672f2	0x1c8		ジェシカ\nこれは大型の３剣７で、両手持ちよ。\n３盾７が持てないぶん防御力は落ちるけど、３剣７では最高の攻撃力を持っているわ。使いこなすのが大変だけど、冒険者にはとっても人気があるわよ。	Jessica\nThis is a large two-handed sword.\nWithout a free hand for a shield\nits defense is lower, but no sword\nhits harder. It's tough to master,\nyet adventurers love it.
-0x672f2	0x25a	レイナ	凄い３剣７ね。\n刃渡り２メートル近いんじゃない？	{REINA}\nQuite a sword.\nThe blade's near two meters, isn't\nit?
-0x672f2	0x28d	ファーニス	ライドの３剣７も、この種類だね。	{FURNIS}\nRide's sword is this kind too.
+0x672f2	0x25a	レイナ	凄い３剣７ね。\n刃渡り２メートル近いんじゃない？	Quite a sword.\nThe blade's near two meters, isn't\nit?
+0x672f2	0x28d	ファーニス	ライドの３剣７も、この種類だね。	Ride's sword is this kind too.
 0x672f2	0x2ac		ジェシカ\nエストックは刃の無い３剣７で、刀身が固い針の様になっているの。\n突き刺し専用の武器よ。\nこれなら厚いプレートメイルだって、簡単に貫通できるわよ。	Jessica\nAn estoc is a bladeless sword,\nits body like a stiff needle.\nIt's made purely for thrusting.\nIt punches through thick plate\nmail with ease.
-0x672f2	0x32e	レイナ	変わった武器もあるものね。	{REINA}\nWhat an odd weapon.
-0x672f2	0x354	ファーニス	蜂の一刺しソードと呼ぼう。	{FURNIS}\nLet's call it the bee-sting sword.
+0x672f2	0x32e	レイナ	変わった武器もあるものね。	What an odd weapon.
+0x672f2	0x354	ファーニス	蜂の一刺しソードと呼ぼう。	Let's call it the bee-sting sword.
 0x672f2	0x377		ジェシカ\nピロムというのは３槍７の一種で、穂先から柄の中ほどまで金属でできているのが特徴よ。\nこの３槍７は投げて使う事もできるんだけど、投げる人はまずいないね。	Jessica\nThe {PIROM} is a kind of spear,\nmetal from the tip down to the\nmiddle of the shaft.\nYou can throw this spear, but\nhardly anyone ever does.
-0x672f2	0x3f3	レイナ	投げたら丸腰になっちゃうのね。	{REINA}\nThrow it and you're left bare-handed.
-0x672f2	0x41b	ファーニス	なんか、重そうな３槍７だね。	{FURNIS}\nLooks like a heavy spear.
+0x672f2	0x3f3	レイナ	投げたら丸腰になっちゃうのね。	Throw it and you're left bare-handed.
+0x672f2	0x41b	ファーニス	なんか、重そうな３槍７だね。	Looks like a heavy spear.
 0x672f2	0x438		ジェシカ\nこれは、鎚矛って呼ばれる物よ。\n金属でできている柄の先に、鍔が付いているの。\nその打撃力は３鎧７の上からでも骨を砕く程よ。\n３剣７の補助的武器として買う人が多いわ。	Jessica\nThis is called a mace.\nA guard sits at the tip of its\nmetal shaft.\nIt can crush bone right through\narmor.\nMany buy it to back up a sword.
-0x672f2	0x4cd	ファーニス	こんなので殴られたくないわ。	{FURNIS}\nI'd hate to be hit by that.
-0x672f2	0x4f2	レイナ	流血を嫌う僧侶達が使う武器ね。	{REINA}\nA weapon for priests who shun\nbloodshed.
-0x672f2	0x524	ファーニス	でも、これで殴られる方がむごいと思うんだけど。	{FURNIS}\nBut getting clubbed by this\nseems even crueler to me.
+0x672f2	0x4cd	ファーニス	こんなので殴られたくないわ。	I'd hate to be hit by that.
+0x672f2	0x4f2	レイナ	流血を嫌う僧侶達が使う武器ね。	A weapon for priests who shun\nbloodshed.
+0x672f2	0x524	ファーニス	でも、これで殴られる方がむごいと思うんだけど。	But getting clubbed by this\nseems even crueler to me.
 0x672f2	0x54d		ジェシカ\nこれは大型の鎚矛で両手持ちの武器よ。長い柄の先に、スパイク付きのコブが付いているの。\nこれを振り回すには相当の筋力が必要ね。	Jessica\nThis is a large two-handed mace.\nA spiked knob sits at the end of\nits long shaft.\nSwinging it takes real strength.
-0x672f2	0x5cf	レイナ	トゲトゲがあって、あんまりカッコいい武器じゃないわね。	{REINA}\nAll those spikes... not a very\ngood-looking weapon, is it?
-0x672f2	0x602	ファーニス	棒の先に、ウニが付いてるみたいね。	{FURNIS}\nLooks like a sea urchin stuck\non the end of a pole.
+0x672f2	0x5cf	レイナ	トゲトゲがあって、あんまりカッコいい武器じゃないわね。	All those spikes... not a very\ngood-looking weapon, is it?
+0x672f2	0x602	ファーニス	棒の先に、ウニが付いてるみたいね。	Looks like a sea urchin stuck\non the end of a pole.
 0x672f2	0x629		ジック　じいさん\nワシの息子は神官戦士として城に奉公しとった。\nじゃが、死んでしもうた。\nジック\n王も死んでしもうた。\nセルーシュはどうなるんじゃ。	Old Man Zick\nMy son served at the castle as a\nholy warrior. But he's gone now.\pZICK\nThe king is gone too.\nWhat will become of {SERUSH}?
 0x672f2	0x683		ジック　じいさん\nブレイス団長はたいした御方じゃ。\n生き残った聖騎士をよく引っ張ってなさる。ワシもあと１０年若ければ御一緒に戦うのじゃが。	Old Man Zick\nCommander {BREI} is a fine man.\nHe rallies the surviving\n{PALADINS} so well. If I were ten\nyears younger, I'd fight at his\nside.
 0x672f2	0x6d9		ジック　じいさん\nこれで、死んだ息子もむくわれるじゃろうて。	Old Man Zick\nNow my dead son can rest in\npeace at last.
@@ -834,28 +834,28 @@ block_off	str_off	speaker	text	english
 0x672f2	0x75d		スージー\n私にできる事があれば、セシリア姫様の御手伝いがしたいですね。	Suzie\nIf there's anything I can do,\nI'd love to help Princess\n{CECILIA}.
 0x6784b	0x12		いらっしゃい。\nうちなら何でも揃ってるよ。	Welcome.\nWe've got everything you need.
 0x6784b	0x38		何を、探してるのかな？	What are you looking for?
-0x6784b	0x4f	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	{・SHOW YOUR WARES.}\n{・LET'S TALK.}\n{・SELL ITEMS.}\n・Leave The {SHOP}.
-0x6784b	0x84	レイナ	もう、欲しい物はないわ。	{REINA}\nThere's nothing more I want.
-0x6784b	0xa6	レイナ	お金が足りないわ。\n節約して生活していかなきゃ。	{REINA}\nI don't have enough money.\nWe'll have to live frugally.
+0x6784b	0x4f	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	{・LET'S TALK.}\n{・SELL ITEMS.}\n・Leave The {SHOP}.
+0x6784b	0x84	レイナ	もう、欲しい物はないわ。	There's nothing more I want.
+0x6784b	0xa6	レイナ	お金が足りないわ。\n節約して生活していかなきゃ。	I don't have enough money.\nWe'll have to live frugally.
 0x6784b	0xdd		この街から北に戦場のメインキャンプがある。\nでも、その北のセルーシュ城には近づかない方がいいよ。	North of this town lies the\nbattlefield's {MAIN CAMP}.\nBut you'd best not go near\n{SERUSH} Castle further north.
 0x6784b	0x11c		セルーシュは１からやり直しだね。でも、セシリア姫ならいい国ができそうだ。	{SERUSH} starts over from scratch.\nBut with {CECILIA}, it could\nbecome a fine kingdom.
 0x6784b	0x14f		このお店では、四割で引取らせていただいています。	At this shop, we buy goods\nback at forty percent.
-0x6784b	0x187	レイナ	また、今度の機会にするわ。	{REINA}\nI'll wait for another time.
+0x6784b	0x187	レイナ	また、今度の機会にするわ。	I'll wait for another time.
 0x6784b	0x1aa		ありがとうございました。	Thank you kindly.
 0x6784b	0x1bc		これは下が山型になっている縦長の３盾７で、下方からの攻撃を受け止めやすくしてるんだ。\n馬に乗る騎士達がよく使う３盾７だよ。\n使いやすいし、防御力も高い優れ物だ。	This is a tall shield with a\npeaked base, made to fend off\nblows from below.\nKnights on horseback favor it.\nEasy to use, and well armored.
-0x6784b	0x240	レイナ	なかなかカッコいい３盾７ね。\nウォーリック、似合いそうよ。	{REINA}\nQuite the dashing shield.\n{WARRICK} would suit it well.
-0x6784b	0x272	レイナ	今、ウォーリックの使っている盾と同じね。	{REINA}\nSame as the shield {WARRICK} uses now.
-0x6784b	0x2a0	ファーニス	カッコいいね。	{FURNIS}\nLooks cool.
+0x6784b	0x240	レイナ	なかなかカッコいい３盾７ね。\nウォーリック、似合いそうよ。	Quite the dashing shield.\n{WARRICK} would suit it well.
+0x6784b	0x272	レイナ	今、ウォーリックの使っている盾と同じね。	Same as the shield {WARRICK} uses now.
+0x6784b	0x2a0	ファーニス	カッコいいね。	Looks cool.
 0x6784b	0x2bc		これはヒーターシールドを縦長に伸ばした大型の３盾７だ。\n防御面積がかなり広くなってるだろ。でも、その分重くなって動きを阻害されやすいから、慎重に使ってくれ。	This is a big shield, a heater\nstretched long. The defense area\nis quite wide. But it's heavier\nand slows you down, so use it\nwith care.
-0x6784b	0x33b	レイナ	ちょっと値段が高いわね。	{REINA}\nThe price is a bit steep.
-0x6784b	0x360	ファーニス	カイトって、凧の事だね。	{FURNIS}\nA kite, like the flying kind?
+0x6784b	0x33b	レイナ	ちょっと値段が高いわね。	The price is a bit steep.
+0x6784b	0x360	ファーニス	カイトって、凧の事だね。	A kite, like the flying kind?
 0x6784b	0x38b		これは３センチほどの鱗型の金属片を、レザーアーマーに鋲で止めた物なんだ。リングメイルとかに比べて金属部分がしっかりしているから防御力も高いし、運動性を損なう事もないよ。	These are scales of metal, about\nthree centimeters, riveted onto\nleather armor. The metal holds\nbetter than ring mail, so it's\nhigh defense without losing\nmobility.
-0x6784b	0x414	レイナ	スケイルって、鱗って意味ね。	{REINA}\nScale means fish scales, right?
-0x6784b	0x443	ファーニス	なんか、お魚みたいだね。\nデザイ	{FURNIS}\nKind of like a fish.\nThe design
+0x6784b	0x414	レイナ	スケイルって、鱗って意味ね。	Scale means fish scales, right?
+0x6784b	0x443	ファーニス	なんか、お魚みたいだね。\nデザイ	Kind of like a fish.\nThe design
 0x6784b	0x460		もキレイだし、いいなぁ。	is pretty too. I like it.
 0x6784b	0x47c		これはレザーアーマーに、小さな長方形の金属板を両端で固定した３鎧７だ。\nスケイルメイルに似ているけど、こっちの方が防御力は断然高いよ。\nただ、金属板の両側を止めているから、運動性はかなり落ちるね。	This armor has small rectangular\nplates fixed at both ends onto\nleather. It's like scale mail,\nbut the defense is far higher.\nStill, the plates are pinned on\nboth sides, so mobility drops a\nlot.
-0x6784b	0x51b	レイナ	動きずらそうね。\nスケイルメイルの方が、いい様な気がするわ。	{REINA}\nLooks hard to move in.\nScale mail seems better to me.
-0x6784b	0x558	ファーニス	ラメラーって、板って意味なの？	{FURNIS}\nLamellar means plate, does it?
+0x6784b	0x51b	レイナ	動きずらそうね。\nスケイルメイルの方が、いい様な気がするわ。	Looks hard to move in.\nScale mail seems better to me.
+0x6784b	0x558	ファーニス	ラメラーって、板って意味なの？	Lamellar means plate, does it?
 0x6784b	0x583		こいつだけは買っときな。\n金属製リングを鎖状に編み合わせて造ったんだが、なんせ手が込んでいるんだよ。\nだから値段は高いよぉ。\nお勧め品だから絶対買っときなぁ。	Buy this one, at least.\nIt's metal rings woven into a chain\nmesh -- real intricate work.\nThat's why it's pricey.\nIt's my top pick, so buy it for sure.
 0x6784b	0x603	レイナ	コレ、買っておきましょうよぉ。	Let's go ahead and buy this one!
 0x6784b	0x62b	ファーニス	私も着れるんだね。\nファーニス、ラッキー。	I can wear it too.\nLucky me, {FURNIS}.
@@ -868,27 +868,27 @@ block_off	str_off	speaker	text	english
 0x67d4a	0x1a		ライトにようこそ。\n良い品がたくさん揃っているわよ。	Welcome to Light.\nWe've got plenty of fine wares.
 0x67d4a	0x49		いかがいたします？	What can I do for you?
 0x67d4a	0x5d	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・瞬間移動したい。\n・お店を出よう。	・Show your wares.\n・Let's talk.\n・Sell items.\n・Teleport.\n・Leave the shop.
-0x67d4a	0x93	レイナ	また後にするわ。	{REINA}\nMaybe later.
-0x67d4a	0xb0	レイナ	持ち合わせがないわ。	{REINA}\nI don't have enough on me.
+0x67d4a	0x93	レイナ	また後にするわ。	Maybe later.
+0x67d4a	0xb0	レイナ	持ち合わせがないわ。	I don't have enough on me.
 0x67d4a	0xd1		ラミーカ\nこの頃、魔道士の数がめっきり減ったわ。\n貴方のような魔道士に合うとホッとするわね。	Ramica\nMages have grown so few these days.\nMeeting one like you sets me at ease.
 0x67d4a	0x11f		ラミーカ\nこの先、貴方達の旅が良い旅である事を祈っているわ。	Ramica\nI pray the road ahead\nbrings you a good journey.
 0x67d4a	0x150		ラミーカ\nうちは４割で引取るわ。	Ramica\nI buy back at forty percent.
-0x67d4a	0x17f	レイナ	やっぱり、もうちょっと使ってからにする。	{REINA}\nI'll hold onto it a bit longer.
+0x67d4a	0x17f	レイナ	やっぱり、もうちょっと使ってからにする。	I'll hold onto it a bit longer.
 0x67d4a	0x1a3		ラミーカ\nシルバーホーン地方は、精霊力が乱れていて魔力が届かないの。\nクラウスかジークにしか送れないわよ。	Ramica\nIn the {SILVERHORN} region the spirit\nforce is in chaos and magic won't\nreach. I can only send you to\n{KLAUS} or {ZEKE}.
 0x67d4a	0x1ec		ラミーカ\n５００ダインだけど、どうする？	Ramica\nIt'll cost 500 {DYNE}. What say you?
 0x67d4a	0x20a		・クラウスの村に行く。\n・ジーク王国に行く。\n・やめておく。	・Go to {KLAUS VILLAGE}.\n・Go to {ZEKE KINGDOM}.\n・Never mind.
 0x67d4a	0x23a		ラミーカ\nじゃあ、始めるわよ。\nラミーカ\n天地の皇王の名において、我、虚空の門を開かんっ。\nテレポート！	Ramica\nAll right, here we go.\pRAMICA\nIn the name of the Pope of the\nHeavens and Earth, I open the\ngate of the void.\nTeleport!
 0x67d4a	0x2c1		ラミーカ\nありがとうございました。	Ramica\nThank you kindly.
 0x67d4a	0x2d1		ラミーカ\nこれは、ミスリル銀でできた杖よ。\nこのミスリルって素材自体、強力な魔力を持っている上に、呪紋処理を施してあるの。\nかなり上級の呪文も使いこなせる様になれると思うわ。	Ramica\nThis is a rod of {MYTHRIL} silver.\nThe {MYTHRIL} itself holds great\nmagic, and it bears rune work too.\nYou could wield quite high spells\nwith it, I'd say.
-0x67d4a	0x36a	レイナ	ウォーリック、これ欲しいなぁ。	{REINA}\n{WARRICK}, I really want this.
-0x67d4a	0x38c	レイナ	これは良い品ね。	{REINA}\nThis is a fine piece.
+0x67d4a	0x36a	レイナ	ウォーリック、これ欲しいなぁ。	{WARRICK}, I really want this.
+0x67d4a	0x38c	レイナ	これは良い品ね。	This is a fine piece.
 0x67d4a	0x3a5		ラミーカ\n最初のＭは、ミスリルの略。\nこれはミスリル製のブロードソードよ。刀身に呪紋処理がしてあって刃こぼれもしないし、その破壊力は普通の３剣７と比べ物にならないわ。	Ramica\nThe first M stands for {MYTHRIL}.\nThis is a {MYTHRIL} broadsword.\nThe blade bears rune work, so it\nnever chips, and its force is\nnothing like an ordinary sword.
-0x67d4a	0x42a	レイナ	魔力は感じるわね。	{REINA}\nI can feel the magic in it.
-0x67d4a	0x450	ファーニス	すっごぉぉぉい！！\n魔力が吹き出してるよ。	{FURNIS}\nWoooow!!\nMagic is pouring out of it.
+0x67d4a	0x42a	レイナ	魔力は感じるわね。	I can feel the magic in it.
+0x67d4a	0x450	ファーニス	すっごぉぉぉい！！\n魔力が吹き出してるよ。	Woooow!!\nMagic is pouring out of it.
 0x67d4a	0x47e		ラミーカ\nこれは魔法疑似生命体をつかったローブで、肩当てにたくさん付いている水晶柱達が、持主の危険を感じ取ると、対象物を阻止しようと働くわ。\n制御用魔力は大気中より吸収しているから、負担もないわよ。	Ramica\nThis robe uses a magic mock-life\nform. The crystal columns on its\nshoulders sense the owner's peril\nand move to block the threat.\nIt draws control magic from the\nair, so there's no burden.
-0x67d4a	0x52a	ファーニス	なんか、カッコいいねぇ。	{FURNIS}\nThat's kind of cool.
+0x67d4a	0x52a	ファーニス	なんか、カッコいいねぇ。	That's kind of cool.
 0x67d4a	0x562		は、古代神聖魔術の一種なの。\n古代魔術を完全に復元して書ける人はこの時代にはいないけど、この指輪はかなり強い力を引き出しているわ。	is a kind of ancient holy magic.\nNo one in this age can fully\nrestore and write ancient magic,\nbut this ring draws out quite a\nstrong power.
-0x67d4a	0x5d7	レイナ	私も古代魔術を勉強した事があったけど、チンプンカンプ	{REINA}\nI studied ancient magic once, but\nit was all gibberish
+0x67d4a	0x5d7	レイナ	私も古代魔術を勉強した事があったけど、チンプンカンプ	I studied ancient magic once, but\nit was all gibberish
 0x67d4a	0x605		だったわ。	to me.
 0x67d4a	0x612		ラミーカ\nこれもミスリル製の指輪よ。\nただし呪紋処理とかは、一切していないわ。\nミスリルの真の力のみで、生命力の覚醒、増加を行っているの。\n負担もないしおすすめ商品よ。	This is a {MYTHRIL} ring too.\nNo rune-work has been done to it\nat all. Through {MYTHRIL}'s true\npower alone, it awakens and\nstrengthens your life force.\nNo strain on you. I recommend it.
 0x67d4a	0x695	ファーニス	ミスリルって、凄いんだね。	{MYTHRIL} really is amazing.
@@ -899,30 +899,30 @@ block_off	str_off	speaker	text	english
 0x682d6	0xe		サラ\nいらっしゃいませぇ。	Sara\nWelcome!
 0x682d6	0x27		何を、お探しでしょう？	What are you looking for?
 0x682d6	0x3e	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	・Show your wares.\n・Let's talk.\n・Sell items.\n・Leave the shop.
-0x682d6	0x71	レイナ	買物は、後にしましょう。	{REINA}\nLet's shop later.
-0x682d6	0x94	レイナ	持ち合わせがないの。	{REINA}\nI don't have enough on me.
+0x682d6	0x71	レイナ	買物は、後にしましょう。	Let's shop later.
+0x682d6	0x94	レイナ	持ち合わせがないの。	I don't have enough on me.
 0x682d6	0xb1		サラ\nこのところ、ポーション類がよく売れるわ。\nでも、戦争が理由で売れるなんて、悲しい事ね。\nサラ\nそれにしても、ジーク王国のワイバーン見た？\nカッコいいわよねぇ。\nバーナー王子も素敵だわぁ。	Sara\nPotions have been selling well\nlately. Sad that war is the\nreason, though.\np\nSara\nDid you see the {ZEKE KINGDOM}\nwyverns? They're so cool.\nAnd Prince Berner is dreamy.
 0x682d6	0x125		サラ\nセシリア姫は立派な君主になるでしょう。\n私達も頑張らなきゃ！	Sara\n{CECILIA} will make a fine ruler.\nWe've got to do our part too!
 0x682d6	0x159		サラ\nこのお店では、５割で引取らせていただいています。	Sara\nWe buy items back here at\nhalf their value.
-0x682d6	0x194	レイナ	また、今度の機会にするわ。	{REINA}\nI'll wait for another time.
+0x682d6	0x194	レイナ	また、今度の機会にするわ。	I'll wait for another time.
 0x682d6	0x1b1		サラ\nありがとうございました。	Sara\nThank you kindly.
 0x682d6	0x1c1		サラ\nここの薬草は、他の店の薬草とは違ったブレンドなのよ。\nこの地方特産のアマツヅラって言う草が入っているの。\nこのアマツヅラは、強い消毒作用があって、傷によく効くわよ。	Sara\nOur herbs use a different blend\nthan other shops. They've got\namatsuzura, a grass grown only\nin this region. It's a strong\nantiseptic, great for wounds.
-0x682d6	0x254	レイナ	よく効きそうね。	{REINA}\nThat sounds effective.
-0x682d6	0x273	ファーニス	身長が伸びる薬ってないのかしら。	{FURNIS}\nGot a potion that makes you taller?
+0x682d6	0x254	レイナ	よく効きそうね。	That sounds effective.
+0x682d6	0x273	ファーニス	身長が伸びる薬ってないのかしら。	Got a potion that makes you taller?
 0x682d6	0x296		サラ\nポーションは多種の薬草を数日煮込んで、濃度を上げた物なの。\n今、売っているポーション煮込みすぎちゃって、普通の倍くらい濃くなっちゃったけどゴメ	Sara\nA {POTION} is many herbs boiled down\nfor days to a strong brew.\nThese ones got boiled too long,\ntwice as strong as usual. Sorry
 0x682d6	0x2f3		なさい。\nでも、効き目はたしかだから許してぇ。	about that.\nBut the effect is real, so forgive\nme, okay?
-0x682d6	0x324	レイナ	効き目も倍になってるといいのにね。	{REINA}\nShame the effect isn't double too.
-0x682d6	0x34e	ファーニス	そんなの苦くて飲めないよぉ。	{FURNIS}\nThat'd be too bitter to drink.
+0x682d6	0x324	レイナ	効き目も倍になってるといいのにね。	Shame the effect isn't double too.
+0x682d6	0x34e	ファーニス	そんなの苦くて飲めないよぉ。	That'd be too bitter to drink.
 0x682d6	0x36d		サラ\nコンポジットボウは複合弓って言って、複数の素材を組み合せて造られてるの。うちでは、木材と動物の角とけんを使っていて、威力はロングボウと同じくらいだけど、大きさは３分の２で持ち運びが便利なの。	Sara\nA composite bow blends several\nmaterials together. We use wood,\nanimal horn and sinew. Same power\nas a longbow, but two-thirds the\nsize, so it's easy to carry.
-0x682d6	0x418	レイナ	小さいけど強力そうね。	{REINA}\nSmall, but it looks powerful.
-0x682d6	0x442	ファーニス	コンポジットボウか・・・\n私、欲しいなぁ。	{FURNIS}\nA composite bow...\nI'd love one.
-0x682d6	0x47c	ファーニス	私、今使ってるけど、とっても調子いいよ。	{FURNIS}\nI use one now. It works great.
+0x682d6	0x418	レイナ	小さいけど強力そうね。	Small, but it looks powerful.
+0x682d6	0x442	ファーニス	コンポジットボウか・・・\n私、欲しいなぁ。	A composite bow...\nI'd love one.
+0x682d6	0x47c	ファーニス	私、今使ってるけど、とっても調子いいよ。	I use one now. It works great.
 0x682d6	0x4a4		サラ\nこれはフィールドブーツに金属製の装甲を付けて、足まわりの防御力を高めた物なの。\n装甲って言ってもそんなに重い物じゃないし、履きやすい様に改良されてるから安心よ。	Sara\nThese are field {BOOTS} fitted with\nmetal armor to boost your leg\ndefense. The armor isn't heavy,\nand they're made to be easy to\nwear, so don't worry.
-0x682d6	0x528	レイナ	ブーツは良い物を使った方が戦闘が楽ね。	{REINA}\nGood {BOOTS} make a fight much\neasier.
-0x682d6	0x557	ファーニス	見た目、カッコよくなぁぁぁい。	{FURNIS}\nDon't they look so cool?
+0x682d6	0x528	レイナ	ブーツは良い物を使った方が戦闘が楽ね。	Good {BOOTS} make a fight much\neasier.
+0x682d6	0x557	ファーニス	見た目、カッコよくなぁぁぁい。	Don't they look so cool?
 0x682d6	0x577		サラ\nこれはゲタって言うんだって。\n他の大陸から渡って来た物なんだけど、イマイチ人気がなくって売れ残っちゃったのよ。\n上質の樫の木でできているんだけど、安くしとくわ・・・買わない？	Sara\nThese are called geta.\nThey came over from another\ncontinent,\nbut they never caught on, so I'm\nstuck with the extras. Fine oak,\ntoo. I'll sell cheap... interested?
-0x682d6	0x608	レイナ	変わった靴だけど、何にも力を感じないわ。	{REINA}\nStrange shoes, but I sense no\npower in them at all.
-0x682d6	0x63b	ファーニス	ウォーリック、ライド。\nなんだか２人共、似合いそうだよ。	{FURNIS}\n{WARRICK}, {RIDE}.\nSomehow they'd suit you both.
+0x682d6	0x608	レイナ	変わった靴だけど、何にも力を感じないわ。	Strange shoes, but I sense no\npower in them at all.
+0x682d6	0x63b	ファーニス	ウォーリック、ライド。\nなんだか２人共、似合いそうだよ。	{WARRICK}, {RIDE}.\nSomehow they'd suit you both.
 0x682d6	0x668		セリディー\n私達、２年前まで大陸で拳闘士をやってたの。\nこれから傭兵部隊として、セルーシュ城奪回作戦に参加するつもりよ。	Ceridee\nTill two years ago we were prize\nfighters on the mainland. Now we'll\njoin the mercenaries and take part\nin retaking {SERUSH CASTLE}.
 0x682d6	0x6c0		セリディー\n私、これからお城に務める事にするわ。	Ceridee\nI've decided to serve at the\ncastle from now on.
 0x682d6	0x6e3		ビークス\n俺も戦うぜ。\n他の国の人達にばかり頼るわけにはいかないからな。	Beeks\nI'll fight too.\nWe can't keep leaning on folks\nfrom other lands forever.
@@ -930,20 +930,20 @@ block_off	str_off	speaker	text	english
 0x68833	0xe		サーニア\nいらっしゃいませ。\nごゆっくり、おくつろぎ下さい。	Sania\nWelcome.\nPlease, make yourself at home.
 0x68833	0x38		何にいたしましょう？	What can I do for you?
 0x68833	0x4e		・宿泊します。\n・食事をとろう。\n・話をしよう。\n・テミスを換金します。\n・お店を出よう。	・Stay the night.\n・Have a meal.\n・Let's talk.\n・Exchange Themis.\n・Leave the shop.
-0x68833	0x80	レイナ	お金が足りないわ。	{REINA}\nWe don't have enough money.
+0x68833	0x80	レイナ	お金が足りないわ。	We don't have enough money.
 0x68833	0x98		サーニア\nお泊りですね。\n一泊　３００ダインになります。	Sania\nStaying the night?\nIt's 300 Dyne per night.
 0x68833	0xc2		・泊まる。\n・やめておく。	・Stay.\n・Never mind.
-0x68833	0xdd	レイナ	今日は、まだ明るいし\nそんなに疲れてないわ。	{REINA}\nIt's still light out, and I'm\nnot all that tired yet.
-0x68833	0x143	ウォーリック	明日のために、その１・・・寝る。	{WARRICK}\nStep one for tomorrow... sleep.
-0x68833	0x188	ファーニス	おやすみなさぁぁぁぁぁい。	{FURNIS}\nGoodniiiiight.
+0x68833	0xdd	レイナ	今日は、まだ明るいし\nそんなに疲れてないわ。	It's still light out, and I'm\nnot all that tired yet.
+0x68833	0x143	ウォーリック	明日のために、その１・・・寝る。	Step one for tomorrow... sleep.
+0x68833	0x188	ファーニス	おやすみなさぁぁぁぁぁい。	Goodniiiiight.
 0x68833	0x1a2		サーニア\n今、ちょうどランチタイムですので、人数分で、ちょうど１００ダインになります。	Sania\nIt's lunchtime right now, so it'll\nbe just 100 Dyne for your party.
 0x68833	0x1da		・食事にする。\n・やめておく。	・Eat.\n・Never mind.
-0x68833	0x1f7	ファーニス	まだ、おなか空いてないよぉ。	{FURNIS}\nI'm not hungry yet.
+0x68833	0x1f7	ファーニス	まだ、おなか空いてないよぉ。	I'm not hungry yet.
 0x68833	0x22d		サーニア\n今日のランチは、牛肉のフローレンス風ドリアです。\n正面のテーブルが、開いているわ。	Sarnia\nToday's lunch is Florence-style\nbeef gratin.\nThe front table is open.
 0x68833	0x281	ファーニス	ううぅぅぅん。\nベリィ、ロイヤリィィィィィ！	Furnis\nMmmmm.\nVery, royallyyyy!
 0x68833	0x2ab		サーニア\n今日のランチは、チキンカツのセルーシュ風です。\n正面のテーブルが開いているわ。	Sarnia\nToday's lunch is {SERUSH}-style\nchicken cutlet.\nThe front table is open.
 0x68833	0x2f8	ファーニス	ニワトリって美味しいね。\nコカトリスは恐いけど。	Furnis\nChicken tastes so good.\nCockatrices are scary, though.
-0x68833	0x32e	ライド	俺、コカトリスの肉、喰った事あるぞ。	{RIDE}\nI've eaten cockatrice meat before.
+0x68833	0x32e	ライド	俺、コカトリスの肉、喰った事あるぞ。	I've eaten cockatrice meat before.
 0x68833	0x357		サーニア\nライランドの騎士達は、パーシャとか言う宮廷魔術士の魔法で、瞬間移動して来たんですって。\n凄いわよねぇぇぇ。	Sarnia\n{RYLAND}'s knights teleported here\nby the magic of a court mage\nnamed {PASHA}.\nIsn't that amazing!
 0x68833	0x3ad		サーニア\nこの街も、また昔みたいに、にぎやかになるかしら。	Sarnia\nWill this town grow lively again\nlike it was in the old days?
 0x68833	0x41a		サーニア\n換金は、１００テミスからです。\nこの店での今の換金率は、	Sarnia\nExchange starts at 100 {THEMIS}.\nThe rate at this shop right now is
@@ -954,7 +954,7 @@ block_off	str_off	speaker	text	english
 0x68833	0x49e		・換金する。\n・まだしない。	・ Exchange.\n・ Not yet.
 0x68833	0x4b2		・換金する。\n・まだしない。	・ Exchange.\n・ Not yet.
 0x68833	0x4c6		・換金する。\n・まだしない。	・ Exchange.\n・ Not yet.
-0x68833	0x4e0	レイナ	もっと、換金率のいい時にするわ。	{REINA}\nI'll wait for a better rate.
+0x68833	0x4e0	レイナ	もっと、換金率のいい時にするわ。	I'll wait for a better rate.
 0x68833	0x4ff		サーニア\n換金は１００テミス以上ないとできません。	Sania\nI can't exchange less than\n100 {THEMIS}.
 0x68833	0x571		サーニア\n換金終りました。	Sania\nThe exchange is done.
 0x68833	0x58c		サーニア\nまた、いつでもどうぞ。	Sania\nCome again anytime.
@@ -988,24 +988,24 @@ block_off	str_off	speaker	text	english
 0x68da5	0x4f7		聖騎士　ムークス\nセシリア姫がいれば、セルーシュは安心さ。	Templar Mooks\nWith {CECILIA} here, {SERUSH}\nis in safe hands.
 0x68da5	0x51b		皆さん、いつでも遊びに来て下さい。	Everyone, come visit us anytime.
 0x68da5	0x552		正午の鐘が鳴り響いた。\n一斉に城目指して重装騎兵団が出陣。\nそして傭兵部隊と神官戦士が、その後を追う様にセルーシュ城に向かった。\nドラゴン　ライダー隊は、一気に雲上まで上昇し、すでにセルーシュ城後方数十キロの所まで迫っている。\n聖騎士団は、キャンプの外で、突撃の時を待つ。	The noon bell rang out.\nThe {HEAVY CAVALRY CORPS} marched\nas one toward the castle.\nThe mercenaries and warrior priests\nfollowed close behind to {SERUSH}.\n\pThe {DRAGON RIDER} squad soared up\nabove the clouds, already closing\nto within tens of miles behind it.\nThe {PALADINS} wait outside camp\nfor the moment to charge.
-0x68da5	0x610	ウォーリック	さあっ！\n俺達もパーシャ様の所に急ごう。	{WARRICK}\nCome on!\nLet's hurry to Lady {PASHA}.
-0x68da5	0x63e	ライド	そんな事気にするモノじゃないぜ、セシリア。\nセシリアの方が、これから大変なんだからな。	{RIDE}\nDon't worry about that, {CECILIA}.\nThe hard road is yours from here on.
-0x68da5	0x698	レイナ	これから色々と大変だろうけど頑張ってね。\n貴方なら、きっと良い君主になれるわ。	{REINA}\nThings will be tough ahead, but\nstay strong. You'll make a fine\nruler, I'm sure of it.
-0x68da5	0x6e4	ファーニス	また、遊びに来るからね。\nその時には、お城で歓迎会を開いてね。	{FURNIS}\nI'll come visit again.\nThrow me a welcome feast at the\ncastle when I do!
-0x68da5	0x752	ウォーリック	・・・セシリア。\n君なら何だってできる。\n頑張れよっ！	{WARRICK}\n{...}{CECILIA}.\nYou can do anything.\nStay strong!
-0x68da5	0x787	セシリア	・・・ありがとう、ウォーリック。\nありがとう、皆さん。\n私も皆さんの旅の成功を祈ってます。	{CECILIA}\n...Thank you, {WARRICK}.\nThank you, everyone.\nI pray your journey ends well too.
-0x69391	0x12	ライド	ところで、この店に大鍋は置いてあるかい。\nできれば・・・こう・・・魔法のかかってる物が・・・・・。	{RIDE}\nSay, does this shop carry a big\ncauldron?\nPreferably... you know... one with\nsome magic on it...
+0x68da5	0x610	ウォーリック	さあっ！\n俺達もパーシャ様の所に急ごう。	Come on!\nLet's hurry to Lady {PASHA}.
+0x68da5	0x63e	ライド	そんな事気にするモノじゃないぜ、セシリア。\nセシリアの方が、これから大変なんだからな。	Don't worry about that, {CECILIA}.\nThe hard road is yours from here on.
+0x68da5	0x698	レイナ	これから色々と大変だろうけど頑張ってね。\n貴方なら、きっと良い君主になれるわ。	Things will be tough ahead, but\nstay strong. You'll make a fine\nruler, I'm sure of it.
+0x68da5	0x6e4	ファーニス	また、遊びに来るからね。\nその時には、お城で歓迎会を開いてね。	I'll come visit again.\nThrow me a welcome feast at the\ncastle when I do!
+0x68da5	0x752	ウォーリック	・・・セシリア。\n君なら何だってできる。\n頑張れよっ！	{...}{CECILIA}.\nYou can do anything.\nStay strong!
+0x68da5	0x787	セシリア	・・・ありがとう、ウォーリック。\nありがとう、皆さん。\n私も皆さんの旅の成功を祈ってます。	...Thank you, {WARRICK}.\nThank you, everyone.\nI pray your journey ends well too.
+0x69391	0x12	ライド	ところで、この店に大鍋は置いてあるかい。\nできれば・・・こう・・・魔法のかかってる物が・・・・・。	Say, does this shop carry a big\ncauldron?\nPreferably... you know... one with\nsome magic on it...
 0x69391	0x79		ラミーカ\n・・・魔法の鍋ねぇ。\n使い古したミスリル製の大鍋ならあるわよ。\nでもね、たしかにミスリル製だから凄い強度はあるけど、魔力が上がったりする代物じゃないわよ。	Ramica\n...A magic cauldron, hm?\nI've got an old worn-out mythril one.\nIt's mythril, so it's tough as nails,\nbut it won't raise your magic or\nanything.
-0x69391	0xef	ライド	そっ、それでいい。\nその鍋はいくらだい？	{RIDE}\nTh-that'll do fine.\nHow much for that cauldron?
+0x69391	0xef	ライド	そっ、それでいい。\nその鍋はいくらだい？	Th-that'll do fine.\nHow much for that cauldron?
 0x69391	0x11b		ラミーカ\nお金を取れるほどの物じゃないわ。\n無料でいいわよ。	Ramica\nIt's not worth charging for.\nYou can have it free.
 0x69391	0x156		ミスリル大鍋を受け取った。	{RECEIVED} a mythril cauldron.
-0x69391	0x178	ファーニス	ライド、そんな物どうするの？	{FURNIS}\n{RIDE}, what're you going to do\nwith a thing like that?
-0x69391	0x1a7	ライド	俺、ちょっと欲しい物があるんだよ。	{RIDE}\nThere's something I've been\nwanting, that's all.
-0x69391	0x1cd	パーシャ	用意はできたのかしら？	{PASHA}\nAre you all ready?
+0x69391	0x178	ファーニス	ライド、そんな物どうするの？	{RIDE}, what're you going to do\nwith a thing like that?
+0x69391	0x1a7	ライド	俺、ちょっと欲しい物があるんだよ。	There's something I've been\nwanting, that's all.
+0x69391	0x1cd	パーシャ	用意はできたのかしら？	Are you all ready?
 0x69391	0x1e7		・ちょっと待って。\n・用意はできた。	・Wait a moment.\n・We're ready.
-0x69391	0x1fe	パーシャ	城内では、何が起きるかわからないわ。装備は重装の方がいいわよ。	{PASHA}\nThere's no telling what awaits in\nthe castle. Best go in heavy armor.
-0x69391	0x235	パーシャ	王城に行く前に話しておきたい事があるの。	{PASHA}\nThere's something I want to tell you\nbefore we head to the royal castle.
-0x69391	0x260	パーシャ	この世界では、国１つ滅びるのは珍しい事じゃないわ。\nなのになぜ、ジークもライランドも主力部隊でこの戦争に加勢したと思う？	{PASHA}\nIn this world, one nation falling is\nnothing rare. So why do you think\nboth Zeke and {RYLAND} sent their\nmain forces to aid in this war?
+0x69391	0x1fe	パーシャ	城内では、何が起きるかわからないわ。装備は重装の方がいいわよ。	There's no telling what awaits in\nthe castle. Best go in heavy armor.
+0x69391	0x235	パーシャ	王城に行く前に話しておきたい事があるの。	There's something I want to tell you\nbefore we head to the royal castle.
+0x69391	0x260	パーシャ	この世界では、国１つ滅びるのは珍しい事じゃないわ。\nなのになぜ、ジークもライランドも主力部隊でこの戦争に加勢したと思う？	In this world, one nation falling is\nnothing rare. So why do you think\nboth Zeke and {RYLAND} sent their\nmain forces to aid in this war?
 0x69391	0x2c1	レイナ	・・・敵軍が、魔物で構成されているから。	...The enemy forces are made\nup of monsters.
 0x69391	0x2ed	パーシャ	・・・そう。\nこれは、もうセルーシュだけの問題じゃなく、人間と魔物との戦いになっているの。\nパーシャ\nこの事だけは、頭に入れておいて。	...Right.\nThis is no longer just {SERUSH}'s\nproblem. It has become a war\nbetween humans and monsters.\n{PASHA}\nKeep that much in mind.
 0x69391	0x356	パーシャ	私も貴方達を送り込んだ後、聖騎士団と共に城に行きグリーク王と合流します。\n・・・城で会いましょう。	After I send you in, I'll go to\nthe castle with the {PALADINS} and\njoin King {GREEK}.\n...Let's meet at the castle.
@@ -1059,19 +1059,19 @@ block_off	str_off	speaker	text	english
 0x6995b	0x738	レイナ	魔法陣を使って、向こう側に行けばわかったわよ。	If we crossed over using the\n{MAGIC CIRCLE}, we'd have known.
 0x6995b	0x761	ライド	うぅぅぅぅぅん。\n飛び出したら魔物の真っ只中か。	Mmmmm.\nJump out and we're right in the\nmidst of the MONSTERs.
 0x6995b	0x798	レイナ	・・・んんっ！？\n上の階で、とても強い魔力がぶつかり合っている。\n早く加勢に行きましょう。	...Hm!? On the floor above,\npowerful magic is clashing.\nLet's hurry and lend our aid.
-0x69f0c	0x14	レイナ	そっちは上に行く階段よ。\n私達は魔法陣を見つけて破壊しなきゃ。	{REINA}\nThose stairs lead up.\nWe have to find the {MAGIC CIRCLE}\nand destroy it.
-0x69f0c	0x7b	レイナ	ねぇ。\n後ろの方で、音がしなかった？	{REINA}\nHey.\nDid you hear a sound behind us?
-0x69f0c	0xa6	ファーニス	私も水中で何かふれた様な。	{FURNIS}\nSomething brushed against me\nunderwater too.
-0x69f0c	0xcc	ウォーリック	おおッ！？\n何か出て来たぞッ。	{WARRICK}\nWhoa!?\nSomething's coming out!
-0x69f0c	0x107	ウォーリック	早く魔法陣を見つけて破壊しよう。	{WARRICK}\nLet's find the {MAGIC CIRCLE}\nand destroy it, fast.
-0x69f0c	0x143	ライド	ダイガーン！！\n待ってろ、今助けてやる。	{RIDE}\n{DAIGARN}!!\nHold on, I'll save you now.
-0x69f0c	0x171	ダイガーン	・・・ライドかッ！！\nおでの事はいい。\nダイガーン\n先の部屋に、グリーク王とパーシャ様が行がれだ。\n王の加勢に行っでくでッ。	{DAIGARN}\n{...}{RIDE}!!\nDon't mind me.\p{DAIGARN}\n{GREEK} and {PASHA} went into the\nroom ahead.\nGo back up the king, hurry!
-0x69f0c	0x1cf	ライド	しかし、それだけの数相手にできるわけないだろ。\n助けるぞ。	{RIDE}\nBut there's no way you can take\non that many alone.\nI'm saving you.
-0x69f0c	0x203	ダイガーン	・・・聖騎士も、ライランドの近衛も、ほとんどやられでしまっだ。\nおでの事は心配するなッ！	{DAIGARN}\n...The {PALADINS}, {RYLAND}'s guard,\nnearly all of them are down.\nDon't worry about me!
-0x69f0c	0x24a	ライド	・・・しッ、しかしッ。	{RIDE}\n...B-but...
-0x69f0c	0x269	ダイガーン	ライドォォォッ！\nこの腰抜けがぁぁぁ。\n早く行げぇッ。\nダイガーン\nだのむ、ライド。\n・・・行っでくで・・・行っで王を守っでくで。	{DAIGARN}\nRIIIDE!\nYou coward!\nGo, now!\p{DAIGARN}\nI beg you, {RIDE}.\n...Go... go and guard the king.
-0x69f0c	0x2f6	ライド	・・・ダイガーン。\nグリーク王は必ず守るッ。\nだからお前も死ぬなよ！！	{RIDE}\n{...}{DAIGARN}.\nI'll guard {GREEK}, I swear it!\nSo don't you die either!!
-0x69f0c	0x33a	ダイガーン	たのむど、ライド。	{DAIGARN}\nI'm counting on you, Ride.
+0x69f0c	0x14	レイナ	そっちは上に行く階段よ。\n私達は魔法陣を見つけて破壊しなきゃ。	Those stairs lead up.\nWe have to find the {MAGIC CIRCLE}\nand destroy it.
+0x69f0c	0x7b	レイナ	ねぇ。\n後ろの方で、音がしなかった？	Hey.\nDid you hear a sound behind us?
+0x69f0c	0xa6	ファーニス	私も水中で何かふれた様な。	Something brushed against me\nunderwater too.
+0x69f0c	0xcc	ウォーリック	おおッ！？\n何か出て来たぞッ。	Whoa!?\nSomething's coming out!
+0x69f0c	0x107	ウォーリック	早く魔法陣を見つけて破壊しよう。	Let's find the {MAGIC CIRCLE}\nand destroy it, fast.
+0x69f0c	0x143	ライド	ダイガーン！！\n待ってろ、今助けてやる。	{DAIGARN}!!\nHold on, I'll save you now.
+0x69f0c	0x171	ダイガーン	・・・ライドかッ！！\nおでの事はいい。\nダイガーン\n先の部屋に、グリーク王とパーシャ様が行がれだ。\n王の加勢に行っでくでッ。	{...}{RIDE}!!\nDon't mind me.\p{DAIGARN}\n{GREEK} and {PASHA} went into the\nroom ahead.\nGo back up the king, hurry!
+0x69f0c	0x1cf	ライド	しかし、それだけの数相手にできるわけないだろ。\n助けるぞ。	But there's no way you can take\non that many alone.\nI'm saving you.
+0x69f0c	0x203	ダイガーン	・・・聖騎士も、ライランドの近衛も、ほとんどやられでしまっだ。\nおでの事は心配するなッ！	...The {PALADINS}, {RYLAND}'s guard,\nnearly all of them are down.\nDon't worry about me!
+0x69f0c	0x24a	ライド	・・・しッ、しかしッ。	...B-but...
+0x69f0c	0x269	ダイガーン	ライドォォォッ！\nこの腰抜けがぁぁぁ。\n早く行げぇッ。\nダイガーン\nだのむ、ライド。\n・・・行っでくで・・・行っで王を守っでくで。	RIIIDE!\nYou coward!\nGo, now!\p{DAIGARN}\nI beg you, {RIDE}.\n...Go... go and guard the king.
+0x69f0c	0x2f6	ライド	・・・ダイガーン。\nグリーク王は必ず守るッ。\nだからお前も死ぬなよ！！	{...}{DAIGARN}.\nI'll guard {GREEK}, I swear it!\nSo don't you die either!!
+0x69f0c	0x33a	ダイガーン	たのむど、ライド。	I'm counting on you, Ride.
 0x69f0c	0x38f		重装騎兵　カイル\nあんちゃん・・・もう帰ろう。\nあんちゃんは、よくやったよ。\n重装騎兵　カイル\n・・・グリーク王から、また御褒美もらえるね。\nさぁ、あんちゃん・・・起きなきゃ、魔物が来るよ。	{HEAVY CAVALRY} Kyle\nBig brother... let's go home now.\nYou did real good, big brother.\p{HEAVY CAVALRY} Kyle\n{...}{GREEK} will give us another\nreward, won't he?\nCome on, big brother... get up,\nor the monsters will come.
 0x69f0c	0x434		重装騎兵　カイル\n・・・ああっ、ライドさん。\n・・・あんちゃんを、起してよ。\nあんちゃん、さっきから起きないんだ。\n重装騎兵　カイル\nあんちゃんを起してよ。\n・・・ライドさん、頼むよ・・・あんちゃんを起してよぉぉぉッ！	{HEAVY CAVALRY} Kyle\n...Ahh, Mister {RIDE}.\n...Please, wake my brother up.\nHe won't get up.\p{HEAVY CAVALRY} Kyle\nWake my brother up.\n...Please, Mister {RIDE}{...} wake my\nbrother... wake him uuup!
 0x69f0c	0x4cd		ダイガーンは既に冷たくなっている。\nそしてその手にはライドからもらった大鍋が、しっかりと握られていた。	{DAIGARN} has already gone cold.\nIn his hand he still gripped the\ngreat pot {RIDE} gave him, holding\nit tight.
@@ -1086,24 +1086,24 @@ block_off	str_off	speaker	text	english
 0x69f0c	0x6f4		な\nナイフ使い、ラキューイ。	Na\nLakyui, the knife master.
 0x69f0c	0x714		な\n精霊使い、パインチャ。	Na\nPaincha, the spirit caller.
 0x69f0c	0x755		な全員\n・・・我ら、最強。	All\n...we are the strongest.
-0x6a491	0x22	レイナ	マジック　ロック！？\n・・・駄目だわ。\n解除に時間がかかっちゃう。	{REINA}\nA magic lock!?\n...No good. Breaking it will\ntake too long.
-0x6a491	0x72	ウォーリック	いいからやるんだ。	{WARRICK}\nJust do it.
+0x6a491	0x22	レイナ	マジック　ロック！？\n・・・駄目だわ。\n解除に時間がかかっちゃう。	A magic lock!?\n...No good. Breaking it will\ntake too long.
+0x6a491	0x72	ウォーリック	いいからやるんだ。	Just do it.
 0x6a491	0xa5		老人\nクォッ　クォッ　クォッ　クォッ！\n若いのに、かなりの魔力じゃ。\nしかし相手がこのバーグ様では、ちと分が悪かったのぉ。	Old Man\nKweh, kweh, kweh, kweh!\nQuite the magic, for one so young.\nBut against me, {BERG}, the odds\nwere never in your favor.
-0x6a491	0x107	パーシャ	・・・バーグ！？\nそうか・・・お前がバーグか。\nその強大な魔力で、数百年も生き続けている人類最強の魔導士。	{PASHA}\n{...}{BERG}!?\nI see... So you are {BERG}.\nHumanity's mightiest mage, who has\nlived centuries on that vast power.
+0x6a491	0x107	パーシャ	・・・バーグ！？\nそうか・・・お前がバーグか。\nその強大な魔力で、数百年も生き続けている人類最強の魔導士。	{...}{BERG}!?\nI see... So you are {BERG}.\nHumanity's mightiest mage, who has\nlived centuries on that vast power.
 0x6a491	0x168		大魔導士　バーグ\nお美しい御婦人に知ってていただけたとは、光栄な事だのう。\n・・・お嬢さん。	Great {MAGE} {BERG}\nTo be known by so fair a lady...\nwhat an honor.\n...My dear girl.
-0x6a491	0x1b9	パーシャ	ちょうどいい。\n同じ魔導を追究する者として、機会があったら御手合わせ願いたいと思っていた。	{PASHA}\nThis is perfect.\nAs one who walks the same path of\nmagic, I have long wished to test\nmy skill against yours.
+0x6a491	0x1b9	パーシャ	ちょうどいい。\n同じ魔導を追究する者として、機会があったら御手合わせ願いたいと思っていた。	This is perfect.\nAs one who walks the same path of\nmagic, I have long wished to test\nmy skill against yours.
 0x6a491	0x20a		大魔導士　バーグ\nこのワシを倒すと言うのか？\nお前の様なヒヨッコに、何ができる。普通の呪文じゃワシは倒せんぞぉ。	Great {MAGE} {BERG}\nYou mean to defeat me?\nWhat can a fledgling like you do?\nOrdinary spells cannot fell me.
-0x6a491	0x265	パーシャ	・・・普通の呪文？\nなら、暗黒魔術ならどうかしら。	{PASHA}\n...Ordinary spells?\nThen how about {DARK MAGIC}?
-0x6a491	0x2ad	パーシャ	・・・天の法皇よ、地の法皇よ。\n魔導の法たる我に力を与えたまえ。\n魔の根源たるその炎で、我が敵を焼きつくせ。\nパーシャ\n・・・冥王魔光砲。	{PASHA}\n{...}{O POPE OF THE HEAVENS},\n{O POPE OF THE EARTH.}\nGrant me, master of magic's law,\nyour power.\nWITH The Flame At Evil'S Root,\nBURN My Foes To Ash.\n{PASHA}\n...Hades Magic Cannon.
+0x6a491	0x265	パーシャ	・・・普通の呪文？\nなら、暗黒魔術ならどうかしら。	...Ordinary spells?\nThen how about {DARK MAGIC}?
+0x6a491	0x2ad	パーシャ	・・・天の法皇よ、地の法皇よ。\n魔導の法たる我に力を与えたまえ。\n魔の根源たるその炎で、我が敵を焼きつくせ。\nパーシャ\n・・・冥王魔光砲。	{...}{O POPE OF THE HEAVENS},\n{O POPE OF THE EARTH.}\nGrant me, master of magic's law,\nyour power.\nWITH The Flame At Evil'S Root,\nBURN My Foes To Ash.\n{PASHA}\n...Hades Magic Cannon.
 0x6a491	0x367		大魔導士　バーグ\n甘い　甘い　甘い　甘いわ。\nそれでも魔光砲か？\n真の暗黒魔術の威力、見せてくれようぞ。\n大魔導士　バーグ\n・・・天の法皇よ、地の法皇よ。\n魔導の法たる我に力を与えたまえ。\n魔の根源たるその炎で、我が敵を焼きつくせ。\n大魔導士　バーグ\n・・・冥王魔光砲。	Great {MAGE} {BERG}\nWeak, weak, weak, so weak.\nAnd you call that a magic cannon?\nLet me show you true {DARK MAGIC}.\nGREAT {MAGE} {BERG}\n{...}{O POPE OF THE HEAVENS},\n{O POPE OF THE EARTH.}\nGrant me, master of magic's law,\nyour power.\nWITH The Flame At Evil'S Root,\nBURN My Foes To Ash.\nGREAT {MAGE} {BERG}\n...Hades Magic Cannon.
 0x6a491	0x44a		大魔導士　バーグ\n・・・ぬぬッ！？\nこざかしくも、我が呪文を耐えぬいたか。\nだが、次はそうはいかんぞぉ。\n大魔導士　バーグ\n・・・ハッ！？	Great {MAGE} {BERG}\n...Nnngh!?\nYou cunningly endured my spell?\nBut you will not be so lucky next\ntime.\nGREAT {MAGE} {BERG}\n...Hah!?
 0x6a491	0x4f7		大魔導士　バーグ\nライトニング　ボルト！？\n何奴じゃ。	Great {MAGE} {BERG}\n{LIGHTNING BOLT}!?\nWho goes there?
-0x6a491	0x53a	レイナ	大丈夫ですか、パーシャ様。	{REINA}\nAre you all right, Lady {PASHA}?
+0x6a491	0x53a	レイナ	大丈夫ですか、パーシャ様。	Are you all right, Lady {PASHA}?
 0x6a491	0x580		大魔導士　バーグ\n魔導士の仲間がおったのか。\nまあよい、まとめて我が呪文の餌食にしてやろう。	Great {MAGE} {BERG}\nSo, you had a mage ally.\nNo matter. I'll make prey of you\nall with a single spell.
-0x6a491	0x608	パーシャ	よくやったわ、貴方達。\nでも戦いはまだ終ってないわ。\n・・・ううッ！	{PASHA}\nWell done, all of you.\nBut the battle isn't over yet.\n...ungh!
-0x6a491	0x652	レイナ	パーシャ様はここに残って下さい。\n魔力が激しく低下してます。\n後は私達が。	{REINA}\nLady {PASHA}, please stay here.\nYour magic power is fading fast.\nLeave the rest to us.
-0x6a491	0x68f	パーシャ	・・・わかったわ。\n少し休んだら後を追います。	{PASHA}\n...I understand.\nI'll follow once I've rested.
-0x6a491	0x71e	ウォーリック	・・・ダークエルフ　特戦隊！？\n何だかカッコいいぞ。	{WARRICK}\n{...}{DARK ELF} special forces?\nThat sounds pretty cool.
+0x6a491	0x608	パーシャ	よくやったわ、貴方達。\nでも戦いはまだ終ってないわ。\n・・・ううッ！	Well done, all of you.\nBut the battle isn't over yet.\n...ungh!
+0x6a491	0x652	レイナ	パーシャ様はここに残って下さい。\n魔力が激しく低下してます。\n後は私達が。	Lady {PASHA}, please stay here.\nYour magic power is fading fast.\nLeave the rest to us.
+0x6a491	0x68f	パーシャ	・・・わかったわ。\n少し休んだら後を追います。	...I understand.\nI'll follow once I've rested.
+0x6a491	0x71e	ウォーリック	・・・ダークエルフ　特戦隊！？\n何だかカッコいいぞ。	{...}{DARK ELF} special forces?\nThat sounds pretty cool.
 0x6a491	0x768		特戦隊の隊長　ジーナス\n諸君、また会おう。\nはっはっはっは・・・・・。	Squad Captain Genus\nWe'll meet again, friends.\nHa ha ha ha..{...}.
 0x6a9d7	0x2		佳渦峡重装騎兵　バータム\nダークエルフの特殊部隊が来ている。\n気を付けろ。	Bartam, {HEAVY CAVALRY}\n{DARK ELF} forces here.\nStay sharp.
 0x6a9d7	0x39		こいつ等は俺達にまかせろ。	Leave these ones to us.
@@ -1131,18 +1131,18 @@ block_off	str_off	speaker	text	english
 0x6a9d7	0x515	パーシャ	グリーク王。\n全重装騎兵、及び戦死者の遺体。\n本国に魔法移動完了いたしました。	{GREEK}\nAll cavalry and the fallen,\nsent home by magic.
 0x6a9d7	0x560		グリーク王\n御苦労、パーシャ。\n・・・セシリア姫。\nセルーシュ王国の繁栄を御祈りする。	{GREEK}\nWell done, {PASHA}.\n...Princess {CECILIA}.\nMay {SERUSH KINGDOM} prosper.
 0x6a9d7	0x5ce		グリーク王\n・・・ウォーリック。\nライランドに来る事があれば、城に寄るがいい。\nお前達ならいつでも歓迎するぞ。	{GREEK}\n...{WARRICK}. If you reach\n{RYLAND}, visit the castle.\nYou're welcome.
-0x6a9d7	0x632	パーシャ	貴方達、人を探しているそうね。\n見当がつかないのなら、砂の城のカル伯爵に会いなさい。\n何か、わかるはずよ。\nパーシャ\n・・・これを持って行けば入城できるから。	{PASHA}\nSearching for someone? No leads?\nSee {COUNT CAL} at {SAND CASTLE}.\p{PASHA}\nTake this to enter.
+0x6a9d7	0x632	パーシャ	貴方達、人を探しているそうね。\n見当がつかないのなら、砂の城のカル伯爵に会いなさい。\n何か、わかるはずよ。\nパーシャ\n・・・これを持って行けば入城できるから。	Searching for someone? No leads?\nSee {COUNT CAL} at {SAND CASTLE}.\p{PASHA}\nTake this to enter.
 0x6a9d7	0x6b6		パーシャのペンダントを受け取った。	{RECEIVED} {PASHA}'s pendant.
-0x6a9d7	0x710	ウォーリック	じゃあ、俺達もそろそろ行くか。	{WARRICK}\nWell, time we were off too.
-0x6a9d7	0x737	セシリア	皆さん・・・本当にありがとう。\n私、何と言ったらよいか。\nセシリア\nこんな危険な目に会わせてしまって。・・・何か、お礼がしたいのですが、今の私には何も・・・。	{CECILIA}\nTruly, {THANK YOU} all.\nI dragged you into danger.\p{CECILIA}\nI'd repay you, but have\nnothing now...
-0x6af95	0x26	ライド	おい、ダイガーン。\nお前にコレやるよ。	{RIDE}\nHey, {DAIGARN}.\nI got somethin' for you.
+0x6a9d7	0x710	ウォーリック	じゃあ、俺達もそろそろ行くか。	Well, time we were off too.
+0x6a9d7	0x737	セシリア	皆さん・・・本当にありがとう。\n私、何と言ったらよいか。\nセシリア\nこんな危険な目に会わせてしまって。・・・何か、お礼がしたいのですが、今の私には何も・・・。	Truly, {THANK YOU} all.\nI dragged you into danger.\p{CECILIA}\nI'd repay you, but have\nnothing now...
+0x6af95	0x26	ライド	おい、ダイガーン。\nお前にコレやるよ。	Hey, {DAIGARN}.\nI got somethin' for you.
 0x6af95	0x54		ダイガーンにミスリル大鍋を手渡した。	Handed {DAIGARN} the {MYTHRIL}\nCAULDRON.
 0x6af95	0x84		重装騎兵　ダイガーン\n・・・何だ、この鍋は？	{HEAVY CAVALRY} {DAIGARN}\n...What's this pot for?
-0x6af95	0xb1	ライド	お前、目が悪いのか？\nこれのどこが鍋に見えるんだよ。\nこれは、お前専用の特注ヘルメットだ。	{RIDE}\nYou got bad eyes or what?\nThis ain't no pot.\nIt's a custom helmet, just for you.
+0x6af95	0xb1	ライド	お前、目が悪いのか？\nこれのどこが鍋に見えるんだよ。\nこれは、お前専用の特注ヘルメットだ。	You got bad eyes or what?\nThis ain't no pot.\nIt's a custom helmet, just for you.
 0x6af95	0x101		重装騎兵　ダイガーン\n・・・ヘルメット！？\nおでには、どう見でも鍋だぁ。\n貴様、おでを馬鹿にしでるなぁぁぁッ。	{HEAVY CAVALRY} {DAIGARN}\n...A helmet!?\nLooks like a pot to me.\nYou makin' fun of me, {AAAAAAH}!?
-0x6af95	0x15a	ライド	うるせぇ、黙ってかぶれ。\nこいつなら、そのドデカ頭だって守ってくれるんだッ。	{RIDE}\nQuiet, just put it on.\nThis'll guard that giant head\nof yours.
+0x6af95	0x15a	ライド	うるせぇ、黙ってかぶれ。\nこいつなら、そのドデカ頭だって守ってくれるんだッ。	Quiet, just put it on.\nThis'll guard that giant head\nof yours.
 0x6af95	0x199		重装騎兵　ダイガーン\n・・・ふんッ！\nくだらぬ物だが、いぢお受け取っでおいでやるぞ。	{HEAVY CAVALRY} {DAIGARN}\n...Hmph!\nWorthless junk, but I'll take it\nfor now.
-0x6af95	0x1d4	ダイガーン	・・・おでの、ヘルメット。	{DAIGARN}\n...My helmet.
+0x6af95	0x1d4	ダイガーン	・・・おでの、ヘルメット。	...My helmet.
 0x6af95	0x1f2		重装騎兵　カイル\n僕はダイガーンの弟、カイルだ。\nあんちゃんは、近衛騎士団なんだぞ。\n僕もあんちゃんみたいな立派な騎士になりたいな。	{HEAVY CAVALRY} Kyle\nI'm {DAIGARN}'s little brother, Kyle.\nMy big bro's in the {KNIGHT ORDER}.\nI wanna be a fine {KNIGHT} like him\nsomeday.
 0x6af95	0x245		重装騎兵の中に、すんげぇ頭デカイ奴いるだろう。\n見に行ってみろよ。	There's a guy with a real huge head\namong the {HEAVY CAVALRY}.\nGo take a look.
 0x6af95	0x273		竜騎士　ハロルド\nワイバーンに餌やったら休憩だ。	{DRAGON KNIGHT} Harold\nI'll rest once I feed the {WYVERN}.
@@ -1157,7 +1157,7 @@ block_off	str_off	speaker	text	english
 0x6af95	0x3e9		次の攻撃で城内に突入できそうだ。	One more strike and we should\nbreak into the castle.
 0x6af95	0x404		竜騎士　ルージ\n俺のワイバーン、元気ないんだよ。\nきっと病気になっちまったんだ。\nどうしよう。	{DRAGON RIDER} Luge\nMy {WYVERN} has no energy.\nHe must have gotten sick.\nWhat do I do.
 0x6af95	0x43d		看護兵　エイミー\nこのワイバーン。\nただのホームシックね。	{MEDIC} Amy\nThis {WYVERN}.\nIt is just homesick.
-0x6af95	0x476	ファーニス	そうだッ！！\nワイバーン煎餅あげてみよっと。	{FURNIS}\nThat's it!!\nLet me try a {WYVERN} cracker.
+0x6af95	0x476	ファーニス	そうだッ！！\nワイバーン煎餅あげてみよっと。	That's it!!\nLet me try a {WYVERN} cracker.
 0x6af95	0x4ac		ワイバーン煎餅を食べさせた。	Fed it a {WYVERN} cracker.
 0x6af95	0x4ec	ファーニス	ああッ、喜んでる。\nワイバーンってカワイイねぇ。	Oh, it's happy!\nWYVERNs are so cute.
 0x6af95	0x50e		看護兵　セレナ\n今ちょうど第７次攻撃中よ。\nキャンプには負傷者が残っているわ。	{MEDIC} Serena\nWe're in the middle of the 7th\nassault right now.\nWounded soldiers are still back\nat {CAMP}.
@@ -1210,18 +1210,18 @@ block_off	str_off	speaker	text	english
 0x6bb66	0x72e	セシリア	ありがとう、皆さん。	Thank you, everyone.
 0x6bb66	0x74e	パーシャ	ジオクリスタルの扱いには気を付けて。	Handle the {GEO CRYSTAL} with care.
 0x6bb66	0x76d	パーシャ	作戦会議が始まるまで、まだ時間があるわ。\nキャンプ内で待っててもらえるかしら。	There's still time before the war\ncouncil begins. Could you wait\nhere in the {CAMP} until then?
-0x6c0bd	0x24	ブラフォード	君に、これを持って行ってほしい。	{BLAFORD}\nI want you to take this with you.
+0x6c0bd	0x24	ブラフォード	君に、これを持って行ってほしい。	I want you to take this with you.
 0x6c0bd	0x58		突然、ブラフォードが地面に剣を突き刺した。	Suddenly, {BLAFORD} thrust his sword\ninto the ground.
-0x6c0bd	0xd1	ウォーリック	台座の中に黄金のナイフがある。\nこれは、俺が持っているのと同じ物じゃないか？	{WARRICK}\nThere's a golden knife in the\npedestal.\nIsn't this the same as the one I\nhave?
-0x6c0bd	0x114	ブラフォード	・・・そうだ。\nこのナイフと、君の持っているナイフ。一緒にパディッシュ様の所に持って行ってほしい。	{BLAFORD}\n...That's right.\nThis knife, and the one you carry.\nTake them both to {PADDISH}, please.
+0x6c0bd	0xd1	ウォーリック	台座の中に黄金のナイフがある。\nこれは、俺が持っているのと同じ物じゃないか？	There's a golden knife in the\npedestal.\nIsn't this the same as the one I\nhave?
+0x6c0bd	0x114	ブラフォード	・・・そうだ。\nこのナイフと、君の持っているナイフ。一緒にパディッシュ様の所に持って行ってほしい。	...That's right.\nThis knife, and the one you carry.\nTake them both to {PADDISH}, please.
 0x6c0bd	0x16e		黄金のナイフを受け取った。	Received the {GOLDEN KNIFE}.
-0x6c0bd	0x18f	ウォーリック	・・・教えてくれブラフォード。\nそのパディッシュって、誰なんだ？\nこのナイフは一体何なんだ！？	{WARRICK}\n...Tell me, {BLAFORD}.\nWho is this {PADDISH}?\nWhat in the world is this knife?!
-0x6c0bd	0x1db	ファーニス	そんな事より、その変な鎧脱いで早く一緒に帰ろうよ。\n・・・ねぇ・・・お兄ちゃん。	{FURNIS}\nForget all that. Take off that\nstrange\narmor and come home with me.\n...Hey... big brother.
-0x6c0bd	0x236	ブラフォード	私はすぐ、あの男を追う。\nウォーリック。\n妹を・・・ファーニスを頼む。	{BLAFORD}\nI must chase that man at once.\n{WARRICK}.\nLook after my sister... {FURNIS}.
-0x6c0bd	0x279	ファーニス	待ってよ、お兄ちゃん。\n私を置いて行かないでよ。	{FURNIS}\nWait, big brother.\nDon't leave me behind.
-0x6c0bd	0x2ac	ウォーリック	ちょっと、待ってくれ。\nまだ聞きたい事がたくさんあるんだ。\nあの黒い鎧の男も、何か関係があるのか！？	{WARRICK}\nHold on, wait.\nThere's still so much I want to ask.\nIs that man in black armor\nconnected to all this too?!
-0x6c0bd	0x30d	ブラフォード	・・・私達は、守護騎士だ。\nそれ以上は、何も言えない。\nブラフォード\n・・・これから神官竜に会いなさい。\n君達の道は、そこから決まる。	{BLAFORD}\n...We are {GUARDIAN} knights.\nI can say nothing more.\n\p{BLAFORD}\nNow go and meet the {PRIEST DRAGON}.\nYour path is decided from there.
-0x6c0bd	0x3a8	ファーニス	・・・お兄ちゃん。\n・・・行っちゃったよ。\n何で私を置いて行くの？\nファーニス\nいつも。\n・・・いつもそうだよ。	{FURNIS}\n...Big brother.\n...He's gone.\nWhy do you leave me behind?\n\p{FURNIS}\nAlways.\n...It's always like this.
+0x6c0bd	0x18f	ウォーリック	・・・教えてくれブラフォード。\nそのパディッシュって、誰なんだ？\nこのナイフは一体何なんだ！？	...Tell me, {BLAFORD}.\nWho is this {PADDISH}?\nWhat in the world is this knife?!
+0x6c0bd	0x1db	ファーニス	そんな事より、その変な鎧脱いで早く一緒に帰ろうよ。\n・・・ねぇ・・・お兄ちゃん。	Forget all that. Take off that\nstrange\narmor and come home with me.\n...Hey... big brother.
+0x6c0bd	0x236	ブラフォード	私はすぐ、あの男を追う。\nウォーリック。\n妹を・・・ファーニスを頼む。	I must chase that man at once.\n{WARRICK}.\nLook after my sister... {FURNIS}.
+0x6c0bd	0x279	ファーニス	待ってよ、お兄ちゃん。\n私を置いて行かないでよ。	Wait, big brother.\nDon't leave me behind.
+0x6c0bd	0x2ac	ウォーリック	ちょっと、待ってくれ。\nまだ聞きたい事がたくさんあるんだ。\nあの黒い鎧の男も、何か関係があるのか！？	Hold on, wait.\nThere's still so much I want to ask.\nIs that man in black armor\nconnected to all this too?!
+0x6c0bd	0x30d	ブラフォード	・・・私達は、守護騎士だ。\nそれ以上は、何も言えない。\nブラフォード\n・・・これから神官竜に会いなさい。\n君達の道は、そこから決まる。	...We are {GUARDIAN} knights.\nI can say nothing more.\n\p{BLAFORD}\nNow go and meet the {PRIEST DRAGON}.\nYour path is decided from there.
+0x6c0bd	0x3a8	ファーニス	・・・お兄ちゃん。\n・・・行っちゃったよ。\n何で私を置いて行くの？\nファーニス\nいつも。\n・・・いつもそうだよ。	...Big brother.\n...He's gone.\nWhy do you leave me behind?\n\p{FURNIS}\nAlways.\n...It's always like this.
 0x6c0bd	0x419	ウォーリック	あの３鎧７・・・ランバートの着ていた物と同じだ。	That armor... it's the same\nas what {LAMBERT} wore.
 0x6c0bd	0x44f	レイナ	あの黒い鎧の男も・・・みんな、守護騎士って呼ばれてる様ね。	That man in black armor too...\nthey all seem to be called\nGUARDIANS.
 0x6c0bd	0x48a	ウォーリック	とにかく、ここに黄金のナイフが２本そろった。\n早くパディッシュを探し出そう。\nそうすれば全てがわかるはずだ。	Anyway, we have both Golden\nKNIVES now.\nLet's find {PADDISH} quickly.\nThen everything should\nbecome clear.
@@ -1244,38 +1244,38 @@ block_off	str_off	speaker	text	english
 0x6c570	0x494	ファーニス	説明は後だよ、お兄ちゃん！\nウォーリック、あいつ魔法陣にいた人じゃない。	Explain later, big brother!\n{WARRICK}, he's not the one\nfrom the {MAGIC CIRCLE}.
 0x6c570	0x4da		黒い鎧の男\n・・・ふんッ！\n仲間がいたのか。\nいいだろう。\nまとめて相手をしてやる。	Man in Black Armor\n...Hmph!\nSo you had companions.\nVery well.\nI'll take you all at once.
 0x6c570	0x541		黒い鎧の男\n・・・ちぃぃぃッ！\n命拾いしたな、ブラフォード。\n今日のところはエリオットを倒せただけで良しとしよう。	Black-armored man\n...Tch! You're lucky to be alive,\n{BLAFORD}.\nFelling {ELLIOTT} will do well\nenough for today.
-0x6c570	0x5bc	ライド	どうやら追い返せたな。	{RIDE}\nLooks like we drove him off.
-0x6c570	0x614	ブラフォード	・・・ファーニス。\nこれはどういう事だ？\n説明してくれ。	{BLAFORD}\n{...}{FURNIS}.\nWhat is the meaning of this?\nExplain yourself.
-0x6c570	0x64b	ファーニス	うんッ。\nあのね・・・。	{FURNIS}\nMm. Well, you see...
+0x6c570	0x5bc	ライド	どうやら追い返せたな。	Looks like we drove him off.
+0x6c570	0x614	ブラフォード	・・・ファーニス。\nこれはどういう事だ？\n説明してくれ。	{...}{FURNIS}.\nWhat is the meaning of this?\nExplain yourself.
+0x6c570	0x64b	ファーニス	うんッ。\nあのね・・・。	Mm. Well, you see...
 0x6c570	0x682		ファーニスは、今までの出来事を話した。	{FURNIS} told them all that had\nhappened.
-0x6c570	0x6ac	ブラフォード	・・・だいたいの事はわかった。\n皆さん、妹が世話になった。\n礼を言う・・・ありがとう。	{BLAFORD}\n...I see the gist of it.\nThank you all for looking after\nmy sister. I'm grateful...\nThank you.
-0x6c570	0x703	ウォーリック	とんでもない。\n逆に俺達が助けられてる方さッ。	{WARRICK}\nNot at all.\nIf anything, she's the one\nsaving us.
-0x6c570	0x72e	ブラフォード	ウォーリック。\n君に渡したい物がある。\nちょっと付いて来てくれ。	{BLAFORD}\n{WARRICK}.\nThere's something I'd give you.\nCome with me a moment.
-0x6c570	0x79c	ファーニス	お兄ちゃんは、そっちじゃないよ。	{FURNIS}\nThat's not the way, brother.
+0x6c570	0x6ac	ブラフォード	・・・だいたいの事はわかった。\n皆さん、妹が世話になった。\n礼を言う・・・ありがとう。	...I see the gist of it.\nThank you all for looking after\nmy sister. I'm grateful...\nThank you.
+0x6c570	0x703	ウォーリック	とんでもない。\n逆に俺達が助けられてる方さッ。	Not at all.\nIf anything, she's the one\nsaving us.
+0x6c570	0x72e	ブラフォード	ウォーリック。\n君に渡したい物がある。\nちょっと付いて来てくれ。	{WARRICK}.\nThere's something I'd give you.\nCome with me a moment.
+0x6c570	0x79c	ファーニス	お兄ちゃんは、そっちじゃないよ。	That's not the way, brother.
 0x6ca81	0xc		武器屋\n⟨14⟩⟨14⟩ジャクーナ\n狩猟用、攻撃用、武器類各種取り揃えてございます。	Weapon Shop\nJakuna\nWe stock all manner of hunting\nand attack weapons.
 0x6ca81	0x7d		道具屋\n⟨14⟩⟨14⟩ミディー\nプリティーなミディーのお店。\n生活用品なら、ここよ。	Item Shop\nMidi\nMidi's pretty little shop.\nFor daily goods, come here.
 0x6ca81	0xc8		１週間　６００ダイン。\n⟨14⟩御食事⟨14⟩定食　２５ダインより。	One week, 600 {DYNE}.\nMealsSet meals from 25 {DYNE}.
 0x6ca81	0xed		ジェシカの武器屋\n\n神官用打撃武器、各種取り揃えてございます。	Jessica's Weapon Shop\n\nWe stock all manner of blunt\nweapons for the clergy.
 0x6ca81	0x128		おシャレな貴方に、素敵な一着。	A fine outfit for the\nfashionable you.
 0x6ca81	0x157		ライト\n\n魔導具の修理、調整いたします。	Light\n\nWe repair and tune\nmagic devices.
-0x6ca81	0x1d4	ファーニス	・・・なんか、活気の無い街だね。	{FURNIS}\n...somehow, this town feels\nlifeless.
-0x6ca81	0x1ff	ゼロ船長	やはり来たな。\n用意はできているのか？	{CAPTAIN ZERO}\nSo you came after all.\nAre you ready?
+0x6ca81	0x1d4	ファーニス	・・・なんか、活気の無い街だね。	...somehow, this town feels\nlifeless.
+0x6ca81	0x1ff	ゼロ船長	やはり来たな。\n用意はできているのか？	So you came after all.\nAre you ready?
 0x6ca81	0x226		・ちょっと待って。\n・行きましょう。	・Wait a moment.\n・Let's go.
-0x6ca81	0x23d	ゼロ船長	装備を整えてから来い。	{CAPTAIN ZERO}\nCome back once you're equipped.
-0x6ca81	0x25e	ゼロ船長	よしっ！\n出航準備だっ。	{CAPTAIN ZERO}\nRight!\nPrepare to set sail.
+0x6ca81	0x23d	ゼロ船長	装備を整えてから来い。	Come back once you're equipped.
+0x6ca81	0x25e	ゼロ船長	よしっ！\n出航準備だっ。	Right!\nPrepare to set sail.
 0x6ca81	0x2cc		か航速度保て！\n魔力吸収セイル、オープ	Hold cruising speed!\nMagic-absorbing sails, open
 0x6ca81	0x31d		んです。	...we are.
 0x6ca81	0x322		ですか？	...is it?
 0x6ca81	0x344		を受け取った。	...was received.
 0x6ca81	0x375		地の法皇よ。	{O POPE OF THE EARTH.}
-0x6ca81	0x41c	ゼロ船長	戦闘艦としてのバッカス２世号の威力。見せてやろう。\nゼロ船長\nポップ！\n精霊達の少しの変化も見逃すな。	{CAPTAIN ZERO}\nBehold the might of the {BACCHUS II}\nas a warship.\p {CAPTAIN ZERO}\n{POP}!\nDon't miss the slightest shift\nin the spirits.
-0x6ca81	0x472	ゼロ船長	クイーンストーカー号の船足は速いぞ。もう、奴を捕捉した筈だ。	{CAPTAIN ZERO}\nThe {QUEEN STALKER} is swift.\nShe's surely sighted us by now.
-0x6ca81	0x4a8	ゼロ船長	お前達。\n戦う前に船酔するなよ。	{CAPTAIN ZERO}\nYou lot.\nDon't get seasick before we fight.
-0x6ca81	0x4d3	ファーニス	ぐべぇぇぇッ。\n私、酔ったぁぁぁッ。	{FURNIS}\nUuurgh...\nI'm gonna be siiick!
-0x6ca81	0x4fd	ゼロ船長	お前達、砂上戦は未経験だろう。\n陸地とは勝手が違うぞ。\n流砂だけは気を付けろ。	{CAPTAIN ZERO}\nYou've never fought on the sand.\nIt's nothing like dry land.\nWatch out for quicksand above all.
-0x6ca81	0x550	ポップ	俺は精霊使いなんだ。\nまあ、船の目の役割だ。\nちなみにタップは魔導士なんだぜ。	{POP}\nI'm a spirit caller.\nI serve as the eyes of the ship.\n{TAP} there is a mage, by the way.
-0x6ca81	0x58c	ポップ	攻撃地点まではまだだよ。\n船内でも見学すればいい。	{POP}\nWe're not at the strike point yet.\nFeel free to look around inside.
-0x6ca81	0x5bf	ポップ	砂の海ってのは、精霊達が狂っちまった死の世界だ。\nどうしてこんなになったんだろう。	{POP}\nThe {SAND SEA} is a dead world where\nthe spirits went mad.\nHow did it ever come to this?
+0x6ca81	0x41c	ゼロ船長	戦闘艦としてのバッカス２世号の威力。見せてやろう。\nゼロ船長\nポップ！\n精霊達の少しの変化も見逃すな。	Behold the might of the {BACCHUS II}\nas a warship.\p {CAPTAIN ZERO}\n{POP}!\nDon't miss the slightest shift\nin the spirits.
+0x6ca81	0x472	ゼロ船長	クイーンストーカー号の船足は速いぞ。もう、奴を捕捉した筈だ。	The {QUEEN STALKER} is swift.\nShe's surely sighted us by now.
+0x6ca81	0x4a8	ゼロ船長	お前達。\n戦う前に船酔するなよ。	You lot.\nDon't get seasick before we fight.
+0x6ca81	0x4d3	ファーニス	ぐべぇぇぇッ。\n私、酔ったぁぁぁッ。	Uuurgh...\nI'm gonna be siiick!
+0x6ca81	0x4fd	ゼロ船長	お前達、砂上戦は未経験だろう。\n陸地とは勝手が違うぞ。\n流砂だけは気を付けろ。	You've never fought on the sand.\nIt's nothing like dry land.\nWatch out for quicksand above all.
+0x6ca81	0x550	ポップ	俺は精霊使いなんだ。\nまあ、船の目の役割だ。\nちなみにタップは魔導士なんだぜ。	I'm a spirit caller.\nI serve as the eyes of the ship.\n{TAP} there is a mage, by the way.
+0x6ca81	0x58c	ポップ	攻撃地点まではまだだよ。\n船内でも見学すればいい。	We're not at the strike point yet.\nFeel free to look around inside.
+0x6ca81	0x5bf	ポップ	砂の海ってのは、精霊達が狂っちまった死の世界だ。\nどうしてこんなになったんだろう。	The {SAND SEA} is a dead world where\nthe spirits went mad.\nHow did it ever come to this?
 0x6ca81	0x5f5	ポップ	精霊反応、今だ無し。	No spirit response yet.
 0x6ca81	0x60f	ポップ	この真下に水晶の角があるんだ。\nこいつで、モビーディックをグサリさッ。	A {CRYSTAL HORN} lies right below us.\nWe'll skewer {MOBY DICK} with it.
 0x6ca81	0x640	タップ	ここはバッカス２世号の動力室だよ。\n俺は少し魔法が使えるから制御係なんだ。	This is the {BACCHUS II}'s engine room.\nI know a little magic, so I'm\nthe control hand.
@@ -1286,96 +1286,96 @@ block_off	str_off	speaker	text	english
 0x6d064	0xe		ジャクーナ\nいらっしゃいませ。	Jacoona\nWelcome, welcome.
 0x6d064	0x29		御探し物は？	What are you looking for?
 0x6d064	0x3c	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Leave the shop.\n・Show your wares.
-0x6d064	0x6d	レイナ	買物は、もういいわ。	{REINA}\nI'm done shopping for now.
-0x6d064	0x8d	レイナ	やっぱり節約のため、買わない。	{REINA}\nLet's save our money. I'll pass.
+0x6d064	0x6d	レイナ	買物は、もういいわ。	I'm done shopping for now.
+0x6d064	0x8d	レイナ	やっぱり節約のため、買わない。	Let's save our money. I'll pass.
 0x6d064	0xaf		ジャクーナ\n在庫が少なくてすまんな。\nみんな、モビーディック戦の時に出しちまったんだよ。	Jacoona\nSorry the stock's so thin.\nWe used it all up fighting\n{MOBY DICK}.
-0x6d064	0xef	ファーニス	モビーディックって、鯨さんの事？	{FURNIS}\n{MOBY DICK}? You mean the whale?
+0x6d064	0xef	ファーニス	モビーディックって、鯨さんの事？	{MOBY DICK}? You mean the whale?
 0x6d064	0x10d		ジャクーナ\n鯨さんなんて優しい、モノじゃないよ。普通の砂鯨の７倍はデカイ。\nおまけにどう猛で、かったぱしから船を攻撃しやがる。\nこの街の漁師のほとんどが奴にやられちまった。	Jacoona\nNo gentle whale, that one.\nSeven times the size of a sand\nwhale, and savage too. It attacks\nevery ship it sees.\nMost of this town's fishermen fell\nto it.
 0x6d064	0x184		ジャクーナ\nまったく、この街も淋しくなったなぁ。これもみんなモビーディックのせいさ。早く、元の活気に満ちた街に戻ってほしいなッ。	Jacoona\nThis town's gone quiet, all\nbecause of {MOBY DICK}. I wish\nit'd liven back up like the\nold days.
 0x6d064	0x1d6		ジャクーナ\nこのお店じゃ、５割で引取ってるよ。	Jacoona\nThis shop buys at half price.
-0x6d064	0x20d	レイナ	今回はやめておくわ。	{REINA}\nI'll pass this time.
+0x6d064	0x20d	レイナ	今回はやめておくわ。	I'll pass this time.
 0x6d064	0x225		ジャクーナ\nありがとうござぁぁぁい。	Jacoona\nThank you kindly.
 0x6d064	0x23e		ジャクーナ\nウォーハンマーって聞くと、ビッグなトンカチをイメージする人がいるけど違うぜ。\nこれは小さい鎚頭とピックを合わせた武器で、刺すのと叩くのと２通りの使い方ができるんだ。	Jakuna\nWhen folks hear war hammer they\npicture a giant mallet, but no.\nIt's a small hammerhead joined\nwith a pick -- you can stab or\nbash, two ways to use it.
-0x6d064	0x2cf	レイナ	ウォーハンマーって、以外と小さいのねぇ。\nやっぱり私も巨大金鎚を想像してたわ。	{REINA}\nA war hammer's smaller than I\nthought. I pictured a huge\nmallet too.
-0x6d064	0x320	ファーニス	トンカチじゃないのぉ。\nカワイくなぁぁぁぁぁい。	{FURNIS}\nIt's not a mallet?\nHow uncuuuuute.
+0x6d064	0x2cf	レイナ	ウォーハンマーって、以外と小さいのねぇ。\nやっぱり私も巨大金鎚を想像してたわ。	A war hammer's smaller than I\nthought. I pictured a huge\nmallet too.
+0x6d064	0x320	ファーニス	トンカチじゃないのぉ。\nカワイくなぁぁぁぁぁい。	It's not a mallet?\nHow uncuuuuute.
 0x6d064	0x34d		ジャクーナ\n幅広の刃の付いた戦斧で、バトルアックスに比べると柄も長く、力が込めやすくなっているんだ。\n船乗りが砂鯨に止めを刺す時にも使われるんだ。\nかなり重いぞ。	Jakuna\nA broad-bladed battle axe with\na longer haft, so you can put\nmore force in than a regular\none. Sailors use it to finish\noff sand whales. Quite heavy.
-0x6d064	0x3d7	レイナ	海の男って３斧７が似合うわね。	{REINA}\nA sea man really suits an axe.
-0x6d064	0x3ff	ファーニス	刃が両方に付いているのが特徴だね。	{FURNIS}\nThe blades on both sides are\nwhat make it special.
+0x6d064	0x3d7	レイナ	海の男って３斧７が似合うわね。	A sea man really suits an axe.
+0x6d064	0x3ff	ファーニス	刃が両方に付いているのが特徴だね。	The blades on both sides are\nwhat make it special.
 0x6d064	0x425		ジャクーナ\nモーニングスター・・・うぅぅぅん、いいネーミングだねぇ。\nこいつはスパイクのいっぱい付いた星型の鉄球と握りとを、鎖で繋いだ武器で、フレイルの超豪華版ってとこかな。	Jakuna\nMorning star... mmm, what a\nfine name. It's a spiked\nstar-shaped iron ball joined\nto a grip by a chain -- a\nsuper deluxe flail, I'd say.
-0x6d064	0x4c3	レイナ	自分で振って、自分に当っちゃったりして。	{REINA}\nSwing it yourself and you might\njust hit yourself.
-0x6d064	0x4f3	ファーニス	お星さま、キラキラ。	{FURNIS}\nStars, all sparkly.
-0x6d064	0x514	ライド	シブい俺には似合わぬ武器だ。	{RIDE}\nToo flashy a weapon for a cool\nguy like me.
+0x6d064	0x4c3	レイナ	自分で振って、自分に当っちゃったりして。	Swing it yourself and you might\njust hit yourself.
+0x6d064	0x4f3	ファーニス	お星さま、キラキラ。	Stars, all sparkly.
+0x6d064	0x514	ライド	シブい俺には似合わぬ武器だ。	Too flashy a weapon for a cool\nguy like me.
 0x6d064	0x536		ジャクーナ\n三又の３槍７を言えば聞こえはいいが、これは大型のモリだな。\nこの街じゃ砂魚なんかを捕るのに使われてるが、戦闘用としても立派に使えるぜ。\nこの砂の海じゃ一番の武器だ！	Jakuna\nCall it a three-pronged spear\nand it sounds grand, but it's a\nbig harpoon. Folks here catch\nsand fish with it, but it's a\nfine weapon too. Best one for\nthis sand sea!
-0x6d064	0x5c2	レイナ	砂の海でも使える３槍７なんて、凄いわねぇ。	{REINA}\nA spear you can use even in the\nsand sea -- amazing.
+0x6d064	0x5c2	レイナ	砂の海でも使える３槍７なんて、凄いわねぇ。	A spear you can use even in the\nsand sea -- amazing.
 0x6d064	0x5ed	ファーニス	よく、虫歯の菌や悪魔が持ってるアレだね。	You know, the thing tooth-decay\ngerms and DEMONs always carry.
 0x6d064	0x616		ラホベ\nパラボじいちゃんならいないよ。\nモビーディックにやられちまった。\nラホベ\n俺のじいちゃんみたいな、立派な漁師になるんだ。\nそうそう、隣の小屋は発着所の待合室だから、誰もいないよ。	Rahobe\nGramps Parabo isn't here.\n{MOBY DICK} got him.\n\pRahobe\nI'll be a fine fisherman someday,\njust like my gramps was.\nOh right, the hut next door is the\ndock waiting room, so nobody's\nthere.
 0x6d064	0x69b		ラホベ\nモビーディックには勝てないよ。\nじいちゃんも負けたんだ。\n奴は海のデーモンさ。	Rahobe\nYou can't beat {MOBY DICK}.\nEven Gramps lost to him.\nHe's a {DEMON} of the sea.
 0x6d55a	0xe		レミー\n・・・いらっしゃいませ。\nごゆっくりどうぞ。	Remy\n...Welcome.\nTake your time.
 0x6d55a	0x3b		いかがいたします？	What can I do for you?
 0x6d55a	0x4f	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・瞬間移動したい。\n・お店を出よう。	{・LET'S TALK.}\n{・SELL ITEMS.}\n{・TELEPORT.}\n・Leave The {SHOP}.
-0x6d55a	0x85	レイナ	お買物は、あとで。	{REINA}\nWe'll shop later.
-0x6d55a	0xaa	レイナ	今、持ち合わせがないのよ。	{REINA}\nWe're short on cash right now.
+0x6d55a	0x85	レイナ	お買物は、あとで。	We'll shop later.
+0x6d55a	0xaa	レイナ	今、持ち合わせがないのよ。	We're short on cash right now.
 0x6d55a	0xca		レミー\nこの砂の海に大型の砂鯨、モビーディックが現れたの。\nモビーディックは雷精の加護を受けた魔物よ。\nレミー\nこの精霊達の狂った砂の海に住む生物達は、何かしら特殊能力を持っているから気を付けて。	Remy\nA giant sand whale, {MOBY DICK},\nhas appeared in this {SAND SEA}.\n{MOBY DICK} is a beast blessed\nby the lightning {SPIRIT}.\p Remy\nThe creatures of this maddened\n{SAND SEA} all wield some strange\npower, so take care.
 0x6d55a	0x157		レミー\n誰かモビーディックを倒して。	Remy\nSomeone, please slay {MOBY DICK}.
 0x6d55a	0x172		レミー\nうちは４割で引取るわ。	Remy\nWe buy back at 40 percent.
-0x6d55a	0x1a0	レイナ	もうちょっと使ってからにするわ。	{REINA}\nI'll use it a while longer first.
+0x6d55a	0x1a0	レイナ	もうちょっと使ってからにするわ。	I'll use it a while longer first.
 0x6d55a	0x1c0		レミー\n・・・砂の海は越えられないわよ。\n砂の海は、精霊の力が正しく働かないのよ。	Remy\n...You can't cross the {SAND SEA}.\nOut there, the {SPIRITS}' power\ndoesn't work as it should.
 0x6d55a	0x1fc		レミー\n５００ダインだけど、どうする？	Remy\nIt's 500 {DYNE}. What'll it be?
 0x6d55a	0x21a		・クラウスの村に行く。\n・ジーク王国に行く。\n・セルーシュ王国に行く。\n・やめておく。	・Go to {KLAUS VILLAGE}.\n・Go to {ZEKE KINGDOM}.\n・Go to {SERUSH KINGDOM}.\n・Never mind.
 0x6d55a	0x257		レミー\nじゃあ、始めるわよ。\nレミー\n天地の皇王の名において、我、虚空の門を開かん。\nテレポート！	Remy\nAll right, let's begin.\pRemy\nIn the name of the Pope Of The\nHEAVENS and earth, I open the\nvoid gate.\nTELEPORT!
 0x6d55a	0x2f6		レミー\nありがとうございました。	Remy\nThank you kindly.
 0x6d55a	0x305		レミー\nこれは、古代魔法文明の遺産です。\nカーズってのは、昔いた魔導具職人の名で、かなりの数の作品を残しているんですよ。\nこの杖も、その１つで、かなりの魔力を秘めているわ。	Remy\nThis is a relic of an ancient\nmagic civilization.\nKarz was an old artisan of\nmagic tools who left behind\nmany works.\nThis {ROD} is one of them, and it\nhides great magic power.
-0x6d55a	0x3a9	レイナ	そう言えばカーズのローブってあったわねぇ。	{REINA}\nCome to think of it, there was\na Karz {ROBE} too.
-0x6d55a	0x3d8	レイナ	今、私が着ているこれもカーズって人の作品なのね。\n数百年たっても残ってるなんて、凄い魔導技術ね。	{REINA}\nWhat I'm wearing now is also\na work by this Karz.\nStill around after centuries...\nwhat incredible magic craft.
+0x6d55a	0x3a9	レイナ	そう言えばカーズのローブってあったわねぇ。	Come to think of it, there was\na Karz {ROBE} too.
+0x6d55a	0x3d8	レイナ	今、私が着ているこれもカーズって人の作品なのね。\n数百年たっても残ってるなんて、凄い魔導技術ね。	What I'm wearing now is also\na work by this Karz.\nStill around after centuries...\nwhat incredible magic craft.
 0x6d55a	0x430		レミー\nこれは、ミスリル製のレイピアよ。\n普通のレイピアの場合あまり固い物を攻撃すると刃が折れる心配があったけど、これなら安心です。\nそれにさらに軽くなっているし、攻撃力もかなり上がってます。	Remy\nThis is a {MYTHRIL} rapier.\nAn ordinary rapier risks its\nblade snapping on hard targets,\nbut with this one, no worries.\nIt's lighter too, and its\nattack power is much higher.
-0x6d55a	0x4cd	ファーニス	わぁぁぁぁぁ！\nとってもキレイだし、カッコいいねぇ。ねぇ、これ欲しい。\n欲しい、欲しい、欲しいぃぃぃッ。	{FURNIS}\nWaaaaah!\nSo pretty, and so cool!\nHey, I want this.\nI want it, want it, want iiiit!
-0x6d55a	0x523	ファーニス	私、今使ってるよ。\nどぉお？\n私、似合う、似合う？	{FURNIS}\nI'm using it now.\nWell?\nDoes it suit me, does it?
+0x6d55a	0x4cd	ファーニス	わぁぁぁぁぁ！\nとってもキレイだし、カッコいいねぇ。ねぇ、これ欲しい。\n欲しい、欲しい、欲しいぃぃぃッ。	Waaaaah!\nSo pretty, and so cool!\nHey, I want this.\nI want it, want it, want iiiit!
+0x6d55a	0x523	ファーニス	私、今使ってるよ。\nどぉお？\n私、似合う、似合う？	I'm using it now.\nWell?\nDoes it suit me, does it?
 0x6d55a	0x559		レミー\nこれは魔導士のローブに、暗黒魔術で召喚した闇を織り込ました物です。\n物理攻撃から魔法攻撃まで、すべての攻撃を吸収してくれるわ。\n暗黒魔術って悪質な感じを受けるけど、とても洗練されたモノなのよ。	Remy\nThis is a {MAGE} {ROBE} woven\nwith darkness summoned by\n{DARK MAGIC}.\nIt absorbs every attack, from\nphysical to magical.\n{DARK MAGIC} sounds wicked, but\nthis is a most refined piece.
-0x6d55a	0x5f2	レイナ	パーシャ様も使っていたし、私も暗黒魔術には興味があるわ。	{REINA}\n{PASHA} used it too, and I'm\ninterested in {DARK MAGIC}\nmyself.
+0x6d55a	0x5f2	レイナ	パーシャ様も使っていたし、私も暗黒魔術には興味があるわ。	{PASHA} used it too, and I'm\ninterested in {DARK MAGIC}\nmyself.
 0x6d55a	0x622		レミー\n金って素材はあまり魔力を含んでいないんだけど、人気があるのよねぇ。魔力が無いからって紛い物じゃないわよ。\nこの指輪は強い呪紋処理をしてあるら安心して。	Remy\nGold doesn't hold much magic\npower, but it's popular all\nthe same.\nNo magic doesn't make it fake.\nThis {RING} has strong rune\nwork, so rest easy.
-0x6d55a	0x6ad	ファーニス	金って人気があるのね。	{FURNIS}\nSo gold is popular, huh.
+0x6d55a	0x6ad	ファーニス	金って人気があるのね。	So gold is popular, huh.
 0x6d55a	0x6ce		レミー\n白銀でできた指輪です。\nとってもキレイでしょ。\nもう、この指輪は説明の余地がないほどの人気なのよ。\n在庫も少ないから、買うんなら今のうちよ。	{REINA}\nA ring of pure silver.\nLovely, isn't it?\nThis ring's so popular there's\nno need to explain it.\nStock is low, so buy now if at all.
-0x6d55a	0x747	レイナ	わぁぁぁ、本当にキレイねぇ。	{REINA}\nOhhh, it really is beautiful.
+0x6d55a	0x747	レイナ	わぁぁぁ、本当にキレイねぇ。	Ohhh, it really is beautiful.
 0x6d55a	0x77a		のセンスもいいよ。	has good taste, too.
 0x6da8d	0xe		ミディー\nいらっしゃいませ。\n店長のミディーでぇぇぇす。	Midi\nWelcome!\nI'm Midi, the shopkeeper!
 0x6da8d	0x3e		何にする？	What'll it be?
 0x6da8d	0x4e	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	{・LET'S TALK.}\n{・SELL ITEMS.}\n・Leave The {SHOP}.
-0x6da8d	0x81	レイナ	買物はまた後で。	{REINA}\nI'll shop later.
-0x6da8d	0xa0	レイナ	節約しなきゃ。	{REINA}\nGot to save my money.
+0x6da8d	0x81	レイナ	買物はまた後で。	I'll shop later.
+0x6da8d	0xa0	レイナ	節約しなきゃ。	Got to save my money.
 0x6da8d	0xb9		ミディー\nモビーディックを倒すために、漁師のほとんどが死んでしまったわ。\n誰か、みんなのカタキをとって。	Midi\nMost of the fishermen died\ntrying to slay {MOBY DICK}.\nSomeone, avenge them all.
 0x6da8d	0xff		ミディー\nナイトヘッド号も、キングシェル号も、アマヤー	Midi\nThe Nighthead, the Kingshell,\nthe Amaya
 0x6da8d	0x12b		号も、ブルーコメット号も、北天丸も、みんなモビーディックに沈められちゃったわ。	the Blue Comet, the Hokutenmaru...\n{MOBY DICK} sank them all.
 0x6da8d	0x163		ミディー\nここでは、６割で引取らせていただいてまぁぁぁす。	Midi\nHere we buy back at\nsixty percent!
-0x6da8d	0x19f	レイナ	うぅぅぅぅぅん。\nもうちょっと、使ってからにするわ。	{REINA}\nHmmmm.\nI'll use it a bit more first.
+0x6da8d	0x19f	レイナ	うぅぅぅぅぅん。\nもうちょっと、使ってからにするわ。	Hmmmm.\nI'll use it a bit more first.
 0x6da8d	0x1c8		ミディー\nありがとうございました。\nまた、買いに来てねぇぇぇ。	Midi\nThank you so much!\nCome buy from us again!
 0x6da8d	0x1ec		ミディー\nこの薬草には、砂ワカメも入っているのよ。\n砂ワカメには日射病の対抗性があって、この砂の海で生活する人々には欠かせない物なの。	Midi\nThis herb has sand kelp in it.\nSand kelp wards off sunstroke,\na must for folk living out\nhere on the {SAND SEA}.
-0x6da8d	0x260	レイナ	ワカメって、髪の毛が濃くなるのよね。ウォーリックが将来ハゲない様に、買っておきたいわ。	{REINA}\nSeaweed makes your hair grow thick.\nI should buy some so {WARRICK}\ndoesn't go bald someday.
-0x6da8d	0x2ae	ファーニス	ワカメと昆布は違います。	{FURNIS}\nWakame and kelp aren't the same.
+0x6da8d	0x260	レイナ	ワカメって、髪の毛が濃くなるのよね。ウォーリックが将来ハゲない様に、買っておきたいわ。	Seaweed makes your hair grow thick.\nI should buy some so {WARRICK}\ndoesn't go bald someday.
+0x6da8d	0x2ae	ファーニス	ワカメと昆布は違います。	Wakame and kelp aren't the same.
 0x6da8d	0x2d6		ミディー\nこのポーションは当店の薬草袋の成分と同じよ。\nかなり濃く作ってあるからよくお客さんから苦いって言われるもんで、サービスで味噌で味付けしてあるの。凄いでしょ。	Midi\nThis {POTION} has the same makeup as\nour {HERB POUCH}.\nIt's brewed strong, so folks always\nsay it's bitter. As a courtesy I\nseasoned it with miso. Amazing,\nright?
-0x6da8d	0x355	レイナ	なんで味噌味なの？	{REINA}\nWhy miso flavor?
-0x6da8d	0x377	ファーニス	神秘の味がしそうだね。	{FURNIS}\nSounds like a mystical taste.
+0x6da8d	0x355	レイナ	なんで味噌味なの？	Why miso flavor?
+0x6da8d	0x377	ファーニス	神秘の味がしそうだね。	Sounds like a mystical taste.
 0x6da8d	0x396		ミディー\nちょっと情けない名前だけど、これはれっきとした魔導具よ。\n戦闘中使うと敵をテレポートで飛ばせるの。\n魔法に関する危険性がまったくないし、道具屋でも扱えるのよ。	Midi\nA silly name, but it's a real magic\ntool. Use it in battle and you can\nteleport enemies away.\nNo magic risk at all, and even an\n{ITEM SHOP} can sell it.
-0x6da8d	0x425	レイナ	面白そうね、コレ。	{REINA}\nThis looks fun.
-0x6da8d	0x446	ファーニス	素敵な名前ね。	{FURNIS}\nWhat a lovely name.
+0x6da8d	0x425	レイナ	面白そうね、コレ。	This looks fun.
+0x6da8d	0x446	ファーニス	素敵な名前ね。	What a lovely name.
 0x6da8d	0x460		ミディー\nクロスボウって言うのは、太矢を置く台尻と、弓とを一体化した武器よ。\n照準器付きで正確に狙えるし、その威力はプレートメイルだって簡単に貫通できちゃうわ。\nただ速射はできないわね。	Midi\nA crossbow joins a stock for the\nbolt with the bow itself.\nIt has a sight for true aim, and\nits power punches right through\nplate {MAIL}. It just can't fire fast.
-0x6da8d	0x500	レイナ	強力そうね。\nそれにカッコいいわ。	{REINA}\nLooks powerful.\nAnd it's cool too.
-0x6da8d	0x531	ファーニス	私、これ欲しいなぁ。\nねぇ、買おッ、買おッ、買おぉぉぉ。	{FURNIS}\nI really want this one.\nHey, let's buy it, buy it, buy it!
-0x6da8d	0x56e	ファーニス	これって凄くいいよ。\n使いやすいし、強いしね。	{FURNIS}\nThis one's really great.\nEasy to use, and strong too.
+0x6da8d	0x500	レイナ	強力そうね。\nそれにカッコいいわ。	Looks powerful.\nAnd it's cool too.
+0x6da8d	0x531	ファーニス	私、これ欲しいなぁ。\nねぇ、買おッ、買おッ、買おぉぉぉ。	I really want this one.\nHey, let's buy it, buy it, buy it!
+0x6da8d	0x56e	ファーニス	これって凄くいいよ。\n使いやすいし、強いしね。	This one's really great.\nEasy to use, and strong too.
 0x6da8d	0x59b		ミディー\nこのブーツはプロテクトブーツと同じく、装甲付きのブーツよ。\nただ使っている装甲は金属製じゃなくて、甲殻類の装甲を使っているの。とっても丈夫だし軽いのが特徴ね。	Midi\nThese boots are armored, just like\nProtect Boots. But the plating\nisn't metal -- it's crustacean\nshell. Tough as nails, and so light.
-0x6da8d	0x622	レイナ	本当っ！\n軽いわねこのブーツ。	{REINA}\nReally!\nThese boots are so light!
-0x6da8d	0x64b	ファーニス	甲殻類って、蟹さんや海老さんの事だよね。	{FURNIS}\nCrustaceans... you mean things like\ncrabs and shrimp, right?
+0x6da8d	0x622	レイナ	本当っ！\n軽いわねこのブーツ。	Really!\nThese boots are so light!
+0x6da8d	0x64b	ファーニス	甲殻類って、蟹さんや海老さんの事だよね。	Crustaceans... you mean things like\ncrabs and shrimp, right?
 0x6df16	0xe		ジョナ婆さん\nいらっしゃい。\nゆっくりしてきな。	Granny Jonah\nWelcome in.\nTake your time and rest a while.
 0x6df16	0x37		何にするんだい？	What'll it be?
 0x6df16	0x4b		・宿泊します。\n・食事をとろう。\n・話をしよう。\n・テミスを換金します。\n・お店を出よう。	...Stay the night.\n...Have a meal.\n...Let's talk.\n{...}{EXCHANGE} {THEMIS}.\n...Leave the shop.
-0x6df16	0x7d	レイナ	お金が足りないわ。	{REINA}\nWe don't have enough money.
+0x6df16	0x7d	レイナ	お金が足りないわ。	We don't have enough money.
 0x6df16	0x95		ジョナ婆さん\nお泊りかい。\n１週間で、６００ダインでいいよ。	Granny Jonah\nStaying the night?\nIt's 600 {DYNE} for a week.
 0x6df16	0xc4		・泊まる。\n・やめておく。	...Stay.\n...Never mind.
-0x6df16	0xdf	レイナ	私達、そんなに疲れてないわ。	{REINA}\nWe're not that tired yet.
+0x6df16	0xdf	レイナ	私達、そんなに疲れてないわ。	We're not that tired yet.
 0x6df16	0x106		ジョナ婆さん\n２階の真中の部屋を使いな。\n１週間は自由にしていいよ。	Granny Jonah\nTake the middle room upstairs.\nIt's yours for a week, free to use.
-0x6df16	0x14d	ウォーリック	おやすみなさい、レイナ。	{WARRICK}\nGoodnight, {REINA}.
+0x6df16	0x14d	ウォーリック	おやすみなさい、レイナ。	Goodnight, {REINA}.
 0x6df16	0x186		ジョナ婆さん\n今、ちょうどランチタイムだから、人数分で、１００ダインだね。	Granny Jonah\nIt's just lunchtime now.\n100 {DYNE} for the whole party.
 0x6df16	0x1b9		・食事にする。\n・やめておく。	...Have the meal.\n...Never mind.
-0x6df16	0x1d6	ファーニス	まだ、食べたくなぁい。	{FURNIS}\nI'm not hungry yet.
+0x6df16	0x1d6	ファーニス	まだ、食べたくなぁい。	I'm not hungry yet.
 0x6df16	0x211		ジョナ婆さん\n今日は、砂蟹のクリームコロッケと、砂鯵のフライ定食だよ。\n適当に開いてる所で喰っとくれ。	Granny Jonah\nToday it's sand crab cream croquettes\nand fried sand mackerel set.\nGrab any open seat and dig in.
 0x6df16	0x267	ファーニス	・・・以外と美味しいね。	Furnis\n...Better than I expected.
 0x6df16	0x28e		ジョナ婆さん\n今日の定食は、砂鮪の刺身と砂ワカメの味噌汁だよ。\n適当に開いてる所で喰っとくれ。	Granny Jonah\nToday's set is sand tuna sashimi\nand sand seaweed miso soup.\nGrab any open seat and dig in.
@@ -1390,58 +1390,58 @@ block_off	str_off	speaker	text	english
 0x6df16	0x50d		どうするんだい？	What'll it be?
 0x6df16	0x51f		・換金する。\n・まだしない。	・Exchange.\n・Not yet.
 0x6df16	0x533		・換金する。\n・まだしない。	・Exchange.\n・Not yet.
-0x6df16	0x54d	レイナ	もっと、換金率のいい時にするわ。	{REINA}\nI'll wait for a better rate.
+0x6df16	0x54d	レイナ	もっと、換金率のいい時にするわ。	I'll wait for a better rate.
 0x6df16	0x56c		ジョナ婆さん\n換金は１００テミス以上ないとできないよ。	Granny Jonah\nI can't exchange less than\n100 {THEMIS}.
 0x6df16	0x5c7		ジョナ婆さん\n換金終ったよ。	Granny Jonah\nExchange complete.
 0x6df16	0x5e4		ジョナ婆さん\nまた、いつでも来な。	Granny Jonah\nCome back anytime.
 0x6df16	0x606		ジョナ婆さん\n砂の城に行きたいだって？\nこの街から船は出ないんだよ。\nみんな、モビーディックのせいさ。\n船を次々と襲っては、多くの漁師達を砂の海に引きずり込んだ。\nジョナ婆さん\n漁師達だって腰抜けじゃない。\n皆、こぞって奴を退治に行ったんだ。・・・でも戻って来たのは、たったの２隻。\nジョナ婆さん\nゼロ船長のバッカス２世号と、クランキー船長のナイトヘッド号。\nナイトヘッド号は港近くで沈没。\n助けられたクランキー船長も昨日死んだよ。\nジョナ婆さん\n砂の海を渡りたいならゼロ船長に頼みな。\n船長なら２階の奥の部屋にいるよ。	Granny Jonah\nYou want to reach the {SAND CASTLE}?\nNo ships leave this town anymore.\nIt's all {MOBY DICK}'s doing.\nHe attacked ship after ship and\ndragged the fishermen down into\nthe {SAND SEA}.\pGranny Jonah\nThe fishermen were no cowards.\nThey all went off to slay him.\n...But only two ships came back.\pGranny Jonah\n{CAPTAIN ZERO}'s {BACCHUS II} and\nCRANKY's Night Head.\nNIGHT Head sank near the port.\nWe saved Cranky, but he died\njust yesterday.\pGranny Jonah\nIf you want to cross the {SAND SEA},\nask {CAPTAIN ZERO}.\nHe's in the back room upstairs.
-0x6e441	0x14	ポップ	砂の海を渡りたいって！？\n駄目だよ、駄目。\n出ていってくれ。	{POP}\nYou want to cross the {SAND SEA}!?\nNo. No way. Get out of here.
-0x6e441	0x4c	タップ	船長は怪我をしてるんだ。\n出てってくれよ。	{TAP}\nThe {CAPTAIN} is wounded.\nGet out of here.
-0x6e441	0x72	ポップ	船は出せないんだよ。\n駄目だ、駄目だ。	{POP}\nWe can't set sail. No.\nNo way.
-0x6e441	0x9d	タップ	船なら出ないよ。\n船長にもしもの事があったらどうするんだ。	{TAP}\nThe ship won't sail.\nWhat if something happens to\nthe {CAPTAIN}?
+0x6e441	0x14	ポップ	砂の海を渡りたいって！？\n駄目だよ、駄目。\n出ていってくれ。	You want to cross the {SAND SEA}!?\nNo. No way. Get out of here.
+0x6e441	0x4c	タップ	船長は怪我をしてるんだ。\n出てってくれよ。	The {CAPTAIN} is wounded.\nGet out of here.
+0x6e441	0x72	ポップ	船は出せないんだよ。\n駄目だ、駄目だ。	We can't set sail. No.\nNo way.
+0x6e441	0x9d	タップ	船なら出ないよ。\n船長にもしもの事があったらどうするんだ。	The ship won't sail.\nWhat if something happens to\nthe {CAPTAIN}?
 0x6e441	0xd6	ゼロ船長	・・・よせ、ポップ、タップ。\n旅人の様だがよかろう。\n砂の海を渡してやる。	{ZERO}\n...Enough, {POP}, {TAP}.\nThey look like travelers. It's fine.\nI'll take them across the {SAND SEA}.
-0x6e441	0x113	タップ	しかし船長。	{TAP}\nBut {CAPTAIN}.
+0x6e441	0x113	タップ	しかし船長。	But {CAPTAIN}.
 0x6e441	0x126	ゼロ船長	私も海に戻らなくてはならない。	{ZERO}\nI must return to the sea as well.
-0x6e441	0x14e	ウォーリック	話は宿屋の婆さんから聞きました。\nできる事があったら、何でも言って下さい。	{WARRICK}\nThe old {GRANNY} at the {INN} told us.\nIf there's anything we can do,\njust say the word.
+0x6e441	0x14e	ウォーリック	話は宿屋の婆さんから聞きました。\nできる事があったら、何でも言って下さい。	The old {GRANNY} at the {INN} told us.\nIf there's anything we can do,\njust say the word.
 0x6e441	0x188	ゼロ船長	・・・水晶の角さえあれば。	{ZERO}\n...If only we had the {CRYSTAL HORN}.
 0x6e441	0x1b8	ゼロ船長	街の北の丘に水晶の角と呼ばれる水晶が生えている。\nそれさえあれば奴を倒せる。\nゼロ船長\n水晶の魔力が奴の魔力を封じ、対等に戦えるはずだ。	{ZERO}\nOn the hill north of town grows a\ncrystal called the {CRYSTAL HORN}.\nWith it, we can defeat him.\p{ZERO}\nIts magic seals his power, and we\ncan fight him as equals.
-0x6e441	0x226	ウォーリック	わかりました。\n北にある丘ですね。\n水晶の角は必ず取って来ます。	{WARRICK}\nUnderstood.\nThe hill to the north, yes?\nWe'll bring back the {CRYSTAL HORN}.
+0x6e441	0x226	ウォーリック	わかりました。\n北にある丘ですね。\n水晶の角は必ず取って来ます。	Understood.\nThe hill to the north, yes?\nWe'll bring back the {CRYSTAL HORN}.
 0x6e441	0x25c	ゼロ船長	ただ、丘には魔獣　キメラが住み付いている。\nそれでも行けるか？	{ZERO}\nBut a beast, a {CHIMERA}, dwells\non that hill.\nCan you go even so?
-0x6e441	0x29e	ライド	キメラなんて、めったにいない魔獣。望むところだぜ。	{RIDE}\nA {CHIMERA}? Now there's a rare\nbeast. Bring it on.
-0x6e441	0x2c9	ゼロ船長	・・・頼んだぞ。\nポップ、タップ、船の修理にかかれ。	{CAPTAIN ZERO}\n...I'm counting on you.\n{POP}, {TAP}, get to repairing\nthe ship.
-0x6e441	0x2ff	ポップ	気を付けて行ってくれ。	{POP}\nTake care out there.
-0x6e441	0x318	タップ	水晶さえあればモビーディックも楽勝だぜ。	{TAP}\nWith that crystal, even {MOBY DICK}\nwill be easy pickings.
-0x6e441	0x334	ポップ	あのキメラを倒したの！？\n凄いじゃないか。	{POP}\nYou beat that {CHIMERA}?\nIncredible!
-0x6e441	0x35c	ウォーリック	ゼロ船長！\n水晶の角を取って来ました。	{WARRICK}\n{CAPTAIN ZERO}!\nWe brought back the {CRYSTAL HORN}.
+0x6e441	0x29e	ライド	キメラなんて、めったにいない魔獣。望むところだぜ。	A {CHIMERA}? Now there's a rare\nbeast. Bring it on.
+0x6e441	0x2c9	ゼロ船長	・・・頼んだぞ。\nポップ、タップ、船の修理にかかれ。	...I'm counting on you.\n{POP}, {TAP}, get to repairing\nthe ship.
+0x6e441	0x2ff	ポップ	気を付けて行ってくれ。	Take care out there.
+0x6e441	0x318	タップ	水晶さえあればモビーディックも楽勝だぜ。	With that crystal, even {MOBY DICK}\nwill be easy pickings.
+0x6e441	0x334	ポップ	あのキメラを倒したの！？\n凄いじゃないか。	You beat that {CHIMERA}?\nIncredible!
+0x6e441	0x35c	ウォーリック	ゼロ船長！\n水晶の角を取って来ました。	{CAPTAIN ZERO}!\nWe brought back the {CRYSTAL HORN}.
 0x6e441	0x388		水晶の角を渡した。	Handed over the {CRYSTAL HORN}.
-0x6e441	0x3a8	ゼロ船長	・・・確かに水晶の角だ。\nよくやってくれた。\nこれで奴と戦える。	{CAPTAIN ZERO}\n...This is the {CRYSTAL HORN}, sure\nenough. Well done.\nNow we can fight him.
-0x6e441	0x3e6	ファーニス	でも、これをどうやって使うの？	{FURNIS}\nBut how do we use this?
-0x6e441	0x403	ゼロ船長	船首に突角として付け串刺しにする。\n水晶が奴の魔力を吸収している間に、砂上戦闘で止めを刺す。	{CAPTAIN ZERO}\nWe mount it as a ram on the bow\nand skewer him. While the crystal\ndrains his magic, we finish him\nin a battle on the sand.
-0x6e441	0x45b	ファーニス	砂の上でも、少しは歩けるんだ？\nでもモビーディックの位置がわからないのに、どうするの？	{FURNIS}\nSo we can walk a bit on the sand?\nBut we don't know where {MOBY DICK}\nis. What do we do?
-0x6e441	0x498	ゼロ船長	・・・オトリの小船を使って、おびき出す。	{CAPTAIN ZERO}\n...We use a decoy boat to\nlure him out.
+0x6e441	0x3a8	ゼロ船長	・・・確かに水晶の角だ。\nよくやってくれた。\nこれで奴と戦える。	...This is the {CRYSTAL HORN}, sure\nenough. Well done.\nNow we can fight him.
+0x6e441	0x3e6	ファーニス	でも、これをどうやって使うの？	But how do we use this?
+0x6e441	0x403	ゼロ船長	船首に突角として付け串刺しにする。\n水晶が奴の魔力を吸収している間に、砂上戦闘で止めを刺す。	We mount it as a ram on the bow\nand skewer him. While the crystal\ndrains his magic, we finish him\nin a battle on the sand.
+0x6e441	0x45b	ファーニス	砂の上でも、少しは歩けるんだ？\nでもモビーディックの位置がわからないのに、どうするの？	So we can walk a bit on the sand?\nBut we don't know where {MOBY DICK}\nis. What do we do?
+0x6e441	0x498	ゼロ船長	・・・オトリの小船を使って、おびき出す。	...We use a decoy boat to\nlure him out.
 0x6e441	0x4ce		女の声\nその役目、私がやろう。	A woman's voice\nI'll take that role.
 0x6e441	0x52e	ゼロ船長	・・・ウィルディースか。\nいつ戻った。	{...}{WILDEATH}.\nWhen did you get back?
 0x6e441	0x558	ウィルディース艦長	今日付いたわ。\n宿の婆さんから聞いたよ。\nみんなのカタキを取るんだったら、私も手伝わせてほしい。\nウィルディース艦長\nここは、私にとっても母港だ。\nいやだと言ってもやらせてもらうよ、ゼロ。	{WILDEATH}\nI arrived today.\nThe old woman at the {INN} told me.\nIf you mean to avenge them all,\nlet me help too.\p{WILDEATH}\nThis is my home port as well.\nEven if you say no, I'm in, {ZERO}.
 0x6e441	0x5d9	ゼロ船長	・・・いいだろう。	...Very well.
-0x6e441	0x605	ファーニス	ねぇ、ポップさん。\nあの人、誰？	{FURNIS}\nSay, {POP}.\nWho is that?
-0x6e441	0x628	ポップ	あの御方は、ウィルディース艦長だ。\nゼロ船長の仲間で、海賊潜砂艦クイーンストーカー号の艦長だよ。	{POP}\nThat is {WILDEATH}.\nShe's {ZERO}'s comrade, captain of\nthe pirate sand-sub {QUEEN STALKER}.
-0x6e441	0x65b	ファーニス	海賊！？\nあの人、海賊なの。	{FURNIS}\nA pirate!?\nThat woman is a pirate?
-0x6e441	0x67d	ポップ	そうさ。\nだってゼロ船長や俺達だって、元は海賊なんだよ。\n凄いだろぉ。	{POP}\nThat's right.\n{ZERO} and the rest of us were\npirates once too.\nPretty amazing, huh?
+0x6e441	0x605	ファーニス	ねぇ、ポップさん。\nあの人、誰？	Say, {POP}.\nWho is that?
+0x6e441	0x628	ポップ	あの御方は、ウィルディース艦長だ。\nゼロ船長の仲間で、海賊潜砂艦クイーンストーカー号の艦長だよ。	That is {WILDEATH}.\nShe's {ZERO}'s comrade, captain of\nthe pirate sand-sub {QUEEN STALKER}.
+0x6e441	0x65b	ファーニス	海賊！？\nあの人、海賊なの。	A pirate!?\nThat woman is a pirate?
+0x6e441	0x67d	ポップ	そうさ。\nだってゼロ船長や俺達だって、元は海賊なんだよ。\n凄いだろぉ。	That's right.\n{ZERO} and the rest of us were\npirates once too.\nPretty amazing, huh?
 0x6e441	0x6ba	ゼロ船長	ポップ、おしゃべりはいい。\n早く水晶の角をセットするんだ。	{ZERO}\n{POP}, enough chatter.\nGet the {CRYSTAL HORN} set in place.
 0x6e441	0x727	ウィルディース艦長	でっ。\nどうするんだい？	{WILDEATH}\nSo then.\nWhat's the plan?
 0x6e441	0x74b	ゼロ船長	海上におびき出す事さえできれば、バッカス２世号の突角で攻撃できる。\nそして、砂上戦闘に持ち込むつもりだ。\nゼロ船長\nできるか？	{ZERO}\nIf we can lure it out to the open,\nthe {BACCHUS II}'s ram can strike it.\nThen I'll force a battle on the sand.\p{ZERO}\nCan you manage it?
-0x6e99a	0xa	ウィルディース艦長	簡単な事ね。\nクイーンストーカー号で、奴の真下から魔導魚雷をプレゼントしてあげるわ。\nウィルディース艦長\n時間どうり、ピタリと奴の顔を拝ませてあげる。\nそれで攻撃地点は？	{CAPTAIN WILDEATH}\nSimple enough. I'll deliver a magic\ntorpedo right beneath him from the\n{QUEEN STALKER}.\p {CAPTAIN WILDEATH}\nRight on schedule, I'll bring you\nface to face with him.\nSo where's the strike point?
-0x6e99a	0x85	ゼロ船長	タカピ岬から３０カイリの所だ。\nあそこなら流砂もないし、潜砂艦にも十分な深度がある。\n時間は１３時ちょうどではどうだ。	{CAPTAIN ZERO}\n30 nautical miles off Takapi Cape.\nNo quicksand there, and plenty of\ndepth for a {SAND SUB}.\nHow about 1300 hours sharp?
-0x6e99a	0xe7	ウィルディース艦長	・・・１３時か。\nいいだろう。\n皆の無念を晴らしましょう、ゼロ。	{CAPTAIN WILDEATH}\n...1300, then.\nVery well.\nLet's avenge them all, {ZERO}.
-0x6e99a	0x124	ゼロ船長	ああ。\n必ずな。	{CAPTAIN ZERO}\nAye.\nWithout fail.
-0x6e99a	0x162	ゼロ船長	ウォーリック。\n一緒に来るつもりがあるのなら、港で待っている。\nゼロ船長\n港には、バッカス２世号しか船はない。すぐわかるだろう。	{CAPTAIN ZERO}\n{WARRICK}.\nIf you mean to come along, I'll be\nwaiting at the port.\p {CAPTAIN ZERO}\nThe {BACCHUS II} is the only ship\nthere. You won't miss it.
-0x6e99a	0x1d7	ポップ	本船真正面、距離３０００、深度２５０に精霊反応、急速浮上中！\n精霊種確認・・・雷精。\n間違いありません、モビーディックです！	{POP}\nSpirit reading dead ahead, range\n3000, depth 250, rising fast!\nSpecies confirmed... Lightning.\nNo mistake, it's {MOBY DICK}!
-0x6e99a	0x248	ゼロ船長	遂に来たか。\nポップ、奴をロストするな。\nタップ、出力最大、戦闘船速。	{CAPTAIN ZERO}\nSo it's finally here.\n{POP}, don't lose him.\n{TAP}, full power, battle speed.
-0x6e99a	0x2a5	ポップ	モビーディック、なおも浮上中。\n凄い数の雷精を従えています。\nその後ろ３０００に、反応有りッ。\n・・・クイーンストーカー号です。	{POP}\n{MOBY DICK} still rising.\nA huge swarm of Lightning {SPIRITS}\ntrails behind it.\nAnother reading 3000 beyond that.\n...It's the {QUEEN STALKER}.
-0x6e99a	0x30a	ゼロ船長	よくやってくれた、ウィルディース。後は俺に任せろ。\n冷たい海の底に眠る仲間達の恨み、晴らす時が来た！\nゼロ船長\n砂上戦闘、用意。\n船首突角に魔力集中。\n総員、衝撃に・・・むぅぅぅっ。	{CAPTAIN ZERO}\nWell done, {WILDEATH}. Leave the\nrest to me.\nTime to avenge the friends asleep\nin the cold deep!\p {CAPTAIN ZERO}\nSand combat, ready.\nFocus magic on the ram.\nAll hands, brace for... ngghhh.
-0x6e99a	0x3be	ゼロ船長	・・・うろたえるな。\n何でもない。	{CAPTAIN ZERO}\n...Don't panic.\nIt's nothing.
-0x6e99a	0x3e6	ポップ	その体ではまだ無理です。\nやはり引き返しましょう。\nポップ\nタップ、上がって来い。\n船長に手を貸すんだッ。	{POP}\nNot in your condition.\nWe should turn back.\p {POP}\n{TAP}, get up here.\nGive the captain a hand!
-0x6e99a	0x43b	ゼロ船長	持ち場を離れるなッ！！\n奴を・・・奴を倒すまでは死にはしない。\n戦闘準備。	{CAPTAIN ZERO}\nDon't leave your posts!!\nI won't die... not until I bring\nhim down.\nReady for combat.
+0x6e99a	0xa	ウィルディース艦長	簡単な事ね。\nクイーンストーカー号で、奴の真下から魔導魚雷をプレゼントしてあげるわ。\nウィルディース艦長\n時間どうり、ピタリと奴の顔を拝ませてあげる。\nそれで攻撃地点は？	Simple enough. I'll deliver a magic\ntorpedo right beneath him from the\n{QUEEN STALKER}.\p {CAPTAIN WILDEATH}\nRight on schedule, I'll bring you\nface to face with him.\nSo where's the strike point?
+0x6e99a	0x85	ゼロ船長	タカピ岬から３０カイリの所だ。\nあそこなら流砂もないし、潜砂艦にも十分な深度がある。\n時間は１３時ちょうどではどうだ。	30 nautical miles off Takapi Cape.\nNo quicksand there, and plenty of\ndepth for a {SAND SUB}.\nHow about 1300 hours sharp?
+0x6e99a	0xe7	ウィルディース艦長	・・・１３時か。\nいいだろう。\n皆の無念を晴らしましょう、ゼロ。	...1300, then.\nVery well.\nLet's avenge them all, {ZERO}.
+0x6e99a	0x124	ゼロ船長	ああ。\n必ずな。	Aye.\nWithout fail.
+0x6e99a	0x162	ゼロ船長	ウォーリック。\n一緒に来るつもりがあるのなら、港で待っている。\nゼロ船長\n港には、バッカス２世号しか船はない。すぐわかるだろう。	{WARRICK}.\nIf you mean to come along, I'll be\nwaiting at the port.\p {CAPTAIN ZERO}\nThe {BACCHUS II} is the only ship\nthere. You won't miss it.
+0x6e99a	0x1d7	ポップ	本船真正面、距離３０００、深度２５０に精霊反応、急速浮上中！\n精霊種確認・・・雷精。\n間違いありません、モビーディックです！	Spirit reading dead ahead, range\n3000, depth 250, rising fast!\nSpecies confirmed... Lightning.\nNo mistake, it's {MOBY DICK}!
+0x6e99a	0x248	ゼロ船長	遂に来たか。\nポップ、奴をロストするな。\nタップ、出力最大、戦闘船速。	So it's finally here.\n{POP}, don't lose him.\n{TAP}, full power, battle speed.
+0x6e99a	0x2a5	ポップ	モビーディック、なおも浮上中。\n凄い数の雷精を従えています。\nその後ろ３０００に、反応有りッ。\n・・・クイーンストーカー号です。	{MOBY DICK} still rising.\nA huge swarm of Lightning {SPIRITS}\ntrails behind it.\nAnother reading 3000 beyond that.\n...It's the {QUEEN STALKER}.
+0x6e99a	0x30a	ゼロ船長	よくやってくれた、ウィルディース。後は俺に任せろ。\n冷たい海の底に眠る仲間達の恨み、晴らす時が来た！\nゼロ船長\n砂上戦闘、用意。\n船首突角に魔力集中。\n総員、衝撃に・・・むぅぅぅっ。	Well done, {WILDEATH}. Leave the\nrest to me.\nTime to avenge the friends asleep\nin the cold deep!\p {CAPTAIN ZERO}\nSand combat, ready.\nFocus magic on the ram.\nAll hands, brace for... ngghhh.
+0x6e99a	0x3be	ゼロ船長	・・・うろたえるな。\n何でもない。	...Don't panic.\nIt's nothing.
+0x6e99a	0x3e6	ポップ	その体ではまだ無理です。\nやはり引き返しましょう。\nポップ\nタップ、上がって来い。\n船長に手を貸すんだッ。	Not in your condition.\nWe should turn back.\p {POP}\n{TAP}, get up here.\nGive the captain a hand!
+0x6e99a	0x43b	ゼロ船長	持ち場を離れるなッ！！\n奴を・・・奴を倒すまでは死にはしない。\n戦闘準備。	Don't leave your posts!!\nI won't die... not until I bring\nhim down.\nReady for combat.
 0x6e99a	0x494	ライド	我慢ってのは身体に良くないんだぜ、船長。鯨は俺達が倒してやるから、そこでゆっくり見てな。	Holding it in is bad for you,\nCaptain. We'll take down that whale,\nso sit back and watch.
 0x6e99a	0x4e8	ウォーリック	後は任せて下さい、ゼロ船長。\nそれより敵は真近だ。\n気を付けろ。	Leave the rest to us, {ZERO}.\nThe enemy is close now.\nStay sharp.
 0x6e99a	0x527	ポップ	精霊反応、異常なまでに活性化してます！\nポップ\n距離１０００、深度８０。\nポップ\n距離８００、深度５０。\nポップ\n距離４００、深度３０。\nポップ\n距離１００、深度１０。\nポップ\n正面、出まぁぁぁす！	Spirit signal, abnormally active!\p{POP}\nRange 1000, depth 80.\p{POP}\nRange 800, depth 50.\p{POP}\nRange 400, depth 30.\p{POP}\nRange 100, depth 10.\p{POP}\nDead ahead, surfaciiing!

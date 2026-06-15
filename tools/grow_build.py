@@ -208,17 +208,16 @@ def main(demo=False):
     # free regions (start_sec, n_sec) within the recorded data region only
     free = [(maxsec, max(0, usable_end - maxsec))]
     placements = {}                  # archive -> (lba, new_bytes, dir_rec_off, new_size)
-    # first pass: in-place where it fits, collect relocations
+    # Free every modified archive's old extent and repack them all (largest first
+    # below). Leaving one in place when it still fits its slot looks cheaper, but a
+    # shrink that drops an archive back into its slot then stops it freeing space the
+    # others were packing into - first-fit fails even though total free space grew.
+    # Freeing them all avoids that fragmentation.
     relocate = []
     for archive, (nb, oo, no, osz) in grown.items():
         rec_off, lba, size = recs[archive]
-        old_sec = (osz + SEC - 1) // SEC
-        new_sec = (len(nb) + SEC - 1) // SEC
-        if new_sec <= old_sec:
-            placements[archive] = (lba, nb, rec_off, len(nb))
-        else:
-            free.append((lba, old_sec))     # free the old extent for reuse
-            relocate.append((archive, nb, rec_off))
+        free.append((lba, (osz + SEC - 1) // SEC))   # free old extent for repacking
+        relocate.append((archive, nb, rec_off))
     # Merge adjacent free regions before first-fit. VAIN_A/B/C's old slots sit
     # back-to-back, and a big archive only fits once they're merged. Skip this and
     # it spills to the disc tail (the pregap) and new-game hangs.
