@@ -1,0 +1,116 @@
+block_off	str_off	speaker	text	english
+SYSTEM.TOS	0x8		ドライブ２に\n<03:56>デ~タ~<14>ディスク<1a>Ａ<1b><03:57>を入れてください。	Insert\n<03:56>data<14>disk<1a>A<1b><03:57> in drive 2.
+SYSTEM.TOS	0x2b		<03:51> <20><20><20><14>メイン<14>メニュ~<14><20><20><20>\n	<03:51><04>   <14>Main<14>Menu<14>   \n
+SYSTEM.TOS	0x40		　アイテム説明<14><14><14>ステ~タス\n<14>武器/道具<03:04>隊列関係\n<14>相<14>談<03:06>システム設定	　Item Info        Status\n<14>Items            Party\n<14>Talk             Config
+SYSTEM.TOS	0x79		<03:51><20><20><20><14>ステ~タス<14><20><20><20>	<03:51>   <14>Status<14>   
+SYSTEM.TOS	0x89		<03:51>武器/道具\n	<03:51>Items\n
+SYSTEM.TOS	0x96		　装<14>備\n<14>使<14>う\n<14>外<14>す\n<14>捨てる	　Equip\n<14>Use\n<14>Remove\n<14>Drop
+SYSTEM.TOS	0xb0		<03:56><14>何も持ってないっ。	<03:56><14>You hold nothing.
+SYSTEM.TOS	0xbf		<03:52>コマンド<14>エラ~\n<14>異常な環境が発生しました。	<03:52>Command<14>Error\n<14>Abnormal state.
+SYSTEM.TOS	0xdf		<03:52><14>お金が足りないか///	<03:52><14>Not enough gold...
+SYSTEM.TOS	0xf0		<03:51>アイテム<14>説明	<03:51>Item<14>Info\n
+SYSTEM.TOS	0xfc		<03:54><14>武器<1a>片手<1b><14>武器<1a>両手<1b><14>盾\n<14>下 鎧\n<14>上 鎧\n<14>指 輪\n<14>靴\n<03:56><14>道 具\n<03:52><14>アイテム	<03:54><14>Weapon<1a>1H<1b>\n<14>Weapon<1a>2H<1b>\n<14>Shield\n<14>L.Armor\n<14>U.Armor\n<14>Ring\n<14>Boots\n<03:56><14>Tool\n<03:52><14>Item
+SYSTEM.TOS	0x142		<03:52>そんな物、持ってない。	<03:52>Don't have that.
+SYSTEM.TOS	0x152		<03:52>そんな奴はいません！！	<03:52>No such person!!
+SYSTEM.TOS	0x161		<03:52>もう、雇えない。	<03:52>Can't hire more.
+SYSTEM.TOS	0x16d		ダインを手に入れた。	 Dain obtained.
+SYSTEM.TOS	0x17a		<03:55><14>［Ｙｅｓ］<14><14><14>［ Ｎｏ ］	<03:55><14>［Yes］<14><14><14>［ No ］
+SYSTEM.TOS	0x195		<03:51><20><20><14>システム設定<14><20><20>\n	<03:51>  <14>Config<14>  \n
+SYSTEM.TOS	0x1a7		<03:55><14>Ｌｏａｄ\n<03:52><14>Ｓａｖｅ\n<14>戦闘モ~ド表示時間\n<14>ウィンドウ開時間\n<14>カ~ソル移動速度\n<14>音声モ~ド\n<14>背景設定<14>	<03:55><14>Load\n<03:52><14>Save\n<14>Text speed\n<14>Window time\n<14>Cursor speed\n<14>Sound\n<14>Background<14>
+SYSTEM.TOS	0x1ff		<03:55><14> <20><20><20><14>Ｌｏａｄ<14><20><20><20>	<03:55><14> <20><20><20><14>Load<14><20><20><20>
+SYSTEM.TOS	0x214		<03:52><14> <20><20><20><14>Ｓａｖｅ<14><20><20><20>	<03:52><14> <20><20><20><14>Save<14><20><20><20>
+SYSTEM.TOS	0x229		エラ~ 発生！	Error<04>!
+SYSTEM.TOS	0x235		ドライブ２に\n<03:56>ユ~ザ~<14>ディスク<03:57>を入れてください。	Insert\n<03:56>user<14>disk<03:57> in drive 2.
+SYSTEM.TOS	0x254		<03:56><1f><1f><1f><14>未使用<14><1f><1f><1f>	<03:56><1f><1f><1f><14>Unused<14><1f><1f><1f>
+SYSTEM.TOS	0x265		<03:52>警告\n<14>デ~タ~が存在しません。	<03:52>Warning\n<14>No data found.
+SYSTEM.TOS	0x27c		<03:52>注<1b><14>上書きします。\n	<03:52>Note<1b><14>Will overwrite.\n
+SYSTEM.TOS	0x28d		<03:52>これは、ゲ~ム<14>ディスクだっ！！	<03:52>That's the game<14>disk!!
+SYSTEM.TOS	0x2a0		<03:52>ドライブ１は、システム<14>ディスクだっ。	<03:52>Drive 1 is system<14>disk.
+SYSTEM.TOS	0x2b6		ちゃんと<03:52>セ<1f>ブ<03:57>したよ。	Saved<03:52> OK<03:57>.
+SYSTEM.TOS	0x2c6		<03:55><14>［早く］<14><14><14>［遅く］	<03:55><14>Fast<14><14><14>Slow
+SYSTEM.TOS	0x2db		は、\n	 \n
+SYSTEM.TOS	0x2df		を身に付けました。	 equipped.
+SYSTEM.TOS	0x2eb		<03:51><14><20><20><20><14>装<14>備<14><20><20><20>	<03:51><14>   <14>Equip<14>   
+SYSTEM.TOS	0x2fc		<03:51><14><20><20><20><14>使<14>う<14><20><20><20>	<03:51><14>   <14>Use<14>   
+SYSTEM.TOS	0x30c		<03:51><14><20><20><20><14>外<14>す<14><20><20><20>	<03:51><14>   <14>Remove<14>   
+SYSTEM.TOS	0x31c		<03:51><14><20><20><20><14>捨てる<14><20><20><20>	<03:51><14>   <14>Drop<14>   
+SYSTEM.TOS	0x32c		<03:52><20><20><14>うら話し<14><20><20>	<03:52>  <14>Gossip<14>  
+SYSTEM.TOS	0x33a		　アイテム<14>セット\n<14>戦闘管理\n<14>その他\n<14>ビット<14>セット\n<14>ビット<14>リスト\n<14>撮影モ<1f>ド\n<14>ポインタ~	　Items\n<14>Btl mgmt\n<14>Other\n<14>Bits\n<14>List\n<14>Cap\n<14>Ptr
+SYSTEM.TOS	0x377		\n<14>デバッグ<14>モ~ド	\n<14>Debug<14>mode
+SYSTEM.TOS	0x382		を見つけた。	 found.
+SYSTEM.TOS	0x38a		音源ボ~ド２が無いと使えません。	Needs sound board 2.
+SYSTEM.TOS	0x39f		<03:55><14>［有効］<14><14><14>［無効］	<03:55><14>On<14><14><14>Off
+SYSTEM.TOS	0x3b6		<03:55>これ以上持つことができません。	<03:55>Can't carry more.
+SYSTEM.TOS	0x3cb		<03:55>重要な物は大切にしましょう	<03:55>Cherish them.
+SYSTEM.TOS	0x3e0		<03:51><20><20><20><14>隊列関係<14><20><20><20>\n	<03:51>   <14>Party<14>   \n
+SYSTEM.TOS	0x3f4		　隊 列 変 更\n<14>フォ~メイション選択\n<14>フォ~メイション制作	　Reorder\n<14>Pick form\n<14>Make form
+SYSTEM.TOS	0x41e		<03:55>ここで使う物ではありません。	<03:55>Not for use here.
+SYSTEM.TOS	0x431		<03:56>使う場所が違うみたい。	<03:56>Wrong place.
+SYSTEM.TOS	0x444		<03:55>俺は、これを持ちたくない。	<03:55>Won't hold this.
+SYSTEM.TOS	0x456		<03:55>こんな物、性に合わない。	<03:55>Not my thing.
+SYSTEM.TOS	0x468		<03:56>私じゃ、持てないわ。	<03:56>I can't hold it.
+SYSTEM.TOS	0x477		<03:51><20><20><20><14>隊列<14>変更<14><20><20><20>	<03:51>   <14>Reorder<14>   
+SYSTEM.TOS	0x48b		<03:56>１人で隊列するのは、さびしい。	<03:56>Alone is lonely.
+SYSTEM.TOS	0x4a0		この隊列で<14>定義しますか？\n	Use this form?\n
+SYSTEM.TOS	0x4b4		ビジュアル\nプレイ\nト~ク\nキャラ\nボックス\nＥｌｓｅ	Visual\nPlay\nTalk\nChara\nBox\nElse
+SYSTEM.TOS	0x4d4		<03:57><03:26>を使う。\n	<03:57><03:26> used.\n
+SYSTEM.TOS	0x4df		を、捨てます。\n	 dropped.\n
+SYSTEM.TOS	0x4e9		<03:55>\n<14>捨てんの止めたぁ。\n	<03:55>\n<14>Kept it.\n
+SYSTEM.TOS	0x4fa		<03:23>を、捨てました。	<03:23> dropped.
+SYSTEM.TOS	0x506		情 報買 うやめる	Info<04>Buy<04>Quit
+SYSTEM.TOS	0x513		戦闘 表示時間<14><1a>１<1f>８<1b>\n\n	Battle<04>text time<14><1a>1<1f>8<1b>\n\n
+SYSTEM.TOS	0x529		　相 談 中	　Talking
+SYSTEM.TOS	0x534		を、外しました。	 removed.
+SYSTEM.TOS	0x53e		<03:55>持物がいっぱいで外ずせません。	<03:55>Full, can't remove.
+SYSTEM.TOS	0x553		<03:56>あら、持物がいっぱい。	<03:56>Oh, pack's full.
+SYSTEM.TOS	0x563		<03:51><20><20> フォ~メイション選択 <20><20>\n\n	<03:51>  <04>Pick form<04>  \n\n
+SYSTEM.TOS	0x57a		<03:55><1a>１<1b><14><1a>２<1b><14><1a>３<1b><14><1a>４<1b><1a>５<1b><14><1a>６<1b><14><1a>７<1b><14><1a>８<1b>	<03:55><1a>1<1b><14><14><14><14><14><1a>2<1b><14><14><14><14><14><1a>3<1b><14><14><14><14><14><1a>4<1b>\n<1a>5<1b><14><14><14><14><14><1a>6<1b><14><14><14><14><14><1a>7<1b><14><14><14><14><14><1a>8<1b>
+SYSTEM.TOS	0x59b		これでいいですか？\n	Is this OK?\n
+SYSTEM.TOS	0x5a6		<03:52><14>定義されていません。	<03:52><14>Not defined.
+SYSTEM.TOS	0x5b6		\n<03:56><14>定義 しちゃったよ。\n	\n<03:56><14>Defined<04> it.\n
+SYSTEM.TOS	0x5c8		何番に定義しますか？<1a>１<1f>５<1b>\n	Define which slot?<1a>1<1f>5<1b>\n
+SYSTEM.TOS	0x5dd		カ~ソル<14>スピ~ド<14><1a>１<1f>８<1b>\n	Cursor<14>speed<14><1a>1<1f>8<1b>\n
+SYSTEM.TOS	0x5ee		<03:52>テ~ブル<14>オ~バ~？	<03:52>Table<14>over?
+SYSTEM.TOS	0x5fb		<03:56>これを、買いますか？\n	<03:56>Buy this?\n
+SYSTEM.TOS	0x60a		<03:57><03:2b>を、買いました。	<03:57><03:2b> bought.
+SYSTEM.TOS	0x619		で、売ってしまう。\n	 to sell.\n
+SYSTEM.TOS	0x625		<03:56><03:03> ダイン	<03:56><03:03><04>Dain
+SYSTEM.TOS	0x62e		<03:56><03:03> テミス	<03:56><03:03><04>Themis
+SYSTEM.TOS	0x637		生 命 力	HP
+SYSTEM.TOS	0x640		攻 撃 力	ATK
+SYSTEM.TOS	0x649		防 御 力	DEF
+SYSTEM.TOS	0x652		 魔<14>力 	MAG
+SYSTEM.TOS	0x65a		すばやさ	AGI
+SYSTEM.TOS	0x65f		移 動 量	MOV
+SYSTEM.TOS	0x669		<03:56><03:03>レ ベ ル	<03:56><03:03>Level
+SYSTEM.TOS	0x673		右 手	R.Hand
+SYSTEM.TOS	0x679		左 手	L.Hand
+SYSTEM.TOS	0x67f		下 鎧	L.Armor
+SYSTEM.TOS	0x685		上 鎧	U.Armor
+SYSTEM.TOS	0x68b		指 輪	Ring
+SYSTEM.TOS	0x691		靴	Boots
+SYSTEM.TOS	0x694		影 響 量\n	Effect\n
+SYSTEM.TOS	0x69e		誰も装備できない。	None can equip.
+SYSTEM.TOS	0x6ab		最大攻撃回数\n	Max hits\n
+SYSTEM.TOS	0x6b9		<03:03>回まで。	<03:03> times.
+SYSTEM.TOS	0x6c1		（男<1b>	Male
+SYSTEM.TOS	0x6c7		（女<1b>	Female
+SYSTEM.TOS	0x6cd		有効範囲	Range
+SYSTEM.TOS	0x6d6		回 復 値	Heal
+SYSTEM.TOS	0x6df		移動量上昇値	Move up
+SYSTEM.TOS	0x6ed		戦闘レベル？	Battle level?
+SYSTEM.TOS	0x6f6		<03:55>足場が悪い、セ~ブはやめだ！	<03:55>Can't save here!
+SYSTEM.TOS	0x70a		<03:57>★ 不思議な力で、封印されている ！！	<03:57>★<04>Sealed by magic<04>!!
+SYSTEM.TOS	0x727		ト~ク	Talk
+SYSTEM.TOS	0x72b		キャラクタ~	Character
+SYSTEM.TOS	0x732		音楽	Music
+SYSTEM.TOS	0x737		Ｐｏｓ	Pos
+SYSTEM.TOS	0x740		<03:57><03:2b>を、売りました。	<03:57><03:2b> sold.
+SYSTEM.TOS	0x74e		戦闘回数	Battles
+SYSTEM.TOS	0x757		行動パタ~ン	Tactics
+SYSTEM.TOS	0x760		ドライブ１のフォ~マットだ	Drive 1's format.
+SYSTEM.TOS	0x76e		孫パッケ~ジ じゃない	Not a child pack<04>.
+SYSTEM.TOS	0x77b		<03:55><14>［右手］<14><14><14>［左手］	<03:55><14>Right<14><14><14>Left
+SYSTEM.TOS	0x792		<03:55><1a>１<1b><14><1a>２<1b><14><1a>３<1b><14><1a>４<1b><14><1a>５<1b>	<03:55><1a>1<1b><14><1a>2<1b><14><1a>3<1b><14><1a>4<1b><14><1a>5<1b>
+SYSTEM.TOS	0x7b4		<03:51> ←<20><20> ペ~ジ <20><20>→\n	<03:51><04>←  <04>Page<04>  →\n
+SYSTEM.TOS	0x7c6		　最初から遊ぶ。\n<14>途中から遊ぶ。	　New game.\n<14>Continue.

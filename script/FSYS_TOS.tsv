@@ -1,0 +1,60 @@
+block_off	str_off	speaker	text	english
+FSYS.TOS	0x8		 ％のＥＸＰを得た。	 ％ of EXP gained.
+FSYS.TOS	0x18		 <02>４を、手に入れた。	Got <02>４.
+FSYS.TOS	0x26		 はレベルを上げた。	 leveled up.
+FSYS.TOS	0x32		  <02>５を、手に入れた。	Got <02>５.
+FSYS.TOS	0x41		 を、手に入れた。	 obtained.
+FSYS.TOS	0x4d		は 	is 
+FSYS.TOS	0x50		<03:56><14>何も持ってないっ。	<03:56><14>You hold nothing.
+FSYS.TOS	0x5f		<03:57><03:26>は、なくなってしまった。	<03:57><03:26> is gone.
+FSYS.TOS	0x70		<03:57><03:26> を唱えた。\n	<03:57><03:26> cast.\n
+FSYS.TOS	0x7d		<03:51><20> 作戦モ~ド <20>\n<03:57><14>攻 撃 優 先\n<14>退 避 優 先\n<14>お ま か せ\n<14>回 復 魔 法\n<14>攻 撃 魔 法\n<14>精 霊 召 喚	<03:51><20> Tactics <20>\n<03:57><14>Attack first\n<14>Retreat first\n<14>Auto\n<14>Heal magic\n<14>Attack magic\n<14>Summon
+FSYS.TOS	0xd7		<02>\n\n<03:23>作戦を聞いてくれる様な仲間はいないぞ。	<02>\n\n<03:23>No ally to take orders.
+FSYS.TOS	0xf6		<03:57><03:21><03:2b>クイック。	<03:57><03:21><03:2b>Quick.
+FSYS.TOS	0x102		<03:57><03:21><03:2b>エンチャンテッド ウエポン。	<03:57><03:21><03:2b>Enchanted Weapon.
+FSYS.TOS	0x117		<03:57><03:21><03:2b>ブレス。	<03:57><03:21><03:2b>Bless.
+FSYS.TOS	0x122		<03:57><03:21><03:2b>キュア~。	<03:57><03:21><03:2b>Cure.
+FSYS.TOS	0x12e		<03:57><03:21><03:2b>スリ~プ クラウド。	<03:57><03:21><03:2b>Sleep Cloud.
+FSYS.TOS	0x13f		<03:57><03:20><03:2b>サイレンス。	<03:57><03:20><03:2b>Silence.
+FSYS.TOS	0x14c		の魔力を封じた。	's magic sealed.
+FSYS.TOS	0x158		の防御力が上がった。	's defense rose.
+FSYS.TOS	0x167		の行動量が増えた。	's speed rose.
+FSYS.TOS	0x175		の攻撃力が上がった。	's attack rose.
+FSYS.TOS	0x184		は、正常に戻った。	 is back to normal.
+FSYS.TOS	0x191		敵の動きは止まった。	The foe stopped moving.
+FSYS.TOS	0x19f		<03:57><03:26>を使う。\n	<03:57><03:26> used.\n
+FSYS.TOS	0x1aa		敵の魔力を封じた。	The foe's magic sealed.
+FSYS.TOS	0x1b8		とくに弱った奴はいない！	No one is weakened!
+FSYS.TOS	0x1c7		周囲に敵はいない。	No foes near.
+FSYS.TOS	0x1d4		<03:52>ドライブ１は、システム<14>ディスク<02>ザ	<03:52>Drive 1 is the system<14>disk<02>za
+FSYS.TOS	0x1e9		　あなたの冒険は失敗に終わりました。	　Your adventure ended in failure.
+FSYS.TOS	0x208		の、<02>すが消え去った。	's <02>... faded away.
+FSYS.TOS	0x216		<03:51><20> 戦闘 メニュ~ <20>\n<03:57><14>道 具 を 使 う\n<14>作 戦 指 示\n<14>攻撃目標 設定\n<14>［自動］［手動］\n<14>に げ る	<03:51><20> Battle Menu <20>\n<03:57><14>Use an item\n<14>Give orders\n<14>Set target\n<14>Auto / Manual\n<14>Flee
+FSYS.TOS	0x26b		<03:52>行動ポイントが足りない。	<03:52>Not enough action points.
+FSYS.TOS	0x27d		のレベルを上げた。	's level rose.
+FSYS.TOS	0x288		逃げられない。	Can't flee.
+FSYS.TOS	0x291		うまく逃げることができた。	Got away cleanly.
+FSYS.TOS	0x2a0		<03:51><20> 攻撃目標 設定 <20>\n<03:57><14> 個人で攻撃目標\n<14> 全員で攻撃目標	<03:51><20> Set Target <20>\n<03:57><14> Target alone\n<14> Target as group
+FSYS.TOS	0x2d6		マ~クしました。	Marked.
+FSYS.TOS	0x2df		<03:55>ここで使う物ではない。	<03:55>Not for use here.
+FSYS.TOS	0x2ef		<03:56>使う場所が違うみたい。	<03:56>Wrong place to use it.
+FSYS.TOS	0x301		<03:51><20><14>作 戦 指 示<14><20>\n<03:57><14> 個人別の作戦\n<14> 全員での作戦	<03:51><20><14>Give Orders<14><20>\n<03:57><14> Orders alone\n<14> Orders as group
+FSYS.TOS	0x330		<03:57><03:26>は、\n魔法を使えないため拒否した。	<03:57><03:26> can't,\nno magic, so refused.
+FSYS.TOS	0x34b		<03:57><03:26>は、\n<02>れ召還で出来ないため拒否した。	<03:57><03:26> can't,\n<02>can't summon, so refused.
+FSYS.TOS	0x369		<03:57><03:26>は、\n自分自身に気合いをいれた。	<03:57><03:26>\npsyched themselves up.
+FSYS.TOS	0x385		<03:21><03:2c>回復魔法は得意じゃないけど、頑張るわ。	<03:21><03:2c>Healing's not my strength, but I'll try.
+FSYS.TOS	0x3a5		<03:21><03:2c>一生懸命、頑張ります。	<03:21><03:2c>I'll give it my all.
+FSYS.TOS	0x3bb		<03:21><03:2c>神の御加護のあらん事を。	<03:21><03:2c>May the gods protect us.
+FSYS.TOS	0x3d1		\n<03:1e><03:31><02>ア<03:23><03:2b>んん？	\n<03:1e><03:31><02>a<03:23><03:2b>Hmm?
+FSYS.TOS	0x3e1		<03:20><03:2b>オッケ~、まかしてちょうだい。	<03:20><03:2b>Okay, leave it to me.
+FSYS.TOS	0x3f5		<03:23><03:2c>承知した。	<03:23><03:2c>Understood.
+FSYS.TOS	0x402		<03:21><03:2c>攻撃魔法ならまかして。	<03:21><03:2c>Leave attack magic to me.
+FSYS.TOS	0x416		<03:20><03:2b>やってみるね。	<03:20><03:2b>I'll give it a go.
+FSYS.TOS	0x422		<03:21><03:2c>神聖魔術の力を見せてあげるわ。	<03:21><03:2c>I'll show you holy magic.
+FSYS.TOS	0x43c		<03:23><03:2c>承知した。	<03:23><03:2c>Understood.
+FSYS.TOS	0x44e		は\n	is\n
+FSYS.TOS	0x453		<03:57><03:20><03:2b>コンフュ~ジョン。	<03:57><03:20><03:2b>Confusion.
+FSYS.TOS	0x463		は、混乱した。	 is confused.
+FSYS.TOS	0x46d		<03:54><03:22><03:2b>ガオォォォォォッ！	<03:54><03:22><03:2b>Gaooooh!
+FSYS.TOS	0x47d		ここでは、効果がなかった。	It had no effect here.
+FSYS.TOS	0x4c2		<03:57><14>←<20><20><14>ペ~ジ<14><20><20>→\n	<03:57><14>←<20><20><14>Page<14><20><20>→\n

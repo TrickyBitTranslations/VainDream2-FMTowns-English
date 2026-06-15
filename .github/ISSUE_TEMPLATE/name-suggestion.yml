@@ -1,0 +1,40 @@
+name: Name / term suggestion
+description: Propose or contest a romanization (character, place, item, monster)
+title: "[name] "
+labels: ["name-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Names and recurring terms live in a shared table (they're inserted into
+        many lines via `{NAME}` tokens), so changing one updates the whole
+        game. These are curated by hand - a maintainer will weigh in rather
+        than a bot.
+  - type: input
+    id: term
+    attributes:
+      label: Term
+      description: The Japanese original (and token id if you have it).
+      placeholder: ウォーリック (token 0x01)
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current English
+      description: What the table says now ("none yet" if it has no romanization).
+      placeholder: Warrick
+  - type: input
+    id: proposed
+    attributes:
+      label: Proposed English
+      placeholder: Worick
+    validations:
+      required: true
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Reasoning
+      description: Why this reading/spelling? (official materials, katakana reading, series conventions...)
+    validations:
+      required: true

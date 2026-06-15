@@ -1,0 +1,226 @@
+block_off	str_off	speaker	text	english
+NAME.P	0x1		ウォーリック	Warrick
+NAME.P	0x2		レイナ	Reina
+NAME.P	0x3		ファーニス	Furnis
+NAME.P	0x4		ライド	Ride
+NAME.P	0x5		セシリア	Cecilia
+NAME.P	0x6		ブラフォード	Blaford
+NAME.P	0x7		セス	Seth
+NAME.P	0x8		ブージ	Booj
+NAME.P	0x9		ナッツ	Nutts
+NAME.P	0xa		大婆様	Granny
+NAME.P	0xb		ダ　ン	Dan
+NAME.P	0xc		ランバート	Lambert
+NAME.P	0xd		キャロル	Carol
+NAME.P	0xe		ベイグ	Veig
+NAME.P	0xf		バーナー王子	Prince Berner
+NAME.P	0x10		ドラゴン　ライダー	Dragon Rider
+NAME.P	0x11		重装騎兵団	Heavy Cavalry Corps
+NAME.P	0x12		重装騎兵	Heavy Cavalry
+NAME.P	0x13		聖騎士団	Paladins
+NAME.P	0x14		聖騎士	Paladin
+NAME.P	0x15		騎士団	Knight Order
+NAME.P	0x16		ブレイス	Brace
+NAME.P	0x17		グリーク	Greek
+NAME.P	0x18		パーシャ	Pasha
+NAME.P	0x19		エリオット	Elliott
+NAME.P	0x1a		看護兵	Medic
+NAME.P	0x1b		ゼロ船長	Captain Zero
+NAME.P	0x1c		ポップ	Pop
+NAME.P	0x1d		タップ	Tap
+NAME.P	0x1e		ウィルディース艦長	Captain Wildeath
+NAME.P	0x1f		シンシア	Cynthia
+NAME.P	0x20		カル伯爵	Count Cal
+NAME.P	0x21		クレイボーン	Claybourne
+NAME.P	0x22		マージス	Margis
+NAME.P	0x23		ドリアード	Dryad
+NAME.P	0x24		シュタイナー	Steiner
+NAME.P	0x25		ドード	Dode
+NAME.P	0x26		ビアガン	Biagan
+NAME.P	0x27		バーグ	Berg
+NAME.P	0x28		カーム	Calm
+NAME.P	0x29		ナイトメア	Nightmare
+NAME.P	0x2a		パチュンガ	Pachunga
+NAME.P	0x2b		クラウスの村	Klaus Village
+NAME.P	0x2c		氷の洞窟	Ice Cavern
+NAME.P	0x2d		レジーナの森	Regina Forest
+NAME.P	0x2e		ジーク王国	Zeke Kingdom
+NAME.P	0x2f		ジーク城	Zeke Castle
+NAME.P	0x30		ジーク	Zeke
+NAME.P	0x31		カナール採掘場	Canal Mine
+NAME.P	0x32		マーズトンネル	Mars Tunnel
+NAME.P	0x33		マーズ砦	Mars Fort
+NAME.P	0x34		メインキャンプ	Main Camp
+NAME.P	0x35		セルーシュ王国	Serush Kingdom
+NAME.P	0x36		セルーシュ城	Serush Castle
+NAME.P	0x37		セルーシュ	Serush
+NAME.P	0x38		地下礼拝堂	Catacombs
+NAME.P	0x39		地下水道	Sewers
+NAME.P	0x3a		神殿遺跡	Temple Ruins
+NAME.P	0x3b		紫水晶の丘	Amethyst Hill
+NAME.P	0x3c		シルバーホーン	Silverhorn
+NAME.P	0x3d		砂の城	Sand Castle
+NAME.P	0x3e		砂の海	Sand Sea
+NAME.P	0x3f		ライランド	Ryland
+NAME.P	0x40		竜騎士	Dragon Knight
+NAME.P	0x41		石の王国	Stone Kingdom
+NAME.P	0x42		ドワーフの洞窟	Dwarf Cave
+NAME.P	0x43		マージスの洞窟	Margis Cave
+NAME.P	0x44		フローディーテの森	Frodite Forest
+NAME.P	0x45		鎧の塔	Armor Tower
+NAME.P	0x46		地下宮殿	Underground Palace
+NAME.P	0x47		クーレイア	Kuleia
+NAME.P	0x48		バッカス２世号	Bacchus II
+NAME.P	0x49		クイーンストーカー号	Queen Stalker
+NAME.P	0x4a		アスタルト	Astarte
+NAME.P	0x4b		メーフィス	Mephis
+NAME.P	0x4c		フロスト	Frost
+NAME.P	0x4d		パディッシュ	Paddish
+NAME.P	0x4e		バーダル	Bardal
+NAME.P	0x4f		カーネル	Karnel
+NAME.P	0x50		ブレイ	Brei
+NAME.P	0x51		フォーゲル	Vogel
+NAME.P	0x52		ルード	Rude
+NAME.P	0x53		守護騎士	Guardian
+NAME.P	0x54		ダイン	Dyne
+NAME.P	0x55		テミス	Themis
+NAME.P	0x56		神官竜	Priest Dragon
+NAME.P	0x57		未使用	X
+NAME.P	0x58		黄金のナイフ	Golden Knife
+NAME.P	0x59		神竜	Divine Dragon
+NAME.P	0x5a		魔神	Demon God
+NAME.P	0x5b		パラサイト　デーモン	Parasite Demon
+NAME.P	0x5c		ポーション	Potion
+NAME.P	0x5d		天の水晶	Sky Crystal
+NAME.P	0x5e		地の水晶	Earth Crystal
+NAME.P	0x5f		ピローム	Pirom
+NAME.P	0x60		魔導士	Mage
+NAME.P	0x61		ドワーフ	Dwarf
+NAME.P	0x62		未使用	X
+NAME.P	0x63		未使用	X
+NAME.P	0x64		未使用	X
+NAME.P	0x65		未使用	X
+NAME.P	0x66		女剣士	Swordmaiden
+NAME.P	0x67		剣士	Swordsman
+NAME.P	0x68		デーモン	Demon
+NAME.P	0x69		ハンター	Hunter
+NAME.P	0x6a		魔物	Monster
+NAME.P	0x6b		魔導弾	Magic Bolt
+NAME.P	0x6c		遠見の水晶	Scrying Crystal
+NAME.P	0x6d		ブーツ	Boots
+NAME.P	0x6e		宮廷魔術師	Court Mage
+NAME.P	0x6f		大神官	High Priest
+NAME.P	0x70		ミスリル	Mythril
+NAME.P	0x71		ジオクリスタル	Geo Crystal
+NAME.P	0x72		指輪	Ring
+NAME.P	0x73		ワイバーン	Wyvern
+NAME.P	0x74		ロッド	Rod
+NAME.P	0x75		薬草袋	Herb Pouch
+NAME.P	0x76		薬草	Herb
+NAME.P	0x77		水晶竜	Crystal Dragon
+NAME.P	0x78		神官戦士	Templar
+NAME.P	0x79		女の子	Girl
+NAME.P	0x7a		タリアトフ大陸	Taliatov
+NAME.P	0x7b		騎士達	Knights
+NAME.P	0x7c		ダイガーン	Daigarn
+NAME.P	0x7d		キャンプ	Camp
+NAME.P	0x7e		ローブ	Robe
+NAME.P	0x7f		マント	Cloak
+NAME.P	0x80		パンツァードラグーン	Panzer Dragoon
+NAME.P	0x81		暗黒魔術	Dark Magic
+NAME.P	0x82		ライトニング　ボルト	Lightning Bolt
+NAME.P	0x83		ダークエルフ	Dark Elf
+NAME.P	0x84		ミノタウロス	Minotaur
+NAME.P	0x85		水晶の角	Crystal Horn
+NAME.P	0x86		金竜	Gold Dragon
+NAME.P	0x87		銀竜	Silver Dragon
+NAME.P	0x88		白竜	White Dragon
+NAME.P	0x89		緑竜	Green Dragon
+NAME.P	0x8a		黒竜	Black Dragon
+NAME.P	0x8b		炎竜	Fire Dragon
+NAME.P	0x8c		水竜	Water Dragon
+NAME.P	0x8d		ナイフ	Knife
+NAME.P	0x8e		精霊達	Spirits
+NAME.P	0x8f		砂鯨	Sand Whale
+NAME.P	0x90		モビーディック	Moby Dick
+NAME.P	0x91		船長	Captain
+NAME.P	0x92		紫水晶	Amethyst
+NAME.P	0x93		ウィルディース	Wildeath
+NAME.P	0x94		ゼロ	Zero
+NAME.P	0x95		水晶	Crystal
+NAME.P	0x96		キメラ	Chimera
+NAME.P	0x97		砂船	Sand Ship
+NAME.P	0x98		潜砂艦	Sand Sub
+NAME.P	0x99		海賊	Pirate
+NAME.P	0x9a		ローラ	Laura
+NAME.P	0x9b		クラウス	Klaus
+NAME.P	0x9c		エルフ	Elf
+NAME.P	0x9d		騎士	Knight
+NAME.P	0x9e		メデューサ	Medusa
+NAME.P	0x9f		ソウルン	Souln
+NAME.P	0xa0		リッチ	Lich
+NAME.P	0xa1		宝箱	Chest
+NAME.P	0xa2		魔法陣	Magic Circle
+NAME.P	0xa3		ドラグーン	Dragoon
+NAME.P	0xa4		マスター	Master
+NAME.P	0xa5		精霊	Spirit
+NAME.P	0xa6		アトォム	Atom
+NAME.P	0xa7		亡霊	Ghost
+NAME.P	0xa8		八賢者	Eight Sages
+NAME.P	0xa9		未使用	X
+NAME.P	0xab		ますか	X
+NAME.P	0xac		ください。	X
+NAME.P	0xad		下さい。	X
+NAME.P	0xae		・・・・・	.....
+NAME.P	0xaf		・・・	...
+NAME.P	0xb0		おじさん	Mister
+NAME.P	0xb1		おばさん	Lady
+NAME.P	0xb2		いらっしゃい	Welcome
+NAME.P	0xb3		見張り	Guard
+NAME.P	0xb4		が仲間に加わった。	 joined the party.
+NAME.P	0xb5		が仲間から外れた。	 left the party.
+NAME.P	0xb6		やめる	Cancel
+NAME.P	0xb7		・品物を見せて。	・Show your wares.
+NAME.P	0xb8		・話をしよう。	・Let's talk.
+NAME.P	0xb9		・持物を売ります。	・Sell items.
+NAME.P	0xba		・テミスを換金して。	・Exchange Themis.
+NAME.P	0xbb		・瞬間移動したい。	・Teleport.
+NAME.P	0xbc		・お店を出よう。	・Leave the shop.
+NAME.P	0xbd		へへっ	Haha
+NAME.P	0xbe		じゃ。	Well then.
+NAME.P	0xbf		ショップ	Shop
+NAME.P	0xc0		ありがとうございました	Thank you kindly.
+NAME.P	0xc1		ありがとう	Thank you
+NAME.P	0xc2		です。	X
+NAME.P	0xc3		換金	Exchange
+NAME.P	0xc4		んです。	X
+NAME.P	0xc5		ですか？	X
+NAME.P	0xc6		アーマー	Armor
+NAME.P	0xc7		メイル	Mail
+NAME.P	0xc8		団長	Commander
+NAME.P	0xc9		未使用	X
+NAME.P	0xca		ソード	Sword
+NAME.P	0xcb		アックス	Axe
+NAME.P	0xcc		金属製	Metal
+NAME.P	0xcd		ォォォォォォォ	Aaaaaah
+NAME.P	0xce		ぇぇぇぇぇぇぇ	Eeeeeeh
+NAME.P	0xcf		天の法皇よ	O Pope of the Heavens
+NAME.P	0xd0		地の法皇よ。	O Pope of the Earth.
+NAME.P	0xd1		魔導の法たる我に力を与えたまえ。	By the law of magic, grant me power.
+NAME.P	0xd2		魔の根源たるその炎で、我が敵を焼きつくせ。	With the flame at evil's root, burn my foes to ash.
+NAME.P	0xd3		お兄ちゃん	Bro
+NAME.P	0xd4		あんちゃん	Bud
+NAME.P	0xd5		の宿屋	Inn
+NAME.P	0xd6		の武器屋	Weapon Shop
+NAME.P	0xd7		の道具屋	Item Shop
+NAME.P	0xd8		の防具屋	Armor Shop
+NAME.P	0xd9		の魔法屋	Magic Shop
+NAME.P	0xda		おじちゃん	Mister
+NAME.P	0xdb		を受け取った。	received
+NAME.P	0xdc		３剣７	Sword
+NAME.P	0xdd		３鎧７	Armor
+NAME.P	0xde		３斧７	Axe
+NAME.P	0xdf		３槍７	Spear
+NAME.P	0xe0		３盾７	Shield
+NAME.P	0xe2		∪	
+NAME.P	0xe3		┃（┏）┃┏┃ｔ┃　┏、┃⇔┏∀┃Ｖ┃┏┃┏堅⟨14⟩ヌ⟨14⟩ネれ導れアデΒツБヅ│テΓトВド┌ナイヌΔネГノ┐ニゥΕД┘をんラ歎歎エ淡ォアデΒボБボ│テΓВア┌ポイヌΔボГマ┐ミ枝枝枝枝剤剤剤剤シシシシシシノハゼソゾヌシシヌネ４ユ４リ７も７リおえぇぉど狂ピど狭モろろろろろろろぞろぼろぞろどろブろねろぱろぢろづれ⟨17⟩どれ⟨17⟩ねわヲヲ	

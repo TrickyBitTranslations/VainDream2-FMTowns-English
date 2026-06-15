@@ -1,0 +1,54 @@
+name: Translation suggestion
+description: Propose an English translation for one line of the script
+title: "[tl] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest a translation for **one line**. Find the line in `script/*.tsv`
+        (or the web UI) and copy its identifiers below. Syntax & style rules:
+        see [CONTRIBUTING.md](https://github.com/TrickyBitTranslations/VainDream2-FMTowns-English/blob/main/CONTRIBUTING.md). A bot will
+        validate your suggestion (charset, line width, scene byte budget) and
+        comment the result here.
+  - type: dropdown
+    id: file
+    attributes:
+      label: Script file
+      options:
+        - VAIN_A_DAT.tsv
+        - VAIN_B_DAT.tsv
+        - VAIN_C_DAT.tsv
+        - VAIN_S_DAT.tsv
+        - SYSTEM_TOS.tsv
+        - SYSTEM2_TOS.tsv
+        - FSYS_TOS.tsv
+    validations:
+      required: true
+  - type: input
+    id: line
+    attributes:
+      label: Line ID
+      description: "block_off and str_off from the TSV row, e.g.: 0x5e8a8 0x24"
+      placeholder: "0x5e8a8 0x24"
+    validations:
+      required: true
+  - type: textarea
+    id: original
+    attributes:
+      label: Original Japanese
+      description: The line being translated (auto-filled when you come from the site; otherwise paste it from the TSV).
+      placeholder: ふぁぁぁぁぁっ。\n・・・もう、朝かぁ。\n今日の朝御飯は何かな。
+  - type: textarea
+    id: translation
+    attributes:
+      label: Proposed translation
+      description: "Use \\n for line breaks, \\p for page breaks, {NAME} for name tokens."
+      placeholder: "Yawn.\\n...Morning already, huh.\\nWhat's for breakfast?"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: Context, alternate readings, anything reviewers should know.
