@@ -16,7 +16,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 from glodia import disc, dlz
 from glodia.floppy import read_d88
-import grow, reinsert, patch_main_exp, patch_names, patch_items, patch_ui
+import grow, reinsert, patch_main_exp, patch_names, patch_items, patch_ui, patch_stage
 
 BASE = "Vain DreamII (1993)(Glodia)(Jp)"
 EN_D88 = ROOT / (BASE + "[SystemDisk]_EN.D88")
@@ -148,6 +148,22 @@ def main(demo=False):
             enc[10], enc[11], enc[12] = 0x00, nd & 0xFF, (nd >> 8) & 0xFF
             assert dlz.decode(bytes(enc), prefix=bytes(0x40000)) == bytes(block)
             overrides[block_off] = bytes(enc)
+        # STAGE place/location table (a non-dialogue VAIN_S.DAT member). Decompresses
+        # to the fixed RAM slot DATA:0x1800 (cap 2048, DATA.BIN follows at 0x2000).
+        if archive == "VAIN_S.DAT" and patch_stage._translations():
+            blob = patch_stage.member_override()
+            if len(blob) > patch_stage.RAM_CAP:
+                print(f"ERROR  VAIN_S.DAT STAGE: decompressed {len(blob)} > "
+                      f"{patch_stage.RAM_CAP} (RAM slot 0x1800; shorten place names)")
+                decomp_errors += 1
+            enc = bytearray(dlz.encode(bytes(blob)))
+            enc[8:10] = members[patch_stage.MEMBER][8:10]
+            nd = len(blob)
+            enc[10], enc[11], enc[12] = 0x00, nd & 0xFF, (nd >> 8) & 0xFF
+            assert dlz.decode(bytes(enc), prefix=bytes(0x40000)) == bytes(blob)
+            overrides[patch_stage.MEMBER] = bytes(enc)
+            print(f"  STAGE: {len(patch_stage._translations())} place names, "
+                  f"decomp {len(blob)}/{patch_stage.RAM_CAP} B")
         old_offsets = list(members.keys())
         new_bytes, new_offsets = grow.rebuild(data, overrides)
         grown[archive] = (new_bytes, old_offsets, new_offsets, len(data))
