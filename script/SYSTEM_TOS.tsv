@@ -14,11 +14,11 @@ SYSTEM.TOS	0x142		<03:52>そんな物、持ってない。	<03:52>Don't have tha
 SYSTEM.TOS	0x152		<03:52>そんな奴はいません！！	<03:52>No such person!!
 SYSTEM.TOS	0x161		<03:52>もう、雇えない。	<03:52>Can't hire more.
 SYSTEM.TOS	0x16d		ダインを手に入れた。	 Dain obtained.
-SYSTEM.TOS	0x17a		<03:55><14>［Ｙｅｓ］<14><14><14>［ Ｎｏ ］	
+SYSTEM.TOS	0x17a		<03:55><14>［Ｙｅｓ］<14><14><14>［ Ｎｏ ］	<03:55><14>［Yes］<14><14><14>［ No ］
 SYSTEM.TOS	0x195		<03:51><20><20><14>システム設定<14><20><20>\n	<03:51>  <14>Config<14>  \n
 SYSTEM.TOS	0x1a7		<03:55><14>Ｌｏａｄ\n<03:52><14>Ｓａｖｅ\n<14>戦闘モ~ド表示時間\n<14>ウィンドウ開時間\n<14>カ~ソル移動速度\n<14>音声モ~ド\n<14>背景設定<14>	<03:55><14>Load\n<03:52><14>Save\n<14>Text speed\n<14>Window time\n<14>Cursor speed\n<14>Sound\n<14>Background<14>
-SYSTEM.TOS	0x1ff		<03:55><14> <20><20><20><14>Ｌｏａｄ<14><20><20><20>	
-SYSTEM.TOS	0x214		<03:52><14> <20><20><20><14>Ｓａｖｅ<14><20><20><20>	
+SYSTEM.TOS	0x1ff		<03:55><14> <20><20><20><14>Ｌｏａｄ<14><20><20><20>	<03:55><14> <20><20><20><14>Load<14><20><20><20>
+SYSTEM.TOS	0x214		<03:52><14> <20><20><20><14>Ｓａｖｅ<14><20><20><20>	<03:52><14> <20><20><20><14>Save<14><20><20><20>
 SYSTEM.TOS	0x229		エラ~ 発生！	Error<04>!
 SYSTEM.TOS	0x235		ドライブ２に\n<03:56>ユ~ザ~<14>ディスク<03:57>を入れてください。	Insert\n<03:56>user<14>disk<03:57> in drive 2.
 SYSTEM.TOS	0x254		<03:56><1f><1f><1f><14>未使用<14><1f><1f><1f>	<03:56><1f><1f><1f><14>Unused<14><1f><1f><1f>
@@ -104,13 +104,13 @@ SYSTEM.TOS	0x70a		<03:57>★ 不思議な力で、封印されている ！！	<
 SYSTEM.TOS	0x727		ト~ク	Talk
 SYSTEM.TOS	0x72b		キャラクタ~	Character
 SYSTEM.TOS	0x732		音楽	Music
-SYSTEM.TOS	0x737		Ｐｏｓ	
+SYSTEM.TOS	0x737		Ｐｏｓ	Pos
 SYSTEM.TOS	0x740		<03:57><03:2b>を、売りました。	<03:57><03:2b> sold.
 SYSTEM.TOS	0x74e		戦闘回数	Battles
 SYSTEM.TOS	0x757		行動パタ~ン	Tactics
 SYSTEM.TOS	0x760		ドライブ１のフォ~マットだ	Drive 1's format.
 SYSTEM.TOS	0x76e		孫パッケ~ジ じゃない	Not a child pack<04>.
 SYSTEM.TOS	0x77b		<03:55><14>［右手］<14><14><14>［左手］	<03:55><14>Right<14><14><14>Left
-SYSTEM.TOS	0x792		<03:55><1a>１<1b><14><1a>２<1b><14><1a>３<1b><14><1a>４<1b><14><1a>５<1b>	
+SYSTEM.TOS	0x792		<03:55><1a>１<1b><14><1a>２<1b><14><1a>３<1b><14><1a>４<1b><14><1a>５<1b>	<03:55><1a>1<1b><14><1a>2<1b><14><1a>3<1b><14><1a>4<1b><14><1a>5<1b>
 SYSTEM.TOS	0x7b4		<03:51> ←<20><20> ペ~ジ <20><20>→\n	<03:51><04>←  <04>Page<04>  →\n
 SYSTEM.TOS	0x7c6		　最初から遊ぶ。\n<14>途中から遊ぶ。	　New game.\n<14>Continue.
