@@ -19,6 +19,8 @@
          "Release-note:" trailers on commits since the last tag, so only
          commits that opt in show up - e.g. add this to a commit message:
              Release-note: All weapon and armor names are in English
+  -Intro / -IntroFile: text to put at the top of the notes, above the
+         commit notes. Handy when there are no Release-note: commits yet.
 
   TODO: probably add a CRC check for the input images
 
@@ -27,12 +29,16 @@
   .\build.ps1            # build the [EN] CD image
   .\build.ps1 -Full      # floppy + CD
   .\build.ps1 -Release -Tag v1.0    # build + publish patches to GitHub
+  .\build.ps1 -Release -Tag v1.0 -Intro "First playable release!"
+  .\build.ps1 -Release -Tag v1.0 -IntroFile notes/v1.0.md
 #>
 param(
     [switch]$Full,
     [switch]$Check,
     [switch]$Release,
-    [string]$Tag
+    [string]$Tag,
+    [string]$Intro,
+    [string]$IntroFile
 )
 
 $ErrorActionPreference = "Stop"
@@ -143,11 +149,29 @@ $notes = (& git log $range --format=%B) |
     ForEach-Object { "- " + $_.Matches[0].Groups[1].Value } |
     Select-Object -Unique
 
+# optional intro text at the top of the notes (-Intro string and/or -IntroFile)
+$introText = $Intro
+if ($IntroFile) {
+    if (-not (Test-Path -LiteralPath $IntroFile)) {
+        Write-Host "IntroFile not found: $IntroFile" -ForegroundColor Red
+        exit 1
+    }
+    $fileText = (Get-Content -LiteralPath $IntroFile -Raw).TrimEnd()
+    $introText = if ($introText) { "$introText`n`n$fileText" } else { $fileText }
+}
+
 $body = [System.Collections.Generic.List[string]]::new()
-$body.Add("## What's new")
-if ($notes) { $notes | ForEach-Object { $body.Add($_) } }
-else { $body.Add("- (no Release-note: commits since $prev)") }
-$body.Add("")
+if ($introText) { $body.Add($introText); $body.Add("") }
+if ($notes) {
+    $body.Add("## What's new")
+    $notes | ForEach-Object { $body.Add($_) }
+    $body.Add("")
+}
+elseif (-not $introText) {
+    $body.Add("## What's new")
+    $body.Add("- (no Release-note: commits since $prev)")
+    $body.Add("")
+}
 $body.Add("## Install")
 $body.Add("Bring your own copy of the JP game (free): https://www.quarter-dev.info/v2/")
 $body.Add("Patch it with an xdelta tool such as Delta Patcher:")
