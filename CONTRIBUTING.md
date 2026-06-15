@@ -1,12 +1,15 @@
 # Contributing translations - Vain Dream II (FM Towns)
 
-Vain Dream II (ヴェインドリームⅡ, Glodia 1993) is an FM Towns RPG, released as
-freeware by its developer (<https://www.quarter-dev.info/v2/>). The reverse
-engineering is finished: compression, text encoding, and renderer are mapped, the
-engine is patched for half-width 1-byte English, and the build turns spreadsheet
-translations into a bootable disc image.
+Two ways to help, both fine:
 
-What's left is translating ~4,100 lines of Japanese.
+- **Web UI, no setup.** Open the
+  [translation site](https://trickybittranslations.github.io/VainDream2-FMTowns-English/),
+  find a line, and hit **Suggest**. It opens a GitHub issue with the file and line
+  already filled in; you just type the English. A bot checks it (charset, line
+  width, scene budget) and comments back in about a minute, and maintainers apply
+  the good ones. No fork, no clone.
+- **Pull request.** Edit the `english` column in `script/*.tsv`, run the checker,
+  open a PR. CI validates it.
 
 ## How it works
 
@@ -65,14 +68,14 @@ really needs one, flag it in your PR.
 - Use contractions. They read naturally and usually cost nothing.
 - Use `{TOKENS}` for people and place names whenever one exists. It keeps
   spelling consistent and renders in the highlight color.
-- Keep lines around 54 characters or less (the checker warns), and break with
+- Keep lines around 37 characters or less (the checker warns), and break with
   `\n` where it reads well. Match the original's box and page structure (`\p`).
 - Go for the original's meaning and tone, not word-for-word. No honorifics
   (-san/-sama); put the relationship into the English instead.
-- Established romanizations (see `tools/patch_names.py`): Warrick, Reina, Furnis,
-  Booj, Dan, Lambert, Granny, Cecilia, Blaford, Seth, Nutts, Ride, Carol, Veig,
-  Berner. To change one, open an issue rather than a PR; they're baked into the
-  name table.
+- Established romanizations live in `script/NAMES.tsv` (also `reinsert.py
+  --tokens`): Warrick, Reina, Furnis, Booj, Dan, Lambert, Granny, Cecilia,
+  Blaford, Seth, Nutts, Ride, Carol, Veig, Berner. To change one, open an issue
+  rather than a PR; they're baked into the name table.
 
 ### Leave alone
 
@@ -86,45 +89,37 @@ There's no length budget. The build grows the game's data and repoints the engin
 to match, so a line can be as long as it needs. (Scenes used to have a fixed
 compressed-size budget, but that's gone now.)
 
-The real limit is visual. A dialogue box shows about 5 lines of ~54 half-width
-characters, and anything past that gets clipped. So:
+The real limit is visual. A dialogue box is about 37 half-width characters wide
+and a few lines tall. Anything past the width gets clipped or wraps mid-word. So:
 
-- Break lines with `\n` so each is about the Japanese line's width or less.
+- Break lines with `\n` so each stays under ~37 cells.
 - Split a long passage across boxes with `\p` rather than overflowing one.
 - The checker warns when a rendered line is too wide:
 
 ```text
 python tools/reinsert.py --check
   VAIN_A.DAT@0x5e8a8: 29 strings, 1402 bytes (was 1297)
-  WARN VAIN_B_DAT.tsv:120: rendered line 2 is 61 cells (max ~54)
+  WARN VAIN_B_DAT.tsv:120: rendered line 2 is 44 cells (max ~37) - will be cut off or wrapped mid-word
 ```
 
 ## Building and testing locally
 
-Building a playable image needs your own copy of the game (free from the
+You don't need the game to translate. `script/blockpack.json.gz` (committed) has
+everything the checker needs, so `reinsert.py --check` runs on any clone, and CI
+validates every push or PR that touches `script/`.
+
+To build a playable image you need your own copy of the game (free from the
 developer: <https://www.quarter-dev.info/v2/>) in the repo root, plus Python
 3.10+. From the repo root on Windows:
 
 ```powershell
 .\build.ps1 -Check     # validate translations only (no game data needed)
-.\build.ps1            # build the [EN] CD image from the TSVs
-.\build.ps1 -Full      # also rebuild the EN boot floppy (rarely needed)
+.\build.ps1            # build the EN boot floppy + CD image from the TSVs
 ```
 
 Boot `...[SystemDisk]_EN.D88` with `... [EN].img` in an FM Towns emulator
 (Tsugaru). Untranslated lines show as mojibake; the English build remaps the kana
 ranges, so only translated text and kanji render.
-
-You don't need the game data to contribute. `script/blockpack.json.gz`
-(committed) has everything the checker needs, so `reinsert.py --check` runs on any
-clone, and CI validates every push or PR that touches `script/`.
-
-### Easiest way to suggest a line
-
-Open a "Translation suggestion" issue (Issues, New issue): pick the file, paste
-the line ID from the TSV, write your translation. A bot validates it (syntax,
-width, scene budget) and comments back within a minute, and maintainers apply the
-accepted ones. No fork or PR needed.
 
 ## Legal
 
