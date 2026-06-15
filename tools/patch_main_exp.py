@@ -27,7 +27,7 @@ PATCHES = [  # (offset in MAIN.EXP, expected original, replacement)
     # Forcing half-default above inverted it: records still carrying <03 03>
     # (currency, "Level", hit-counts) flipped to full and overflowed - "Dain"->
     # "Dai"+orphan "n", and that "n" wrecked the shop icon column. Pin to always-half
-    # by making the half->full branch also write 1 (@0x4635). Verified: prices/icons fit.
+    # by making the half->full branch also write 1 (@0x4635), so prices/icons fit.
     (0x4835, b"\x02", b"\x01"),
 
     # Name-table relocation: the full NAME.P table rides in ITEM.TOS and loads into

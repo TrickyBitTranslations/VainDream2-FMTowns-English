@@ -28,11 +28,11 @@ EN_D88 = ROOT / "Vain DreamII (1993)(Glodia)(Jp)[SystemDisk]_EN.D88"
 FILES = ["SYSTEM.TOS", "SYSTEM2.TOS", "FSYS.TOS"]
 
 # Each .TOS loads into a FIXED RAM slot (loader table @MAIN.EXP ~0x2140); growing a
-# file past its slot overruns the next struct and crashes. Caps verified live in the
-# emulator (see docs/findings/2026-06-12-tos-fixed-buffers-need-relocation.md):
-#   SYSTEM.TOS  DATA:0xC400 -> scene buffer 0xCC00      = 2048 (hard)
-#   FSYS.TOS    0x114:0x1400 -> next PICT, free to 0x19C0 (conservative)
-#   SYSTEM2.TOS 0x114:0xD800 -> free to ~0xDB10         (conservative)
+# file past its slot overruns the next struct and crashes. Caps found by poking the
+# emulator (docs/findings/2026-06-12-tos-fixed-buffers-need-relocation.md):
+#   SYSTEM.TOS  DATA:0xC400 -> scene buffer 0xCC00, hard cap 2048
+#   FSYS.TOS    0x114:0x1400 -> next PICT at 0x19C0, stay under it
+#   SYSTEM2.TOS 0x114:0xD800 -> free to ~0xDB10, stay under it
 TOS_CAP = {"SYSTEM.TOS": 2048, "FSYS.TOS": 1472, "SYSTEM2.TOS": 784}
 
 

@@ -35,7 +35,7 @@ SCENE_BUFFER = 0x1380   # 4992: ITEM.TOS relocated to carved seg, buffer now 0xC
 DECOMP_BUDGET = {}
 
 
-# ---------- ISO geometry ----------
+# ISO geometry
 def iso_geometry(iso):
     """Return (pvd_vol_sectors, {name:(dir_rec_iso_off, lba, size)}, max_used_sec)."""
     pvd = iso[16 * SEC:17 * SEC]
@@ -70,7 +70,7 @@ def SYNC(within):
     return disc.SYNC_HEADER + within
 
 
-# ---------- main ----------
+# main
 def main(demo=False):
     iso = disc.extract_track1_iso(str(IMG), TRACK1_SECTORS)
     tokens = reinsert.name_token_map()

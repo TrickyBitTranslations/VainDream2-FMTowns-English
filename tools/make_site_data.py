@@ -27,7 +27,7 @@ def main():
     if "--issues" in sys.argv:
         issues_path = pathlib.Path(sys.argv[sys.argv.index("--issues") + 1])
 
-    # ---- script.json + per-file/block tallies --------------------------------
+    # script.json + per-file/block tallies
     import re as _re
 
     def is_engine_data(jp):
@@ -87,7 +87,7 @@ def main():
         json.dumps(files, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8")
 
-    # ---- status.json ---------------------------------------------------------
+    # status.json
     tokens = reinsert.name_token_map()
     src = reinsert.PackSource() if not (
         reinsert.IMG.exists() and reinsert.IMG.stat().st_size > 1_000_000
@@ -152,7 +152,7 @@ def main():
         "names": names_table,          # every name/term, for the Names tab
     }, ensure_ascii=False), encoding="utf-8")
 
-    # ---- suggestions.json ----------------------------------------------------
+    # suggestions.json
     sugg = defaultdict(list)
     if issues_path and issues_path.exists():
         for issue in json.loads(issues_path.read_text(encoding="utf-8")):

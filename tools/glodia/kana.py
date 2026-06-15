@@ -15,8 +15,8 @@ The text dispatcher (MAIN.EXP @0x44f0 / @0x4877) classifies each byte:
     0x5a-0xac   HIRAGANA  → JIS row 0x24, JIS = 0x2421 + (byte - 0x5a)
     0xad-0xff   KATAKANA  → JIS row 0x25, JIS = 0x2521 + (byte - 0xad)
 
-Verified end-to-end: NAME.P names (ウォーリック/レイナ/ファーニス/ブージ…), the place list, and
-real dialogue words decoded from VAIN_*.DAT members (確かに, それで, 似ている, 久しぶり, …).
+Handles NAME.P names (ウォーリック/レイナ/ファーニス/ブージ), the place list, and
+dialogue words from the VAIN_*.DAT members (確かに, それで, 似ている, 久しぶり).
 """
 
 KATAKANA_BASE = 0xAC  # legacy alias; katakana = 0xad..0xff (cell = code - 0xac)

@@ -51,10 +51,10 @@ def main():
         print(f"Term {jp!r} not found in the name table.")
         sys.exit(1)
 
-    # NOTE: no name-table byte budget anymore - the build grows DATA.BIN on the
-    # floppy (FAT12) to fit the whole table, so romanizations can be any length.
-    # Only the charset (checked above) and the term existing matter.
-    # The names live in script/NAMES.tsv (the single source patch_names loads).
+    # no name-table byte budget anymore - the build grows DATA.BIN on the floppy
+    # (FAT12) to fit the whole table, so romanizations can be any length. Only the
+    # charset (checked above) and the term existing matter. Names live in
+    # script/NAMES.tsv, which is what patch_names loads.
     so = f"{tok:#x}"
     rows = NAMES_TSV.read_text(encoding="utf-8").splitlines()
     hit = False
