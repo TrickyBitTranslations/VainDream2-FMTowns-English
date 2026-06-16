@@ -9,6 +9,7 @@ comment) and exits 0 (valid) / 1 (invalid).
 Local use: ISSUE_BODY="### Script file\n\nVAIN_A_DAT.tsv\n..." python tools/validate_suggestion.py
 """
 import os, pathlib, re, sys
+from collections import Counter
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent.parent  # repo root (.github/scripts/..)
 sys.path.insert(0, str(ROOT / "tools"))
@@ -24,6 +25,17 @@ def parse_form(body):
                          re.S | re.M):
         fields[m.group(1).strip().lower()] = m.group(2).strip()
     return fields
+
+
+# Layout-only codes a translator may add/drop freely: <14> is a column tab,
+# <04> a half-width space. Every other <..> code (colors, name inserts) carries
+# game meaning and has to survive into the translation.
+LAYOUT_CODES = {"<14>", "<04>"}
+
+
+def control_codes(s):
+    """Multiset of the <..> control codes in a line, minus the layout ones."""
+    return Counter(t for t in re.findall(r"<[^>]+>", s) if t not in LAYOUT_CODES)
 
 
 def _id_eq(a, b):
@@ -60,6 +72,12 @@ def main():
     # normalize: editors often paste real newlines instead of \n
     text = text.replace("\r", "").replace("\n", "\\n")
 
+    if not (ROOT / "script" / tsv_name).is_file():
+        print(f"### :x: Unknown script file `{tsv_name}`\n\n"
+              "Pick the TSV the line lives in (the site fills this in for you). "
+              "If you came from the web UI, re-open the suggest link.")
+        sys.exit(1)
+
     is_markup = tsv_name.endswith("_TOS.tsv") or tsv_name == "STAGE.tsv"
     problems = []
     budget_note = ""
@@ -80,7 +98,15 @@ def main():
             problems.append(f"line id {block_s} {str_s} not found in {tsv_name}")
     else:
         archive = tsv_name.replace("_DAT.tsv", ".DAT").replace("_PK.tsv", ".PK")
-        block_off, str_off = int(block_s, 16), int(str_s, 16)
+        try:
+            block_off, str_off = int(block_s, 16), int(str_s, 16)
+        except ValueError:
+            print(f"### :x: `{block_s} {str_s}` isn't a valid line id for "
+                  f"`{tsv_name}`\n\nDialogue line ids are two hex offsets like "
+                  "`0x5e8a8 0x24`. If your line id looks like `SYSTEM2.TOS 0x155`, "
+                  "the script file should be the matching `*_TOS.tsv` (or "
+                  "`STAGE.tsv`), not a dialogue file.")
+            sys.exit(1)
         tokens = reinsert.name_token_map()
         try:
             reinsert.compile_english(text, tokens)
@@ -107,7 +133,18 @@ def main():
                                     "event bytecode) and can't be translated yet - skip it")
             except Exception:
                 pass
-    # NOTE: no per-scene byte budget - the build grows archives and repoints the
+
+    # Every control code in the original (colors, name inserts, ...) has to be
+    # carried through, or the line renders wrong or breaks. Tabs/spaces are exempt.
+    if not problems and jp_text is not None:
+        missing = control_codes(jp_text) - control_codes(text)
+        if missing:
+            codes = ", ".join(f"`{c}`" + (f" x{n}" if n > 1 else "")
+                              for c, n in sorted(missing.items()))
+            problems.append(f"missing control codes from the original: {codes} "
+                            "(copy them through; tabs and spaces are the exception)")
+
+    # no per-scene byte budget - the build grows archives and repoints the
     # engine scene table, so translations can be any length. Only syntax, line
     # width, and this safety check apply.
 

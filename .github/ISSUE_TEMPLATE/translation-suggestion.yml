@@ -11,18 +11,12 @@ body:
         see [CONTRIBUTING.md](https://github.com/TrickyBitTranslations/VainDream2-FMTowns-English/blob/main/CONTRIBUTING.md). A bot will
         validate your suggestion (charset, line width, scene byte budget) and
         comment the result here.
-  - type: dropdown
+  - type: input
     id: file
     attributes:
       label: Script file
-      options:
-        - VAIN_A_DAT.tsv
-        - VAIN_B_DAT.tsv
-        - VAIN_C_DAT.tsv
-        - VAIN_S_DAT.tsv
-        - SYSTEM_TOS.tsv
-        - SYSTEM2_TOS.tsv
-        - FSYS_TOS.tsv
+      description: "The TSV the line lives in (auto-filled from the site). One of: VAIN_A_DAT.tsv, VAIN_B_DAT.tsv, VAIN_C_DAT.tsv, VAIN_S_DAT.tsv, SYSTEM_TOS.tsv, SYSTEM2_TOS.tsv, FSYS_TOS.tsv, STAGE.tsv"
+      placeholder: VAIN_A_DAT.tsv
     validations:
       required: true
   - type: input
