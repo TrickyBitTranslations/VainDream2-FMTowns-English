@@ -14,7 +14,7 @@ SYSTEM.TOS	0x142		<03:52>そんな物、持ってない。	<03:52>Don't have tha
 SYSTEM.TOS	0x152		<03:52>そんな奴はいません！！	<03:52>No such person!!
 SYSTEM.TOS	0x161		<03:52>もう、雇えない。	<03:52>Can't hire more.
 SYSTEM.TOS	0x16d		ダインを手に入れた。	 Dain obtained.
-SYSTEM.TOS	0x17a		<03:55><14>［Ｙｅｓ］<14><14><14>［ Ｎｏ ］	<03:55><14>［Yes］<14><14><14>［ No ］
+SYSTEM.TOS	0x17a		<03:55><14>［Ｙｅｓ］<14><14><14>［ Ｎｏ ］	<03:55><14>［Yes］<14><14><14><14><14><14><14><14><14><14><14>［ No ］
 SYSTEM.TOS	0x195		<03:51><20><20><14>システム設定<14><20><20>\n	<03:51>  <14>Config<14>  \n
 SYSTEM.TOS	0x1a7		<03:55><14>Ｌｏａｄ\n<03:52><14>Ｓａｖｅ\n<14>戦闘モ~ド表示時間\n<14>ウィンドウ開時間\n<14>カ~ソル移動速度\n<14>音声モ~ド\n<14>背景設定<14>	<03:55><14>Load\n<03:52><14>Save\n<14>Text speed\n<14>Window time\n<14>Cursor speed\n<14>Sound\n<14>Background<14>
 SYSTEM.TOS	0x1ff		<03:55><14> <20><20><20><14>Ｌｏａｄ<14><20><20><20>	<03:55><14> <20><20><20><14>Load<14><20><20><20>
@@ -57,7 +57,7 @@ SYSTEM.TOS	0x4d4		<03:57><03:26>を使う。\n	<03:57><03:26> used.\n
 SYSTEM.TOS	0x4df		を、捨てます。\n	 dropped.\n
 SYSTEM.TOS	0x4e9		<03:55>\n<14>捨てんの止めたぁ。\n	<03:55>\n<14>Kept it.\n
 SYSTEM.TOS	0x4fa		<03:23>を、捨てました。	<03:23> dropped.
-SYSTEM.TOS	0x506		情 報買 うやめる	Info<04>Buy<04>Quit
+SYSTEM.TOS	0x506		情 報買 うやめる	Info\nBuy\nQuit
 SYSTEM.TOS	0x513		戦闘 表示時間<14><1a>１<1f>８<1b>\n\n	Battle<04>text time<14><1a>1<1f>8<1b>\n\n
 SYSTEM.TOS	0x529		　相 談 中	　Talking
 SYSTEM.TOS	0x534		を、外しました。	 removed.
