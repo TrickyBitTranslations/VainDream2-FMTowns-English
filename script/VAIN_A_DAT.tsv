@@ -361,7 +361,7 @@ block_off	str_off	speaker	text	english
 0x61a35	0x31c		ストネール\nこのロッドの先端を見て・・・青い水晶が付いているでしょ。\nこの水晶が、貴方の魔力をほんの少し、増幅してくれるわ。\n魔力の制御も簡単だし、この杖は店のヒット商品ね。	Stonell\nLook at the tip of this rod...\nsee the blue crystal?\nIt amplifies your magic just a\nlittle.\nEasy to control, too. This staff\nis our hit product.
 0x61a35	0x3ba	レイナ	きれいなデザイ	What a pretty design.
 0x61a35	0x3da	ファーニス	水晶がきれいだね。	The crystal is pretty.
-0x61a35	0x3f2		ストネール\nこれは、良質の樫の木から削り出した杖に、呪紋処理を施した物なの。\n見て・・・全体に、びっしりルー	Stonell\nThis staff is carved from fine\noak and treated with runic\nglyphs.\nLook... runes packed densely\nall over-
+0x61a35	0x3f2		ストネール\nこれは、良質の樫の木から削り出した杖に、呪紋処理を施した物なの。\n見て・・・全体に、びっしりルー	Stonell\nThis staff is carved from fine\noak and treated with runic\nglyphs.\nLook... runes packed densely\nall over,
 0x61a35	0x44a		が刻み込まれているでしょ。\n水晶のロッドを遥かに凌ぐ力を持っているわ。	carved into it, see?\nIt far surpasses the crystal\nrod in power.
 0x61a35	0x494	レイナ	わぁぁぁ、これ欲しいわ。\nねぇウォーリック、買おっ。	Wow, I want this.\nHey {Warrick}, let's buy it.
 0x61a35	0x4c4	レイナ	今、私が持ってる杖ね。	The staff I'm carrying now.
@@ -387,7 +387,7 @@ block_off	str_off	speaker	text	english
 0x61fbe	0x1f6		ディーゼル\nこの薬草袋の中身を、他の店の物と一緒にしてもらっちゃあ困るぜ。\nうちのは特別製なんだよ。\nなんと、ニンニクの成分入り。\nなのに他の店の薬草袋と同じ値段！！くぅぅぅぅぅッ、太っ腹だねぇ。	Diesel\nDon't lump my herb pouch in with\nother shops' stuff.\nMine's special-made.\nWith, get this, garlic in it.\nAnd the same price as anyone\nelse's pouch!! Gah, what a deal,\nright?
 0x61fbe	0x294	レイナ	効き目は同じみたいね。	The effect seems the same, though.
 0x61fbe	0x2b8	ファーニス	そんなの入れてどうすんの、おっちゃん！？	Why'd you put that in, mister?!
-0x61fbe	0x2de		ディーゼル\nこのポーションは、他の店の物と一味ちがぁぁぁう！！\nうちのは特別製なんだよ。\nなっ、なっ、なんと、レモ	Diesel\nThis potion's a cut above the\nrest!!\nMine's special-made.\nWith, with, get this, lem-
+0x61fbe	0x2de		ディーゼル\nこのポーションは、他の店の物と一味ちがぁぁぁう！！\nうちのは特別製なんだよ。\nなっ、なっ、なんと、レモ	Diesel\nThis potion's a cut above the\nrest!!\nMine's special-made.\nWith, with, get this, lem
 0x61fbe	0x331		入りだぁ。\nどうだっ、まいったかッ！！	on in it!\nWell? Impressed yet?!
 0x61fbe	0x35c	レイナ	美容飲料じゃないんだから。	It's not a beauty drink, you know.
 0x61fbe	0x383	ファーニス	入れりゃいいってもんじゃないよ、おっちゃん。	Adding stuff isn't always better,\nmister.
@@ -1343,7 +1343,7 @@ block_off	str_off	speaker	text	english
 0x6da8d	0x81	レイナ	買物はまた後で。	I'll shop later.
 0x6da8d	0xa0	レイナ	節約しなきゃ。	Got to save my money.
 0x6da8d	0xb9		ミディー\nモビーディックを倒すために、漁師のほとんどが死んでしまったわ。\n誰か、みんなのカタキをとって。	Midi\nMost of the fishermen died\ntrying to slay {MOBY DICK}.\nSomeone, avenge them all.
-0x6da8d	0xff		ミディー\nナイトヘッド号も、キングシェル号も、アマヤー	Midi\nThe Nighthead, the Kingshell,\nthe Amaya
+0x6da8d	0xff		ミディー\nナイトヘッド号も、キングシェル号も、アマヤー	Midi\nThe Nighthead, the Kingshell,\nthe Amaya,
 0x6da8d	0x12b		号も、ブルーコメット号も、北天丸も、みんなモビーディックに沈められちゃったわ。	the Blue Comet, the Hokutenmaru...\n{MOBY DICK} sank them all.
 0x6da8d	0x163		ミディー\nここでは、６割で引取らせていただいてまぁぁぁす。	Midi\nHere we buy back at\nsixty percent!
 0x6da8d	0x19f	レイナ	うぅぅぅぅぅん。\nもうちょっと、使ってからにするわ。	Hmmmm.\nI'll use it a bit more first.
@@ -1380,7 +1380,7 @@ block_off	str_off	speaker	text	english
 0x6df16	0x267	ファーニス	・・・以外と美味しいね。	Furnis\n...Better than I expected.
 0x6df16	0x28e		ジョナ婆さん\n今日の定食は、砂鮪の刺身と砂ワカメの味噌汁だよ。\n適当に開いてる所で喰っとくれ。	Granny Jonah\nToday's set is sand tuna sashimi\nand sand seaweed miso soup.\nGrab any open seat and dig in.
 0x6df16	0x2e4	ライド	おおっ！\nこいつぁうまいや。\nあの婆さん、なかなかやるな！	Ride\nOho!\nThis stuff is delicious.\nThat granny's got real skill!
-0x6df16	0x319		ジョナ婆さん\nナイトヘッド号のクランキー船長。\nそりゃあ、勇敢な人だった。\nキングシェル号のジェド船長。\n酒好きで、愉快な人だったよ。\nアマヤー	Granny Jonah\nCaptain Cranky of the Nighthead.\nNow he was a brave man.\nCaptain Jed of the Kingshell.\nA jolly fellow who loved his drink.\nAmaya-
+0x6df16	0x319		ジョナ婆さん\nナイトヘッド号のクランキー船長。\nそりゃあ、勇敢な人だった。\nキングシェル号のジェド船長。\n酒好きで、愉快な人だったよ。\nアマヤー	Granny Jonah\nCaptain Cranky of the Nighthead.\nNow he was a brave man.\nCaptain Jed of the Kingshell.\nA jolly fellow who loved his drink.\nAmaya
 0x6df16	0x38d		号のバスク船長。\n船速が自慢だったねぇ。\nジョナ婆さん\nブルーコメット号のダーギ	a, Captain Busk.\nProud of his ship's speed.\nGranny Jonah\nDargi of the Blue Comet,
 0x6df16	0x3d2		船長。\n若いし、頭がキレる男だったんだ。\n北天丸のパラボじいさん。\nモリの名手だった。\nでも、みんな逝っちまったんだよ。	the captain.\nYoung, and sharp as a blade.\nOld Parabo of the Hokuten Maru.\nA master with the harpoon.\nBut they're all gone now.
 0x6df16	0x433		ジョナ婆さん\nみんな、逝っちまった。\nみんな、優しい海の男だったのに。\nモビーディックにやられて、冷たい砂の海の底さ。	Granny Jonah\nEvery one of them, gone.\nKindly men of the sea, all.\nTaken by Moby Dick, down to\nthe cold floor of the sand sea.

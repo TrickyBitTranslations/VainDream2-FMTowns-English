@@ -292,7 +292,7 @@ block_off	str_off	speaker	text	english
 0x5d5ba	0x46b		これは、大きめの金属製リングを、鎖状に編み合わせて造った３鎧７だ。\n魔法の鎧は別として、下に着れる３鎧７の中じゃあ最高の品だぜ。\nプレートメイルとコンビで着れば、最高の防御力になるはずだぜ。	This armor is woven from metal\nrings linked into a chain.\nMagic armor aside, it's the finest\nthing to wear underneath.\nPaired with plate mail, it gives\nthe best defense around.
 0x5d5ba	0x506	レイナ	これは、買いましょうよ。\n３鎧７の下に着れるし、いいんじゃない。	Let's buy this one.\nIt wears under armor, so why not?
 0x5d5ba	0x54d		メイルかぁ。\n知恵の輪が欲しくなっちゃった。	Mail, huh.\nNow I want a puzzle ring.
-0x5d5ba	0x57c		まあ、プレートメイルって言えば、大きな防具屋なら必ず置いてある、板金技術の結晶だな。\n関節加工技術がいいから運動性も高いし、中にチェイ	Plate mail, now... any big armor\nshop is sure to stock it, the\nheight of sheet-metal craft.\nThe joints are worked well, so\nit moves freely, and with chai-
+0x5d5ba	0x57c		まあ、プレートメイルって言えば、大きな防具屋なら必ず置いてある、板金技術の結晶だな。\n関節加工技術がいいから運動性も高いし、中にチェイ	Plate mail, now... any big armor\nshop is sure to stock it, the\nheight of sheet-metal craft.\nThe joints are worked well, so\nit moves freely.
 0x5d5ba	0x5e4		メイルを着込めば、致命傷は受けないな。	Wear the mail and you'll take\nno fatal wounds.
 0x5d5ba	0x613	レイナ	プレートメイルって、いつ見てもキレイね。	Plate mail always looks so\nbeautiful, no matter when I see it.
 0x5d5ba	0x641	ファーニス	カッコいいねぇ。\n私もこんな３鎧７、着てみたいなぁ。	Looks great.\nI'd love to wear armor like this.
@@ -854,8 +854,8 @@ block_off	str_off	speaker	text	english
 0x6491d	0x52d	レイナ	私やファーニスも着れるわね。\nマントの下にこれ着たらいいだろな。	Furnis and I could wear this too.\nIt'd be great under a cloak.
 0x6491d	0x569	レイナ	私が今、着ている物ね。\nほらっ、とっても素敵でしょ。	This is what I'm wearing now.\nSee? Isn't it lovely?
 0x6491d	0x5a1	ファーニス	この３鎧７１つ造るのに、どのくらいの銀を使ってるの？	How much silver goes into making\none of these armors?
-0x6491d	0x5d0		ウィズバスキー\nこいつは、俺の傑作だよ。\n装甲配分も関節加工も装飾も完壁な仕上がりだ。\nどうだ・・・胸に輝くグリフォ	Wizbaskey\nThis is my masterpiece.\nThe armor balance, the joints,\nthe trim... all flawless.\nWell? The griffon gleaming on\nthe chest is downright divine.
-0x6491d	0x631		が神々しいだろ。	isn't it divine.
+0x6491d	0x5d0		ウィズバスキー\nこいつは、俺の傑作だよ。\n装甲配分も関節加工も装飾も完壁な仕上がりだ。\nどうだ・・・胸に輝くグリフォ	Wizbaskey\nThis is my masterpiece.\nThe armor balance, the joints,\nthe trim... all flawless.\nWell? The griffon gleaming on\nthe chest is downright
+0x6491d	0x631		が神々しいだろ。	divine, isn't it.
 0x6491d	0x653	レイナ	こんなキレイな３鎧７、初めて見たわ。\n床の間にでも飾っておきたいわ。	I've never seen such beautiful\narmor. I'd love to display it\nin an alcove.
 0x6491d	0x697	ライド	凄ぇな、この３鎧７は。\nどんな攻撃でも跳ね返しそうだぜ。	Incredible armor.\nLooks like it'd turn back any attack.
 0x6491d	0x6cf	ライド	こいつはいい。\n全く重さを感じさせないぜ。	This is good.\nI can't feel its weight at all.
@@ -866,7 +866,7 @@ block_off	str_off	speaker	text	english
 0x64e53	0x63	ウォーリック	その前に、貴方の国が襲われた時の事を教えて下さい。\nあのアンデット・・・俺の知合いなんです。	First, tell me what happened when\nyour land was attacked.\nThat undead... I know him.
 0x64e53	0xb5	クレイボーン	何と・・・貴奴と会ったのか！\n・・・まぁ、いいだろう。\nクレイボーン\n数日前、いきなりあの男が現れた。\nアンデットを引き連れてな。\n青白い顔をした、薄汚れた黒いローブを羽織った小柄の男だ。	What... you've met him?!\n...Well, fine.\p{CLAYBOURNE}\nDays ago, that man appeared from\nnowhere, leading the undead.\nA small man, pale-faced, in a\nfilthy black robe.
 0x64e53	0x165	ライド	あのハゲ親父の事だな。	That bald old man, you mean.
-0x64e53	0x186	クレイボーン	貴奴は、１人のアンデットを自慢気に見せると、『実験に参加せよ』などとぬかしおってな。\nクレイボーン\nその時既に、ゾンビやスケルト	He smugly showed off one of the\nundead and had the gall to say,\n'Join my experiment.'\p{CLAYBOURNE}\nBy then the zombies and skele-
+0x64e53	0x186	クレイボーン	貴奴は、１人のアンデットを自慢気に見せると、『実験に参加せよ』などとぬかしおってな。\nクレイボーン\nその時既に、ゾンビやスケルト	He smugly showed off one of the\nundead and had the gall to say,\n'Join my experiment.'\p{CLAYBOURNE}\nBy then the zombies and skele
 0x64e53	0x1ec		が国を囲んでいた。\n戦士達は、女子供を守りながら必死で戦い、ここまで逃げて来たんだ。\nクレイボーン\nワシを含めた数十人の戦士が、あのアンデットに向かったが、崖に串刺しにして食い止めるのが精一杯だった。\nクレイボーン\n日に何度か偵察を出して、奴の行動を警戒しているが、貴奴がここを見つければ、また襲って来るに違いない。	tons had already surrounded us.\nOur warriors fought to shield the\nwomen and children, and fled here.\p{CLAYBOURNE}\nDozens of us, myself among them,\ncharged that undead. The most we\ncould do was pin it to the cliff.\p{CLAYBOURNE}\nWe send out scouts to watch him,\nbut if he finds this place, he'll\nsurely strike again.
 0x64e53	0x2e1	クレイボーン	あんたには悪いが、今度、貴奴が現れたら必ず倒してみせる。	Sorry to say it, but next time he\nappears, I'll cut him down for sure.
 0x64e53	0x314	ウォーリック	・・・俺にやらせて下さい。	...Let me do it.

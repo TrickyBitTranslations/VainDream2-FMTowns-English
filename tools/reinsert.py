@@ -119,13 +119,58 @@ def speaker_label_splices(block, speakers):
 EXTRA_TITLES = {"{Knight} Ponar", "{Knight} Shaw", "Knight Show"}
 
 # Sentence-flow FF junctions: a sentence split across two records where the FF
-# between them draws a stray 'F'. Unlike the name-titles above, these MERGE - we
-# strip the FF so the two halves render as one continuous flow (no \p). Key each
-# by the FIRST record (archive, block_off, str_off) - the one whose span ends at
-# the FF - and word the two TSV cells so they read across the join. Confirm the
-# merged line in-game before adding one here.
+# between them draws a stray 'F'. Unlike the name-titles above, these MERGE - the
+# next record's text immediately follows the FF (no event bytecode in between), so
+# replacing the FF joins the two halves into one continuous box. Key each by the
+# FIRST record (archive, block_off, str_off) - the one whose span ends at the FF.
+# The value is what the FF becomes: " " for a normal word join, "" for a tight join
+# (mid-word splits like desig|ns -> designs, or where the next half starts with
+# punctuation like Show|, ). Junctions with event bytecode between the records are
+# NOT here (they're separate boxes; merging would expose the event bytes).
 MERGE_JUNCTIONS = {
-    ("VAIN_A.DAT", 0x5f33e, 0x2ee),   # Granny: "...Tell the Kapai" | "you go on my errand..."
+    ("VAIN_A.DAT", 0x5f33e, 0x2ee): "",   # Granny: "...Tell the Kapai\n" | "you go on my errand"
+    ("VAIN_A.DAT", 0x5f886, 0x68f): " ",  # "...the designs are cute," | "most of them anyway."
+    ("VAIN_A.DAT", 0x5f886, 0x70e): " ",  # "A simple, function-first" | "design, very comfortable"
+    ("VAIN_A.DAT", 0x5fdf8, 0x2c1): " ",  # "Kapai," | "if you mean him, he's on watch"
+    ("VAIN_A.DAT", 0x6095b, 0x641): " ",  # "But Sir Shaw" | "is here, so it's safe."
+    ("VAIN_A.DAT", 0x61a35, 0x3f2): " ",  # "...runes packed densely all over," | "carved into it"
+    ("VAIN_A.DAT", 0x61fbe, 0x2de): "",   # "...get this, lem" | "on in it!" -> lemon
+    ("VAIN_A.DAT", 0x62a3c, 0x58e): " ",  # "Lucy quickly takes to Show" | "and clings to him."
+    ("VAIN_A.DAT", 0x62a3c, 0x70d): "",   # "...Show" | ", I told you so many times..."
+    ("VAIN_A.DAT", 0x62a3c, 0x746): " ",  # "Mama gets cross, but Show" | "is so kind to me!"
+    ("VAIN_A.DAT", 0x665d8, 0x6d7): "",   # "...Karmai" | ", don't slip up."
+    ("VAIN_A.DAT", 0x665d8, 0x75b): "",   # "K-Karmai" | "!\n...damn you all!"
+    ("VAIN_A.DAT", 0x66b59, 0x10d): " ",  # "...feeding on other creatures" | "as a parasite."
+    ("VAIN_A.DAT", 0x6784b, 0x443): " ",  # "...The design" | "is pretty too. I like it."
+    ("VAIN_A.DAT", 0x6784b, 0x65a): "",   # "...the desig" | "ns are plentiful too" -> designs
+    ("VAIN_A.DAT", 0x6784b, 0x740): "",   # "So many desig" | "ns, all lovely." -> designs
+    ("VAIN_A.DAT", 0x67d4a, 0x5d7): " ",  # "...it was all gibberish" | "to me."
+    ("VAIN_A.DAT", 0x682d6, 0x296): " ",  # "...twice as strong as usual. Sorry" | "about that."
+    ("VAIN_A.DAT", 0x6ca81, 0x6b9): " ",  # "A ship's power hinges on its captain's" | "magic."
+    ("VAIN_A.DAT", 0x6da8d, 0xff):  " ",  # "...the Kingshell, the Amaya," | "the Blue Comet, ..."
+    ("VAIN_A.DAT", 0x6df16, 0x319): "",   # "Amaya" | "a, Captain Busk." -> Amayaa
+    ("VAIN_A.DAT", 0x6df16, 0x38d): " ",  # "...Dargi of the Blue Comet," | "the captain."
+    ("VAIN_B.DAT", 0x5d066, 0x1e5): " ",  # "...of all the polearms, it's the most" | "refined."
+    ("VAIN_B.DAT", 0x5d066, 0x50b): " ",  # "...really something, huh." | "I guess I'll take one too."
+    ("VAIN_B.DAT", 0x5d5ba, 0x57c): " ",  # "...so it moves freely." | "Wear the mail and you'll..."
+    ("VAIN_B.DAT", 0x5e51c, 0x299): " ",  # "...cockatrice eyeballs." | "It's on the house, so eat up"
+    ("VAIN_B.DAT", 0x5e51c, 0x37b): " ",  # "...fiery ramen, made with broth" | "boiled from a griffon"
+    ("VAIN_B.DAT", 0x5e51c, 0x392): " ",  # "...boiled from a griffon's helm." | "It's on the house"
+    ("VAIN_B.DAT", 0x643af, 0x4a2): " ",  # "There were skeletons too," | "but the only one fighting"
+    ("VAIN_B.DAT", 0x6491d, 0x1b1): " ",  # "...The unicorn" | "engraving came out perfect"
+    ("VAIN_B.DAT", 0x6491d, 0x5d0): " ",  # "...the chest is downright" | "divine, isn't it."
+    ("VAIN_B.DAT", 0x64e53, 0x186): "",   # "...the zombies and skele" | "tons had already" -> skeletons
+    ("VAIN_B.DAT", 0x6719b, 0x62b): "",   # "Sorry for keeping qui" | "et." -> quiet
+    ("VAIN_B.DAT", 0x6a6ba, 0x1cc): " ",  # "...think of it as a test of skill and it's easy as" | "pie."
+    ("VAIN_B.DAT", 0x6a6ba, 0x3ab): " ",  # "...Same design as the crest I carry" | "it is."
+    ("VAIN_S.DAT", 0x2528a, 0x104): " ",  # "...Take Karmai" | "and get to the fort, quick."
+    ("VAIN_S.DAT", 0x25b63, 0x4ed): " ",  # "When we can rest, we'd best" | "rest up properly."
+    ("VAIN_S.DAT", 0x26acb, 0x115): "",   # "Energy Drai" | "n or whatever..." -> Drain
+    ("VAIN_S.DAT", 0x26acb, 0x65c): "",   # "...my head is pound" | "ing." -> pounding
+    ("VAIN_S.DAT", 0x286c1, 0x42a): "",   # "...A dungeo" | "n cleaner, you could say." -> dungeon
+    ("VAIN_S.DAT", 0x28d0b, 0x88):  "",   # "...to take a le" | "ak right here" -> leak
+    ("VAIN_S.DAT", 0x28d0b, 0xc8):  "",   # "...while you take a le" | "ak is the most basic" -> leak
+    ("VAIN_S.DAT", 0x28f9d, 0x8):   " ",  # "...button" | "in the field to reveal the..."
 }
 
 
@@ -150,15 +195,18 @@ def signoff_ff_splices(block, items, speakers):
 
 
 def merge_ff_splices(archive, block_off, block, items):
-    """Strip the separator FF for the sentence-flow junctions in MERGE_JUNCTIONS,
-    merging the two records into one continuous line so the FF stops drawing a
-    stray 'F'. No \\p (unlike signoff_ff_splices, this isn't a fresh box)."""
+    """Replace the separator FF for the sentence-flow junctions in MERGE_JUNCTIONS,
+    merging the two records into one continuous box so the FF stops drawing a stray
+    'F'. The FF becomes the junction's value (a space for a word join, nothing for a
+    tight mid-word/punctuation join). No \\p (unlike signoff_ff_splices, this isn't
+    a fresh box)."""
     out = []
     for str_off, _english in items:
-        if (archive, block_off, str_off) in MERGE_JUNCTIONS:
+        sep = MERGE_JUNCTIONS.get((archive, block_off, str_off))
+        if sep is not None:
             _start, end = string_span(block, str_off)
             if end < len(block) and block[end] == 0xFF:
-                out.append((end, end + 1, b""))
+                out.append((end, end + 1, en_encode(sep)))
     return out
 
 

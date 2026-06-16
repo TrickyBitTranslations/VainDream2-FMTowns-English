@@ -291,8 +291,8 @@ block_off	str_off	speaker	text	english
 0x26acb	0x6b	ファーニス	なんだか、ドキドキしてきたね。	Somehow my heart's started racing.
 0x26acb	0x8c	ファーニス	ねぇ、レイナ。\nあのワータイガーさん・・・人間の時、どんな顔なのかなぁ？	Hey, {REINA}.\nThat were-tiger... what does his\nface look like as a human?
 0x26acb	0xd7	レイナ	うぅぅぅぅぅん。\nやっぱり、猫みたいな顔をしているのかしらねぇ。	Hmmm.\nI'll bet he has a face like a\ncat's, don't you think?
-0x26acb	0x115	ファーニス	バンパイアかぁ。\nエナジードレイ	A vampire, huh.\nEnergy Drai-
-0x26acb	0x135		とか言う、体をヘロヘロにしちゃう技を使うんでしょ。	-n or whatever, the move that\nleaves your whole body limp.
+0x26acb	0x115	ファーニス	バンパイアかぁ。\nエナジードレイ	A vampire, huh.\nEnergy Drai
+0x26acb	0x135		とか言う、体をヘロヘロにしちゃう技を使うんでしょ。	n or whatever, the move that\nleaves your whole body limp.
 0x26acb	0x15e	ライド	それって、血を吸われるって事だろ？	That means it sucks your blood,\nright?
 0x26acb	0x184	ライド	あのワータイガー、よく見るといい尻してるなぁ。\nもしかしたら、メスかもしれないぜ。	Look close, that were-tiger's got\na nice rear.\nMight even be a female.
 0x26acb	0x1d2	ファーニス	私には、筋肉隆隆のお尻にしか見えないよ。	Looks like nothing but a\nmuscle-bound butt to me.
@@ -488,8 +488,8 @@ block_off	str_off	speaker	text	english
 0x286c1	0x318	ファーニス	マージスさんって、顔に似合わず優しいんだねぇ。	{MARGIS} is kinder than his\nface lets on, isn't he?
 0x286c1	0x36f	ファーニス	シュリーカーがいる。\nあんまり近づくと、コロッと眠らされちゃうよ。	There's a shrieker.\nGet too close and it'll knock you\nright out cold.
 0x286c1	0x3b0	ライド	大丈夫だ、ファーニス。\nよく似ているが、これはシュリーカーじゃない。\nライド\nこれは、ブバオタケって言うんだ。	It's fine, {FURNIS}.\nThey look alike, but this isn't\na shrieker.\n\p{RIDE}\nThis is called a bubao mushroom.
-0x286c1	0x42a	ライド	シュリーカーみたいに移動も出来るが、人畜無害。\nおとなしい奴だぜ。\nライド\nおまけに、落ちている物は何でも飲み込む。\nダンジョ	It can move like a shrieker, but\nit's totally harmless.\nA gentle thing.\n\p{RIDE}\nPlus, it swallows up anything\nlying around. A dungeo-
-0x286c1	0x48f		の掃除屋ってトコかな。	-n cleaner, you could say.
+0x286c1	0x42a	ライド	シュリーカーみたいに移動も出来るが、人畜無害。\nおとなしい奴だぜ。\nライド\nおまけに、落ちている物は何でも飲み込む。\nダンジョ	It can move like a shrieker, but\nit's totally harmless.\nA gentle thing.\n\p{RIDE}\nPlus, it swallows up anything\nlying around. A dungeo
+0x286c1	0x48f		の掃除屋ってトコかな。	n cleaner, you could say.
 0x286c1	0x4a5	ファーニス	じゃあこのブバオちゃんも、いっぱい飲み込んでるのぉ？	So this little bubao has swallowed\na whole lot too?
 0x286c1	0x4d6	ライド	そうだな。\nちょっと切り裂いてみるかぁ。	That's right.\nLet's try cutting it open a bit.
 0x286c1	0x4fd	ファーニス	ダメだよ、ライド。\nそんな事したら、かわいそうだよぉ。	Don't, {RIDE}.\nDoing that would be so cruel.
@@ -514,10 +514,10 @@ block_off	str_off	speaker	text	english
 0x28bcf	0xb8	セス	こんなに凄い力を持っていても、魔神にはかなわなかったのね。	Even with power this great, he was\nno match for the {DEMON GOD}.
 0x28d0b	0x14	ファーニス	こういう壁見てると、イタズラ書きしたくなるよねぇ。	Looking at a wall like this makes\nyou want to scribble on it.
 0x28d0b	0x45	レイナ	壁だけ、ポッツリあるわねぇ。\nここにも、何か建築物があったのかしら？	Just a lone wall, standing there.\nI wonder if something was built\nhere too?
-0x28d0b	0x88	ライド	こういう壁って、立ちショ	A wall like this makes you want\nto take a le-
-0x28d0b	0xa6		したくなるよなぁ。\nそうだろ、ウォーリック。	-ak right here, doesn't it?\nRight, {WARRICK}?
-0x28d0b	0xc8	ウォーリック	ああっ。\n敵が現れても対処出来る様に、壁を背にして立ちショ	Yeah. Backing up to a wall so you\ncan handle foes if they show up\nwhile you take a le-
-0x28d0b	0x101		するのは、冒険者の基本中の基本だからな。	-ak is the most basic of basics\nfor an adventurer.
+0x28d0b	0x88	ライド	こういう壁って、立ちショ	A wall like this makes you want\nto take a le
+0x28d0b	0xa6		したくなるよなぁ。\nそうだろ、ウォーリック。	ak right here, doesn't it?\nRight, {WARRICK}?
+0x28d0b	0xc8	ウォーリック	ああっ。\n敵が現れても対処出来る様に、壁を背にして立ちショ	Yeah. Backing up to a wall so you\ncan handle foes if they show up\nwhile you take a le
+0x28d0b	0x101		するのは、冒険者の基本中の基本だからな。	ak is the most basic of basics\nfor an adventurer.
 0x28e15	0x8		使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使えますが、１度使うと無くなります。	When used, restores a little health,\nfavoring the weakest ally first.\nWorks in the field and in battle,\nbut is consumed after one use.
 0x28e15	0x5f		使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使えます。\n効果は薬草と同じですが、数回使う事が出来ます。	When used, restores a little health,\nfavoring the weakest ally first.\nWorks in the field and in battle.\nSame effect as the {HERB}, but it can\nbe used several times.
 0x28e15	0xc7		薬草の効果を上げたアイテムです。\n使用すると１番体力の低い者を優先し、体力を大幅に回復してくれます。\nフィールド上と戦闘中に使えますが、１度使うと無くなります。	An item with a stronger {HERB} effect.\nWhen used, restores a lot of health,\nfavoring the weakest ally first.\nWorks in the field and in battle,\nbut is consumed after one use.
