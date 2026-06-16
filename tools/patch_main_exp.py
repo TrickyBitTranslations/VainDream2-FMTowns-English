@@ -116,6 +116,15 @@ PATCHES = [  # (offset in MAIN.EXP, expected original, replacement)
     (0xA70, b"\x00" * 7, bytes.fromhex("b701" "e92d3a0000")),
     # item render tail @0x3c74 (runtime 0x3a74): jmp 0x42a4 -> jmp 0x870 (trampoline)
     (0x3C74, bytes.fromhex("e92b080000"), bytes.fromhex("e9f7cdffff")),
+
+    # Battle Auto/Manual value-box alignment @0xe574. The box-draw picks a start
+    # column from the flag (gs:0xa032): one state col 0x0a, the other col 0x02,
+    # width 8 cols. The half-width "[ Auto ][Manual]" text sits at cols 1-8 and
+    # 9-16, so both box columns landed one cell too far right (Auto box over
+    # cols 2-9, spilling into the "[" of Manual; Manual box over 10-17). Shift
+    # both start columns left by 1 so each box wraps its word exactly.
+    (0xE787, b"\x02", b"\x01"),  # Auto box col 2 -> 1
+    (0xE77B, b"\x0A", b"\x09"),  # Manual box col 0xa -> 9
 ]
 
 

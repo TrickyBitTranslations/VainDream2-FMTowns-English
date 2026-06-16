@@ -29,7 +29,7 @@ FSYS.TOS	0x1c7		周囲に敵はいない。	No foes near.
 FSYS.TOS	0x1d4		<03:52>ドライブ１は、システム<14>ディスク<02>ザ	<03:52>Drive 1 is the system<14>disk<02>za
 FSYS.TOS	0x1e9		　あなたの冒険は失敗に終わりました。	　Your adventure ended in failure.
 FSYS.TOS	0x208		の、<02>すが消え去った。	's <02>... faded away.
-FSYS.TOS	0x216		<03:51><20> 戦闘 メニュ~ <20>\n<03:57><14>道 具 を 使 う\n<14>作 戦 指 示\n<14>攻撃目標 設定\n<14>［自動］［手動］\n<14>に げ る	<03:51><20> Battle Menu <20>\n\n<03:57><14>Use an item\n<14>Give orders\n<14>Set target\n<14>Auto      Manual\n<14>Flee
+FSYS.TOS	0x216		<03:51><20> 戦闘 メニュ~ <20>\n<03:57><14>道 具 を 使 う\n<14>作 戦 指 示\n<14>攻撃目標 設定\n<14>［自動］［手動］\n<14>に げ る	<03:51><20> Battle Menu <20>\n\n<03:57><14>Use an item\n<14>Give orders\n<14>Set target\n<14>［ Auto ］［Manual］\n<14>Flee
 FSYS.TOS	0x26b		<03:52>行動ポイントが足りない。	<03:52>Not enough action points.
 FSYS.TOS	0x27d		のレベルを上げた。	's level rose.
 FSYS.TOS	0x288		逃げられない。	Can't flee.
