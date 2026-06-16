@@ -121,7 +121,8 @@ def main(demo=False):
                 splices.append((a, b, reinsert.compile_english(en, tokens)))
             splices.extend(reinsert.speaker_label_splices(block, speakers))
             splices.extend(reinsert.signoff_ff_splices(block, lines, speakers))
-            for so, last in reinsert.unhandled_ff_junctions(block, lines, speakers):
+            splices.extend(reinsert.merge_ff_splices(archive, block_off, block, lines))
+            for so, last in reinsert.unhandled_ff_junctions(archive, block_off, block, lines, speakers):
                 bisection_todo.append((archive, block_off, so, last))
             for a, b, repl in sorted(splices, key=lambda s: s[0], reverse=True):
                 block[a:b] = repl

@@ -118,6 +118,16 @@ def speaker_label_splices(block, speakers):
 # FF drawing a stray 'F'); those need the FF stripped to merge, not a \p.
 EXTRA_TITLES = {"{Knight} Ponar", "{Knight} Shaw", "Knight Show"}
 
+# Sentence-flow FF junctions: a sentence split across two records where the FF
+# between them draws a stray 'F'. Unlike the name-titles above, these MERGE - we
+# strip the FF so the two halves render as one continuous flow (no \p). Key each
+# by the FIRST record (archive, block_off, str_off) - the one whose span ends at
+# the FF - and word the two TSV cells so they read across the join. Confirm the
+# merged line in-game before adding one here.
+MERGE_JUNCTIONS = {
+    ("VAIN_A.DAT", 0x5f33e, 0x2ee),   # Granny: "...Tell the Kapai" | "you go on my errand..."
+}
+
 
 def signoff_ff_splices(block, items, speakers):
     """When a record's text ENDS with a bare speaker name, that name is really the
@@ -139,14 +149,29 @@ def signoff_ff_splices(block, items, speakers):
     return out
 
 
-def unhandled_ff_junctions(block, items, speakers):
+def merge_ff_splices(archive, block_off, block, items):
+    """Strip the separator FF for the sentence-flow junctions in MERGE_JUNCTIONS,
+    merging the two records into one continuous line so the FF stops drawing a
+    stray 'F'. No \\p (unlike signoff_ff_splices, this isn't a fresh box)."""
+    out = []
+    for str_off, _english in items:
+        if (archive, block_off, str_off) in MERGE_JUNCTIONS:
+            _start, end = string_span(block, str_off)
+            if end < len(block) and block[end] == 0xFF:
+                out.append((end, end + 1, b""))
+    return out
+
+
+def unhandled_ff_junctions(archive, block_off, block, items, speakers):
     """Translated records that flow into the next box via a separator FF (span end
-    == 0xFF) but are NOT handled by signoff_ff_splices -- each still draws a stray
-    'F' at the junction (the ~11 sentence-flow bisections; see EXTRA_TITLES and
-    docs/findings). Returns [(str_off, last_line)] for a standing build reminder."""
+    == 0xFF) but are NOT handled by signoff_ff_splices or MERGE_JUNCTIONS -- each
+    still draws a stray 'F' at the junction (the remaining sentence-flow bisections;
+    see docs/findings). Returns [(str_off, last_line)] for a standing build reminder."""
     names = set(speakers.values()) | EXTRA_TITLES
     out = []
     for str_off, english in items:
+        if (archive, block_off, str_off) in MERGE_JUNCTIONS:
+            continue
         last = english.replace("\\p", "\\n").split("\\n")[-1].strip()
         if last in names:
             continue
@@ -349,7 +374,8 @@ def main():
         labels = speaker_label_splices(block, speakers)
         splices.extend(labels)
         splices.extend(signoff_ff_splices(block, items, speakers))
-        bisection_todo += unhandled_ff_junctions(block, items, speakers)
+        splices.extend(merge_ff_splices(archive, block_off, block, items))
+        bisection_todo += unhandled_ff_junctions(archive, block_off, block, items, speakers)
         for start, end, repl in sorted(splices, key=lambda s: s[0], reverse=True):
             block[start:end] = repl
         encoded = dlz.encode(bytes(block))
