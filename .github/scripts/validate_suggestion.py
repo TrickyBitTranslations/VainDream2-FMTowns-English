@@ -60,18 +60,20 @@ def main():
     # normalize: editors often paste real newlines instead of \n
     text = text.replace("\r", "").replace("\n", "\\n")
 
-    is_tos = tsv_name.endswith("_TOS.tsv")
+    is_markup = tsv_name.endswith("_TOS.tsv") or tsv_name == "STAGE.tsv"
     problems = []
     budget_note = ""
     speaker, jp_text = find_row(tsv_name, block_s, str_s)
 
-    if is_tos:
-        # UI / menu / system text (floppy .TOS): english uses the uitext markup and
-        # is reinserted by patch_ui, not the dialogue dlz path.
+    if is_markup:
+        # UI / menu / system text (.TOS) and place names (STAGE): the english uses
+        # the uitext markup + {NAME} tokens, reinserted by patch_ui / patch_stage,
+        # not the dialogue dlz path. The hard RAM-slot budget for these is checked
+        # at build time (it needs the game dump); here we only check syntax.
         archive = tsv_name
         from glodia.uitext import encode_markup
         try:
-            encode_markup(text)
+            encode_markup(text, tokens=reinsert.name_token_map())
         except Exception as e:
             problems.append(f"syntax: {e}")
         if not problems and jp_text is None:
