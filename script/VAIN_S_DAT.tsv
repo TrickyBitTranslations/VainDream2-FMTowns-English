@@ -85,8 +85,8 @@ block_off	str_off	speaker	text	english
 0x23f92	0x64f	ウォーリック	３剣７で殺されているぞ。\n誰が倒したんだ？	Killed with a sword.\nWho took it down?
 0x23f92	0x67e	ブージ	・・・この傷口。\nデーモンをこんな倒し方するなんて、普通の武器ではないな。	...This wound.\nNo ordinary weapon kills a {DEMON}\nlike this.
 0x23f92	0x6bf	ウォーリック	こいつ等の相手側に、かなり強い奴がいるなぁ。\n・・・早く、奥に進もう。	Whoever fought these things is\nawfully strong.\n...Let's press on, fast.
-0x23f92	0x70c	ブージ	かなりの数のデーモンが侵入している様だな。	Looks like a fair number of demons\nhave broken in here.
-0x23f92	0x734	ウォーリック	この死体、もう凍り付いている。\n凄い冷気だ。	This corpse is already frozen solid.\nWhat fearsome cold.
+0x23f92	0x70c	ブージ	かなりの数のデーモンが侵入している様だな。	Looks like a fair number of\ndemons have broken in here.
+0x23f92	0x734	ウォーリック	この死体、もう凍り付いている。\n凄い冷気だ。	This corpse is already frozen\nsolid. What fearsome cold.
 0x23f92	0x769	ブージ	おかしい。\nデーモンに、群を成す習性はないはずだ。	Strange.\nDemons aren't meant to gather\nin packs.
 0x23f92	0x797	ウォーリック	じゃあ、どういう事だ？\nデーモンが、集会でも開いているのかなぁ。	Then what's going on?\nAre the demons holding some kind\nof meeting?
 0x24386	0x1e	レイナ	・・・・・んんっ！\n北の空にある雲を見て。\n何か変ねぇ？	Look at those clouds in the\nnorthern sky. Something's off,\ndon't you think?
