@@ -129,12 +129,18 @@ $dist = Join-Path $root "dist"
 New-Item -ItemType Directory -Force -Path $dist | Out-Null
 $cdPatch = Join-Path $dist "vd2-en-cd.xdelta"
 $fdPatch = Join-Path $dist "vd2-en-floppy.xdelta"
-$cueOut = Join-Path $dist "$B [EN].cue"
+# Release assets: GitHub strips spaces/brackets from asset names anyway, so ship the
+# cue under that dotted name and repoint its FILE line to match - users don't rename
+# anything, and gh's asset-arg globber won't choke on the '[EN]' brackets.
+$freeName = ("$B [EN]" -replace '[^A-Za-z0-9]+', '.').Trim('.')
+$cueOut = Join-Path $dist "$freeName.cue"
 
 # patches carry only the changed bytes, not the game - safe to publish
 Invoke-Step "patch: CD delta"     { & xdelta3 -e -f -s $jpImg $enImg $cdPatch }
 Invoke-Step "patch: floppy delta" { & xdelta3 -e -f -s $jpD88 $enD88 $fdPatch }
-Copy-Item -LiteralPath $enCue -Destination $cueOut -Force   # our cue, not game data
+# our cue, not game data - repoint FILE "...[EN].img" at the dotted release name
+$cueText = (Get-Content -LiteralPath $enCue -Raw).Replace("$B [EN].img", "$freeName.img")
+[System.IO.File]::WriteAllText($cueOut, $cueText, (New-Object System.Text.UTF8Encoding($false)))
 
 $imgHash = (Get-FileHash -LiteralPath $jpImg -Algorithm SHA256).Hash.ToLower()
 $d88Hash = (Get-FileHash -LiteralPath $jpD88 -Algorithm SHA256).Hash.ToLower()
@@ -175,7 +181,7 @@ $body.Add("## Install")
 $body.Add("Bring your own copy of the JP game, then patch it with an xdelta tool such as Delta Patcher:")
 $body.Add("1. vd2-en-cd.xdelta applied to your '$B.img'")
 $body.Add("2. vd2-en-floppy.xdelta applied to your '${B}[SystemDisk].D88'")
-$body.Add("Name the CD output '$B [EN].img' so the included .cue matches. Reuse your own .ccd/.sub (rename to the [EN] names). Boot the _EN.D88 floppy with the [EN] CD in an FM Towns emulator (Tsugaru).")
+$body.Add("Name your patched CD image '$freeName.img' to match the included .cue (no spaces or brackets), and your .ccd/.sub the same way. Boot the patched floppy together with the CD in an FM Towns emulator (Tsugaru).")
 $body.Add("")
 $body.Add("## Patches apply to these JP files (SHA-256)")
 $body.Add("$B.img  -  $imgHash")
