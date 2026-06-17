@@ -54,3 +54,4 @@ Outputs are `Vain DreamII (1993)(Glodia)(Jp) [EN].img` (+ cue/ccd/sub) and
 
 - Glodia & QuarterDev for the game.
 - Translation and tooling by TrickyBit Translations and contributors.
+- haffpizza: translations.
