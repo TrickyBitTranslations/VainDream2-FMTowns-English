@@ -79,6 +79,7 @@ block_off	str_off	speaker	text	english
 0x5e8a8	0x2c9	ファーニス	へへっ、ウォーリック。\nひさしぶりぃ、元気だったぁ？	{Haha}, {WARRICK}.\nLong time! How've you been?
 0x5e8a8	0x300	ウォーリック	ああっ！\nファーニス。	Ah!\n{FURNIS}!
 0x5e8a8	0x320	レイナ	今ファーニスは、行方不明になったお兄さんを探して１人で旅をしているそうよ。	Searching alone for\nher missing brother.
+0x5e8a8	0x358	ウォーリック	・・・行方不明？	...Missing?
 0x5e8a8	0x37d	ファーニス	うん。\n２年ほど前の事なんだけどね。\nお兄ちゃん、エルフの国に住む神官竜カーネル様の所に呼ばれたの。\nファーニス\nそれで、それっきり帰って来ないのよ。カーネル様に聞いても、何も知らないって言うし・・・。	Two years ago, my brother\nwas summoned by Karnel,\nthe Elf priest dragon.\p{FURNIS}\nHe never came back.\nKarnel claims he knows nothing...
 0x5e8a8	0x40d	レイナ	ファーニスの兄さんて、かなり強い魔法剣士なんでしょ？	Your brother's a strong\nspellblade, right?
 0x5e8a8	0x440	ファーニス	・・・うん。\nお兄ちゃんの事だからそう簡単に死ぬはずないし、あんまり心配してないけどね。\nファーニス\nそれよりウォーリック、どうしたの？血の匂いがするよ。\nこれって、竜の血の匂いじゃない？	...Yeah.\nHe won't die that easily.\nI'm not worried.\p{FURNIS}\n{WARRICK} - I smell blood.\nDragon blood?
@@ -139,6 +140,7 @@ block_off	str_off	speaker	text	english
 0x5f33e	0x2ee	大婆様	・・・うむっ、許可しよう。\nだだし無理はするでないぞ。\n大婆様\nカパイ	...Mm, permission granted.\nBut don't push your luck.\p{Granny}\nTell the Kapai\n
 0x5f33e	0x32e		達には、ワシの使いで行くと言うのじゃ。\n通してくれるじゃろう。	you go on my errand.\nThey'll let you pass.
 0x5f33e	0x37b	大婆様	おおっ、ブージ、ウォーリック。\n帰って来たか。\n氷の洞窟の様子はどうじゃった。	Ah, {Booj}, {Warrick}.\nBack already?\nHow fared the Ice Cavern?
+0x5f33e	0x3b7	ブージ	大婆様・・・。	{GRANNY}...
 0x5f33e	0x3d3		ブージは氷の洞窟での出来事を話した。	{Booj} told of what happened\nat the Ice Cavern.
 0x5f33e	0x3fe	大婆様	・・・そうか。\nそれで、それがそのナイフか。\n旧世界の魔導具だろうかのう？	...I see.\nSo that's the knife.\nAn old-world relic, perhaps?
 0x5f33e	0x445	ウォーリック	ランバートの着ていた３鎧７も見なれない物でした。	The armor {Lambert} wore was\nlike nothing I'd seen either.
@@ -228,6 +230,7 @@ block_off	str_off	speaker	text	english
 0x603cd	0x8c	ブージ	神官竜同士で闘ったのか！？\nそんな事、今まで聞いた事がない。\nブージ\nそれにしても妙だな。\nデーモンはともかく、この神官竜はどうやって洞窟に入って来たんだ。	Did two {Priest Dragon}s fight?!\nI've never heard of such a thing.\p{Booj}\nStill, it's strange.\n{Demon}s aside, how did this\n{Priest Dragon} get into the\ncavern at all?
 0x603cd	0xf7	ウォーリック	強力な召喚師でもいるじゃないか。\n普通、デーモンって群をつくらないんだろ。	Maybe there's a powerful\nsummoner about.\n{Demon}s don't usually form\npacks, right?
 0x603cd	0x134	ブージ	・・・そうだな。\nいくら強力な力を持った神官竜でも、この数のデーモンを統率できるはずがない。\nブージ\n何か異常な力が働いている様だ。\n詳しく調べよう、ウォーリック。	...True.\nNo {Priest Dragon}, however\nmighty, could command this many\n{Demon}s.\p{Booj}\nSome abnormal power is at work.\nLet's look closer, {Warrick}.
+0x603cd	0x1bc	ウォーリック	・・・緑の竜？	...A green dragon?
 0x603cd	0x1dd	ブージ	この体格の神官竜。\nおそらく、南の大陸に住む緑竜バーダルだろう。\nブージ\n話でしか聞いていないが、バーダルは性格も温厚で、フロスト様と同様人々に敬われている神官竜のはずだ。	A {Priest Dragon} this size...\nLikely Bardal, the Green Dragon\nof the southern continent.\p{Booj}\nOnly by reputation, but Bardal\nis gentle, a {Priest Dragon}\nrevered like Lord Frost.
 0x603cd	0x258	ブージ	その神官竜が何でこんな所にいるんだ。	So why is that {Priest Dragon}\nin a place like this?
 0x603cd	0x27a	ブージ	バーダルはパラサイト　デーモンに操られてたんだ。\nどうやら、そのナイフをめぐってな。	Bardal was being controlled by\na Parasite Demon.\nOver that knife, it seems.
@@ -235,6 +238,7 @@ block_off	str_off	speaker	text	english
 0x603cd	0x2fb	ブージ	・・・今まで見た事もない３鎧７だ。\nどこの国の騎士でもないな。	...Armor like I've never seen.\nNo nation's knight wears this.
 0x603cd	0x32d	ウォーリック	兜・・・取ってみようか。	The helmet... let's take it off.
 0x603cd	0x371		ウォーリックは、騎士の死体から兜を外した。	{Warrick} removed the helmet\nfrom the knight's body.
+0x603cd	0x3a2	ウォーリック	・・・・・ランバート！？	......{LAMBERT}?!
 0x603cd	0x3c0	ブージ	ランバートだ。\n・・・・・なぜだッ！？\nなぜ、ランバートがこんな姿に。	It's {Lambert}.\n.....Why?!\nWhy is {Lambert} like this?
 0x603cd	0x404		目の前に死んでいる騎士を、２人は知っている。２人の友、そしてダ　ンの兄であるその男の名は、ランバート。\n彼は１年前に狩りに出たきり、行方不明になっていた。	They both knew the dead knight\nbefore them. Their friend, and\n{Dan}'s brother, the man named\n{Lambert}.\pHe'd gone hunting a year ago\nand never returned.
 0x603cd	0x47a	ブージ	ランバートは、間違ってもこんな３鎧７は着ない。\nどうなってんだ！？	{Lambert} would never wear\narmor like this.\nWhat's going on?!
@@ -530,7 +534,7 @@ block_off	str_off	speaker	text	english
 0x636b9	0x5ae	ファーニス	・・・ピローム？\n一緒にいたケルベロスの事ね。	...Pirom?\nYou mean the Cerberus\nthat was with you.
 0x636b9	0x5e0	セシリア	どこかもわからない森でピロームは私を守って魔物と戦い、一睡もせずに結界を張り続けてくれたのです。\nセシリア\n・・・大神官様も、ピロームも・・・みんな私をかばって・・・。	In a forest I didn't know,\nPirom protected me and\nfought the Monsters,\nholding a barrier without\nsleeping for a moment.\n\p{Cecilia}\n...The High Priest, and\nPirom... everyone shielded\nme...
 0x636b9	0x67a		ベイグ王\n気に病む事はない。\n皆、そなたが守るに値する人と信じ、戦ったのだ。\nベイグ王\n今は、その者達のためにも静養しなくてはな。	King Veig\nDon't blame yourself.\nThey all believed you\nworth protecting, and so\nthey fought.\n\pKing Veig\nFor their sake too, you\nmust rest now.
-0x636b9	0x6f3		さ\n今、セルーシュは？	And\nWhat of Serush now?
+0x636b9	0x6de	セシリア	・・・ベイグ様。\n今、セルーシュは？	...Lord {VEIG}.\nWhat of {SERUSH} now?
 0x636b9	0x702		ベイグ王\nうむ。\n今ライランドとジークが加戦し、生き残った聖騎士達と共に城奪回のため戦っている。	King Veig\nMm.\nNow Ryland and Zeke have\njoined the fight, battling\nwith the surviving Paladins\nto retake the castle.
 0x636b9	0x748	セシリア	ベイグ王。\n私を国に戻して下さい。	King Veig.\nPlease send me back\nto my country.
 0x636b9	0x76d		ベイグ王\nそれはできない。\nセルーシュは今とても危険な状態だ。	King Veig\nThat I cannot do.\nSerush is in a very\ndangerous state right now.
@@ -541,8 +545,9 @@ block_off	str_off	speaker	text	english
 0x63c42	0x117		ベイグ王\n・・・ところで、そなた達はこの手紙の内容を知っているのか？\nローラは、この頃大陸規模で活性化しいる魔物の事を心配している様だ。	King Veig\n...By the way, do you know what\nthis letter says?\nLola frets over the {Monster}s\nstirring across the continent.
 0x63c42	0x188	レイナ	このジーク王国でも、何かあったのでしょうか？\n城の警戒も厳重でしたし、騎士達も緊張している様に感じました。	Has something happened here in\nthe Zeke Kingdom too?\nThe castle's heavily guarded,\nand the knights seem tense.
 0x63c42	0x1d2		ベイグ王\n・・・うむっ。\n１週間ほど前の深夜の事だ。\n黒い鎧に身を包んだ男がこの城に侵入した。\nベイグ王\nその男はワイバーンで城まで飛来し、たった１人で警備をかいくぐり、城の地下室に安置してあったジークの国宝、天の水晶を破壊して行った。	King Veig\n...Mm.\nLate one night about a week ago,\na man clad in black armor broke\ninto this castle.\pKing Veig\nHe flew in on a Wyvern, slipped\npast every guard alone, and\ndestroyed Zeke's national\ntreasure in the cellar, the\nSky Crystal.
+0x63c42	0x27c	レイナ	・・・天の水晶？	...The {SKY CRYSTAL}?
 0x63c42	0x294		ベイグ王\n・・・うむっ。\n天の水晶とは魔物に限らずあらゆる生命の魂を破壊する、旧世界の魔導具だ。\nベイグ王\n私が、先代のセルーシュの王に預けられた物だった。\nそれが、破壊されたのだ。\nベイグ王\nローラの手紙には、活性化した魔物の原因は旧世界を滅ぼした魔神の復活が考えられると書いてある。	King Veig\n...Mm.\nThe Sky Crystal is an old-world\nrelic that shatters the soul of\nany living thing, not just\n{Monster}s.\pKing Veig\nIt was entrusted to me by the\nlate king of Serush.\nAnd now it is destroyed.\pKing Veig\nLola's letter says the stirring\n{Monster}s may mean the Demon\nGod, who ruined the old world,\nhas revived.
-0x63c42	0x373		ぁの復活！？	The Demon God's revival?!
+0x63c42	0x363	レイナ	・・・魔神の復活！？	...The {DEMON GOD}'s revival?!
 0x63c42	0x381		ベイグ王\n魔神伝説はこの大陸のいたる所にあるが、私自身魔神の存在など信じてはいない。\nベイグ王\nしかし、このところ度重なる事件。\n・・・すべて無関係とは思えんな。	King Veig\nDemon God legends are all over\nthis continent, but I myself\ndon't believe it exists.\pKing Veig\nStill, these repeated incidents...\nI can't think them all unrelated.
 0x63c42	0x409	レイナ	・・・他にも何かあるのでしょうか？	...Is there something more?
 0x63c42	0x42e		ベイグ王\n・・・いやっ。\nたいした事ではない。\nそなた達は、ここでゆっくり旅の疲れを癒すがよい。	King Veig\n...No.\nNothing of import.\nRest here and ease your\ntravel-weariness a while.
@@ -580,12 +585,15 @@ block_off	str_off	speaker	text	english
 0x641e4	0x267	ファーニス	何、寝惚けてるのよ。\n誰かこの部屋に来るのよッ！！	Quit dozing off.\nSomeone's coming to this room!\n
 0x641e4	0x2ba	レイナ	ベイグ王！？\nこの様な所にどうしたのです。	King {Veig}!?\nWhat brings you to a place\nlike this?\n
 0x641e4	0x2e6		ベイグ王\nお前達の耳に、入れておきたい事があるのだ。\nこの頃頻発している、魔物の事件の事なのだが・・・。	King {Veig}\nThere's something I want you\nall to hear.\nIt's about these monster\nincidents lately...\n
+0x641e4	0x338	レイナ	何か！？	What?!
 0x641e4	0x34e		ベイグ王\n隣国のセルーシュが、魔物の大軍に襲われ落城した。\nベイグ王\n現在西の大国ライランド、そして我が国のドラゴン　ライダー隊が加戦し、生き残ったセルーシュの騎士達と共に王城奪回のため戦っている。	King {Veig}\nSerush, our neighbor, was\noverrun by a monster horde\nand fell.\np\nKing {Veig}\nNow Ryland, the great western\npower, and our own {Dragon Rider}\ncorps have joined in. Alongside\nSerush's surviving Knights,\nthey fight to retake the castle.\n
 0x641e4	0x3ce	レイナ	魔物が城を！？\n・・・今まで、そんな事なかったのに。	{Monster}s took the castle!?\n...That's never happened\nbefore.\n
 0x641e4	0x407		ベイグ王\nそれも多種の魔物が統率され、指揮官らしき姿も確認されている。\n既に、軍隊として機能しているらしい。\nベイグ王\nそして魔物共は、自らをクーレイア魔神軍と名のっている。	King {Veig}\nMany kinds of {Monster}s, all\nunder command, and a figure\nthat seems to lead them.\nThey already function as an\narmy.\np\nKing {Veig}\nAnd they call themselves the\nKuleia Demon God army.\n
+0x641e4	0x494	ウォーリック	・・・クーレイア！？	...{KULEIA}?!
 0x641e4	0x4ab		ベイグ王\nクーレイアとは、太古に栄えた巨大魔法文明の都市の名だ。\nどこに存在したのかも知られていない、伝説の都市だがな。	King {Veig}\nKuleia is the name of a vast\nmagic city that flourished\nin ancient times.\nNo one knows where it stood.\nA city of legend.\n
 0x641e4	0x50e	レイナ	魔物達の目的はいったい？	What could the {Monster}s be\nafter?\n
 0x641e4	0x52e		ベイグ王\n魔物達の目的はわかっている。\nセルーシュ王国の国宝、地の水晶だ。	King {Veig}\nWe know what they want.\nSerush Kingdom's treasure,\nthe Earth Crystal.\n
+0x641e4	0x56c	ファーニス	・・・地の水晶？	...The {EARTH CRYSTAL}?
 0x641e4	0x582		ベイグ王\n地の水晶は天の水晶と時を同じくして造られた、旧世界の魔導具だ。\n天の水晶は魂を砕き、地の水晶は肉体を砕く。\nベイグ王\n神をも倒せると伝えられている、２つの魔導具・・・その魔導具が我々の手から消え去った。\nベイグ王\n何を意味するか、わかるであろう。	King {Veig}\nThe Earth Crystal was forged\nwith the Sky Crystal, a relic\nof the old world.\nThe Sky shatters the soul,\nthe Earth the body.\np\nKing {Veig}\nTwo relics said to slay even\ngods... and those relics have\nslipped from our hands.\np\nKing {Veig}\nYou understand what that\nmeans.\n
 0x641e4	0x663	レイナ	・・・まさか。	...It can't be.\n
 0x641e4	0x67a		ベイグ王\nあれほどの魔物を操れる存在。\n私がその者なら、自らの弱点は必ず潰しにかかる。\nベイグ王\n・・・まだ断定できる状態ではないので、くれぐれも事を荒立てない様、心してほしい。	King {Veig}\nA being that commands such\n{Monster}s. Were I that one, I'd\nsurely crush my own weakness.\np\nKing {Veig}\n...It's not yet certain, so\ntake care not to stir things\nup. Keep this in mind.\n
@@ -713,6 +721,7 @@ block_off	str_off	speaker	text	english
 0x65adb	0x562		ベイグ王\n・・・王女たる私・・・か。\n神聖王国を数百年にわたり治めてきた血筋だな。\nベイグ王\nわかった。\n・・・セルーシュに行くがよい。\nセルーシュの騎士達も喜ぼう。	{VEIG}\n...I, their princess, is it.\nA bloodline that has ruled this\nholy kingdom for centuries.\p{VEIG}\nVery well.\n...Go to {SERUSH}.\nHer knights will rejoice.
 0x65adb	0x5f9	セシリア	ありがとうございます、ベイグ様。	Thank you, Lord {VEIG}.
 0x65adb	0x61c	ウォーリック	ベイグ王。\nできれば俺達が姫をお連れしましょう。\nウォーリック\n俺達もセルーシュ方面へ行かなければならないし、ジークも守りを固めねばならないのでは・・・。	King {VEIG}.\nIf you'd allow it, we'll escort\nthe princess ourselves.\p{WARRICK}\nWe must head toward {SERUSH} too,\nand {ZEKE} needs to bolster its\ndefenses, doesn't it...
+0x65adb	0x689	セシリア	・・・ベイグ王。	...King {VEIG}.
 0x65adb	0x6aa		ベイグ王\nそなた達なら腕も確かだし信用できる。セシリア姫を頼んだぞ。	{VEIG}\nYour skill is sure and you can\nbe trusted. I leave Princess\n{CECILIA} in your hands.
 0x65adb	0x6f6		セシリアが仲間に加わった。	{CECILIA}{ JOINED THE PARTY.}
 0x65adb	0x715		ベイグ王\nでは、頼んだぞウォーリック。	King Veig\nThen I'm counting on you, {WARRICK}.
@@ -783,6 +792,7 @@ block_off	str_off	speaker	text	english
 0x66b59	0x321		［ブージ］\n・・・やばいっ！\n伏せるんだ、ウォーリック。	{BOOJ}\nThis is bad!\nGet down, {WARRICK}.
 0x66b59	0x351		［ウォーリック］\n・・・行ったみたいだぞ。	{WARRICK}\nLooks like... it's gone.
 0x66b59	0x376		［ブージ］\nああ。\nとにかく１度、村に帰ろう。	{BOOJ}\nYeah.\nLet's head back to the village for\nnow.
+0x66daa	0x1a	ウォーリック	ブレイス団長ッ。	Commander {BRACE}!
 0x66daa	0x4a		ブレイス団長\nウォーリック殿か！\n助太刀無用。\n・・・こ奴は、ワシが倒す。	Commander Breis\nIs that you, {WARRICK}?\nI need no aid.\n...This one is mine to fell.
 0x66daa	0x93	ウォーリック	・・・しかし、ブレイス団長。	...But Commander Breis.
 0x66daa	0xaf		ブレイス団長\n・・・ウォーリック殿。\nワシに、やらせてくれ。	Commander Breis\n{...}{WARRICK}.\nLet me be the one to do this.
@@ -791,15 +801,22 @@ block_off	str_off	speaker	text	english
 0x66daa	0x1d6		ブレイス団長\n・・・フッ。\nワシは引かぬ。\nこのブレイス、どんな敵が現れようと後ろは見せんわぁ。	Commander Breis\n...Heh.\nI will not retreat.\nNo matter what foe stands before me,\nBreis shows no man his back.
 0x66daa	0x21e	ビアガン	・・・敵ながらアッパレな騎士道精神。このビアガン、全力をもって御相手いたす。	...A foe, yet such noble knightly\nspirit.\nThis {BIAGAN} will face you\nwith all my strength.
 0x66daa	0x263		ブレイス団長\n・・・いざッ。	Commander Breis\n...Have at you!
+0x66daa	0x280	ビアガン	勝負ッ。	A duel!
 0x66daa	0x2a4		ブレイス団長\nぬあぁぁぁぁぁぁぁぁッ。	Commander Breis\n{AAAAAAH}!
 0x66daa	0x2c0	ビアガン	ぬむふぉふぉふぉぉぉッ。	Numufofofofooo!
 0x66daa	0x39b	ビアガン	・・・ぐふぁ！？\n一騎討ちで、このビアガンに手傷を負わせるとは。\nビアガン\n・・・ブレイスとか言ったな。\n貴様の名、生涯忘れぬであろう。	...Gufah!?\nTo wound this {BIAGAN}\nin single combat...\p{BIAGAN}\n...Breis, was it?\nI will never forget your name\nso long as I live.
+0x66daa	0x40f	ウォーリック	ブッ、ブレイス団長ォォォッ！	C-Commander Braaace!
 0x66daa	0x432	ビアガン	次は貴様等か。\n傭兵の様だが名を聞こう。	You are next, then.\nMercenaries, by the look of you.\nGive me your names.
+0x66daa	0x464	ウォーリック	・・・ウォーリック。	...{WARRICK}.
+0x66daa	0x485	ライド	・・・ライド。	...{RIDE}.
+0x66daa	0x4a4	レイナ	・・・レイナ。	...{REINA}.
+0x66daa	0x4c3	ファーニス	・・・ファーニスだッ。	...{FURNIS}!
 0x66daa	0x4e4	ビアガン	我こそはクーレイア魔神軍、第１軍、軍団長ビアガン。\nいざ、尋常に勝負！	I am {BIAGAN}, commander of the\nFirst Army of the {KULEIA} {DEMON}\nGOD legions.\nCome, face me in honest battle!
 0x66daa	0x54c	ビアガン	なかなかやるなッ。\nしかし、その腕でこのビアガンは倒せぬぞッ。\n・・・むむッ！？	Not bad at all!\nBut your skill will never be\nenough to bring down {BIAGAN}.\n...Mmh!?
 0x66daa	0x59d	レイナ	大気中の魔力が渦を捲き始めた。\nこれは、召喚呪文の時に使われる魔法障壁！	The magic in the air is\nstarting to swirl.\nThat is a barrier used when a\nsummoning spell is cast!
 0x66daa	0x5f0	ビアガン	・・・カームか！？\nやめろカーム。\n敵に後ろを見せろと言うのか。\nビアガン\n・・・ぬううッ。\n貴様達、勝負は御預けだ。\n今度会う時こそ雌雄を決しようぞ。	{...}{CALM}, is it!?\nStop it, {CALM}.\nWould you have me turn my back\non a foe?\p{BIAGAN}\n...Nnngh.\nYour fight will have to wait.\nNext time we meet, we settle\nwho is the stronger.
 0x66daa	0x6a5	ウォーリック	・・・テレポートしたのか？	...Did they teleport away?
+0x66daa	0x6d2	セシリア	・・・ブレイスッ！	...{BRACE}!
 0x672f2	0xe		ジェシカ\nいらっしゃいませ。	Jessica\nWelcome.
 0x672f2	0x28		何を、お求めでしょう？	What can I get for you?
 0x672f2	0x3f	・品物を見せて。	・話をしよう。\n・持物を売ります。\n・お店を出よう。	・Let's talk.\n・Sell items.\n・Leave the shop.
@@ -935,6 +952,7 @@ block_off	str_off	speaker	text	english
 0x68833	0xc2		・泊まる。\n・やめておく。	・Stay.\n・Never mind.
 0x68833	0xdd	レイナ	今日は、まだ明るいし\nそんなに疲れてないわ。	It's still light out, and I'm\nnot all that tired yet.
 0x68833	0x143	ウォーリック	明日のために、その１・・・寝る。	Step one for tomorrow... sleep.
+0x68833	0x16a	ライド	グオオオオオオオオッ・・・・・。	Gwooooooooh......
 0x68833	0x188	ファーニス	おやすみなさぁぁぁぁぁい。	Goodniiiiight.
 0x68833	0x1a2		サーニア\n今、ちょうどランチタイムですので、人数分で、ちょうど１００ダインになります。	Sania\nIt's lunchtime right now, so it'll\nbe just 100 Dyne for your party.
 0x68833	0x1da		・食事にする。\n・やめておく。	・Eat.\n・Never mind.
@@ -990,8 +1008,10 @@ block_off	str_off	speaker	text	english
 0x68da5	0x552		正午の鐘が鳴り響いた。\n一斉に城目指して重装騎兵団が出陣。\nそして傭兵部隊と神官戦士が、その後を追う様にセルーシュ城に向かった。\nドラゴン　ライダー隊は、一気に雲上まで上昇し、すでにセルーシュ城後方数十キロの所まで迫っている。\n聖騎士団は、キャンプの外で、突撃の時を待つ。	The noon bell rang out.\nThe {HEAVY CAVALRY CORPS} marched\nas one toward the castle.\nThe mercenaries and warrior priests\nfollowed close behind to {SERUSH}.\n\pThe {DRAGON RIDER} squad soared up\nabove the clouds, already closing\nto within tens of miles behind it.\nThe {PALADINS} wait outside camp\nfor the moment to charge.
 0x68da5	0x610	ウォーリック	さあっ！\n俺達もパーシャ様の所に急ごう。	Come on!\nLet's hurry to Lady {PASHA}.
 0x68da5	0x63e	ライド	そんな事気にするモノじゃないぜ、セシリア。\nセシリアの方が、これから大変なんだからな。	Don't worry about that, {CECILIA}.\nThe hard road is yours from here on.
+0x68da5	0x679	セシリア	・・・ライド。	...{RIDE}.
 0x68da5	0x698	レイナ	これから色々と大変だろうけど頑張ってね。\n貴方なら、きっと良い君主になれるわ。	Things will be tough ahead, but\nstay strong. You'll make a fine\nruler, I'm sure of it.
 0x68da5	0x6e4	ファーニス	また、遊びに来るからね。\nその時には、お城で歓迎会を開いてね。	I'll come visit again.\nThrow me a welcome feast at the\ncastle when I do!
+0x68da5	0x727	セシリア	・・・レイナ・・・ファーニス。	...{REINA}... {FURNIS}.
 0x68da5	0x752	ウォーリック	・・・セシリア。\n君なら何だってできる。\n頑張れよっ！	{...}{CECILIA}.\nYou can do anything.\nStay strong!
 0x68da5	0x787	セシリア	・・・ありがとう、ウォーリック。\nありがとう、皆さん。\n私も皆さんの旅の成功を祈ってます。	...Thank you, {WARRICK}.\nThank you, everyone.\nI pray your journey ends well too.
 0x69391	0x12	ライド	ところで、この店に大鍋は置いてあるかい。\nできれば・・・こう・・・魔法のかかってる物が・・・・・。	Say, does this shop carry a big\ncauldron?\nPreferably... you know... one with\nsome magic on it...
@@ -1073,6 +1093,7 @@ block_off	str_off	speaker	text	english
 0x69f0c	0x2f6	ライド	・・・ダイガーン。\nグリーク王は必ず守るッ。\nだからお前も死ぬなよ！！	{...}{DAIGARN}.\nI'll guard {GREEK}, I swear it!\nSo don't you die either!!
 0x69f0c	0x33a	ダイガーン	たのむど、ライド。	I'm counting on you, Ride.
 0x69f0c	0x38f		重装騎兵　カイル\nあんちゃん・・・もう帰ろう。\nあんちゃんは、よくやったよ。\n重装騎兵　カイル\n・・・グリーク王から、また御褒美もらえるね。\nさぁ、あんちゃん・・・起きなきゃ、魔物が来るよ。	{HEAVY CAVALRY} Kyle\nBig brother... let's go home now.\nYou did real good, big brother.\p{HEAVY CAVALRY} Kyle\n{...}{GREEK} will give us another\nreward, won't he?\nCome on, big brother... get up,\nor the monsters will come.
+0x69f0c	0x413	ライド	・・・お前、カイル。	...You, Kyle.
 0x69f0c	0x434		重装騎兵　カイル\n・・・ああっ、ライドさん。\n・・・あんちゃんを、起してよ。\nあんちゃん、さっきから起きないんだ。\n重装騎兵　カイル\nあんちゃんを起してよ。\n・・・ライドさん、頼むよ・・・あんちゃんを起してよぉぉぉッ！	{HEAVY CAVALRY} Kyle\n...Ahh, Mister {RIDE}.\n...Please, wake my brother up.\nHe won't get up.\p{HEAVY CAVALRY} Kyle\nWake my brother up.\n...Please, Mister {RIDE}{...} wake my\nbrother... wake him uuup!
 0x69f0c	0x4cd		ダイガーンは既に冷たくなっている。\nそしてその手にはライドからもらった大鍋が、しっかりと握られていた。	{DAIGARN} has already gone cold.\nIn his hand he still gripped the\ngreat pot {RIDE} gave him, holding\nit tight.
 0x69f0c	0x516	ライド	・・・ダイガーン。\nちくしょぉぉぉぉぉぉッ。\n魔物め、俺が全部叩っ切ってやるッ！！	{...}{DAIGARN}.\nDamn it aaall!\nMonsters... I'll cut down every\nlast one of you!
@@ -1083,8 +1104,10 @@ block_off	str_off	speaker	text	english
 0x69f0c	0x611		声\n３つ。\nみんなの人気者。	Voice\nThe third.\nEveryone's favorite.
 0x69f0c	0x630		声\n４つ。\nよろしく４人衆。	Voice\nThe fourth.\nThe friendly band of four.
 0x69f0c	0x65a	ウォーリック	・・・何者だっ！	...Who goes there!
-0x69f0c	0x6f4		な\nナイフ使い、ラキューイ。	Na\nLakyui, the knife master.
-0x69f0c	0x714		な\n精霊使い、パインチャ。	Na\nPaincha, the spirit caller.
+0x69f0c	0x6d3	ダークエルフ	クロスボウ、ガーベリー。	Crossbow, Garbery.
+0x69f0c	0x6f3	ダークエルフ	ナイフ使い、ラキューイ。	Lakyui, the knife master.
+0x69f0c	0x713	ダークエルフ	精霊使い、パインチャ。	Paincha, the spirit caller.
+0x69f0c	0x733	ダークエルフ	リーダー、ジーナス。	Leader, Genus.
 0x69f0c	0x755		な全員\n・・・我ら、最強。	All\n...we are the strongest.
 0x6a491	0x22	レイナ	マジック　ロック！？\n・・・駄目だわ。\n解除に時間がかかっちゃう。	A magic lock!?\n...No good. Breaking it will\ntake too long.
 0x6a491	0x72	ウォーリック	いいからやるんだ。	Just do it.
@@ -1095,10 +1118,12 @@ block_off	str_off	speaker	text	english
 0x6a491	0x20a		大魔導士　バーグ\nこのワシを倒すと言うのか？\nお前の様なヒヨッコに、何ができる。普通の呪文じゃワシは倒せんぞぉ。	Great {MAGE} {BERG}\nYou mean to defeat me?\nWhat can a fledgling like you do?\nOrdinary spells cannot fell me.
 0x6a491	0x265	パーシャ	・・・普通の呪文？\nなら、暗黒魔術ならどうかしら。	...Ordinary spells?\nThen how about {DARK MAGIC}?
 0x6a491	0x2ad	パーシャ	・・・天の法皇よ、地の法皇よ。\n魔導の法たる我に力を与えたまえ。\n魔の根源たるその炎で、我が敵を焼きつくせ。\nパーシャ\n・・・冥王魔光砲。	{...}{O POPE OF THE HEAVENS},\n{O POPE OF THE EARTH.}\nGrant me, master of magic's law,\nyour power.\nWITH The Flame At Evil'S Root,\nBURN My Foes To Ash.\n{PASHA}\n...Hades Magic Cannon.
+0x6a491	0x332	パーシャ	・・・フォッ、フォース　フィールドッ！！	...F-Force Field!!
 0x6a491	0x367		大魔導士　バーグ\n甘い　甘い　甘い　甘いわ。\nそれでも魔光砲か？\n真の暗黒魔術の威力、見せてくれようぞ。\n大魔導士　バーグ\n・・・天の法皇よ、地の法皇よ。\n魔導の法たる我に力を与えたまえ。\n魔の根源たるその炎で、我が敵を焼きつくせ。\n大魔導士　バーグ\n・・・冥王魔光砲。	Great {MAGE} {BERG}\nWeak, weak, weak, so weak.\nAnd you call that a magic cannon?\nLet me show you true {DARK MAGIC}.\nGREAT {MAGE} {BERG}\n{...}{O POPE OF THE HEAVENS},\n{O POPE OF THE EARTH.}\nGrant me, master of magic's law,\nyour power.\nWITH The Flame At Evil'S Root,\nBURN My Foes To Ash.\nGREAT {MAGE} {BERG}\n...Hades Magic Cannon.
 0x6a491	0x44a		大魔導士　バーグ\n・・・ぬぬッ！？\nこざかしくも、我が呪文を耐えぬいたか。\nだが、次はそうはいかんぞぉ。\n大魔導士　バーグ\n・・・ハッ！？	Great {MAGE} {BERG}\n...Nnngh!?\nYou cunningly endured my spell?\nBut you will not be so lucky next\ntime.\nGREAT {MAGE} {BERG}\n...Hah!?
 0x6a491	0x4f7		大魔導士　バーグ\nライトニング　ボルト！？\n何奴じゃ。	Great {MAGE} {BERG}\n{LIGHTNING BOLT}!?\nWho goes there?
 0x6a491	0x53a	レイナ	大丈夫ですか、パーシャ様。	Are you all right, Lady {PASHA}?
+0x6a491	0x55f	パーシャ	・・・貴方達。	...All of you.
 0x6a491	0x580		大魔導士　バーグ\n魔導士の仲間がおったのか。\nまあよい、まとめて我が呪文の餌食にしてやろう。	Great {MAGE} {BERG}\nSo, you had a mage ally.\nNo matter. I'll make prey of you\nall with a single spell.
 0x6a491	0x608	パーシャ	よくやったわ、貴方達。\nでも戦いはまだ終ってないわ。\n・・・ううッ！	Well done, all of you.\nBut the battle isn't over yet.\n...ungh!
 0x6a491	0x652	レイナ	パーシャ様はここに残って下さい。\n魔力が激しく低下してます。\n後は私達が。	Lady {PASHA}, please stay here.\nYour magic power is fading fast.\nLeave the rest to us.
@@ -1159,6 +1184,7 @@ block_off	str_off	speaker	text	english
 0x6af95	0x43d		看護兵　エイミー\nこのワイバーン。\nただのホームシックね。	{MEDIC} Amy\nThis {WYVERN}.\nIt is just homesick.
 0x6af95	0x476	ファーニス	そうだッ！！\nワイバーン煎餅あげてみよっと。	That's it!!\nLet me try a {WYVERN} cracker.
 0x6af95	0x4ac		ワイバーン煎餅を食べさせた。	Fed it a {WYVERN} cracker.
+0x6af95	0x4d4	ワイバーン	グルルルルル・・・。	Grrrrrr......
 0x6af95	0x4ec	ファーニス	ああッ、喜んでる。\nワイバーンってカワイイねぇ。	Oh, it's happy!\nWYVERNs are so cute.
 0x6af95	0x50e		看護兵　セレナ\n今ちょうど第７次攻撃中よ。\nキャンプには負傷者が残っているわ。	{MEDIC} Serena\nWe're in the middle of the 7th\nassault right now.\nWounded soldiers are still back\nat {CAMP}.
 0x6af95	0x583		ブレイス団長\n城内にはダークエルフ部隊が、まだ多数残っているはずじゃ。\n油断するなッ！	Commander {BREI}\nThere should still be plenty of\n{DARK ELF} units inside the castle.\nStay sharp!
@@ -1198,7 +1224,7 @@ block_off	str_off	speaker	text	english
 0x6bb66	0x4b1	ファーニス	みずくさいなぁ、セシリアちゃん。	No need to be so formal,\nCecilia dear.
 0x6bb66	0x4d3	レイナ	私達にできる事があったら何でも言って。\n決して足手纏いにはならないと思うけど。	If there's anything we can do,\njust say the word.\nWe won't slow you down.
 0x6bb66	0x51a		セシリア姫\n・・・皆さん。	Princess Cecilia\n...everyone.
-0x6bb66	0x557		つ、魔法使い？	A-a mage?
+0x6bb66	0x547	パーシャ	・・・貴方、魔法使い？	...You, a mage?
 0x6bb66	0x56e	レイナ	はい・・・そうです。	Yes... that's right.
 0x6bb66	0x58d	パーシャ	なら、本気で手伝ってほしい事があるの。\nセルーシュの街の魔法屋に、ある物を取って来てほしいんだけど。	Then there's something I truly\nneed your help with.\nFetch something for me from the\nmagic shop in Serush town.
 0x6bb66	0x5d4	レイナ	セルーシュの魔法屋に？	From the magic shop in Serush?
@@ -1263,7 +1289,8 @@ block_off	str_off	speaker	text	english
 0x6ca81	0x226		・ちょっと待って。\n・行きましょう。	・Wait a moment.\n・Let's go.
 0x6ca81	0x23d	ゼロ船長	装備を整えてから来い。	Come back once you're equipped.
 0x6ca81	0x25e	ゼロ船長	よしっ！\n出航準備だっ。	Right!\nPrepare to set sail.
-0x6ca81	0x2cc		か航速度保て！\n魔力吸収セイル、オープ	Hold cruising speed!\nMagic-absorbing sails, open
+0x6ca81	0x2c2	ゼロ船長	巡航速度保て！\n魔力吸収セイル、オープ	Hold cruising speed!\nMagic-absorbing sails, open
+0x6ca81	0x2f4	タップ	セイル、オープ	Sails, open!
 0x6ca81	0x31d		んです。	...we are.
 0x6ca81	0x322		ですか？	...is it?
 0x6ca81	0x344		を受け取った。	...was received.
@@ -1373,6 +1400,7 @@ block_off	str_off	speaker	text	english
 0x6df16	0xdf	レイナ	私達、そんなに疲れてないわ。	We're not that tired yet.
 0x6df16	0x106		ジョナ婆さん\n２階の真中の部屋を使いな。\n１週間は自由にしていいよ。	Granny Jonah\nTake the middle room upstairs.\nIt's yours for a week, free to use.
 0x6df16	0x14d	ウォーリック	おやすみなさい、レイナ。	Goodnight, {REINA}.
+0x6df16	0x169	ファーニス	フニャ、フニャ、フニャニャ。	Fnya, fnya, fnyanya.
 0x6df16	0x186		ジョナ婆さん\n今、ちょうどランチタイムだから、人数分で、１００ダインだね。	Granny Jonah\nIt's just lunchtime now.\n100 {DYNE} for the whole party.
 0x6df16	0x1b9		・食事にする。\n・やめておく。	...Have the meal.\n...Never mind.
 0x6df16	0x1d6	ファーニス	まだ、食べたくなぁい。	I'm not hungry yet.
@@ -1404,6 +1432,7 @@ block_off	str_off	speaker	text	english
 0x6e441	0x126	ゼロ船長	私も海に戻らなくてはならない。	{ZERO}\nI must return to the sea as well.
 0x6e441	0x14e	ウォーリック	話は宿屋の婆さんから聞きました。\nできる事があったら、何でも言って下さい。	The old {GRANNY} at the {INN} told us.\nIf there's anything we can do,\njust say the word.
 0x6e441	0x188	ゼロ船長	・・・水晶の角さえあれば。	{ZERO}\n...If only we had the {CRYSTAL HORN}.
+0x6e441	0x1a5	ウォーリック	水晶の角！？	The {CRYSTAL HORN}?!
 0x6e441	0x1b8	ゼロ船長	街の北の丘に水晶の角と呼ばれる水晶が生えている。\nそれさえあれば奴を倒せる。\nゼロ船長\n水晶の魔力が奴の魔力を封じ、対等に戦えるはずだ。	{ZERO}\nOn the hill north of town grows a\ncrystal called the {CRYSTAL HORN}.\nWith it, we can defeat him.\p{ZERO}\nIts magic seals his power, and we\ncan fight him as equals.
 0x6e441	0x226	ウォーリック	わかりました。\n北にある丘ですね。\n水晶の角は必ず取って来ます。	Understood.\nThe hill to the north, yes?\nWe'll bring back the {CRYSTAL HORN}.
 0x6e441	0x25c	ゼロ船長	ただ、丘には魔獣　キメラが住み付いている。\nそれでも行けるか？	{ZERO}\nBut a beast, a {CHIMERA}, dwells\non that hill.\nCan you go even so?
@@ -1428,6 +1457,7 @@ block_off	str_off	speaker	text	english
 0x6e441	0x65b	ファーニス	海賊！？\nあの人、海賊なの。	A pirate!?\nThat woman is a pirate?
 0x6e441	0x67d	ポップ	そうさ。\nだってゼロ船長や俺達だって、元は海賊なんだよ。\n凄いだろぉ。	That's right.\n{ZERO} and the rest of us were\npirates once too.\nPretty amazing, huh?
 0x6e441	0x6ba	ゼロ船長	ポップ、おしゃべりはいい。\n早く水晶の角をセットするんだ。	{ZERO}\n{POP}, enough chatter.\nGet the {CRYSTAL HORN} set in place.
+0x6e441	0x6e8	ポップ	アイアイ、サー。	Aye aye, sir.
 0x6e441	0x727	ウィルディース艦長	でっ。\nどうするんだい？	{WILDEATH}\nSo then.\nWhat's the plan?
 0x6e441	0x74b	ゼロ船長	海上におびき出す事さえできれば、バッカス２世号の突角で攻撃できる。\nそして、砂上戦闘に持ち込むつもりだ。\nゼロ船長\nできるか？	{ZERO}\nIf we can lure it out to the open,\nthe {BACCHUS II}'s ram can strike it.\nThen I'll force a battle on the sand.\p{ZERO}\nCan you manage it?
 0x6e99a	0xa	ウィルディース艦長	簡単な事ね。\nクイーンストーカー号で、奴の真下から魔導魚雷をプレゼントしてあげるわ。\nウィルディース艦長\n時間どうり、ピタリと奴の顔を拝ませてあげる。\nそれで攻撃地点は？	Simple enough. I'll deliver a magic\ntorpedo right beneath him from the\n{QUEEN STALKER}.\p {CAPTAIN WILDEATH}\nRight on schedule, I'll bring you\nface to face with him.\nSo where's the strike point?
@@ -1439,6 +1469,7 @@ block_off	str_off	speaker	text	english
 0x6e99a	0x248	ゼロ船長	遂に来たか。\nポップ、奴をロストするな。\nタップ、出力最大、戦闘船速。	So it's finally here.\n{POP}, don't lose him.\n{TAP}, full power, battle speed.
 0x6e99a	0x2a5	ポップ	モビーディック、なおも浮上中。\n凄い数の雷精を従えています。\nその後ろ３０００に、反応有りッ。\n・・・クイーンストーカー号です。	{MOBY DICK} still rising.\nA huge swarm of Lightning {SPIRITS}\ntrails behind it.\nAnother reading 3000 beyond that.\n...It's the {QUEEN STALKER}.
 0x6e99a	0x30a	ゼロ船長	よくやってくれた、ウィルディース。後は俺に任せろ。\n冷たい海の底に眠る仲間達の恨み、晴らす時が来た！\nゼロ船長\n砂上戦闘、用意。\n船首突角に魔力集中。\n総員、衝撃に・・・むぅぅぅっ。	Well done, {WILDEATH}. Leave the\nrest to me.\nTime to avenge the friends asleep\nin the cold deep!\p {CAPTAIN ZERO}\nSand combat, ready.\nFocus magic on the ram.\nAll hands, brace for... ngghhh.
+0x6e99a	0x3a7	ポップ	せッ、船長ッ！？	C-Captain?!
 0x6e99a	0x3be	ゼロ船長	・・・うろたえるな。\n何でもない。	...Don't panic.\nIt's nothing.
 0x6e99a	0x3e6	ポップ	その体ではまだ無理です。\nやはり引き返しましょう。\nポップ\nタップ、上がって来い。\n船長に手を貸すんだッ。	Not in your condition.\nWe should turn back.\p {POP}\n{TAP}, get up here.\nGive the captain a hand!
 0x6e99a	0x43b	ゼロ船長	持ち場を離れるなッ！！\n奴を・・・奴を倒すまでは死にはしない。\n戦闘準備。	Don't leave your posts!!\nI won't die... not until I bring\nhim down.\nReady for combat.

@@ -31,7 +31,7 @@ block_off	str_off	speaker	text	english
 0x235d2	0x46f	マージス	それにしても、皆、若いな。	Still, every one of them so young.
 0x235d2	0x48d	カル伯爵	そうだな。\n故に、彼等を失うわけにはいかない。今は、少しでも多くの戦力が必要なのだ。\nカル伯爵\nその為なら、私の命など安いモノ。	Indeed. Which is why we cannot\nafford to lose them. We need every\nbit of strength we can muster.\p{COUNT CAL}\nFor that, my life is a small price.
 0x235d2	0x4f6	マージス	手紙の内容の事だが、本気なのだな、カル。	About what was in your letter...\nyou truly mean it, Cal?
-0x235d2	0x538		ぃ気だ。	I mean it.
+0x235d2	0x526	カル伯爵	・・・本気だ。	...I mean it.
 0x235d2	0x574	マージス	・・・３００年前。\nお前と共に、この３鎧７は死んだ。\nマスターを目の前で殺された、お前の使命の喪失と共に、この３鎧７は死んだ。\nマージス\nお前の命と引き替えに、３鎧７を復活させられるのか！？\nわかっているのか、カル。\n３鎧７が蘇る保証は、無いのだぞ。	...Three hundred years ago,\nthe armor died alongside you.\nWith your master slain before your\neyes, and your purpose lost,\nthe armor died.\p{MARGIS}\nAnd now you'd trade your life\nto bring that armor back to life!?\nDo you understand, Cal?\nThere's no guarantee\nthe armor will rise again.
 0x235d2	0x62e	カル伯爵	・・・出来る。\n今の私なら、３鎧７を蘇らせる事が出来る。\nカル伯爵\nその力を・・・彼等が蘇らせてくれた。今度は、私が助ける番だ。	...I can do it.\nAs I am now, I can bring\nthe armor back to life.\p{COUNT CAL}\nThat power... they revived in me.\nNow it's my turn to help them.
 0x235d2	0x6a4	マージス	・・・わかった。\nお前がそこまで言うのなら、もう何も言うまい。\n後の事は、このマージスが引き受けた。	...I understand.\nIf you say it that plainly,\nI'll say no more.\nLeave the rest to me, Margis.
@@ -41,7 +41,9 @@ block_off	str_off	speaker	text	english
 0x23b2b	0x70	ライド	んんっ！？	Hngh...!?
 0x23b2b	0xaa	ソウルン	お兄ちゃん達、おじちゃんを殺しに来たんでしょ。\nそんな事、僕がさせないぞっ！\nソウルン\nさっ、おじちゃん。\n僕が助けに来たから、恐がらなくていいよ。おじちゃんは、僕が守る。	You came to kill my uncle, didn't\nyou!\nI won't let you do that!\n{SOULN}\nNow, uncle.\nI've come to save you, so don't be\nafraid. I'll protect you.
 0x23b2b	0x120	ライド	・・・ナイスだ、ソウルン。\nもうちょっと早かったら、カッコよかったのになぁ。\nライド\n安心しろ。\n俺達とおじちゃんとは、友達だ。\n戦おうなんて、これっぽっちも考えてないぜ。	...Nice, {SOULN}.\nWould've been cooler a bit sooner,\nthough.\n{RIDE}\nRelax.\nYour uncle and us are friends.\nFighting's the last thing on our\nminds.
+0x23b2b	0x19c	ソウルン	・・・ホント？	...Really?
 0x23b2b	0x1b5	ライド	ホント、ホント。\nお前のおじちゃんに、聞いてみるといい。	Really, it's true.\nJust ask your uncle yourself.
+0x23b2b	0x20e	ソウルン	・・・ホント？	...Really?
 0x23b2b	0x22c	マージス	ああ、本当だとも。\n君は、何も心配する事はないんだ。\n彼等は、私の客人だよ。	Yes, it's quite true.\nYou've nothing to worry about.\nThey are my guests.
 0x23b2b	0x271	ソウルン	・・・よかった。\nおじちゃんがいなくなったら、僕、さみしいもんね。\n・・・おじちゃん、早く遊ぼっ。	...Good.\nI'd be so lonely if my uncle were\ngone.\n...Uncle, let's go play soon.
 0x23b2b	0x2b8	マージス	わかった、わかった。\n今日は、本を読んであげよう。	All right, all right.\nI'll read you a book today.
@@ -151,11 +153,14 @@ block_off	str_off	speaker	text	english
 0x24dcc	0x1eb		ブレスト　アーマー\n当時、俺達は無茶な事をしてたなぁ。\n毎日毎日、魔物と戦って・・・剣技会にも出たっけ。\nその度に、お前は力を付けていった。\nブレスト　アーマー\n俺も、頑張ったんだがなぁ。\n・・・・・わかったんだよ。\n限界が、見えたんだよ。\nブレスト　アーマー\nお前は俺を、完全に着こなしてる。\nお前が必要とする力を、俺は貸してあげられないって。	Breast {ARMOR}\nBack then, we pushed ourselves too\nhard.\nEvery single day, fighting\nmonsters...\neven the sword tourneys.\nEach time, you grew stronger.\pBREAST {ARMOR}\nI tried my best too, but...\n{...}..I came to see it.\nI saw my own limits.\pBREAST {ARMOR}\nYou've completely outgrown me.\nThe power you need now, I just\ncan't lend it to you anymore.
 0x24dcc	0x2e7	ウォーリック	そっ、そんな事ない。\nそんな事ないぞ、ブレスト　アーマー。	That's not true.\nThat's just not true, Breast {ARMOR}.
 0x24dcc	0x31d		ブレスト　アーマー\nあの時、一緒にいたショート　ソードも、同じ事を考えていたんだぜ。\nお前の役に立てない事が、俺達には辛かった。	Breast {ARMOR}\nThe Short {SWORD} that was with us\nback then felt the very same way.\nIt pained us both to be of no use to\nyou.
+0x24dcc	0x377	ウォーリック	・・・・・ブレスト　アーマー。	......Breast Armor.
 0x24dcc	0x398		ブレスト　アーマー\nでも、俺は嬉しいぜ。\nお前が、守護騎士の候補になったんだからな。\n俺は鼻が高いぜ、ウォーリック。\nブレスト　アーマー\nさぁぁぁぁぁて。\nおしゃべりは、ここまでだ。\n俺がなぜここにいるか、わかってるな。	Breast {ARMOR}\nBut I'm happy for you.\nYou've become a candidate for\n{GUARDIAN}. I'm so proud, {WARRICK}.\pBREAST {ARMOR}\nNow theeeeeen.\nThat's enough chatter.\nYou know why I'm here, don't you?
 0x24dcc	0x424	ウォーリック	・・・・・ああ。	{...}..Yeah.
 0x24dcc	0x43c		ブレスト　アーマー\n勝負だ、ウォーリック。\nお前がどれだけ成長したか、試してやるぜ。	Breast {ARMOR}\nLet's settle this, {WARRICK}.\nI'll test just how far you've come.
+0x24dcc	0x4a0	ウォーリック	ブッ、ブレスト　アーマー！	B-Breast Armor!
 0x24dcc	0x4cd		ブレスト　アーマー\nへへっ。\n強くなったな、ウォーリック。\nそうさ・・・俺は、あの時のままなんだよ。\nブレスト　アーマー\nお前は、こんなに強くなったのに。\nお前は、こんなに成長したのに。\n・・・・・俺は、何も変わっちゃいない。\nブレスト　アーマー\nすまん、ウォーリック。\n何１つ、変わっちゃいないんだ。\n何１つ、お前の力になってやれないんだ。	Brest {ARMOR}\nHeh.\nYou've grown strong, {WARRICK}.\nBut me... I'm just as I was.\pBREST {ARMOR}\nYou've become so strong.\nYou've grown so much.\n{...}..And I haven't changed at all.\pBREST {ARMOR}\nForgive me, {WARRICK}.\nI haven't changed one bit.\nI can't lend you any of my strength.
 0x24dcc	0x5b2	ウォーリック	・・・違うぞ。\nそれは違うぞ、ブレスト　アーマー。\nウォーリック\n俺は今、わかったんだ。\n３年前の俺は、いつも１人だと思っていた。\nそれでいいと思っていた。\nウォーリック\nでも、それは間違いだったんだ。\n・・・お前や、ショート　ソード。\nいつもお前達が、俺を守っていてくれたんだ。	...No. That's not true,\nBrest Armor.\p{WARRICK}\nI understand now.\nThree years ago, I thought I\nwas always alone.\nAnd I thought that was fine.\p{WARRICK}\nBut I was wrong.\nYou, and the Short Sword...\nYou two always protected me.
+0x24dcc	0x68a	アーマー	・・・・・ウォーリック。	......{WARRICK}.
 0x24dcc	0x69e	ウォーリック	お前達がいなかったら、俺はとっくに死んでいた。\nお前達がいたから、今の俺がいるんだ。	Without you, I'd have died\nlong ago.\nBecause of you, I'm here now.
 0x24dcc	0x6e1		ブレスト　アーマー\n・・・・・へへっ。\n俺は幸せだぜ、ウォーリック。\n守護騎士になる男に、そう言ってもらえるなんて。\nブレスト　アーマー\n俺は世界で１番、幸せな３鎧７だぜ。\nブレスト　アーマー\n・・・頑張れよ、ウォーリック。\n俺達は・・・いつまでも・・・お前と・・・・・共に・・・いる・・・・・・・・。	Brest {ARMOR}\n{...}..Heh.\nI'm happy, {WARRICK}.\nTo hear that from a man who'll\nbe a {GUARDIAN}.\pBREST {ARMOR}\nI'm the happiest armor\nin all the world.\pBREST {ARMOR}\n...Give it your all, {WARRICK}.\nWe'll be... with you...\nalways..{...}..{...}.
 0x2528a	0x2a		ウィンダム隊長\nぐわっ！	Captain Windam\nGwah!
@@ -454,6 +459,7 @@ block_off	str_off	speaker	text	english
 0x2837b	0x5e	ファーニス	ううん・・・大丈夫。\nちょっと、頭が重いだけ。	No... I'm fine.\nMy head just feels a bit heavy.
 0x2837b	0x9b	セス	どんどん大気中の魔力の濃度が上がっている。\nそれより大丈夫、ファーニス。\n元気ないわよ。	The magic in the air keeps\ngrowing denser.\nMore than that, are you okay,\n{FURNIS}? You seem out of it.
 0x2837b	0xed	ファーニス	うん・・・大丈夫。\nヘッチャラ、ヘッチャラ。	Yeah... I'm fine.\nNo worries, no worries.
+0x2837b	0x128	ブラフォード	・・・・・。	......
 0x2837b	0x13d	ブラフォード	待ってくれないか。\nあのパァンツァードラグーンが見たい。	Wait a moment.\nI want to see that {PANZER DRAGOON}.
 0x2837b	0x16f	セス	実は、私も気になっていたのよ。	Truth is, I was curious about it\ntoo.
 0x2837b	0x193	ブラフォード	黒の守護騎士、シュタイナー。\n何を考えて、魔神に付いているのか・・・。	{STEINER}, the Black {GUARDIAN}\nKnight.\nWhat is he thinking, siding with\nthe {DEMON GOD}{...}
@@ -488,6 +494,7 @@ block_off	str_off	speaker	text	english
 0x286c1	0x318	ファーニス	マージスさんって、顔に似合わず優しいんだねぇ。	{MARGIS} is kinder than his\nface lets on, isn't he?
 0x286c1	0x36f	ファーニス	シュリーカーがいる。\nあんまり近づくと、コロッと眠らされちゃうよ。	There's a shrieker.\nGet too close and it'll knock you\nright out cold.
 0x286c1	0x3b0	ライド	大丈夫だ、ファーニス。\nよく似ているが、これはシュリーカーじゃない。\nライド\nこれは、ブバオタケって言うんだ。	It's fine, {FURNIS}.\nThey look alike, but this isn't\na shrieker.\n\p{RIDE}\nThis is called a bubao mushroom.
+0x286c1	0x408	ファーニス	・・・ブバオタケ！？	...Bubaotake?!
 0x286c1	0x42a	ライド	シュリーカーみたいに移動も出来るが、人畜無害。\nおとなしい奴だぜ。\nライド\nおまけに、落ちている物は何でも飲み込む。\nダンジョ	It can move like a shrieker, but\nit's totally harmless.\nA gentle thing.\n\p{RIDE}\nPlus, it swallows up anything\nlying around. A dungeo
 0x286c1	0x48f		の掃除屋ってトコかな。	n cleaner, you could say.
 0x286c1	0x4a5	ファーニス	じゃあこのブバオちゃんも、いっぱい飲み込んでるのぉ？	So this little bubao has swallowed\na whole lot too?

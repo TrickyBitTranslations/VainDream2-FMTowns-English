@@ -21,6 +21,8 @@ block_off	str_off	speaker	text	english
 0x32ce	0x3ce7		・マやむフモ！ゅ	
 0x32ce	0x4a1c		でわでででででゎででれでれでろでのぬはね、５	
 0x32ce	0x4a56		イゥゾてォゾヮトヌルブスフサさ。。	
+0x59c4	0x518d	レイナ	レイナレイナレイナレイナナッツ！メ	
+0x59c4	0x524d	レイナ	レイナレイナレイナブージー！	
 0x59c4	0x6052		ャぷ？ぃ	
 0x7de8	0x551a		のかヮワワワワワ祁祁ワワワ　デデデ	
 0x7de8	0x5cfc		ア⟨17⟩⟨17⟩。デデデデデままで杷杷杷杷杷杷ぱそぷあへぞひ　　　　　　．デデデ	
@@ -229,6 +231,7 @@ block_off	str_off	speaker	text	english
 0x5ca5b	0x43b		騎兵　カスター\nまた、旅に出るんですね。\n頑張ってください。	Cavalryman Custer\nSetting out on a journey again.\nGood luck to you.
 0x5ca5b	0x464		騎兵　アドルフ\nライランドにようこそ。\n今日はいい天気ですなぁ。\nこんな日は、街中の警備が１番ですな。	Cavalryman Adolf\nWelcome to {RYLAND}.\nFine weather today.\nA day like this, town patrol's best.
 0x5ca5b	0x4ad		騎兵　アドルフ\nああっ、ファーニスさん。\nお会い出来て光栄です。	Cavalryman Adolf\nAh, {FURNIS}.\nIt's an honor to meet you.
+0x5ca5b	0x4e3	ファーニス	・・・・・？	......?
 0x5ca5b	0x4f0		騎兵　アドルフ\nセルーシュ戦に行った騎兵の中で、ファーニスさんは人気者だったんですよ。	Cavalryman Adolf\nAmong the cavalry who went to the\n{SERUSH} campaign, {FURNIS} was\nquite the popular one.
 0x5ca5b	0x528		騎兵　アンドレ\nレイナさんですね。\nお噂は、パーシャ様から聞いております。謁見室は、城内入ってすぐ正面の階段を上がった所ですよ。	Cavalryman Andre\nYou're {REINA}, yes?\nI've heard of you from {PASHA}.\nThe audience chamber is up the\nstairs straight ahead from the\ncastle entrance.
 0x5ca5b	0x57f		騎兵　アンドレ\nまた旅に行くのですね。\n・・・・・さみしくなります。	Cavalryman Andre\nSo you're off on a journey again.\n{...}..It'll be lonely here.
@@ -268,6 +271,7 @@ block_off	str_off	speaker	text	english
 0x5d066	0x52a		でも貰おうかなぁ。	I guess I'll take one too.
 0x5d066	0x53e		ラーシェル\n柄の先に、鳥のクチバシみたいな固い刃を付けた、突き刺すための武器よ。そうね・・・鉱夫が使うツルハシを戦闘用にした物ね。\nこれなら固いプレートメイルだって、簡単に貫通出来ちゃうわ。	Rachelle\nA hard, beak-like blade on a shaft,\nmade for thrusting. Like a miner's\npickaxe turned to war.\nIt can punch right through even\nhard plate mail with ease.
 0x5d066	0x5e8	レイナ	カッコ良くないし、いまいち冴えない武器ねぇ。	Not stylish, and rather dull.\nA lackluster weapon.
+0x5d066	0x618	ファーニス	ピック　ピック、チャップ　チャップ、ラ	Pick-pick, chap-chap, la-
 0x5d066	0x64f		・・・・・ごめん、みんな。	.{...}. Sorry, everyone.
 0x5d066	0x670		ラーシェル\nシミターは、又の名を新月刀と言って、刀身が三日月みたいな形をしているのが特徴で、切り裂く能力が高くて、少ない力で扱えるのが利点です。\nただ、固い３鎧７を着てる者や甲殻類には、威力は期待出来ません。	Rashel\nThe scimitar, or crescent blade,\nhas an edge curved like a new moon.\nIt slashes well and needs little\nstrength. But against hard {ARMOR}\nor shelled foes, expect little.
 0x5d066	0x721	レイナ	山賊とか、海賊ってイメージがあるのは私だけかしら？	Am I the only one who pictures\nbandits and Pirates with these?
@@ -361,7 +365,7 @@ block_off	str_off	speaker	text	english
 0x5e51c	0xcc		・泊まる。\n・やめておく。	・Stay.\n・Never mind.
 0x5e51c	0xe7	レイナ	今日は、まだ明るいし\nそんなに疲れてないわ。	It's still light out, and I'm\nnot all that tired yet.
 0x5e51c	0x14a	ウォーリック	レイナ・・・・・ちぇっ、寝ちゃったのか。	{REINA}{...}..\nTch, she fell asleep already.
-0x5e51c	0x192		Ｆっは　ダ　メ　ヨ。	No F-ing al-lowed.
+0x5e51c	0x17f	レイナ	・・・ウォーリック、今日は　ダ　メ　ヨ。	...{WARRICK}, not today, OK?
 0x5e51c	0x1ad	ファーニス	・・・・・お兄ちゃん・・・ムニャ、ムニャ。	{...}..Big brother...\nmumble, mumble.
 0x5e51c	0x1db		食事するか？\nえっと・・・人数分、ちょうど１００ダインなるあるよ。	Care for a meal, yes?\nLet's see... exactly 100 {DYNE}\nfor the whole party, yes.
 0x5e51c	0x214		・食事にする。\n・やめておく。	・Have a meal.\n・Never mind.
@@ -445,6 +449,7 @@ block_off	str_off	speaker	text	english
 0x5f05a	0x3b3		グリーク王\n久ぶりだなぁ、お前達。\nその顔では、まだまだ旅は続きそうだな。	{GREEK}\nIt's been a while, all of you.\nFrom those faces, your journey\nlooks far from over yet.
 0x5f05a	0x3eb	パーシャ	探していた者には、会えた様ね。\n今日は、ライランドでゆっくり疲れを癒しなさい。\n無理はいけませんよ。	It seems you found the one\nyou were seeking.\nToday, rest and heal your\nweariness here in {RYLAND}.\nDon't overdo it.
 0x5f05a	0x43d		カイル\n・・・お久しぶりです、ライドさん。私の事・・・覚えてますか？	Kay\n...It's been a while, {RIDE}.\nDo you... remember me?
+0x5f05a	0x47a	ライド	・・・お前、カイル！？	...You, Kyle?!
 0x5f05a	0x49a		カイル\n今日は、ちょうど非番で休みなんです。\n皆さんも元気そうですね。\nいつか、ライランドに来ると思ってました。	Kay\nI happen to be off duty today.\nYou all look well.\nI always knew you'd come to\n{RYLAND} someday.
 0x5f05a	0x4e6	ライド	あの子供達は・・・みんな、お前の兄弟か？	Those children... are they all\nyour brothers and sisters?
 0x5f05a	0x518		カイル\nはいっ、そうです。\nダイガーンあんちゃんのためにも、この弟達は強い人間に育ててみせます。	Kay\nYes, that's right.\nFor big brother {DAIGARN}'s sake,\nI'll raise these little ones\nto be strong.
@@ -476,6 +481,7 @@ block_off	str_off	speaker	text	english
 0x5f568	0x4dc	ウォーリック	グリーク王には、何てお礼を言ったらいいか。\n俺達みたいな者に・・・。	I don't know how to thank\nKing {GREEK}.\nFor folk like us...
 0x5f568	0x519	パーシャ	グリーク王は、貴方達が好きなのよ。・・・死と信念を、常に天秤に掛けている。\nパーシャ\n貴方達は、目的の為に自分の全てを賭けられる。\nグリーク王は貴方達に、自分の成し得ない夢を映しているわ。	King {GREEK} is fond of you.\n...He weighs death against\nconviction, always.\n\p{PASHA}\nYou'll stake all you are for your\ngoal. The king sees in you the\ndream he could never reach.
 0x5f568	0x5c8	パーシャ	もし、グリーク王が王家に生まれなかったら、きっと貴方達の様な冒険者になっていたでしょうね。	Had King {GREEK} not been born\nto royalty, he'd surely have become\nan adventurer like you.
+0x5f568	0x615	ウォーリック	・・・・・パーシャ様。	......{LADY} {PASHA}.
 0x5f568	0x62f	パーシャ	・・・おかしな事を言ってしまったわね、私。\nさぁ、グリーク王が待ってるわ。\n・・・じゃあ、謁見室で。	...I've said something odd, haven't\nI.\nCome, King {GREEK} is waiting.\n...In the audience hall, then.
 0x5f568	0x6ac		グリーク王王\n宴の用意には、もうちょっと時間がかかりそうだ。\n部屋で休んでいなさい。	King {GREEK}\nThe feast will take a little\nlonger to ready.\nRest in your room a while.
 0x5fa7d	0x100		グリーク王\nやはり来たな、お前達。\n今日は、ゆっくりと旅の疲れを取ってくれ。\n早速、部屋を用意しよう。	{GREEK}\nSo you've come at last.\nTonight, rest and ease your travels.\nI'll have rooms made ready at once.
@@ -491,6 +497,7 @@ block_off	str_off	speaker	text	english
 0x5fa7d	0x4a5	レイナ	震源地は、近かったみたいですね。\nこの辺りは、こんな地震が多いのですか？	The epicenter seemed close by.\nAre quakes like this common\nin these parts?
 0x5fa7d	0x4e9	ファーニス	普通の地震じゃないね、コレ。\n・・・地の精霊の働きが、変だったよ。	This is no ordinary quake.\n...The earth spirits were\nacting strange.
 0x5fa7d	0x534		グリーク王\nさすがだな、ファーニス。\nこの地は、地震などめったに起らない。	{GREEK}\nWell done, {FURNIS}.\nQuakes almost never strike\nthis land.
+0x5fa7d	0x56c	レイナ	・・・・・？	......?
 0x5fa7d	0x57c		グリーク王\n震源地は、この城の真下と思われる。	{GREEK}\nThe epicenter seems to lie\nright beneath this castle.
 0x5fa7d	0x5a9	レイナ	・・・この城の地下。	...Beneath this castle.
 0x5fa7d	0x5f0	パーシャ	・・・グリーク王。\n今の地震の事ですが・・・。	{...}{GREEK}.\nAbout that tremor just now...
@@ -679,6 +686,7 @@ block_off	str_off	speaker	text	english
 0x62101	0x1b8		老人\nワシの名は、パチュンガ。\n魔神軍、第５軍の軍団長じゃ。\nどうじゃ、ワシの最高傑作の出来は？ドワーフの国など、６日で全滅じゃ。	Old man\nMy name is {PACHUNGA}.\nGeneral of the {DEMON GOD}'s\nFifth Army.\nWell? How do you like my\nmasterpiece? The {DWARF} kingdom,\nwiped out in six days.
 0x62101	0x226	ウォーリック	最高傑作！？\nいったい何の事だ。	Masterpiece!?\nWhat are you talking about?
 0x62101	0x251	パチュンガ	お前達の前にいる守護騎士の事じゃよ。ワシの造ったアンデットの中で、筋力、反応速度、剣技、格闘技術、ルックス、全てにおいてピカイチじゃ。	The {GUARDIAN} standing before you.\nOf all the undead I've made,\nin strength, reflexes, swordwork,\ncombat skill, and looks,\nhe is by far the finest.
+0x62101	0x2bf	ウォーリック	・・・ランバートが、アンデット！？	...{LAMBERT}'s undead?!
 0x62101	0x2e7	パチュンガ	ランバート？\nカームに召喚してもらった、実験体の名前か？\n・・・世の中とは、狭いのぉ。	{LAMBERT}?\nIs that the name of the test\nsubject {CALM} summoned for me?\n...What a small world.
 0x62101	0x334	ウォーリック	洞窟内には、神官竜もいたはずだ。\nフロスト様と、緑竜はどうした。	There should have been a\n{PRIEST DRAGON} in the cavern.\nWhat became of {FROST} and the\n{GREEN DRAGON}?
 0x62101	0x368	パチュンガ	氷竜は氷漬けじゃったし、緑竜は背骨がバラバラで使い物にならん。\n神官竜など、めったに無い実験材料なのに、おしいのう。	The ice dragon was frozen solid,\nand the green one's spine was in\nbits. Useless. Such a rare\nspecimen, a {PRIEST DRAGON}.\nWhat a waste.
@@ -687,6 +695,7 @@ block_off	str_off	speaker	text	english
 0x62101	0x471	ライド	馬鹿野郎！\nそれはオカッパ頭じゃねぇ。\nカッパ頭だ。\nいいから、降りて来いっ。	You idiot!\nThat's no bobbed cut.\nIt's a bowl cut.\nNow quit yapping and get down here.
 0x62101	0x4bf	パチュンガ	・・・ふんっ。\n今日は、こいつの回収だけじゃ。\nこいつはもっと強くなる。\nお前達など、いつでも殺してやるわい。	...Hmph.\nToday I only came to collect him.\nHe'll grow far stronger yet.\nI can kill the likes of you\nanytime I please.
 0x62101	0x55b	パチュンガ	もうちょっと改良を加えて、最強のアンデットにしてやる。\nその時までの、お楽しみじゃて。\nぐぅっど、らぁぁぁぁぁく。	A few more tweaks and he'll be\nthe mightiest undead of all.\nSave your excitement until then.\nGoooood luuuuuck.
+0x62101	0x61a	ウォーリック	・・・ランバート。	...{LAMBERT}.
 0x62101	0x637	ライド	くそっ、ハゲ親父め。\nドワーフ達は、みんな、あいつに殺されちまったのか？	Damn that bald geezer.\nDid he kill every last\none of the DWARFs?
 0x62101	0x67a	レイナ	あの死人使いが、死体全部を処理したとも思えないわ。\n必ずどこかで生きているはずよ。\n探しましょう。	I doubt that necromancer dealt\nwith every single corpse.\nSome must still be alive\nsomewhere. Let's go look.
 0x625f3	0x1a	ナッツ	・・・気を付けて。\n誰か、こっちを見ている。	...Be careful.\nSomeone is watching us.
@@ -706,7 +715,7 @@ block_off	str_off	speaker	text	english
 0x625f3	0x50d	クレイボーン	・・・フローディーテの森！？\nお前達、竜に会って来たな。	{...}{FRODITE FOREST}!?\nYou've met the dragon, haven't you.
 0x625f3	0x544	ウォーリック	なぜその事を？	How do you know that?
 0x625f3	0x559	クレイボーン	興味や冒険心だけで、あの森へ行こうなどと考える馬鹿はおらん。\nここから、西に向かえ。\nそこに、我等の先祖の地がある。	No fool seeks that forest on a\nwhim of curiosity or adventure.\nHead west from here.\nThere lies our ancestral land.
-0x625f3	0x5cf		く祖の地？	Ancestral land?
+0x625f3	0x5c3	ウォーリック	先祖の地？	Ancestral land?
 0x625f3	0x5de	クレイボーン	あのアンデットに国を破壊されたのでな、数百年前に先祖が生活していた迷宮に非難しておる。\nいつでも、来るがいい。	The undead destroyed our nation,\nso we took refuge in the labyrinth\nwhere our ancestors lived\ncenturies ago.\nCome any time you wish.
 0x625f3	0x699	クレイボーン	そうそう。\nエルフの娘に、１つだけ言っておく。ドワーフは、エルフなんぞ食わんよ。	Oh, and one thing for the {ELF}\ngirl. Dwarves don't eat Elves.
 0x625f3	0x6fe	ファーニス	・・・おっちゃん、渋いっ。\nちょっと、ドキドキしちゃったけど、よかったね。\nみんな、助かったみたいだし。	...Cool old guy.\nMy heart was pounding a bit, but\nit worked out. Everyone's safe.
@@ -723,6 +732,7 @@ block_off	str_off	speaker	text	english
 0x62b89	0x33c	パチュンガ	どうじゃ　どうじゃ　どうじゃ。\nこの神々しいほどの不死の肉体。\nこの芸術とも言える肉体を造ったワシって、とってもワンダフル。\nパチュンガ\nこいつの着てる、守護騎士の３鎧７の構造も、現在研究中じゃ。\nまぁ、この３鎧７はもう死んでいるみたいだがのぉ。	How about it. How about it.\nThis divinely undying body.\nI who made this body, true\nart itself, am so wonderful.\p{PACHUNGA}\nThe armor he wears, a guard\nknight's, I'm studying too.\nThough this armor seems\nto be quite dead already.
 0x62b89	0x3e8	ウォーリック	ランバート。\n俺だっ、ウォーリックだ。\n俺がわかるか、ランバート！？	{LAMBERT}.\nIt's me, {WARRICK}.\nDo you know me, {LAMBERT}!?
 0x62b89	0x415	パチュンガ	無駄　無駄　無駄　無駄　無駄っ！\nワシの完壁なまでの手術と、魔法で、こいつはワシの操り人形じゃ。	Useless, useless, useless!\nWith my perfect surgery and\nmagic, he's my puppet now.
+0x62b89	0x478	ウォーリック	・・・ランバート。	...{LAMBERT}.
 0x62b89	0x492	パチュンガ	さぁ、ワシのプリティなアンデットよ。あの者達を、軽く殺して来るのだ。\nそれっ、行けぇぇぇい。	Now, my pretty undead.\nGo kill those ones, easy.\nThere, gooo!
 0x62b89	0x4f8	パチュンガ	・・・それっ、行けぇぇぇい。	...Go on, get them!
 0x62b89	0x52e	パチュンガ	・・・おろっ？\nどうした、お前。\nそれっ、さっさと行けぇぇぇい。	...Hm?\nWhat's the matter with you?\nGo on, hurry up and get them!
@@ -731,8 +741,10 @@ block_off	str_off	speaker	text	english
 0x62b89	0x679		・・・ウォーリック・・・頼む。\n・・・頼む・・・・・ウォーリック・・・。	{...}{WARRICK}{...} please.\n...Please... {WARRICK}{...}
 0x62b89	0x6bf	ウォーリック	ラッ・・・ランバートッ！\n待ってろよ。\n俺が、すぐに助けてやるからな。	La... {LAMBERT}!\nHold on.\nI'll save you right now.
 0x63041	0x13	パチュンガ	・・・ほほおぅ。\nこれは驚いたのぉ。\n大脳処理の詰めが甘かったか。\nパチュンガ\nアンデットは誰でも、生前の記憶を肉体に刻み込んでいる。\nしかし、それを言葉に出すとは、凄い精神力じゃのう。\nパチュンガ\nだが、言葉を出すのが精一杯の抵抗の様じゃな。\nこんなのワシの魔力で、チョチョイのチョイじゃ。\nパチュンガ\n負の門を守護する者に、我は命ずる。この天の裁きを待つ者、その魂を空に戒め、死の訪れを嫌う者なれば、その五体を我に預けよ。\nパチュンガ\nクリエート　アンデットォォォォォ。	...ho ho. Now this is a surprise.\nMy grasp of the mind was too soft.\n\p{PACHUNGA}\nThe undead all carry their living\nmemories etched into their flesh.\nBut to speak them aloud... what\nfearsome force of will.\n\p{PACHUNGA}\nStill, words are the most his\nresistance can muster.\nFor my magic, this is child's play.\n\p{PACHUNGA}\nGuardian of the negative gate, I\ncommand thee. This soul that awaits\nheaven's judgment, bound to the sky,\nloath to greet death -- yield its\nbody unto me.\n\p{PACHUNGA}\nCREATE Undeeeead!
+0x63041	0x1df	ウォーリック	ランバートッ！	{LAMBERT}!
 0x63041	0x1fb	パチュンガ	・・・はい、出来上り。\nしかし、まだ心配だからのぉ。\nワシも一緒に戦ってやるぞ。	...there, all done.\nBut I still worry, so I'll fight\nalongside you as well.
-0x63041	0x2a2		けむ、レイナ。	Now, {REINA}.
+0x63041	0x265	ウォーリック	・・・ランバート。	...{LAMBERT}.
+0x63041	0x290	ウォーリック	・・・頼む、レイナ。	...Please, {REINA}.
 0x63041	0x2b5	レイナ	・・・わかったわ。\nレイナ\n・・・ファイア　ボールッ！	...understood.\n\p{REINA}\n...Fire Ball!
 0x63041	0x317	ウォーリック	さよなら、ランバート。\n・・・やってくれ。	Farewell, {LAMBERT}.\n...do it.
 0x63041	0x352	レイナ	・・・虚空に舞いし聖なる光子達よ。汝等ここに集いて、我が闇を砕く鉾となれ。\n・・・さよなら、ランバートさん。\nレイナ\nエナジー　ボルトッ！	...holy photons dancing in the\nvoid, gather here and be the\nspear that shatters my darkness.\n...farewell, {LAMBERT}.\n\p{REINA}\nENERGY Bolt!
@@ -1022,6 +1034,7 @@ block_off	str_off	speaker	text	english
 0x66784	0x3fa	ファーニス	宝箱、みっけ。\nファーニス、ラッキー。	Found a chest.\n{FURNIS} is lucky.
 0x66784	0x42f		金の魔導弾を手に入れた。	Got the {GOLDEN KNIFE}.
 0x66784	0x454	ファーニス	宝箱だよ、ウォーリック。\n・・・私が開けていい？	A chest, {WARRICK}.\n...Can I open it?
+0x66784	0x4c9	レイナ	・・・テレポート　トラップね。	...A teleport trap, huh.
 0x66784	0x4f0	ファーニス	お恥ずかしい。	How embarrassing.
 0x66784	0x52a	ファーニス	おろっ。\n何か、嫌な予感。	Uh-oh.\nI've got a bad feeling about this.
 0x66784	0x586	ライド	・・・今の、魔法の矢だったぞ。\n直撃ならイチコロだぞ、イチコロ。	That was a magic arrow just now.\nA direct hit and you're done for.
@@ -1099,6 +1112,7 @@ block_off	str_off	speaker	text	english
 0x676b1	0x507	カーム	・・・・・魔神軍ねぇ。\nところで、貴方達・・・魔神の存在は、信じているのかしら？	...The {DEMON GOD}'s army, hm.\nTell me... do you even believe\nthe {DEMON GOD} is real?
 0x676b1	0x559	ウォーリック	・・・魔神の存在だと？	...The {DEMON GOD}, real?
 0x676b1	0x57a	カーム	貴方達は好運なのよ。\n９００年前に世界を滅ぼした、伝説の魔神。\nその力、体験出来るのだから。	You're fortunate, you know.\nThe legendary {DEMON GOD} who\ndestroyed the world 900 years ago...\nYou'll feel that power firsthand.
+0x676b1	0x5d2	ウォーリック	・・・貴様、何者だ。	...Who are you, wretch?
 0x676b1	0x5f4	カーム	・・・私の名は、カーム。\n異世界の扉を開く、召喚師。\n破壊の女神に魅入られた、女王。\nカーム\n闇と共に生まれし、異界の住人よ。\n我は、汝をこの地へ招かん。\n我が敵の血肉と交わし、召喚に答えよ。	...My name is {CALM}.\nSummoner who opens the door\nto other worlds.\nQueen blessed by the goddess\nof destruction.\p{CALM}\nDweller of the otherworld, born\nwith the dark.\nI call you to this land.\nMingle with my foes' flesh and\nblood, and answer my summons.
 0x676b1	0x6ca	カーム	・・・貴方達、強いわね。\n私の想像を、遥かに上回っているわ。私では、モノ足りなかったかしら？\nカーム\nでも、楽しみが増えたと言うものね。私の肉体は、カームだけではないのだから。\n・・・また、会いましょう。	...You're strong.\nFar beyond what I imagined.\nWas I not enough for you?\p{CALM}\nBut now my fun has only grown.\nThis body is not the only {CALM}.\n...Until we meet again.
 0x676b1	0x7b7	ウォーリック	・・・・・カーム。\n一体、何者なんだ！？	.{...}.{CALM}.\nJust who in the world is she...?!
@@ -1118,6 +1132,7 @@ block_off	str_off	speaker	text	english
 0x67c56	0x449	ウォーリック	クーレイア！？\n魔神軍の本拠地だな。\nそれより、ここにパディッシュ様はいるのかい？	{KULEIA}!?\nThe stronghold of the demon army.\nBut never mind that -- is {PADDISH}\nhere?
 0x67c56	0x485	セス	ええ、おられます。\nその前にウォーリック。\n貴方に、持っていてもらいたい物があるの。	Yes, she is here.\nBut first, {WARRICK}.\nThere is something I want you\nto carry.
 0x67c56	0x4d4		黄金のナイフを受け取った。	{GOLDEN KNIFE} {RECEIVED}
+0x67c56	0x4fb	ウォーリック	・・・・・ナイフ。	......The knife.
 0x67c56	0x518	セス	そう。\nこれで、３本のナイフが貴方の手にある事になるわね。\nナイフはこれで全部よ。\nセス\nこのナイフ・・・貴方が持つのが１番ふさわしいと思うの。\n預かってもらえるかしら？	There.\nNow three knives rest in your\nhands. That is all of them.\p{SETH}\nThis knife... I believe you are\nthe most fitting one to hold it.\nWill you keep it safe?
 0x67c56	0x59c	ウォーリック	・・・ああ、いいよ。\nそれより、このナイフは一体何の意味があるんだ。\n封印とか言ってたが、何の事だ。\nウォーリック\nこのナイフをめぐって、友も死んだ。俺には、知る権利があるはずだ。	...Yeah, all right.\nBut what do these knives even\nmean? You spoke of a seal --\nwhat is that about?\p{WARRICK}\nA friend died over these knives.\nI have a right to know.
 0x67c56	0x625	セス	友・・・ランバートの事ね。\n彼は勇敢な人だったわ。\nセス\nナイフの事、パディッシュ様に直接聞きなさい。\n・・・貴方も、その方が納得いくでしょう。\nセス\nさぁ、行きましょう。	A friend... You mean {LAMBERT}.\nHe was a brave man.\p{SETH}\nAsk {PADDISH} about the knives\nyourself.\n...You'll be more at peace that way.\p{SETH}\nCome, let's go.
@@ -1151,6 +1166,7 @@ block_off	str_off	speaker	text	english
 0x6877d	0x1e	ライド	ふぅぅぅぅぅん。\n何だ、この竜の像は？\n・・・凄い迫力、出してんなぁ。	Whoaaaa.\nWhat's with this dragon statue?\n...It's got some real presence.
 0x6877d	0x71	レイナ	・・・この像・・・魔力を感じる。\n生きてるのかしら？	...This statue... I sense magic.\nCould it be alive?
 0x6877d	0xc0	セス	・・・その通り。\nこれは、像じゃないわ。\nパンツァードラグーンって言う、魔導兵器よ。	...Exactly.\nThis is no statue.\nIt's a magic weapon called a\n{PANZER DRAGOON}.
+0x6877d	0x109	レイナ	・・・パンツァードラグーン？	...{PANZER DRAGOON}?
 0x6877d	0x12e	セス	太古の魔導技術の落し子ね。\n１０００年ぐらい前の、国家間戦争に使用されてた様よ。\nセス\n・・・まず、知能の低い小型の竜を生け捕りにするの。\nその後、魔法で脳や内臓を摘出して、防腐処理を施す。\nセス\n神経系と感覚器を調整した体に、３鎧７を融合させれば出来上り。\n体内に人が入り込んで、魔法で神経を融合すれば、自由に動かせるわ。\nセス\nドラグーンの感覚は、そのまま搭乗者の感覚になり、竜の力を思いのままに操れる。\n・・・・・文字通り、生きた３鎧７。	A relic of ancient magic arts.\nIt was used in wars between nations\nsome thousand years ago.\p{SETH}\n...First, a small, dull-witted dragon\nis captured alive.\nThen its brain and organs are removed\nby magic, and the body preserved.\p{SETH}\nFuse armor to a body with tuned\nnerves and senses, and it's done.\nA person climbs inside, fuses their\nnerves by magic, and moves it freely.\p{SETH}\nThe {DRAGOON}'s senses become the\nrider's own, the dragon's power\nat their command.\n...Living armor, quite literally.
 0x6877d	0x2d0	ファーニス	かわいそう。\n・・・じゃあ、１０００年たった今も、死ねないでいるの？	How sad.\n...So even now, a thousand years on,\nthey still can't die?
 0x6877d	0x30d	セス	ええ。\n大気中の魔力を吸収して、永遠に生き続けるわ。\nその肉体が、破壊されるまで・・・。\nセス\nかわいそうな、ドラグーン達。\n彼等を哀れに思ったパディッシュ様が、世界中から回収したのよ。\nセス\n最初、破壊しようと思って、回収したらしいんだけどね。\n・・・結局、罪もないドラグーン達は、殺せなかったのよ。\nセス\nそれで、ここに祭る事にしたの。\n彼等の魂が癒えるまで・・・。	Right.\nThey drink in the magic of the air\nand live on forever.\nUntil their bodies are destroyed...\p{SETH}\nThe poor Dragoons.\nLORD {PADDISH} pitied them and\ngathered them from across the world.\p{SETH}\nAt first he meant to destroy them,\nthey say.\n...But in the end, he couldn't kill\nthe innocent Dragoons.\p{SETH}\nSo he chose to enshrine them here.\nUntil their souls find peace...
@@ -1202,8 +1218,9 @@ block_off	str_off	speaker	text	english
 0x691dd	0x38a		白竜　パディッシュ\n・・・・・そうだ。	White Dragon {PADDISH}\n{...}..Yes.
 0x691dd	0x3ab	ウォーリック	このナイフが、神竜の封印を解く鍵という事は、フォーゲル様から聞きました。\nウォーリック\nしかし、それが何を意味するのかは、教えてもらえませんでした。	{VOGEL} told me these knives are the\nkeys that unseal the {DIVINE DRAGON}.\p {WARRICK}\nBut he never told me what that\ntruly means.
 0x691dd	0x412		白竜　パディッシュ\nそうか・・・では、この封印の力も知らないのだな。\n白竜　パディッシュ\n２頭の神竜・・・金竜　メーフィス様と、銀竜　アスタルト様。\n我等、神官竜の祖。\n白竜　パディッシュ\n９００年前、確かに魔神をこの世界から完全に滅した。\n・・・だが、それは相討ちによる勝利であった。	White Dragon {PADDISH}\nI see... then you do not know\nthe power of this seal either.\p White Dragon {PADDISH}\nTwo Divine Dragons... {GOLD DRAGON}\n{MEPHIS}, and {SILVER DRAGON} {ASTARTE}.\nThe forebears of us Priest Dragons.\p White Dragon {PADDISH}\n900 years ago they destroyed the\n{DEMON GOD} utterly from this world.\n...But it was won by mutual ruin.
-0x691dd	0x4eb		袷け討ち。	Mutual ruin.
+0x691dd	0x4db	ウォーリック	・・・・・相討ち。	......Mutual ruin.
 0x691dd	0x4f8		白竜　パディッシュ\n肉体が滅びようと、神に死はない。\n魂のある限り肉体は蘇生し、永遠に生き続ける。\n白竜　パディッシュ\n魔神は神の世界に帰ったが、メーフィス様とアスタルト様は、この世に残り、この世界で肉体の蘇生を始めた。\n白竜　パディッシュ\nその間、神官竜は精霊の統率に努め、私は、蘇生中のメーフィス様とアスタルト様を、守る任に付いていた。\n白竜　パディッシュ\n蘇生に入ってから、３００年ほどたった頃の事だ。\n銀竜　アスタルト様に、異変が生じた。	White Dragon {PADDISH}\nThough the body perish, a god\ncannot die. While the soul endures,\nthe body revives and lives forever.\p White Dragon {PADDISH}\nThe {DEMON GOD} returned to the\ndivine world, but {MEPHIS} and\n{ASTARTE} remained in this one,\nand began to revive their bodies.\p White Dragon {PADDISH}\nMeanwhile the Priest Dragons kept\nthe {SPIRITS} in order, and I was\ncharged to guard them as they\nrevived.\p White Dragon {PADDISH}\nAbout 300 years into the revival,\na strange thing befell\n{SILVER DRAGON} {ASTARTE}.
+0x691dd	0x62c	ファーニス	・・・・・異変？	......Something's wrong?
 0x691dd	0x646		白竜　パディッシュ\nアスタルト様が、突然、姿を消してしまわれた。\n当時、蘇生した体は３割・・・行動を起せる状態ではないはずなのに。	White Dragon {PADDISH}\n{ASTARTE} suddenly vanished away.\nOnly three tenths of the body had\nrevived... she should not have\nbeen able to act at all.
 0x691dd	0x6a5	ファーニス	・・・どっか、行っちゃったんだ。	...She went off somewhere.
 0x691dd	0x6ca		白竜　パディッシュ\n魔神がこの世から去る際に、アスタルト様の魂に、自分の魂のカケラを植え付けたらしい。	White Dragon {PADDISH}\nAs the {DEMON GOD} left this world,\nit seems he planted a shard of his\nown soul within {ASTARTE}'s soul.
@@ -1224,7 +1241,7 @@ block_off	str_off	speaker	text	english
 0x696e5	0x57c	ファーニス	クーレイアだね。	{KULEIA}, right?
 0x696e5	0x58e		白竜　パディッシュ\nクーレイアは、外敵の侵入を防ぐため、強力な結界が張られている。\n困難な仕事だが、ブラフォードなら見つけられるであろう。	{WHITE DRAGON} {PADDISH}\n{KULEIA} is shielded by a powerful\nbarrier to keep out intruders.\nIt is hard work, but {BLAFORD}\nwill find a way through.
 0x696e5	0x5e9	ファーニス	そうそう。\nだって、私のお兄ちゃんだもん。	Of course he will.\nHe's my big brother, after all.
-0x696e5	0x61e		る。\n・・・メーフィス様が。	...ing.\n{...}{LADY} {MEPHIS} is.
+0x696e5	0x616	セス	マスター。\n・・・メーフィス様が。	Master.\n...{LADY} {MEPHIS} is-
 0x696e5	0x642		白竜　パディッシュ\n・・・わかっている。\nまだ、早かった様だな。\n白竜　パディッシュ\nしかし、心配はいらぬ。\nメーフィス様は、我々に大きな力を残して下さった。\nウォーリックと言う、大きな力を。\n白竜　パディッシュ\n守護騎士の力は、マスターたる竜の力。神竜の力が宿った３鎧７を着る守護騎士は、アスタルト様に対抗出来る、唯一の力なのだ。\n白竜　パディッシュ\nセスよ、急ぐのだ。\n一刻も早く、ウォーリックを鎧の塔に。	{WHITE DRAGON} {PADDISH}\n...I know.\nIt seems it was too soon.\np {WHITE DRAGON} {PADDISH}\nBut do not despair.\n{LADY} {MEPHIS} left us a great power.\nA power named {WARRICK}.\np {WHITE DRAGON} {PADDISH}\nA {GUARDIAN}'s strength is the\nstrength of his {MASTER} dragon.\nA {GUARDIAN} clad in armor blessed\nwith a {DIVINE DRAGON}'s power is\nthe one force that can face\n{LADY} {ASTARTE}.\np {WHITE DRAGON} {PADDISH}\n{SETH}, make haste.\nGet {WARRICK} to the {ARMOR TOWER}\nwith all speed.
 0x696e5	0x741	セス	はい、マスター。	Yes, {MASTER}.
 0x696e5	0x756		白竜　パディッシュ\n・・・ウォーリック。\n情けない事だが、今の私には、お前を応援する事しか出来ない。\n頼む・・・頑張ってくれよ。	{WHITE DRAGON} {PADDISH}\n{...}{WARRICK}.\nIt shames me, but all I can do\nnow is cheer you on.\nPlease... give it your all.
@@ -1302,6 +1319,7 @@ block_off	str_off	speaker	text	english
 0x6ab6c	0x1f0		鎧神　アトォム\nウォーリック・・・良い名だ。\n鎧神　アトォム\n３鎧７は、この塔の最上階にある。\n各階のリビング　アーマーを倒し、最上階まで登って来い。\nそれが、守護騎士の試練だ。\n鎧神　アトォム\n各階にある鎧の紋章に触れれば、怪我は完治する。\n大切なのは、剣技ではなく、心。\n３剣７を振るう心、３鎧７を着る心だ。\n鎧神　アトォム\n３鎧７や３剣７は、人を選ぶ。\nそして、選ばれた者にだけ、真の力を貸してくれる。\n鎧神　アトォム\nリビング　アーマー達は、お前の心を見ているぞ。\n・・・今、お前を守っている３鎧７や３剣７に、恥じぬ行動をとる事だ。\n鎧神　アトォム\n若き剣士よ。\n己の力の全てを示せ。\n・・・私は、最上階で待っている。	{ATOM}\n{WARRICK}{...} a fine name.\p{ATOM}\nThe armor lies atop this tower.\nDefeat the Living Armor on\neach floor and climb your way\nto the summit.\nThat is the knight's trial.\p{ATOM}\nTouch the armor crest on each\nfloor and your wounds will heal.\nWhat matters is not skill of\nblade, but the heart.\nThe heart to wield a sword,\nto wear armor.\p{ATOM}\nArmor and sword choose their\nbearer. Only the chosen are\nlent their true power.\p{ATOM}\nThe Living Armor watch your\nheart. Act in a way that does\nnot shame the armor and sword\nthat guard you now.\p{ATOM}\nYoung swordsman, show me all\nyour strength.\n...I await you at the summit.
 0x6ab6c	0x4ca	ウォーリック	・・・さぁぁぁて。\n３鎧７をもらいに、行きましょうか。\n待ってろよ、鎧神。	...Weeell now.\nLet's go fetch that armor.\nWait for me, armor god.
 0x6ab6c	0x6a3	ウォーリック	ああっ！？\nラット　ジャイアントだ。	Gah!?\nA giant rat!
+0x6ab6c	0x70c	アーマー	・・・ウォーリック殿か？	...Sir {WARRICK}?
 0x6ab6c	0x72c	ウォーリック	・・・そうだ。	...That's right.
 0x6ab6c	0x76e		リビング　アーマー\n強そうな御方だ。\n・・・拙者と、一騎討ちを所望したい。	Living Armor\nA mighty-looking lord.\n...I wish to challenge you to\nsingle combat.
 0x6ab6c	0x7b5	ウォーリック	・・・望むところだ。	...Gladly. Bring it on.
@@ -1317,6 +1335,7 @@ block_off	str_off	speaker	text	english
 0x6b026	0x31d		リビング　アーマー\n時間、いっぱい。	Living {ARMOR}\nTime's up.
 0x6b026	0x33a		リビング　アーマー\n参るぞ、ウォーリック殿。	Living {ARMOR}\nHere I come, Sir {WARRICK}.
 0x6b026	0x357		リビング　アーマー\n待った無し。	Living {ARMOR}\nNo holding back.
+0x6b026	0x377	アーマー	真剣勝負。	A serious duel.
 0x6b026	0x394	ウォーリック	うぉぉぉぉぉぉぉぉぉっ！\n全員まとめて、かかって来ぉぉぉい。	RAAAAAAAGH!\nCome at me, all of you at once!
 0x6b026	0x48d		ブレスト　アーマーは、もう何も喋らない。\nウォーリックの目の前で、３鎧７はみるみる錆始め、既に赤黒く、以前の雄姿はカケラも感じられない。その思いを伝え、３鎧７の役目は終ったのだ。\nウォーリックが抱き上げようと手を伸ばしたが、３鎧７は錆となり崩れ、空にとけていった。\n暗い塔の中に、錆の粒子だけがキラキラと舞っている。	The breastplate speaks no more.\nBefore {WARRICK}'s eyes, the armor\nrusts away, already red-black, no\ntrace of its former glory left. Its\nmessage delivered, its duty is done.\n\p{WARRICK}\n{WARRICK} reached to lift it up,\nbut the armor crumbled into rust\nand melted into the air.\nOnly glittering motes of rust\ndrift through the dark tower.
 0x6b026	0x578	ウォーリック	ありがとう、ブレスト　アーマー。\nお前達の事は、決して忘れない。	Thank you, breastplate.\nI will never forget you.\nNone of you.
@@ -1331,6 +1350,7 @@ block_off	str_off	speaker	text	english
 0x6b51d	0x145		黒い鎧の男\n簡単な事だ。\n金竜の守護騎士となる者を、この手で倒すために来た。\n黒い鎧の男\nアスタルト様の復活を知れば、１人でも多くの戦力が欲しいはずだ。\n守護騎士を作ろうとするのは、必定。\n黒い鎧の男\nその者は、マスターのメーフィス様と、同等の力を持つ事になる。\nアスタルト様には、この上なく邪魔な存在なのだ。	Man in Black Armor\nSimple. I came to slay the one\nwho would become the Gold\nDRAGON's {GUARDIAN} with my own hand.\pMan in Black Armor\nKnowing of Lady {ASTARTE}'s revival,\nthey'd want every soldier they\ncould get. A {GUARDIAN} was certain\nto be made.\pMan in Black Armor\nThat one would hold power equal to\nmy {MASTER}, Lord {MEPHIS}.\nTo Lady {ASTARTE}, no greater\nnuisance could exist.
 0x6b51d	0x21c	ウォーリック	銀竜　アスタルト。\n魔神に肉体を乗っ取っられた、神竜。・・・やはり、復活していたのか。\nウォーリック\n・・・貴様、なぜ魔神に荷担する。\nお前も、人間だろう。\nお前も、守護騎士だろう。	{SILVER DRAGON} {ASTARTE}.\nThe {DIVINE DRAGON} whose body the\n{DEMON GOD} seized. ...So it's true.\nShe has revived.\p{WARRICK}\n...Why do you serve the {DEMON GOD}?\nYou're human too.\nYou're a {GUARDIAN} too.
 0x6b51d	0x2b8		黒い鎧の男\n・・・・・フンッ。\n黒い鎧の男\n貴様には、借りがあったな。\n・・・名を聞こう。	Man in Black Armor\n{...}..Hmph.\pMan in Black Armor\nI owed you a debt.\n...Tell me your name.
+0x6b51d	0x313	ウォーリック	・・・ウォーリック。	...{WARRICK}.
 0x6b51d	0x32b		黒い鎧の男\n俺の名は、シュタイナー。\n黒竜　ルードをマスターに持つ、黒の守護騎士だ。\nシュタイナー\nウォーリック。\n・・・勝負だ！	Man in Black Armor\nMy name is {STEINER}.\nThe Black {GUARDIAN}, {MASTER} to the\n{BLACK DRAGON} {RUDE}.\p{STEINER}\n{WARRICK}.\n...Let's settle this!
 0x6b51d	0x3aa	シュタイナー	・・・フッ。\n強いな、ウォーリック。\n金竜の守護騎士に、選ばれるだけの事はある。\nシュタイナー\n貴様が守護騎士としての道を歩むなら、いずれ、また会う事になるであろう。・・・その時こそ、勝負だ。	...Heh.\nYou're strong, {WARRICK}.\nNo wonder you were chosen as the\n{GOLD DRAGON}'s {GUARDIAN}.\p{STEINER}\nIf you walk the {GUARDIAN}'s path,\nwe shall meet again one day.\n...Then we'll settle this for good.
 0x6b51d	0x48f	ウォーリック	・・・黒の守護騎士、シュタイナー。奴の３剣７に、邪念は感じない。	...The Black {GUARDIAN}, {STEINER}.\nI sense no malice in his sword.

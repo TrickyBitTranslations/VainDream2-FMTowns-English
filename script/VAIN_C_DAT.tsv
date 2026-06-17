@@ -173,12 +173,14 @@ block_off	str_off	speaker	text	english
 0x3da04	0x1fd		子供の亡霊\n僕達と遊んでくれるんでしょ。遊ぼ、遊ぼっ。	Ghost Child\nYou'll play with us, right?\nLet's play, let's play!
 0x3da04	0x22c		子供の亡霊\nへへっ。\nお兄ちゃん、カッコいいな。	Ghost Child\nHeh.\nMister, you look so cool.
 0x3da04	0x259		子供の亡霊\nキャハハッ。\nとっても楽しいねぇ。	Ghost Child\nKyahaha!\nThis is so much fun.
+0x3da04	0x287	亡霊	キャハハハハハハッ。	Kyahahahahaha!
 0x3da04	0x2a9		子供の亡霊\n知ってる？\n今日ね、実験があるんだよ。	Ghost Child\nDid you know?\nThere's an experiment today.
 0x3da04	0x2d8		子供の亡霊\n賢者様達が、神様を呼び出すんだって。	Ghost Child\nThe sages are going to\nsummon a god.
 0x3da04	0x30b		子供の亡霊\n平和な世界が出来るんだって、ママが言ってた。	Ghost Child\nMama said it'll make\na peaceful world.
 0x3da04	0x344		子供の亡霊\n神様に、何をお願いしようかなぁ。	Ghost Child\nI wonder what I should\nwish the god for.
 0x3da04	0x36b		子供の亡霊\nねぇ、お兄ちゃん。\n願い事は、何？	Ghost Child\nHey, mister.\nWhat's your wish?
 0x3da04	0x39c		子供の亡霊\nお兄ちゃんの、願い事は？	Ghost Child\nMister, what's your wish?
+0x3da04	0x3c1	亡霊	キャハハハッ！	Kyahaha!
 0x3da04	0x3d8		子供の亡霊\n願い事は？	Ghost Child\nYour wish?
 0x3da04	0x3f4		子供の亡霊\n教えて？	Child's Ghost\nTell us?
 0x3da04	0x40c		子供の亡霊\n教えて？	Child's Ghost\nTell us?
@@ -227,6 +229,7 @@ block_off	str_off	speaker	text	english
 0x3e446	0x533	ドード	・・・そうか。\n緑竜の感覚から自分の感覚に切り替わる時、わずかに隙が出来る。\n命拾いしたなぁ。	...I see.\nWhen I shift from the dragon's\nsenses to my own, a gap opens.\nYou got lucky.
 0x3e446	0x58b	セス	あれが、パラサイトデーモン。\n神竜の３鎧７の力に加え、神官竜の力を持ち合わせていると言うの？	That is the {PARASITE DEMON}.\nYou mean it holds a Divine\nDRAGON's armor and a Priest\nDRAGON's power both?
 0x3e446	0x5d2	ドード	その通りだ、白竜の守護騎士よ。\n神官竜の力と、神竜の３鎧７の力を俺は持っている。\nそれも、魔神の３鎧７だぁ。\nドード\nさぁ、かかって来い。\n全員殺してやるぞ。\n鎖骨を寛骨まで引き裂き、骨髄をすすってやるぞぉぉぉぉぉっ！	That's right, guardian of the\n{WHITE DRAGON}.\nI hold a {PRIEST DRAGON}'s power\nand a {DIVINE DRAGON}'s armor.\nA {DEMON GOD}'s armor, no less.\n\p{DODE}\nCome at me, then.\nI'll kill you all.\nI'll tear you bone from bone and\nsuck out the marrow, {AAAAAAH}!
+0x3e446	0x6b4	ウォーリック	・・・・・ライド。	......{RIDE}.
 0x3e446	0x6d1	セス	ドードの移動魔法が、成功している事を祈りましょう。	Let us pray {DODE}'s teleport\nspell worked.
 0x3e446	0x6fe	ウォーリック	成功していなかったら・・・？	And if it didn't...?
 0x3e446	0x722	セス	亜空間に入ってしまい、永遠にさまよう事になる・・・。	We slip into the void and wander\nthere forever...
@@ -291,6 +294,7 @@ block_off	str_off	speaker	text	english
 0x3f19b	0x3cd	セス	ブラフォード。\nとっても早いから、振り落とされない様に、しっかりつかまっててね。	{BLAFORD}. It's terribly fast, so\nhold on tight or you'll be\nthrown off.
 0x3f19b	0x40f	ブラフォード	・・・承知した。	...Understood.
 0x3f19b	0x429	セス	では、出発！	Then, away we go!
+0x3f19b	0x4df	セス	ブッ、ブラフォードッ！	B-{BLAFORD}!
 0x3f19b	0x504	ファーニス	おっ、お兄ちゃん！	B-Big brother!
 0x3f19b	0x52e	ファーニス	わぁぁぁぁぁん。\nお兄ちゃん、壁にメリ込んじゃってるよぉぉぉっ！	Waaaaah! Big brother got\nsmushed into the wall!
 0x3f19b	0x569	セス	あぁぁぁぁぁん。\nごめんなさい、ブラフォード。\n私の運転が乱暴なばっかりに、貴方をこんな目に会わせてしまってぇ。	Aaaaah! I'm so sorry, {BLAFORD}.\nMy reckless driving put you\nthrough something awful.
@@ -335,7 +339,7 @@ block_off	str_off	speaker	text	english
 0x3fc2e	0x457		ジョーカー\nここまで来るとは、何と運の良い。\nその運を、私にも分けて欲しいものですなぁ。	Joker\nTo make it this far, how lucky.\nI'd love for you to share a\nbit of that luck with me.
 0x3fc2e	0x49d	ファーニス	宝箱の中、何にも入ってないよ。\nゲームに勝ったんだから、景品もらえるんでしょ？	There's nothing in the chest.\nI won the game, so I should\nget a prize, right?
 0x3fc2e	0x4e5		ジョーカー\n本来はそうですが、ちょっと事情が変わりました。\nもう一勝負どうです？\n私と勝負しましょうよ。\nジョーカー\n貴方達が勝ったら、生きて帰してあげます。もし負けたら、貴方達は私の宝になる事になります。\n・・・その宝箱に入る、宝にね。	Joker\nNormally, yes. But things have\nchanged a little.\nHow about one more round?\nPlay a game with me.\np\nJoker\nIf you win, I'll let you leave\nalive. If you lose, you become\nmy treasure.\n...The treasure in that chest.
-0x3fc2e	0x5b0		か達が、宝物？	Us... treasure?
+0x3fc2e	0x5a0	ファーニス	・・・私達が、宝物？	...Us... treasure?
 0x3fc2e	0x5c4		ジョーカー\nそうです。\nそして、その宝とは、貴方達の温かい内臓。血の滴る、温かい内臓。\n私は、内臓が好物なんですよぉぉぉっ。	Joker\nIndeed.\nAnd that treasure is your warm\ninnards. Warm guts, dripping\nwith fresh blood.\nInnards are my favorite treat!
 0x3fc2e	0x64d	ファーニス	ああっ！？\n何か、あるよ。	Aah!?\nThere's something here.
 0x3fc2e	0x67e		碧雲の鎧を手に入れた。	Received the blue cloud {ARMOR}.
@@ -413,6 +417,7 @@ block_off	str_off	speaker	text	english
 0x40fb1	0x225	ビアガン	・・・そうだな。\nしかし、あれは魔神の思うままに動く、言わば操り人形。\nこの世に存在するには、哀れすぎる。\nビアガン\n気高く、優しい女王　カーム。\n希望に光を待ち続けた彼女には、永遠の安らぎが必要だ。\n倒す事が・・・彼女のため。	...So she was.\nBut she moved only at the\n{DEMON GOD}'s whim - a puppet.\nToo wretched a thing to exist.\n\p{BIAGAN}\nNoble, gentle Queen {CALM}.\nShe who waited for the light of hope\nneeded eternal rest.\nTo fell her... was for her sake.
 0x40fb1	0x2e7	ウォーリック	・・・貴様、何を考えている。	...What are you scheming?
 0x40fb1	0x30d	ビアガン	９００年前、拙者は魔神に倒された。そして、２年前・・・カームの力により、蘇生した。\nビアガン\nカームは、９００年前と同じ微笑みを拙者に向けたが、それが違う事は一瞬でわかった。\n昔のカームは、もういない。\nビアガン\n・・・そして、拙者も魔神の一部。\n拙者もカームも、魔神の手の上でなければ存在出来ない、呪われた肉人形なのだ。\nビアガン\n幸か不幸か、拙者は精神を支配されていない。\n故に、あの狂気のカームを見続けなくてはならなかった。\nビアガン\n９００年前、共に戦った愛する友の狂った姿をな。\n・・・しかし、それも終った。\n貴様達のおかげでな。	900 years past, the {DEMON GOD}\nstruck me down. Then, two years\nago...\n{CALM}'s power brought me back.\n\p{BIAGAN}\n{CALM} turned the same smile on me\nas 900 years before, but in an\ninstant I knew it was false.\nThe old {CALM} was gone.\n\p{BIAGAN}\n...And I too am part of the\n{DEMON GOD}. She and I both -\ncursed dolls of flesh that\ncannot exist beyond his hand.\n\p{BIAGAN}\nFor better or worse, my mind was\nnever seized. So I was forced to\nwatch that maddened {CALM} on.\n\p{BIAGAN}\nThe ruined form of a beloved friend\nI fought beside 900 years ago.\n...But that is over now.\nThanks to you and yours.
+0x40fb1	0x4a5	ウォーリック	・・・・・。	......
 0x40fb1	0x4b7	ビアガン	しかし、拙者も魔神の人形。\n奴の支配からは、決して逃れる事は出来ん。\n・・・ここで、ケリを着けたい。\nビアガン\nこの赤い鎧こそ、我がミノタウロス族に伝わる決闘の装束。\n・・・勝負だ。	Yet I too am the {DEMON GOD}'s doll.\nFrom his grip I can never break free.\n...Here, I would settle it.\n\p{BIAGAN}\nThis red armor is the dueling garb\npassed down through my {MINOTAUR} kin.\n...Let us fight.
 0x41418	0x29	セス	・・・パァンツァー　ドラグーン。\nなぜ、ここにあるの！？\n全てのドラグーンは、パディッシュ様が回収したはずなのに。	...A {PANZER DRAGOON}.\nWhy is it here?\n{PADDISH} was supposed to have\nrecovered all the DRAGOONs.
 0x41418	0x83	レイナ	ドラグーン。\n・・・思いだしたわ。\nこれって、きっとセルーシュで奪われた物よ。	A {DRAGOON}.\n...I remember now.\nThis must be the one stolen\nat {SERUSH}.
@@ -429,6 +434,7 @@ block_off	str_off	speaker	text	english
 0x41418	0x345	シュタイナー	・・・フンッ。\nそんなモノ・・・あるわけなかろう。\n俺は、黒竜の守護騎士。\nその役目を、全うするだけだ。	...Hmph.\nNothing of the sort.\nI am the Dragon Knight of the\n{BLACK DRAGON}. I only fulfill my duty.
 0x41418	0x3c3	ウォーリック	・・・やったのか！？	...Did we get him?
 0x41418	0x415		ィグググッ・・・・・グッ、ウグググッ・・・。\nぬあぁぁぁぁぁぁぁぁっ。	Igggh.{...}..ggh, urgggh...\nNGAAAAAAH!
+0x41418	0x48d	ウォーリック	シュ、シュタイナー！	S-{STEINER}!
 0x41418	0x4ad	シュタイナー	ぐはぁぁぁぁぁっ。\n・・・きっ、貴様等・・・勝負は・・・ぐふっ・・・これからだ。\nシュタイナー\nもう、ドラグーンなど・・・無粋な、力になど・・・頼らん。\n力と・・・力・・・技と、技を賭けて・・・勝負だっ。	GWAAAAAGH.\n...Y-you lot... the fight...\nguh... has only begun.\n{STEINER}\nNo more crude crutch of a\n{DRAGOON} for me...\nStrength against strength...\nskill against skill... let us fight!
 0x41418	0x5c9	シュタイナー	・・・ぐっ。\n負けんぞぉぉぉっ。\nまっ、まだまだぁぁぁっ。	...Guh.\nI will not lose!\nN-not yet, not yet!
 0x41418	0x60b		声\n・・・戻って来い、シュタイナー。\n早く・・・我が、元へ・・・早く・・・・・戻って・・・シュタイナァァァァァッ。	...Come back, {STEINER}.\nQuickly... to my side... quickly...\nreturn... Steineeeer!
@@ -436,16 +442,22 @@ block_off	str_off	speaker	text	english
 0x41418	0x736	ウォーリック	待て、シュタイナー。\n・・・いったい、何が！？	Wait, {STEINER}.\n...What in the world is happening?
 0x41418	0x76b	セス	シュタイナーのマスター！？\nじゃあ、今のは、黒竜　ルード様の声。シュタイナーが戦いを放棄してまで、優先しなくてはならない事。\nセス\n黒竜の身に、何かあったんだわ。	{STEINER}'s {MASTER}?\nThen that was the voice of\n{RUDE}, the {BLACK DRAGON}. For {STEINER}\nto abandon the fight for it...\n{SETH}\nSomething has befallen the\n{BLACK DRAGON}.
 0x41972	0x3f	ウォーリック	・・・どうした、ファーニス？\n腹でも痛いのか。	...What's wrong, {FURNIS}?\nStomachache or something?
+0x41972	0xb1	ウォーリック	ファッ、ファーニス！？	F-{FURNIS}?!
 0x41972	0xdf	ウォーリック	どうした、ファーニス。\nどこか痛いのか！？	What's wrong, {FURNIS}?\nDoes something hurt!?
 0x41972	0x108	ファーニス	・・・あれっ！？\nおかしいなぁ。\n体が全然、動かないよぉ。	...Huh!?\nThat's strange.\nMy body won't move at all.
 0x41972	0x146	レイナ	・・・様子が変よ。\n体温が異様に下がっている。	...Something's wrong.\nHer body temperature is\nplummeting.
+0x41972	0x182	ブラフォード	・・・・・セス。	......{SETH}.
 0x41972	0x19f	セス	・・・ええっ。\nわかってる。\n魔神の魔力が、ファーニスに干渉しているのよ。	...Yes. I know.\nThe {DEMON GOD}'s power is\npreying on {FURNIS}.
+0x41972	0x1e6	レイナ	・・・干渉！？	...Interference?!
 0x41972	0x1ff	セス	魔神の脅威的に強い魔力が、他の生物に影響を及ぼすの。\n敏感なエルフ族のファーニスには、特にね。\nセス\nこのまま行けば、衰弱して死ぬか、発狂してして死ぬかのどちらかになる。最悪の場合、魔神に体を乗っ取られるわ。\nセス\n私達には、３鎧７の守りがあるけど・・・・・２人は、ここまでよ。	The {DEMON GOD}'s terrible power\naffects all living things.\n{FURNIS}, a sensitive {ELF},\nmost of all.\p{SETH}\nGo on like this and she'll\nwaste away or go mad and die.\nWorst case, the {DEMON GOD}\ntakes her body.\p{SETH}\nWe have the {SHIELD} to guard us...\nbut you two end here.
 0x41972	0x2d9	レイナ	ふっ、２人！？\n私はまだ一緒に戦えるわ。\n・・・私は、何ともないのよぉ。\nレイナ\n・・・ねぇ。\nウォーリックも、何とか言ってよぉ。	Wh-what, you two!?\nI can still fight at your side.\n...There's nothing wrong with me.\p{REINA}\n...Hey.\n{WARRICK}, say something too.
 0x41972	0x350	セス	今は、まだ大丈夫。\n自分の魔力で、魔神の干渉を防いでいるから。\n・・・でも、この先からは無理ね。	For now it's fine.\nMy own power holds the\n{DEMON GOD}'s reach at bay.\n...But past here, no more.
+0x41972	0x3b0	レイナ	・・・・・。	......
 0x41972	0x3c2	セス	今なら、私とブラフォードの魔法で、送り帰せるわ。\nでもこの先からは、私達にも何が起こるかわからない。\nセス\n帰せるチャンスがあるなら、今よ。\nよく考えて、ウォーリック。	Right now, my magic and\n{BLAFORD}'s can send them back.\nBut past here, no telling\nwhat befalls even us.\p{SETH}\nIf there's a chance to send\nthem home, it's now.\nThink well, {WARRICK}.
 0x41972	0x442	ウォーリック	・・・レイナ。\nクラウスで、待っていてくれないか。	{...}{REINA}.\nWill you wait for me\nin {KLAUS}?
+0x41972	0x474	レイナ	・・・ウォーリック。	...{WARRICK}.
 0x41972	0x48c	ウォーリック	俺は、必ず戻って来る。\n・・・だから待っていてくれ。\nそれに、ファーニスの看病も必要だろ。	I'll come back, I swear.\n...So please wait for me.\nBesides, {FURNIS} will need\ntending to.
+0x41972	0x4e1	レイナ	・・・・・。	......
 0x41972	0x4f3	ウォーリック	必ず戻って来るから。\nだから・・・・・なっ。	I'll come back, I promise.\nSo..{...}. all right?
 0x41972	0x528	レイナ	・・・わかった。\n貴方の言う通りにするわ、ウォーリック。	...I understand.\nI'll do as you say, {WARRICK}.
 0x41972	0x568		レイナとファーニスが仲間から外れた。	{REINA} and {FURNIS}{ LEFT THE PARTY.}
@@ -454,6 +466,8 @@ block_off	str_off	speaker	text	english
 0x41972	0x608	ブラフォード	謝る事はない。\nお前の様な強い妹を持てて、光栄に思っている。\nブラフォード\nレイナ。\n・・・妹を、頼む。	No need to apologize.\nI'm proud to have a sister\nas strong as you.\n\p{BLAFORD}\n{REINA}.\n...Look after my sister.
 0x41972	0x679	レイナ	・・・わかったわ。	...I will.
 0x41972	0x69f	セス	じゃあ、始めるわよ。\n飛び先はクラウスでいいわね。	Then, let's begin.\nThe destination is {KLAUS}, yes?
+0x41972	0x6d9	レイナ	・・・ウォーリック。	...{WARRICK}.
+0x41972	0x6f6	ウォーリック	・・・レイナ。	...{REINA}.
 0x41e41	0x2e	ブラフォード	・・・何かいる。	...Something is out there.
 0x41e41	0x50	セス	どうしたの、ブラフォード。\n敵！？	What is it, {BLAFORD}?\nEnemies?
 0x41e41	0x6f	ブラフォード	誰かが、付けている様だ。\n確かに強く感じたのだが・・・今は、完全に気配を消している。	Someone is tailing us.\nI felt it clearly... but now they\nhave hidden their presence\ncompletely.
@@ -479,16 +493,22 @@ block_off	str_off	speaker	text	english
 0x41e41	0x6cb	ライド	何でもいい。\n・・・早いトコ、倒しに行こうぜ。	Whatever it is.\n...Let's hurry and go take it down.
 0x41e41	0x718		ライドとナッツが仲間に加わった。	{RIDE} and {NUTTS}{ JOINED THE PARTY.}
 0x4233a	0x24	シュタイナー	どはぁっ！	Gyaaah!
+0x4233a	0x5b	ウォーリック	シュ、シュタイナー。	S-{STEINER}.
+0x4233a	0x93	ウォーリック	待て、シュタイナー。	Wait, {STEINER}.
 0x4233a	0xbc	ウォーリック	一体、何が起ったんだ！？\n・・・答えろ、シュタイナー。	What in the world happened!?\nAnswer me, {STEINER}.
 0x4233a	0xf9	シュタイナー	・・・ルード様が、完全に・・・魔神の支配に落ちた。\n俺は守護騎士なのに、ルード様を守る事が出来なかった。\nシュタイナー\n・・・かくなるうえは。	{RUDE}{...} has fallen completely\nunder the {DEMON GOD}'s control.\nI am his guardian knight, yet I\ncould not protect him.\p{STEINER}\n...Then so be it.
+0x4233a	0x173	ウォーリック	・・・！？	...?!
 0x4233a	0x186	シュタイナー	・・・ルード様を・・・この手で・・・倒す。\nそれが、黒の守護騎士としての最後の役目。\nシュタイナー\nさらばだ、ウォーリック。	I will strike {RUDE} down...\nwith my own hands.\nThat is the last duty of the\nblack guardian knight.\p{STEINER}\nFarewell, {WARRICK}.
 0x4233a	0x21a	シュタイナー	・・・なっ、何だコレは！？	Wha... what is this!?
 0x4233a	0x241	セス	簡単だけど、魔法のオリよ。\nいくら強力な魔力を持った貴方でも、簡単には破れないわ。	It's simple, but it's a magic cage.\nEven with all your power, you\nwon't break it easily.
 0x4233a	0x293	シュタイナー	ぬぅぅぅぅぅっ。\n・・・何のつもりだ。	Hrrrrgh.\n...What is the meaning of this?
 0x4233a	0x2c5	セス	貴方に、黒竜は倒させないわよ。	I won't let you slay the\n{BLACK DRAGON}.
+0x4233a	0x2ea	シュタイナー	・・・何ぃ！？	...Whaat?!
 0x4233a	0x306	セス	私も守護騎士。\n自分のマスターに３剣７を向ける事の辛さくらい、わかってるつもりよ。\nセス\n貴方に味方するわけじゃない。\nでも、同じ守護騎士として、マスター殺しにはなってほしくないの。\n・・・黒竜は、私達が倒すわ。	I'm a guardian knight too.\nI know the pain of turning a sword\non your own master.\p{SETH}\nI'm not taking your side.\nBut as a fellow guardian, I won't\nlet you become a master-killer.\n...We will slay the {BLACK DRAGON}.
 0x4233a	0x399	シュタイナー	ぬぅぅぅぅぅっ。\nこっ・・・こんなオリなどぉぉぉっ！	Hrrrrgh.\nA cage like thiiiis!
 0x4233a	0x3d7	セス	無理しない方がいいわよ。\nあんまり無理すると、命を落す事になるわ。\n私達に任せて、シュタイナー。	Don't push yourself.\nStrain too hard and it'll cost\nyou your life.\nLeave it to us, {STEINER}.
+0x4233a	0x423	シュタイナー	・・・・・。	......
+0x4233a	0x435	セス	・・・シュタイナー。	...{STEINER}.
 0x4233a	0x44c	シュタイナー	・・・１つだけ言っておく。\n既にルード様には、知性のカケラもないと思え。\n偉大な神官竜とは・・・思うな。	Let me say just one thing.\n{RUDE} has not a shred of reason\nleft in him.\nDo not think of him as the great\n{PRIEST DRAGON}.
 0x4233a	0x4ac	シュタイナー	・・・早く行け。	...Now go. Hurry.
 0x42672	0x2d	ライド	おいっ、何だコリャ！？\n・・・入口が無くなってるぞ。	Hey, what is this!?\n...The entrance is gone.
@@ -506,14 +526,19 @@ block_off	str_off	speaker	text	english
 0x42672	0x3b4	ルード	無駄、無駄、無駄、無駄、無駄ぁ。\n全ては無駄だという事が、まだわからぬのかぁ！？	Useless, useless, useless,\nuseless, useless!\nDo you still not understand\nthat it is all in vain?
 0x42672	0x40c	ルード	グワァァァァァッ！\nかっ、体が・・・くっ、崩れていく。	GWAAAAAH!\nMy... my body... it's...\ncrumbling away.
 0x42672	0x464	シュタイナー	兆候は、１年前から出ていたんだ。	The signs were there a\nyear ago.
+0x42672	0x4aa	ウォーリック	・・・シュタイナー。	...{STEINER}.
 0x42672	0x4c9	シュタイナー	魔神に侵されている兆候は、１年前からあった。\nルード様も認識しており、遅かれ早かれ支配される事はわかっていた。\nシュタイナー\nルード様は、魔神からアスタルト様を守るためにここに来た。\nそして俺は、そのルード様を守るためにここにいる。\nシュタイナー\n皮肉なモノだな。\n地の水晶も、魔神をアスタルト様より引き離すために、ルード様の命令で俺が奪ったんだ。\nシュタイナー\n・・・地の水晶。\n魔神に乗っ取られたとは言え、そのルード様に使われるとは。\nシュタイナー\nしかし、誤解するな。\nルード様は、負けたのではない。\n・・・こうなる事を、自ら望んだのだからなぁ。	The signs of the {DEMON GOD}'s\ncorruption showed a year ago.\nLord {RUDE} knew it too, that\nsooner or later he'd be ruled.\p{STEINER}\nLord {RUDE} came here to shield\nLady {ASTARTE} from the {DEMON GOD}.\nAnd I am here to guard him.\p{STEINER}\nWhat irony.\nI seized the {EARTH CRYSTAL} on Lord\n{RUDE}'s orders, to draw\nthe demon from Lady {ASTARTE}.\p{STEINER}\nThe {EARTH CRYSTAL}.\nTo think it would be used on\nLord {RUDE} himself, demon-ruled\nthough he was.\p{STEINER}\nBut make no mistake.\nLord {RUDE} did not lose.\nHe chose this fate himself.
 0x42672	0x632	ウォーリック	わかってる。\nルード様のためにも・・・魔神を倒すしかない。\n俺達なら・・・それが出来る。	I know.\nFor Lord {RUDE}'s sake too...\nwe must slay the {DEMON GOD}.\nWe can do it... I know we can.
+0x42672	0x68e	シュタイナー	・・・・・フッ。	......Hmph.
 0x42672	0x6d1	ウォーリック	待ってくれ、シュタイナー。	Wait, {STEINER}.
 0x42672	0x6f7	シュタイナー	甘いな、ウォーリック。\n今更、共に戦えとでも言うのか。\n俺には、俺のやり方がある。\n俺のやり方で、魔神にケリを付ける。\nシュタイナー\n・・・さらばだ、ウォーリック。	Naive, {WARRICK}.\nYou'd have us fight as one now?\nI have my own way.\nI'll end the {DEMON GOD} my way.\p{STEINER}\nFarewell, {WARRICK}.
 0x42672	0x794	ウォーリック	待て、シュタイナー。\nみんな、シュタイナーを追うぞ。	Wait, {STEINER}.\nEveryone, after {STEINER}!
 0x42b94	0x20	シュタイナー	うわぁぁぁぁぁぁっ！	{AAAAAAH}!
 0x42b94	0x76	ウォーリック	これは・・・シュタイナーの３剣７！	This is... {STEINER}'s sword!
+0x42b94	0xa6	ウォーリック	シュ、シュタイナー。	S-{STEINER}.
 0x42b94	0xc9	シュタイナー	・・・聞こえるか、ウォーリック。\n・・・後は・・・お前達が・・・・・。	Can you hear me, {WARRICK}{...}\nThe rest... is up to you all.{...}.
+0x42b94	0x121	ウォーリック	シュ・・・シュタイナー。	S...{STEINER}.
+0x42b94	0x14c	ウォーリック	・・・シュタイナー。	...{STEINER}.
 0x42b94	0x179		黒竜の長剣を引き抜いた。	Drew the Black Dragon longsword.
 0x42cc6	0x17	セス	・・・感じる。\nこのすぐ奥に・・・いるわ。\nセス\nみんな、守護騎士の装備は付けてる？普通の武器では、まったく相手にならないわよ。	...I can feel it.\nIt's right up ahead... it's there.\p{SETH}\nEveryone, are you wearing the\n{GUARDIAN}'s gear? Ordinary weapons\nwon't even scratch it.
 0x42e43	0x8		［ドード］\nぐおおおおおおおっ。\nこっ・・・こざかしい、人間共がぁぁぁっ。	{DODE}\nGwooooooooh!\nYou... you insolent humans!

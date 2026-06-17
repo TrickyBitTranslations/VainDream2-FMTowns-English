@@ -148,7 +148,12 @@ def _accept(text, speaker, glyphs, min_glyphs):
     if text.count("⟨") > 2:              # too many unknown glyphs = bytecode
         return False
     hira = sum(1 for c in text if "ぁ" <= c <= "ん")
-    if hira < 2:
+    # Kanji-heavy lines (name reveals, "...緑の竜？") run under 2 hiragana but are
+    # real when they have BOTH a speaker token AND sentence punctuation. The noise
+    # this gate exists for is either punctuation-less name spam (speaker but no
+    # 。？！) or speaker-less katakana junk in animation/SFX blocks (ダサ・？), so
+    # require both to let a short kanji-heavy line through.
+    if hira < 2 and not (speaker is not None and any(p in text for p in "、。？！")):
         return False
     if len(set(text)) / len(text) < 0.3:
         return False
