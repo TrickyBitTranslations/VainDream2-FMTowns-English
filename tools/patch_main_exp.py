@@ -125,6 +125,28 @@ PATCHES = [  # (offset in MAIN.EXP, expected original, replacement)
     # both start columns left by 1 so each box wraps its word exactly.
     (0xE787, b"\x02", b"\x01"),  # Auto box col 2 -> 1
     (0xE77B, b"\x0A", b"\x09"),  # Manual box col 0xa -> 9
+
+    # Title-menu credit: draw "TrickyBit Translations" at the bottom of the
+    # New game/Continue screen. The title-menu routine (runtime 0xa72b) sets up its
+    # window then draws the menu via 0x24c3. Hook @0xa730 (replacing MOV EBX,0xC060,
+    # which the trampoline restores) so the credit draws BEFORE the menu's own window
+    # is set, keeping the centered menu box from overlapping the bottom credit.
+    # The text renderer (0x42a0) reads its source from gs:[dx] (DATA_SEG), so the
+    # trampoline stages the encoded string from this EXE hole into gs:0x3f40 (the
+    # name-lookup scratch, free on the title screen), sets a bottom window via 0x40f6,
+    # renders, restores EBX, and returns.
+    # credit string (English codec) @runtime 0x900, NUL-terminated:
+    (0xB00, b"\x00" * 23, bytes.fromhex("8daba29ca4b27ba2ad048dab9aa7aca59aada2a8a7ac00")),
+    # trampoline @runtime 0x920 (the MOV EBX origin imm is tunable for position):
+    (0xB20, b"\x00" * 53, bytes.fromhex(
+        "be00090000" "bf403f0000" "b917000000"     # ESI=str, EDI=0x3f40, ECX=23
+        "8a06" "658807" "46" "47" "e2f7"            # copy loop -> gs:0x3f40
+        "bb60600200" "b51c" "b101"                  # EBX=0x26060 origin (bottom, X-aligned w/ menu), CH=0x1c w, CL=1 h
+        "e8b0370000"                                 # CALL 0x40f6 (set window)
+        "66ba403f" "e851390000"                      # DX=0x3f40 ; CALL 0x42a0 (render)
+        "bb60c00000" "c3")),                         # restore EBX=0xC060 ; RET
+    # hook @runtime 0xa730: MOV EBX,0xC060 -> CALL trampoline(0x920)
+    (0xA930, bytes.fromhex("bb60c00000"), bytes.fromhex("e8eb61ffff")),
 ]
 
 
