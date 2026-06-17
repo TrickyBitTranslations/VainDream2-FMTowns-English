@@ -91,7 +91,7 @@ block_off	str_off	speaker	text	english
 0x5e8a8	0x5b1	レイナ	・・・わかったわ、ウォーリック。\nすぐ旅の支度するわね。	...All right, {Warrick}.\nI'll get ready right away.
 0x5e8a8	0x5f9		レイナが仲間に加わった。	{REINA} joined the party.
 0x5e8a8	0x618	レイナ	ごめんね、ファーニス。\nせっかく来てくれたのに・・・。	Sorry, {FURNIS}.\nAnd you came all this way...
-0x5e8a8	0x64a	ファーニス	へへっ。\n苦労するね、レイナ。\nもちろん私も連れてってくれるんでしょ？\nファーニス\n私もお兄ちゃん探してるし。\nいいでしょ・・・・・ねっ。	{Haha}.\nRough day, {REINA}.\nTake me along too?\p{FURNIS}\nLooking for my brother too.\nPlease?
+0x5e8a8	0x64a	ファーニス	へへっ。\n苦労するね、レイナ。\nもちろん私も連れてってくれるんでしょ？\nファーニス\n私もお兄ちゃん探してるし。\nいいでしょ・・・・・ねっ。	{Haha}.\nRough day, {REINA}.\nCould I come along too?\p{FURNIS}\nY'know, 'cause I'm on my own quest.\nCould I...?
 0x5e8a8	0x6bd		ファーニスが仲間に加わった。	{FURNIS} joined the party.
 0x5e8a8	0x6e8	レイナ	ウォーリック。\nあなたの３剣７はベットの下にしまってあるわ。	{WARRICK}.\nYour sword's\nunder the bed.
 0x5e8a8	0x71d	レイナ	はい、ウォーリック。\nひさしぶりだから３剣７の振り方おぼえてる？	Here, {WARRICK}.\nRemember how to swing?
@@ -1264,7 +1264,7 @@ block_off	str_off	speaker	text	english
 0x6c570	0x315		細身の男\n・・・エリオットがッ！！	Slender Man\n{...}{ELLIOTT}!!
 0x6c570	0x335		黒い鎧の男\nこの神殿に、ナイフを取りに来た所をな・・・。\n今頃、裏の森で寝ているはずだ。\n次はお前の番だ、ブラフォード！	Man in Black Armor\nHe came to this temple for the\nknife... He should be sleeping\nin the woods out back by now.\nYou're next, {BLAFORD}!
 0x6c570	0x3c3	ファーニス	・・・お兄ちゃん！？	...Big brother!?
-0x6c570	0x3f3	ファーニス	あの黒い奴と戦ってるの、私のお兄ちゃんだよ！\nお兄ちゃんが殺されちゃう。\n早く助けて。	That's my big brother fighting\nthat man in black!\nHe'll be killed.\nHurry, help him!
+0x6c570	0x3f3	ファーニス	あの黒い奴と戦ってるの、私のお兄ちゃんだよ！\nお兄ちゃんが殺されちゃう。\n早く助けて。	That's my big brother fighting\nthat man in black!\nHe'll be killed if we\ndon't help him quick!
 0x6c570	0x451	ファーニス	お兄ちゃん、助けに来たよ。	Big brother, I came to help!
 0x6c570	0x473	ブラフォード	ファーニス。\nお前、なぜここにッ！？	{FURNIS}.\nWhy are you here!?
 0x6c570	0x494	ファーニス	説明は後だよ、お兄ちゃん！\nウォーリック、あいつ魔法陣にいた人じゃない。	Explain later, big brother!\n{WARRICK}, he's not the one\nfrom the {MAGIC CIRCLE}.
@@ -1275,7 +1275,7 @@ block_off	str_off	speaker	text	english
 0x6c570	0x64b	ファーニス	うんッ。\nあのね・・・。	Mm. Well, you see...
 0x6c570	0x682		ファーニスは、今までの出来事を話した。	{FURNIS} told them all that had\nhappened.
 0x6c570	0x6ac	ブラフォード	・・・だいたいの事はわかった。\n皆さん、妹が世話になった。\n礼を言う・・・ありがとう。	...I see the gist of it.\nThank you all for looking after\nmy sister. I'm grateful...\nThank you.
-0x6c570	0x703	ウォーリック	とんでもない。\n逆に俺達が助けられてる方さッ。	Not at all.\nIf anything, she's the one\nsaving us.
+0x6c570	0x703	ウォーリック	とんでもない。\n逆に俺達が助けられてる方さッ。	Not at all.\nIf anything, she's the one\nhelping us.
 0x6c570	0x72e	ブラフォード	ウォーリック。\n君に渡したい物がある。\nちょっと付いて来てくれ。	{WARRICK}.\nThere's something I'd give you.\nCome with me a moment.
 0x6c570	0x79c	ファーニス	お兄ちゃんは、そっちじゃないよ。	That's not the way, brother.
 0x6ca81	0xc		武器屋\n⟨14⟩⟨14⟩ジャクーナ\n狩猟用、攻撃用、武器類各種取り揃えてございます。	Weapon Shop\nJakuna\nWe stock all manner of hunting\nand attack weapons.
