@@ -19,7 +19,7 @@ SYSTEM2.TOS	0x129		ディスクがいっぱい	Disk is full
 SYSTEM2.TOS	0x133		ライト/プロテクト	Write protect
 SYSTEM2.TOS	0x13d		ディスクの準備は？	Is the disk ready?
 SYSTEM2.TOS	0x149		ＣＲＣ<14>エラ~	CRC<14>error
-SYSTEM2.TOS	0x155		<03:52>緊急事態<14><03:57>ファイルＮＧ\n	<03:52>Emergency<14><03:57>File NG\n
+SYSTEM2.TOS	0x155		<03:52>緊急事態<14><03:57>ファイルＮＧ\n	<03:52>Emergency<14><03:57>File Bad\n
 SYSTEM2.TOS	0x16c		\n<03:57><14>ゲ~ムスイッチ	\n<03:57><14>Difficulty
 SYSTEM2.TOS	0x178		<03:51><20><20><20> <03:57>ゲ~ム<14>スイッチ <03:51><20><20><20>\n	<03:51><20><20><20> <03:57>Difficulty <03:51><20><20><20>\n
 SYSTEM2.TOS	0x190		<03:55>★説明★\n<03:52><14>◎<03:57>ノ~マル<14><1a>通常モ~ド<1b>\nスリリングな<14>戦闘ゲ~ム展開ができます。\n<03:52><14>○<03:57> イ~ジ~<14>モ~ド\nシナリオを楽しみたい<03:55>人間<03:57>に向きます。\n戦闘簡単／シナリオが<03:53>サクサク<03:57>と進みます。\n	<03:55>★Explanation★\n<03:52><14>◎<03:57>Normal<14><1a>standard<1b>\nFight thrilling<14>battles!\n<03:52><14>○<03:57> Easy<14>mode\nFor those who want the story.\nEasy battles, story moves briskly.\n

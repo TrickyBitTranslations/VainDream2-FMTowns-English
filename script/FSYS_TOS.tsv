@@ -39,7 +39,7 @@ FSYS.TOS	0x2d6		マ~クしました。	Marked.
 FSYS.TOS	0x2df		<03:55>ここで使う物ではない。	<03:55>Not for use here.
 FSYS.TOS	0x2ef		<03:56>使う場所が違うみたい。	<03:56>Wrong place to use it.
 FSYS.TOS	0x301		<03:51><20><14>作 戦 指 示<14><20>\n<03:57><14> 個人別の作戦\n<14> 全員での作戦	<03:51><20><14>Give Orders<14><20>\n\n<03:57><14> Orders alone\n<14> Orders as group
-FSYS.TOS	0x330		<03:57><03:26>は、\n魔法を使えないため拒否した。	<03:57><03:26> can't,\nno magic, so refused.
+FSYS.TOS	0x330		<03:57><03:26>は、\n魔法を使えないため拒否した。	<03:57><03:26> can't use magic so they refused.
 FSYS.TOS	0x34b		<03:57><03:26>は、\n<02>れ召還で出来ないため拒否した。	<03:57><03:26> can't,\n<02>can't summon, so refused.
 FSYS.TOS	0x369		<03:57><03:26>は、\n自分自身に気合いをいれた。	<03:57><03:26>\npsyched themselves up.
 FSYS.TOS	0x385		<03:21><03:2c>回復魔法は得意じゃないけど、頑張るわ。	<03:21><03:2c>Healing's not my strength, but I'll try.
@@ -50,7 +50,7 @@ FSYS.TOS	0x3e1		<03:20><03:2b>オッケ~、まかしてちょうだい。	<03:20
 FSYS.TOS	0x3f5		<03:23><03:2c>承知した。	<03:23><03:2c>Understood.
 FSYS.TOS	0x402		<03:21><03:2c>攻撃魔法ならまかして。	<03:21><03:2c>Leave attack magic to me.
 FSYS.TOS	0x416		<03:20><03:2b>やってみるね。	<03:20><03:2b>I'll give it a go.
-FSYS.TOS	0x422		<03:21><03:2c>神聖魔術の力を見せてあげるわ。	<03:21><03:2c>I'll show you holy magic.
+FSYS.TOS	0x422		<03:21><03:2c>神聖魔術の力を見せてあげるわ。	<03:21><03:2c>I'll show you the power of holy magic.
 FSYS.TOS	0x43c		<03:23><03:2c>承知した。	<03:23><03:2c>Understood.
 FSYS.TOS	0x44e		は\n	is\n
 FSYS.TOS	0x453		<03:57><03:20><03:2b>コンフュ~ジョン。	<03:57><03:20><03:2b>Confusion.
