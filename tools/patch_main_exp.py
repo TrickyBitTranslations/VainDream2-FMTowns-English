@@ -135,13 +135,16 @@ PATCHES = [  # (offset in MAIN.EXP, expected original, replacement)
     # trampoline stages the encoded string from this EXE hole into gs:0x3f40 (the
     # name-lookup scratch, free on the title screen), sets a bottom window via 0x40f6,
     # renders, restores EBX, and returns.
-    # credit string (English codec) @runtime 0x900, NUL-terminated:
-    (0xB00, b"\x00" * 23, bytes.fromhex("8daba29ca4b27ba2ad048dab9aa7aca59aada2a8a7ac00")),
+    # credit string "Translation by TrickyBit Translations" (English codec)
+    # @runtime 0x960 (after the trampoline), NUL-terminated:
+    (0xB60, b"\x00" * 38, bytes.fromhex(
+        "8dab9aa7aca59aada2a8a704" "9bb204"
+        "8daba29ca4b27ba2ad04" "8dab9aa7aca59aada2a8a7ac00")),
     # trampoline @runtime 0x920 (the MOV EBX origin imm is tunable for position):
     (0xB20, b"\x00" * 53, bytes.fromhex(
-        "be00090000" "bf403f0000" "b917000000"     # ESI=str, EDI=0x3f40, ECX=23
+        "be60090000" "bf403f0000" "b926000000"     # ESI=str(0x960), EDI=0x3f40, ECX=38
         "8a06" "658807" "46" "47" "e2f7"            # copy loop -> gs:0x3f40
-        "bb60600200" "b51c" "b101"                  # EBX=0x26060 origin (bottom, X-aligned w/ menu), CH=0x1c w, CL=1 h
+        "bb60600200" "b528" "b101"                  # EBX=0x26060 origin (bottom, X-aligned w/ menu), CH=0x28 w(40), CL=1 h
         "e8b0370000"                                 # CALL 0x40f6 (set window)
         "66ba403f" "e851390000"                      # DX=0x3f40 ; CALL 0x42a0 (render)
         "bb60c00000" "c3")),                         # restore EBX=0xC060 ; RET
