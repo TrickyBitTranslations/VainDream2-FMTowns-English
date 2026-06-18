@@ -32,17 +32,28 @@ function renderHeader() {
   document.getElementById("overall-bar").style.width = pct.toFixed(1) + "%";
   document.getElementById("overall-text").textContent =
     `${STATUS.done} / ${STATUS.total} lines translated (${pct.toFixed(1)}%)`;
+  // human-reviewed vs machine translation, among translated lines (excl. ignored)
+  const hbase = (STATUS.done || 0) - (STATUS.ignore || 0);
+  const hpct = hbase ? (100 * (STATUS.human || 0) / hbase) : 0;
+  const hb = document.getElementById("human-bar");
+  if (hb) {
+    hb.style.width = hpct.toFixed(1) + "%";
+    document.getElementById("human-text").textContent =
+      `${STATUS.human || 0} / ${hbase} human-reviewed (${hpct.toFixed(1)}%)`;
+  }
 }
 
 function renderTabs() {
   const nav = document.getElementById("tabs");
   nav.innerHTML = "";
   for (const f of Object.keys(SCRIPT)) {
-    const t = STATUS.files[f] || { lines: 0, done: 0 };
+    const t = STATUS.files[f] || { lines: 0, done: 0, human: 0, ignore: 0 };
     const a = document.createElement("a");
     a.href = "#/" + f;
     a.dataset.file = f;
     a.innerHTML = `${fileLabel(f)} <small>${t.done}/${t.lines}</small>`;
+    a.title = `${t.human || 0} human-reviewed, ${t.ignore || 0} ignored, `
+            + `${t.done} translated of ${t.lines}`;
     nav.appendChild(a);
   }
   const names = (STATUS.names || []);
@@ -278,6 +289,7 @@ function linesTable(file, block, lines) {
     const open = sug.filter(s => s.state === "open");
     const unsafe = isEngineData(l);
     tr.className = unsafe ? "unsafe" : (l.en ? "done" : "todo");
+    if (l.st) tr.classList.add("st-" + l.st);   // human / ignore review marker
     tr.appendChild(td("sp", speakerName(l.sp)));
     tr.appendChild(td("jp", l.jp.replaceAll(/(\\n)+/g, "\n")));
     tr.appendChild(tdEnglish(l.en));
@@ -292,6 +304,12 @@ function linesTable(file, block, lines) {
       tr.appendChild(act);
       table.appendChild(tr);
       continue;
+    }
+    if (l.st) {
+      const b = document.createElement("span");
+      b.className = "review " + l.st;
+      b.textContent = l.st;
+      act.appendChild(b);
     }
     if (open.length) {
       const best = open.find(s => s.verdict === "valid") || open[0];

@@ -28,9 +28,10 @@ def main():
     for line in lines[1:]:
         c = line.split("\t")
         if len(c) >= 4 and _id_eq(c[0], block_s) and _id_eq(c[1], str_s):
-            while len(c) < 5:
+            while len(c) < 6:
                 c.append("")
             c[4] = text
+            c[5] = "human"          # an applied contributor suggestion is human-reviewed
             hit = True
             line = "\t".join(c)
         out.append(line)

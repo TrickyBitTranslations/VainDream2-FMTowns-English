@@ -52,7 +52,7 @@ def main():
         return head == b"VD2"
 
     files = {}
-    tally = defaultdict(lambda: {"lines": 0, "done": 0})
+    tally = defaultdict(lambda: {"lines": 0, "done": 0, "human": 0, "ignore": 0})
     per_block_rows = defaultdict(list)
     for tsv in sorted((ROOT / "script").glob("*.tsv")):
         # Names have their own "Names & terms" tab (from status.names); don't also
@@ -73,13 +73,20 @@ def main():
             if c[0] not in script_block:
                 script_block[c[0]] = is_script_block(archive, c[0])
             en = c[4].strip() if len(c) >= 5 else ""
+            st = c[5].strip() if len(c) >= 6 else ""   # "" = machine, human, ignore
             line = {"id": c[1], "sp": c[2], "jp": c[3], "en": en}
+            if st:
+                line["st"] = st
             if not script_block[c[0]] or is_engine_data(c[3]):
                 line["x"] = 1                  # flagged; excluded from counts
             else:
                 tally[tsv.name]["lines"] += 1
                 if en:
                     tally[tsv.name]["done"] += 1
+                    if st == "human":
+                        tally[tsv.name]["human"] += 1
+                    elif st == "ignore":
+                        tally[tsv.name]["ignore"] += 1
             blocks[c[0]].append(line)
             if en:
                 per_block_rows[(tsv.name, c[0])].append((int(c[1], 16), en))
@@ -133,6 +140,8 @@ def main():
             budgets[f"{tsv_name}:{block_s}"] = {"used": used, "limit": limit}
     total = sum(t["lines"] for t in tally.values())
     done = sum(t["done"] for t in tally.values())
+    human = sum(t["human"] for t in tally.values())
+    ignore = sum(t["ignore"] for t in tally.values())
     import patch_names
     speakers = {jp: en for jp, en in patch_names.TRANSLATIONS.items()
                 if en not in ("X",)}
@@ -147,6 +156,7 @@ def main():
     ]
     (OUT / "status.json").write_text(json.dumps({
         "total": total, "done": done,
+        "human": human, "ignore": ignore,   # human-reviewed vs machine, among translated
         "files": dict(tally), "budgets": budgets,
         "speakers": speakers,          # ウォーリック -> Warrick (speaker column)
         "tokens": token_names,         # WARRICK -> Warrick ({NAME} display)

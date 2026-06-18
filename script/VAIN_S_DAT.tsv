@@ -1,731 +1,731 @@
-block_off	str_off	speaker	text	english
-0x0	0x33e		ででイイ？？ザゴゴゴ	
-0x0	0x358		誓でで┬ででイイ！！ブブゴゴ	
-0x0	0x5bdc		脆毒ください。ゑぁじつかつかつ	
-0x382d	0x758		誓でで┬ででイイ！！ブブゴゴ	
-0x382d	0x77e		ででイイ？？ザゴゴゴ	
-0x382d	0x798		誓でで┬ででイイ！！ブブゴゴ	
-0x382d	0x5651		る暗黒魔術なのぺでぷの⟨14⟩、。⟨17⟩も水竜ま緑竜ど船長ぱま８４	
-0x6ee0	0x29e		ででイイ？？ザゴゴゴ	
-0x6ee0	0x2be		ででイイ？？ザゴゴゴ	
-0x6ee0	0x2d8		誓でで┬ででイイ！！ブブゴゴ	
-0x6ee0	0x4be6		やゾそ似あ紫あく頬ぞそあぎぎくそあぞぞきぎぎ。きぎ。く⟨17⟩ぎ毎き⟨17⟩ぎ奔ああぞ嫉ぞぞ纂ぞぞああぞあ５６ぎくこぃそぞぃこそぞここそぞきぎぎく	
-0x6ee0	0x4fc7		んです。セドドナナソソゥシイソソト	
-0x6ee0	0x4ff4		てつ？つつづづファーニス	
-0xa6cd	0x25e		ででイイ？？ザゴゴゴ	
-0xa6cd	0x27e		ででイイ？？ザゴゴゴ	
-0xa6cd	0x298		誓でで┬ででイイ！！ブブゴゴ	
-0x235d2	0xa	カル伯爵	ブラフォードは、既にクーレイアに侵入している。\nお前達の到着を待っているであろう。\nカル伯爵\nクーレイアは、１年前までミルジーナ大陸の大峡谷にあった。\nしかし、今、このタリアトフ大陸に戻って来ている。	Blaford has already entered {KULEIA}.\nHe must be awaiting your arrival.\n\p{COUNT CAL}\nUntil a year ago, {KULEIA} lay in the\ngreat canyon of the Mirzina\ncontinent.\nBut now it has returned here, to the\n{TALIATOV} continent.
-0x235d2	0x91	ウォーリック	このタリアトフに。\n・・・それで、その位置は？	Here, in {TALIATOV}{...}\n...So where exactly is it?
-0x235d2	0xcc	カル伯爵	到底、徒歩で行ける所ではない。\n強力な結界が張られている。\n瞬間移動の魔法でも、送り側からのサポートが必要だ。\nカル伯爵\nセスよ。\n瞬間移動の魔法は使えたのだったな。	It is far beyond reach on foot.\nA powerful barrier surrounds it.\nEven teleport magic needs support\nfrom the sending side.\n\p{COUNT CAL}\n{SETH}.\nYou could use teleport magic, yes?
-0x235d2	0x172	セス	はい。\n長距離移動も可能です。	Yes.\nLong-range jumps are possible too.
-0x235d2	0x196	カル伯爵	よし。\n問題は、無いな。	Good.\nThen there is no problem.
-0x235d2	0x1bf	ウォーリック	では、一刻も早く行きます。\nブラフォードが心配だ。	Then we leave at once.\nI fear for Blaford.
-0x235d2	0x1eb	カル伯爵	そうだな。\n一刻も早く、ブラフォードに合流するのだ。\nしかし、焦りは禁物だぞ。	Yes.\nJoin up with Blaford as soon as you\ncan. But do not let haste undo you.
-0x235d2	0x232	カル伯爵	準備はいいか？	Are you ready?
-0x235d2	0x24a		ちょっと待って。\n準備は出来ている。	Wait a moment.\nWe are ready.
-0x235d2	0x27b	カル伯爵	向こうは魔神軍の本拠地だからな。\n慎重に行動した方がいい。\n早く装備を整えて来なさい。	That is the {DEMON GOD} army's\nstronghold. Tread carefully.\nGo and ready your gear first.
-0x235d2	0x2f5	カル伯爵	では、始めよう。\nカル伯爵\nセスよ。\n私が結界に裂け目を造り、その座標まで誘導しよう。\nお前は、移動中の制御だけでいい。	Then let us begin.\n\p{COUNT CAL}\n{SETH}.\nI will tear a rift in the barrier and\nguide you to the coordinates.\nYou need only steer in transit.
-0x235d2	0x39b	カル伯爵	我が主よ。\n願わくば、若き守護騎士達に勝利をもたらしたまえ。\n闇を砕く、強い炎の加護を・・・。	My lord.\nI pray you grant these young guardian\nknights their victory.\nThe blessing of a strong flame to\nbreak the dark...
-0x235d2	0x43b	マージス	・・・行ったか。	...So they've gone.
-0x235d2	0x46f	マージス	それにしても、皆、若いな。	Still, every one of them so young.
-0x235d2	0x48d	カル伯爵	そうだな。\n故に、彼等を失うわけにはいかない。今は、少しでも多くの戦力が必要なのだ。\nカル伯爵\nその為なら、私の命など安いモノ。	Indeed. Which is why we cannot\nafford to lose them. We need every\nbit of strength we can muster.\p{COUNT CAL}\nFor that, my life is a small price.
-0x235d2	0x4f6	マージス	手紙の内容の事だが、本気なのだな、カル。	About what was in your letter...\nyou truly mean it, Cal?
-0x235d2	0x526	カル伯爵	・・・本気だ。	...I mean it.
-0x235d2	0x574	マージス	・・・３００年前。\nお前と共に、この３鎧７は死んだ。\nマスターを目の前で殺された、お前の使命の喪失と共に、この３鎧７は死んだ。\nマージス\nお前の命と引き替えに、３鎧７を復活させられるのか！？\nわかっているのか、カル。\n３鎧７が蘇る保証は、無いのだぞ。	...Three hundred years ago,\nthe armor died alongside you.\nWith your master slain before your\neyes, and your purpose lost,\nthe armor died.\p{MARGIS}\nAnd now you'd trade your life\nto bring that armor back to life!?\nDo you understand, Cal?\nThere's no guarantee\nthe armor will rise again.
-0x235d2	0x62e	カル伯爵	・・・出来る。\n今の私なら、３鎧７を蘇らせる事が出来る。\nカル伯爵\nその力を・・・彼等が蘇らせてくれた。今度は、私が助ける番だ。	...I can do it.\nAs I am now, I can bring\nthe armor back to life.\p{COUNT CAL}\nThat power... they revived in me.\nNow it's my turn to help them.
-0x235d2	0x6a4	マージス	・・・わかった。\nお前がそこまで言うのなら、もう何も言うまい。\n後の事は、このマージスが引き受けた。	...I understand.\nIf you say it that plainly,\nI'll say no more.\nLeave the rest to me, Margis.
-0x235d2	0x6f6	カル伯爵	すまぬな、マージス。\n・・・・・後は頼む。	Forgive me, Margis.\n{...}..I leave the rest to you.
-0x235d2	0x750	カル伯爵	ナッツよ、案ずる事はない。\nこれが、最後の役目だ。\n・・・炎竜の守護騎士としての、最後の役目だ。	Have no fear, {NUTTS}.\nThis is my final duty.\n...My final duty as the fire\ndragon's guardian knight.
-0x23b2b	0x13	マージス	実は先日から、フローディーテの森に、微弱だか不吉な魔力が漂っている。\n気を付けるのだよ。\nマージス\nおおっ！？	Of late, a faint but ill-boding magic\nhas drifted through {FRODITE FOREST}.\nTake care.\n{MARGIS}\nWhat...!?
-0x23b2b	0x70	ライド	んんっ！？	Hngh...!?
-0x23b2b	0xaa	ソウルン	お兄ちゃん達、おじちゃんを殺しに来たんでしょ。\nそんな事、僕がさせないぞっ！\nソウルン\nさっ、おじちゃん。\n僕が助けに来たから、恐がらなくていいよ。おじちゃんは、僕が守る。	You came to kill my uncle, didn't\nyou!\nI won't let you do that!\n{SOULN}\nNow, uncle.\nI've come to save you, so don't be\nafraid. I'll protect you.
-0x23b2b	0x120	ライド	・・・ナイスだ、ソウルン。\nもうちょっと早かったら、カッコよかったのになぁ。\nライド\n安心しろ。\n俺達とおじちゃんとは、友達だ。\n戦おうなんて、これっぽっちも考えてないぜ。	...Nice, {SOULN}.\nWould've been cooler a bit sooner,\nthough.\n{RIDE}\nRelax.\nYour uncle and us are friends.\nFighting's the last thing on our\nminds.
-0x23b2b	0x19c	ソウルン	・・・ホント？	...Really?
-0x23b2b	0x1b5	ライド	ホント、ホント。\nお前のおじちゃんに、聞いてみるといい。	Really, it's true.\nJust ask your uncle yourself.
-0x23b2b	0x20e	ソウルン	・・・ホント？	...Really?
-0x23b2b	0x22c	マージス	ああ、本当だとも。\n君は、何も心配する事はないんだ。\n彼等は、私の客人だよ。	Yes, it's quite true.\nYou've nothing to worry about.\nThey are my guests.
-0x23b2b	0x271	ソウルン	・・・よかった。\nおじちゃんがいなくなったら、僕、さみしいもんね。\n・・・おじちゃん、早く遊ぼっ。	...Good.\nI'd be so lonely if my uncle were\ngone.\n...Uncle, let's go play soon.
-0x23b2b	0x2b8	マージス	わかった、わかった。\n今日は、本を読んであげよう。	All right, all right.\nI'll read you a book today.
-0x23b2b	0x2f1	ライド	・・・じゃあ、俺達は行くか。	...Well, shall we be off, then?
-0x23b2b	0x312	マージス	済まぬな。\nこの通り、私は忙しい。\nマージス\n先ほども言ったが、フローディーテの森では気を付けろ。\n何か、得体の知れぬ者が息を潜めている。	Forgive me.\nAs you see, I am busy.\n{MARGIS}\nAs I said before, take care in\n{FRODITE FOREST}.\nSomething unknown lies in wait there.
-0x23b2b	0x3c4	ソウルン	おじちゃんに、本、読んでもらってるんだ。邪魔しないでぇ。	My uncle's reading me a book.\nDon't bother us.
-0x23b2b	0x3e9	ソウルン	このお守りがあると、魔物が寄って来ないんだよ。\nいつも持ってなさいって、おじちゃんが言うんだ。	With this charm, monsters won't come\nnear me. My uncle says to always\nkeep it with me.
-0x23b2b	0x426	ソウルン	この話、とっても面白いよ。\nお兄ちゃん達も一緒に、このお話聞こうよ。	This story is so much fun.\nCome listen to it with me!
-0x23b2b	0x455	ソウルン	おじちゃんに、いろんな事教えてもらうんだ。\nここにいる時が、一番楽しいや。	He teaches me all sorts of things.\nThis is where I'm happiest of all.
-0x23b2b	0x485	ソウルン	今度、ドワーフのお友達も一緒に連れて来るんだ。\nおじちゃんも、いいって言ったんだよ。	Next time I'll bring my {DWARF} friend\nalong too. He said it's okay!
-0x23b2b	0x4c7	マージス	昔、昔、ある所に、お爺さんとお婆さんがおりました。\nお爺さんは、山に芝刈りに。\nお婆さんは、川に洗濯に・・・。	Long, long ago, there lived\nan old man and an old woman.\nThe old man went to cut grass\nin the hills. The old woman went\nto the river to wash...
-0x23b2b	0x525	マージス	上流から大きなピーチが、ドンブラコと流れて来ました。\nなんじゃ、これは！？\nお婆さんは、そのピーチを・・・。	A great big peach came bobbing\ndown from upstream.\nWhat in the world is this!?\nThe old woman took that peach...
-0x23b2b	0x587	マージス	ピーチの中には、色白の女の子が入っていました。\nなぁんと、美しい子じゃ！\nお爺さんは、ビックリして・・・。	Inside the peach was a fair-skinned\nlittle girl.\nWhat a beautiful child!\nThe old man was so startled...
-0x23b2b	0x5e4	マージス	ムトクと名付けられた女の子は、すくすくと育ちました。\n１８年たったある日、ムトクちゃんは・・・。	The girl, named Mutoku, grew up\nbig and strong.\nOne day, eighteen years on,\nlittle Mutoku...
-0x23f92	0x27	ファーニス	ああっ！\n薬草、みぃぃぃつけたっ。	Ooh!\nHerbs, I fou-ou-ound 'em!
-0x23f92	0x55	ファーニス	薬草が生えてるよ。\nラッキーだねっ、ウォーリック。	Herbs are growing here.\nLucky us, {WARRICK}!
-0x23f92	0x8a	ファーニス	ああっ、ウォーリック。\nそこの木の根本に生えてるの、薬草じゃない？	Hey, {WARRICK}.\nGrowing at the foot of that tree...\naren't those herbs?
-0x23f92	0xce	ファーニス	んん？\n薬草の匂いがする。\n・・・・・ほらあった。	Hmm?\nI smell herbs.\n.{...}. There, found 'em.
-0x23f92	0x110	ファーニス	ああっ、キノコだ！\nこれって、極楽キノコじゃない？	Ooh, a mushroom!\nIsn't this a paradise mushroom?
-0x23f92	0x150	ファーニス	ああっ、極楽キノコだ。\nこんな所に生えてるなんて、珍しいねぇ。	Ooh, a paradise mushroom.\nRare to find one growing\nin a place like this.
-0x23f92	0x18f		薬草を採った。	Picked some herbs.
-0x23f92	0x1ab		極楽キノコを採った。	Picked a paradise mushroom.
-0x23f92	0x208	ファーニス	ああっ！\n薬草が生えてるよ。	Ooh!\nHerbs are growing here.
-0x23f92	0x238	ファーニス	そこそこっ！\n木の根本に薬草が生えてるよ。	There, right there!\nHerbs at the foot of the tree.
-0x23f92	0x272	ファーニス	んん？\nあそこに生えてるの薬草じゃない。	Hmm?\nAren't those herbs growing over\nthere?
-0x23f92	0x2a6	ファーニス	薬草、みぃぃぃつけた。\nファーニス、ラッキー！	Herbs, I fou-ou-ound 'em.\n{FURNIS}'s lucky!
-0x23f92	0x2d9	ファーニス	あの木の根本に生えてるの極楽キノコだね。\nラッキー！	Those are nuttsy mushrooms at\nthe base of that tree. Lucky!
-0x23f92	0x31e	ファーニス	ああっ！\nキノコだよ、キノコ。\nこんな所に生えてるなんて、珍しいねぇ。	Oh! Mushrooms, mushrooms!\nIt's rare to find them\ngrowing in a place like this.
-0x23f92	0x382	ファーニス	ああっ！薬草が生えてる、ラッキー。	Oh! Herbs growing here. Lucky!
-0x23f92	0x3b3	ファーニス	そこそこっ！\n木の根本に薬草、みっけっ。	Right there, right there!\nHerbs at the base of the tree.\nFound 'em!
-0x23f92	0x3eb	ファーニス	んん？\nあそこに薬草生えているよ。\n採っちゃおぉぉぉっと。	Hmm? Herbs growing over there.\nI'll just pick 'em right up.
-0x23f92	0x42b	ファーニス	薬草、みっけたぁ。\nファーニス、ラッキー！	Herbs, I fooound 'em.\n{FURNIS} is lucky!
-0x23f92	0x45e	ファーニス	あそこに生えてるの、極楽キノコだね。採っておこっと！	Those growing over there are\nnuttsy mushrooms. I'll grab 'em!
-0x23f92	0x49f	ファーニス	ああっ！\nキノコだ。\n一応、採っておこっと。	Oh! Mushrooms.\nMight as well pick 'em.
-0x23f92	0x528	レイナ	どこ行くの、ウォーリック。\nセルーシュ王国を出ちゃうわよ。	Where are you going, {WARRICK}?\nYou're about to leave\n{SERUSH KINGDOM}.
-0x23f92	0x551	ウォーリック	ああっ。\n早く、キャンプに行かないとな。	Ah. We'd better get to\n{CAMP} quickly.
-0x23f92	0x579	ファーニス	そっち行ったらセルーシュ城から離れるよ。\n戻ろうよ。	That way takes us away from\n{SERUSH CASTLE}. Let's go back.
-0x23f92	0x5a5	ライド	この辺りは魔物が多いし、早く引き返した方がいいな。	There are lots of monsters\naround here. Best to turn\nback quickly.
-0x23f92	0x5d3	ブージ	なぁ、ウォーリック。\nもう少し、調べる必要がありそうだと思わんか。	Hey, {WARRICK}.\nWe ought to look around a bit more,\ndon't you think?
-0x23f92	0x612	ブージ	グレーター　デーモンだ。\n・・・やはり、ここに来ていたのか。	A greater {DEMON}.\n...So it really did come here.
-0x23f92	0x64f	ウォーリック	３剣７で殺されているぞ。\n誰が倒したんだ？	Killed with a sword.\nWho took it down?
-0x23f92	0x67e	ブージ	・・・この傷口。\nデーモンをこんな倒し方するなんて、普通の武器ではないな。	...This wound.\nNo ordinary weapon kills a {DEMON}\nlike this.
-0x23f92	0x6bf	ウォーリック	こいつ等の相手側に、かなり強い奴がいるなぁ。\n・・・早く、奥に進もう。	Whoever fought these things is\nawfully strong.\n...Let's press on, fast.
-0x23f92	0x70c	ブージ	かなりの数のデーモンが侵入している様だな。	Looks like a fair number of\ndemons have broken in here.
-0x23f92	0x734	ウォーリック	この死体、もう凍り付いている。\n凄い冷気だ。	This corpse is already frozen\nsolid. What fearsome cold.
-0x23f92	0x769	ブージ	おかしい。\nデーモンに、群を成す習性はないはずだ。	Strange.\nDemons aren't meant to gather\nin packs.
-0x23f92	0x797	ウォーリック	じゃあ、どういう事だ？\nデーモンが、集会でも開いているのかなぁ。	Then what's going on?\nAre the demons holding some kind\nof meeting?
-0x24386	0x1e	レイナ	・・・・・んんっ！\n北の空にある雲を見て。\n何か変ねぇ？	Look at those clouds in the\nnorthern sky. Something's off,\ndon't you think?
-0x24386	0x7e	ライド	・・・・・光ったな。\nありゃ、雷雲だぁ。\nこんな昼間っから、夕立かな？	...That flashed. Those are\nstorm clouds. A bit early for\nan evening shower, isn't it?
-0x24386	0xca	レイナ	・・・違うわ！\nあれは、魔法の雲。\n北で、誰かが戦ってるのよ。\n行ってみましょう。	...No! Those are magic clouds.\nSomeone is fighting up north.\nLet's go take a look.
-0x24386	0x11d	レイナ	何がおこっているのか、確かめたいわ。早く、行きましょう。	I want to see what's going on.\nQuick, let's go.
-0x24386	0x16c	ファーニス	ああっ！\n森の奥が、赤く光ったよ。\n何かあったのかなぁ？	Ah! The depths of the forest\nflashed red. I wonder what\nhappened?
-0x24386	0x1a6	レイナ	炎球の呪文を使ったんだわ。\n森の北の方に、魔導士がいる様ね。\n行ってみましょう。	Someone cast a fireball spell.\nLooks like there's a mage to\nthe north of the forest.\nLet's go take a look.
-0x24386	0x202	ファーニス	いったい、誰が戦ってるんだろ？	Just who is it that's fighting?
-0x24386	0x226	レイナ	旅人が、魔物に襲われているのかしら。	Maybe a traveler is being\nattacked by monsters.
-0x24386	0x25a	ファーニス	近いよ！\n鍔迫り合いの音がする。	We're close! I hear blades\nclashing together.
-0x24386	0x286	レイナ	魔物相手じゃなさそうね。	That doesn't sound like a fight\nwith monsters.
-0x24386	0x2ad	ファーニス	わあぁぁぁっ！\n大っきな水晶。\nこれ１つで、指輪いくつぐらい出来るのかなぁ。	Whoaaa! A giant crystal.\nHow many rings could you make\nout of just this one?
-0x24386	0x2ef	ウォーリック	これが水晶の角だな。\n幸い、キメラは留守の様だな。\n早いとこ取って帰ろう。\nウォーリック\nファーニス。\n・・・キメラが来るか見張っててくれ。	So this is the crystal horn.\nLucky for us, the {CHIMERA} is\nout. Let's grab it and go.\p{WARRICK}\n{FURNIS}. ...Keep watch in case\nthe {CHIMERA} comes.
-0x24386	0x35c	ファーニス	あらら・・・ウォーリック。\n世の中、うまくはいかないね。	Uh oh... {WARRICK}.\nLife never goes the easy way.
-0x24386	0x392	ウォーリック	えっ！？	Huh?!
-0x24386	0x3a5	ファーニス	ほらっ、見て。\n北に方角から、何か飛んで来るよ。\nどんどん近づいて来る。	Look, over there.\nSomething's flying in from the north.\nIt's getting closer fast.
-0x24386	0x3f8	ウォーリック	へへっ！\nキメラなんか、楽勝だったな。	Heh!\nThat {CHIMERA} was a pushover.
-0x24386	0x421	レイナ	何、言ってんのよ。\nちょっと、危なかったじゃない。\n早く水晶の角を取って、ゼロ船長に渡しましょ。	What are you talking about?\nThat was a close call.\nGrab the {CRYSTAL HORN} and let's\nget it to {CAPTAIN ZERO}.
-0x24386	0x475		水晶の角を取った。	Got the {CRYSTAL HORN}.
-0x24386	0x4a2	ウォーリック	さあ、ゼロ船長の所に戻ろう。	Right, let's head back to\n{CAPTAIN ZERO}.
-0x24386	0x4bf		カナメイ婆さん\nこの家の２階には、私の息子夫婦が住んでいたんだ。\n息子は城の近衛隊で、嫁は神官だった。\nカナメイ婆さん\n・・・・・そう。\n２人共、もう城からは帰って来ないんだ。	Granny Kanamei\nMy son and his wife lived\nupstairs in this house.\nHe served in the castle guard,\nshe was a priestess.\n\pGranny Kanamei\n...Yes.\nNeither of them ever came\nhome from the castle again.
-0x24386	0x54a		カナメイ婆さん\n２階に行く度、私の息子夫婦の事を思い出すよ。\n２人共、城で死んだ。\nカナメイ婆さん\nもうすぐ、孫の顔が見れると思ったのに。私の幸せを奪った魔物共が憎い。	Granny Kanamei\nEvery time I go upstairs I think\nof my son and his wife.\nThey both died at the castle.\n\pGranny Kanamei\nI was so close to seeing my\ngrandchild's face. I hate the\nmonsters that stole my joy.
-0x24386	0x5ca		カナメイ婆さん\n私はこれから、２人の分まで、長生きするよ。\n息子夫婦の冥福を祈って生涯をおくるつもりだ。	Granny Kanamei\nFrom now on I'll live long\nenough for the two of them too.\nI'll spend my days praying for\ntheir souls to rest.
-0x24386	0x624	セシリア	洞窟を出てしまいましたよ。\n警備隊の人達を見殺しにする気ですか、ウォーリック。\n戻った方が、良いのでは？	We've left the cave.\nDo you mean to let the guards\ndie, {WARRICK}?\nWouldn't it be better to go back?
-0x24386	0x680	ウォーリック	そうだな。\n加勢に行った方がよさそうだ。	You're right.\nWe'd best go lend a hand.
-0x24855	0x26	ウォーリック	何だ、このデカい扉は？\n遺跡の後かなぁ。	What's this huge door?\nMaybe it's some kind of ruin.
-0x24855	0x59	ライド	ちょっと押してみるか。\nウォーリック、ナッツ・・・・・手を貸してくれ。	Let's try pushing it.\n{WARRICK}, {NUTTS}.{...}.\nLend me a hand.
-0x24855	0xa0	ライド	・・・せぇぇぇのっ！\nうりゃ。	...heeeeave!\nHrrgh.
-0x24855	0xcf	ウォーリック	・・・・・・・・だめだっ。\n内側から、鍵でも掛かってるのか。\nびくともしない。	.{...}....No good.\nMust be locked from the inside.\nIt won't budge an inch.
-0x24855	0x113	レイナ	開きそうにないわね。\nここって、ドワーフの国じゃないのかしら。\nもっと、違う所を探してみましょう。	Doesn't seem like it'll open.\nIsn't this the {DWARF} kingdom?\nLet's look somewhere else.
-0x24855	0x15a	ウォーリック	やっぱり開かない。\n他の所をまわってみよう。	Still won't open.\nLet's try somewhere else.
-0x24855	0x187	ウォーリック	やっぱり、開かない。\nここにドワーフ達が非難してると思ったんだがな。	Still won't open.\nI thought the dwarves had taken\nrefuge in here.
-0x24855	0x1bf	ライド	ドワーフはめったに死なないが、心配だな。\nもう１回、廃キョに戻って調べてみようぜ。	Dwarves rarely die, but I'm worried.\nLet's head back to the ruins\nand search once more.
-0x24855	0x201	ウォーリック	ここが、ドワーフの先祖の地の入口だな。\nちゃんと開くかな？	So this is the entrance to the\ndwarves' ancestral land.\nWill it open, I wonder?
-0x24855	0x24d	ファーニス	薬草の匂いはするけど、見あたらないねぇ。\nあっ、薬草を取った跡がある。	I smell herbs, but I can't see any.\nAh, there's a spot where some\nwere picked.
-0x24855	0x28c	ファーニス	あそこの根本に、薬草を取った跡があるよ。\nこんな所に、薬草取りに来る人いるのかなぁ。	There's a spot at the base over\nthere where herbs were picked.\nWho'd come all the way out here\nto gather herbs?
-0x24855	0x2d6	ファーニス	この森、薬草が全然ないね。\nいっぱいありそうなのに、取られちゃったんだね。	This forest has no herbs at all.\nLooks like there'd be tons,\nbut they've all been taken.
-0x24855	0x317	ファーニス	この森、なんか人の気配があるよ。\nそれも、人間じゃない。\nドワーフかなぁ。	There's someone in this forest.\nAnd not a human, either.\nDwarves, maybe.
-0x24855	0x362	レイナ	ライランドに戻った方がいいわ、ウォーリック。\nここから先は、人跡未踏の地だからね。	We should head back to Ryland,\n{WARRICK}. Past this point lies\nland no soul has ever walked.
-0x24855	0x39f	ウォーリック	そうだな。\nもう、人間の領域じゃないから、慎重に行動した方がいいな。	You're right.\nThis is no longer human ground,\nso we'd best tread carefully.
-0x24855	0x3e1	ウォーリック	さあっ。\nここから先は、人跡未踏の地だ。\n何が起るか解らないから、気を付けろっ！	Right, then.\nBeyond here is untrodden land.\nNo telling what may happen, so\nstay sharp!
-0x24855	0x42c	ファーニス	森ならまかせて。\n絶対に迷わないから。	Leave the forest to me.\nI'll never lead us astray.
-0x24855	0x44f	ウォーリック	頼むぞっ、ファーニス。	I'm counting on you, {FURNIS}.
-0x24855	0x46c	レイナ	おかえりなさい、ウォーリック。	Welcome back, {WARRICK}.
-0x24855	0x48b	ウォーリック	ただいま、レイナ。\nウォーリック\n・・・・・ほらっ。\nもらって来たぜ、守護騎士の３鎧７。	I'm home, {REINA}.\n{WARRICK}\n{...}..Here.\nBrought it back -- the\nGuardian's armor.
-0x24855	0x4d0	ファーニス	わぁぁぁぁぁっ。\nカッコいい３鎧７だねぇ。\n・・・・・でも、金色じゃないよ。	Whoaaaa!\nWhat cool armor!\n{...}..But it isn't golden.
-0x24855	0x513	ウォーリック	ああ、そうなんだよ。\nアトォムは、魂のカケラとか言ってたけど・・・。\nどういう意味だ、セス？	Yeah, that's right.\n{ATOM} said something about a\nsoul fragment, but...\nWhat's that mean, {SETH}?
-0x24855	0x570	セス	その３鎧７、そのままでは普通の３鎧７なの。守護騎士の３鎧７の力は発揮出来ないわ。力を発動させるには、竜の魂を入れてもらう必要があるのよ。\nセス\n私が着ている３鎧７の首元に、水晶球が入っているでしょ。\nその中に、青白い炎があるの。\n・・・見える？	That armor as it is now is just\nordinary armor. It can't show\nthe power of the Guardian's\narmor. To awaken it, you must\nhave a dragon's soul placed in.\n{SETH}\nSee the crystal at the collar\nof the armor I wear?\nInside it is a pale blue flame.\n...Can you see it?
-0x24855	0x62d	ウォーリック	・・・・・うんっ、見える。\n青白い炎が、チロチロ動いてるぞ。	{...}..Yeah, I see it.\nA pale blue flame, flickering\nback and forth.
-0x24855	0x668	セス	これが魂のカケラよ。\nこの３鎧７・・・言わば、パディッシュ様の分身ね。\nセス\n３鎧７に限らず、どのパーツにも水晶球が付いていて、絶えず力を与えてくれるわ。\nもちろん、神竜の３鎧７もね。	This is a soul fragment.\nThis armor... a piece of\nLady {PADDISH} herself.\p{SETH}\nNot just the armor -- every part\nholds a crystal that feeds it\npower, without end.\nThe {DIVINE DRAGON} armor too.
-0x24855	0x6f5	ウォーリック	ふぅぅぅん。\n面白い仕組みになってるんだなぁ。	Hmmm.\nWhat a clever bit of work.
-0x24855	0x725	セス	それに、もしマスターの竜が死んでも、守護騎士本人が生きている限り、３鎧７は生き続けるの。\nその使命がある限り、３鎧７は不滅よ。	And even if the master dragon dies,\nso long as the guardian lives on,\nthe armor lives too.\nWhile its duty remains,\nthe armor cannot perish.
-0x24855	0x780	ウォーリック	凄いなぁ。\nじゃあ次は、この３鎧７にその魂のカケラを入れてもらうんだな。	Amazing.\nSo next, we get this armor\nfilled with that soul fragment.
-0x24855	0x7c0	セス	その通り。\nさぁ、早くメーフィス様の所に戻りましょう。	Exactly.\nNow, let's hurry back to\nLord {MEPHIS}.
-0x24dcc	0x15		ブレスト　アーマー\nよぉ、ウォーリック。\n久しぶりだなぁ。\n・・・俺の事・・・覚えているかい？	Breast {ARMOR}\nHey there, {WARRICK}.\nLong time no see.\n...You remember me, don't you?
-0x24dcc	0x63	ウォーリック	・・・ああ、覚えているとも。\nその胸の傷、その肩のへこみ。\n忘れるものか。\n３年前、俺が着ていた３鎧７だ。	...Yeah, of course I do.\nThat gash on your chest, that dent\nin your shoulder. How could I forget?\nThree years back, you were my armor.
-0x24dcc	0xb8		ブレスト　アーマー\n覚えていてくれて嬉しいぜ、ウォーリック。まぁ、手のパーツは借り物だが、正真正銘、俺はお前の３鎧７だ。	Breast {ARMOR}\nGlad you remember, {WARRICK}.\nThe hand parts are borrowed, sure,\nbut make no mistake, I'm your armor.
-0x24dcc	0x108	ウォーリック	・・・そうだ。\n賞金稼ぎだった俺は、生活に困って、お前を売ってしまったんだ。	...That's right.\nBack when I was a bounty hunter,\nI was so broke I sold you off.
-0x24dcc	0x14b		ブレスト　アーマー\nそんな事、気にするなって。\nあの時は、仕方なかったんだ。\n・・・お前は悪くないぜ、ウォーリック。\nブレスト　アーマー\n実際の話、俺は売られてホッとしたんだよ。	Breast {ARMOR}\nDon't sweat it.\nYou had no choice back then.\n...It wasn't your fault, {WARRICK}.\pBREAST {ARMOR}\nTruth is, I was relieved to be sold.
-0x24dcc	0x1c0	ウォーリック	えっ？\n・・・どういう事だ。	What?\n...What do you mean?
-0x24dcc	0x1eb		ブレスト　アーマー\n当時、俺達は無茶な事をしてたなぁ。\n毎日毎日、魔物と戦って・・・剣技会にも出たっけ。\nその度に、お前は力を付けていった。\nブレスト　アーマー\n俺も、頑張ったんだがなぁ。\n・・・・・わかったんだよ。\n限界が、見えたんだよ。\nブレスト　アーマー\nお前は俺を、完全に着こなしてる。\nお前が必要とする力を、俺は貸してあげられないって。	Breast {ARMOR}\nBack then, we pushed ourselves too\nhard.\nEvery single day, fighting\nmonsters...\neven the sword tourneys.\nEach time, you grew stronger.\pBREAST {ARMOR}\nI tried my best too, but...\n{...}..I came to see it.\nI saw my own limits.\pBREAST {ARMOR}\nYou've completely outgrown me.\nThe power you need now, I just\ncan't lend it to you anymore.
-0x24dcc	0x2e7	ウォーリック	そっ、そんな事ない。\nそんな事ないぞ、ブレスト　アーマー。	That's not true.\nThat's just not true, Breast {ARMOR}.
-0x24dcc	0x31d		ブレスト　アーマー\nあの時、一緒にいたショート　ソードも、同じ事を考えていたんだぜ。\nお前の役に立てない事が、俺達には辛かった。	Breast {ARMOR}\nThe Short {SWORD} that was with us\nback then felt the very same way.\nIt pained us both to be of no use to\nyou.
-0x24dcc	0x377	ウォーリック	・・・・・ブレスト　アーマー。	......Breast Armor.
-0x24dcc	0x398		ブレスト　アーマー\nでも、俺は嬉しいぜ。\nお前が、守護騎士の候補になったんだからな。\n俺は鼻が高いぜ、ウォーリック。\nブレスト　アーマー\nさぁぁぁぁぁて。\nおしゃべりは、ここまでだ。\n俺がなぜここにいるか、わかってるな。	Breast {ARMOR}\nBut I'm happy for you.\nYou've become a candidate for\n{GUARDIAN}. I'm so proud, {WARRICK}.\pBREAST {ARMOR}\nNow theeeeeen.\nThat's enough chatter.\nYou know why I'm here, don't you?
-0x24dcc	0x424	ウォーリック	・・・・・ああ。	{...}..Yeah.
-0x24dcc	0x43c		ブレスト　アーマー\n勝負だ、ウォーリック。\nお前がどれだけ成長したか、試してやるぜ。	Breast {ARMOR}\nLet's settle this, {WARRICK}.\nI'll test just how far you've come.
-0x24dcc	0x4a0	ウォーリック	ブッ、ブレスト　アーマー！	B-Breast Armor!
-0x24dcc	0x4cd		ブレスト　アーマー\nへへっ。\n強くなったな、ウォーリック。\nそうさ・・・俺は、あの時のままなんだよ。\nブレスト　アーマー\nお前は、こんなに強くなったのに。\nお前は、こんなに成長したのに。\n・・・・・俺は、何も変わっちゃいない。\nブレスト　アーマー\nすまん、ウォーリック。\n何１つ、変わっちゃいないんだ。\n何１つ、お前の力になってやれないんだ。	Brest {ARMOR}\nHeh.\nYou've grown strong, {WARRICK}.\nBut me... I'm just as I was.\pBREST {ARMOR}\nYou've become so strong.\nYou've grown so much.\n{...}..And I haven't changed at all.\pBREST {ARMOR}\nForgive me, {WARRICK}.\nI haven't changed one bit.\nI can't lend you any of my strength.
-0x24dcc	0x5b2	ウォーリック	・・・違うぞ。\nそれは違うぞ、ブレスト　アーマー。\nウォーリック\n俺は今、わかったんだ。\n３年前の俺は、いつも１人だと思っていた。\nそれでいいと思っていた。\nウォーリック\nでも、それは間違いだったんだ。\n・・・お前や、ショート　ソード。\nいつもお前達が、俺を守っていてくれたんだ。	...No. That's not true,\nBrest Armor.\p{WARRICK}\nI understand now.\nThree years ago, I thought I\nwas always alone.\nAnd I thought that was fine.\p{WARRICK}\nBut I was wrong.\nYou, and the Short Sword...\nYou two always protected me.
-0x24dcc	0x68a	アーマー	・・・・・ウォーリック。	......{WARRICK}.
-0x24dcc	0x69e	ウォーリック	お前達がいなかったら、俺はとっくに死んでいた。\nお前達がいたから、今の俺がいるんだ。	Without you, I'd have died\nlong ago.\nBecause of you, I'm here now.
-0x24dcc	0x6e1		ブレスト　アーマー\n・・・・・へへっ。\n俺は幸せだぜ、ウォーリック。\n守護騎士になる男に、そう言ってもらえるなんて。\nブレスト　アーマー\n俺は世界で１番、幸せな３鎧７だぜ。\nブレスト　アーマー\n・・・頑張れよ、ウォーリック。\n俺達は・・・いつまでも・・・お前と・・・・・共に・・・いる・・・・・・・・。	Brest {ARMOR}\n{...}..Heh.\nI'm happy, {WARRICK}.\nTo hear that from a man who'll\nbe a {GUARDIAN}.\pBREST {ARMOR}\nI'm the happiest armor\nin all the world.\pBREST {ARMOR}\n...Give it your all, {WARRICK}.\nWe'll be... with you...\nalways..{...}..{...}.
-0x2528a	0x2a		ウィンダム隊長\nぐわっ！	Captain Windam\nGwah!
-0x2528a	0xae		ウィンダム隊長\nぐふっ！\n・・・・・もはやこれまでか。\n・・・お前たちは！？	Captain Windam\nGugh!\n{...}..Is this the end for me?\n...Who are you?!
-0x2528a	0x104	ウォーリック	後は任せて下さい。\nカーマイ	Leave the rest to us.\nTake Karmai
-0x2528a	0x120		さんを連れて、早く砦へ。	and get to the fort, quick.
-0x2528a	0x137		ウィンダム隊長\nしかし・・・わかった。\n奴はこの奥だッ。\n奴は魔法を使うぞ・・・気を付けろ。	Captain Windam\nBut... very well.\nHe's deeper inside.\nHe wields magic... be careful.
-0x2528a	0x18a		ウィンダム隊長\n奴は手強い。\n・・・気を付けるんだ。	Captain Windam\nHe's a tough one.\n...Stay on your guard.
-0x2528a	0x1d0		騎士　ブレイド\n・・・俺の事はいい。\nおやっさんを・・・ウィンダム隊長を助けてくれ。	Knight Blade\n...Forget about me.\nHelp the old man... save\nCaptain Windam.
-0x2528a	0x213		騎士　ブレイド\n・・・俺の事は気にするな。\nビボルダーの親玉を追って、おやっさんが奥に・・・早く行ってくれ。	Knight Blade\n...Don't mind me.\nThe old man chased the bivolder\nboss deeper in... go, hurry!
-0x2528a	0x277		騎士　カーク\nしっかりしろダニエル。\nこんな所で死ぬなッ！\n騎士　カーク\n・・・あッ、あんた達か。\nこいつを・・・ダニエルを助けてくれ・・・頼むよぉ！	Knight Kirk\nHang in there, Daniel.\nDon't die in a place like this!\pKnight Kirk\n...Ah, it's you lot.\nHelp him... save Daniel...\nI'm begging you!
-0x2528a	0x2fc	セシリア	心配しないで、カークさん。\n・・・大丈夫、助かるわ。\nセシリア\n天に導かれし汝の子等に慈しみの心持ちて、その体を癒したまえ。\nヒーリング。	Don't worry, Kirk.\n...It's all right, he'll live.\pCecilia\nO children led by the heavens,\nbe filled with mercy and let\nthis body be healed. Healing.
-0x2528a	0x396		騎士　ダニエル\n・・・ううッ。	Knight Daniel\n...Uungh.
-0x2528a	0x3b9	セシリア	もう大丈夫よ。\n貴方はこの人を連れて、砦に戻った方がいいわ。	He'll be fine now.\nYou'd best take this man and\nhead back to the fort.
-0x2528a	0x3f3		騎士　カーク\n・・・あんた達は？	Knight Kirk\n...And who might you be?
-0x2528a	0x416	ウォーリック	ウィンダム隊長達を救出に奥へ行く。後は任せてくれ。	We're heading in to rescue\nCaptain Windom. Leave the rest\nto us.
-0x2528a	0x448		騎士　カーク\n・・・わかった。\nありがとう、皆さん。	Knight Kirk\n...Understood.\nThank you, all of you.
-0x2528a	0x46f		騎士　カーク\n隊長達は奥に行った。	Knight Kirk\nThe captain went on ahead.
-0x2528a	0x496	ライド	侵入した、ハンターだな。\n・・・それにしても惨いな。	Intruders, eh? Hunters.\n...Still, this is a grim sight.
-0x2528a	0x4cd	ライド	魔法攻撃の痕がひどい。\nビボルダーにやられたな。\n内臓とかが喰い散らかされている。	The magic-attack wounds are\nsevere. Bivolders did this.\nTheir innards have been torn\nout and devoured.
-0x2528a	0x517		騎士　フラーベ\nくっそぉぉぉっ、ビボルダーめぇ。\n・・・俺達、警備隊をなめるなぁ。	Knight Frabe\nDamn it all, those Bivolders!\n...Don't underestimate us, the\nsecurity corps.
-0x2528a	0x559		騎士　クルーク\nウィンダム隊長を知ってるのかい。\nそれより様子がおかしいんだ。\nビボルダーの数が急激に減っているんだ。	Knight Kruke\nYou know Captain Windom?\nMore to the point, something's\nwrong. The Bivolders' numbers\nare dropping fast.
-0x2528a	0x5e2		騎士の声\nうわぁぁぁッ！！\nこいつら壁から出て来るぞッ。	Knight's Voice\nWAAAAH!!\nThey're coming out of the wall!
-0x2528a	0x615		騎士の声\nブレイド、後ろだ！！\n後ろにいるぞッ。	Knight's Voice\nBraid, behind you!!\nIt's right behind you!
-0x2528a	0x662		騎士の声\n雑魚にかまうなッ。\nおやっさんに続け。	Knight's Voice\nNever mind the small fry!\nFollow the captain!
-0x2528a	0x68f		騎士の声\nブレイド！！\nカーク組みがいないッ。	Knight's Voice\nBraid!!\nKirk's squad is gone!
-0x2528a	0x6ed	ウォーリック	警備隊の声だ。\nビボルダーと戦闘になっている。\nファーニス。\n正確な位置がわかるか！？	The guards! They're fighting\nthe Bibolders.\n{FURNIS}.\nCan you pin down where they are?
-0x2528a	0x743	ファーニス	・・・ダメだよ。\n全然、わかんない。\n洞窟内だから声が反響しちゃて、正確な位置なんかまったくわかんないよ。	...No good.\nI can't tell at all.\nTheir voices echo off the cave\nwalls. I can't fix the spot.
-0x2528a	0x79b	ウォーリック	とにかく急ごう。	No matter. Let's hurry.
-0x257ca	0x212	ウォーリック	今日はいい天気だ。\n・・・朝御飯は、何かな。	The weather's nice today.\n...I wonder what's for breakfast.
-0x25b63	0xf	ウォーリック	朝御飯は、まだか。\n・・・ブラブラっと、散歩でも行くかなぁ。	Breakfast not ready yet?\n...Maybe I'll go for\na little walk.
-0x25b63	0x54	ウォーリック	この頃、魔物が多いからなぁ。\n氷の洞窟に通じている裏門は、通れないと思ったぞ。	So many monsters lately.\nI doubt we could use the back gate\nto the {ICE CAVERN}.
-0x25b63	0x93	ブージ	なら、大婆様から許可をもらうしかないな。\n俺も狩りの報告をしなければならないし、ちょうどいい。	Then we'll need {GRANNY}'s leave.\nI must report on the hunt anyway,\nso the timing's perfect.
-0x25b63	0xdb	ウォーリック	なぁ、ブージ。\nグレーターデーモンがこの辺りにいる事って、珍しい事なのか？	Hey, {BOOJ}.\nIs it rare for a greater {DEMON}\nto turn up around here?
-0x25b63	0x118	ブージ	ああっ。\n知能も高く、デーモンの中では上級の部類に入る。\n魔法も使うから、気を付けろ。	Aye.\nIt's clever, high among the {DEMON}\nranks. It uses magic too, so\nstay sharp.
-0x25b63	0x169	ブージ	もっと、よく調べてみよう。\nグレーターデーモンに、神官竜・・・まったく共通点が見つからん。	Let's look closer.\nA greater {DEMON}, a {PRIEST DRAGON}{...}\nI can't find a thing they share.
-0x25b63	0x1b8	ウォーリック	しかし、竜ってデカイなぁ。\n俺、こんな近くで見るの始めてだぜ。	Dragons sure are huge.\nFirst time I've seen one\nthis close.
-0x25b63	0x1f8	ウォーリック	なぁ、ブージ。\n早いトコ、引き上げた方がいいぜ。	Hey, {BOOJ}.\nWe ought to pull back, and fast.
-0x25b63	0x226	ブージ	そうしよう。\nランバートの事は、ダ　ンには黙っておいてくれ。	Let's do that.\nDon't say a word to {DAN}\nabout {LAMBERT}.
-0x25b63	0x253	ウォーリック	家に帰って、旅の支度をしなくちゃ。でも、レイナは何て言うだろう。	Back home to pack for the trip.\nBut what will {REINA} say?
-0x25b63	0x291	ウォーリック	なぁ、レイナ。\n旅に出る事なんて、もうないと思っていたよ。	Hey, {REINA}.\nI never thought I'd set out\non a journey again.
-0x25b63	0x2c4	レイナ	そうね。\nいい旅になるといいわね。	True.\nI hope it's a good journey.
-0x25b63	0x2ea	ファーニス	２人で盛り上がってるから、私は置いて行かれるかと思ったよ。\n新婚旅行代りの、いい旅になるといいね。	{REINA}\nThat's right.\nI hope it'll be a good journey.
-0x25b63	0x343	レイナ	ファーニスがいれば、とても心強いわね。\nまた３人で旅が出来るなんて、うれしいわぁ。	With {FURNIS} along, I feel safe.\nThe three of us, traveling again...\nI'm so happy.
-0x25b63	0x383	レイナ	まずは、この手紙を届けにジーク王国に行かなくちゃ。	First we must deliver this letter\nto {ZEKE} .
-0x25b63	0x3ae	ファーニス	あのお婆ちゃんとジークの王様って、知合いなのかなぁ。	I wonder if that old granny knows\nthe king of {ZEKE}?
-0x25b63	0x3de	ファーニス	人間の王様って、どんなんだろうなぁ。身長が８メートルぐらいあって、立派なんだろうなぁ。	What's a human king even like?\nEight meters tall and grand,\nI bet.
-0x25b63	0x424	ウォーリック	普通の人間だよ。	He's just an ordinary man.
-0x25b63	0x444	レイナ	今日は疲れたわ。\n御言葉に甘えて今日は休みましょうよ。	I'm tired today.\nLet's take them up on their offer\nand rest for now.
-0x25b63	0x47c	ファーニス	私も、もう眠いよぉぉぉっ。\n早くお城のベットで寝たいなぁ。	I'm so sleepy too...\nI can't wait to sleep in a\ncastle bed.
-0x25b63	0x4b6	ファーニス	わぁぁぁぁぁい。\nふかふかのベットで寝るなんて、久ぶりぃっ。	Yaaaay!\nIt's been ages since I slept in\na nice fluffy bed!
-0x25b63	0x4ed	レイナ	そろそろ寝ましょうか。\n休める時には、キチ	Shall we turn in soon?\nWhen we can rest, we'd best
-0x25b63	0x50f		と休んでおかなくてはね。	rest up properly.
-0x25b63	0x527	ウォーリック	騒がしいなぁ。\nいったい、何が起ったんだ。	What a racket.\nWhat in the world happened?
-0x25b63	0x554	ファーニス	お祭りでも始まったのかなぁ。	Maybe a festival's started up?
-0x25b63	0x578	レイナ	レジーナの森って、確かジーク王国の北の森の奥にあるのよね。\nあまり広くはないって聞いたけど。	The {REGINA FOREST} lies deep in the\nwoods north of {ZEKE KINGDOM}, I think.\nI heard it isn't very large, though.
-0x25b63	0x5b8	ファーニス	大丈夫だよ。\nどんな広い森でも、私がいれば迷う事ないって。	Don't worry.\nNo matter how big the forest is,\nyou won't get lost with me around.
-0x25b63	0x5f1	レイナ	そのメデューサって、どこから来たのかしら？\nそんなに移動能力は高くない生物なのにねぇ。	Where did that {MEDUSA} come from?\nIt's not a creature that can\ntravel very far on its own.
-0x25b63	0x632	ファーニス	テレポートで飛んで来たのかもよ。	Maybe it teleported here.
-0x25b63	0x656	ファーニス	ウンディーネの言う通りなら、東の壁ぞいを歩いて行けば、何かわかるはずだよ。	If the {DRYAD} is right, we should\nlearn something by following the\neast wall.
-0x25b63	0x699	レイナ	いつメデューサが出て来るかわからないわ。\n注意して進みましょう。	There's no telling when the {MEDUSA}\nwill appear.\nLet's move carefully.
-0x25b63	0x6cf	レイナ	メデューサは、どこに隠れているのかしら。	Where could the {MEDUSA} be hiding?
-0x25b63	0x6f2	ファーニス	メデューサって、湿気の多い所を好むんでしょ。\n地下湖の辺りが最適だね。	A {MEDUSA} likes damp places, right?\nThe underground lake would be ideal.
-0x25b63	0x731	ファーニス	ねぇ、ライド。\nそのグレート　ソード、凄くカッコいいねぇ。	Hey, {RIDE}.\nThat great sword looks really cool.
-0x25b63	0x768	ライド	俺の宝物さっ。\nこれ以外の３剣７は、絶対使わないぜ。	It's my treasure.\nI'll never use any sword but this\none.
-0x26097	0x12	ファーニス	この森のどこかにいるよ。\n早く探さないと、危ないよぉ。	It's somewhere in this forest.\nWe'd better hurry, it's dangerous!
-0x26097	0x46	レイナ	旅人でも迷い込んだのかしら？\nとにかく、探しましょう。	A traveler who lost their way?\nEither way, let's search.
-0x26097	0x7a	ライド	衰弱がひどいが大丈夫なのか？	They're badly weakened. Will they\nbe all right?
-0x26097	0x9e	レイナ	命に別状はないけど、早く城に戻って手当をした方がいいわ。\n急ぎましょう。	Their life isn't in danger, but we\nshould get back to the castle and\ntreat them fast. Let's hurry.
-0x26097	0xe4	ファーニス	これから、セルーシュ王国に行くには、マーズトンネルを通って行くんでしょ。	To reach {SERUSH KINGDOM} from here,\nwe go through {MARS TUNNEL}, right?
-0x26097	0x112	レイナ	そうよ。\n確か、ジーク王国の南東に、トンネルにつながる砦があるはずだわ。	That's right. There should be a\nfort linked to the tunnel southeast\nof {ZEKE KINGDOM}, if I recall.
-0x26097	0x14b	レイナ	マーズトンネルには、どうやって入ったらいいのかしら。\n警備の騎士と話してみましょう。	I wonder how we get into\n{MARS TUNNEL}. Let's talk to the\nknight on guard.
-0x26097	0x187	ファーニス	外から見た時、確か大きな塔があったよねぇ。\n私、上に行ってみたいなぁ。	When we saw it from outside, there\nwas a big tower, wasn't there?\nI want to go up to the top!
-0x26097	0x1c7	セシリア	警備隊の人達だけでは心配です。\n私達も、追った方がよいのではないでしょうか、ウォーリック。	The guards alone worry me. Shouldn't\nwe go after them too, {WARRICK}?
-0x26097	0x211	ウォーリック	そっ、そうだな。\nビボルダーが相手なら、魔導師がいる俺達の方が有利に戦えるはずだ。	R-right. If it's Bibolders we face,\nwe have a mage, so we'll have the\nedge in the fight.
-0x26097	0x263	ライド	何か、ヤバそうだぞ。\nビボルダーって、こんなに集団性のある奴等じゃないはずだ。	Something's off. Bibolders aren't\nsupposed to swarm together like\nthis.
-0x26097	0x2ab	セシリア	そうですね。\n警備隊の人達に、かなりの被害が出ている様です。\n早く、奥に進みましょう。	You're right. The guards seem to\nhave taken heavy losses. Let's\npush on ahead, fast.
-0x26097	0x2fb	ファーニス	ビボルダーの親玉って、どんな生物なんだろう。\n何か、恐いねぇ。	What sort of creature is the\nVivolder boss?\nIt's kind of scary.
-0x26097	0x339	レイナ	ビボルダーって言えば、魔法生物の代表的存在。\nまれに、強力な変異体がいるらしいわ。	Vivolders are the classic\nmagic creature.\nRarely a powerful mutant appears.
-0x26097	0x38d	ファーニス	どこ行けばいいのぉ？\nセルーシュ城は、魔軍に占拠されてるんでしょう。	Where should we go?\n{SERUSH} is held\nby the demon army, right?
-0x26097	0x3c7	セシリア	どこかに生き残った聖騎士達がいるはずです。\nまず、その者達を探しましょう。	Some {PALADIN}s must have\nsurvived somewhere.\nLet's find them first.
-0x26097	0x404	レイナ	まず、セルーシュの街で魔法屋を探しましょう。\nジオクリスタルを受け取らなくちゃね。	First let's find the {MAGIC SHOP}\nin {SERUSH}.\nWe must collect the {GEO CRYSTAL}.
-0x26097	0x443	ファーニス	ついでに買物もしておこうよ。\nキャンプに戻ったら、装備を整えるヒマなんかないかもしれないからね。	Let's shop while we're here.\nBack at {CAMP} there may be no\ntime to ready our gear.
-0x26097	0x48b	レイナ	さぁ。\nジオクリスタルを受け取ったし、キャンプに戻りましょう。	There.\nWe've got the {GEO CRYSTAL}.\nLet's head back to {CAMP}.
-0x26097	0x4bc	ファーニス	ねぇ、ライド。\nミスリルの鍋なんか何に使うのぉ？\nちょっと教えてよ。	Hey, {RIDE}.\nWhat's a {MYTHRIL} pot even for?\nCome on, tell me.
-0x26097	0x4fa	ライド	秘密だよ。	It's a secret.
-0x26097	0x515	ファーニス	ダイガーンさん、自分のヘルメットが出来て喜んでたね。\nライド、優しいんだぁ。	{DAIGARN} was so happy his\nhelmet was finished.\n{RIDE}, you're so kind.
-0x26097	0x558	ライド	そんなんじゃねぇよ。\nただ頭がデカいと、弓とかに狙い撃ちされやすいからなぁ。\n重装騎兵としちゃあ、悲惨だろ。	It's not like that.\nA big head just makes you an\neasy target for arrows.\nRough on a {HEAVY CAVALRY} man.
-0x26097	0x5b0	レイナ	テントの外にパーシャ様が待っているはずよ。\n早く行きましょう。	{PASHA} should be waiting\noutside the tent.\nLet's hurry.
-0x26097	0x5e5	ライド	こんな大規模な戦争なんて見た事ないぜ。\n用心のために、ポーションとかいっぱい持って行った方がいいな。	I've never seen war on this scale.\nBest bring plenty of {POTION}s and the\nlike, just to be safe.
-0x26097	0x634	ライド	セシリアも、辛い立場なのに頑張ってるなぁ。\n一見、普通の女の子なのにな。	{CECILIA}'s in a tough spot, but she\nkeeps fighting. Looks like an\nordinary girl, at a glance.
-0x26097	0x671	ファーニス	そうだね。\nセシリアちゃんのためのも、頑張らなきゃ。\n早く、パーシャ様の所に行こっ。	Yeah. We gotta give it our all for\n{CECILIA} too. Let's hurry to\n{PASHA}.
-0x26097	0x6b3	レイナ	この地下のどこかに魔法陣があるはずよ。\n早く解体しなければ、援軍が送られて来る可能性があるわ。	There's a {MAGIC CIRCLE} somewhere\ndown here. If we don't break it fast,\nthey may send reinforcements.
-0x26097	0x700	ファーニス	空気が重いし、何か嫌な雰囲気だね。\n早く地上に戻りたい。	The air's heavy, and it has a nasty\nfeel to it. I want to get back\nup top fast.
-0x26097	0x73c	ファーニス	作戦通り、ライランドの重装騎兵も城に侵入してる。\n後は、敵の大将を倒せばいいんだね。	Per the plan, {RYLAND} 's are inside\nthe castle too.\nNow we just down the enemy general.
-0x26097	0x781	レイナ	そうね。\nそれより、さっき感じた強い魔力が気になるわ。	Right. More than that, that strong\nmagic I felt a moment ago has me\nworried.
-0x265ea	0x12	レイナ	油断しちゃだめよ。\nまだ、敵の兵士はたくさん城内に残っているはずだから。	Don't let your guard down.\nThere must still be plenty of enemy\nsoldiers left in the castle.
-0x265ea	0x55	ライド	もう一頑張りだ。\n敵の残存戦力を、徹底的に叩いてやろうぜ。	One more push.\nLet's crush whatever forces the\nenemy has left.
-0x265ea	0x94	ライド	ブレイスのおっさん１人じゃ、ヤバイぜ。\n早く加勢に向おう。	Old man {BREI} can't hold out alone.\nLet's hurry and back him up.
-0x265ea	0xc9	ファーニス	謁見室の隣の大部屋だって言ってたよ。\n急ごっ急ごっ。	He said it's the big room next to\nthe audience chamber.\nHurry, hurry!
-0x265ea	0x105	ファーニス	ねぇ、レイナ。\nパーシャ様は砂の城って所に行けって言ってたけど、どこのあるの？	Hey, {REINA}.\n{PASHA} told us to go to a place\ncalled the {SAND CASTLE}, but\nwhere is it?
-0x265ea	0x142	レイナ	ライランド領内って話だから、砂の海を渡らなくちゃね。\nそれには、シルバーホーンで船を見つける必要があるわ。	It's in {RYLAND}'s lands, so we'll\nhave to cross the {SAND SEA}.\nFor that, we need to find a ship\nat {SILVERHORN}.
-0x265ea	0x182	ファーニス	シルバーホーン？\n確か、セルーシュ王国のずっと西にある港街だったよねぇ。	{SILVERHORN}?\nThat's the port town far to the\nwest of {SERUSH KINGDOM}, right?
-0x265ea	0x1b6	ファーニス	ねぇねぇ。\n北の方で誰か戦ってるんだよ。\nちょっと、様子を見に行こうよぉ。	Hey, hey.\nSomeone's fighting up to the north.\nLet's go take a look.
-0x265ea	0x1fa	レイナ	そうね。\n人が、魔物の襲われている可能性もあるわ。\n行ってみましょう。	Right.\nSomeone might be under attack\nby monsters.\nLet's go see.
-0x265ea	0x239	ファーニス	面白いねぇ。\nこのタリアトフ大陸にも、こんな大きな神殿があったんだぁ。	How interesting.\nThe {TALIATOV} continent had\na temple this grand too.
-0x265ea	0x271	レイナ	今では、人も立ち入れない土地が多いけど、昔はたくさんの文明があったようよ。	Much of this land is off-limits to\npeople now, but long ago there\nwere many civilizations.
-0x265ea	0x2b2	ライド	ファーニス。\nお前の兄ちゃん、カッコいいなぁ。	{FURNIS}\n{RIDE}.\nYour big brother is so cool.
-0x265ea	0x2df	ファーニス	・・・うん。\nでもね、足手纏いだって言って、いつも置いて行かれるんだぁ。	...Yeah.\nBut he always says I'd slow him down\nand leaves me behind.
-0x265ea	0x322	レイナ	とにかく、砂の海を渡らない事には話にならないわ。\nシルバーホーンで船を探しましょう。	Anyway, none of this matters until\nwe cross the {SAND SEA}.\nLet's find a ship at {SILVERHORN}.
-0x265ea	0x35e	ライド	そうだな。\nブラフォードに言われた通り、神官竜も探さなくてはならないしな。	Right.\nAnd like {BLAFORD} said, we've still\ngot to find the {PRIEST DRAGON} too.
-0x265ea	0x395	ファーニス	まずは、船を探すんでしょ。	First we look for a ship, right?
-0x265ea	0x3b5	レイナ	そうね。\n長居しそうだし、一度、宿屋に行きましょう。	Right.\nLooks like we'll be here a while.\nLet's stop by the {INN} first.
-0x265ea	0x3ee	レイナ	まず、宿屋の２階にいるゼロ船長に会ってみましょう。	First, let's go meet {CAPTAIN ZERO}\nup on the {INN}'s second floor.
-0x265ea	0x41e	ファーニス	船、出してくれるといいねぇ。	I hope he'll take us out to sea.
-0x265ea	0x442	ファーニス	紫水晶の丘かぁ。\nシルバーホーンの北にあるって言うけど、キメラがいるんでしょう。	{AMETHYST HILL}, huh.\nThey say it's north of {SILVERHORN},\nbut there's a {CHIMERA} there, right?
-0x265ea	0x476	レイナ	キメラって合成獣の事でしょう？\nたくさんの生物が合体してて、何か面白そうでいいじゃない。	A {CHIMERA}, that fused beast?\nLots of creatures merged into one.\nSounds kind of fun, doesn't it?
-0x265ea	0x4c2	ファーニス	早く、この紫水晶を取って帰ろう。	Let's grab this {AMETHYST} and\nhurry back.
-0x265ea	0x4e5	ライド	しかし、デカいなぁ。\nこの紫水晶１つで、いくつ作れるんだろう。	Still, it's huge.\nI wonder how many we could make\nfrom this one {AMETHYST}.
-0x265ea	0x518	レイナ	さぁ。\n早くゼロ船長の所に持って帰りましょう。	Who knows.\nLet's hurry it back to {CAPTAIN ZERO}.
-0x265ea	0x542	ファーニス	これで、船に乗れるんだね。\nとっても、楽しみぃ。	Now we can board the ship.\nI can't wait!
-0x265ea	0x575	ファーニス	ゼロ船長は、港で待ってるって言ってたよ。	{CAPTAIN ZERO} said he'd be\nwaiting at the port.
-0x265ea	0x59b	ライド	砂の上を走る船かぁ。\n１度、乗ってみたいと思ってたんだ。	A ship that runs on sand, huh.\nI've always wanted to ride one.
-0x265ea	0x5d4	ファーニス	わぁぁぁぁぁっ。\n砂の上を走ってるよ、この船。\nカッコいいねぇ。	Whoaaaaa!\nThis ship's running on the sand!\nSo cool!
-0x265ea	0x613	ライド	船内とか、ちっと見学させてもらおうぜ。	Let's have a look around\ninside the ship.
-0x265ea	0x63c	ライド	何か、薄気味悪い所だなぁ。	What an eerie place this is.
-0x265ea	0x662	ファーニス	早くカル伯爵から話を聞いて、外に出ようよぉ。	Let's hear {COUNT CAL} out\nquick and get outside.
-0x265ea	0x68d	ファーニス	人が、住んでいそうにないねぇ。\nちょっと恐いよ。	Doesn't look like anyone lives\nhere. It's a little scary.
-0x265ea	0x6bf	レイナ	ここに居ても、仕方がないわ。\n奥に行ってみましょう。	No use standing around here.\nLet's head deeper in.
-0x265ea	0x6f2	ファーニス	ねぇ、ライド。\nさっきのバンパイアって話・・・本当なのぉ？	Hey, {RIDE}.\nThat talk of a vampire earlier...\nis it really true?
-0x265ea	0x737	ライド	ああっ。\n噂で聞いたんだが、本当らしいぜ。\n正真正銘のバンパイア　ロードだ。	Yeah.\nI heard it as a rumor, but it\nseems true. A genuine vampire\nlord.
-0x26acb	0x12	ライド	ワータイガーみたいな、強力な獣人を家来にしているとは。\nカル伯爵・・・そうとう出来るなぁ。	Fancy {COUNT CAL} keeping a beast-man\nas strong as a were-tiger for a\nvassal... He's quite something.
-0x26acb	0x6b	ファーニス	なんだか、ドキドキしてきたね。	Somehow my heart's started racing.
-0x26acb	0x8c	ファーニス	ねぇ、レイナ。\nあのワータイガーさん・・・人間の時、どんな顔なのかなぁ？	Hey, {REINA}.\nThat were-tiger... what does his\nface look like as a human?
-0x26acb	0xd7	レイナ	うぅぅぅぅぅん。\nやっぱり、猫みたいな顔をしているのかしらねぇ。	Hmmm.\nI'll bet he has a face like a\ncat's, don't you think?
-0x26acb	0x115	ファーニス	バンパイアかぁ。\nエナジードレイ	A vampire, huh.\nEnergy Drai
-0x26acb	0x135		とか言う、体をヘロヘロにしちゃう技を使うんでしょ。	n or whatever, the move that\nleaves your whole body limp.
-0x26acb	0x15e	ライド	それって、血を吸われるって事だろ？	That means it sucks your blood,\nright?
-0x26acb	0x184	ライド	あのワータイガー、よく見るといい尻してるなぁ。\nもしかしたら、メスかもしれないぜ。	Look close, that were-tiger's got\na nice rear.\nMight even be a female.
-0x26acb	0x1d2	ファーニス	私には、筋肉隆隆のお尻にしか見えないよ。	Looks like nothing but a\nmuscle-bound butt to me.
-0x26acb	0x205	レイナ	今、ワータイガーって、数がめっきり減っているんでしょ。	Were-tigers have really dwindled\nin number these days, right?
-0x26acb	0x23b	ファーニス	私も、聞いた事がある。\n隣の大陸では、全滅しかかってるとか。	I've heard that too.\nOn the next continent they're\nnearly wiped out.
-0x26acb	0x276	ライド	あんな強そうなのが、ゴロゴロされても困るがな。	Having things that strong\nswarming about would be a problem\ntoo, though.
-0x26acb	0x2a3	ライド	もう、相当歩いたぜ。\n・・・まだ着かないのかよぉ。	We've walked so far already.\n...Are we still not there yet?
-0x26acb	0x2de	ファーニス	もうそろそろ、着いてもいいよねぇ。	We ought to be getting close by now.
-0x26acb	0x302	レイナ	さっきの壁画の魔神って、本当なのかしら？	That demon god in the mural...\nyou think it's real?
-0x26acb	0x32d	ファーニス	私も神様って見た事ないから、わかんなぁぁぁい。	I've never seen a god, so I really\nwouldn't knooow.
-0x26acb	0x35b	ナッツ	不束者ですが、よろしくお願いします。	I'm not much use, but I'll do my\nbest.\nPlease take care of me.
-0x26acb	0x382	ライド	おっ。\n・・・おうっ。\nまっ、まぁ・・・よろしくな。	Oh.\n...Oh.\nWell, uh... good to have you.
-0x26acb	0x3c8	ナッツ	一路、ライランド城に向って、グリーク王に会うのですよね。\nライランドは城を出て、南西の方角にあります。	We head straight for {RYLAND} Castle to\nmeet King {GREEK}, yes?\n{RYLAND} lies to the southwest, once\nyou leave this castle.
-0x26acb	0x412	レイナ	この辺りの地理に詳しい人がいると、とても助かるわね。	Having someone who knows the local\nlay of the land is a great help.
-0x26acb	0x444	ファーニス	水も豊富だし、キレイなお城だねぇ。グリーク王やパーシャ様って、こんな所で暮らしてたんだぁ。	Water everywhere, and such a lovely\ncastle! So this is where King {GREEK}\nand Lady {PASHA} have been living.
-0x26acb	0x486	ライド	俺が想像してたより、ずっとデカイ国だなぁ。\nもっと、小ぢんまりした国だと思っていたぜ。	This place is way bigger than I\npictured. I figured it'd be some\nlittle cramped kingdom.
-0x26acb	0x4d0	レイナ	部屋を用意してくれたって言ってたわよね。\nそこに行って、待ってましょうよ。	They said a room was prepared for us.\nLet's head there and wait.
-0x26acb	0x50f	ファーニス	城内も、ちょっと探検して行こうね。	Let's explore the castle a bit on\nour way.
-0x26acb	0x537	ライド	ちょっと、城内を見物に行こうぜ。\nグリーク王も自由にしていいって、言ってくれた事だしさっ。	Let's go check out the castle.\nGreek said we could roam freely,\nso why not?
-0x26acb	0x583	ファーニス	そうそう。\n私、２階にあったテラスに行ってみたいなぁ。\n風が、気持ちよさそうじゃん。	Yeah! I want to see that terrace\nup on the second floor.\nThe breeze looks lovely up there.
-0x26acb	0x5d1	ファーニス	ちょっと、疲れちゃった。\n宴が始まるまで、お部屋で待ってよぉ。	I'm a little tired.\nLet's wait in our room\ntill the feast begins.
-0x26acb	0x611	ライド	俺も疲れてきたなぁ。\nこの時間なら、宴会が始まるまで一寝入り出来るぜ。	I'm worn out too.\nWe've got time for a nap\nbefore the feast starts.
-0x26acb	0x65c	ファーニス	・・・寝なきゃよかった。\nいい夢見てたのに、頭がガンガ	...I shouldn't have slept.\nIt was such a nice dream,\nbut now my head is pound
-0x26acb	0x68c		するよぉ。	ing.
-0x26acb	0x69b	レイナ	こんな形で、敵に遭遇するとはね。\n・・・パーシャ様に、言った方がいいかしら。\n一度、謁見室に行きましょう。	To run into the enemy like this...\n...Maybe we should tell {PASHA}.\nLet's head to the audience hall.
-0x26acb	0x6fa	レイナ	地下に急ぎましょう。	Let's hurry underground.
-0x26acb	0x718	ファーニス	エルフの国に住んでいるカーネル様以外の神官竜、見るの始めてぇ。\nドキドキしちゃうね。	My first {PRIEST DRAGON} besides\n{KARNEL} in the {ELF} land!\nMy heart's racing.
-0x26acb	0x75b	レイナ	城の地下に、神官竜が住んでる洞窟があるなんて凄いわね。	A cave where a {PRIEST DRAGON}\nlives, deep below the castle...\nAmazing.
-0x26acb	0x78d	ファーニス	でも、しょっちゅう地震なんか起されたら、たまったものじゃないよ。	But if it keeps setting off\nquakes all the time,\nthat's no fun at all.
-0x26ff9	0x12	ライド	水が、豊富なわけだぜ。	And water? Plenty of it.
-0x26ff9	0x33	ファーニス	ふわぁぁぁぁぁっ。\nライランドの水って、キレイなんだぁ。	Whoaaaa.\n{RYLAND}'s water is so clean!
-0x26ff9	0x65	レイナ	じゃあ、早く地上に戻りましょう。	Then let's hurry back up top.
-0x26ff9	0x8a	ファーニス	パーシャ様が、待ってるしね。	Lady {PASHA}'s waiting on us, too.
-0x26ff9	0xaa	ファーニス	２階の謁見室に行くんでしょう。\nお話って、何だろう。	We're off to the audience hall\non the second floor, right?\nWonder what it's about.
-0x26ff9	0xde	レイナ	・・・さぁ？\nとにかく、グリーク王が待っているわ。早く行きましょう。	...Who knows?\nAnyway, King {GREEK} is waiting.\nLet's get going.
-0x26ff9	0x11b	ファーニス	確か、南へ向うんだよね。\n南って何があるの、ナッツちゃん。	We head south, right?\nWhat's down south, {NUTTS}?
-0x26ff9	0x14f	ナッツ	南には、バナークって言う大きな森が広がってるの。\n迷う様な森じゃないけどね。	To the south lies a great forest\ncalled {BARDAL}.\nIt's not a forest you'd get lost in.
-0x26ff9	0x195	ナッツ	まずは、ドワーフ族を探した方がよいのでは？\n確か、バナークの森の東に住んでいるはずなんだけど。	Maybe we should look for the\n{DWARF} folk first?\nThey live east of {BARDAL} forest,\nif I recall right.
-0x26ff9	0x1e0	ファーニス	ドワーフ族かぁ。\n・・・あんまり、気が進まないなぁ。	{DWARF} folk, huh.\n...I'm not too keen on that.
-0x26ff9	0x21a	ナッツ	ここのドワーフ族は友好的って話だし、言葉も通じるから安心だと思うよ。	The {DWARF} folk here are friendly,\nand we can speak with them,\nso there's nothing to fear.
-0x26ff9	0x256	ライド	言葉が通じるってのは、助かるよなぁ。	{RYLAND}\nBeing able to talk to them\nsure is a relief.
-0x26ff9	0x280	ライド	・・・全滅！？\nドワーフって、そんなヤワな種族じゃないはずだぜ。	...Wiped out!?\nDWARVES aren't such a soft race.
-0x26ff9	0x2bc	レイナ	何が起ったのか、調べてみましょう。ドワーフ族の消息が、わかるかもしれない。	Let's find out what happened.\nMaybe we'll learn where the\nDWARVES went.
-0x26ff9	0x2f9	レイナ	ドワーフ族の死体が１体もないから、どこかに逃げ伸びた可能性が高いわ。	There's not one {DWARF} corpse here.\nGood chance they fled somewhere.
-0x26ff9	0x334	ライド	アンデットの品質実験に使われるとは、ドワーフもいい迷惑だなぁ。	Used as test subjects for undead\nquality... rough deal for Dwarves.
-0x26ff9	0x370	ライド	ドワーフのおっさんは、西の方角とか言っていたな。	That {DWARF} geezer said something\nabout the west.
-0x26ff9	0x39b	ナッツ	確か、大きな扉があるはずよ。\n私は入った事ないから、中がどうなっているかわからないけどね。	There should be a big door.\nI've never been inside, so I don't\nknow what it's like in there.
-0x26ff9	0x3e3	レイナ	まずは、族長のクレイボーンさんに話を聞きましょう。	First, let's go hear what the chief,\n{CLAYBOURNE}, has to say.
-0x26ff9	0x40d	ファーニス	へへっ。\nあのおっちゃん面白そうだから、私も好きだよ。	Heheh.\nThat old guy seems fun, so I\nlike him too.
-0x26ff9	0x441	ファーニス	クレイボーンのおっちゃんが、外に出るなって言ってたよ。	Old man {CLAYBOURNE} said not to\ngo outside.
-0x26ff9	0x46c	レイナ	あの死人使いが出たら、すぐ連絡が入るって言ってたわ。\nおとなしく洞窟で待ってた方がいいわよ。	He said we'd get word the moment\nthat necromancer shows up.\nBetter to wait quietly in the cave.
-0x26ff9	0x4ba	レイナ	あの死人使いが出たわよ。\n新しい被害が出る前に、破壊されたドワーフの国に戻りましょう。	That necromancer has shown up.\nLet's get back to the ruined {DWARF}\nland before there's more harm.
-0x26ff9	0x509	ライド	俺のグレートソードで、叩っ斬ってやるぜ。	I'll cut him down with my\ngreatsword.
-0x26ff9	0x537	ライド	・・・まぁ。\n気を落すな、ウォーリック。\n奴も、これで本望ってもんだぜ。	...Well. Don't take it hard, {WARRICK}.\nHe got what he wanted in the end.
-0x26ff9	0x576	ファーニス	安全になった事、クレイボーンのおっちゃんに教えてあげなきゃ。\n洞窟に戻ろっ。	We gotta tell old {CLAYBOURNE} it's\nsafe now.\nBack to the cave!
-0x26ff9	0x5b5	ライド	そのナイフ・・・とんでもない物なのかもしれないな。\n敵側は俺達の事を、完全にマークしてるぜ。	That knife... might be something\nhuge.\nThe enemy's got us completely marked.
-0x26ff9	0x608	レイナ	そうね。\n早くそのナイフを、パディッシュ様に渡した方がいいわね。	Right.\nBest we get that knife to {PADDISH}\nsoon.
-0x26ff9	0x63b	レイナ	もう、パディッシュ様の近くまで来たのかしら？	Are we near {PADDISH} already, I\nwonder?
-0x26ff9	0x661	ファーニス	まだまだ、ある様な気がするなぁ。	Feels like there's still a long way\nto go.
-0x26ff9	0x687	ライド	この迷宮をぬけると、パディッシュ様って神官竜がいる森なんだろ。	Past this maze is the forest where\nthat\npriest dragon {PADDISH} lives, right?
-0x26ff9	0x6b6	ファーニス	でも、この迷宮・・・とっても広いみたいよ。\nそれに、リッチもいるって言うしね。	But this maze... it's really huge.\nAnd they say a {LICH} is here too.
-0x26ff9	0x6fd	レイナ	リッチが仕掛けたトラップにしては、簡素な物ねぇ。\nもっと強力でも、おかしくないはずなのに。	Simple traps for a {LICH} to set.\nYou'd expect far deadlier ones.
-0x26ff9	0x747	ファーニス	侵入者を殺す気が、ないのかもしれないねぇ。	Maybe it's got no will to kill\nthe intruders.
-0x26ff9	0x775	レイナ	まだまだ奥が深そうね。	Looks like it runs deep still.
-0x26ff9	0x793	ファーニス	早くゴールが見えないかなぁ。	I hope the goal comes into view soon.
-0x27506	0x12	ファーニス	ドキドキするよ。\nリッチに会わない様にしなくちゃね。	My heart's pounding.\nWe've got to avoid running into\nthe {LICH}.
-0x27506	0x44	ライド	もし、見つかったら芸でもして、見逃してもらうかぁ。	If we get caught, maybe I'll do\na little trick and they'll let\nus go.
-0x27506	0x75	ファーニス	リッチって、不老不死の完全版なんでしょう。\nきっと、恐ろしい姿をしてるんだろうなぁ。	A {LICH} is the perfected form of\nthe undeathless, right?\nIt must look truly horrifying.
-0x27506	0xbe	ナッツ	大丈夫ですよ。\n醜い者が、皆、敵とは限りませんからねぇ。	Don't worry.\nNot everyone who's ugly is an\nenemy, you know.
-0x27506	0xfa	ライド	リッチかぁ。\n元、人間なんだろう。\n何で、好き好んで化物になんかなったんだろう。	A {LICH}, huh.\nIt used to be human.\nWhy would anyone choose to\nbecome a monster?
-0x27506	0x142	ファーニス	人生に、嫌気がさしたのかなぁ。\nそれとも、さとりを開いたのかな。	Maybe it grew sick of life.\nOr maybe it found\nenlightenment.
-0x27506	0x17f	ライド	リッチ・・・マージス。\nなかなかの迫力、出してるじゃん。	The {LICH}{...} {MARGIS}.\nQuite an imposing presence,\nI'll give it that.
-0x27506	0x1bb	ファーニス	やっぱり、見つかったね。\nでも、フローディーテの森は近いみたいだよ。	We got spotted after all.\nBut {FRODITE FOREST} seems to be\nclose now.
-0x27506	0x1ec	ファーニス	森に抜ける鍵は、やっぱりマージスが持ってるんだろうなぁ。\n扉の左側にあった扉が、マージスの部屋でしょう。	{MARGIS} must hold the key that\nleads out to the forest.\nThe door left of the door must\nbe {MARGIS}'s room.
-0x27506	0x240	ライド	なぁ、ファーニス。\nチョロッと忍び込んで、鍵を取って来いよ。	Hey, {FURNIS}.\nSneak in real quick and grab\nthe key, would you.
-0x27506	0x274	ファーニス	そんな事したら、死んじゃうよぉ。	If I did that, I'd get killed!
-0x27506	0x29c	ファーニス	鍵ももらったし、早く森に行こうよぉ。外の空気が吸いたいなぁ。	We got the key, so let's hurry\nto the forest. I want to\nbreathe fresh air!
-0x27506	0x2dd	ライド	やっぱり、生き物は光にあたらなくちゃな。	{FURNIS}\nLiving things need sunlight\nafter all.
-0x27506	0x306	レイナ	かなり深い森ねぇ。\n幸い、遠見の水晶は使えるわ。\n確かめながら行きましょう。	Quite a deep forest.\nLuckily the scrying crystal works.\nLet's go carefully, checking as we\nmove.
-0x27506	0x348	ファーニス	レイナは、心配性なんだからぁ。\n私とナッツちゃんがいれば、そんなの必要ないって。	{REINA} worries far too much.\nWith me and {NUTTS} along,\nwe won't be needing that.
-0x27506	0x396		なさぁぁぁい。\n方向が、全然わかんなくなっちゃった。	Sorryyyy!\nI've completely lost all sense\nof direction.
-0x27506	0x3c0	レイナ	遠見の水晶は使えるわ。\nこまめに見ながら、１度マージスさんの所に戻りましょう。	The scrying crystal still works.\nLet's check it often and head back\nto {MARGIS} for now.
-0x27506	0x3ff	ファーニス	この私が、森に迷うなんて・・・絶対、何か変だよ。	Me, lost in a forest...\nSomething is definitely wrong.
-0x27506	0x43c	レイナ	南東の方角に、森が開けている所があったわよねぇ。\nあそこまで出れば、何か様子がわかるかも。	There was a clearing in the\nforest to the southeast.\nIf we reach it, we might learn\nsomething.
-0x27506	0x488	ライド	森で迷っていたのは、カームの力のせいだったのか！？\nこれで迷わず行けるかな。	So getting lost was {CALM}'s\npower all along!?\nNow we can go without straying.
-0x27506	0x4c5	ファーニス	そうそう。\n普通の森で、私が迷うわけないじゃん。	That's right. No way I'd get\nlost in an ordinary forest.
-0x27506	0x4f6	セス	パディッシュ様が待っているわ。\n地下に続く洞窟は広いから、気を付けて行きましょう。	Lady {PADDISH} is waiting.\nThe cave down below is vast,\nso let's go carefully.
-0x27506	0x539	ファーニス	ここまで来るのに、色々あったねぇ。パディッシュ様に会えば、それも終るんだね。	So much happened getting here.\nOnce we meet Lady {PADDISH},\nit'll all be over.
-0x27506	0x577	ファーニス	ねぇ。\nあの竜の像は、何ぃ？	Hey.\nWhat is that dragon statue?
-0x27506	0x59b	レイナ	私も気になっていたのよ。\nいっぱいあるけど、何かのおまじないかしら？	I was wondering too.\nThere are so many. Some kind of\ncharm, maybe?
-0x27506	0x5d4	ファーニス	質問でぇぇぇす。\nパディッシュ様って、どんな神官竜なのぉ？	A quesssstion!\nWhat sort of priest dragon is\n{PADDISH}?
-0x27506	0x606	セス	そうねぇ。\n大きさは、普通の神官竜の倍以上はあるかしら。\nとにかく立派よ。	Let's see. More than twice the\nsize of a normal priest dragon,\nI'd say. Truly magnificent.
-0x27506	0x64c	セス	パディッシュ様の左側に、金竜　メーフィスさまの所に通じる穴が開いているわ。	To {PADDISH}'s left there's a hole\nthat leads to the gold dragon,\nLord {MEPHIS}.
-0x27506	0x682	ファーニス	伝説に出て来る神様に会えるなんて、信じられなぁぁぁい。\nファーニス、ラッキー。	I can't believe I get to meet a\ngod from the legends!\nLucky {FURNIS}!
-0x27506	0x6c6	ライド	何か、とんでもない事になったなぁ。こういうのって、乗りかけた船って言うのかな。	Things have gotten out of hand.\nGuess this is what they mean by\nbeing along for the ride.
-0x27506	0x705	ファーニス	そのナイフ、大事な物だったんだねぇ。料理する時、包丁代りに使わなくて良かったぁ。	So that knife was something\nprecious. Good thing I didn't\nuse it to chop veggies.
-0x27506	0x751	ファーニス	鎧の塔って、どこにあるのぉ？	Where is the {ARMOR TOWER}?
-0x27506	0x76f	セス	鎧の塔は、フローディーテの森の中腹にあるの。\nとても高い塔だし、遠見の水晶にも映るはずよ。	The {ARMOR TOWER} sits halfway up\n{FRODITE FOREST}. It's very tall,\nso the {SCRYING CRYSTAL} should\nshow it.
-0x27a3b	0x12	ライド	鎧の塔かぁ。\nそう言えば、フローディーテの森の中ほどに、何か塔があったっけ。	The {ARMOR TOWER}, huh.\nCome to think of it, there was some\ntower in the middle of Frodite\nFOREST.
-0x27a3b	0x4b	セス	遠見の水晶を持っているのなら、すぐに見つかるわ。\nさぁ、急ぎましょう。	With the {SCRYING CRYSTAL}, we'll\nfind it in no time.\nCome, let's hurry.
-0x27a3b	0x7f	ウォーリック	チョイチョイっと、取って来るぜ。	I'll nip in and grab it, easy.
-0x27a3b	0xa2	ウォーリック	まず、塔の構造を把握しなくては。	First I'd better get a feel for\nhow this tower's laid out.
-0x27a3b	0xca	ウォーリック	壁に飾ってあるリビングアーマーが恐いよなぁ。	Those living suits of {ARMOR} on the\nwalls give me the creeps.
-0x27a3b	0xf2	ウォーリック	壁にある大きな紋章に触れると、体力が回復するのは嬉しいよな。	Touching the big crest on the wall\nheals me up. Now that's nice.
-0x27a3b	0x129	ウォーリック	しかし、この３鎧７達は、いったいどこから来たんだろう？	But where in the world did all\nthis {ARMOR} come from?
-0x27a3b	0x154	ウォーリック	リビングアーマーって攻撃力はないけど、防御力が高いよなぁ。	Living {ARMOR} can't hit for much,\nbut its defense sure is high.
-0x27a3b	0x185	ウォーリック	・・・おかしい。\n上の階から、妙な気配を感じるのはなぜだ。	...Something's off.\nWhy do I sense a strange presence\nfrom the floor above?
-0x27a3b	0x1c0	ウォーリック	最上階はまだかぁ。\nレイナ達、心配してるだろうなぁ。	Not the top floor yet?\n{REINA} and the others must be\nworried sick.
-0x27a3b	0x1f0	ウォーリック	ここの壁、一面のリビングアーマーがおっかないなぁ。\nやっぱり出てくるんだろうなぁ。	This whole wall of living {ARMOR}\nis unnerving.\nBet they're gonna come at me.
-0x27a3b	0x22c	ウォーリック	かなり登ったぞ。\nそろそろ、最上階に着いてもおかしくはないんだがなぁ。	I've climbed a good ways now.\nWouldn't be strange to hit the\ntop floor any time.
-0x27a3b	0x265	ウォーリック	あのデカいリビングアーマーはどこだぁ？\n確か、アトォムとか言ってたな。	Where's that giant living armor?\nThink it called itself {ATOM}.
-0x27a3b	0x297	ウォーリック	・・・ええっと。\nどの３鎧７に、しようかなぁ。	...Let's see.\nWhich armor should I pick?
-0x27a3b	0x2c5	ウォーリック	３鎧７は決まったぞ。\n後はこの３鎧７を、アトォムの所に持って行くのか。	Got my armor picked.\nNow to lug it over to {ATOM}.
-0x27a3b	0x2fa	ウォーリック	３鎧７があった所に、３剣７と３盾７があるとか言ってたな。	It said where the armor was, there's\nalso a sword and a shield.
-0x27a3b	0x324	ウォーリック	次は、３盾７を取らなきゃな。\nおそろいの装備なんて、カッコいいだろうなぁ。	Next I'd better grab the shield.\nMatching gear would look pretty\nsharp.
-0x27a3b	0x35d	ウォーリック	全部とったぞ。\nアトォムに挨拶して、とっとと帰るかなぁ。	Got it all.\nI'll say bye to {ATOM} and head home.
-0x27a3b	0x38f	ウォーリック	さぁ、帰ろう。\nレイナ達、首を長くして待ってるだろうなぁ。	Right, let's go home.\n{REINA} and the others are\nwaiting on pins and needles.
-0x27a3b	0x3c4	ファーニス	キンキラの３鎧７だと思っていたのに、つまんないのぉ。	I figured the armor'd be all\nshiny gold. What a letdown.
-0x27a3b	0x3ef	セス	この後、ちゃんと金色になるわよ。\n早くメーフィス様の所に、３鎧７を持って行きましょう。	It'll turn gold soon enough.\nLet's hurry the armor to {MEPHIS}.
-0x27a3b	0x432	ファーニス	そう言えば、ウォーリック。\n私の３鎧７、取って来てくれたぁぁぁっ。	Oh, that's right, {WARRICK}.\nDid you fetch my armor for meeee?
-0x27a3b	0x476		忘れた。	Forgot it.
-0x27a3b	0x486	ファーニス	へへっ。\nウォーリックの３鎧７、ピカピカ。\n金竜の３鎧７なら、やっぱりこうでなくちゃねぇ。	Heheh.\n{WARRICK}'s armor, all sparkly.\n{GOLD DRAGON} armor's gotta be\nlike this, of course.
-0x27a3b	0x4c1	セス	守護騎士の戦力は揃ったけど、アスタルト様の居場所がわからないの。\n１度、パディッシュ様の所に行ってみましょう。	The {DRAGON KNIGHT}s are assembled,\nbut we can't find {ASTARTE}.\nLet's try heading to {PADDISH}.
-0x27a3b	0x50e	セス	１人で乗り込んだブラフォードが、心配だわ。\nすぐに、砂の城に行きましょう。	I'm worried about {BLAFORD}\ncharging in alone.\nLet's get to the {SAND CASTLE}, fast.
-0x27a3b	0x549	ファーニス	やったぁぁぁぁぁっ。\nやっと、お兄ちゃんに会えるよんっ。	Yaaaaay!\nI finally get to see big bro!
-0x27a3b	0x57b	ライド	砂の城に行ったら、このままクーレイアに直行ってなっちまうだろう。	If we go to the {SAND CASTLE}, we'll\nhead straight on to {KULEIA}.
-0x27a3b	0x5ab	セス	そうね。\nライランドで、ポーションとか買っておいた方がいいかもね。	Right.\nWe should stock up on {POTION}s\nand such in {RYLAND} first.
-0x27a3b	0x5e0	セス	ブラフォードったら、いつも１人で先走るんだからぁ。\n見ている、こっちの寿命がちじむわ。	{BLAFORD} always rushes off alone.\nJust watching him takes years\noff my life.
-0x27a3b	0x622	ファーニス	そのとぉぉぉぉぉり。	Exactlyyyyy!
-0x27e4d	0x12	ライド	クーレイアって、かなり広そうだなぁ。まず、何をするか？	{KULEIA} looks pretty huge.\nSo, what do we do first?
-0x27e4d	0x43	セス	まず、ブラフォードと合流するのが先決よ。\n彼を見つけるまで、大きな行動はひかえた方がいいわ。	First, we link up with {BLAFORD}.\nUntil we find him, let's not\nmake any big moves.
-0x27e4d	0x8b	ファーニス	地の水晶を探すんでしょ。\n塔の上にあるって言ってたけど。	We're after the {EARTH CRYSTAL},\nright? He said it's up top of\nthe tower.
-0x27e4d	0xc0	ライド	うぅぅぅぅぅん。\nあのカームの言葉は信じられんが、何か嫌な予感がする。\nライド\nもう少し、一階の部屋とかを回って、様子を見た方がいいんじゃないか。	Hmmmmm.\nI don't trust that {CALM}'s words,\nbut I've got a bad feeling.\p{RIDE}\nMaybe we should look around the\nfirst-floor rooms a bit more\nand see how things stand.
-0x27e4d	0x137	ファーニス	早く地の水晶、取りに行こうよぉ。\n早くしないと、魔物がどっかに隠しちゃうよ。	Let's go grab the {EARTH CRYSTAL},\nquick! If we don't hurry, the\nMONSTERs will hide it somewhere.
-0x27e4d	0x175	ライド	そうだな。\n無敵の切札は、早めに取っておいた方がいいからな。	Good point.\nBest to grab the unbeatable\ntrump card early.
-0x27e4d	0x1ae	ファーニス	お兄ちゃん、どこにいるのかなぁ。	Where could my big brother be?
-0x27e4d	0x1ce	セス	こんなに多くの亡霊騎士がいるのですもの。\nあのブラフォードも、軽はずみに動けないはずよ。	There are so many ghost {KNIGHTS}\nhere. Even {BLAFORD} couldn't\nafford to move carelessly.
-0x27e4d	0x211	ファーニス	先に、地の水晶を取りに行った方がいいんじゃない？\nカームは、塔の上にあるって言ってたよ。	Shouldn't we go get the Earth\n{CRYSTAL} first? {CALM} said it's\nup top of the tower.
-0x27e4d	0x25c	セス	そうね。\n地の水晶があれば、魔神に対して優勢に立てるわね。\nまず、地の水晶を探しましょう。	Right. With the {EARTH CRYSTAL},\nwe'd hold the edge against the\n{DEMON GOD}. Let's find it first.
-0x27e4d	0x2a0	セス	もっと、色々な所を回ってみましょう。何か、魔神についての手がかりが、あるかもしれないわ。	Let's look around more.\nWe might find some clue\nabout the {DEMON GOD}.
-0x27e4d	0x2e5	ファーニス	お家の中とかにも、行ってみよう。\n何かあるかもしれないからね。	Let's try going inside the\nhouses too. There might be\nsomething there.
-0x27e4d	0x31c	ファーニス	騎士や国民の亡霊ばかりで、魔神なんかいないねぇ。	Just knights and townsfolk ghosts.\nNo sign of the {DEMON GOD} anywhere.
-0x27e4d	0x34f	セス	そうね。\nそれより、早くブラフォードと合流しなくちゃいけないわ。\nもっと、他の所を探してみましょう。	Right. More to the point, we must\nrejoin {BLAFORD} soon.\nLet's search the other areas.
-0x27e4d	0x399	ブラフォード	このプレートで、他のドームにも行けるはずだ。\n都市外ドームを一通り回ってみよう。	This plate should take us to the\nother domes too.\nLet's tour the outer-city domes.
-0x27e4d	0x3e8	セス	少しでもいい。\n魔神の情報を集めなくては。	Anything helps.\nWe must gather word of the\n{DEMON GOD}.
-0x27e4d	0x415	レイナ	都市部に、魔神はいないと思う。\n都市外ドームを重点的に調べた方がよさそうね。	I doubt the {DEMON GOD} is in the\ncity. Better to focus our search\non the outer-city domes.
-0x27e4d	0x45e	ファーニス	そうね。\nそうしましょ。	Right. Let's do that.
-0x27e4d	0x480	セス	やはり、ドームの方に仕掛がありそうね。	There's likely some trick to the\ndomes after all.
-0x27e4d	0x4ab	ブラフォード	そろそろ、魔神も私達の存在に気が付くころだ。\n敵の攻撃も激しくなってくるぞ。	The {DEMON GOD} will sense us soon.\nIts attacks will only grow fiercer.
-0x27e4d	0x4ef	レイナ	さっき感じた魔力・・・絶対、カームだわ。\n奥にカームの実体がいる。	That magic I felt earlier...\nIt was {CALM}, for certain.\nHis true form lies deeper in.
-0x27e4d	0x536	ブラフォード	魔神との模擬戦になる。\n・・・気を引き締めていかねばな。	A mock battle with the {DEMON GOD}.\n...We must steel ourselves.
-0x27e4d	0x575	セス	魂が、自分の体を取り返しに来る。\n・・・何か、惨いモノを見てしまったわね。\nセス\nあのカーム同様、このクーレイアに残る癒えぬ魂を、早く救わなくては。	Souls coming to reclaim their\nbodies. ...We've seen something\ntruly cruel.\p{SETH}\nLike {CALM}, we must soon save the\nunhealed souls left in {KULEIA}.
-0x27e4d	0x5f1	ブラフォード	そうだな。\nしかし、ここまで来て魔神の居所が、まったくわからんとは。	Right. Yet to come this far and\nstill have no clue where the\n{DEMON GOD} hides...
-0x27e4d	0x62e	ファーニス	特戦隊のジーナスさん・・・この街の地下って言ってたね。\n穴でも掘るしかないんじゃない？\nファーニス\nどっかで、大きな穴を見た覚えがあるんだけどなぁ。\nねぇ、お兄ちゃん。	Genus of the special forces said\nit's underground, beneath this town.\nWe've no choice but to dig, right?\p{FURNIS}\nI swear I saw a big hole somewhere\naround here.\nHey, {BRO}, didn't you?
-0x27e4d	0x6b0	ブラフォード	・・・地下へ通じる穴かぁ。\nここの建築素材は、木や石でもなさそうだ。\n簡単に穴は空かんぞ。\nブラフォード\n床か壁に、少しでも穴が開いていればいいのだが。	...A hole down to the underground,\nhuh.\nThe stuff this place is built from\nisn't wood or stone.\nIt won't open up easily.\p{BLAFORD}\nIf only there were even a small hole\nin the floor or a wall somewhere.
-0x27e4d	0x735	ブラフォード	こんな結果になるとは、思わなかった。	I never thought it would turn out\nlike this.
-0x27e4d	0x75b	ファーニス	さすが、お兄ちゃん。\nポットの力を利用して、壁に穴をあけておくなんて、カッコいいぃぃぃぃっ。	That's our {BRO}!\nUsing the pot's power to blast a hole\nin the wall... so cooooool!
-0x2837b	0x12	ブラフォード	どうやら、一歩魔神に近づいた様だ。\n・・・どうした、ファーニス？\n顔色が悪いぞ。	Seems we've drawn one step closer\nto the {DEMON GOD}.\n...What's wrong, {FURNIS}?\nYou look pale.
-0x2837b	0x5e	ファーニス	ううん・・・大丈夫。\nちょっと、頭が重いだけ。	No... I'm fine.\nMy head just feels a bit heavy.
-0x2837b	0x9b	セス	どんどん大気中の魔力の濃度が上がっている。\nそれより大丈夫、ファーニス。\n元気ないわよ。	The magic in the air keeps\ngrowing denser.\nMore than that, are you okay,\n{FURNIS}? You seem out of it.
-0x2837b	0xed	ファーニス	うん・・・大丈夫。\nヘッチャラ、ヘッチャラ。	Yeah... I'm fine.\nNo worries, no worries.
-0x2837b	0x128	ブラフォード	・・・・・。	......
-0x2837b	0x13d	ブラフォード	待ってくれないか。\nあのパァンツァードラグーンが見たい。	Wait a moment.\nI want to see that {PANZER DRAGOON}.
-0x2837b	0x16f	セス	実は、私も気になっていたのよ。	Truth is, I was curious about it\ntoo.
-0x2837b	0x193	ブラフォード	黒の守護騎士、シュタイナー。\n何を考えて、魔神に付いているのか・・・。	{STEINER}, the Black {GUARDIAN}\nKnight.\nWhat is he thinking, siding with\nthe {DEMON GOD}{...}
-0x2837b	0x1cc	セス	同じ守護騎士なのに、彼だけ謎に包まれているわね。	He's a {GUARDIAN} like us, yet he\nalone is wrapped in mystery.
-0x2837b	0x1f8	セス	圧倒的に不利になってしまったわね。	We've fallen at an overwhelming\ndisadvantage.
-0x2837b	0x21f	ブラフォード	彼女達は、守護騎士ではない。\n元々、我々だけでやらねばならない戦いだったのだ。	They are not {GUARDIAN}s.\nThis was always a battle we had\nto fight alone.
-0x2837b	0x264	ライド	みんな、心配かけちまったな。\n魔神倒して帰ったら、みんなに酒でもおごるぜ。	Sorry to make you all worry.\nOnce we beat the {DEMON GOD} and\nhead home, drinks are on me.
-0x2837b	0x2a3	ナッツ	魔神は近い様ね。\n一気に、突破してしまいましょう。	The {DEMON GOD} is near.\nLet's break through in one push.
-0x2837b	0x2d6	ライド	黒竜、ルードかぁ。\nまさか、神官竜と戦うとは思わなかったぜ。	The {BLACK DRAGON}, {RUDE}{...}\nNever thought I'd fight a\n{PRIEST DRAGON}.
-0x2837b	0x309	セス	魔神に支配されているのよ。\nルード様を、神官竜と思わない方がいいわ。	He's controlled by the {DEMON GOD}.\nBest not to think of {RUDE}\nas the {PRIEST DRAGON} anymore.
-0x2837b	0x342	ブラフォード	早く、シュタイナーを追うんだ。\n奴を死なせるわめにはいかん。	After {STEINER}, quickly.\nWe cannot let him die.
-0x2837b	0x375	セス	そうね。\n神官竜を失い、これ以上多くの守護騎士も失うわけにはいかないわ。	Right. We've lost the Priest\nDRAGON. We can't afford to lose\nmore Guardians too.
-0x2837b	0x3b1	セス	さっきの、シュタイナーの声だったわ。	That was {STEINER}'s voice\njust now.
-0x2837b	0x3d1	ライド	くっそぉぉぉぉぉっ。\n奥で、何が起ったんだ。	Damn it all...\nWhat happened up ahead?
-0x2837b	0x400	セス	この奥に・・・いるわ。	Beyond here... it's there.
-0x2837b	0x42a	ブラフォード	シュタイナーも、やられてしまった様だ。\n気を抜くな。	Looks like {STEINER}'s been\nstruck down too.\nStay sharp.
-0x2837b	0x45b	セス	みんな、守護騎士の装備は付けている？\n普通の装備では、魔神に通用しないわよ。	Everyone, have you got your\n{GUARDIAN} gear on? Normal gear\nwon't work against the {DEMON GOD}.
-0x2837b	0x49d	ライド	おおうっ。\nここで、ちゃんとチェックしておこうぜ。	Whoa.\nLet's check it over now,\nright here.
-0x286c1	0x17		ブレイス団長\n姫様が、お世話なりました。\nこれは、ワシが若い頃使っていた３剣７だ。もらってくれ。	Commander {BREI}\nThank you for aiding the princess.\nThis is a sword I used in my youth.\nTake it, please.
-0x286c1	0x65		Ｍ　レイピアを受け取った。	Received the M Rapier.
-0x286c1	0x87	ファーニス	これなら、私も使えるね。	This one, even I can use.
-0x286c1	0xa9		ブレイス団長\n姫様は、たのもしいお仲間をお持ちですな。	Commander {BREI}\nThe princess keeps reliable\ncompany indeed.
-0x286c1	0xd3		ブレイス団長\nウォーリック殿、ライド殿。\n戦が終ったら、セルーシュの聖騎士にならんか？	Commander {BREI}\n{WARRICK}, {RIDE}.\nWhen the war ends, will you become\npaladins of {SERUSH}?
-0x286c1	0x109	パーシャ	いくら強い魔導師でも、接近戦に持ち込めば勝てるわ。\n気を抜いちゃダメよ。	No matter how strong a mage is,\nclose the distance and you can win.\nDon't let your guard down.
-0x286c1	0x14e	パーシャ	大将さえ倒せば、忠義という概念の無い魔物達は敗走するわ。\n勝利は目前よ。	Fell the leader, and these monsters,\nwith no notion of loyalty, will flee.\nVictory is within reach.
-0x286c1	0x199	ファーニス	・・・宝箱だよ。	...A treasure chest.
-0x286c1	0x1b7	レイナ	コラ、ファーニス。\n勝手に開けちゃ、ダメよ。	Hey, {FURNIS}.\nDon't go opening it on your own.
-0x286c1	0x1e1	ファーニス	おおっ！？\n宝箱に、手紙がはさまってるよ。\n読んでみようか？\nファーニス\n・・・なになに。\n『マージスの、優しいプレゼント』\nファーニス\n・・・何、コレ？	Whoa!?\nThere's a letter tucked in the chest.\nShall I read it?\p{FURNIS}\n...Let's see now.\n'A kind gift from {MARGIS}.'\p{FURNIS}\n...What is this?
-0x286c1	0x26d		マージスのローブを手に入れた。	Obtained the {MARGIS} {ROBE}.
-0x286c1	0x291	ファーニス	コレ・・・もしかして、マージスおじちゃんのローブ？\n何か、変なモノ想像しちゃうね。	This... could it be\nUncle {MARGIS}'s robe?\nMakes me imagine something weird.
-0x286c1	0x2d4	レイナ	でも、凄い魔力を感じるわ。\nちっと抵抗感はあるけど、ありがたくいただきましょう。	But I feel great magic in it.\nIt's a bit off-putting, but let's\ngratefully take it.
-0x286c1	0x318	ファーニス	マージスさんって、顔に似合わず優しいんだねぇ。	{MARGIS} is kinder than his\nface lets on, isn't he?
-0x286c1	0x36f	ファーニス	シュリーカーがいる。\nあんまり近づくと、コロッと眠らされちゃうよ。	There's a shrieker.\nGet too close and it'll knock you\nright out cold.
-0x286c1	0x3b0	ライド	大丈夫だ、ファーニス。\nよく似ているが、これはシュリーカーじゃない。\nライド\nこれは、ブバオタケって言うんだ。	It's fine, {FURNIS}.\nThey look alike, but this isn't\na shrieker.\n\p{RIDE}\nThis is called a bubao mushroom.
-0x286c1	0x408	ファーニス	・・・ブバオタケ！？	...Bubaotake?!
-0x286c1	0x42a	ライド	シュリーカーみたいに移動も出来るが、人畜無害。\nおとなしい奴だぜ。\nライド\nおまけに、落ちている物は何でも飲み込む。\nダンジョ	It can move like a shrieker, but\nit's totally harmless.\nA gentle thing.\n\p{RIDE}\nPlus, it swallows up anything\nlying around. A dungeo
-0x286c1	0x48f		の掃除屋ってトコかな。	n cleaner, you could say.
-0x286c1	0x4a5	ファーニス	じゃあこのブバオちゃんも、いっぱい飲み込んでるのぉ？	So this little bubao has swallowed\na whole lot too?
-0x286c1	0x4d6	ライド	そうだな。\nちょっと切り裂いてみるかぁ。	That's right.\nLet's try cutting it open a bit.
-0x286c1	0x4fd	ファーニス	ダメだよ、ライド。\nそんな事したら、かわいそうだよぉ。	Don't, {RIDE}.\nDoing that would be so cruel.
-0x286c1	0x52a	ライド	大丈夫だって。\nこいつは生命力が高いから、そのぐらいじゃ死なないよ。\nほれ、切るぞ。	It'll be fine.\nIt's got loads of vitality, so\nthat won't kill it.\nHere goes, I'm cutting.
-0x286c1	0x57b	ライド	おおっ！？\nこんな所にもいた。	Oho!?\nThere was one here too.
-0x286c1	0x5a8		銅の魔導弾を手に入れた。	Received a copper magic bolt.
-0x286c1	0x5d1		銀の魔導弾を手に入れた。	Got a silver magic bolt.
-0x286c1	0x5fa		Ｍ　レイピアを手に入れた。	Got an M Rapier.
-0x286c1	0x623	ライド	大収穫だったな。	A fine haul, that was.
-0x286c1	0x640	ライド	ラッキー。\nまた、カモがいたぜ。	Lucky us.\nAnother sucker right here.
-0x286c1	0x66f		薬草袋を手に入れた。	Got an {HERB POUCH}.
-0x286c1	0x691		薬草袋を手に入れた。	Got an {HERB POUCH}.
-0x286c1	0x6b3		金の魔導弾を手に入れた。	Got a gold magic bolt.
-0x286c1	0x6da	ライド	まぁまぁの収穫だったな。	Not a bad haul at all.
-0x286c1	0x6fa	ライド	こんな所にも、隠れていたのかぁ。	So one was hiding here too, huh.
-0x286c1	0x725		薬草袋を手に入れた。	Got an {HERB POUCH}.
-0x286c1	0x747		飴玉を手に入れた。	Got a candy drop.
-0x286c1	0x76f		岩清水の斧を手に入れた。	Got the Rock Spring {AXE}.
-0x286c1	0x79a	ライド	こんな物、よく飲み込んだなぁ。	Can't believe it swallowed this.
-0x286c1	0x7bd	ファーニス	もう、スカスカだよ。	It's all hollow now.
-0x28bcf	0x78	ライド	うおぉぉぉぉぉっ。\n何か、場違いな所に出て来ちまったって感じだなぁ。	Ride\nWhoaaaaa!\nFeels like we ended up somewhere\nwe really don't belong.
-0x28bcf	0xb8	セス	こんなに凄い力を持っていても、魔神にはかなわなかったのね。	Even with power this great, he was\nno match for the {DEMON GOD}.
-0x28d0b	0x14	ファーニス	こういう壁見てると、イタズラ書きしたくなるよねぇ。	Looking at a wall like this makes\nyou want to scribble on it.
-0x28d0b	0x45	レイナ	壁だけ、ポッツリあるわねぇ。\nここにも、何か建築物があったのかしら？	Just a lone wall, standing there.\nI wonder if something was built\nhere too?
-0x28d0b	0x88	ライド	こういう壁って、立ちショ	A wall like this makes you want\nto take a le
-0x28d0b	0xa6		したくなるよなぁ。\nそうだろ、ウォーリック。	ak right here, doesn't it?\nRight, {WARRICK}?
-0x28d0b	0xc8	ウォーリック	ああっ。\n敵が現れても対処出来る様に、壁を背にして立ちショ	Yeah. Backing up to a wall so you\ncan handle foes if they show up\nwhile you take a le
-0x28d0b	0x101		するのは、冒険者の基本中の基本だからな。	ak is the most basic of basics\nfor an adventurer.
-0x28e15	0x8		使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使えますが、１度使うと無くなります。	When used, restores a little health,\nfavoring the weakest ally first.\nWorks in the field and in battle,\nbut is consumed after one use.
-0x28e15	0x5f		使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使えます。\n効果は薬草と同じですが、数回使う事が出来ます。	When used, restores a little health,\nfavoring the weakest ally first.\nWorks in the field and in battle.\nSame effect as the {HERB}, but it can\nbe used several times.
-0x28e15	0xc7		薬草の効果を上げたアイテムです。\n使用すると１番体力の低い者を優先し、体力を大幅に回復してくれます。\nフィールド上と戦闘中に使えますが、１度使うと無くなります。	An item with a stronger {HERB} effect.\nWhen used, restores a lot of health,\nfavoring the weakest ally first.\nWorks in the field and in battle,\nbut is consumed after one use.
-0x28e15	0x133		フィールド上で使用すると、移動速度が２倍になるアイテムです。\n一定時間を過ぎると効果が切れてしまい、無くなります。	Used in the field, this item doubles\nyour movement speed.\nAfter a time the effect wears off\nand it is consumed.
-0x28e15	0x17f		戦闘中に使える防戦用アイテムです。使用すると、敵全員を後方にテレポートさせる事が出来ます。\n１度使うと無くなります。	A defensive item for battle. When\nused, it teleports all enemies back.\nIt is consumed after one use.
-0x28e15	0x1cf		戦闘中に使える攻撃用アイテムです。使用すると、敵全員に少しダメージを与える事が出来ます。\n１度使うと無くなります。	An attack item for battle. When\nused, it deals slight damage to\nall enemies.\nIt is consumed after one use.
-0x28e15	0x21e		戦闘中に使える攻撃用アイテムです。使用すると、敵全員にダメージを与える事が出来ます。\n１度使うと無くなります。	An attack item for battle. When\nused, it deals damage to all\nenemies.\nIt is consumed after one use.
-0x28e15	0x26a		戦闘中に使える攻撃用アイテムです。使用すると、敵全員に大きなダメージを与える事が出来ます。\n１度使うと無くなります。	An attack item for battle. When\nused, it deals heavy damage to\nall enemies.\nIt is consumed after one use.
-0x28e15	0x2bb		キレイな色をした、大粒の飴玉です。使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使え、数回使う事が出来ます。	A large, beautifully colored candy.\nWhen used, restores a little health,\nfavoring the weakest ally first.\nWorks in field and battle, several\ntimes.
-0x28e15	0x326		ジーク王国の道具屋で売っています。ワイバーンの餌ですが、使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使え、数回使う事が出来ます。	Sold at the {ITEM SHOP} in {ZEKE}\nKINGDOM. It is {WYVERN} feed, but\nwhen used, restores a little health,\nfavoring the weakest ally first.\nWorks in field and battle, several\ntimes.
-0x28e15	0x392		使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使え、１度使うと無くなります。	When used, restores a little health,\nfavoring the weakest ally first.\nWorks in the field and in battle,\nand is consumed after one use.
-0x28e15	0x3e6		使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使えます。効果はライフブースターと同じですが、数回使う事が出来ます。	When used, restores a little health,\nfavoring the weakest ally first.\nWorks in the field and in battle.\nSame effect as the Life Booster,\nbut it can be used several times.
-0x28f9d	0x8		クラウスの村の村長からもらったアイテムです。\nフィールド上でセレクトボタ	An item given by the village chief of\n{KLAUS VILLAGE} . Press the select\nbutton
-0x28f9d	0x2d		を押すと、付近の地形が映し出されます。\nただし、室内や洞窟内など狭い所では使用出来ません。	in the field to reveal the nearby\nterrain. It cannot be used in tight\nspaces like indoors or caves.
-0x28f9d	0x6d		金色に輝く刃渡り１６センチのナイフです。\n儀式に使用する様に設計され、戦闘には使えません。	A golden knife with a 16cm blade.\nDesigned for ritual use, it is\nuseless in battle.
-0x28f9d	0xaa		クラウスの村の村長　ローラが、ジーク王国の国王　ベイグに宛てた手紙です。	A letter from {LAURA}, chief of\n{KLAUS VILLAGE}, addressed to {VEIG},\nking of {ZEKE KINGDOM}.
-0x28f9d	0xda		ライランドの宮廷魔術師　パーシャが、セルーシュ王国の魔法屋　ラミーカの宛てた手紙です。	A letter from {PASHA}, court mage of\n{RYLAND}, addressed to Lameeka, the\nmagic shopkeeper of {SERUSH KINGDOM}.
-0x28f9d	0xfb		セルーシュ王国の魔法屋　ラミーカから受け取った、魔法陣解体用アイテムです。\n全長１２センチほどの縦長の球形をしており、絶えず光りを放っています。	A magic circle dismantling item from\nLameeka, the magic shopkeeper of\n{SERUSH KINGDOM}. A tall sphere about\n12cm long, it glows without ceasing.
-0x28f9d	0x14b		元々、ジーク王国の国宝としてあった、肉体を分子レベルで破壊するアイテムです。\n全長３０センチほどの、透明感のある八面体をしています。	Once a national treasure of , it\ndestroys flesh at the\nmolecular level. A clear octahedron\nabout 30cm long.
-0x28f9d	0x19e		ライランドの宮廷魔術師　パーシャからもらった、砂の城の鍵です。\n金で作られたペンダントに緑色の宝石がはめられています。	The key to the {SAND CASTLE}, given\nby {PASHA}, court mage of {RYLAND}.\nA gold pendant set with a green gem.
-0x28f9d	0x1d9		弾導ポットの１機を起動させる鍵です。縦　１３センチ、横　６センチほどの、銅色をした金属製の板です。\n表面には、呪紋が彫られています。	A key that starts one of the\nballistic pods. A copper metal plate\nabout 13cm by 6cm, its surface\ncarved with runes.
-0x28f9d	0x22f		紫水晶の丘の頂上に生えている、全長６０センチほどの紫水晶の単結晶です。\n魔力を吸収する能力があります。	A single amethyst crystal about 60cm\nlong, grown atop {AMETHYST HILL}.\nIt can absorb magic power.
-0x28f9d	0x273		ドワーフ族の族長　クレイボーンからもらった、ドワーフの迷宮に通じる扉を開ける鍵です。	A key to the door leading into the\ndwarf labyrinth, given by\n{CLAYBOURNE}, chief of the dwarves.
-0x28f9d	0x2a0		マージスからもらった、フローディーテの森に通じる扉を開ける鍵です。	A key to the door leading into\n{FRODITE FOREST}, given by {MARGIS}.
-0x28f9d	0x2be		セスからもらった、鎧の塔の扉を開けるアイテムです。\n１０センチほどの金属製の板に、竜の紋章が浮き彫りになっています。	An item from {SETH} that opens the\ndoor to the {ARMOR TOWER}.\nA dragon crest is embossed on a\nmetal plate about 10 centimeters\nwide.
-0x28f9d	0x300		鎧の塔から取って来た、魔力を帯びた金属　ミスリル銀で作られた鎧です。胸に竜の紋章があり、その中心に水晶球がはめ込まれています。	Armor brought back from the\n{ARMOR TOWER}, forged of {MYTHRIL},\na metal charged with magic. A dragon\ncrest marks the chest, a crystal\norb set at its center.
-0x28f9d	0x354		鎧の塔から取って来た、魔力を帯びた金属　ミスリル銀で作られた盾です。中央に竜の紋章があり、その中心に水晶球がはめ込まれています。	A shield brought back from the\n{ARMOR TOWER}, forged of {MYTHRIL},\na metal charged with magic. A dragon\ncrest marks the center, a crystal\norb set within it.
-0x28f9d	0x3aa		鎧の塔から取って来た、魔力を帯びた金属　ミスリル銀で作られたバスタード　ソードです。\n鍔の部分に、水晶球がはめ込まれています。	A bastard sword brought back from\nthe {ARMOR TOWER}, forged of\n{MYTHRIL}, a metal charged with\nmagic.\nA crystal orb is set into the guard.
-0x28f9d	0x3fd		魔力を帯びた金属　ミスリル銀で作られた大きな鍋です。	A large pot forged of {MYTHRIL}, a\nmetal charged with magic.
-0x28f9d	0x424		ダークエルフ特戦隊が入っていた宝箱の中から見つけた、マージスの大迷宮に通じる扉を開ける鍵です。	A key found in the chest the strike\nteam carried.\nIt opens the door to the great\nlabyrinth of {MARGIS}.
-0x28f9d	0x45c		弾導ポットの１機を起動させる鍵です。縦　１３センチ、横　６センチほどの、銀色をした金属製の板です。\n表面には、呪紋が彫られています。	A key that activates one of the\nshell-launch pods. A silver metal\nplate, about 13 centimeters tall\nand 6 wide.\nRunes are carved on its surface.
-0x28f9d	0x4b2		全ての弾導ポットを起動させる鍵です。縦　１３センチ、横　６センチほどの、金色をした金属製の板です。\n表面には、呪紋が彫られています。	A key that activates all of the\nshell-launch pods. A gold metal\nplate, about 13 centimeters tall\nand 6 wide.\nRunes are carved on its surface.
-0x28f9d	0x508		水分を吸収する魔導具です。\n砂が固まって、直径３センチほどの球形をしており、その回りに白い線状の結晶が浮かび上がっています。	A magic tool that absorbs moisture.\nHardened sand in a sphere about 3\ncentimeters across, with thin white\nlines of crystal rising over its\nsurface.
-0x389a4	0x1029		びひのねねぱぷみゃみぴににはびふふぴぱのはぶむやみへひのねど	
-0x389a4	0x1b42	ウォーリック	とねふみょゆむべへぺぼまぽへばど	
-0x3a7f2	0x107		どぬどので	
-0x3a7f2	0x7e7		どぬぬにはなとと	
-0x3bf15	0x96b		・やぴまゆ⟨18⟩、ぱみ	
-0x3bf15	0x9e3		ま。、よなまぽ。、や	
-0x3bf15	0xa85		よと、、も	
-0x3bf15	0xc52		ぴへどやなぺぬ⟨14⟩。ばぼ	
-0x3bf15	0x1245		はにはばはでなでとばと\nなはぬばのね　　どど白竜ね	
-0x3bf15	0x128d		のねねははとファーニスなでとはに\nとばにはのの	
-0x3bf15	0x12b9		とばにのののでレイナなととのぬ	
-0x3bf15	0x12c8		とはにのののでレイナどとでのぬ	
-0x3bf15	0x12f2		ぬのとでにのにはねねで\n\nなと	
-0x3d206	0x5c3		ねなねねにばぬのにど　どで　どねなぬのにはぬぬぬな\n\nと　どぬなぬのなはねなはな	
-0x3ea84	0x7b8		ねふばまで	
-0x3ea84	0xa72	ブラフォード	セスでダークエルフむぽもゅるややカアれべふぷぼぼへぷのへひと	
-0x3ea84	0xe68		ぶまでとねぬぬへほべべぱとななばよゅぴ\nどどどどぬゆゆゃぶで	
-0x3ea84	0x12db	ウォーリック	どぬどミノタウロスとウォーリック	
-0x3ea84	0x1324	レイナ	ひぴぬなにになレイナどは	
-0x3ea84	0x1451	レイナ	暗黒魔術ににぱねなにねななになのひぱにどなのぷぷばはばどとどどどどどにぴなとど	
-0x3ea84	0x148d	ウォーリック	ななウォーリックとにぬに\n\nでで	
-0x3ea84	0x15a0		レイナとででと\n\n\nのねねののででの\n暗黒魔術のねなウォーリック	
-0x3ea84	0x15f2		ぬのので\nでので	
-0x3ea84	0x1600		にのねのねどとにはぬなのぬねねなななねなにぬなねねななにぬねなにぬどななぬのはにどどでミノタウロスばぬ金竜はの\nぬなウォーリック\nねどパンツァードラグーンはぬウォーリックのはのののの	
-0x3ea84	0x17a3		どととなとでにどにはののにでねでののなとぱひばとどぱなはにのばととばぱばばなでとなぬなとでととなぬなでとぬとでと\nウォーリックとレイナと\n暗黒魔術ででどどな	
-0x3fe0c	0xc8b	レイナ	どばふへへぷふひねなととなねひふふふぴぴぴひばのねのばぱのな	
-0x40ba0	0x568	ダ　ン	とぴのびの	
-0x40ba0	0x5ff		ぬでねでのでね	
-0x43e6a	0x623		へょぽむぱ？◇、ほででにぷ┴	
-0x43e6a	0x1234		ぱまやぼと⟨1a⟩。\nぼゃみ	
-0x43e6a	0x1a76		どのでで　どびぬば	
-0x43e6a	0x1aac		とぱねのでどばなウォーリック	
-0x43e6a	0x1b43		金竜などぬねばな　と炎竜なにににぬに　\n　ばにはぬなねに	
-0x43e6a	0x1ce1		なにのでばぬぬになにファーニスでははななにでど水晶の角にはどどととどでばにはパンツァードラグーン	
-0x47e57	0x74e	ファーニス	でどなねねねははぬぬぬななどとで	
-0x49b71	0x816		ふみど。	
-0x49b71	0xd59	セス	ぬはばぱひぴへべでぴぴぬぶぱふひねど	
-0x49b71	0xf24		ぶ　ぱぶふには	
-0x49b71	0x104d	炎竜	ねぱなねば	
-0x49b71	0x10b1		びとでばひばで黒竜のでとばでどのばは\nねで　とのでに黒竜ウォーリックでび\nねひね緑竜ねとば	
-0x49b71	0x10ea	ミノタウロス	レイナばレイナひ緑竜は黒竜どぬでばはでねはぬ\nのファーニスにぬ　なと金竜ウォーリックにぬレイナどびととばぱぬ\nにひにどはにでばのななはの　のウォーリックは　とでぬ\n\n\nぱどレイナ\nはば\nなばばにミノタウロスひぬねどははでねはとどと金竜暗黒魔術	
-0x49b71	0x11a7		レイナには	
-0x49b71	0x11ac		とぱどとののでとぱぬば	
-0x49b71	0x11b9		のはね銀竜のでとぬ\nとねで白竜	
-0x49b71	0x11cb		なばで\nとばぬでぬのでぬばねば\nははぬ金竜ので	
-0x4ade2	0x7a9		なとぬにぱパンツァードラグーン銀竜ねのでで\nぬとばとぬ\nで\nののばパンツァードラグーン銀竜とのなの	
-0x4ade2	0x85a		どででぬののでぬ	
-0x4ade2	0x889		にでのねのでどととにねのでに	
-0x4ade2	0x899		にぬねなね\nとどとのねのでにで	
-0x4cd6e	0x118		び　のでのなのなにでぬ	
-0x4cf4f	0x559		ほ、とよ！	
-0x4cf4f	0x83c		のぴなには炎竜	
-0x4cf4f	0x914		のなば。ど	
-0x4cf4f	0x927		ぷびぷぱ看護兵ぬまへ？	
-0x4cf4f	0xd0f		はパンツァードラグーンのど\nひとでのででぱとどぱに緑竜\nとば	
-0x4cf4f	0xd77		のでどばででね\nねのば\nとぬ	
-0x4cf4f	0x1117		のでねでななにに	
-0x4cf4f	0x1151		どねとぬ\nのでの	
-0x4cf4f	0x118e		ね\nとのでね\nねでねでにとにのでね	
-0x4cf4f	0x11e9		などねでね\nのでねでなねでのでにとににどにとねどになとぬとの	
-0x51cd5	0x1d31		ねぴにひははとにはの	
-0x57903	0x3ce		となと\n\nでどのぬななぬはばどでとにねね暗黒魔術なとでとにねはねなぬばひぱのにでなにど\n　とぬにとファーニスひびひのなにはのな	
-0x57903	0x1027		ふぽゑはぬ\nびぶ。と	
-0x57903	0x1705		ぼへひびま？ま	
-0x57903	0x1857		ゃねびべ。にどは	
-0x57903	0x192d		にゎれぬゃ！	
-0x57903	0x1d55		よばゃ◇。でりへや	
-0x57903	0x2197		のとや、	
-0x57903	0x2617		下さい。んと⟨17⟩⟨14⟩ぶよれ氷の洞窟ーアほ	
-0x5bf88	0x135		にねでのでにぬなねでぬなのぬなにとでのでねでにどどぬ	
-0x764ea	0x1c9		ぬとにねはので	
-0x764ea	0xce9	ウォーリック	ウォーリックウォーリック\n\n\n\n\n\n\n\n\nレイナレイナで　な	
-0x764ea	0x1341		に？とむ。ばどほはと	
-0x764ea	0x15ed		ろぬぼふぺめぺ、	
-0x764ea	0x1615		なな⟨14⟩ゐゃゅゎもゐゆ黒竜ぬ◇？・└⟨1a⟩	
-0x764ea	0x1a63		ゅぺわィェれまもみなぬは？き	
-0x764ea	0x1f8a	レイナ	ウォーリックとなにぬねののねねぬになと	
-0x77e76	0xccf	パンツァードラグーン	なとなににはどに	
-0x79aff	0x312		ぬ　はぬひ、り⟨1f⟩ぷ？	
-0x79aff	0x9ed		とひとねぴ◇ほ？	
-0x79aff	0x9fa		ふにぬふ？の・	
-0x79aff	0xb62		ぴ⟨17⟩　と。	
-0x79aff	0xe5f		と、はど	
-0x79aff	0x1156	ウォーリック	ライド　暗黒魔術とで	
-0x7b163	0x5b7		にに、ゅ	
-0x7b163	0x69c		よ？・め、はな	
-0x7b163	0x7e5		ぶ　やむめのふね！	
-0x7b163	0x935		みー⟨14⟩な。　なでなぴ	
-0x7b163	0xdc3	レイナ	でとどで	
-0x7b163	0xdd5	レイナ	ででととで	
-0x7b163	0xe32	ウォーリック	ででとでで	
-0x7b163	0xe52	ウォーリック	でとととで	
-0x7e27a	0x5b5	ファーニス	ででどな	
-0x7f076	0x644	レイナ	ウォーリック\nででとで	
-0x7f076	0x1be7		ぺほぬ⟨1b⟩⟨1a⟩とよゎ、´にでど潜砂艦ぺ	
-0x8124a	0xe28	ファーニス	ウォーリック\nレイナ\nウォーリックウォーリック\n\n\n\nウォーリック\n\n\n\n\n\n\n\nパンツァードラグーン\nで\nで	
-0x8124a	0x1167	レイナ	でにねねぬな	
-0x82bcf	0x2a4	ライド	レイナウォーリック\nで\n\nとで	
-0x82bcf	0x2c0	ファーニス	ライトニング　ボルトでで	
-0x82bcf	0x524		とのででダークエルフど	
-0x83260	0x178		とどにはばぬレイナ	
-0x8398e	0xab1	ファーニス	でで\nレイナレイナ	
-0x84493	0x1b7		べ！水晶の角⟨1a⟩\nの	
-0x84493	0x606		ひは、ば	
-0x84493	0xc7d		ょ◇　と。　の	
-0x84493	0xe25		でで？なとな	
-0x84493	0x14b6		と、？\nまぬななひ	
-0x84493	0x14e6		でァる⟨17⟩？	
-0x84493	0x1646		紫水晶るぶ⟨14⟩◇？	
-0x84493	0x2346		ふ⟨14⟩ぱ！ぼに	
-0x84493	0x2354		ア、。ふ⟨17⟩の。ぼぬ	
-0x84493	0x28dd		でぬまぴポップ、	
-0x86be2	0x19d		ライトニング　ボルトねねどのはねねにはの\nでぬと	
-0x86be2	0x288		でぶぬ、	
-0x86be2	0x167c		にはぱのびぴふのど	
-0x86be2	0x2251	レイナ	レイナパンツァードラグーンどぬぬにとととにねばぱはにと\nレイナ	
-0x86be2	0x2593	ファーニス	ででなで\n\n　パンツァードラグーン	
-0x86be2	0x2904		砂鯨、⟨1b⟩\nとれ	
-0x86be2	0x2c31	パンツァードラグーン	となどどにぬどどなど	
-0x8c4b0	0x85f	レイナ	どととなで	
-0x8c4b0	0xb7e	レイナ	ぬはぬでパンツァードラグーン	
-0x8c4b0	0xbf6	レイナ	で\n\n\n\nファーニス\nでとで	
-0x8c4b0	0x1231		ゐをの。	
-0x8c4b0	0x1557	レイナ	でどどで	
-0x8c4b0	0x1adc		とねので	
-0x8de04	0x83		どふよりろゐへーぇ規、	
-0x8eb48	0xc6c		ねぱぱ？	
-0x9072d	0x552		とら。⟨14⟩	
-0x9072d	0xb9e		拭ぴょら聖騎士、	
-0x9072d	0x179e		ぴにば　にどドラゴン　ライダー、⟨14⟩まよゅ	
-0x9072d	0x194c	ウォーリック	ファーニスででどどと	
-0x920a6	0xf88	レイナ	ででとで	
-0x920a6	0x106a	レイナ	ファーニスレイナどとと	
-0x920a6	0x147c		ゆぶに。	
-0x920a6	0x149e		ぬパンツァードラグーンびゑぷ⟨17⟩少でをへで？	
-0x920a6	0x19d9	レイナ	ファーニス　レイナでで	
-0x93f2c	0xd2a		金竜砂鯨めぱや？	
-0x93f2c	0x124c	レイナ	ブラフォード　暗黒魔術とで\nファーニス	
-0x93f2c	0x1b99		帳ひイぱ？⟨14⟩	
-0x93f2c	0x1bb4		ぶクろ⟨14⟩い・ぺんコ、箱	
-0x960b1	0x6e3	ウォーリック	パンツァードラグーンでで	
-0x960b1	0xc36		はば\n、ばに	
-0x960b1	0x111e	レイナ	パンツァードラグーンでで	
-0x960b1	0x1166	ウォーリック	でででで\nレイナウォーリック\nでととでで	
-0x960b1	0x1203	レイナ	でとどどで	
-0x970f0	0xb31		ますかぶ	
-0x970f0	0x11b3	パンツァードラグーン	ブラフォード\nどぬと	
-0x99723	0x77d	ウォーリック	レイナ\n\nファーニス\nで\nレイナレイナレイナ\n\n\n\n\nで	
-0x99723	0xb5f	ウォーリック	ダークエルフぬと\nダークエルフどで　\nで	
-0x99723	0xe24	ウォーリック	パンツァードラグーンとと	
-0x99723	0x1828		と。とィへと	
-0x99723	0x1a37		ほ⟨18⟩◇。\n⟨14⟩ゆ	
-0x9b41e	0xb8	レイナ	でとででとで\n\nレイナ	
-0x9b41e	0x815	ウォーリック	でとで\n　ウォーリック\nでとで	
-0x9b41e	0x1844		ぺアみ。巧	
-0x9b41e	0x1aaa	レイナ	でででファーニスレイナでとで	
-0x9b41e	0x1f23		ひ\nな。ど、	
-0x9cd49	0x10b		に暗黒魔術、ば	
-0x9cd49	0x1e5		もわひ、！モビーディックふひひ	
-0x9cd49	0x2e2		ぴゴり！	
-0x9cd49	0x372		ェジでと？５ーオゾな⟨14⟩墾⟨1b⟩イシに	
-0x9cd49	0x414		・お店を出よう。ェぺ⟨18⟩什　ガカる	
-0x9cd49	0xfa3		とめァほぶび？⟨18⟩え、ぴばれゥ	
-0x9dbd1	0x391		ぱめぬ⟨1a⟩、	
-0x9dbd1	0xa8c		でびでねに。	
-0x9dbd1	0xa9b		ひにとば、	
-0x9dbd1	0x146a		ゅゅな⟨17⟩。	
-0x9dbd1	0x1659		コキひ、開、エコぬ	
-0x9dbd1	0x1943	ウォーリック	ででとで	
-0x9dbd1	0x2340		にみ⟨1b⟩ぶ！	
-0x9dbd1	0x2501	パンツァードラグーン	ウォーリック\nでで	
+block_off	str_off	speaker	text	english	status
+0x0	0x33e		ででイイ？？ザゴゴゴ		
+0x0	0x358		誓でで┬ででイイ！！ブブゴゴ		
+0x0	0x5bdc		脆毒ください。ゑぁじつかつかつ		
+0x382d	0x758		誓でで┬ででイイ！！ブブゴゴ		
+0x382d	0x77e		ででイイ？？ザゴゴゴ		
+0x382d	0x798		誓でで┬ででイイ！！ブブゴゴ		
+0x382d	0x5651		る暗黒魔術なのぺでぷの⟨14⟩、。⟨17⟩も水竜ま緑竜ど船長ぱま８４		
+0x6ee0	0x29e		ででイイ？？ザゴゴゴ		
+0x6ee0	0x2be		ででイイ？？ザゴゴゴ		
+0x6ee0	0x2d8		誓でで┬ででイイ！！ブブゴゴ		
+0x6ee0	0x4be6		やゾそ似あ紫あく頬ぞそあぎぎくそあぞぞきぎぎ。きぎ。く⟨17⟩ぎ毎き⟨17⟩ぎ奔ああぞ嫉ぞぞ纂ぞぞああぞあ５６ぎくこぃそぞぃこそぞここそぞきぎぎく		
+0x6ee0	0x4fc7		んです。セドドナナソソゥシイソソト		
+0x6ee0	0x4ff4		てつ？つつづづファーニス		
+0xa6cd	0x25e		ででイイ？？ザゴゴゴ		
+0xa6cd	0x27e		ででイイ？？ザゴゴゴ		
+0xa6cd	0x298		誓でで┬ででイイ！！ブブゴゴ		
+0x235d2	0xa	カル伯爵	ブラフォードは、既にクーレイアに侵入している。\nお前達の到着を待っているであろう。\nカル伯爵\nクーレイアは、１年前までミルジーナ大陸の大峡谷にあった。\nしかし、今、このタリアトフ大陸に戻って来ている。	Blaford has already entered {KULEIA}.\nHe must be awaiting your arrival.\n\p{COUNT CAL}\nUntil a year ago, {KULEIA} lay in the\ngreat canyon of the Mirzina\ncontinent.\nBut now it has returned here, to the\n{TALIATOV} continent.	
+0x235d2	0x91	ウォーリック	このタリアトフに。\n・・・それで、その位置は？	Here, in {TALIATOV}{...}\n...So where exactly is it?	
+0x235d2	0xcc	カル伯爵	到底、徒歩で行ける所ではない。\n強力な結界が張られている。\n瞬間移動の魔法でも、送り側からのサポートが必要だ。\nカル伯爵\nセスよ。\n瞬間移動の魔法は使えたのだったな。	It is far beyond reach on foot.\nA powerful barrier surrounds it.\nEven teleport magic needs support\nfrom the sending side.\n\p{COUNT CAL}\n{SETH}.\nYou could use teleport magic, yes?	
+0x235d2	0x172	セス	はい。\n長距離移動も可能です。	Yes.\nLong-range jumps are possible too.	
+0x235d2	0x196	カル伯爵	よし。\n問題は、無いな。	Good.\nThen there is no problem.	
+0x235d2	0x1bf	ウォーリック	では、一刻も早く行きます。\nブラフォードが心配だ。	Then we leave at once.\nI fear for Blaford.	
+0x235d2	0x1eb	カル伯爵	そうだな。\n一刻も早く、ブラフォードに合流するのだ。\nしかし、焦りは禁物だぞ。	Yes.\nJoin up with Blaford as soon as you\ncan. But do not let haste undo you.	
+0x235d2	0x232	カル伯爵	準備はいいか？	Are you ready?	
+0x235d2	0x24a		ちょっと待って。\n準備は出来ている。	Wait a moment.\nWe are ready.	
+0x235d2	0x27b	カル伯爵	向こうは魔神軍の本拠地だからな。\n慎重に行動した方がいい。\n早く装備を整えて来なさい。	That is the {DEMON GOD} army's\nstronghold. Tread carefully.\nGo and ready your gear first.	
+0x235d2	0x2f5	カル伯爵	では、始めよう。\nカル伯爵\nセスよ。\n私が結界に裂け目を造り、その座標まで誘導しよう。\nお前は、移動中の制御だけでいい。	Then let us begin.\n\p{COUNT CAL}\n{SETH}.\nI will tear a rift in the barrier and\nguide you to the coordinates.\nYou need only steer in transit.	
+0x235d2	0x39b	カル伯爵	我が主よ。\n願わくば、若き守護騎士達に勝利をもたらしたまえ。\n闇を砕く、強い炎の加護を・・・。	My lord.\nI pray you grant these young guardian\nknights their victory.\nThe blessing of a strong flame to\nbreak the dark...	
+0x235d2	0x43b	マージス	・・・行ったか。	...So they've gone.	
+0x235d2	0x46f	マージス	それにしても、皆、若いな。	Still, every one of them so young.	
+0x235d2	0x48d	カル伯爵	そうだな。\n故に、彼等を失うわけにはいかない。今は、少しでも多くの戦力が必要なのだ。\nカル伯爵\nその為なら、私の命など安いモノ。	Indeed. Which is why we cannot\nafford to lose them. We need every\nbit of strength we can muster.\p{COUNT CAL}\nFor that, my life is a small price.	
+0x235d2	0x4f6	マージス	手紙の内容の事だが、本気なのだな、カル。	About what was in your letter...\nyou truly mean it, Cal?	
+0x235d2	0x526	カル伯爵	・・・本気だ。	...I mean it.	
+0x235d2	0x574	マージス	・・・３００年前。\nお前と共に、この３鎧７は死んだ。\nマスターを目の前で殺された、お前の使命の喪失と共に、この３鎧７は死んだ。\nマージス\nお前の命と引き替えに、３鎧７を復活させられるのか！？\nわかっているのか、カル。\n３鎧７が蘇る保証は、無いのだぞ。	...Three hundred years ago,\nthe armor died alongside you.\nWith your master slain before your\neyes, and your purpose lost,\nthe armor died.\p{MARGIS}\nAnd now you'd trade your life\nto bring that armor back to life!?\nDo you understand, Cal?\nThere's no guarantee\nthe armor will rise again.	
+0x235d2	0x62e	カル伯爵	・・・出来る。\n今の私なら、３鎧７を蘇らせる事が出来る。\nカル伯爵\nその力を・・・彼等が蘇らせてくれた。今度は、私が助ける番だ。	...I can do it.\nAs I am now, I can bring\nthe armor back to life.\p{COUNT CAL}\nThat power... they revived in me.\nNow it's my turn to help them.	
+0x235d2	0x6a4	マージス	・・・わかった。\nお前がそこまで言うのなら、もう何も言うまい。\n後の事は、このマージスが引き受けた。	...I understand.\nIf you say it that plainly,\nI'll say no more.\nLeave the rest to me, Margis.	
+0x235d2	0x6f6	カル伯爵	すまぬな、マージス。\n・・・・・後は頼む。	Forgive me, Margis.\n{...}..I leave the rest to you.	
+0x235d2	0x750	カル伯爵	ナッツよ、案ずる事はない。\nこれが、最後の役目だ。\n・・・炎竜の守護騎士としての、最後の役目だ。	Have no fear, {NUTTS}.\nThis is my final duty.\n...My final duty as the fire\ndragon's guardian knight.	
+0x23b2b	0x13	マージス	実は先日から、フローディーテの森に、微弱だか不吉な魔力が漂っている。\n気を付けるのだよ。\nマージス\nおおっ！？	Of late, a faint but ill-boding magic\nhas drifted through {FRODITE FOREST}.\nTake care.\n{MARGIS}\nWhat...!?	
+0x23b2b	0x70	ライド	んんっ！？	Hngh...!?	
+0x23b2b	0xaa	ソウルン	お兄ちゃん達、おじちゃんを殺しに来たんでしょ。\nそんな事、僕がさせないぞっ！\nソウルン\nさっ、おじちゃん。\n僕が助けに来たから、恐がらなくていいよ。おじちゃんは、僕が守る。	You came to kill my uncle, didn't\nyou!\nI won't let you do that!\n{SOULN}\nNow, uncle.\nI've come to save you, so don't be\nafraid. I'll protect you.	
+0x23b2b	0x120	ライド	・・・ナイスだ、ソウルン。\nもうちょっと早かったら、カッコよかったのになぁ。\nライド\n安心しろ。\n俺達とおじちゃんとは、友達だ。\n戦おうなんて、これっぽっちも考えてないぜ。	...Nice, {SOULN}.\nWould've been cooler a bit sooner,\nthough.\n{RIDE}\nRelax.\nYour uncle and us are friends.\nFighting's the last thing on our\nminds.	
+0x23b2b	0x19c	ソウルン	・・・ホント？	...Really?	
+0x23b2b	0x1b5	ライド	ホント、ホント。\nお前のおじちゃんに、聞いてみるといい。	Really, it's true.\nJust ask your uncle yourself.	
+0x23b2b	0x20e	ソウルン	・・・ホント？	...Really?	
+0x23b2b	0x22c	マージス	ああ、本当だとも。\n君は、何も心配する事はないんだ。\n彼等は、私の客人だよ。	Yes, it's quite true.\nYou've nothing to worry about.\nThey are my guests.	
+0x23b2b	0x271	ソウルン	・・・よかった。\nおじちゃんがいなくなったら、僕、さみしいもんね。\n・・・おじちゃん、早く遊ぼっ。	...Good.\nI'd be so lonely if my uncle were\ngone.\n...Uncle, let's go play soon.	
+0x23b2b	0x2b8	マージス	わかった、わかった。\n今日は、本を読んであげよう。	All right, all right.\nI'll read you a book today.	
+0x23b2b	0x2f1	ライド	・・・じゃあ、俺達は行くか。	...Well, shall we be off, then?	
+0x23b2b	0x312	マージス	済まぬな。\nこの通り、私は忙しい。\nマージス\n先ほども言ったが、フローディーテの森では気を付けろ。\n何か、得体の知れぬ者が息を潜めている。	Forgive me.\nAs you see, I am busy.\n{MARGIS}\nAs I said before, take care in\n{FRODITE FOREST}.\nSomething unknown lies in wait there.	
+0x23b2b	0x3c4	ソウルン	おじちゃんに、本、読んでもらってるんだ。邪魔しないでぇ。	My uncle's reading me a book.\nDon't bother us.	
+0x23b2b	0x3e9	ソウルン	このお守りがあると、魔物が寄って来ないんだよ。\nいつも持ってなさいって、おじちゃんが言うんだ。	With this charm, monsters won't come\nnear me. My uncle says to always\nkeep it with me.	
+0x23b2b	0x426	ソウルン	この話、とっても面白いよ。\nお兄ちゃん達も一緒に、このお話聞こうよ。	This story is so much fun.\nCome listen to it with me!	
+0x23b2b	0x455	ソウルン	おじちゃんに、いろんな事教えてもらうんだ。\nここにいる時が、一番楽しいや。	He teaches me all sorts of things.\nThis is where I'm happiest of all.	
+0x23b2b	0x485	ソウルン	今度、ドワーフのお友達も一緒に連れて来るんだ。\nおじちゃんも、いいって言ったんだよ。	Next time I'll bring my {DWARF} friend\nalong too. He said it's okay!	
+0x23b2b	0x4c7	マージス	昔、昔、ある所に、お爺さんとお婆さんがおりました。\nお爺さんは、山に芝刈りに。\nお婆さんは、川に洗濯に・・・。	Long, long ago, there lived\nan old man and an old woman.\nThe old man went to cut grass\nin the hills. The old woman went\nto the river to wash...	
+0x23b2b	0x525	マージス	上流から大きなピーチが、ドンブラコと流れて来ました。\nなんじゃ、これは！？\nお婆さんは、そのピーチを・・・。	A great big peach came bobbing\ndown from upstream.\nWhat in the world is this!?\nThe old woman took that peach...	
+0x23b2b	0x587	マージス	ピーチの中には、色白の女の子が入っていました。\nなぁんと、美しい子じゃ！\nお爺さんは、ビックリして・・・。	Inside the peach was a fair-skinned\nlittle girl.\nWhat a beautiful child!\nThe old man was so startled...	
+0x23b2b	0x5e4	マージス	ムトクと名付けられた女の子は、すくすくと育ちました。\n１８年たったある日、ムトクちゃんは・・・。	The girl, named Mutoku, grew up\nbig and strong.\nOne day, eighteen years on,\nlittle Mutoku...	
+0x23f92	0x27	ファーニス	ああっ！\n薬草、みぃぃぃつけたっ。	Ooh!\nHerbs, I fou-ou-ound 'em!	
+0x23f92	0x55	ファーニス	薬草が生えてるよ。\nラッキーだねっ、ウォーリック。	Herbs are growing here.\nLucky us, {WARRICK}!	
+0x23f92	0x8a	ファーニス	ああっ、ウォーリック。\nそこの木の根本に生えてるの、薬草じゃない？	Hey, {WARRICK}.\nGrowing at the foot of that tree...\naren't those herbs?	
+0x23f92	0xce	ファーニス	んん？\n薬草の匂いがする。\n・・・・・ほらあった。	Hmm?\nI smell herbs.\n.{...}. There, found 'em.	
+0x23f92	0x110	ファーニス	ああっ、キノコだ！\nこれって、極楽キノコじゃない？	Ooh, a mushroom!\nIsn't this a paradise mushroom?	
+0x23f92	0x150	ファーニス	ああっ、極楽キノコだ。\nこんな所に生えてるなんて、珍しいねぇ。	Ooh, a paradise mushroom.\nRare to find one growing\nin a place like this.	
+0x23f92	0x18f		薬草を採った。	Picked some herbs.	
+0x23f92	0x1ab		極楽キノコを採った。	Picked a paradise mushroom.	
+0x23f92	0x208	ファーニス	ああっ！\n薬草が生えてるよ。	Ooh!\nHerbs are growing here.	
+0x23f92	0x238	ファーニス	そこそこっ！\n木の根本に薬草が生えてるよ。	There, right there!\nHerbs at the foot of the tree.	
+0x23f92	0x272	ファーニス	んん？\nあそこに生えてるの薬草じゃない。	Hmm?\nAren't those herbs growing over\nthere?	
+0x23f92	0x2a6	ファーニス	薬草、みぃぃぃつけた。\nファーニス、ラッキー！	Herbs, I fou-ou-ound 'em.\n{FURNIS}'s lucky!	
+0x23f92	0x2d9	ファーニス	あの木の根本に生えてるの極楽キノコだね。\nラッキー！	Those are nuttsy mushrooms at\nthe base of that tree. Lucky!	
+0x23f92	0x31e	ファーニス	ああっ！\nキノコだよ、キノコ。\nこんな所に生えてるなんて、珍しいねぇ。	Oh! Mushrooms, mushrooms!\nIt's rare to find them\ngrowing in a place like this.	
+0x23f92	0x382	ファーニス	ああっ！薬草が生えてる、ラッキー。	Oh! Herbs growing here. Lucky!	
+0x23f92	0x3b3	ファーニス	そこそこっ！\n木の根本に薬草、みっけっ。	Right there, right there!\nHerbs at the base of the tree.\nFound 'em!	
+0x23f92	0x3eb	ファーニス	んん？\nあそこに薬草生えているよ。\n採っちゃおぉぉぉっと。	Hmm? Herbs growing over there.\nI'll just pick 'em right up.	
+0x23f92	0x42b	ファーニス	薬草、みっけたぁ。\nファーニス、ラッキー！	Herbs, I fooound 'em.\n{FURNIS} is lucky!	
+0x23f92	0x45e	ファーニス	あそこに生えてるの、極楽キノコだね。採っておこっと！	Those growing over there are\nnuttsy mushrooms. I'll grab 'em!	
+0x23f92	0x49f	ファーニス	ああっ！\nキノコだ。\n一応、採っておこっと。	Oh! Mushrooms.\nMight as well pick 'em.	
+0x23f92	0x528	レイナ	どこ行くの、ウォーリック。\nセルーシュ王国を出ちゃうわよ。	Where are you going, {WARRICK}?\nYou're about to leave\n{SERUSH KINGDOM}.	
+0x23f92	0x551	ウォーリック	ああっ。\n早く、キャンプに行かないとな。	Ah. We'd better get to\n{CAMP} quickly.	
+0x23f92	0x579	ファーニス	そっち行ったらセルーシュ城から離れるよ。\n戻ろうよ。	That way takes us away from\n{SERUSH CASTLE}. Let's go back.	
+0x23f92	0x5a5	ライド	この辺りは魔物が多いし、早く引き返した方がいいな。	There are lots of monsters\naround here. Best to turn\nback quickly.	
+0x23f92	0x5d3	ブージ	なぁ、ウォーリック。\nもう少し、調べる必要がありそうだと思わんか。	Hey, {WARRICK}.\nWe ought to look around a bit more,\ndon't you think?	
+0x23f92	0x612	ブージ	グレーター　デーモンだ。\n・・・やはり、ここに来ていたのか。	A greater {DEMON}.\n...So it really did come here.	
+0x23f92	0x64f	ウォーリック	３剣７で殺されているぞ。\n誰が倒したんだ？	Killed with a sword.\nWho took it down?	
+0x23f92	0x67e	ブージ	・・・この傷口。\nデーモンをこんな倒し方するなんて、普通の武器ではないな。	...This wound.\nNo ordinary weapon kills a {DEMON}\nlike this.	
+0x23f92	0x6bf	ウォーリック	こいつ等の相手側に、かなり強い奴がいるなぁ。\n・・・早く、奥に進もう。	Whoever fought these things is\nawfully strong.\n...Let's press on, fast.	
+0x23f92	0x70c	ブージ	かなりの数のデーモンが侵入している様だな。	Looks like a fair number of\ndemons have broken in here.	
+0x23f92	0x734	ウォーリック	この死体、もう凍り付いている。\n凄い冷気だ。	This corpse is already frozen\nsolid. What fearsome cold.	
+0x23f92	0x769	ブージ	おかしい。\nデーモンに、群を成す習性はないはずだ。	Strange.\nDemons aren't meant to gather\nin packs.	
+0x23f92	0x797	ウォーリック	じゃあ、どういう事だ？\nデーモンが、集会でも開いているのかなぁ。	Then what's going on?\nAre the demons holding some kind\nof meeting?	
+0x24386	0x1e	レイナ	・・・・・んんっ！\n北の空にある雲を見て。\n何か変ねぇ？	Look at those clouds in the\nnorthern sky. Something's off,\ndon't you think?	
+0x24386	0x7e	ライド	・・・・・光ったな。\nありゃ、雷雲だぁ。\nこんな昼間っから、夕立かな？	...That flashed. Those are\nstorm clouds. A bit early for\nan evening shower, isn't it?	
+0x24386	0xca	レイナ	・・・違うわ！\nあれは、魔法の雲。\n北で、誰かが戦ってるのよ。\n行ってみましょう。	...No! Those are magic clouds.\nSomeone is fighting up north.\nLet's go take a look.	
+0x24386	0x11d	レイナ	何がおこっているのか、確かめたいわ。早く、行きましょう。	I want to see what's going on.\nQuick, let's go.	
+0x24386	0x16c	ファーニス	ああっ！\n森の奥が、赤く光ったよ。\n何かあったのかなぁ？	Ah! The depths of the forest\nflashed red. I wonder what\nhappened?	
+0x24386	0x1a6	レイナ	炎球の呪文を使ったんだわ。\n森の北の方に、魔導士がいる様ね。\n行ってみましょう。	Someone cast a fireball spell.\nLooks like there's a mage to\nthe north of the forest.\nLet's go take a look.	
+0x24386	0x202	ファーニス	いったい、誰が戦ってるんだろ？	Just who is it that's fighting?	
+0x24386	0x226	レイナ	旅人が、魔物に襲われているのかしら。	Maybe a traveler is being\nattacked by monsters.	
+0x24386	0x25a	ファーニス	近いよ！\n鍔迫り合いの音がする。	We're close! I hear blades\nclashing together.	
+0x24386	0x286	レイナ	魔物相手じゃなさそうね。	That doesn't sound like a fight\nwith monsters.	
+0x24386	0x2ad	ファーニス	わあぁぁぁっ！\n大っきな水晶。\nこれ１つで、指輪いくつぐらい出来るのかなぁ。	Whoaaa! A giant crystal.\nHow many rings could you make\nout of just this one?	
+0x24386	0x2ef	ウォーリック	これが水晶の角だな。\n幸い、キメラは留守の様だな。\n早いとこ取って帰ろう。\nウォーリック\nファーニス。\n・・・キメラが来るか見張っててくれ。	So this is the crystal horn.\nLucky for us, the {CHIMERA} is\nout. Let's grab it and go.\p{WARRICK}\n{FURNIS}. ...Keep watch in case\nthe {CHIMERA} comes.	
+0x24386	0x35c	ファーニス	あらら・・・ウォーリック。\n世の中、うまくはいかないね。	Uh oh... {WARRICK}.\nLife never goes the easy way.	
+0x24386	0x392	ウォーリック	えっ！？	Huh?!	
+0x24386	0x3a5	ファーニス	ほらっ、見て。\n北に方角から、何か飛んで来るよ。\nどんどん近づいて来る。	Look, over there.\nSomething's flying in from the north.\nIt's getting closer fast.	
+0x24386	0x3f8	ウォーリック	へへっ！\nキメラなんか、楽勝だったな。	Heh!\nThat {CHIMERA} was a pushover.	
+0x24386	0x421	レイナ	何、言ってんのよ。\nちょっと、危なかったじゃない。\n早く水晶の角を取って、ゼロ船長に渡しましょ。	What are you talking about?\nThat was a close call.\nGrab the {CRYSTAL HORN} and let's\nget it to {CAPTAIN ZERO}.	
+0x24386	0x475		水晶の角を取った。	Got the {CRYSTAL HORN}.	
+0x24386	0x4a2	ウォーリック	さあ、ゼロ船長の所に戻ろう。	Right, let's head back to\n{CAPTAIN ZERO}.	
+0x24386	0x4bf		カナメイ婆さん\nこの家の２階には、私の息子夫婦が住んでいたんだ。\n息子は城の近衛隊で、嫁は神官だった。\nカナメイ婆さん\n・・・・・そう。\n２人共、もう城からは帰って来ないんだ。	Granny Kanamei\nMy son and his wife lived\nupstairs in this house.\nHe served in the castle guard,\nshe was a priestess.\n\pGranny Kanamei\n...Yes.\nNeither of them ever came\nhome from the castle again.	
+0x24386	0x54a		カナメイ婆さん\n２階に行く度、私の息子夫婦の事を思い出すよ。\n２人共、城で死んだ。\nカナメイ婆さん\nもうすぐ、孫の顔が見れると思ったのに。私の幸せを奪った魔物共が憎い。	Granny Kanamei\nEvery time I go upstairs I think\nof my son and his wife.\nThey both died at the castle.\n\pGranny Kanamei\nI was so close to seeing my\ngrandchild's face. I hate the\nmonsters that stole my joy.	
+0x24386	0x5ca		カナメイ婆さん\n私はこれから、２人の分まで、長生きするよ。\n息子夫婦の冥福を祈って生涯をおくるつもりだ。	Granny Kanamei\nFrom now on I'll live long\nenough for the two of them too.\nI'll spend my days praying for\ntheir souls to rest.	
+0x24386	0x624	セシリア	洞窟を出てしまいましたよ。\n警備隊の人達を見殺しにする気ですか、ウォーリック。\n戻った方が、良いのでは？	We've left the cave.\nDo you mean to let the guards\ndie, {WARRICK}?\nWouldn't it be better to go back?	
+0x24386	0x680	ウォーリック	そうだな。\n加勢に行った方がよさそうだ。	You're right.\nWe'd best go lend a hand.	
+0x24855	0x26	ウォーリック	何だ、このデカい扉は？\n遺跡の後かなぁ。	What's this huge door?\nMaybe it's some kind of ruin.	
+0x24855	0x59	ライド	ちょっと押してみるか。\nウォーリック、ナッツ・・・・・手を貸してくれ。	Let's try pushing it.\n{WARRICK}, {NUTTS}.{...}.\nLend me a hand.	
+0x24855	0xa0	ライド	・・・せぇぇぇのっ！\nうりゃ。	...heeeeave!\nHrrgh.	
+0x24855	0xcf	ウォーリック	・・・・・・・・だめだっ。\n内側から、鍵でも掛かってるのか。\nびくともしない。	.{...}....No good.\nMust be locked from the inside.\nIt won't budge an inch.	
+0x24855	0x113	レイナ	開きそうにないわね。\nここって、ドワーフの国じゃないのかしら。\nもっと、違う所を探してみましょう。	Doesn't seem like it'll open.\nIsn't this the {DWARF} kingdom?\nLet's look somewhere else.	
+0x24855	0x15a	ウォーリック	やっぱり開かない。\n他の所をまわってみよう。	Still won't open.\nLet's try somewhere else.	
+0x24855	0x187	ウォーリック	やっぱり、開かない。\nここにドワーフ達が非難してると思ったんだがな。	Still won't open.\nI thought the dwarves had taken\nrefuge in here.	
+0x24855	0x1bf	ライド	ドワーフはめったに死なないが、心配だな。\nもう１回、廃キョに戻って調べてみようぜ。	Dwarves rarely die, but I'm worried.\nLet's head back to the ruins\nand search once more.	
+0x24855	0x201	ウォーリック	ここが、ドワーフの先祖の地の入口だな。\nちゃんと開くかな？	So this is the entrance to the\ndwarves' ancestral land.\nWill it open, I wonder?	
+0x24855	0x24d	ファーニス	薬草の匂いはするけど、見あたらないねぇ。\nあっ、薬草を取った跡がある。	I smell herbs, but I can't see any.\nAh, there's a spot where some\nwere picked.	
+0x24855	0x28c	ファーニス	あそこの根本に、薬草を取った跡があるよ。\nこんな所に、薬草取りに来る人いるのかなぁ。	There's a spot at the base over\nthere where herbs were picked.\nWho'd come all the way out here\nto gather herbs?	
+0x24855	0x2d6	ファーニス	この森、薬草が全然ないね。\nいっぱいありそうなのに、取られちゃったんだね。	This forest has no herbs at all.\nLooks like there'd be tons,\nbut they've all been taken.	
+0x24855	0x317	ファーニス	この森、なんか人の気配があるよ。\nそれも、人間じゃない。\nドワーフかなぁ。	There's someone in this forest.\nAnd not a human, either.\nDwarves, maybe.	
+0x24855	0x362	レイナ	ライランドに戻った方がいいわ、ウォーリック。\nここから先は、人跡未踏の地だからね。	We should head back to Ryland,\n{WARRICK}. Past this point lies\nland no soul has ever walked.	
+0x24855	0x39f	ウォーリック	そうだな。\nもう、人間の領域じゃないから、慎重に行動した方がいいな。	You're right.\nThis is no longer human ground,\nso we'd best tread carefully.	
+0x24855	0x3e1	ウォーリック	さあっ。\nここから先は、人跡未踏の地だ。\n何が起るか解らないから、気を付けろっ！	Right, then.\nBeyond here is untrodden land.\nNo telling what may happen, so\nstay sharp!	
+0x24855	0x42c	ファーニス	森ならまかせて。\n絶対に迷わないから。	Leave the forest to me.\nI'll never lead us astray.	
+0x24855	0x44f	ウォーリック	頼むぞっ、ファーニス。	I'm counting on you, {FURNIS}.	
+0x24855	0x46c	レイナ	おかえりなさい、ウォーリック。	Welcome back, {WARRICK}.	
+0x24855	0x48b	ウォーリック	ただいま、レイナ。\nウォーリック\n・・・・・ほらっ。\nもらって来たぜ、守護騎士の３鎧７。	I'm home, {REINA}.\n{WARRICK}\n{...}..Here.\nBrought it back -- the\nGuardian's armor.	
+0x24855	0x4d0	ファーニス	わぁぁぁぁぁっ。\nカッコいい３鎧７だねぇ。\n・・・・・でも、金色じゃないよ。	Whoaaaa!\nWhat cool armor!\n{...}..But it isn't golden.	
+0x24855	0x513	ウォーリック	ああ、そうなんだよ。\nアトォムは、魂のカケラとか言ってたけど・・・。\nどういう意味だ、セス？	Yeah, that's right.\n{ATOM} said something about a\nsoul fragment, but...\nWhat's that mean, {SETH}?	
+0x24855	0x570	セス	その３鎧７、そのままでは普通の３鎧７なの。守護騎士の３鎧７の力は発揮出来ないわ。力を発動させるには、竜の魂を入れてもらう必要があるのよ。\nセス\n私が着ている３鎧７の首元に、水晶球が入っているでしょ。\nその中に、青白い炎があるの。\n・・・見える？	That armor as it is now is just\nordinary armor. It can't show\nthe power of the Guardian's\narmor. To awaken it, you must\nhave a dragon's soul placed in.\n{SETH}\nSee the crystal at the collar\nof the armor I wear?\nInside it is a pale blue flame.\n...Can you see it?	
+0x24855	0x62d	ウォーリック	・・・・・うんっ、見える。\n青白い炎が、チロチロ動いてるぞ。	{...}..Yeah, I see it.\nA pale blue flame, flickering\nback and forth.	
+0x24855	0x668	セス	これが魂のカケラよ。\nこの３鎧７・・・言わば、パディッシュ様の分身ね。\nセス\n３鎧７に限らず、どのパーツにも水晶球が付いていて、絶えず力を与えてくれるわ。\nもちろん、神竜の３鎧７もね。	This is a soul fragment.\nThis armor... a piece of\nLady {PADDISH} herself.\p{SETH}\nNot just the armor -- every part\nholds a crystal that feeds it\npower, without end.\nThe {DIVINE DRAGON} armor too.	
+0x24855	0x6f5	ウォーリック	ふぅぅぅん。\n面白い仕組みになってるんだなぁ。	Hmmm.\nWhat a clever bit of work.	
+0x24855	0x725	セス	それに、もしマスターの竜が死んでも、守護騎士本人が生きている限り、３鎧７は生き続けるの。\nその使命がある限り、３鎧７は不滅よ。	And even if the master dragon dies,\nso long as the guardian lives on,\nthe armor lives too.\nWhile its duty remains,\nthe armor cannot perish.	
+0x24855	0x780	ウォーリック	凄いなぁ。\nじゃあ次は、この３鎧７にその魂のカケラを入れてもらうんだな。	Amazing.\nSo next, we get this armor\nfilled with that soul fragment.	
+0x24855	0x7c0	セス	その通り。\nさぁ、早くメーフィス様の所に戻りましょう。	Exactly.\nNow, let's hurry back to\nLord {MEPHIS}.	
+0x24dcc	0x15		ブレスト　アーマー\nよぉ、ウォーリック。\n久しぶりだなぁ。\n・・・俺の事・・・覚えているかい？	Breast {ARMOR}\nHey there, {WARRICK}.\nLong time no see.\n...You remember me, don't you?	
+0x24dcc	0x63	ウォーリック	・・・ああ、覚えているとも。\nその胸の傷、その肩のへこみ。\n忘れるものか。\n３年前、俺が着ていた３鎧７だ。	...Yeah, of course I do.\nThat gash on your chest, that dent\nin your shoulder. How could I forget?\nThree years back, you were my armor.	
+0x24dcc	0xb8		ブレスト　アーマー\n覚えていてくれて嬉しいぜ、ウォーリック。まぁ、手のパーツは借り物だが、正真正銘、俺はお前の３鎧７だ。	Breast {ARMOR}\nGlad you remember, {WARRICK}.\nThe hand parts are borrowed, sure,\nbut make no mistake, I'm your armor.	
+0x24dcc	0x108	ウォーリック	・・・そうだ。\n賞金稼ぎだった俺は、生活に困って、お前を売ってしまったんだ。	...That's right.\nBack when I was a bounty hunter,\nI was so broke I sold you off.	
+0x24dcc	0x14b		ブレスト　アーマー\nそんな事、気にするなって。\nあの時は、仕方なかったんだ。\n・・・お前は悪くないぜ、ウォーリック。\nブレスト　アーマー\n実際の話、俺は売られてホッとしたんだよ。	Breast {ARMOR}\nDon't sweat it.\nYou had no choice back then.\n...It wasn't your fault, {WARRICK}.\pBREAST {ARMOR}\nTruth is, I was relieved to be sold.	
+0x24dcc	0x1c0	ウォーリック	えっ？\n・・・どういう事だ。	What?\n...What do you mean?	
+0x24dcc	0x1eb		ブレスト　アーマー\n当時、俺達は無茶な事をしてたなぁ。\n毎日毎日、魔物と戦って・・・剣技会にも出たっけ。\nその度に、お前は力を付けていった。\nブレスト　アーマー\n俺も、頑張ったんだがなぁ。\n・・・・・わかったんだよ。\n限界が、見えたんだよ。\nブレスト　アーマー\nお前は俺を、完全に着こなしてる。\nお前が必要とする力を、俺は貸してあげられないって。	Breast {ARMOR}\nBack then, we pushed ourselves too\nhard.\nEvery single day, fighting\nmonsters...\neven the sword tourneys.\nEach time, you grew stronger.\pBREAST {ARMOR}\nI tried my best too, but...\n{...}..I came to see it.\nI saw my own limits.\pBREAST {ARMOR}\nYou've completely outgrown me.\nThe power you need now, I just\ncan't lend it to you anymore.	
+0x24dcc	0x2e7	ウォーリック	そっ、そんな事ない。\nそんな事ないぞ、ブレスト　アーマー。	That's not true.\nThat's just not true, Breast {ARMOR}.	
+0x24dcc	0x31d		ブレスト　アーマー\nあの時、一緒にいたショート　ソードも、同じ事を考えていたんだぜ。\nお前の役に立てない事が、俺達には辛かった。	Breast {ARMOR}\nThe Short {SWORD} that was with us\nback then felt the very same way.\nIt pained us both to be of no use to\nyou.	
+0x24dcc	0x377	ウォーリック	・・・・・ブレスト　アーマー。	......Breast Armor.	
+0x24dcc	0x398		ブレスト　アーマー\nでも、俺は嬉しいぜ。\nお前が、守護騎士の候補になったんだからな。\n俺は鼻が高いぜ、ウォーリック。\nブレスト　アーマー\nさぁぁぁぁぁて。\nおしゃべりは、ここまでだ。\n俺がなぜここにいるか、わかってるな。	Breast {ARMOR}\nBut I'm happy for you.\nYou've become a candidate for\n{GUARDIAN}. I'm so proud, {WARRICK}.\pBREAST {ARMOR}\nNow theeeeeen.\nThat's enough chatter.\nYou know why I'm here, don't you?	
+0x24dcc	0x424	ウォーリック	・・・・・ああ。	{...}..Yeah.	
+0x24dcc	0x43c		ブレスト　アーマー\n勝負だ、ウォーリック。\nお前がどれだけ成長したか、試してやるぜ。	Breast {ARMOR}\nLet's settle this, {WARRICK}.\nI'll test just how far you've come.	
+0x24dcc	0x4a0	ウォーリック	ブッ、ブレスト　アーマー！	B-Breast Armor!	
+0x24dcc	0x4cd		ブレスト　アーマー\nへへっ。\n強くなったな、ウォーリック。\nそうさ・・・俺は、あの時のままなんだよ。\nブレスト　アーマー\nお前は、こんなに強くなったのに。\nお前は、こんなに成長したのに。\n・・・・・俺は、何も変わっちゃいない。\nブレスト　アーマー\nすまん、ウォーリック。\n何１つ、変わっちゃいないんだ。\n何１つ、お前の力になってやれないんだ。	Brest {ARMOR}\nHeh.\nYou've grown strong, {WARRICK}.\nBut me... I'm just as I was.\pBREST {ARMOR}\nYou've become so strong.\nYou've grown so much.\n{...}..And I haven't changed at all.\pBREST {ARMOR}\nForgive me, {WARRICK}.\nI haven't changed one bit.\nI can't lend you any of my strength.	
+0x24dcc	0x5b2	ウォーリック	・・・違うぞ。\nそれは違うぞ、ブレスト　アーマー。\nウォーリック\n俺は今、わかったんだ。\n３年前の俺は、いつも１人だと思っていた。\nそれでいいと思っていた。\nウォーリック\nでも、それは間違いだったんだ。\n・・・お前や、ショート　ソード。\nいつもお前達が、俺を守っていてくれたんだ。	...No. That's not true,\nBrest Armor.\p{WARRICK}\nI understand now.\nThree years ago, I thought I\nwas always alone.\nAnd I thought that was fine.\p{WARRICK}\nBut I was wrong.\nYou, and the Short Sword...\nYou two always protected me.	
+0x24dcc	0x68a	アーマー	・・・・・ウォーリック。	......{WARRICK}.	
+0x24dcc	0x69e	ウォーリック	お前達がいなかったら、俺はとっくに死んでいた。\nお前達がいたから、今の俺がいるんだ。	Without you, I'd have died\nlong ago.\nBecause of you, I'm here now.	
+0x24dcc	0x6e1		ブレスト　アーマー\n・・・・・へへっ。\n俺は幸せだぜ、ウォーリック。\n守護騎士になる男に、そう言ってもらえるなんて。\nブレスト　アーマー\n俺は世界で１番、幸せな３鎧７だぜ。\nブレスト　アーマー\n・・・頑張れよ、ウォーリック。\n俺達は・・・いつまでも・・・お前と・・・・・共に・・・いる・・・・・・・・。	Brest {ARMOR}\n{...}..Heh.\nI'm happy, {WARRICK}.\nTo hear that from a man who'll\nbe a {GUARDIAN}.\pBREST {ARMOR}\nI'm the happiest armor\nin all the world.\pBREST {ARMOR}\n...Give it your all, {WARRICK}.\nWe'll be... with you...\nalways..{...}..{...}.	
+0x2528a	0x2a		ウィンダム隊長\nぐわっ！	Captain Windam\nGwah!	
+0x2528a	0xae		ウィンダム隊長\nぐふっ！\n・・・・・もはやこれまでか。\n・・・お前たちは！？	Captain Windam\nGugh!\n{...}..Is this the end for me?\n...Who are you?!	
+0x2528a	0x104	ウォーリック	後は任せて下さい。\nカーマイ	Leave the rest to us.\nTake Karmai	
+0x2528a	0x120		さんを連れて、早く砦へ。	and get to the fort, quick.	
+0x2528a	0x137		ウィンダム隊長\nしかし・・・わかった。\n奴はこの奥だッ。\n奴は魔法を使うぞ・・・気を付けろ。	Captain Windam\nBut... very well.\nHe's deeper inside.\nHe wields magic... be careful.	
+0x2528a	0x18a		ウィンダム隊長\n奴は手強い。\n・・・気を付けるんだ。	Captain Windam\nHe's a tough one.\n...Stay on your guard.	
+0x2528a	0x1d0		騎士　ブレイド\n・・・俺の事はいい。\nおやっさんを・・・ウィンダム隊長を助けてくれ。	Knight Blade\n...Forget about me.\nHelp the old man... save\nCaptain Windam.	
+0x2528a	0x213		騎士　ブレイド\n・・・俺の事は気にするな。\nビボルダーの親玉を追って、おやっさんが奥に・・・早く行ってくれ。	Knight Blade\n...Don't mind me.\nThe old man chased the bivolder\nboss deeper in... go, hurry!	
+0x2528a	0x277		騎士　カーク\nしっかりしろダニエル。\nこんな所で死ぬなッ！\n騎士　カーク\n・・・あッ、あんた達か。\nこいつを・・・ダニエルを助けてくれ・・・頼むよぉ！	Knight Kirk\nHang in there, Daniel.\nDon't die in a place like this!\pKnight Kirk\n...Ah, it's you lot.\nHelp him... save Daniel...\nI'm begging you!	
+0x2528a	0x2fc	セシリア	心配しないで、カークさん。\n・・・大丈夫、助かるわ。\nセシリア\n天に導かれし汝の子等に慈しみの心持ちて、その体を癒したまえ。\nヒーリング。	Don't worry, Kirk.\n...It's all right, he'll live.\pCecilia\nO children led by the heavens,\nbe filled with mercy and let\nthis body be healed. Healing.	
+0x2528a	0x396		騎士　ダニエル\n・・・ううッ。	Knight Daniel\n...Uungh.	
+0x2528a	0x3b9	セシリア	もう大丈夫よ。\n貴方はこの人を連れて、砦に戻った方がいいわ。	He'll be fine now.\nYou'd best take this man and\nhead back to the fort.	
+0x2528a	0x3f3		騎士　カーク\n・・・あんた達は？	Knight Kirk\n...And who might you be?	
+0x2528a	0x416	ウォーリック	ウィンダム隊長達を救出に奥へ行く。後は任せてくれ。	We're heading in to rescue\nCaptain Windom. Leave the rest\nto us.	
+0x2528a	0x448		騎士　カーク\n・・・わかった。\nありがとう、皆さん。	Knight Kirk\n...Understood.\nThank you, all of you.	
+0x2528a	0x46f		騎士　カーク\n隊長達は奥に行った。	Knight Kirk\nThe captain went on ahead.	
+0x2528a	0x496	ライド	侵入した、ハンターだな。\n・・・それにしても惨いな。	Intruders, eh? Hunters.\n...Still, this is a grim sight.	
+0x2528a	0x4cd	ライド	魔法攻撃の痕がひどい。\nビボルダーにやられたな。\n内臓とかが喰い散らかされている。	The magic-attack wounds are\nsevere. Bivolders did this.\nTheir innards have been torn\nout and devoured.	
+0x2528a	0x517		騎士　フラーベ\nくっそぉぉぉっ、ビボルダーめぇ。\n・・・俺達、警備隊をなめるなぁ。	Knight Frabe\nDamn it all, those Bivolders!\n...Don't underestimate us, the\nsecurity corps.	
+0x2528a	0x559		騎士　クルーク\nウィンダム隊長を知ってるのかい。\nそれより様子がおかしいんだ。\nビボルダーの数が急激に減っているんだ。	Knight Kruke\nYou know Captain Windom?\nMore to the point, something's\nwrong. The Bivolders' numbers\nare dropping fast.	
+0x2528a	0x5e2		騎士の声\nうわぁぁぁッ！！\nこいつら壁から出て来るぞッ。	Knight's Voice\nWAAAAH!!\nThey're coming out of the wall!	
+0x2528a	0x615		騎士の声\nブレイド、後ろだ！！\n後ろにいるぞッ。	Knight's Voice\nBraid, behind you!!\nIt's right behind you!	
+0x2528a	0x662		騎士の声\n雑魚にかまうなッ。\nおやっさんに続け。	Knight's Voice\nNever mind the small fry!\nFollow the captain!	
+0x2528a	0x68f		騎士の声\nブレイド！！\nカーク組みがいないッ。	Knight's Voice\nBraid!!\nKirk's squad is gone!	
+0x2528a	0x6ed	ウォーリック	警備隊の声だ。\nビボルダーと戦闘になっている。\nファーニス。\n正確な位置がわかるか！？	The guards! They're fighting\nthe Bibolders.\n{FURNIS}.\nCan you pin down where they are?	
+0x2528a	0x743	ファーニス	・・・ダメだよ。\n全然、わかんない。\n洞窟内だから声が反響しちゃて、正確な位置なんかまったくわかんないよ。	...No good.\nI can't tell at all.\nTheir voices echo off the cave\nwalls. I can't fix the spot.	
+0x2528a	0x79b	ウォーリック	とにかく急ごう。	No matter. Let's hurry.	
+0x257ca	0x212	ウォーリック	今日はいい天気だ。\n・・・朝御飯は、何かな。	The weather's nice today.\n...I wonder what's for breakfast.	
+0x25b63	0xf	ウォーリック	朝御飯は、まだか。\n・・・ブラブラっと、散歩でも行くかなぁ。	Breakfast not ready yet?\n...Maybe I'll go for\na little walk.	
+0x25b63	0x54	ウォーリック	この頃、魔物が多いからなぁ。\n氷の洞窟に通じている裏門は、通れないと思ったぞ。	So many monsters lately.\nI doubt we could use the back gate\nto the {ICE CAVERN}.	
+0x25b63	0x93	ブージ	なら、大婆様から許可をもらうしかないな。\n俺も狩りの報告をしなければならないし、ちょうどいい。	Then we'll need {GRANNY}'s leave.\nI must report on the hunt anyway,\nso the timing's perfect.	
+0x25b63	0xdb	ウォーリック	なぁ、ブージ。\nグレーターデーモンがこの辺りにいる事って、珍しい事なのか？	Hey, {BOOJ}.\nIs it rare for a greater {DEMON}\nto turn up around here?	
+0x25b63	0x118	ブージ	ああっ。\n知能も高く、デーモンの中では上級の部類に入る。\n魔法も使うから、気を付けろ。	Aye.\nIt's clever, high among the {DEMON}\nranks. It uses magic too, so\nstay sharp.	
+0x25b63	0x169	ブージ	もっと、よく調べてみよう。\nグレーターデーモンに、神官竜・・・まったく共通点が見つからん。	Let's look closer.\nA greater {DEMON}, a {PRIEST DRAGON}{...}\nI can't find a thing they share.	
+0x25b63	0x1b8	ウォーリック	しかし、竜ってデカイなぁ。\n俺、こんな近くで見るの始めてだぜ。	Dragons sure are huge.\nFirst time I've seen one\nthis close.	
+0x25b63	0x1f8	ウォーリック	なぁ、ブージ。\n早いトコ、引き上げた方がいいぜ。	Hey, {BOOJ}.\nWe ought to pull back, and fast.	
+0x25b63	0x226	ブージ	そうしよう。\nランバートの事は、ダ　ンには黙っておいてくれ。	Let's do that.\nDon't say a word to {DAN}\nabout {LAMBERT}.	
+0x25b63	0x253	ウォーリック	家に帰って、旅の支度をしなくちゃ。でも、レイナは何て言うだろう。	Back home to pack for the trip.\nBut what will {REINA} say?	
+0x25b63	0x291	ウォーリック	なぁ、レイナ。\n旅に出る事なんて、もうないと思っていたよ。	Hey, {REINA}.\nI never thought I'd set out\non a journey again.	
+0x25b63	0x2c4	レイナ	そうね。\nいい旅になるといいわね。	True.\nI hope it's a good journey.	
+0x25b63	0x2ea	ファーニス	２人で盛り上がってるから、私は置いて行かれるかと思ったよ。\n新婚旅行代りの、いい旅になるといいね。	{REINA}\nThat's right.\nI hope it'll be a good journey.	
+0x25b63	0x343	レイナ	ファーニスがいれば、とても心強いわね。\nまた３人で旅が出来るなんて、うれしいわぁ。	With {FURNIS} along, I feel safe.\nThe three of us, traveling again...\nI'm so happy.	
+0x25b63	0x383	レイナ	まずは、この手紙を届けにジーク王国に行かなくちゃ。	First we must deliver this letter\nto {ZEKE} .	
+0x25b63	0x3ae	ファーニス	あのお婆ちゃんとジークの王様って、知合いなのかなぁ。	I wonder if that old granny knows\nthe king of {ZEKE}?	
+0x25b63	0x3de	ファーニス	人間の王様って、どんなんだろうなぁ。身長が８メートルぐらいあって、立派なんだろうなぁ。	What's a human king even like?\nEight meters tall and grand,\nI bet.	
+0x25b63	0x424	ウォーリック	普通の人間だよ。	He's just an ordinary man.	
+0x25b63	0x444	レイナ	今日は疲れたわ。\n御言葉に甘えて今日は休みましょうよ。	I'm tired today.\nLet's take them up on their offer\nand rest for now.	
+0x25b63	0x47c	ファーニス	私も、もう眠いよぉぉぉっ。\n早くお城のベットで寝たいなぁ。	I'm so sleepy too...\nI can't wait to sleep in a\ncastle bed.	
+0x25b63	0x4b6	ファーニス	わぁぁぁぁぁい。\nふかふかのベットで寝るなんて、久ぶりぃっ。	Yaaaay!\nIt's been ages since I slept in\na nice fluffy bed!	
+0x25b63	0x4ed	レイナ	そろそろ寝ましょうか。\n休める時には、キチ	Shall we turn in soon?\nWhen we can rest, we'd best	
+0x25b63	0x50f		と休んでおかなくてはね。	rest up properly.	
+0x25b63	0x527	ウォーリック	騒がしいなぁ。\nいったい、何が起ったんだ。	What a racket.\nWhat in the world happened?	
+0x25b63	0x554	ファーニス	お祭りでも始まったのかなぁ。	Maybe a festival's started up?	
+0x25b63	0x578	レイナ	レジーナの森って、確かジーク王国の北の森の奥にあるのよね。\nあまり広くはないって聞いたけど。	The {REGINA FOREST} lies deep in the\nwoods north of {ZEKE KINGDOM}, I think.\nI heard it isn't very large, though.	
+0x25b63	0x5b8	ファーニス	大丈夫だよ。\nどんな広い森でも、私がいれば迷う事ないって。	Don't worry.\nNo matter how big the forest is,\nyou won't get lost with me around.	
+0x25b63	0x5f1	レイナ	そのメデューサって、どこから来たのかしら？\nそんなに移動能力は高くない生物なのにねぇ。	Where did that {MEDUSA} come from?\nIt's not a creature that can\ntravel very far on its own.	
+0x25b63	0x632	ファーニス	テレポートで飛んで来たのかもよ。	Maybe it teleported here.	
+0x25b63	0x656	ファーニス	ウンディーネの言う通りなら、東の壁ぞいを歩いて行けば、何かわかるはずだよ。	If the {DRYAD} is right, we should\nlearn something by following the\neast wall.	
+0x25b63	0x699	レイナ	いつメデューサが出て来るかわからないわ。\n注意して進みましょう。	There's no telling when the {MEDUSA}\nwill appear.\nLet's move carefully.	
+0x25b63	0x6cf	レイナ	メデューサは、どこに隠れているのかしら。	Where could the {MEDUSA} be hiding?	
+0x25b63	0x6f2	ファーニス	メデューサって、湿気の多い所を好むんでしょ。\n地下湖の辺りが最適だね。	A {MEDUSA} likes damp places, right?\nThe underground lake would be ideal.	
+0x25b63	0x731	ファーニス	ねぇ、ライド。\nそのグレート　ソード、凄くカッコいいねぇ。	Hey, {RIDE}.\nThat great sword looks really cool.	
+0x25b63	0x768	ライド	俺の宝物さっ。\nこれ以外の３剣７は、絶対使わないぜ。	It's my treasure.\nI'll never use any sword but this\none.	
+0x26097	0x12	ファーニス	この森のどこかにいるよ。\n早く探さないと、危ないよぉ。	It's somewhere in this forest.\nWe'd better hurry, it's dangerous!	
+0x26097	0x46	レイナ	旅人でも迷い込んだのかしら？\nとにかく、探しましょう。	A traveler who lost their way?\nEither way, let's search.	
+0x26097	0x7a	ライド	衰弱がひどいが大丈夫なのか？	They're badly weakened. Will they\nbe all right?	
+0x26097	0x9e	レイナ	命に別状はないけど、早く城に戻って手当をした方がいいわ。\n急ぎましょう。	Their life isn't in danger, but we\nshould get back to the castle and\ntreat them fast. Let's hurry.	
+0x26097	0xe4	ファーニス	これから、セルーシュ王国に行くには、マーズトンネルを通って行くんでしょ。	To reach {SERUSH KINGDOM} from here,\nwe go through {MARS TUNNEL}, right?	
+0x26097	0x112	レイナ	そうよ。\n確か、ジーク王国の南東に、トンネルにつながる砦があるはずだわ。	That's right. There should be a\nfort linked to the tunnel southeast\nof {ZEKE KINGDOM}, if I recall.	
+0x26097	0x14b	レイナ	マーズトンネルには、どうやって入ったらいいのかしら。\n警備の騎士と話してみましょう。	I wonder how we get into\n{MARS TUNNEL}. Let's talk to the\nknight on guard.	
+0x26097	0x187	ファーニス	外から見た時、確か大きな塔があったよねぇ。\n私、上に行ってみたいなぁ。	When we saw it from outside, there\nwas a big tower, wasn't there?\nI want to go up to the top!	
+0x26097	0x1c7	セシリア	警備隊の人達だけでは心配です。\n私達も、追った方がよいのではないでしょうか、ウォーリック。	The guards alone worry me. Shouldn't\nwe go after them too, {WARRICK}?	
+0x26097	0x211	ウォーリック	そっ、そうだな。\nビボルダーが相手なら、魔導師がいる俺達の方が有利に戦えるはずだ。	R-right. If it's Bibolders we face,\nwe have a mage, so we'll have the\nedge in the fight.	
+0x26097	0x263	ライド	何か、ヤバそうだぞ。\nビボルダーって、こんなに集団性のある奴等じゃないはずだ。	Something's off. Bibolders aren't\nsupposed to swarm together like\nthis.	
+0x26097	0x2ab	セシリア	そうですね。\n警備隊の人達に、かなりの被害が出ている様です。\n早く、奥に進みましょう。	You're right. The guards seem to\nhave taken heavy losses. Let's\npush on ahead, fast.	
+0x26097	0x2fb	ファーニス	ビボルダーの親玉って、どんな生物なんだろう。\n何か、恐いねぇ。	What sort of creature is the\nVivolder boss?\nIt's kind of scary.	
+0x26097	0x339	レイナ	ビボルダーって言えば、魔法生物の代表的存在。\nまれに、強力な変異体がいるらしいわ。	Vivolders are the classic\nmagic creature.\nRarely a powerful mutant appears.	
+0x26097	0x38d	ファーニス	どこ行けばいいのぉ？\nセルーシュ城は、魔軍に占拠されてるんでしょう。	Where should we go?\n{SERUSH} is held\nby the demon army, right?	
+0x26097	0x3c7	セシリア	どこかに生き残った聖騎士達がいるはずです。\nまず、その者達を探しましょう。	Some {PALADIN}s must have\nsurvived somewhere.\nLet's find them first.	
+0x26097	0x404	レイナ	まず、セルーシュの街で魔法屋を探しましょう。\nジオクリスタルを受け取らなくちゃね。	First let's find the {MAGIC SHOP}\nin {SERUSH}.\nWe must collect the {GEO CRYSTAL}.	
+0x26097	0x443	ファーニス	ついでに買物もしておこうよ。\nキャンプに戻ったら、装備を整えるヒマなんかないかもしれないからね。	Let's shop while we're here.\nBack at {CAMP} there may be no\ntime to ready our gear.	
+0x26097	0x48b	レイナ	さぁ。\nジオクリスタルを受け取ったし、キャンプに戻りましょう。	There.\nWe've got the {GEO CRYSTAL}.\nLet's head back to {CAMP}.	
+0x26097	0x4bc	ファーニス	ねぇ、ライド。\nミスリルの鍋なんか何に使うのぉ？\nちょっと教えてよ。	Hey, {RIDE}.\nWhat's a {MYTHRIL} pot even for?\nCome on, tell me.	
+0x26097	0x4fa	ライド	秘密だよ。	It's a secret.	
+0x26097	0x515	ファーニス	ダイガーンさん、自分のヘルメットが出来て喜んでたね。\nライド、優しいんだぁ。	{DAIGARN} was so happy his\nhelmet was finished.\n{RIDE}, you're so kind.	
+0x26097	0x558	ライド	そんなんじゃねぇよ。\nただ頭がデカいと、弓とかに狙い撃ちされやすいからなぁ。\n重装騎兵としちゃあ、悲惨だろ。	It's not like that.\nA big head just makes you an\neasy target for arrows.\nRough on a {HEAVY CAVALRY} man.	
+0x26097	0x5b0	レイナ	テントの外にパーシャ様が待っているはずよ。\n早く行きましょう。	{PASHA} should be waiting\noutside the tent.\nLet's hurry.	
+0x26097	0x5e5	ライド	こんな大規模な戦争なんて見た事ないぜ。\n用心のために、ポーションとかいっぱい持って行った方がいいな。	I've never seen war on this scale.\nBest bring plenty of {POTION}s and the\nlike, just to be safe.	
+0x26097	0x634	ライド	セシリアも、辛い立場なのに頑張ってるなぁ。\n一見、普通の女の子なのにな。	{CECILIA}'s in a tough spot, but she\nkeeps fighting. Looks like an\nordinary girl, at a glance.	
+0x26097	0x671	ファーニス	そうだね。\nセシリアちゃんのためのも、頑張らなきゃ。\n早く、パーシャ様の所に行こっ。	Yeah. We gotta give it our all for\n{CECILIA} too. Let's hurry to\n{PASHA}.	
+0x26097	0x6b3	レイナ	この地下のどこかに魔法陣があるはずよ。\n早く解体しなければ、援軍が送られて来る可能性があるわ。	There's a {MAGIC CIRCLE} somewhere\ndown here. If we don't break it fast,\nthey may send reinforcements.	
+0x26097	0x700	ファーニス	空気が重いし、何か嫌な雰囲気だね。\n早く地上に戻りたい。	The air's heavy, and it has a nasty\nfeel to it. I want to get back\nup top fast.	
+0x26097	0x73c	ファーニス	作戦通り、ライランドの重装騎兵も城に侵入してる。\n後は、敵の大将を倒せばいいんだね。	Per the plan, {RYLAND} 's are inside\nthe castle too.\nNow we just down the enemy general.	
+0x26097	0x781	レイナ	そうね。\nそれより、さっき感じた強い魔力が気になるわ。	Right. More than that, that strong\nmagic I felt a moment ago has me\nworried.	
+0x265ea	0x12	レイナ	油断しちゃだめよ。\nまだ、敵の兵士はたくさん城内に残っているはずだから。	Don't let your guard down.\nThere must still be plenty of enemy\nsoldiers left in the castle.	
+0x265ea	0x55	ライド	もう一頑張りだ。\n敵の残存戦力を、徹底的に叩いてやろうぜ。	One more push.\nLet's crush whatever forces the\nenemy has left.	
+0x265ea	0x94	ライド	ブレイスのおっさん１人じゃ、ヤバイぜ。\n早く加勢に向おう。	Old man {BREI} can't hold out alone.\nLet's hurry and back him up.	
+0x265ea	0xc9	ファーニス	謁見室の隣の大部屋だって言ってたよ。\n急ごっ急ごっ。	He said it's the big room next to\nthe audience chamber.\nHurry, hurry!	
+0x265ea	0x105	ファーニス	ねぇ、レイナ。\nパーシャ様は砂の城って所に行けって言ってたけど、どこのあるの？	Hey, {REINA}.\n{PASHA} told us to go to a place\ncalled the {SAND CASTLE}, but\nwhere is it?	
+0x265ea	0x142	レイナ	ライランド領内って話だから、砂の海を渡らなくちゃね。\nそれには、シルバーホーンで船を見つける必要があるわ。	It's in {RYLAND}'s lands, so we'll\nhave to cross the {SAND SEA}.\nFor that, we need to find a ship\nat {SILVERHORN}.	
+0x265ea	0x182	ファーニス	シルバーホーン？\n確か、セルーシュ王国のずっと西にある港街だったよねぇ。	{SILVERHORN}?\nThat's the port town far to the\nwest of {SERUSH KINGDOM}, right?	
+0x265ea	0x1b6	ファーニス	ねぇねぇ。\n北の方で誰か戦ってるんだよ。\nちょっと、様子を見に行こうよぉ。	Hey, hey.\nSomeone's fighting up to the north.\nLet's go take a look.	
+0x265ea	0x1fa	レイナ	そうね。\n人が、魔物の襲われている可能性もあるわ。\n行ってみましょう。	Right.\nSomeone might be under attack\nby monsters.\nLet's go see.	
+0x265ea	0x239	ファーニス	面白いねぇ。\nこのタリアトフ大陸にも、こんな大きな神殿があったんだぁ。	How interesting.\nThe {TALIATOV} continent had\na temple this grand too.	
+0x265ea	0x271	レイナ	今では、人も立ち入れない土地が多いけど、昔はたくさんの文明があったようよ。	Much of this land is off-limits to\npeople now, but long ago there\nwere many civilizations.	
+0x265ea	0x2b2	ライド	ファーニス。\nお前の兄ちゃん、カッコいいなぁ。	{FURNIS}\n{RIDE}.\nYour big brother is so cool.	
+0x265ea	0x2df	ファーニス	・・・うん。\nでもね、足手纏いだって言って、いつも置いて行かれるんだぁ。	...Yeah.\nBut he always says I'd slow him down\nand leaves me behind.	
+0x265ea	0x322	レイナ	とにかく、砂の海を渡らない事には話にならないわ。\nシルバーホーンで船を探しましょう。	Anyway, none of this matters until\nwe cross the {SAND SEA}.\nLet's find a ship at {SILVERHORN}.	
+0x265ea	0x35e	ライド	そうだな。\nブラフォードに言われた通り、神官竜も探さなくてはならないしな。	Right.\nAnd like {BLAFORD} said, we've still\ngot to find the {PRIEST DRAGON} too.	
+0x265ea	0x395	ファーニス	まずは、船を探すんでしょ。	First we look for a ship, right?	
+0x265ea	0x3b5	レイナ	そうね。\n長居しそうだし、一度、宿屋に行きましょう。	Right.\nLooks like we'll be here a while.\nLet's stop by the {INN} first.	
+0x265ea	0x3ee	レイナ	まず、宿屋の２階にいるゼロ船長に会ってみましょう。	First, let's go meet {CAPTAIN ZERO}\nup on the {INN}'s second floor.	
+0x265ea	0x41e	ファーニス	船、出してくれるといいねぇ。	I hope he'll take us out to sea.	
+0x265ea	0x442	ファーニス	紫水晶の丘かぁ。\nシルバーホーンの北にあるって言うけど、キメラがいるんでしょう。	{AMETHYST HILL}, huh.\nThey say it's north of {SILVERHORN},\nbut there's a {CHIMERA} there, right?	
+0x265ea	0x476	レイナ	キメラって合成獣の事でしょう？\nたくさんの生物が合体してて、何か面白そうでいいじゃない。	A {CHIMERA}, that fused beast?\nLots of creatures merged into one.\nSounds kind of fun, doesn't it?	
+0x265ea	0x4c2	ファーニス	早く、この紫水晶を取って帰ろう。	Let's grab this {AMETHYST} and\nhurry back.	
+0x265ea	0x4e5	ライド	しかし、デカいなぁ。\nこの紫水晶１つで、いくつ作れるんだろう。	Still, it's huge.\nI wonder how many we could make\nfrom this one {AMETHYST}.	
+0x265ea	0x518	レイナ	さぁ。\n早くゼロ船長の所に持って帰りましょう。	Who knows.\nLet's hurry it back to {CAPTAIN ZERO}.	
+0x265ea	0x542	ファーニス	これで、船に乗れるんだね。\nとっても、楽しみぃ。	Now we can board the ship.\nI can't wait!	
+0x265ea	0x575	ファーニス	ゼロ船長は、港で待ってるって言ってたよ。	{CAPTAIN ZERO} said he'd be\nwaiting at the port.	
+0x265ea	0x59b	ライド	砂の上を走る船かぁ。\n１度、乗ってみたいと思ってたんだ。	A ship that runs on sand, huh.\nI've always wanted to ride one.	
+0x265ea	0x5d4	ファーニス	わぁぁぁぁぁっ。\n砂の上を走ってるよ、この船。\nカッコいいねぇ。	Whoaaaaa!\nThis ship's running on the sand!\nSo cool!	
+0x265ea	0x613	ライド	船内とか、ちっと見学させてもらおうぜ。	Let's have a look around\ninside the ship.	
+0x265ea	0x63c	ライド	何か、薄気味悪い所だなぁ。	What an eerie place this is.	
+0x265ea	0x662	ファーニス	早くカル伯爵から話を聞いて、外に出ようよぉ。	Let's hear {COUNT CAL} out\nquick and get outside.	
+0x265ea	0x68d	ファーニス	人が、住んでいそうにないねぇ。\nちょっと恐いよ。	Doesn't look like anyone lives\nhere. It's a little scary.	
+0x265ea	0x6bf	レイナ	ここに居ても、仕方がないわ。\n奥に行ってみましょう。	No use standing around here.\nLet's head deeper in.	
+0x265ea	0x6f2	ファーニス	ねぇ、ライド。\nさっきのバンパイアって話・・・本当なのぉ？	Hey, {RIDE}.\nThat talk of a vampire earlier...\nis it really true?	
+0x265ea	0x737	ライド	ああっ。\n噂で聞いたんだが、本当らしいぜ。\n正真正銘のバンパイア　ロードだ。	Yeah.\nI heard it as a rumor, but it\nseems true. A genuine vampire\nlord.	
+0x26acb	0x12	ライド	ワータイガーみたいな、強力な獣人を家来にしているとは。\nカル伯爵・・・そうとう出来るなぁ。	Fancy {COUNT CAL} keeping a beast-man\nas strong as a were-tiger for a\nvassal... He's quite something.	
+0x26acb	0x6b	ファーニス	なんだか、ドキドキしてきたね。	Somehow my heart's started racing.	
+0x26acb	0x8c	ファーニス	ねぇ、レイナ。\nあのワータイガーさん・・・人間の時、どんな顔なのかなぁ？	Hey, {REINA}.\nThat were-tiger... what does his\nface look like as a human?	
+0x26acb	0xd7	レイナ	うぅぅぅぅぅん。\nやっぱり、猫みたいな顔をしているのかしらねぇ。	Hmmm.\nI'll bet he has a face like a\ncat's, don't you think?	
+0x26acb	0x115	ファーニス	バンパイアかぁ。\nエナジードレイ	A vampire, huh.\nEnergy Drai	
+0x26acb	0x135		とか言う、体をヘロヘロにしちゃう技を使うんでしょ。	n or whatever, the move that\nleaves your whole body limp.	
+0x26acb	0x15e	ライド	それって、血を吸われるって事だろ？	That means it sucks your blood,\nright?	
+0x26acb	0x184	ライド	あのワータイガー、よく見るといい尻してるなぁ。\nもしかしたら、メスかもしれないぜ。	Look close, that were-tiger's got\na nice rear.\nMight even be a female.	
+0x26acb	0x1d2	ファーニス	私には、筋肉隆隆のお尻にしか見えないよ。	Looks like nothing but a\nmuscle-bound butt to me.	
+0x26acb	0x205	レイナ	今、ワータイガーって、数がめっきり減っているんでしょ。	Were-tigers have really dwindled\nin number these days, right?	
+0x26acb	0x23b	ファーニス	私も、聞いた事がある。\n隣の大陸では、全滅しかかってるとか。	I've heard that too.\nOn the next continent they're\nnearly wiped out.	
+0x26acb	0x276	ライド	あんな強そうなのが、ゴロゴロされても困るがな。	Having things that strong\nswarming about would be a problem\ntoo, though.	
+0x26acb	0x2a3	ライド	もう、相当歩いたぜ。\n・・・まだ着かないのかよぉ。	We've walked so far already.\n...Are we still not there yet?	
+0x26acb	0x2de	ファーニス	もうそろそろ、着いてもいいよねぇ。	We ought to be getting close by now.	
+0x26acb	0x302	レイナ	さっきの壁画の魔神って、本当なのかしら？	That demon god in the mural...\nyou think it's real?	
+0x26acb	0x32d	ファーニス	私も神様って見た事ないから、わかんなぁぁぁい。	I've never seen a god, so I really\nwouldn't knooow.	
+0x26acb	0x35b	ナッツ	不束者ですが、よろしくお願いします。	I'm not much use, but I'll do my\nbest.\nPlease take care of me.	
+0x26acb	0x382	ライド	おっ。\n・・・おうっ。\nまっ、まぁ・・・よろしくな。	Oh.\n...Oh.\nWell, uh... good to have you.	
+0x26acb	0x3c8	ナッツ	一路、ライランド城に向って、グリーク王に会うのですよね。\nライランドは城を出て、南西の方角にあります。	We head straight for {RYLAND} Castle to\nmeet King {GREEK}, yes?\n{RYLAND} lies to the southwest, once\nyou leave this castle.	
+0x26acb	0x412	レイナ	この辺りの地理に詳しい人がいると、とても助かるわね。	Having someone who knows the local\nlay of the land is a great help.	
+0x26acb	0x444	ファーニス	水も豊富だし、キレイなお城だねぇ。グリーク王やパーシャ様って、こんな所で暮らしてたんだぁ。	Water everywhere, and such a lovely\ncastle! So this is where King {GREEK}\nand Lady {PASHA} have been living.	
+0x26acb	0x486	ライド	俺が想像してたより、ずっとデカイ国だなぁ。\nもっと、小ぢんまりした国だと思っていたぜ。	This place is way bigger than I\npictured. I figured it'd be some\nlittle cramped kingdom.	
+0x26acb	0x4d0	レイナ	部屋を用意してくれたって言ってたわよね。\nそこに行って、待ってましょうよ。	They said a room was prepared for us.\nLet's head there and wait.	
+0x26acb	0x50f	ファーニス	城内も、ちょっと探検して行こうね。	Let's explore the castle a bit on\nour way.	
+0x26acb	0x537	ライド	ちょっと、城内を見物に行こうぜ。\nグリーク王も自由にしていいって、言ってくれた事だしさっ。	Let's go check out the castle.\nGreek said we could roam freely,\nso why not?	
+0x26acb	0x583	ファーニス	そうそう。\n私、２階にあったテラスに行ってみたいなぁ。\n風が、気持ちよさそうじゃん。	Yeah! I want to see that terrace\nup on the second floor.\nThe breeze looks lovely up there.	
+0x26acb	0x5d1	ファーニス	ちょっと、疲れちゃった。\n宴が始まるまで、お部屋で待ってよぉ。	I'm a little tired.\nLet's wait in our room\ntill the feast begins.	
+0x26acb	0x611	ライド	俺も疲れてきたなぁ。\nこの時間なら、宴会が始まるまで一寝入り出来るぜ。	I'm worn out too.\nWe've got time for a nap\nbefore the feast starts.	
+0x26acb	0x65c	ファーニス	・・・寝なきゃよかった。\nいい夢見てたのに、頭がガンガ	...I shouldn't have slept.\nIt was such a nice dream,\nbut now my head is pound	
+0x26acb	0x68c		するよぉ。	ing.	
+0x26acb	0x69b	レイナ	こんな形で、敵に遭遇するとはね。\n・・・パーシャ様に、言った方がいいかしら。\n一度、謁見室に行きましょう。	To run into the enemy like this...\n...Maybe we should tell {PASHA}.\nLet's head to the audience hall.	
+0x26acb	0x6fa	レイナ	地下に急ぎましょう。	Let's hurry underground.	
+0x26acb	0x718	ファーニス	エルフの国に住んでいるカーネル様以外の神官竜、見るの始めてぇ。\nドキドキしちゃうね。	My first {PRIEST DRAGON} besides\n{KARNEL} in the {ELF} land!\nMy heart's racing.	
+0x26acb	0x75b	レイナ	城の地下に、神官竜が住んでる洞窟があるなんて凄いわね。	A cave where a {PRIEST DRAGON}\nlives, deep below the castle...\nAmazing.	
+0x26acb	0x78d	ファーニス	でも、しょっちゅう地震なんか起されたら、たまったものじゃないよ。	But if it keeps setting off\nquakes all the time,\nthat's no fun at all.	
+0x26ff9	0x12	ライド	水が、豊富なわけだぜ。	And water? Plenty of it.	
+0x26ff9	0x33	ファーニス	ふわぁぁぁぁぁっ。\nライランドの水って、キレイなんだぁ。	Whoaaaa.\n{RYLAND}'s water is so clean!	
+0x26ff9	0x65	レイナ	じゃあ、早く地上に戻りましょう。	Then let's hurry back up top.	
+0x26ff9	0x8a	ファーニス	パーシャ様が、待ってるしね。	Lady {PASHA}'s waiting on us, too.	
+0x26ff9	0xaa	ファーニス	２階の謁見室に行くんでしょう。\nお話って、何だろう。	We're off to the audience hall\non the second floor, right?\nWonder what it's about.	
+0x26ff9	0xde	レイナ	・・・さぁ？\nとにかく、グリーク王が待っているわ。早く行きましょう。	...Who knows?\nAnyway, King {GREEK} is waiting.\nLet's get going.	
+0x26ff9	0x11b	ファーニス	確か、南へ向うんだよね。\n南って何があるの、ナッツちゃん。	We head south, right?\nWhat's down south, {NUTTS}?	
+0x26ff9	0x14f	ナッツ	南には、バナークって言う大きな森が広がってるの。\n迷う様な森じゃないけどね。	To the south lies a great forest\ncalled {BARDAL}.\nIt's not a forest you'd get lost in.	
+0x26ff9	0x195	ナッツ	まずは、ドワーフ族を探した方がよいのでは？\n確か、バナークの森の東に住んでいるはずなんだけど。	Maybe we should look for the\n{DWARF} folk first?\nThey live east of {BARDAL} forest,\nif I recall right.	
+0x26ff9	0x1e0	ファーニス	ドワーフ族かぁ。\n・・・あんまり、気が進まないなぁ。	{DWARF} folk, huh.\n...I'm not too keen on that.	
+0x26ff9	0x21a	ナッツ	ここのドワーフ族は友好的って話だし、言葉も通じるから安心だと思うよ。	The {DWARF} folk here are friendly,\nand we can speak with them,\nso there's nothing to fear.	
+0x26ff9	0x256	ライド	言葉が通じるってのは、助かるよなぁ。	{RYLAND}\nBeing able to talk to them\nsure is a relief.	
+0x26ff9	0x280	ライド	・・・全滅！？\nドワーフって、そんなヤワな種族じゃないはずだぜ。	...Wiped out!?\nDWARVES aren't such a soft race.	
+0x26ff9	0x2bc	レイナ	何が起ったのか、調べてみましょう。ドワーフ族の消息が、わかるかもしれない。	Let's find out what happened.\nMaybe we'll learn where the\nDWARVES went.	
+0x26ff9	0x2f9	レイナ	ドワーフ族の死体が１体もないから、どこかに逃げ伸びた可能性が高いわ。	There's not one {DWARF} corpse here.\nGood chance they fled somewhere.	
+0x26ff9	0x334	ライド	アンデットの品質実験に使われるとは、ドワーフもいい迷惑だなぁ。	Used as test subjects for undead\nquality... rough deal for Dwarves.	
+0x26ff9	0x370	ライド	ドワーフのおっさんは、西の方角とか言っていたな。	That {DWARF} geezer said something\nabout the west.	
+0x26ff9	0x39b	ナッツ	確か、大きな扉があるはずよ。\n私は入った事ないから、中がどうなっているかわからないけどね。	There should be a big door.\nI've never been inside, so I don't\nknow what it's like in there.	
+0x26ff9	0x3e3	レイナ	まずは、族長のクレイボーンさんに話を聞きましょう。	First, let's go hear what the chief,\n{CLAYBOURNE}, has to say.	
+0x26ff9	0x40d	ファーニス	へへっ。\nあのおっちゃん面白そうだから、私も好きだよ。	Heheh.\nThat old guy seems fun, so I\nlike him too.	
+0x26ff9	0x441	ファーニス	クレイボーンのおっちゃんが、外に出るなって言ってたよ。	Old man {CLAYBOURNE} said not to\ngo outside.	
+0x26ff9	0x46c	レイナ	あの死人使いが出たら、すぐ連絡が入るって言ってたわ。\nおとなしく洞窟で待ってた方がいいわよ。	He said we'd get word the moment\nthat necromancer shows up.\nBetter to wait quietly in the cave.	
+0x26ff9	0x4ba	レイナ	あの死人使いが出たわよ。\n新しい被害が出る前に、破壊されたドワーフの国に戻りましょう。	That necromancer has shown up.\nLet's get back to the ruined {DWARF}\nland before there's more harm.	
+0x26ff9	0x509	ライド	俺のグレートソードで、叩っ斬ってやるぜ。	I'll cut him down with my\ngreatsword.	
+0x26ff9	0x537	ライド	・・・まぁ。\n気を落すな、ウォーリック。\n奴も、これで本望ってもんだぜ。	...Well. Don't take it hard, {WARRICK}.\nHe got what he wanted in the end.	
+0x26ff9	0x576	ファーニス	安全になった事、クレイボーンのおっちゃんに教えてあげなきゃ。\n洞窟に戻ろっ。	We gotta tell old {CLAYBOURNE} it's\nsafe now.\nBack to the cave!	
+0x26ff9	0x5b5	ライド	そのナイフ・・・とんでもない物なのかもしれないな。\n敵側は俺達の事を、完全にマークしてるぜ。	That knife... might be something\nhuge.\nThe enemy's got us completely marked.	
+0x26ff9	0x608	レイナ	そうね。\n早くそのナイフを、パディッシュ様に渡した方がいいわね。	Right.\nBest we get that knife to {PADDISH}\nsoon.	
+0x26ff9	0x63b	レイナ	もう、パディッシュ様の近くまで来たのかしら？	Are we near {PADDISH} already, I\nwonder?	
+0x26ff9	0x661	ファーニス	まだまだ、ある様な気がするなぁ。	Feels like there's still a long way\nto go.	
+0x26ff9	0x687	ライド	この迷宮をぬけると、パディッシュ様って神官竜がいる森なんだろ。	Past this maze is the forest where\nthat\npriest dragon {PADDISH} lives, right?	
+0x26ff9	0x6b6	ファーニス	でも、この迷宮・・・とっても広いみたいよ。\nそれに、リッチもいるって言うしね。	But this maze... it's really huge.\nAnd they say a {LICH} is here too.	
+0x26ff9	0x6fd	レイナ	リッチが仕掛けたトラップにしては、簡素な物ねぇ。\nもっと強力でも、おかしくないはずなのに。	Simple traps for a {LICH} to set.\nYou'd expect far deadlier ones.	
+0x26ff9	0x747	ファーニス	侵入者を殺す気が、ないのかもしれないねぇ。	Maybe it's got no will to kill\nthe intruders.	
+0x26ff9	0x775	レイナ	まだまだ奥が深そうね。	Looks like it runs deep still.	
+0x26ff9	0x793	ファーニス	早くゴールが見えないかなぁ。	I hope the goal comes into view soon.	
+0x27506	0x12	ファーニス	ドキドキするよ。\nリッチに会わない様にしなくちゃね。	My heart's pounding.\nWe've got to avoid running into\nthe {LICH}.	
+0x27506	0x44	ライド	もし、見つかったら芸でもして、見逃してもらうかぁ。	If we get caught, maybe I'll do\na little trick and they'll let\nus go.	
+0x27506	0x75	ファーニス	リッチって、不老不死の完全版なんでしょう。\nきっと、恐ろしい姿をしてるんだろうなぁ。	A {LICH} is the perfected form of\nthe undeathless, right?\nIt must look truly horrifying.	
+0x27506	0xbe	ナッツ	大丈夫ですよ。\n醜い者が、皆、敵とは限りませんからねぇ。	Don't worry.\nNot everyone who's ugly is an\nenemy, you know.	
+0x27506	0xfa	ライド	リッチかぁ。\n元、人間なんだろう。\n何で、好き好んで化物になんかなったんだろう。	A {LICH}, huh.\nIt used to be human.\nWhy would anyone choose to\nbecome a monster?	
+0x27506	0x142	ファーニス	人生に、嫌気がさしたのかなぁ。\nそれとも、さとりを開いたのかな。	Maybe it grew sick of life.\nOr maybe it found\nenlightenment.	
+0x27506	0x17f	ライド	リッチ・・・マージス。\nなかなかの迫力、出してるじゃん。	The {LICH}{...} {MARGIS}.\nQuite an imposing presence,\nI'll give it that.	
+0x27506	0x1bb	ファーニス	やっぱり、見つかったね。\nでも、フローディーテの森は近いみたいだよ。	We got spotted after all.\nBut {FRODITE FOREST} seems to be\nclose now.	
+0x27506	0x1ec	ファーニス	森に抜ける鍵は、やっぱりマージスが持ってるんだろうなぁ。\n扉の左側にあった扉が、マージスの部屋でしょう。	{MARGIS} must hold the key that\nleads out to the forest.\nThe door left of the door must\nbe {MARGIS}'s room.	
+0x27506	0x240	ライド	なぁ、ファーニス。\nチョロッと忍び込んで、鍵を取って来いよ。	Hey, {FURNIS}.\nSneak in real quick and grab\nthe key, would you.	
+0x27506	0x274	ファーニス	そんな事したら、死んじゃうよぉ。	If I did that, I'd get killed!	
+0x27506	0x29c	ファーニス	鍵ももらったし、早く森に行こうよぉ。外の空気が吸いたいなぁ。	We got the key, so let's hurry\nto the forest. I want to\nbreathe fresh air!	
+0x27506	0x2dd	ライド	やっぱり、生き物は光にあたらなくちゃな。	{FURNIS}\nLiving things need sunlight\nafter all.	
+0x27506	0x306	レイナ	かなり深い森ねぇ。\n幸い、遠見の水晶は使えるわ。\n確かめながら行きましょう。	Quite a deep forest.\nLuckily the scrying crystal works.\nLet's go carefully, checking as we\nmove.	
+0x27506	0x348	ファーニス	レイナは、心配性なんだからぁ。\n私とナッツちゃんがいれば、そんなの必要ないって。	{REINA} worries far too much.\nWith me and {NUTTS} along,\nwe won't be needing that.	
+0x27506	0x396		なさぁぁぁい。\n方向が、全然わかんなくなっちゃった。	Sorryyyy!\nI've completely lost all sense\nof direction.	
+0x27506	0x3c0	レイナ	遠見の水晶は使えるわ。\nこまめに見ながら、１度マージスさんの所に戻りましょう。	The scrying crystal still works.\nLet's check it often and head back\nto {MARGIS} for now.	
+0x27506	0x3ff	ファーニス	この私が、森に迷うなんて・・・絶対、何か変だよ。	Me, lost in a forest...\nSomething is definitely wrong.	
+0x27506	0x43c	レイナ	南東の方角に、森が開けている所があったわよねぇ。\nあそこまで出れば、何か様子がわかるかも。	There was a clearing in the\nforest to the southeast.\nIf we reach it, we might learn\nsomething.	
+0x27506	0x488	ライド	森で迷っていたのは、カームの力のせいだったのか！？\nこれで迷わず行けるかな。	So getting lost was {CALM}'s\npower all along!?\nNow we can go without straying.	
+0x27506	0x4c5	ファーニス	そうそう。\n普通の森で、私が迷うわけないじゃん。	That's right. No way I'd get\nlost in an ordinary forest.	
+0x27506	0x4f6	セス	パディッシュ様が待っているわ。\n地下に続く洞窟は広いから、気を付けて行きましょう。	Lady {PADDISH} is waiting.\nThe cave down below is vast,\nso let's go carefully.	
+0x27506	0x539	ファーニス	ここまで来るのに、色々あったねぇ。パディッシュ様に会えば、それも終るんだね。	So much happened getting here.\nOnce we meet Lady {PADDISH},\nit'll all be over.	
+0x27506	0x577	ファーニス	ねぇ。\nあの竜の像は、何ぃ？	Hey.\nWhat is that dragon statue?	
+0x27506	0x59b	レイナ	私も気になっていたのよ。\nいっぱいあるけど、何かのおまじないかしら？	I was wondering too.\nThere are so many. Some kind of\ncharm, maybe?	
+0x27506	0x5d4	ファーニス	質問でぇぇぇす。\nパディッシュ様って、どんな神官竜なのぉ？	A quesssstion!\nWhat sort of priest dragon is\n{PADDISH}?	
+0x27506	0x606	セス	そうねぇ。\n大きさは、普通の神官竜の倍以上はあるかしら。\nとにかく立派よ。	Let's see. More than twice the\nsize of a normal priest dragon,\nI'd say. Truly magnificent.	
+0x27506	0x64c	セス	パディッシュ様の左側に、金竜　メーフィスさまの所に通じる穴が開いているわ。	To {PADDISH}'s left there's a hole\nthat leads to the gold dragon,\nLord {MEPHIS}.	
+0x27506	0x682	ファーニス	伝説に出て来る神様に会えるなんて、信じられなぁぁぁい。\nファーニス、ラッキー。	I can't believe I get to meet a\ngod from the legends!\nLucky {FURNIS}!	
+0x27506	0x6c6	ライド	何か、とんでもない事になったなぁ。こういうのって、乗りかけた船って言うのかな。	Things have gotten out of hand.\nGuess this is what they mean by\nbeing along for the ride.	
+0x27506	0x705	ファーニス	そのナイフ、大事な物だったんだねぇ。料理する時、包丁代りに使わなくて良かったぁ。	So that knife was something\nprecious. Good thing I didn't\nuse it to chop veggies.	
+0x27506	0x751	ファーニス	鎧の塔って、どこにあるのぉ？	Where is the {ARMOR TOWER}?	
+0x27506	0x76f	セス	鎧の塔は、フローディーテの森の中腹にあるの。\nとても高い塔だし、遠見の水晶にも映るはずよ。	The {ARMOR TOWER} sits halfway up\n{FRODITE FOREST}. It's very tall,\nso the {SCRYING CRYSTAL} should\nshow it.	
+0x27a3b	0x12	ライド	鎧の塔かぁ。\nそう言えば、フローディーテの森の中ほどに、何か塔があったっけ。	The {ARMOR TOWER}, huh.\nCome to think of it, there was some\ntower in the middle of Frodite\nFOREST.	
+0x27a3b	0x4b	セス	遠見の水晶を持っているのなら、すぐに見つかるわ。\nさぁ、急ぎましょう。	With the {SCRYING CRYSTAL}, we'll\nfind it in no time.\nCome, let's hurry.	
+0x27a3b	0x7f	ウォーリック	チョイチョイっと、取って来るぜ。	I'll nip in and grab it, easy.	
+0x27a3b	0xa2	ウォーリック	まず、塔の構造を把握しなくては。	First I'd better get a feel for\nhow this tower's laid out.	
+0x27a3b	0xca	ウォーリック	壁に飾ってあるリビングアーマーが恐いよなぁ。	Those living suits of {ARMOR} on the\nwalls give me the creeps.	
+0x27a3b	0xf2	ウォーリック	壁にある大きな紋章に触れると、体力が回復するのは嬉しいよな。	Touching the big crest on the wall\nheals me up. Now that's nice.	
+0x27a3b	0x129	ウォーリック	しかし、この３鎧７達は、いったいどこから来たんだろう？	But where in the world did all\nthis {ARMOR} come from?	
+0x27a3b	0x154	ウォーリック	リビングアーマーって攻撃力はないけど、防御力が高いよなぁ。	Living {ARMOR} can't hit for much,\nbut its defense sure is high.	
+0x27a3b	0x185	ウォーリック	・・・おかしい。\n上の階から、妙な気配を感じるのはなぜだ。	...Something's off.\nWhy do I sense a strange presence\nfrom the floor above?	
+0x27a3b	0x1c0	ウォーリック	最上階はまだかぁ。\nレイナ達、心配してるだろうなぁ。	Not the top floor yet?\n{REINA} and the others must be\nworried sick.	
+0x27a3b	0x1f0	ウォーリック	ここの壁、一面のリビングアーマーがおっかないなぁ。\nやっぱり出てくるんだろうなぁ。	This whole wall of living {ARMOR}\nis unnerving.\nBet they're gonna come at me.	
+0x27a3b	0x22c	ウォーリック	かなり登ったぞ。\nそろそろ、最上階に着いてもおかしくはないんだがなぁ。	I've climbed a good ways now.\nWouldn't be strange to hit the\ntop floor any time.	
+0x27a3b	0x265	ウォーリック	あのデカいリビングアーマーはどこだぁ？\n確か、アトォムとか言ってたな。	Where's that giant living armor?\nThink it called itself {ATOM}.	
+0x27a3b	0x297	ウォーリック	・・・ええっと。\nどの３鎧７に、しようかなぁ。	...Let's see.\nWhich armor should I pick?	
+0x27a3b	0x2c5	ウォーリック	３鎧７は決まったぞ。\n後はこの３鎧７を、アトォムの所に持って行くのか。	Got my armor picked.\nNow to lug it over to {ATOM}.	
+0x27a3b	0x2fa	ウォーリック	３鎧７があった所に、３剣７と３盾７があるとか言ってたな。	It said where the armor was, there's\nalso a sword and a shield.	
+0x27a3b	0x324	ウォーリック	次は、３盾７を取らなきゃな。\nおそろいの装備なんて、カッコいいだろうなぁ。	Next I'd better grab the shield.\nMatching gear would look pretty\nsharp.	
+0x27a3b	0x35d	ウォーリック	全部とったぞ。\nアトォムに挨拶して、とっとと帰るかなぁ。	Got it all.\nI'll say bye to {ATOM} and head home.	
+0x27a3b	0x38f	ウォーリック	さぁ、帰ろう。\nレイナ達、首を長くして待ってるだろうなぁ。	Right, let's go home.\n{REINA} and the others are\nwaiting on pins and needles.	
+0x27a3b	0x3c4	ファーニス	キンキラの３鎧７だと思っていたのに、つまんないのぉ。	I figured the armor'd be all\nshiny gold. What a letdown.	
+0x27a3b	0x3ef	セス	この後、ちゃんと金色になるわよ。\n早くメーフィス様の所に、３鎧７を持って行きましょう。	It'll turn gold soon enough.\nLet's hurry the armor to {MEPHIS}.	
+0x27a3b	0x432	ファーニス	そう言えば、ウォーリック。\n私の３鎧７、取って来てくれたぁぁぁっ。	Oh, that's right, {WARRICK}.\nDid you fetch my armor for meeee?	
+0x27a3b	0x476		忘れた。	Forgot it.	
+0x27a3b	0x486	ファーニス	へへっ。\nウォーリックの３鎧７、ピカピカ。\n金竜の３鎧７なら、やっぱりこうでなくちゃねぇ。	Heheh.\n{WARRICK}'s armor, all sparkly.\n{GOLD DRAGON} armor's gotta be\nlike this, of course.	
+0x27a3b	0x4c1	セス	守護騎士の戦力は揃ったけど、アスタルト様の居場所がわからないの。\n１度、パディッシュ様の所に行ってみましょう。	The {DRAGON KNIGHT}s are assembled,\nbut we can't find {ASTARTE}.\nLet's try heading to {PADDISH}.	
+0x27a3b	0x50e	セス	１人で乗り込んだブラフォードが、心配だわ。\nすぐに、砂の城に行きましょう。	I'm worried about {BLAFORD}\ncharging in alone.\nLet's get to the {SAND CASTLE}, fast.	
+0x27a3b	0x549	ファーニス	やったぁぁぁぁぁっ。\nやっと、お兄ちゃんに会えるよんっ。	Yaaaaay!\nI finally get to see big bro!	
+0x27a3b	0x57b	ライド	砂の城に行ったら、このままクーレイアに直行ってなっちまうだろう。	If we go to the {SAND CASTLE}, we'll\nhead straight on to {KULEIA}.	
+0x27a3b	0x5ab	セス	そうね。\nライランドで、ポーションとか買っておいた方がいいかもね。	Right.\nWe should stock up on {POTION}s\nand such in {RYLAND} first.	
+0x27a3b	0x5e0	セス	ブラフォードったら、いつも１人で先走るんだからぁ。\n見ている、こっちの寿命がちじむわ。	{BLAFORD} always rushes off alone.\nJust watching him takes years\noff my life.	
+0x27a3b	0x622	ファーニス	そのとぉぉぉぉぉり。	Exactlyyyyy!	
+0x27e4d	0x12	ライド	クーレイアって、かなり広そうだなぁ。まず、何をするか？	{KULEIA} looks pretty huge.\nSo, what do we do first?	
+0x27e4d	0x43	セス	まず、ブラフォードと合流するのが先決よ。\n彼を見つけるまで、大きな行動はひかえた方がいいわ。	First, we link up with {BLAFORD}.\nUntil we find him, let's not\nmake any big moves.	
+0x27e4d	0x8b	ファーニス	地の水晶を探すんでしょ。\n塔の上にあるって言ってたけど。	We're after the {EARTH CRYSTAL},\nright? He said it's up top of\nthe tower.	
+0x27e4d	0xc0	ライド	うぅぅぅぅぅん。\nあのカームの言葉は信じられんが、何か嫌な予感がする。\nライド\nもう少し、一階の部屋とかを回って、様子を見た方がいいんじゃないか。	Hmmmmm.\nI don't trust that {CALM}'s words,\nbut I've got a bad feeling.\p{RIDE}\nMaybe we should look around the\nfirst-floor rooms a bit more\nand see how things stand.	
+0x27e4d	0x137	ファーニス	早く地の水晶、取りに行こうよぉ。\n早くしないと、魔物がどっかに隠しちゃうよ。	Let's go grab the {EARTH CRYSTAL},\nquick! If we don't hurry, the\nMONSTERs will hide it somewhere.	
+0x27e4d	0x175	ライド	そうだな。\n無敵の切札は、早めに取っておいた方がいいからな。	Good point.\nBest to grab the unbeatable\ntrump card early.	
+0x27e4d	0x1ae	ファーニス	お兄ちゃん、どこにいるのかなぁ。	Where could my big brother be?	
+0x27e4d	0x1ce	セス	こんなに多くの亡霊騎士がいるのですもの。\nあのブラフォードも、軽はずみに動けないはずよ。	There are so many ghost {KNIGHTS}\nhere. Even {BLAFORD} couldn't\nafford to move carelessly.	
+0x27e4d	0x211	ファーニス	先に、地の水晶を取りに行った方がいいんじゃない？\nカームは、塔の上にあるって言ってたよ。	Shouldn't we go get the Earth\n{CRYSTAL} first? {CALM} said it's\nup top of the tower.	
+0x27e4d	0x25c	セス	そうね。\n地の水晶があれば、魔神に対して優勢に立てるわね。\nまず、地の水晶を探しましょう。	Right. With the {EARTH CRYSTAL},\nwe'd hold the edge against the\n{DEMON GOD}. Let's find it first.	
+0x27e4d	0x2a0	セス	もっと、色々な所を回ってみましょう。何か、魔神についての手がかりが、あるかもしれないわ。	Let's look around more.\nWe might find some clue\nabout the {DEMON GOD}.	
+0x27e4d	0x2e5	ファーニス	お家の中とかにも、行ってみよう。\n何かあるかもしれないからね。	Let's try going inside the\nhouses too. There might be\nsomething there.	
+0x27e4d	0x31c	ファーニス	騎士や国民の亡霊ばかりで、魔神なんかいないねぇ。	Just knights and townsfolk ghosts.\nNo sign of the {DEMON GOD} anywhere.	
+0x27e4d	0x34f	セス	そうね。\nそれより、早くブラフォードと合流しなくちゃいけないわ。\nもっと、他の所を探してみましょう。	Right. More to the point, we must\nrejoin {BLAFORD} soon.\nLet's search the other areas.	
+0x27e4d	0x399	ブラフォード	このプレートで、他のドームにも行けるはずだ。\n都市外ドームを一通り回ってみよう。	This plate should take us to the\nother domes too.\nLet's tour the outer-city domes.	
+0x27e4d	0x3e8	セス	少しでもいい。\n魔神の情報を集めなくては。	Anything helps.\nWe must gather word of the\n{DEMON GOD}.	
+0x27e4d	0x415	レイナ	都市部に、魔神はいないと思う。\n都市外ドームを重点的に調べた方がよさそうね。	I doubt the {DEMON GOD} is in the\ncity. Better to focus our search\non the outer-city domes.	
+0x27e4d	0x45e	ファーニス	そうね。\nそうしましょ。	Right. Let's do that.	
+0x27e4d	0x480	セス	やはり、ドームの方に仕掛がありそうね。	There's likely some trick to the\ndomes after all.	
+0x27e4d	0x4ab	ブラフォード	そろそろ、魔神も私達の存在に気が付くころだ。\n敵の攻撃も激しくなってくるぞ。	The {DEMON GOD} will sense us soon.\nIts attacks will only grow fiercer.	
+0x27e4d	0x4ef	レイナ	さっき感じた魔力・・・絶対、カームだわ。\n奥にカームの実体がいる。	That magic I felt earlier...\nIt was {CALM}, for certain.\nHis true form lies deeper in.	
+0x27e4d	0x536	ブラフォード	魔神との模擬戦になる。\n・・・気を引き締めていかねばな。	A mock battle with the {DEMON GOD}.\n...We must steel ourselves.	
+0x27e4d	0x575	セス	魂が、自分の体を取り返しに来る。\n・・・何か、惨いモノを見てしまったわね。\nセス\nあのカーム同様、このクーレイアに残る癒えぬ魂を、早く救わなくては。	Souls coming to reclaim their\nbodies. ...We've seen something\ntruly cruel.\p{SETH}\nLike {CALM}, we must soon save the\nunhealed souls left in {KULEIA}.	
+0x27e4d	0x5f1	ブラフォード	そうだな。\nしかし、ここまで来て魔神の居所が、まったくわからんとは。	Right. Yet to come this far and\nstill have no clue where the\n{DEMON GOD} hides...	
+0x27e4d	0x62e	ファーニス	特戦隊のジーナスさん・・・この街の地下って言ってたね。\n穴でも掘るしかないんじゃない？\nファーニス\nどっかで、大きな穴を見た覚えがあるんだけどなぁ。\nねぇ、お兄ちゃん。	Genus of the special forces said\nit's underground, beneath this town.\nWe've no choice but to dig, right?\p{FURNIS}\nI swear I saw a big hole somewhere\naround here.\nHey, {BRO}, didn't you?	
+0x27e4d	0x6b0	ブラフォード	・・・地下へ通じる穴かぁ。\nここの建築素材は、木や石でもなさそうだ。\n簡単に穴は空かんぞ。\nブラフォード\n床か壁に、少しでも穴が開いていればいいのだが。	...A hole down to the underground,\nhuh.\nThe stuff this place is built from\nisn't wood or stone.\nIt won't open up easily.\p{BLAFORD}\nIf only there were even a small hole\nin the floor or a wall somewhere.	
+0x27e4d	0x735	ブラフォード	こんな結果になるとは、思わなかった。	I never thought it would turn out\nlike this.	
+0x27e4d	0x75b	ファーニス	さすが、お兄ちゃん。\nポットの力を利用して、壁に穴をあけておくなんて、カッコいいぃぃぃぃっ。	That's our {BRO}!\nUsing the pot's power to blast a hole\nin the wall... so cooooool!	
+0x2837b	0x12	ブラフォード	どうやら、一歩魔神に近づいた様だ。\n・・・どうした、ファーニス？\n顔色が悪いぞ。	Seems we've drawn one step closer\nto the {DEMON GOD}.\n...What's wrong, {FURNIS}?\nYou look pale.	
+0x2837b	0x5e	ファーニス	ううん・・・大丈夫。\nちょっと、頭が重いだけ。	No... I'm fine.\nMy head just feels a bit heavy.	
+0x2837b	0x9b	セス	どんどん大気中の魔力の濃度が上がっている。\nそれより大丈夫、ファーニス。\n元気ないわよ。	The magic in the air keeps\ngrowing denser.\nMore than that, are you okay,\n{FURNIS}? You seem out of it.	
+0x2837b	0xed	ファーニス	うん・・・大丈夫。\nヘッチャラ、ヘッチャラ。	Yeah... I'm fine.\nNo worries, no worries.	
+0x2837b	0x128	ブラフォード	・・・・・。	......	
+0x2837b	0x13d	ブラフォード	待ってくれないか。\nあのパァンツァードラグーンが見たい。	Wait a moment.\nI want to see that {PANZER DRAGOON}.	
+0x2837b	0x16f	セス	実は、私も気になっていたのよ。	Truth is, I was curious about it\ntoo.	
+0x2837b	0x193	ブラフォード	黒の守護騎士、シュタイナー。\n何を考えて、魔神に付いているのか・・・。	{STEINER}, the Black {GUARDIAN}\nKnight.\nWhat is he thinking, siding with\nthe {DEMON GOD}{...}	
+0x2837b	0x1cc	セス	同じ守護騎士なのに、彼だけ謎に包まれているわね。	He's a {GUARDIAN} like us, yet he\nalone is wrapped in mystery.	
+0x2837b	0x1f8	セス	圧倒的に不利になってしまったわね。	We've fallen at an overwhelming\ndisadvantage.	
+0x2837b	0x21f	ブラフォード	彼女達は、守護騎士ではない。\n元々、我々だけでやらねばならない戦いだったのだ。	They are not {GUARDIAN}s.\nThis was always a battle we had\nto fight alone.	
+0x2837b	0x264	ライド	みんな、心配かけちまったな。\n魔神倒して帰ったら、みんなに酒でもおごるぜ。	Sorry to make you all worry.\nOnce we beat the {DEMON GOD} and\nhead home, drinks are on me.	
+0x2837b	0x2a3	ナッツ	魔神は近い様ね。\n一気に、突破してしまいましょう。	The {DEMON GOD} is near.\nLet's break through in one push.	
+0x2837b	0x2d6	ライド	黒竜、ルードかぁ。\nまさか、神官竜と戦うとは思わなかったぜ。	The {BLACK DRAGON}, {RUDE}{...}\nNever thought I'd fight a\n{PRIEST DRAGON}.	
+0x2837b	0x309	セス	魔神に支配されているのよ。\nルード様を、神官竜と思わない方がいいわ。	He's controlled by the {DEMON GOD}.\nBest not to think of {RUDE}\nas the {PRIEST DRAGON} anymore.	
+0x2837b	0x342	ブラフォード	早く、シュタイナーを追うんだ。\n奴を死なせるわめにはいかん。	After {STEINER}, quickly.\nWe cannot let him die.	
+0x2837b	0x375	セス	そうね。\n神官竜を失い、これ以上多くの守護騎士も失うわけにはいかないわ。	Right. We've lost the Priest\nDRAGON. We can't afford to lose\nmore Guardians too.	
+0x2837b	0x3b1	セス	さっきの、シュタイナーの声だったわ。	That was {STEINER}'s voice\njust now.	
+0x2837b	0x3d1	ライド	くっそぉぉぉぉぉっ。\n奥で、何が起ったんだ。	Damn it all...\nWhat happened up ahead?	
+0x2837b	0x400	セス	この奥に・・・いるわ。	Beyond here... it's there.	
+0x2837b	0x42a	ブラフォード	シュタイナーも、やられてしまった様だ。\n気を抜くな。	Looks like {STEINER}'s been\nstruck down too.\nStay sharp.	
+0x2837b	0x45b	セス	みんな、守護騎士の装備は付けている？\n普通の装備では、魔神に通用しないわよ。	Everyone, have you got your\n{GUARDIAN} gear on? Normal gear\nwon't work against the {DEMON GOD}.	
+0x2837b	0x49d	ライド	おおうっ。\nここで、ちゃんとチェックしておこうぜ。	Whoa.\nLet's check it over now,\nright here.	
+0x286c1	0x17		ブレイス団長\n姫様が、お世話なりました。\nこれは、ワシが若い頃使っていた３剣７だ。もらってくれ。	Commander {BREI}\nThank you for aiding the princess.\nThis is a sword I used in my youth.\nTake it, please.	
+0x286c1	0x65		Ｍ　レイピアを受け取った。	Received the M Rapier.	
+0x286c1	0x87	ファーニス	これなら、私も使えるね。	This one, even I can use.	
+0x286c1	0xa9		ブレイス団長\n姫様は、たのもしいお仲間をお持ちですな。	Commander {BREI}\nThe princess keeps reliable\ncompany indeed.	
+0x286c1	0xd3		ブレイス団長\nウォーリック殿、ライド殿。\n戦が終ったら、セルーシュの聖騎士にならんか？	Commander {BREI}\n{WARRICK}, {RIDE}.\nWhen the war ends, will you become\npaladins of {SERUSH}?	
+0x286c1	0x109	パーシャ	いくら強い魔導師でも、接近戦に持ち込めば勝てるわ。\n気を抜いちゃダメよ。	No matter how strong a mage is,\nclose the distance and you can win.\nDon't let your guard down.	
+0x286c1	0x14e	パーシャ	大将さえ倒せば、忠義という概念の無い魔物達は敗走するわ。\n勝利は目前よ。	Fell the leader, and these monsters,\nwith no notion of loyalty, will flee.\nVictory is within reach.	
+0x286c1	0x199	ファーニス	・・・宝箱だよ。	...A treasure chest.	
+0x286c1	0x1b7	レイナ	コラ、ファーニス。\n勝手に開けちゃ、ダメよ。	Hey, {FURNIS}.\nDon't go opening it on your own.	
+0x286c1	0x1e1	ファーニス	おおっ！？\n宝箱に、手紙がはさまってるよ。\n読んでみようか？\nファーニス\n・・・なになに。\n『マージスの、優しいプレゼント』\nファーニス\n・・・何、コレ？	Whoa!?\nThere's a letter tucked in the chest.\nShall I read it?\p{FURNIS}\n...Let's see now.\n'A kind gift from {MARGIS}.'\p{FURNIS}\n...What is this?	
+0x286c1	0x26d		マージスのローブを手に入れた。	Obtained the {MARGIS} {ROBE}.	
+0x286c1	0x291	ファーニス	コレ・・・もしかして、マージスおじちゃんのローブ？\n何か、変なモノ想像しちゃうね。	This... could it be\nUncle {MARGIS}'s robe?\nMakes me imagine something weird.	
+0x286c1	0x2d4	レイナ	でも、凄い魔力を感じるわ。\nちっと抵抗感はあるけど、ありがたくいただきましょう。	But I feel great magic in it.\nIt's a bit off-putting, but let's\ngratefully take it.	
+0x286c1	0x318	ファーニス	マージスさんって、顔に似合わず優しいんだねぇ。	{MARGIS} is kinder than his\nface lets on, isn't he?	
+0x286c1	0x36f	ファーニス	シュリーカーがいる。\nあんまり近づくと、コロッと眠らされちゃうよ。	There's a shrieker.\nGet too close and it'll knock you\nright out cold.	
+0x286c1	0x3b0	ライド	大丈夫だ、ファーニス。\nよく似ているが、これはシュリーカーじゃない。\nライド\nこれは、ブバオタケって言うんだ。	It's fine, {FURNIS}.\nThey look alike, but this isn't\na shrieker.\n\p{RIDE}\nThis is called a bubao mushroom.	
+0x286c1	0x408	ファーニス	・・・ブバオタケ！？	...Bubaotake?!	
+0x286c1	0x42a	ライド	シュリーカーみたいに移動も出来るが、人畜無害。\nおとなしい奴だぜ。\nライド\nおまけに、落ちている物は何でも飲み込む。\nダンジョ	It can move like a shrieker, but\nit's totally harmless.\nA gentle thing.\n\p{RIDE}\nPlus, it swallows up anything\nlying around. A dungeo	
+0x286c1	0x48f		の掃除屋ってトコかな。	n cleaner, you could say.	
+0x286c1	0x4a5	ファーニス	じゃあこのブバオちゃんも、いっぱい飲み込んでるのぉ？	So this little bubao has swallowed\na whole lot too?	
+0x286c1	0x4d6	ライド	そうだな。\nちょっと切り裂いてみるかぁ。	That's right.\nLet's try cutting it open a bit.	
+0x286c1	0x4fd	ファーニス	ダメだよ、ライド。\nそんな事したら、かわいそうだよぉ。	Don't, {RIDE}.\nDoing that would be so cruel.	
+0x286c1	0x52a	ライド	大丈夫だって。\nこいつは生命力が高いから、そのぐらいじゃ死なないよ。\nほれ、切るぞ。	It'll be fine.\nIt's got loads of vitality, so\nthat won't kill it.\nHere goes, I'm cutting.	
+0x286c1	0x57b	ライド	おおっ！？\nこんな所にもいた。	Oho!?\nThere was one here too.	
+0x286c1	0x5a8		銅の魔導弾を手に入れた。	Received a copper magic bolt.	
+0x286c1	0x5d1		銀の魔導弾を手に入れた。	Got a silver magic bolt.	
+0x286c1	0x5fa		Ｍ　レイピアを手に入れた。	Got an M Rapier.	
+0x286c1	0x623	ライド	大収穫だったな。	A fine haul, that was.	
+0x286c1	0x640	ライド	ラッキー。\nまた、カモがいたぜ。	Lucky us.\nAnother sucker right here.	
+0x286c1	0x66f		薬草袋を手に入れた。	Got an {HERB POUCH}.	
+0x286c1	0x691		薬草袋を手に入れた。	Got an {HERB POUCH}.	
+0x286c1	0x6b3		金の魔導弾を手に入れた。	Got a gold magic bolt.	
+0x286c1	0x6da	ライド	まぁまぁの収穫だったな。	Not a bad haul at all.	
+0x286c1	0x6fa	ライド	こんな所にも、隠れていたのかぁ。	So one was hiding here too, huh.	
+0x286c1	0x725		薬草袋を手に入れた。	Got an {HERB POUCH}.	
+0x286c1	0x747		飴玉を手に入れた。	Got a candy drop.	
+0x286c1	0x76f		岩清水の斧を手に入れた。	Got the Rock Spring {AXE}.	
+0x286c1	0x79a	ライド	こんな物、よく飲み込んだなぁ。	Can't believe it swallowed this.	
+0x286c1	0x7bd	ファーニス	もう、スカスカだよ。	It's all hollow now.	
+0x28bcf	0x78	ライド	うおぉぉぉぉぉっ。\n何か、場違いな所に出て来ちまったって感じだなぁ。	Ride\nWhoaaaaa!\nFeels like we ended up somewhere\nwe really don't belong.	
+0x28bcf	0xb8	セス	こんなに凄い力を持っていても、魔神にはかなわなかったのね。	Even with power this great, he was\nno match for the {DEMON GOD}.	
+0x28d0b	0x14	ファーニス	こういう壁見てると、イタズラ書きしたくなるよねぇ。	Looking at a wall like this makes\nyou want to scribble on it.	
+0x28d0b	0x45	レイナ	壁だけ、ポッツリあるわねぇ。\nここにも、何か建築物があったのかしら？	Just a lone wall, standing there.\nI wonder if something was built\nhere too?	
+0x28d0b	0x88	ライド	こういう壁って、立ちショ	A wall like this makes you want\nto take a le	
+0x28d0b	0xa6		したくなるよなぁ。\nそうだろ、ウォーリック。	ak right here, doesn't it?\nRight, {WARRICK}?	
+0x28d0b	0xc8	ウォーリック	ああっ。\n敵が現れても対処出来る様に、壁を背にして立ちショ	Yeah. Backing up to a wall so you\ncan handle foes if they show up\nwhile you take a le	
+0x28d0b	0x101		するのは、冒険者の基本中の基本だからな。	ak is the most basic of basics\nfor an adventurer.	
+0x28e15	0x8		使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使えますが、１度使うと無くなります。	When used, restores a little health,\nfavoring the weakest ally first.\nWorks in the field and in battle,\nbut is consumed after one use.	
+0x28e15	0x5f		使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使えます。\n効果は薬草と同じですが、数回使う事が出来ます。	When used, restores a little health,\nfavoring the weakest ally first.\nWorks in the field and in battle.\nSame effect as the {HERB}, but it can\nbe used several times.	
+0x28e15	0xc7		薬草の効果を上げたアイテムです。\n使用すると１番体力の低い者を優先し、体力を大幅に回復してくれます。\nフィールド上と戦闘中に使えますが、１度使うと無くなります。	An item with a stronger {HERB} effect.\nWhen used, restores a lot of health,\nfavoring the weakest ally first.\nWorks in the field and in battle,\nbut is consumed after one use.	
+0x28e15	0x133		フィールド上で使用すると、移動速度が２倍になるアイテムです。\n一定時間を過ぎると効果が切れてしまい、無くなります。	Used in the field, this item doubles\nyour movement speed.\nAfter a time the effect wears off\nand it is consumed.	
+0x28e15	0x17f		戦闘中に使える防戦用アイテムです。使用すると、敵全員を後方にテレポートさせる事が出来ます。\n１度使うと無くなります。	A defensive item for battle. When\nused, it teleports all enemies back.\nIt is consumed after one use.	
+0x28e15	0x1cf		戦闘中に使える攻撃用アイテムです。使用すると、敵全員に少しダメージを与える事が出来ます。\n１度使うと無くなります。	An attack item for battle. When\nused, it deals slight damage to\nall enemies.\nIt is consumed after one use.	
+0x28e15	0x21e		戦闘中に使える攻撃用アイテムです。使用すると、敵全員にダメージを与える事が出来ます。\n１度使うと無くなります。	An attack item for battle. When\nused, it deals damage to all\nenemies.\nIt is consumed after one use.	
+0x28e15	0x26a		戦闘中に使える攻撃用アイテムです。使用すると、敵全員に大きなダメージを与える事が出来ます。\n１度使うと無くなります。	An attack item for battle. When\nused, it deals heavy damage to\nall enemies.\nIt is consumed after one use.	
+0x28e15	0x2bb		キレイな色をした、大粒の飴玉です。使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使え、数回使う事が出来ます。	A large, beautifully colored candy.\nWhen used, restores a little health,\nfavoring the weakest ally first.\nWorks in field and battle, several\ntimes.	
+0x28e15	0x326		ジーク王国の道具屋で売っています。ワイバーンの餌ですが、使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使え、数回使う事が出来ます。	Sold at the {ITEM SHOP} in {ZEKE}\nKINGDOM. It is {WYVERN} feed, but\nwhen used, restores a little health,\nfavoring the weakest ally first.\nWorks in field and battle, several\ntimes.	
+0x28e15	0x392		使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使え、１度使うと無くなります。	When used, restores a little health,\nfavoring the weakest ally first.\nWorks in the field and in battle,\nand is consumed after one use.	
+0x28e15	0x3e6		使用すると１番体力の低い者を優先し、体力を少し回復してくれます。\nフィールド上と戦闘中に使えます。効果はライフブースターと同じですが、数回使う事が出来ます。	When used, restores a little health,\nfavoring the weakest ally first.\nWorks in the field and in battle.\nSame effect as the Life Booster,\nbut it can be used several times.	
+0x28f9d	0x8		クラウスの村の村長からもらったアイテムです。\nフィールド上でセレクトボタ	An item given by the village chief of\n{KLAUS VILLAGE} . Press the select\nbutton	
+0x28f9d	0x2d		を押すと、付近の地形が映し出されます。\nただし、室内や洞窟内など狭い所では使用出来ません。	in the field to reveal the nearby\nterrain. It cannot be used in tight\nspaces like indoors or caves.	
+0x28f9d	0x6d		金色に輝く刃渡り１６センチのナイフです。\n儀式に使用する様に設計され、戦闘には使えません。	A golden knife with a 16cm blade.\nDesigned for ritual use, it is\nuseless in battle.	
+0x28f9d	0xaa		クラウスの村の村長　ローラが、ジーク王国の国王　ベイグに宛てた手紙です。	A letter from {LAURA}, chief of\n{KLAUS VILLAGE}, addressed to {VEIG},\nking of {ZEKE KINGDOM}.	
+0x28f9d	0xda		ライランドの宮廷魔術師　パーシャが、セルーシュ王国の魔法屋　ラミーカの宛てた手紙です。	A letter from {PASHA}, court mage of\n{RYLAND}, addressed to Lameeka, the\nmagic shopkeeper of {SERUSH KINGDOM}.	
+0x28f9d	0xfb		セルーシュ王国の魔法屋　ラミーカから受け取った、魔法陣解体用アイテムです。\n全長１２センチほどの縦長の球形をしており、絶えず光りを放っています。	A magic circle dismantling item from\nLameeka, the magic shopkeeper of\n{SERUSH KINGDOM}. A tall sphere about\n12cm long, it glows without ceasing.	
+0x28f9d	0x14b		元々、ジーク王国の国宝としてあった、肉体を分子レベルで破壊するアイテムです。\n全長３０センチほどの、透明感のある八面体をしています。	Once a national treasure of , it\ndestroys flesh at the\nmolecular level. A clear octahedron\nabout 30cm long.	
+0x28f9d	0x19e		ライランドの宮廷魔術師　パーシャからもらった、砂の城の鍵です。\n金で作られたペンダントに緑色の宝石がはめられています。	The key to the {SAND CASTLE}, given\nby {PASHA}, court mage of {RYLAND}.\nA gold pendant set with a green gem.	
+0x28f9d	0x1d9		弾導ポットの１機を起動させる鍵です。縦　１３センチ、横　６センチほどの、銅色をした金属製の板です。\n表面には、呪紋が彫られています。	A key that starts one of the\nballistic pods. A copper metal plate\nabout 13cm by 6cm, its surface\ncarved with runes.	
+0x28f9d	0x22f		紫水晶の丘の頂上に生えている、全長６０センチほどの紫水晶の単結晶です。\n魔力を吸収する能力があります。	A single amethyst crystal about 60cm\nlong, grown atop {AMETHYST HILL}.\nIt can absorb magic power.	
+0x28f9d	0x273		ドワーフ族の族長　クレイボーンからもらった、ドワーフの迷宮に通じる扉を開ける鍵です。	A key to the door leading into the\ndwarf labyrinth, given by\n{CLAYBOURNE}, chief of the dwarves.	
+0x28f9d	0x2a0		マージスからもらった、フローディーテの森に通じる扉を開ける鍵です。	A key to the door leading into\n{FRODITE FOREST}, given by {MARGIS}.	
+0x28f9d	0x2be		セスからもらった、鎧の塔の扉を開けるアイテムです。\n１０センチほどの金属製の板に、竜の紋章が浮き彫りになっています。	An item from {SETH} that opens the\ndoor to the {ARMOR TOWER}.\nA dragon crest is embossed on a\nmetal plate about 10 centimeters\nwide.	
+0x28f9d	0x300		鎧の塔から取って来た、魔力を帯びた金属　ミスリル銀で作られた鎧です。胸に竜の紋章があり、その中心に水晶球がはめ込まれています。	Armor brought back from the\n{ARMOR TOWER}, forged of {MYTHRIL},\na metal charged with magic. A dragon\ncrest marks the chest, a crystal\norb set at its center.	
+0x28f9d	0x354		鎧の塔から取って来た、魔力を帯びた金属　ミスリル銀で作られた盾です。中央に竜の紋章があり、その中心に水晶球がはめ込まれています。	A shield brought back from the\n{ARMOR TOWER}, forged of {MYTHRIL},\na metal charged with magic. A dragon\ncrest marks the center, a crystal\norb set within it.	
+0x28f9d	0x3aa		鎧の塔から取って来た、魔力を帯びた金属　ミスリル銀で作られたバスタード　ソードです。\n鍔の部分に、水晶球がはめ込まれています。	A bastard sword brought back from\nthe {ARMOR TOWER}, forged of\n{MYTHRIL}, a metal charged with\nmagic.\nA crystal orb is set into the guard.	
+0x28f9d	0x3fd		魔力を帯びた金属　ミスリル銀で作られた大きな鍋です。	A large pot forged of {MYTHRIL}, a\nmetal charged with magic.	
+0x28f9d	0x424		ダークエルフ特戦隊が入っていた宝箱の中から見つけた、マージスの大迷宮に通じる扉を開ける鍵です。	A key found in the chest the strike\nteam carried.\nIt opens the door to the great\nlabyrinth of {MARGIS}.	
+0x28f9d	0x45c		弾導ポットの１機を起動させる鍵です。縦　１３センチ、横　６センチほどの、銀色をした金属製の板です。\n表面には、呪紋が彫られています。	A key that activates one of the\nshell-launch pods. A silver metal\nplate, about 13 centimeters tall\nand 6 wide.\nRunes are carved on its surface.	
+0x28f9d	0x4b2		全ての弾導ポットを起動させる鍵です。縦　１３センチ、横　６センチほどの、金色をした金属製の板です。\n表面には、呪紋が彫られています。	A key that activates all of the\nshell-launch pods. A gold metal\nplate, about 13 centimeters tall\nand 6 wide.\nRunes are carved on its surface.	
+0x28f9d	0x508		水分を吸収する魔導具です。\n砂が固まって、直径３センチほどの球形をしており、その回りに白い線状の結晶が浮かび上がっています。	A magic tool that absorbs moisture.\nHardened sand in a sphere about 3\ncentimeters across, with thin white\nlines of crystal rising over its\nsurface.	
+0x389a4	0x1029		びひのねねぱぷみゃみぴににはびふふぴぱのはぶむやみへひのねど		
+0x389a4	0x1b42	ウォーリック	とねふみょゆむべへぺぼまぽへばど		
+0x3a7f2	0x107		どぬどので		
+0x3a7f2	0x7e7		どぬぬにはなとと		
+0x3bf15	0x96b		・やぴまゆ⟨18⟩、ぱみ		
+0x3bf15	0x9e3		ま。、よなまぽ。、や		
+0x3bf15	0xa85		よと、、も		
+0x3bf15	0xc52		ぴへどやなぺぬ⟨14⟩。ばぼ		
+0x3bf15	0x1245		はにはばはでなでとばと\nなはぬばのね　　どど白竜ね		
+0x3bf15	0x128d		のねねははとファーニスなでとはに\nとばにはのの		
+0x3bf15	0x12b9		とばにのののでレイナなととのぬ		
+0x3bf15	0x12c8		とはにのののでレイナどとでのぬ		
+0x3bf15	0x12f2		ぬのとでにのにはねねで\n\nなと		
+0x3d206	0x5c3		ねなねねにばぬのにど　どで　どねなぬのにはぬぬぬな\n\nと　どぬなぬのなはねなはな		
+0x3ea84	0x7b8		ねふばまで		
+0x3ea84	0xa72	ブラフォード	セスでダークエルフむぽもゅるややカアれべふぷぼぼへぷのへひと		
+0x3ea84	0xe68		ぶまでとねぬぬへほべべぱとななばよゅぴ\nどどどどぬゆゆゃぶで		
+0x3ea84	0x12db	ウォーリック	どぬどミノタウロスとウォーリック		
+0x3ea84	0x1324	レイナ	ひぴぬなにになレイナどは		
+0x3ea84	0x1451	レイナ	暗黒魔術ににぱねなにねななになのひぱにどなのぷぷばはばどとどどどどどにぴなとど		
+0x3ea84	0x148d	ウォーリック	ななウォーリックとにぬに\n\nでで		
+0x3ea84	0x15a0		レイナとででと\n\n\nのねねののででの\n暗黒魔術のねなウォーリック		
+0x3ea84	0x15f2		ぬのので\nでので		
+0x3ea84	0x1600		にのねのねどとにはぬなのぬねねなななねなにぬなねねななにぬねなにぬどななぬのはにどどでミノタウロスばぬ金竜はの\nぬなウォーリック\nねどパンツァードラグーンはぬウォーリックのはのののの		
+0x3ea84	0x17a3		どととなとでにどにはののにでねでののなとぱひばとどぱなはにのばととばぱばばなでとなぬなとでととなぬなでとぬとでと\nウォーリックとレイナと\n暗黒魔術ででどどな		
+0x3fe0c	0xc8b	レイナ	どばふへへぷふひねなととなねひふふふぴぴぴひばのねのばぱのな		
+0x40ba0	0x568	ダ　ン	とぴのびの		
+0x40ba0	0x5ff		ぬでねでのでね		
+0x43e6a	0x623		へょぽむぱ？◇、ほででにぷ┴		
+0x43e6a	0x1234		ぱまやぼと⟨1a⟩。\nぼゃみ		
+0x43e6a	0x1a76		どのでで　どびぬば		
+0x43e6a	0x1aac		とぱねのでどばなウォーリック		
+0x43e6a	0x1b43		金竜などぬねばな　と炎竜なにににぬに　\n　ばにはぬなねに		
+0x43e6a	0x1ce1		なにのでばぬぬになにファーニスでははななにでど水晶の角にはどどととどでばにはパンツァードラグーン		
+0x47e57	0x74e	ファーニス	でどなねねねははぬぬぬななどとで		
+0x49b71	0x816		ふみど。		
+0x49b71	0xd59	セス	ぬはばぱひぴへべでぴぴぬぶぱふひねど		
+0x49b71	0xf24		ぶ　ぱぶふには		
+0x49b71	0x104d	炎竜	ねぱなねば		
+0x49b71	0x10b1		びとでばひばで黒竜のでとばでどのばは\nねで　とのでに黒竜ウォーリックでび\nねひね緑竜ねとば		
+0x49b71	0x10ea	ミノタウロス	レイナばレイナひ緑竜は黒竜どぬでばはでねはぬ\nのファーニスにぬ　なと金竜ウォーリックにぬレイナどびととばぱぬ\nにひにどはにでばのななはの　のウォーリックは　とでぬ\n\n\nぱどレイナ\nはば\nなばばにミノタウロスひぬねどははでねはとどと金竜暗黒魔術		
+0x49b71	0x11a7		レイナには		
+0x49b71	0x11ac		とぱどとののでとぱぬば		
+0x49b71	0x11b9		のはね銀竜のでとぬ\nとねで白竜		
+0x49b71	0x11cb		なばで\nとばぬでぬのでぬばねば\nははぬ金竜ので		
+0x4ade2	0x7a9		なとぬにぱパンツァードラグーン銀竜ねのでで\nぬとばとぬ\nで\nののばパンツァードラグーン銀竜とのなの		
+0x4ade2	0x85a		どででぬののでぬ		
+0x4ade2	0x889		にでのねのでどととにねのでに		
+0x4ade2	0x899		にぬねなね\nとどとのねのでにで		
+0x4cd6e	0x118		び　のでのなのなにでぬ		
+0x4cf4f	0x559		ほ、とよ！		
+0x4cf4f	0x83c		のぴなには炎竜		
+0x4cf4f	0x914		のなば。ど		
+0x4cf4f	0x927		ぷびぷぱ看護兵ぬまへ？		
+0x4cf4f	0xd0f		はパンツァードラグーンのど\nひとでのででぱとどぱに緑竜\nとば		
+0x4cf4f	0xd77		のでどばででね\nねのば\nとぬ		
+0x4cf4f	0x1117		のでねでななにに		
+0x4cf4f	0x1151		どねとぬ\nのでの		
+0x4cf4f	0x118e		ね\nとのでね\nねでねでにとにのでね		
+0x4cf4f	0x11e9		などねでね\nのでねでなねでのでにとににどにとねどになとぬとの		
+0x51cd5	0x1d31		ねぴにひははとにはの		
+0x57903	0x3ce		となと\n\nでどのぬななぬはばどでとにねね暗黒魔術なとでとにねはねなぬばひぱのにでなにど\n　とぬにとファーニスひびひのなにはのな		
+0x57903	0x1027		ふぽゑはぬ\nびぶ。と		
+0x57903	0x1705		ぼへひびま？ま		
+0x57903	0x1857		ゃねびべ。にどは		
+0x57903	0x192d		にゎれぬゃ！		
+0x57903	0x1d55		よばゃ◇。でりへや		
+0x57903	0x2197		のとや、		
+0x57903	0x2617		下さい。んと⟨17⟩⟨14⟩ぶよれ氷の洞窟ーアほ		
+0x5bf88	0x135		にねでのでにぬなねでぬなのぬなにとでのでねでにどどぬ		
+0x764ea	0x1c9		ぬとにねはので		
+0x764ea	0xce9	ウォーリック	ウォーリックウォーリック\n\n\n\n\n\n\n\n\nレイナレイナで　な		
+0x764ea	0x1341		に？とむ。ばどほはと		
+0x764ea	0x15ed		ろぬぼふぺめぺ、		
+0x764ea	0x1615		なな⟨14⟩ゐゃゅゎもゐゆ黒竜ぬ◇？・└⟨1a⟩		
+0x764ea	0x1a63		ゅぺわィェれまもみなぬは？き		
+0x764ea	0x1f8a	レイナ	ウォーリックとなにぬねののねねぬになと		
+0x77e76	0xccf	パンツァードラグーン	なとなににはどに		
+0x79aff	0x312		ぬ　はぬひ、り⟨1f⟩ぷ？		
+0x79aff	0x9ed		とひとねぴ◇ほ？		
+0x79aff	0x9fa		ふにぬふ？の・		
+0x79aff	0xb62		ぴ⟨17⟩　と。		
+0x79aff	0xe5f		と、はど		
+0x79aff	0x1156	ウォーリック	ライド　暗黒魔術とで		
+0x7b163	0x5b7		にに、ゅ		
+0x7b163	0x69c		よ？・め、はな		
+0x7b163	0x7e5		ぶ　やむめのふね！		
+0x7b163	0x935		みー⟨14⟩な。　なでなぴ		
+0x7b163	0xdc3	レイナ	でとどで		
+0x7b163	0xdd5	レイナ	ででととで		
+0x7b163	0xe32	ウォーリック	ででとでで		
+0x7b163	0xe52	ウォーリック	でとととで		
+0x7e27a	0x5b5	ファーニス	ででどな		
+0x7f076	0x644	レイナ	ウォーリック\nででとで		
+0x7f076	0x1be7		ぺほぬ⟨1b⟩⟨1a⟩とよゎ、´にでど潜砂艦ぺ		
+0x8124a	0xe28	ファーニス	ウォーリック\nレイナ\nウォーリックウォーリック\n\n\n\nウォーリック\n\n\n\n\n\n\n\nパンツァードラグーン\nで\nで		
+0x8124a	0x1167	レイナ	でにねねぬな		
+0x82bcf	0x2a4	ライド	レイナウォーリック\nで\n\nとで		
+0x82bcf	0x2c0	ファーニス	ライトニング　ボルトでで		
+0x82bcf	0x524		とのででダークエルフど		
+0x83260	0x178		とどにはばぬレイナ		
+0x8398e	0xab1	ファーニス	でで\nレイナレイナ		
+0x84493	0x1b7		べ！水晶の角⟨1a⟩\nの		
+0x84493	0x606		ひは、ば		
+0x84493	0xc7d		ょ◇　と。　の		
+0x84493	0xe25		でで？なとな		
+0x84493	0x14b6		と、？\nまぬななひ		
+0x84493	0x14e6		でァる⟨17⟩？		
+0x84493	0x1646		紫水晶るぶ⟨14⟩◇？		
+0x84493	0x2346		ふ⟨14⟩ぱ！ぼに		
+0x84493	0x2354		ア、。ふ⟨17⟩の。ぼぬ		
+0x84493	0x28dd		でぬまぴポップ、		
+0x86be2	0x19d		ライトニング　ボルトねねどのはねねにはの\nでぬと		
+0x86be2	0x288		でぶぬ、		
+0x86be2	0x167c		にはぱのびぴふのど		
+0x86be2	0x2251	レイナ	レイナパンツァードラグーンどぬぬにとととにねばぱはにと\nレイナ		
+0x86be2	0x2593	ファーニス	ででなで\n\n　パンツァードラグーン		
+0x86be2	0x2904		砂鯨、⟨1b⟩\nとれ		
+0x86be2	0x2c31	パンツァードラグーン	となどどにぬどどなど		
+0x8c4b0	0x85f	レイナ	どととなで		
+0x8c4b0	0xb7e	レイナ	ぬはぬでパンツァードラグーン		
+0x8c4b0	0xbf6	レイナ	で\n\n\n\nファーニス\nでとで		
+0x8c4b0	0x1231		ゐをの。		
+0x8c4b0	0x1557	レイナ	でどどで		
+0x8c4b0	0x1adc		とねので		
+0x8de04	0x83		どふよりろゐへーぇ規、		
+0x8eb48	0xc6c		ねぱぱ？		
+0x9072d	0x552		とら。⟨14⟩		
+0x9072d	0xb9e		拭ぴょら聖騎士、		
+0x9072d	0x179e		ぴにば　にどドラゴン　ライダー、⟨14⟩まよゅ		
+0x9072d	0x194c	ウォーリック	ファーニスででどどと		
+0x920a6	0xf88	レイナ	ででとで		
+0x920a6	0x106a	レイナ	ファーニスレイナどとと		
+0x920a6	0x147c		ゆぶに。		
+0x920a6	0x149e		ぬパンツァードラグーンびゑぷ⟨17⟩少でをへで？		
+0x920a6	0x19d9	レイナ	ファーニス　レイナでで		
+0x93f2c	0xd2a		金竜砂鯨めぱや？		
+0x93f2c	0x124c	レイナ	ブラフォード　暗黒魔術とで\nファーニス		
+0x93f2c	0x1b99		帳ひイぱ？⟨14⟩		
+0x93f2c	0x1bb4		ぶクろ⟨14⟩い・ぺんコ、箱		
+0x960b1	0x6e3	ウォーリック	パンツァードラグーンでで		
+0x960b1	0xc36		はば\n、ばに		
+0x960b1	0x111e	レイナ	パンツァードラグーンでで		
+0x960b1	0x1166	ウォーリック	でででで\nレイナウォーリック\nでととでで		
+0x960b1	0x1203	レイナ	でとどどで		
+0x970f0	0xb31		ますかぶ		
+0x970f0	0x11b3	パンツァードラグーン	ブラフォード\nどぬと		
+0x99723	0x77d	ウォーリック	レイナ\n\nファーニス\nで\nレイナレイナレイナ\n\n\n\n\nで		
+0x99723	0xb5f	ウォーリック	ダークエルフぬと\nダークエルフどで　\nで		
+0x99723	0xe24	ウォーリック	パンツァードラグーンとと		
+0x99723	0x1828		と。とィへと		
+0x99723	0x1a37		ほ⟨18⟩◇。\n⟨14⟩ゆ		
+0x9b41e	0xb8	レイナ	でとででとで\n\nレイナ		
+0x9b41e	0x815	ウォーリック	でとで\n　ウォーリック\nでとで		
+0x9b41e	0x1844		ぺアみ。巧		
+0x9b41e	0x1aaa	レイナ	でででファーニスレイナでとで		
+0x9b41e	0x1f23		ひ\nな。ど、		
+0x9cd49	0x10b		に暗黒魔術、ば		
+0x9cd49	0x1e5		もわひ、！モビーディックふひひ		
+0x9cd49	0x2e2		ぴゴり！		
+0x9cd49	0x372		ェジでと？５ーオゾな⟨14⟩墾⟨1b⟩イシに		
+0x9cd49	0x414		・お店を出よう。ェぺ⟨18⟩什　ガカる		
+0x9cd49	0xfa3		とめァほぶび？⟨18⟩え、ぴばれゥ		
+0x9dbd1	0x391		ぱめぬ⟨1a⟩、		
+0x9dbd1	0xa8c		でびでねに。		
+0x9dbd1	0xa9b		ひにとば、		
+0x9dbd1	0x146a		ゅゅな⟨17⟩。		
+0x9dbd1	0x1659		コキひ、開、エコぬ		
+0x9dbd1	0x1943	ウォーリック	ででとで		
+0x9dbd1	0x2340		にみ⟨1b⟩ぶ！		
+0x9dbd1	0x2501	パンツァードラグーン	ウォーリック\nでで		

@@ -49,11 +49,12 @@ def main():
     existing = {}
     if OUT.exists():
         for c in tsv.rows(OUT):
-            if len(c) >= 5 and c[4].strip():
-                existing[c[1]] = c[4]
+            st = c[5] if len(c) >= 6 else ""
+            if len(c) >= 5 and (c[4].strip() or st.strip()):
+                existing[c[1]] = (c[4], st)
     n = 0
     with open(OUT, "w", encoding="utf-8", newline="\n") as f:
-        f.write("block_off\tstr_off\tspeaker\ttext\tenglish\n")
+        f.write("block_off\tstr_off\tspeaker\ttext\tenglish\tstatus\n")
         for idx, r in enumerate(recs):
             if not r:
                 continue
@@ -61,7 +62,8 @@ def main():
             if not CJK(text):                # tokens-only / binary -> not translatable
                 continue
             so = f"{idx:#x}"
-            f.write(f"STAGE\t{so}\t\t{text}\t{existing.get(so, '')}\n")
+            eng, st = existing.get(so, ("", ""))
+            f.write(f"STAGE\t{so}\t\t{text}\t{eng}\t{st}\n")
             n += 1
     print(f"STAGE: {n} place records -> {OUT.name}  (member decomp {len(dec)}B / 2048 cap)")
 

@@ -58,11 +58,12 @@ def main():
         existing = {}
         if path.exists():
             for c in tsv.rows(path):
-                if len(c) >= 5 and c[4].strip():
-                    existing[(c[0], c[1])] = c[4]
+                st = c[5] if len(c) >= 6 else ""
+                if len(c) >= 5 and (c[4].strip() or st.strip()):
+                    existing[(c[0], c[1])] = (c[4], st)
         n = 0
         with open(path, "w", encoding="utf-8", newline="\n") as f:
-            f.write("block_off\tstr_off\tspeaker\ttext\tenglish\n")
+            f.write("block_off\tstr_off\tspeaker\ttext\tenglish\tstatus\n")
             for off, r in records(data):
                 if off == 0:
                     # the first record is the 8-byte file magic + the first real
@@ -71,8 +72,8 @@ def main():
                 if not translatable(off, r):
                     continue
                 bo, so = fname, f"{off:#x}"
-                eng = existing.get((bo, so), "")
-                f.write(f"{bo}\t{so}\t\t{decode_markup(r)}\t{eng}\n")
+                eng, st = existing.get((bo, so), ("", ""))
+                f.write(f"{bo}\t{so}\t\t{decode_markup(r)}\t{eng}\t{st}\n")
                 n += 1
         print(f"{fname:12s} {n:4d} records -> {path.name}")
 

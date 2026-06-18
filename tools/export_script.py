@@ -43,19 +43,20 @@ def main():
                     rows.append((pos, off, speaker or "", text))
         if rows:
             path = OUT / (name.replace(".", "_") + ".tsv")
-            # preserve translator work: carry the `english` column across re-exports
+            # preserve translator work: carry english + review status across re-exports
             existing = {}
             if path.exists():
                 for line in path.read_text(encoding="utf-8").splitlines()[1:]:
                     cols = line.split("\t")
-                    if len(cols) >= 5 and cols[4].strip():
-                        existing[(cols[0], cols[1])] = cols[4]
+                    st = cols[5] if len(cols) >= 6 else ""
+                    if len(cols) >= 5 and (cols[4].strip() or st.strip()):
+                        existing[(cols[0], cols[1])] = (cols[4], st)
             with open(path, "w", encoding="utf-8", newline="\n") as f:
-                f.write("block_off\tstr_off\tspeaker\ttext\tenglish\n")
+                f.write("block_off\tstr_off\tspeaker\ttext\tenglish\tstatus\n")
                 for pos, off, spk, text in rows:
-                    eng = existing.get((f"{pos:#x}", f"{off:#x}"), "")
+                    eng, st = existing.get((f"{pos:#x}", f"{off:#x}"), ("", ""))
                     f.write(f"{pos:#x}\t{off:#x}\t{spk}\t"
-                            + text.replace("\n", "\\n") + f"\t{eng}\n")
+                            + text.replace("\n", "\\n") + f"\t{eng}\t{st}\n")
             print(f"{name:14s} {len(rows):5d} strings -> {path.name}")
             grand += len(rows)
         else:

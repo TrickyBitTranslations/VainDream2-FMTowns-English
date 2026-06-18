@@ -38,7 +38,15 @@ h1 span { font-size: 13px; color: var(--gold); margin-left: 10px; letter-spacing
 }
 .progress > div { height: 100%; background: linear-gradient(90deg, var(--gold-dim), var(--gold)); }
 .progress.sm { height: 8px; }
-#overall-text { font-size: 13px; color: #f3e9d8; white-space: nowrap; }
+.progress.human > div { background: linear-gradient(90deg, #2e7d32, #66bb6a); }
+#overall-text, #human-text { font-size: 13px; color: #f3e9d8; white-space: nowrap; min-width: 230px; }
+#human-text { color: #aee0b0; }
+/* per-line review status: human = green tab, ignore = grey */
+tr.st-human td.sp { box-shadow: inset 3px 0 0 #66bb6a; }
+tr.st-ignore td.sp { box-shadow: inset 3px 0 0 #777; }
+.review { font-size: 11px; padding: 1px 6px; border-radius: 8px; margin-right: 6px; vertical-align: middle; }
+.review.human { background: #2e7d32; color: #fff; }
+.review.ignore { background: #555; color: #ccc; }
 
 nav {
   display: flex; gap: 4px; padding: 10px 24px 0;
