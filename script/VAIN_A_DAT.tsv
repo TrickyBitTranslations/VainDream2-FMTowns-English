@@ -123,7 +123,7 @@ block_off	str_off	speaker	text	english	status
 0x5edb9	0x5a5		女剣士　シェリー\nウォーリック、旅に出るんだって？\nいいなぁぁぁっ。	{Swordmaiden} Sherry\nOff on a journey, {Warrick}?\nSo jealous!	
 0x5edb9	0x5c9		女剣士　シェリー\nブージの奴、ダ　ンを連れて旅に出ちまったんだよ。\n・・・・・私をおいてさっ・・・。	{Swordmaiden} Sherry\nThat {Booj} fella ran off with {Dan}.\n.....Left me behind...	human
 0x5edb9	0x61a	ブージ	この氷の結晶は何だッ！？\n今までこんな現象、見たことないぞ。	What's this ice crystal?!\nNever seen anything like it.	
-0x5edb9	0x65b	ウォーリック	なんかヤバイ予感がする。\n早く奥へ行こう。	Bad feeling about this.\nLet's hurry deeper.	
+0x5edb9	0x65b	ウォーリック	なんかヤバイ予感がする。\n早く奥へ行こう。	I've got a bad feeling about this.\nLet's get to the bottom quick.	human
 0x5edb9	0x694	レイナ	今日はそろそろ休みましょうか？	Call it a day?	
 0x5edb9	0x6b3		・疲れたからもう寝る。\n・まだ眠くない。	・I'm tired. Time to sleep.\n・Not sleepy yet.	
 0x5edb9	0x6e9	ウォーリック	おやすみなさぁぁぁい。	Goood night.	
