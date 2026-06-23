@@ -119,7 +119,7 @@ block_off	str_off	speaker	text	english	status
 0x5edb9	0x4f7		旅に出るんだってな、ウォーリック。\n気をつけろよ。	Heading out, then, {Warrick}?\nTake care.	
 0x5edb9	0x515		ラウニー\n旅に行くなら、お土産は何でもいいよ。	Rowney\nIf you're traveling, any\nsouvenir will do.	
 0x5edb9	0x53c		女剣士　シェリー\nあっ、ブージ！！\nなぁぁんだ、帰って来ちゃったのかっ。\n私ゃ、てっきりデーモンに食われたんだと思ってたよ。	{Swordmaiden} Sherry\nOh, {Booj}!!\nSo you came back after all.\nI was sure a {Demon} had eaten you.	
-0x5edb9	0x58f	ブージ	デーモンは人間を食わんよ。	{Demon}s eat humans.	
+0x5edb9	0x58f	ブージ	デーモンは人間を食わんよ。	{Demon}s don't eat humans.	human
 0x5edb9	0x5a5		女剣士　シェリー\nウォーリック、旅に出るんだって？\nいいなぁぁぁっ。	{Swordmaiden} Sherry\nOff on a journey, {Warrick}?\nSo jealous!	
 0x5edb9	0x5c9		女剣士　シェリー\nブージの奴、ダ　ンを連れて旅に出ちまったんだよ。\n・・・・・私をおいてさっ・・・。	{Swordmaiden} Sherry\nThat {Booj} fella ran off with {Dan}.\n.....Left me behind...	human
 0x5edb9	0x61a	ブージ	この氷の結晶は何だッ！？\n今までこんな現象、見たことないぞ。	What's this ice crystal?!\nNever seen anything like it.	
