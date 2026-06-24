@@ -112,7 +112,7 @@ block_off	str_off	speaker	text	english	status
 0x5edb9	0x3c6		どこ行くんだい、ウォーリック？\nあんまフラフラしてるとレイナに言いつけるぞ。	Where to, {Warrick}?\nKeep loafing about and I'll\ntell {Reina} on you.	
 0x5edb9	0x3fa		えっ、大婆様の許しがあるって。\nなら通ってもいいぜ。	Oh? {Granny} gave the OK?\nThen go on through.	
 0x5edb9	0x421		あっ、ウォーリック。\n大婆様が呼んでたぜ。	Ah, {Warrick}.\n{Granny} was asking for you.	
-0x5edb9	0x43f	ダ　ン	ねえ、ウォーリック。\nフロスト様だったら、ランバートお兄ちゃんの事何か知ってるかな。	Hey, {Warrick}.\nI wonder if Mr. Frost knows\nanything about {Lambert}.	
+0x5edb9	0x43f	ダ　ン	ねえ、ウォーリック。\nフロスト様だったら、ランバートお兄ちゃんの事何か知ってるかな。	Hey, {Warrick}.\nI wonder if Lord Frost knows\nanything about {Lambert}.	human
 0x5edb9	0x469	ダ　ン	そう言えば今朝早く北の方から、凄い音がしたんだ。\n夢だったのかな。	Speaking of which, there was a\nloud noise coming from the north\nearly this morning.\nI wonder if it was a dream.	
 0x5edb9	0x49f		ウォーリック、いいなぁ。\n俺も旅に行きたいぜ。\nハンターとしての腕がにぶっちまう。	Lucky you, {Warrick}.\nI'd love to travel too.\nMy {Hunter}'s edge is going dull.	
 0x5edb9	0x4ce		ピート\n気をつけろよ、ウォーリック。\nまぁ、レイナがいるから安心だな。	Pete\nTake care out there, {Warrick}.\nWith {Reina} along, I'm not worried.	
