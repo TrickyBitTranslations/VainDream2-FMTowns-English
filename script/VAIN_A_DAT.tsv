@@ -128,7 +128,7 @@ block_off	str_off	speaker	text	english	status
 0x5edb9	0x6b3		・疲れたからもう寝る。\n・まだ眠くない。	・I'm tired. Time to sleep.\n・Not sleepy yet.	
 0x5edb9	0x6e9	ウォーリック	おやすみなさぁぁぁい。	Goood night.	
 0x5edb9	0x703	ウォーリック	ふとんの中が一番幸せ。	Nothing beats a warm bed.	
-0x5f33e	0x2b	大婆様	ダ　ンの兄ランバートが狩りに出たきり行方不明になり、もう１年がたとうとしている。\nあの男が旅先で死ぬとは思えん。	It's been nearly a year since\n{Dan}'s brother {Lambert} went\nhunting and vanished.\nI can't believe he died out there.	
+0x5f33e	0x2b	大婆様	ダ　ンの兄ランバートが狩りに出たきり行方不明になり、もう１年がたとうとしている。\nあの男が旅先で死ぬとは思えん。	It's been nearly a year since\n{Dan}'s brother {Lambert} went\nhunting and vanished.\nHe's not dead... I know it.	human
 0x5f33e	0x7f	大婆様	んっ、ウォーリック、\n肩でも、もんでくれるのかの？	Oh, {Warrick}.\nCome to rub my shoulders?	
 0x5f33e	0xa6	大婆様	ブージ、ウォーリック、無茶はするでないぞ。	{Booj}, {Warrick}, don't do\nanything reckless.	
 0x5f33e	0xcf	大婆様	おおっ、ブージか。\n・・・よく帰ったな。\nでっ、旅の方はどうじゃった？	Ah, {Booj}.\n...Welcome home.\nSo, how was the journey?	
