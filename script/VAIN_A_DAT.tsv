@@ -154,7 +154,7 @@ block_off	str_off	speaker	text	english	status
 0x5f33e	0x608	大婆様	ウォーリック。\n旅の支度はまだできんのか？	{Warrick}.\nNot done packing yet?	
 0x5f33e	0x636	大婆様	旅の準備はできた様じゃな。\nお前達にこれを預けよう。	Looks like you're ready.\nLet me entrust this to you.	
 0x5f33e	0x66f	レイナ	・・・これは、遠見の水晶。	...This is the Scrying Crystal.	
-0x5f33e	0x689	大婆様	レイナ、お前なら使いこなせるじゃろう。\n持って行くがいい。	{Reina}, you can master it.\nTake it with you.	
+0x5f33e	0x689	大婆様	レイナ、お前なら使いこなせるじゃろう。\n持って行くがいい。	{Reina}, you can use this.\nTake it with you.	human
 0x5f33e	0x6ca		遠見の水晶を手に入れた。	You obtained the Scrying Crystal.	
 0x5f33e	0x6eb	大婆様	それとウォーリック。\nこの手紙をジーク王国のベイグ王の所へ持って行くのじゃ。\n力になってくれるじゃろう。	And {Warrick}.\nCarry this letter to King Veig\nof the Zeke Kingdom.\nHe will lend you aid.	
 0x5f33e	0x73e		ローラの手紙を手に入れた。	You obtained Lola's letter.	
