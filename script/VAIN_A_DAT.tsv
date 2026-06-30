@@ -137,7 +137,7 @@ block_off	str_off	speaker	text	english	status
 0x5f33e	0x203	ブージ	・・・それで大婆様。\n実は１時間ほど前に北の方角に、デーモンらしき影が、多数飛んで行くのを見かけました。	...And {Granny}.\nAn hour ago I saw a swarm of\n{Demon}-like shapes fly north.	
 0x5f33e	0x259	大婆様	北・・・氷の洞窟。\n神官竜のフロスト様の所か！？	North... the Ice Cavern.\nLord Frost, the {Priest Dragon}?!	
 0x5f33e	0x28d	ブージ	いえっ、はっきりとは。\nただ、あれがグレーター　デーモンだとしても神官竜を倒せる力はありません。\nブージ\n念のため様子を見に行きたいのですが。	No, nothing certain.\nBut even a Greater {Demon}\ncouldn't fell a {Priest Dragon}.\p{Booj}\nStill, I'd like to go check.	
-0x5f33e	0x2ee	大婆様	・・・うむっ、許可しよう。\nだだし無理はするでないぞ。\n大婆様\nカパイ	...Mm, permission granted.\nBut don't push your luck.\p{Granny}\nTell the Kapai\n	
+0x5f33e	0x2ee	大婆様	・・・うむっ、許可しよう。\nだだし無理はするでないぞ。\n大婆様\nカパイ	...Mm, permission granted.\nBut be careful out there.\p{Granny}\nTell the Kapai\n	human
 0x5f33e	0x32e		達には、ワシの使いで行くと言うのじゃ。\n通してくれるじゃろう。	you go on my errand.\nThey'll let you pass.	
 0x5f33e	0x37b	大婆様	おおっ、ブージ、ウォーリック。\n帰って来たか。\n氷の洞窟の様子はどうじゃった。	Ah, {Booj}, {Warrick}.\nBack already?\nHow fared the Ice Cavern?	
 0x5f33e	0x3b7	ブージ	大婆様・・・。	{GRANNY}...	
